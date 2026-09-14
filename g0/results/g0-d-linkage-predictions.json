@@ -1,0 +1,4284 @@
+{
+ "manifest": "linkage-holdout.json",
+ "manifest_sha256": "e0f711bfa1de3c109c98d4ae4af35496aae17df2d11622b867fa57bb27bd1139",
+ "note": "DEV METRICS != G0 VERDICT; thresholds de holdout intactos",
+ "metrics": {
+  "n": 300,
+  "accuracy": 0.8833333333333333,
+  "tp": 199,
+  "fp": 0,
+  "fn": 25,
+  "precision": 1.0,
+  "recall": 0.8883928571428571,
+  "ambiguous_predicted": 38,
+  "ambiguous_gold": 7,
+  "forced_ambiguous": 0
+ },
+ "per_stratum": {
+  "S10_multi_venue|ok": 15,
+  "S11_ambiguous_ground_truth|ok": 5,
+  "S1_final_terms_to_programme|ok": 98,
+  "S2_supplement_to_prospectus|ok": 50,
+  "S3_correction_to_document|ok": 10,
+  "S4_programme_succession|fail": 25,
+  "S5_admission_to_security|ok": 35,
+  "S6_same_issuer_wrong_programme|ok": 15,
+  "S7_same_programme_different_role|fail": 8,
+  "S8_similar_title_diff_issuer|ok": 15,
+  "S9_no_link_insufficient|fail": 2,
+  "S9_no_link_insufficient|ok": 22
+ },
+ "cases": [
+  {
+   "case_key": "S1-001",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11286_003 enlaza explicitamente NUMFOL=11286",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-002",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11351_002 enlaza explicitamente NUMFOL=11351"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-003",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11341_001 enlaza explicitamente NUMFOL=11341",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-004",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11309_003 enlaza explicitamente NUMFOL=11309",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-005",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11290_001 enlaza explicitamente NUMFOL=11290",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-006",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11307_013 enlaza explicitamente NUMFOL=11307",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-007",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11307_003 enlaza explicitamente NUMFOL=11307",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-008",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11357_015 enlaza explicitamente NUMFOL=11357",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-009",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11340_016 enlaza explicitamente NUMFOL=11340"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-010",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11403_001 enlaza explicitamente NUMFOL=11403"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-011",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11281_001 enlaza explicitamente NUMFOL=11281",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-012",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11307_033 enlaza explicitamente NUMFOL=11307",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-013",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11380_017 enlaza explicitamente NUMFOL=11380",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-014",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11290_004 enlaza explicitamente NUMFOL=11290",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-015",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11382_002 enlaza explicitamente NUMFOL=11382",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-016",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11341_005 enlaza explicitamente NUMFOL=11341",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-017",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11380_025 enlaza explicitamente NUMFOL=11380",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-018",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11286_007 enlaza explicitamente NUMFOL=11286",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-019",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11404_001 enlaza explicitamente NUMFOL=11404",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-020",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11290_018 enlaza explicitamente NUMFOL=11290",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-021",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11380_021 enlaza explicitamente NUMFOL=11380",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-022",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11359_003 enlaza explicitamente NUMFOL=11359",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-023",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11290_013 enlaza explicitamente NUMFOL=11290",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-024",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11351_001 enlaza explicitamente NUMFOL=11351"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-025",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11286_013 enlaza explicitamente NUMFOL=11286",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-026",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11380_028 enlaza explicitamente NUMFOL=11380",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-027",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11380_032 enlaza explicitamente NUMFOL=11380",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-028",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11307_022 enlaza explicitamente NUMFOL=11307",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-029",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11288_001 enlaza explicitamente NUMFOL=11288",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-030",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11380_034 enlaza explicitamente NUMFOL=11380",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-031",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11340_011 enlaza explicitamente NUMFOL=11340"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-032",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11307_035 enlaza explicitamente NUMFOL=11307",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-033",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11307_018 enlaza explicitamente NUMFOL=11307",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-034",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11357_022 enlaza explicitamente NUMFOL=11357",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-035",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11307_014 enlaza explicitamente NUMFOL=11307",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-036",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11307_009 enlaza explicitamente NUMFOL=11307",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-037",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11340_017 enlaza explicitamente NUMFOL=11340"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-038",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11340_010 enlaza explicitamente NUMFOL=11340"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-039",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11359_002 enlaza explicitamente NUMFOL=11359",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-040",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11385_001 enlaza explicitamente NUMFOL=11385"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-041",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11275_002 enlaza explicitamente NUMFOL=11275",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-042",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11286_009 enlaza explicitamente NUMFOL=11286",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-043",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11340_019 enlaza explicitamente NUMFOL=11340"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-044",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11380_009 enlaza explicitamente NUMFOL=11380",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-045",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11372_001 enlaza explicitamente NUMFOL=11372"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-046",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11340_005 enlaza explicitamente NUMFOL=11340"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-047",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11359_001 enlaza explicitamente NUMFOL=11359",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-048",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11380_010 enlaza explicitamente NUMFOL=11380",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-049",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11307_020 enlaza explicitamente NUMFOL=11307",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-050",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11307_011 enlaza explicitamente NUMFOL=11307",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-051",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11357_016 enlaza explicitamente NUMFOL=11357",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-052",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11340_025 enlaza explicitamente NUMFOL=11340"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-053",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11380_026 enlaza explicitamente NUMFOL=11380",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-054",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11383_004 enlaza explicitamente NUMFOL=11383"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-055",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11286_004 enlaza explicitamente NUMFOL=11286",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-056",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11286_011 enlaza explicitamente NUMFOL=11286",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-057",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11357_012 enlaza explicitamente NUMFOL=11357",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-058",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11394_001 enlaza explicitamente NUMFOL=11394"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-059",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11357_002 enlaza explicitamente NUMFOL=11357",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-060",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11307_025 enlaza explicitamente NUMFOL=11307",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-061",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11337_004 enlaza explicitamente NUMFOL=11337",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-062",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11357_007 enlaza explicitamente NUMFOL=11357",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-063",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11290_017 enlaza explicitamente NUMFOL=11290",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-064",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11340_021 enlaza explicitamente NUMFOL=11340"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-065",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11384_001 enlaza explicitamente NUMFOL=11384",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-066",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11380_018 enlaza explicitamente NUMFOL=11380",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-067",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11380_004 enlaza explicitamente NUMFOL=11380",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-068",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11341_006 enlaza explicitamente NUMFOL=11341",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-069",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11380_031 enlaza explicitamente NUMFOL=11380",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-070",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11380_011 enlaza explicitamente NUMFOL=11380",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-071",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11380_012 enlaza explicitamente NUMFOL=11380",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-072",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11383_002 enlaza explicitamente NUMFOL=11383"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-073",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11359_005 enlaza explicitamente NUMFOL=11359",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-074",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11309_001 enlaza explicitamente NUMFOL=11309",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-075",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11380_030 enlaza explicitamente NUMFOL=11380",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-076",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11380_029 enlaza explicitamente NUMFOL=11380",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-077",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11340_007 enlaza explicitamente NUMFOL=11340"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-078",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11290_016 enlaza explicitamente NUMFOL=11290",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-079",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11290_007 enlaza explicitamente NUMFOL=11290",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-080",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11398_004 enlaza explicitamente NUMFOL=11398",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-081",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11307_024 enlaza explicitamente NUMFOL=11307",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-082",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11290_009 enlaza explicitamente NUMFOL=11290",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-083",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11340_012 enlaza explicitamente NUMFOL=11340"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-084",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11290_014 enlaza explicitamente NUMFOL=11290",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-085",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11309_004 enlaza explicitamente NUMFOL=11309",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-086",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11398_001 enlaza explicitamente NUMFOL=11398",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-087",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11286_002 enlaza explicitamente NUMFOL=11286",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-088",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11380_007 enlaza explicitamente NUMFOL=11380",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-089",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11383_003 enlaza explicitamente NUMFOL=11383"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-090",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11290_010 enlaza explicitamente NUMFOL=11290",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-091",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11383_008 enlaza explicitamente NUMFOL=11383"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-092",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11380_003 enlaza explicitamente NUMFOL=11380",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-093",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11340_008 enlaza explicitamente NUMFOL=11340"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-094",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11307_037 enlaza explicitamente NUMFOL=11307",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-095",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11307_028 enlaza explicitamente NUMFOL=11307",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-096",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11307_007 enlaza explicitamente NUMFOL=11307",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-097",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11335_001 enlaza explicitamente NUMFOL=11335",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S1-098",
+   "stratum": "S1_final_terms_to_programme",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11380_035 enlaza explicitamente NUMFOL=11380",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-001",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11178.2 referencia al base 11178"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-002",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11233.3 referencia al base 11233"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-003",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11274.1 referencia al base 11274"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-004",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11188.2 referencia al base 11188"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-005",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11227.2 referencia al base 11227"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-006",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11374.3 referencia al base 11374"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-007",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11310.2 referencia al base 11310"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-008",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11307.1 referencia al base 11307"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-009",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11234.1 referencia al base 11234"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-010",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11275.2 referencia al base 11275"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-011",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11242.5 referencia al base 11242"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-012",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11402.1 referencia al base 11402"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-013",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11188.1 referencia al base 11188"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-014",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11169.1 referencia al base 11169"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-015",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11256.1 referencia al base 11256"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-016",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11415.1 referencia al base 11415"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-017",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11333.1 referencia al base 11333"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-018",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11234.2 referencia al base 11234"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-019",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11242.1 referencia al base 11242"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-020",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11286.1 referencia al base 11286"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-021",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11348.1 referencia al base 11348"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-022",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11204.1 referencia al base 11204"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-023",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11195.4 referencia al base 11195"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-024",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11225.2 referencia al base 11225"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-025",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11078.4 referencia al base 11078"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-026",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11195.2 referencia al base 11195"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-027",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11121.1 referencia al base 11121"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-028",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11358.1 referencia al base 11358"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-029",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11327.1 referencia al base 11327"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-030",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11225.1 referencia al base 11225"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-031",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11234.4 referencia al base 11234"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-032",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11308.1 referencia al base 11308"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-033",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11242.2 referencia al base 11242"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-034",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11170.2 referencia al base 11170"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-035",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11196.1 referencia al base 11196"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-036",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11373.2 referencia al base 11373"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-037",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11195.3 referencia al base 11195"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-038",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11339.1 referencia al base 11339"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-039",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11273.1 referencia al base 11273"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-040",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11352.1 referencia al base 11352"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-041",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11211.1 referencia al base 11211"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-042",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11225.3 referencia al base 11225"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-043",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11286.4 referencia al base 11286"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-044",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11265.3 referencia al base 11265"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-045",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11360.1 referencia al base 11360"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-046",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11242.4 referencia al base 11242"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-047",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11195.1 referencia al base 11195"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-048",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11210.1 referencia al base 11210"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-049",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11329.2 referencia al base 11329"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S2-050",
+   "stratum": "S2_supplement_to_prospectus",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "rule_version": "1.0",
+   "relation": "SUPPLEMENTS",
+   "positive_evidence": [
+    "registro 11295.1 referencia al base 11295"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S3-001",
+   "stratum": "S3_correction_to_document",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "rule_version": "1.0",
+   "relation": "CORRECTS",
+   "positive_evidence": [
+    "modificacion FOL_11316-2 del folleto 11316"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S3-002",
+   "stratum": "S3_correction_to_document",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "rule_version": "1.0",
+   "relation": "CORRECTS",
+   "positive_evidence": [
+    "modificacion FOL_11316-1 del folleto 11316"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S3-003",
+   "stratum": "S3_correction_to_document",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "rule_version": "1.0",
+   "relation": "CORRECTS",
+   "positive_evidence": [
+    "modificacion FOL_11319-1 del folleto 11319"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S3-004",
+   "stratum": "S3_correction_to_document",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "rule_version": "1.0",
+   "relation": "CORRECTS",
+   "positive_evidence": [
+    "modificacion FOL_11303-1 del folleto 11303"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S3-005",
+   "stratum": "S3_correction_to_document",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "rule_version": "1.0",
+   "relation": "CORRECTS",
+   "positive_evidence": [
+    "modificacion FOL_11365-1 del folleto 11365"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S3-006",
+   "stratum": "S3_correction_to_document",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "rule_version": "1.0",
+   "relation": "CORRECTS",
+   "positive_evidence": [
+    "modificacion FOL_11416-1 del folleto 11416"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S3-007",
+   "stratum": "S3_correction_to_document",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "rule_version": "1.0",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "modificacion de BANCO BILBAO VIZCAYA ARGENTARIA, S.A. (11316) emparejada con folleto ajeno 11147"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S3-008",
+   "stratum": "S3_correction_to_document",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "rule_version": "1.0",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "modificacion de BANCO BILBAO VIZCAYA ARGENTARIA, S.A. (11316) emparejada con folleto ajeno 11337"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S3-009",
+   "stratum": "S3_correction_to_document",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "rule_version": "1.0",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "modificacion de CAIXABANK, S.A. (11319) emparejada con folleto ajeno 11415"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S3-010",
+   "stratum": "S3_correction_to_document",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "rule_version": "1.0",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "modificacion de PROMOTORA DE INFORMACIONES, S.A. (11303) emparejada con folleto ajeno 11359"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S4-001",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (BANCA MARCH, S.A.) y rol; 11342 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-002",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (DEUTSCHE BANK, SOCIEDAD ANONIMA ESPAÑOLA) y rol; 11198 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-003",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (CAIXABANK, S.A.) y rol; 11290 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-004",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor pero sin evidencia de sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-005",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (EUROCAJA RURAL, SOCIEDAD COOPERATIVA DE CRÉDITO) y rol; 11239 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-006",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (BBVA GLOBAL MARKETS B.V.) y rol; 11335 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-007",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (ORYZON GENOMICS, S.A.) y rol; 11282 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-008",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (TELEFONICA, S.A.) y rol; 11226 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-009",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (BANKINTER, S.A.) y rol; 11260 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-010",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor pero sin evidencia de sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-011",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (CAJA RURAL DE NAVARRA, S. COOP. DE CREDITO) y rol; 11324 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-012",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (BANKINTER, S.A.) y rol; 11309 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-013",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (IBERCAJA BANCO, S.A.) y rol; 11273 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-014",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (IBERCAJA BANCO, S.A.) y rol; 11227 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-015",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor pero sin evidencia de sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-016",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (BANCO DE SABADELL, S.A.) y rol; 11253 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-017",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (COLONIAL SFL, SOCIMI, S.A.) y rol; 11271 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-018",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor pero sin evidencia de sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-019",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (KUTXABANK, S.A) y rol; 11257 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-020",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (BANCO SANTANDER, S.A.) y rol; 11166 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-021",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (BANCO BILBAO VIZCAYA ARGENTARIA, S.A.) y rol; 11244 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-022",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (BANCO DE SABADELL, S.A.) y rol; 11302 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-023",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (DEUTSCHE BANK, SOCIEDAD ANONIMA ESPAÑOLA) y rol; 11291 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-024",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor pero sin evidencia de sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S4-025",
+   "stratum": "S4_programme_succession",
+   "gold": "EXACT_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (CAJA RURAL DE GRANADA, SOCIEDAD COOPERATIVA DE CREDITO) y rol; 11305 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S5-001",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0157097124 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-002",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0105065041 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-003",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0126962242 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-004",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0172708499 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-005",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto AU000000BKY0 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-006",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0105848024 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-007",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0150480285 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-008",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0172708507 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-009",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0152768091 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-010",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0172708531 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-011",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0415306127 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-012",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0150480285 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-013",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0126962234 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-014",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0167733247 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-015",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES01717430E4 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-016",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0144583327 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-017",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0172708564 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-018",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0105449195 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-019",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto GB00BDCPN049 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-020",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0105848040 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-021",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0167050303 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-022",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0109260283 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-023",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0109260267 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-024",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0105449203 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-025",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0172708234 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-026",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0172708531 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-027",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0142090051 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-028",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES01717430I5 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-029",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0150480269 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-030",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0105521019 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-031",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto GB00BDCPN049 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-032",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0105884029 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-033",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0105848032 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-034",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0244251056 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S5-035",
+   "stratum": "S5_admission_to_security",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0150480277 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S6-001",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11380 pero candidato es 11242"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S6-002",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11359 pero candidato es 11402"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S6-003",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11307 pero candidato es 11315"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S6-004",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11275 pero candidato es 11327"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S6-005",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11340 pero candidato es 11194"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S6-006",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11383 pero candidato es 11435"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S6-007",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11340 pero candidato es 11194"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S6-008",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11383 pero candidato es 11435"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S6-009",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11290 pero candidato es 11245"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S6-010",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11385 pero candidato es 11400"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S6-011",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11307 pero candidato es 11364"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S6-012",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11335 pero candidato es 11242"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S6-013",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11307 pero candidato es 11411"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S6-014",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11351 pero candidato es 11199"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S6-015",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11307 pero candidato es 11364"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S7-001",
+   "stratum": "S7_same_programme_different_role",
+   "gold": "NO_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "rule_version": "1.0",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [],
+   "correct": false
+  },
+  {
+   "case_key": "S7-002",
+   "stratum": "S7_same_programme_different_role",
+   "gold": "NO_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "rule_version": "1.0",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [],
+   "correct": false
+  },
+  {
+   "case_key": "S7-003",
+   "stratum": "S7_same_programme_different_role",
+   "gold": "NO_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "rule_version": "1.0",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [],
+   "correct": false
+  },
+  {
+   "case_key": "S7-004",
+   "stratum": "S7_same_programme_different_role",
+   "gold": "NO_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "rule_version": "1.0",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [],
+   "correct": false
+  },
+  {
+   "case_key": "S7-005",
+   "stratum": "S7_same_programme_different_role",
+   "gold": "NO_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "rule_version": "1.0",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [],
+   "correct": false
+  },
+  {
+   "case_key": "S7-006",
+   "stratum": "S7_same_programme_different_role",
+   "gold": "NO_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "rule_version": "1.0",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [],
+   "correct": false
+  },
+  {
+   "case_key": "S7-007",
+   "stratum": "S7_same_programme_different_role",
+   "gold": "NO_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "rule_version": "1.0",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [],
+   "correct": false
+  },
+  {
+   "case_key": "S7-008",
+   "stratum": "S7_same_programme_different_role",
+   "gold": "NO_LINK",
+   "decision": "AMBIGUOUS",
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "rule_version": "1.0",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [],
+   "correct": false
+  },
+  {
+   "case_key": "S8-001",
+   "stratum": "S8_similar_title_diff_issuer",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11307 pero candidato es 11398"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S8-002",
+   "stratum": "S8_similar_title_diff_issuer",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11340 pero candidato es 11275"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S8-003",
+   "stratum": "S8_similar_title_diff_issuer",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11307 pero candidato es 11275"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S8-004",
+   "stratum": "S8_similar_title_diff_issuer",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11286 pero candidato es 11337"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S8-005",
+   "stratum": "S8_similar_title_diff_issuer",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11385 pero candidato es 11253"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S8-006",
+   "stratum": "S8_similar_title_diff_issuer",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11307 pero candidato es 11290"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S8-007",
+   "stratum": "S8_similar_title_diff_issuer",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11351 pero candidato es 11341"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S8-008",
+   "stratum": "S8_similar_title_diff_issuer",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11307 pero candidato es 11268"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S8-009",
+   "stratum": "S8_similar_title_diff_issuer",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11382 pero candidato es 11407"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S8-010",
+   "stratum": "S8_similar_title_diff_issuer",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11380 pero candidato es 11290"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S8-011",
+   "stratum": "S8_similar_title_diff_issuer",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11290 pero candidato es 11382"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S8-012",
+   "stratum": "S8_similar_title_diff_issuer",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11380 pero candidato es 11275"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S8-013",
+   "stratum": "S8_similar_title_diff_issuer",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11307 pero candidato es 11374"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S8-014",
+   "stratum": "S8_similar_title_diff_issuer",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11380 pero candidato es 11166"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S8-015",
+   "stratum": "S8_similar_title_diff_issuer",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila enlaza NUMFOL=11340 pero candidato es 11382"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-001",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-002",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-003",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-004",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-005",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-006",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-007",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-008",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-009",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-010",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-011",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-012",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-013",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-014",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-015",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-016",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-017",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-018",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-019",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-020",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-021",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "AMBIGUOUS",
+   "decision": "NO_LINK",
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "rule_version": "1.0",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "sin candidato propuesto"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S9-022",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S9-023",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "AMBIGUOUS",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": false
+  },
+  {
+   "case_key": "S9-024",
+   "stratum": "S9_no_link_insufficient",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila SERIE sin documento observable propio"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S10-001",
+   "stratum": "S10_multi_venue",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0105449203 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S10-002",
+   "stratum": "S10_multi_venue",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0165359144 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S10-003",
+   "stratum": "S10_multi_venue",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0105521019 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S10-004",
+   "stratum": "S10_multi_venue",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0172708564 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S10-005",
+   "stratum": "S10_multi_venue",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0150480285 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S10-006",
+   "stratum": "S10_multi_venue",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0150480285 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S10-007",
+   "stratum": "S10_multi_venue",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0167050303 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S10-008",
+   "stratum": "S10_multi_venue",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES01717430I5 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S10-009",
+   "stratum": "S10_multi_venue",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0105394003 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S10-010",
+   "stratum": "S10_multi_venue",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": "ADMISSION_OF",
+   "positive_evidence": [
+    "ISIN exacto ES0172708234 en fila de admision"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S10-011",
+   "stratum": "S10_multi_venue",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "serie marcada sin admision"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S10-012",
+   "stratum": "S10_multi_venue",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "serie marcada sin admision"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S10-013",
+   "stratum": "S10_multi_venue",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "serie marcada sin admision"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S10-014",
+   "stratum": "S10_multi_venue",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "serie marcada sin admision"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S10-015",
+   "stratum": "S10_multi_venue",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "serie marcada sin admision"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "S11-001",
+   "stratum": "S11_ambiguous_ground_truth",
+   "gold": "AMBIGUOUS",
+   "decision": "AMBIGUOUS",
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "rule_version": "1.0",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S11-002",
+   "stratum": "S11_ambiguous_ground_truth",
+   "gold": "AMBIGUOUS",
+   "decision": "AMBIGUOUS",
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "rule_version": "1.0",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S11-003",
+   "stratum": "S11_ambiguous_ground_truth",
+   "gold": "AMBIGUOUS",
+   "decision": "AMBIGUOUS",
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "rule_version": "1.0",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S11-004",
+   "stratum": "S11_ambiguous_ground_truth",
+   "gold": "AMBIGUOUS",
+   "decision": "AMBIGUOUS",
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "rule_version": "1.0",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "S11-005",
+   "stratum": "S11_ambiguous_ground_truth",
+   "gold": "AMBIGUOUS",
+   "decision": "AMBIGUOUS",
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "rule_version": "1.0",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [],
+   "correct": true
+  }
+ ]
+}

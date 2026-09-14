@@ -1,0 +1,7769 @@
+{
+  "n_docs": 30,
+  "scoring_contract": "deep_dev_metrics.classify (frozen)",
+  "totals": {
+    "TP": 254,
+    "FN": 147,
+    "TN": 242,
+    "CORRECT_NA": 26,
+    "TP_RAW": 8,
+    "SPURIOUS_NA": 6,
+    "FP_RAW": 9,
+    "FN_NA": 2,
+    "FP": 4
+  },
+  "per_field": {
+    "isin": {
+      "TP": 19,
+      "n": 28,
+      "FN": 5,
+      "TN": 4,
+      "precision": 1.0,
+      "recall": 0.7917,
+      "n_present": 24,
+      "n_absent": 4,
+      "n_na": 0
+    },
+    "currency": {
+      "TP": 16,
+      "n": 23,
+      "FN": 7,
+      "precision": 1.0,
+      "recall": 0.6957,
+      "n_present": 23,
+      "n_absent": 0,
+      "n_na": 0
+    },
+    "issue_date": {
+      "TP": 19,
+      "n": 23,
+      "FN": 3,
+      "TN": 1,
+      "precision": 1.0,
+      "recall": 0.8636,
+      "n_present": 22,
+      "n_absent": 1,
+      "n_na": 0
+    },
+    "maturity": {
+      "TP": 15,
+      "n": 28,
+      "FN": 8,
+      "TN": 5,
+      "precision": 1.0,
+      "recall": 0.6522,
+      "n_present": 23,
+      "n_absent": 5,
+      "n_na": 0
+    },
+    "denomination": {
+      "TP": 14,
+      "n": 22,
+      "FN": 8,
+      "precision": 1.0,
+      "recall": 0.6364,
+      "n_present": 22,
+      "n_absent": 0,
+      "n_na": 0
+    },
+    "issued_amount": {
+      "FN": 17,
+      "n": 22,
+      "TP": 5,
+      "precision": 1.0,
+      "recall": 0.2273,
+      "n_present": 22,
+      "n_absent": 0,
+      "n_na": 0
+    },
+    "coupon_type": {
+      "TP": 19,
+      "n": 28,
+      "FN": 3,
+      "FP": 2,
+      "TN": 4,
+      "precision": 0.9048,
+      "recall": 0.8636,
+      "n_present": 22,
+      "n_absent": 6,
+      "n_na": 0
+    },
+    "coupon_rate": {
+      "TP": 9,
+      "n": 24,
+      "FN": 13,
+      "TN": 2,
+      "precision": 1.0,
+      "recall": 0.4091,
+      "n_present": 22,
+      "n_absent": 2,
+      "n_na": 0
+    },
+    "benchmark": {
+      "TN": 16,
+      "n": 28,
+      "TP": 9,
+      "FN": 3,
+      "precision": 1.0,
+      "recall": 0.75,
+      "n_present": 12,
+      "n_absent": 16,
+      "n_na": 0
+    },
+    "spread": {
+      "TN": 13,
+      "n": 28,
+      "FN": 9,
+      "TP": 6,
+      "precision": 1.0,
+      "recall": 0.4,
+      "n_present": 15,
+      "n_absent": 13,
+      "n_na": 0
+    },
+    "payment_frequency": {
+      "FN": 11,
+      "n": 28,
+      "TP": 10,
+      "TP_RAW": 2,
+      "TN": 5,
+      "precision": 1.0,
+      "recall": 0.5217,
+      "n_present": 23,
+      "n_absent": 5,
+      "n_na": 0
+    },
+    "day_count": {
+      "TP": 15,
+      "n": 24,
+      "FN": 4,
+      "TN": 4,
+      "FP": 1,
+      "precision": 0.9375,
+      "recall": 0.7895,
+      "n_present": 19,
+      "n_absent": 5,
+      "n_na": 0
+    },
+    "call_dates": {
+      "CORRECT_NA": 6,
+      "n": 28,
+      "TP": 5,
+      "TP_RAW": 2,
+      "FP_RAW": 2,
+      "FN": 8,
+      "TN": 5,
+      "precision": 0.7778,
+      "recall": 0.4667,
+      "n_present": 15,
+      "n_absent": 7,
+      "n_na": 6
+    },
+    "business_day_convention": {
+      "TP": 18,
+      "n": 23,
+      "FN": 4,
+      "TN": 1,
+      "precision": 1.0,
+      "recall": 0.8182,
+      "n_present": 22,
+      "n_absent": 1,
+      "n_na": 0
+    },
+    "put_dates": {
+      "TN": 8,
+      "n": 23,
+      "CORRECT_NA": 8,
+      "FN": 7,
+      "precision": null,
+      "recall": 0.0,
+      "n_present": 7,
+      "n_absent": 8,
+      "n_na": 8
+    },
+    "reset_dates": {
+      "TN": 12,
+      "n": 23,
+      "TP": 4,
+      "FN": 7,
+      "precision": 1.0,
+      "recall": 0.3636,
+      "n_present": 11,
+      "n_absent": 12,
+      "n_na": 0
+    },
+    "fixing_rules": {
+      "TN": 10,
+      "n": 23,
+      "TP": 8,
+      "FN": 4,
+      "SPURIOUS_NA": 1,
+      "precision": 0.8889,
+      "recall": 0.6667,
+      "n_present": 12,
+      "n_absent": 11,
+      "n_na": 0
+    },
+    "ranking": {
+      "TN": 12,
+      "n": 23,
+      "TP": 8,
+      "FN": 2,
+      "FP_RAW": 1,
+      "precision": 0.8889,
+      "recall": 0.8,
+      "n_present": 10,
+      "n_absent": 13,
+      "n_na": 0
+    },
+    "subordination": {
+      "TN": 13,
+      "n": 23,
+      "TP_RAW": 2,
+      "FP_RAW": 5,
+      "FN": 2,
+      "TP": 1,
+      "precision": 0.375,
+      "recall": 0.6,
+      "n_present": 5,
+      "n_absent": 18,
+      "n_na": 0
+    },
+    "redemption_formula": {
+      "TP": 19,
+      "n": 28,
+      "FN": 4,
+      "TN": 5,
+      "precision": 1.0,
+      "recall": 0.8261,
+      "n_present": 23,
+      "n_absent": 5,
+      "n_na": 0
+    },
+    "underlying": {
+      "FN": 4,
+      "n": 28,
+      "SPURIOUS_NA": 3,
+      "TN": 12,
+      "TP": 8,
+      "FP": 1,
+      "precision": 0.6667,
+      "recall": 0.6667,
+      "n_present": 12,
+      "n_absent": 16,
+      "n_na": 0
+    },
+    "barrier": {
+      "TN": 20,
+      "n": 28,
+      "FN": 4,
+      "TP_RAW": 1,
+      "TP": 3,
+      "precision": 1.0,
+      "recall": 0.5,
+      "n_present": 8,
+      "n_absent": 20,
+      "n_na": 0
+    },
+    "autocall": {
+      "TN": 14,
+      "n": 23,
+      "CORRECT_NA": 5,
+      "SPURIOUS_NA": 1,
+      "TP": 2,
+      "FN_NA": 1,
+      "precision": 0.6667,
+      "recall": 0.6667,
+      "n_present": 3,
+      "n_absent": 15,
+      "n_na": 5
+    },
+    "observation_dates": {
+      "TN": 18,
+      "n": 23,
+      "TP": 4,
+      "TP_RAW": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "n_present": 5,
+      "n_absent": 18,
+      "n_na": 0
+    },
+    "settlement_type": {
+      "TP": 18,
+      "n": 27,
+      "FN_NA": 1,
+      "TN": 5,
+      "FN": 3,
+      "precision": 1.0,
+      "recall": 0.8182,
+      "n_present": 22,
+      "n_absent": 5,
+      "n_na": 0
+    },
+    "participation": {
+      "TN": 20,
+      "n": 23,
+      "FN": 3,
+      "precision": null,
+      "recall": 0.0,
+      "n_present": 3,
+      "n_absent": 20,
+      "n_na": 0
+    },
+    "cap": {
+      "TN": 12,
+      "n": 23,
+      "CORRECT_NA": 7,
+      "FN": 2,
+      "SPURIOUS_NA": 1,
+      "FP_RAW": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "n_present": 2,
+      "n_absent": 14,
+      "n_na": 7
+    },
+    "strike": {
+      "TN": 21,
+      "n": 23,
+      "FN": 2,
+      "precision": null,
+      "recall": 0.0,
+      "n_present": 2,
+      "n_absent": 21,
+      "n_na": 0
+    }
+  },
+  "per_stratum": {
+    "plain_vanilla": {
+      "TP": 75,
+      "n": 139,
+      "FN": 13,
+      "TN": 37,
+      "CORRECT_NA": 9,
+      "TP_RAW": 2,
+      "SPURIOUS_NA": 1,
+      "FP_RAW": 2
+    },
+    "coupon_variant_candidate": {
+      "FN": 13,
+      "n": 111,
+      "TP": 47,
+      "TN": 38,
+      "CORRECT_NA": 8,
+      "FP_RAW": 2,
+      "SPURIOUS_NA": 2,
+      "TP_RAW": 1
+    },
+    "covered_bond": {
+      "TP": 55,
+      "n": 112,
+      "FN": 20,
+      "FP_RAW": 2,
+      "TN": 34,
+      "SPURIOUS_NA": 1
+    },
+    "subordinated": {
+      "TP": 20,
+      "n": 55,
+      "FN": 20,
+      "TN": 12,
+      "CORRECT_NA": 2,
+      "TP_RAW": 1
+    },
+    "structured": {
+      "TP": 48,
+      "n": 140,
+      "FN": 38,
+      "TN": 37,
+      "TP_RAW": 4,
+      "CORRECT_NA": 7,
+      "FN_NA": 2,
+      "FP": 2,
+      "SPURIOUS_NA": 2
+    },
+    "supplement": {
+      "TN": 33,
+      "n": 33
+    },
+    "registration_document": {
+      "TN": 10,
+      "n": 11,
+      "FP": 1
+    },
+    "securitisation": {
+      "FN": 18,
+      "n": 28,
+      "TP": 2,
+      "TN": 8
+    },
+    "admission_debt": {
+      "TP": 3,
+      "n": 28,
+      "FN": 16,
+      "TN": 8,
+      "FP_RAW": 1
+    },
+    "admission_equity": {
+      "TP": 1,
+      "n": 13,
+      "TN": 12
+    },
+    "commercial_paper_programme": {
+      "FN": 9,
+      "n": 28,
+      "TP": 3,
+      "TN": 13,
+      "FP_RAW": 2,
+      "FP": 1
+    }
+  },
+  "hard_gates": {
+    "coupon_rate_family": {
+      "tp": 28,
+      "fp": 2,
+      "fn": 16,
+      "precision": 0.9333,
+      "recall": 0.6364,
+      "threshold_precision": 0.95,
+      "gate": "FAIL"
+    },
+    "day_count": {
+      "tp": 15,
+      "fp": 1,
+      "fn": 4,
+      "precision": 0.9375,
+      "recall": 0.7895,
+      "threshold_precision": 0.95,
+      "gate": "FAIL"
+    },
+    "maturity": {
+      "tp": 15,
+      "fp": 0,
+      "fn": 8,
+      "precision": 1.0,
+      "recall": 0.6522,
+      "threshold_precision": 0.99,
+      "gate": "PASS"
+    },
+    "call_put": {
+      "tp": 7,
+      "fp": 2,
+      "fn": 15,
+      "precision": 0.7778,
+      "recall": 0.3182,
+      "threshold_precision": 0.9,
+      "gate": "FAIL"
+    },
+    "reset_fixing": {
+      "tp": 12,
+      "fp": 1,
+      "fn": 11,
+      "precision": 0.9231,
+      "recall": 0.5217,
+      "threshold_precision": 0.9,
+      "gate": "PASS"
+    },
+    "observation": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "threshold_precision": 0.9,
+      "gate": "PASS"
+    },
+    "barrier_strike_redemption": {
+      "tp": 23,
+      "fp": 0,
+      "fn": 10,
+      "precision": 1.0,
+      "recall": 0.697,
+      "threshold_precision": 0.9,
+      "gate": "PASS"
+    }
+  },
+  "details": [
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES0313040117",
+      "raw": "ES0313040117 ."
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "EUR",
+      "raw": "Euros"
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2026-05-13",
+      "raw": "ón/Desembolso: 13 de mayo de 2026"
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2030-05-13",
+      "raw": "13 de mayo de 2030"
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "100.000 EUR",
+      "raw": "100,000 euros"
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "fijo: 3.12% Aplica",
+        "3.12%, pagadero anualmente."
+      ],
+      "raw": null
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "3.12",
+      "raw": "3.12%, pagadero anualmente."
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "benchmark",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "spread",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "day_count",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "para el devengo de intereses: 30/360 MFD Unadjusted.",
+      "raw": "para el devengo de intereses: 30/360 MFD Unadjusted."
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "call_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "No aplica."
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "En el caso de que alguna de las fechas se declarará día inhábil, se tomará el primer día hábil inmediatamente posterior.",
+      "raw": "En el caso de que alguna de las fechas se declarará día inhábil, se tomará el primer día hábil inmediatamente posterior."
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "put_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "reset_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "fixing_rules",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "ranking",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "subordination",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "100% sobre el nominal",
+      "raw": "100% sobre el nominal"
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "underlying",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "observation_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Iberclear (y Euroclear/Clearstream).",
+      "raw": "Iberclear (y Euroclear/Clearstream)."
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "cap",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X01",
+      "stratum": "plain_vanilla",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "XS3007600409",
+      "raw": "XS3007600409"
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "EUR",
+      "raw": "Euro (' EUR ')"
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2025-02-20",
+      "raw": "20 February 2025"
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2040-02-20",
+      "raw": "20 February 2040, subject to the Business Day Convention"
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "55000000 EUR",
+      "raw": "EUR 55,000,000"
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "4.05% Fixed Rate (further particulars specified in items 19 and 21 below)",
+      "raw": "4.05% Fixed Rate (further particulars specified in items 19 and 21 below)"
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "4.05",
+      "raw": "4.05% per annum payable annually in arrear"
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "benchmark",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "spread",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ANNUAL",
+      "raw": "20 February in each year, adjusted in accordance with Modified Following Business Day Convention."
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "day_count",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Actual/Actual(ICMA) (Unadjusted)",
+      "raw": "Actual/Actual(ICMA) (Unadjusted)"
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "call_dates",
+      "truth": "MULTI",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        null,
+        "2030-02-20"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Modified Following Business Day Convention",
+      "raw": "Modified Following Business Day Convention"
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "put_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not Applicable"
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "reset_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "fixing_rules",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "ranking",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "SENIOR_NON_PREFERRED",
+      "raw": "Senior Non-Preferred Notes"
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "subordination",
+      "truth": "PRESENT",
+      "status": "OBSERVED",
+      "cls": "TP_RAW",
+      "value": null,
+      "raw": "Senior Non-Preferred Notes"
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "of each Note : Calculation Amount * 100%",
+        "Redemption at par See item 30 below",
+        "Redemption at par See item 30 below"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "underlying",
+      "truth": "ABSENT",
+      "status": "OBSERVED",
+      "cls": "SPURIOUS_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not Applicable"
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "barrier",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "autocall",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not Applicable"
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "observation_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "NOT_APPLICABLE",
+        "Delivery against payment"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "cap",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not Applicable"
+    },
+    {
+      "case": "X02",
+      "stratum": "plain_vanilla",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES0280907066",
+      "raw": "ES0280907066"
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "EUR",
+      "raw": "EUR"
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2026-06-26",
+      "raw": "26 June 2026"
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2033-06-26",
+      "raw": "26 June 2033"
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "3.75% Fixed Rate to Reset",
+      "raw": "3.75% Fixed Rate to Reset"
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "benchmark",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Mid-Swap Rate",
+      "raw": "Mid-Swap Rate"
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "spread",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "1.03",
+        "NOT_APPLICABLE"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ANNUAL",
+      "raw": "26 June in each year up to and including the Maturity Date"
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "day_count",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Actual/Actual (ICMA)",
+      "raw": "Actual/Actual (ICMA)"
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "call_dates",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        null,
+        "2032-06-26"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "No Adjustment",
+      "raw": "No Adjustment"
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "put_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not Applicable"
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "reset_dates",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "2032-06-26",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "fixing_rules",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "Reuters ICESWAP2",
+        "The provisions in the Conditions of the Notes apply",
+        "The provisions in the Conditions of the Notes apply"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "ranking",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "SENIOR",
+      "raw": "Senior Notes - Senior Non-Preferred Notes"
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "subordination",
+      "truth": "PRESENT",
+      "status": "OBSERVED",
+      "cls": "TP_RAW",
+      "value": null,
+      "raw": "Senior Notes - Senior Non-Preferred Notes"
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "of each Note: Par",
+      "raw": "of each Note: Par"
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "underlying",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "observation_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Delivery against payment",
+      "raw": "Delivery against payment"
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "cap",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X03",
+      "stratum": "plain_vanilla",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES0265936056",
+      "raw": "ES0265936056"
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "EUR",
+      "raw": "EUR"
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2023-10-02",
+      "raw": "2 October 2023 Issue Date"
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2030-04-02",
+      "raw": "2 April 2030"
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "100.000 EUR",
+      "raw": "EUR 100,000"
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Reset Notes (see paragraph 19 below)",
+      "raw": "Reset Notes (see paragraph 19 below)"
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "benchmark",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Mid-Swap Rate",
+      "raw": "Mid-Swap Rate"
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "spread",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "2.60",
+        "NOT_APPLICABLE"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ANNUAL",
+      "raw": "2 April in each year up to and including the Maturity Date"
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "day_count",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Actual/Actual (ICMA)",
+      "raw": "Actual/Actual (ICMA)"
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "call_dates",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        null,
+        "2029-04-02"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Following Business Day Convention",
+      "raw": "Following Business Day Convention"
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "put_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not Applicable"
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "reset_dates",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "2029-04-02",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "fixing_rules",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "Reuters ICAPEURO",
+        "The provisions in the Conditions of the Notes apply",
+        "11:00 a.m. Madrid time"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "ranking",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "SENIOR",
+      "raw": "(See paragraphs 21 and 25 below) Senior Notes - Ordinary Senior Notes"
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "subordination",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "FP_RAW",
+      "value": null,
+      "raw": "(See paragraphs 21 and 25 below) Senior Notes - Ordinary Senior Notes"
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "of  each Note: Par",
+        "Subject to any purchase and cancellation or early redemption, the Notes will be redeemed on the Maturity Date at 100% of their Outstanding Principal Amount.",
+        "Subject to any purchase and cancellation or early redemption, the Notes will be redeemed on the Maturity Date at 100% of their Outstanding Principal Amount."
+      ],
+      "raw": null
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "underlying",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "observation_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Delivery against payment",
+      "raw": "Delivery against payment"
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "cap",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not Applicable"
+    },
+    {
+      "case": "X04",
+      "stratum": "plain_vanilla",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES0243307024",
+      "raw": "ES0243307024"
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "EUR",
+      "raw": "EUR"
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "2026-06-10",
+        "2032-06-10"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2032-06-10",
+      "raw": "10 June 2032"
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "100.000 EUR",
+      "raw": "EUR 100,000"
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "3.500% Fixed Rate to Reset",
+      "raw": "3.500% Fixed Rate to Reset"
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "benchmark",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Mid-Swap Rate",
+      "raw": "Mid-Swap Rate"
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "spread",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "0.73",
+        "NOT_APPLICABLE"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ANNUAL",
+      "raw": "10 June in each year up to and including the Maturity Date"
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "day_count",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Actual/Actual (ICMA)",
+      "raw": "Actual/Actual (ICMA)"
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "call_dates",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        null,
+        "2031-06-10"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Following Business Day Convention",
+      "raw": "Following Business Day Convention"
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "put_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not Applicable"
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "reset_dates",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "2031-06-10",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "fixing_rules",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "Bloomberg EUAMDB01 Index",
+        "The provisions in the Terms and Conditions of the Notes apply",
+        "The provisions in the Terms and Conditions of the Notes apply"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "ranking",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "SENIOR",
+      "raw": "Senior Notes - Ordinary Senior Notes"
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "subordination",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "FP_RAW",
+      "value": null,
+      "raw": "Senior Notes - Ordinary Senior Notes"
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Note:",
+      "raw": "Note:"
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "underlying",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "observation_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Delivery against payment",
+      "raw": "Delivery against payment"
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "cap",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not applicable"
+    },
+    {
+      "case": "X05",
+      "stratum": "plain_vanilla",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "EUR",
+      "raw": "Euros"
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2024-11-28",
+      "raw": "ón/Desembolso: 28 de noviembre de 2024"
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2028-11-28",
+      "raw": "28 de noviembre de 2028"
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "100.000 EUR",
+      "raw": "100.000 euros"
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "fijo: Aplica",
+        "3.3730% fijo, pagadero anualmente."
+      ],
+      "raw": null
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "3.3730",
+      "raw": "3.3730% fijo, pagadero anualmente."
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "benchmark",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "spread",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "day_count",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "para el devengo de intereses: ACT/ACT MDF Unadjusted.",
+      "raw": "para el devengo de intereses: ACT/ACT MDF Unadjusted."
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "call_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "No Aplica."
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "En  el caso de que alguna de las fechas se  declarará día inhábil, se tomará el primer día hábil inmediatamente posterior.",
+      "raw": "En  el caso de que alguna de las fechas se  declarará día inhábil, se tomará el primer día hábil inmediatamente posterior."
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "put_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "reset_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "fixing_rules",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "ranking",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "subordination",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "100% sobre el nominal",
+      "raw": "100% sobre el nominal"
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "underlying",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "observation_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Iberclear",
+      "raw": "Iberclear"
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "cap",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X06",
+      "stratum": "coupon_variant_candidate",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "XS3029558759",
+      "raw": "XS3029558759"
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "USD",
+      "raw": "U.S. dollars (\" USD \")"
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2025-03-19",
+      "raw": "19 March 2025"
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2040-03-19",
+      "raw": "19 March 2040, subject to the Business Day Convention"
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "200.000 USD",
+      "raw": "USD 200,000"
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "5.86% Fixed Rate",
+      "raw": "5.86% Fixed Rate"
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "5.86",
+      "raw": "5.86% per annum payable annually in arrear"
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "benchmark",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "spread",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ANNUAL",
+      "raw": "19 March in each year, adjusted in accordance with Modified Following Business Day Convention"
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "day_count",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Actual/Actual (ICMA) (Unadjusted)",
+      "raw": "Actual/Actual (ICMA) (Unadjusted)"
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "call_dates",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        null,
+        "2030-03-19"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Modified Following Business Day Convention",
+      "raw": "Modified Following Business Day Convention"
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "put_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not Applicable"
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "reset_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "fixing_rules",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "ranking",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "SENIOR_PREFERRED",
+      "raw": "Senior Preferred Notes"
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "subordination",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "FP_RAW",
+      "value": null,
+      "raw": "Senior Preferred Notes"
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "Redemption at par",
+        "of  each Note : Calculation Amount * 100%"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "underlying",
+      "truth": "ABSENT",
+      "status": "OBSERVED",
+      "cls": "SPURIOUS_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not Applicable"
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "barrier",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "autocall",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not Applicable"
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "observation_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "Delivery against payment",
+        "NOT_APPLICABLE"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "cap",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not Applicable"
+    },
+    {
+      "case": "X07",
+      "stratum": "coupon_variant_candidate",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "EUR",
+      "raw": "Euros"
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2025-10-02",
+      "raw": "ón/Desembolso: 2 de octubre de 2025"
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2026-10-02",
+      "raw": "2 de octubre de 2026"
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "100.000 EUR",
+      "raw": "100.000 euros"
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "fijo: Aplica",
+        "2,25% fijo anual, pagadero mensualmente."
+      ],
+      "raw": null
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2.25",
+      "raw": "2,25% fijo anual, pagadero mensualmente."
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "benchmark",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "spread",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "day_count",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "para el devengo de intereses: ACT/ACT MDF Unadjusted.",
+      "raw": "para el devengo de intereses: ACT/ACT MDF Unadjusted."
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "call_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "No Aplica."
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "En  el caso de que alguna de las fechas se  declarará día inhábil, se tomará el primer día hábil inmediatamente posterior.",
+      "raw": "En  el caso de que alguna de las fechas se  declarará día inhábil, se tomará el primer día hábil inmediatamente posterior."
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "put_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "reset_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "fixing_rules",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "ranking",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "subordination",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "100% sobre el nominal",
+      "raw": "100% sobre el nominal"
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "underlying",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "observation_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Iberclear",
+      "raw": "Iberclear"
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "cap",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X08",
+      "stratum": "coupon_variant_candidate",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "XS2799801316",
+      "raw": "XS2799801316"
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "USD",
+      "raw": "U.S. dollars (\" USD \")"
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2024-04-09",
+      "raw": "9 April 2024"
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2034-04-09",
+      "raw": "9 April 2034, subject to the Business Day Convention"
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "200.000 USD",
+      "raw": "USD 200,000"
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "6.13% Fixed Rate",
+      "raw": "6.13% Fixed Rate"
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "6.13",
+      "raw": "6.13% per annum payable annually in arrear"
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "benchmark",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "spread",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ANNUAL",
+      "raw": "9 April in each year, adjusted in accordance with Modified Following Business Day Convention"
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "day_count",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Actual/Actual (ICMA) (Unadjusted)",
+      "raw": "Actual/Actual (ICMA) (Unadjusted)"
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "call_dates",
+      "truth": "MULTI",
+      "status": "OBSERVED",
+      "cls": "TP_RAW",
+      "value": null,
+      "raw": "Applicable"
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Modified Following Business Day Convention",
+      "raw": "Modified Following Business Day Convention"
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "put_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not Applicable"
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "reset_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "fixing_rules",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "ranking",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "SENIOR_PREFERRED",
+      "raw": "Senior Preferred Notes"
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "subordination",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "FP_RAW",
+      "value": null,
+      "raw": "Senior Preferred Notes"
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "of  each Note : Calculation Amount * 100%",
+        "(further particulars specified in items 20 and 21 below) Redemption at par",
+        "(further particulars specified in items 20 and 21 below) Redemption at par"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "underlying",
+      "truth": "ABSENT",
+      "status": "OBSERVED",
+      "cls": "SPURIOUS_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not Applicable"
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "barrier",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "autocall",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not Applicable"
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "observation_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "NOT_APPLICABLE",
+        "Delivery against payment"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "cap",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not Applicable"
+    },
+    {
+      "case": "X09",
+      "stratum": "coupon_variant_candidate",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES0413900996",
+      "raw": "ES0413900996."
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "EUR",
+      "raw": "euros."
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2025-05-21",
+      "raw": "ón y desembolso de los valores: 21 de mayo de 2025."
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "EURIBOR 6 meses, + 0,64% pagadero semestralmente.",
+        "de referencia en caso de ausencia o imposibilidad de obtención de los tipos establecidos antes de la fijación del tipo de interés de referencia para el primer periodo de devengo: 3,40%.",
+        "EURIBOR 3 meses, + 0,64% pagadero trimestralmente.",
+        "de referencia en caso de ausencia o imposibilidad de obtención de los tipos establecidos antes de la fijación del tipo de interés de referencia para el primer periodo de devengo: 3,40%."
+      ],
+      "raw": null
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "0.64",
+        "3.40",
+        "0.64",
+        "3.40"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "benchmark",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "EURIBOR 6 meses",
+        "EURIBOR 3 meses"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "spread",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "0.64",
+      "raw": "EURIBOR 6 meses, + 0,64% pagadero semestralmente."
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "payment_frequency",
+      "truth": "MULTI",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "ANNUAL",
+        null
+      ],
+      "raw": null
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "day_count",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "para el devengo de intereses: Act/360 (ajustado).",
+      "raw": "para el devengo de intereses: Act/360 (ajustado)."
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "call_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "FP_RAW",
+      "value": null,
+      "raw": "para el Emisor: no."
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Convención del Siguiente Día Hábil Modificada ( Modified Following Business Day Convention ).",
+      "raw": "Convención del Siguiente Día Hábil Modificada ( Modified Following Business Day Convention )."
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "put_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "reset_dates",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "fixing_rules",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "2 días hábiles antes del inicio de cada periodo de pago de intereses, publicado en la página de referencia a las 11:00AM CET.",
+        "Comunicación a AIAF para su publicación en su Boletín Diario.",
+        "2 días hábiles antes del inicio de cada periodo de pago de intereses, publicado en la página de referencia a las 11:00AM CET.",
+        "Comunicación a AIAF para su publicación en su Boletín Diario."
+      ],
+      "raw": null
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "ranking",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "subordination",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "21 de mayo de 2040, sujeta a la convención día hábil especificada en el epígrafe 3.5, salvo prórroga.",
+        "100 % sobre nominal."
+      ],
+      "raw": null
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "underlying",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "EURIBOR.",
+      "raw": "EURIBOR."
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "observation_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Sociedad  de  Gestión  de  los  Sistemas  de Registro, Compensación y Liquidación de Valores, S.A., Unipersonal (Iberclear), domiciliada en Madrid, Plaza de la Lealtad, 1.",
+      "raw": "Sociedad  de  Gestión  de  los  Sistemas  de Registro, Compensación y Liquidación de Valores, S.A., Unipersonal (Iberclear), domiciliada en Madrid, Plaza de la Lealtad, 1."
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "cap",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X10",
+      "stratum": "covered_bond",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES0440609602",
+      "raw": "ES0440609602."
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2026-03-18",
+      "raw": "ón/Desembolso: 18 de marzo de 2026."
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2035-03-18",
+      "raw": "18 de marzo de 2035, sujeta a la Convención día Hábil especificada en el epígrafe 9, y salvo prórroga prevista en el epígrafe 18."
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "100.000 EUR",
+      "raw": "100.000 Euros"
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "1750000000 EUR",
+      "raw": "1.750.000.000 Euros"
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "Fijo: N/A",
+        "variable:",
+        "aplicable durante el plazo de prórroga de vencimiento:",
+        "indexado: N/A",
+        "con estructura ligada a un subyacente: N/A"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "benchmark",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Euribor 6 meses + 0,345%",
+      "raw": "6 meses + 0,345%, pagadero semestralmente."
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "spread",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "payment_frequency",
+      "truth": "MULTI",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "day_count",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "para el devengo de intereses: Act/360.",
+      "raw": "para el devengo de intereses: Act/360."
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "call_dates",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "en el caso de que alguna de las fechas de pago de los cupones de los intereses coincidiera con un día no hábil según calendario TARGET2, tal fecha se trasladará  al  Día  Hábil  inmediatamente  poster",
+      "raw": "en el caso de que alguna de las fechas de pago de los cupones de los intereses coincidiera con un día no hábil según calendario TARGET2, tal fecha se trasladará  al  Día  Hábil  inmediatamente  poster"
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "put_dates",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "reset_dates",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "fixing_rules",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "ranking",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "subordination",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "100% sobre nominal.",
+      "raw": "100% sobre nominal."
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "underlying",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Tipo de Referencia. El índice de referencia utilizado ha sido elaborado por The European Money Markets Institute (' EMMI ') , inscrita en el registro de índices de referencia recogido en el artículo 3",
+      "raw": "Tipo de Referencia. El índice de referencia utilizado ha sido elaborado por The European Money Markets Institute (' EMMI ') , inscrita en el registro de índices de referencia recogido en el artículo 3"
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "OBSERVED",
+      "cls": "SPURIOUS_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "N/A"
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "observation_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "IBERCLEAR",
+      "raw": "IBERCLEAR"
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "cap",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X11",
+      "stratum": "covered_bond",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES0413860927",
+      "raw": "ES0413860927"
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "EUR",
+      "raw": "EUR"
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2025-11-11",
+      "raw": "ón/ desembolso: 11 de noviembre de 2025"
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2031-08-11",
+      "raw": "11 de agosto de 2031 (plazo de vencimiento prorrogable 12 meses hasta el 11 de agosto de 2032 - ver apartado 9 para información sobre el tipo de interés aplicable para el periodo de prórroga)"
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "100.000 EUR",
+      "raw": "100.000 Euros"
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "1000000000 EUR",
+      "raw": "1.000.000.000 Euros"
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "fijo: No Aplica",
+        "inicial fijo con amortización anticipada o cambio en el tipo fijo: No aplica",
+        "variable: Aplica",
+        "EURIBOR 12 meses más 0,34% pagadero anualmente. Para el primer periodo de intereses se ultilizará el mismo método de cálculo sin interpolación. En caso de prórroga, será aplicable el mismo tipo de int",
+        "indexado: No Aplica",
+        "con estructura ligada a un subyacente: No Aplica"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "0.34",
+      "raw": "EURIBOR 12 meses más 0,34% pagadero anualmente. Para el primer periodo de intereses se ultilizará el mismo método de cálculo sin interpolación. En caso de prórroga, será aplicable el mismo tipo de int"
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "benchmark",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "EURIBOR 12 meses",
+        "Euribor 12 meses",
+        "Euribor 12 meses"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "spread",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ANNUAL",
+      "raw": "Los intereses se devengarán día a día desde la Fecha de Desembolso y se pagarán los días 11 de agosto de cada año (las 'Fechas de Pago de los cupones'), siendo el pago del primer cupón de intereses or"
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "day_count",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "para el devengo de intereses: Act/360",
+      "raw": "para el devengo de intereses: Act/360"
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "call_dates",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "'Modified Following'. Si alguna de las Fechas de Pago coincidiera con un día que no fuera un Día Hábil, el pago se efectuará el Día Hábil inmediatamente siguiente (salvo que dicha fecha corresponda al",
+      "raw": "'Modified Following'. Si alguna de las Fechas de Pago coincidiera con un día que no fuera un Día Hábil, el pago se efectuará el Día Hábil inmediatamente siguiente (salvo que dicha fecha corresponda al"
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "put_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "reset_dates",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "fixing_rules",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "La fecha de determinación para el primer periodo de interés será el 7 de noviembre de 2025",
+        "La  fijación  del  tipo  de  interés  se determinará dos días hábiles T2 antes de la fecha de inicio de cada periodo de interés",
+        "Para cada periodo de doce meses desde una Fecha de Pago de los cupones (tal y como dicho término se define a continuación) y la siguiente (cada uno de dichos periodos, un 'Periodo de Interés'), el tip"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "ranking",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "subordination",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "Aplica",
+        "11 de agosto de 2031",
+        "100% sobre nominal"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "underlying",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "en el que se basa: Euribor 12 meses.",
+      "raw": "en el que se basa: Euribor 12 meses."
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "observation_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Iberclear",
+      "raw": "Iberclear"
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "cap",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X12",
+      "stratum": "covered_bond",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES0413900954",
+      "raw": "ES0413900954."
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "EUR",
+      "raw": "euros."
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "EURIBOR 6 meses, + 0,38% pagadero semestralmente.",
+        "de referencia en caso de ausencia o imposibilidad de obtención de los tipos establecidos antes de la fijación del tipo de interés de referencia para el primer periodo de devengo: 3,427%.",
+        "EURIBOR 3 meses, + 0,38% pagadero trimestralmente.",
+        "de referencia en caso de ausencia o imposibilidad de obtención de los tipos establecidos antes de la fijación del tipo de interés de referencia para el primer periodo de devengo: 3,427%."
+      ],
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "0.38",
+        "3.427",
+        "0.38",
+        "3.427"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "benchmark",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "EURIBOR 6 meses",
+        "EURIBOR 3 meses"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "spread",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "0.38",
+      "raw": "EURIBOR 6 meses, + 0,38% pagadero semestralmente."
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "payment_frequency",
+      "truth": "MULTI",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "ANNUAL",
+        null
+      ],
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "day_count",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "para el devengo de intereses: Act/360 (ajustado).",
+      "raw": "para el devengo de intereses: Act/360 (ajustado)."
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "call_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "FP_RAW",
+      "value": null,
+      "raw": "para el Emisor: no."
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Convención del Siguiente Día Hábil Modificada ( Modified Following Business Day Convention ).",
+      "raw": "Convención del Siguiente Día Hábil Modificada ( Modified Following Business Day Convention )."
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "put_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "reset_dates",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "fixing_rules",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "2 días hábiles antes del inicio de cada periodo de pago de intereses, publicado en la página de referencia a las 11:00AM CET.",
+        "Comunicación a AIAF para su publicación en su Boletín Diario.",
+        "2 días hábiles antes del inicio de cada periodo de pago de intereses, publicado en la página de referencia a las 11:00AM CET.",
+        "Comunicación a AIAF para su publicación en su Boletín Diario."
+      ],
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "ranking",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "subordination",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "17 de octubre de 2029, sujeta a la convención día hábil especificada en el epígrafe 3.5, salvo prórroga.",
+        "100 % sobre nominal."
+      ],
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "underlying",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "EURIBOR.",
+      "raw": "EURIBOR."
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "observation_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Sociedad  de  Gestión  de  los  Sistemas  de Registro, Compensación y Liquidación de Valores, S.A., Unipersonal (Iberclear), domiciliada en Madrid, Plaza de la Lealtad, 1.",
+      "raw": "Sociedad  de  Gestión  de  los  Sistemas  de Registro, Compensación y Liquidación de Valores, S.A., Unipersonal (Iberclear), domiciliada en Madrid, Plaza de la Lealtad, 1."
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "cap",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X13",
+      "stratum": "covered_bond",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES0213679OT5",
+      "raw": "ES0213679OT5"
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2035-08-08",
+      "raw": "8 August 2035"
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "benchmark",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "spread",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "day_count",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "call_dates",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "In the event that any of the Coupon Payment Dates or the  Maturity  Date  is  not  a  Business  Day,  the  corresponding  payment  shall  be  carried forward to the immediately following Business Day,",
+      "raw": "In the event that any of the Coupon Payment Dates or the  Maturity  Date  is  not  a  Business  Day,  the  corresponding  payment  shall  be  carried forward to the immediately following Business Day,"
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "put_dates",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "reset_dates",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "fixing_rules",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "ranking",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "subordination",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "underlying",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "observation_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "cap",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "N/A"
+    },
+    {
+      "case": "X14",
+      "stratum": "subordinated",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES0280907041",
+      "raw": "ES0280907041"
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "EUR",
+      "raw": "EUR"
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2024-03-22",
+      "raw": "22 March 2024"
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2034-06-22",
+      "raw": "22 June 2034"
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "100.000 EUR",
+      "raw": "s: EUR 100,000"
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "5.500% Fixed Rate to Reset",
+      "raw": "5.500% Fixed Rate to Reset"
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "benchmark",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Mid-Swap Rate",
+      "raw": "Mid-Swap Rate"
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "spread",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "2.80",
+        "NOT_APPLICABLE"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ANNUAL",
+      "raw": "22 June in each year up to and including the Maturity Date"
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "day_count",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Actual/Actual (ICMA)",
+      "raw": "Actual/Actual (ICMA)"
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "call_dates",
+      "truth": "PRESENT",
+      "status": "OBSERVED",
+      "cls": "TP_RAW",
+      "value": null,
+      "raw": "Applicable"
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Following Business Day Convention",
+      "raw": "Following Business Day Convention"
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "put_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not Applicable"
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "reset_dates",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "2029-06-22",
+        "NOT_APPLICABLE",
+        null
+      ],
+      "raw": null
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "fixing_rules",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "Reuters ICESWAP2",
+        "The provisions in the Conditions of the Notes apply",
+        "The provisions in the Conditions of the Notes apply"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "ranking",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        null,
+        "SUBORDINATED"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "subordination",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "TIER_2",
+      "raw": "Subordinated Notes - Tier 2 Subordinated Notes"
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "of each Note: Par",
+      "raw": "of each Note: Par"
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "underlying",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "observation_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Delivery against payment",
+      "raw": "Delivery against payment"
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "cap",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X15",
+      "stratum": "subordinated",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES03406090A6",
+      "raw": "ES03406090A6"
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "EUR",
+      "raw": "EUR"
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2023-09-29",
+      "raw": "ón/Desembolso: La emisión desembolsará el 29 de septiembre de 2023"
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2024-09-27",
+      "raw": "27 de septiembre de 2024"
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "100.000 EUR",
+      "raw": "100.000 Euros"
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "46100000 EUR",
+      "raw": "46.100.000 Euros"
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "Fijo: No Aplicable",
+        "variable: No Aplicable",
+        "indexado: No Aplicable",
+        "con estructura ligada a un subyacente:"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "benchmark",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "spread",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "day_count",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "call_dates",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "put_dates",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "reset_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "fixing_rules",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "ranking",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "subordination",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "100% sobre nominal",
+      "raw": "100% sobre nominal"
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "underlying",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Índice",
+      "raw": "Índice"
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "barrier",
+      "truth": "PRESENT",
+      "status": "OBSERVED",
+      "cls": "TP_RAW",
+      "value": null,
+      "raw": "Nivel Final"
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "autocall",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "No Aplicable"
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "observation_dates",
+      "truth": "MULTI",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2023-09-29",
+      "raw": "29 de septiembre del 2023 Fecha de Observación Final: 20 de septiembre del 2024"
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "IBERCLEAR",
+      "raw": "IBERCLEAR"
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "participation",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "cap",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X16",
+      "stratum": "structured",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2024-07-10",
+      "raw": "10 July 2024"
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Applicable",
+      "raw": "Applicable"
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "benchmark",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "spread",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "OBSERVED",
+      "cls": "TP_RAW",
+      "value": null,
+      "raw": "9 July 2025, subject to adjustment in accordance with the Business Day Convention"
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "day_count",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "1/1",
+      "raw": "1/1"
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "call_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not applicable"
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Adjusted in accordance with Following Business Day Convention",
+      "raw": "Adjusted in accordance with Following Business Day Convention"
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "put_dates",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "reset_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "fixing_rules",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "Bloomberg Page \"EUR006M\" Index",
+        "NOT_APPLICABLE"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "ranking",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "subordination",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "Redemption at par",
+        "Redemption at Par"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "underlying",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Reference Item Rate (See paragraph 27 below)",
+      "raw": "Reference Item Rate (See paragraph 27 below)"
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "barrier",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "3.678",
+      "raw": "' means 3.678 per cent"
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "autocall",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not applicable"
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "observation_dates",
+      "truth": "PRESENT",
+      "status": "OBSERVED",
+      "cls": "TP_RAW",
+      "value": null,
+      "raw": "The Interest Determination Date"
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "OBSERVED",
+      "cls": "FN_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not applicable"
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "cap",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not applicable"
+    },
+    {
+      "case": "X17",
+      "stratum": "structured",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES0305067K50",
+      "raw": "ES0305067K50"
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2025-07-16",
+      "raw": "16 July 2025"
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "100.000 EUR",
+      "raw": "EUR 100,000"
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "coupon_type",
+      "truth": "NA",
+      "status": "DERIVED",
+      "cls": "FP",
+      "value": "thereby fall into the next calendar month, in which event will be brought forward to the immediately preceding Business Day Not applicable",
+      "raw": "thereby fall into the next calendar month, in which event will be brought forward to the immediately preceding Business Day Not applicable"
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "coupon_rate",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "benchmark",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "spread",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "payment_frequency",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "day_count",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "call_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not applicable"
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "put_dates",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "reset_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "fixing_rules",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "ranking",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "subordination",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "Calculation Amount * Final Payout",
+        "Index Linked Redemption (see paragraph 30 and 39 below)",
+        "Index Linked Redemption (see paragraph 30 and 39 below)"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "underlying",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "EURO STOXX Banks Index",
+        null,
+        null
+      ],
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "barrier",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "60",
+      "raw": "60 per cent"
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "autocall",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "APPLICABLE",
+      "raw": "Applicable"
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "observation_dates",
+      "truth": "MULTI",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        null,
+        "2028-07-04",
+        "NOT_APPLICABLE"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "Provisions applicable to Partly Paid",
+        "Provisions applicable to Partly Paid",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        "The Issuer does not have the option to vary settlement in respect of the Notes as set out in General Condition 5(b)(ii)"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "participation",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "cap",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X18",
+      "stratum": "structured",
+      "field": "strike",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "ES0305067L91",
+        "US69608A1088",
+        "US69608A1088",
+        "US69608A1088",
+        "US69608A1088",
+        "US69608A1088",
+        "ES0305067L91"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "EUR",
+      "raw": "Euro ( 'EUR' )"
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2026-02-25",
+      "raw": "25 February 2026"
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Equity Linked Interest",
+      "raw": "Equity Linked Interest"
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "benchmark",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "spread",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "OBSERVED",
+      "cls": "TP_RAW",
+      "value": null,
+      "raw": "See Paragraph 23(ix) below"
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "day_count",
+      "truth": "ABSENT",
+      "status": "DERIVED",
+      "cls": "FP",
+      "value": "1/1",
+      "raw": "1/1"
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "call_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not applicable"
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "Not applicable (Unadjusted)",
+        "Modified Following Business Day Convention",
+        "Modified Following Business Day Convention"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "put_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not applicable"
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "reset_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "fixing_rules",
+      "truth": "ABSENT",
+      "status": "OBSERVED",
+      "cls": "SPURIOUS_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not applicable"
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "ranking",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "subordination",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "Equity Linked Redemption",
+        "Calculation Amount * Final Payout"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "underlying",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "barrier",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        null,
+        null,
+        null,
+        "60.00",
+        null,
+        null
+      ],
+      "raw": null
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "autocall",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "APPLICABLE",
+      "raw": "Applicable"
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "observation_dates",
+      "truth": "MULTI",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        null,
+        null,
+        null,
+        "2029-02-16",
+        "2029-02-16",
+        "2026-02-10",
+        null,
+        null,
+        "NOT_APPLICABLE",
+        null
+      ],
+      "raw": null
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "NOT_APPLICABLE",
+        "Agent:"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "cap",
+      "truth": "ABSENT",
+      "status": "OBSERVED",
+      "cls": "SPURIOUS_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "Not applicable"
+    },
+    {
+      "case": "X19",
+      "stratum": "structured",
+      "field": "strike",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES03406091C0",
+      "raw": "ES03406091C0"
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2025-05-27",
+      "raw": "ón/Desembolso: 27 de mayo de 2025"
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2027-05-27",
+      "raw": "27 de mayo de 2027"
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "100.000 EUR",
+      "raw": "100.000 Euros"
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "35300000 EUR",
+      "raw": "35.300.000 Euros"
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "Fijo: No Aplicable",
+        "variable: No Aplicable",
+        "indexado: No Aplicable",
+        "con estructura ligada a un subyacente:"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "benchmark",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "spread",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "day_count",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "call_dates",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "put_dates",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "reset_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "fixing_rules",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "ranking",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "subordination",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "Si  en  la  Fecha  de  Observación  Final,  el  nivel  oficial  de  cierre  del  Índice Subyacente es igual o superior al Nivel Inicial , se amortizará la emisión en la Fecha de Amortización Final procediéndose a la devolución del Importe Nominal unitario de cada bono y al abono de un interés igual al 100,00% del porcentaje de revalorización del EUROSTOXX50 respecto al Nivel Inicial.",
+        "Si  en  la  Fecha  de  Observación  Final,  el  nivel  oficial  de  cierre  del  Índice Subyacente es inferior al Nivel Inicial , se amortizará la emisión en la Fecha de Amortización Final procediéndose a la devolución del Importe Nominal unitario de cada bono sin abono de intereses.",
+        "(27 de mayo de 2027):",
+        "27 de mayo de 2027.",
+        "100% sobre nominal."
+      ],
+      "raw": null
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "underlying",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Índice",
+      "raw": "Índice"
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "barrier",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "autocall",
+      "truth": "PRESENT",
+      "status": "OBSERVED",
+      "cls": "FN_NA",
+      "value": "NOT_APPLICABLE",
+      "raw": "No Aplicable."
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "observation_dates",
+      "truth": "MULTI",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2025-05-27",
+      "raw": "27 de mayo de 2025 Fecha de Observación Anticipada: 19 de mayo de 2026 Fecha de Observación Final: 20 de mayo de 2027 Nivel Inicial del Índice Subyacente : Nivel oficial de cierre del Índice Subyacent"
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "IBERCLEAR.",
+      "raw": "IBERCLEAR."
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "participation",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "cap",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X20",
+      "stratum": "structured",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X21",
+      "stratum": "supplement",
+      "field": "isin",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X21",
+      "stratum": "supplement",
+      "field": "maturity",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X21",
+      "stratum": "supplement",
+      "field": "coupon_type",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X21",
+      "stratum": "supplement",
+      "field": "benchmark",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X21",
+      "stratum": "supplement",
+      "field": "spread",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X21",
+      "stratum": "supplement",
+      "field": "payment_frequency",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X21",
+      "stratum": "supplement",
+      "field": "call_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X21",
+      "stratum": "supplement",
+      "field": "redemption_formula",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X21",
+      "stratum": "supplement",
+      "field": "underlying",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X21",
+      "stratum": "supplement",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X21",
+      "stratum": "supplement",
+      "field": "settlement_type",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X22",
+      "stratum": "supplement",
+      "field": "isin",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X22",
+      "stratum": "supplement",
+      "field": "maturity",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X22",
+      "stratum": "supplement",
+      "field": "coupon_type",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X22",
+      "stratum": "supplement",
+      "field": "benchmark",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X22",
+      "stratum": "supplement",
+      "field": "spread",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X22",
+      "stratum": "supplement",
+      "field": "payment_frequency",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X22",
+      "stratum": "supplement",
+      "field": "call_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X22",
+      "stratum": "supplement",
+      "field": "redemption_formula",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X22",
+      "stratum": "supplement",
+      "field": "underlying",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X22",
+      "stratum": "supplement",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X22",
+      "stratum": "supplement",
+      "field": "settlement_type",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X23",
+      "stratum": "supplement",
+      "field": "isin",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X23",
+      "stratum": "supplement",
+      "field": "maturity",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X23",
+      "stratum": "supplement",
+      "field": "coupon_type",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X23",
+      "stratum": "supplement",
+      "field": "benchmark",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X23",
+      "stratum": "supplement",
+      "field": "spread",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X23",
+      "stratum": "supplement",
+      "field": "payment_frequency",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X23",
+      "stratum": "supplement",
+      "field": "call_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X23",
+      "stratum": "supplement",
+      "field": "redemption_formula",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X23",
+      "stratum": "supplement",
+      "field": "underlying",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X23",
+      "stratum": "supplement",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X23",
+      "stratum": "supplement",
+      "field": "settlement_type",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X26",
+      "stratum": "registration_document",
+      "field": "isin",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X26",
+      "stratum": "registration_document",
+      "field": "maturity",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X26",
+      "stratum": "registration_document",
+      "field": "coupon_type",
+      "truth": "ABSENT",
+      "status": "CONFLICT",
+      "cls": "FP",
+      "value": [
+        "(0,74%)",
+        "1,87%",
+        "7,95%",
+        "-",
+        "(0,48%)",
+        "-",
+        "30,03%",
+        "8,13%",
+        "1,99%",
+        "-",
+        "5,40%",
+        "-",
+        "1,48%",
+        "-",
+        "2,91%",
+        "-",
+        "-",
+        "0,55%",
+        "1,02%",
+        "-",
+        "1,73%",
+        "-",
+        "1,20%",
+        "0,16%",
+        "2,03%",
+        "-",
+        "4,90%",
+        "0,69%",
+        "-",
+        "-"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X26",
+      "stratum": "registration_document",
+      "field": "benchmark",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X26",
+      "stratum": "registration_document",
+      "field": "spread",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X26",
+      "stratum": "registration_document",
+      "field": "payment_frequency",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X26",
+      "stratum": "registration_document",
+      "field": "call_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X26",
+      "stratum": "registration_document",
+      "field": "redemption_formula",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X26",
+      "stratum": "registration_document",
+      "field": "underlying",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X26",
+      "stratum": "registration_document",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X26",
+      "stratum": "registration_document",
+      "field": "settlement_type",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "isin",
+      "truth": "MULTI",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "issued_amount",
+      "truth": "MULTI",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "coupon_rate",
+      "truth": "MULTI",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "benchmark",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "EURIBOR",
+      "raw": "Provider."
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "spread",
+      "truth": "MULTI",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "day_count",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "call_dates",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "Modified  Following  Business  Day Convention",
+        "Modified  Following  Business  Day Convention",
+        "Modified Following Business Day Convention",
+        "Modified Following Business Day Convention",
+        "Modified Following Business Day Convention",
+        "Modified Following Business Day Convention",
+        "Modified Following Business Day Convention",
+        "Modified Following Business Day Convention",
+        "Modified Following Business Day Convention",
+        "Convención del Siguiente Día Hábil",
+        "Modified  Following  Business  Day  Convention"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "put_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "reset_dates",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "fixing_rules",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "ranking",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "subordination",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "underlying",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "observation_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "cap",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X27",
+      "stratum": "securitisation",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES0244251056",
+      "raw": "ES0244251056"
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "issue_date",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2026-02-10",
+      "raw": "10 February 2026"
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "coupon_rate",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "benchmark",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "spread",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "day_count",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "call_dates",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "put_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "reset_dates",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "fixing_rules",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "ranking",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ORDINARY",
+      "raw": "made in euro without deduction for or on account of taxes imposed or levied by the Kingdom of Spain to the extent described under Condition 7 in the Conditions. The payment obligations of the Bank under the Notes on account of principal constitute direct, unconditional, unsubordinated and unsecured ordinary claims (' créditos ordinarios '). For further information, see Condition 2."
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "subordination",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "FP_RAW",
+      "value": null,
+      "raw": "made in euro without deduction for or on account of taxes imposed or levied by the Kingdom of Spain to the extent described under Condition 7 in the Conditions. The payment obligations of the Bank under the Notes on account of principal constitute direct, unconditional, unsubordinated and unsecured ordinary claims (' créditos ordinarios '). For further information, see Condition 2."
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "underlying",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "observation_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "cap",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X28",
+      "stratum": "admission_debt",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X29",
+      "stratum": "admission_equity",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES0105521001",
+      "raw": "ES0105521001"
+    },
+    {
+      "case": "X29",
+      "stratum": "admission_equity",
+      "field": "maturity",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X29",
+      "stratum": "admission_equity",
+      "field": "coupon_type",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X29",
+      "stratum": "admission_equity",
+      "field": "coupon_rate",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X29",
+      "stratum": "admission_equity",
+      "field": "benchmark",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X29",
+      "stratum": "admission_equity",
+      "field": "spread",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X29",
+      "stratum": "admission_equity",
+      "field": "payment_frequency",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X29",
+      "stratum": "admission_equity",
+      "field": "day_count",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X29",
+      "stratum": "admission_equity",
+      "field": "call_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X29",
+      "stratum": "admission_equity",
+      "field": "redemption_formula",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X29",
+      "stratum": "admission_equity",
+      "field": "underlying",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X29",
+      "stratum": "admission_equity",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X29",
+      "stratum": "admission_equity",
+      "field": "settlement_type",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "isin",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "currency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "EUR",
+      "raw": "Los Pagarés serán emitidos en euros (€)."
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "issue_date",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "maturity",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "denomination",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "1.000 EUR",
+      "raw": "El valor nominal mínimo unitario de los Pagarés emitidos al amparo del Programa 2021 será de 1.000 euros."
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "issued_amount",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "coupon_type",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": [
+        "nominal medio de los créditos concedidos",
+        "medio implícito de los pagarés emitidos",
+        "Tipo  de interés",
+        "Tipo  de interés",
+        "Calculado como la media ponderada de los tipos de interés nominales de los créditos concedidos por la Sociedad, esto es, la suma de los tipos de interés de cada crédito concedido por el capital prestado en cada uno de ellos, todo ello dividido por el capital prestado total de los créditos concedidos.",
+        "Calculado como la media ponderada de los tipos de interés nominales de los pagarés emitidos por la Sociedad, esto es, la suma de los tipos de interés de cada pagaré emitido por su importe efectivo, todo ello dividido por el capital efectivo total de los pagarés emitidos.",
+        "11,79",
+        "2,97",
+        "Fecha de emisión"
+      ],
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "coupon_rate",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "benchmark",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "spread",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "day_count",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "call_dates",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "business_day_convention",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "put_dates",
+      "truth": "NA",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "reset_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "fixing_rules",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "ranking",
+      "truth": "ABSENT",
+      "status": "OBSERVED",
+      "cls": "FP_RAW",
+      "value": null,
+      "raw": "valor razonable"
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "subordination",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "underlying",
+      "truth": "ABSENT",
+      "status": "DERIVED",
+      "cls": "FP",
+      "value": "en que se basa el tipo",
+      "raw": "en que se basa el tipo"
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "observation_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "MISSING",
+      "cls": "FN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "cap",
+      "truth": "ABSENT",
+      "status": "OBSERVED",
+      "cls": "FP_RAW",
+      "value": null,
+      "raw": "Reservas"
+    },
+    {
+      "case": "X30",
+      "stratum": "commercial_paper_programme",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null,
+      "raw": null
+    }
+  ]
+}

@@ -1,0 +1,898 @@
+{
+  "n_docs": 30,
+  "n_with_document_only_delta": 21,
+  "pct": 0.7,
+  "threshold": 0.8,
+  "required_min": 24,
+  "gate": "FAIL",
+  "per_doc": [
+    {
+      "case_key": "X01",
+      "stratum": "plain_vanilla",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "day_count",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "TP"
+        }
+      ]
+    },
+    {
+      "case_key": "X02",
+      "stratum": "plain_vanilla",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "day_count",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "call_dates",
+          "truth": "MULTI",
+          "cls": "TP"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "TP"
+        }
+      ]
+    },
+    {
+      "case_key": "X03",
+      "stratum": "plain_vanilla",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "day_count",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "call_dates",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "reset_dates",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "fixing_rules",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "TP"
+        }
+      ]
+    },
+    {
+      "case_key": "X04",
+      "stratum": "plain_vanilla",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "day_count",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "call_dates",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "reset_dates",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "fixing_rules",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "TP"
+        }
+      ]
+    },
+    {
+      "case_key": "X05",
+      "stratum": "plain_vanilla",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "day_count",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "call_dates",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "reset_dates",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "fixing_rules",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "TP"
+        }
+      ]
+    },
+    {
+      "case_key": "X06",
+      "stratum": "coupon_variant_candidate",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "day_count",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "TP"
+        }
+      ]
+    },
+    {
+      "case_key": "X07",
+      "stratum": "coupon_variant_candidate",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "day_count",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "call_dates",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "TP"
+        }
+      ]
+    },
+    {
+      "case_key": "X08",
+      "stratum": "coupon_variant_candidate",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "day_count",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "TP"
+        }
+      ]
+    },
+    {
+      "case_key": "X09",
+      "stratum": "coupon_variant_candidate",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "day_count",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "call_dates",
+          "truth": "MULTI",
+          "cls": "TP_RAW"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "TP"
+        }
+      ]
+    },
+    {
+      "case_key": "X10",
+      "stratum": "covered_bond",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "MULTI",
+          "cls": "TP"
+        },
+        {
+          "field": "day_count",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "reset_dates",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "fixing_rules",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "TP"
+        }
+      ]
+    },
+    {
+      "case_key": "X11",
+      "stratum": "covered_bond",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "MULTI",
+          "cls": "FN"
+        },
+        {
+          "field": "day_count",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "call_dates",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "reset_dates",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "fixing_rules",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "TP"
+        }
+      ]
+    },
+    {
+      "case_key": "X12",
+      "stratum": "covered_bond",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "day_count",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "reset_dates",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "fixing_rules",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "TP"
+        }
+      ]
+    },
+    {
+      "case_key": "X13",
+      "stratum": "covered_bond",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "MULTI",
+          "cls": "TP"
+        },
+        {
+          "field": "day_count",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "reset_dates",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "fixing_rules",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "TP"
+        }
+      ]
+    },
+    {
+      "case_key": "X14",
+      "stratum": "subordinated",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "day_count",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "call_dates",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "reset_dates",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "fixing_rules",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "FN"
+        }
+      ]
+    },
+    {
+      "case_key": "X15",
+      "stratum": "subordinated",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "day_count",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "call_dates",
+          "truth": "PRESENT",
+          "cls": "TP_RAW"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "reset_dates",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "fixing_rules",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "TP"
+        }
+      ]
+    },
+    {
+      "case_key": "X16",
+      "stratum": "structured",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "barrier",
+          "truth": "PRESENT",
+          "cls": "TP_RAW"
+        },
+        {
+          "field": "observation_dates",
+          "truth": "MULTI",
+          "cls": "TP"
+        }
+      ]
+    },
+    {
+      "case_key": "X17",
+      "stratum": "structured",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "PRESENT",
+          "cls": "TP_RAW"
+        },
+        {
+          "field": "day_count",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "fixing_rules",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "barrier",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "observation_dates",
+          "truth": "PRESENT",
+          "cls": "TP_RAW"
+        }
+      ]
+    },
+    {
+      "case_key": "X18",
+      "stratum": "structured",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "barrier",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "autocall",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "observation_dates",
+          "truth": "MULTI",
+          "cls": "TP"
+        },
+        {
+          "field": "participation",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "strike",
+          "truth": "PRESENT",
+          "cls": "FN"
+        }
+      ]
+    },
+    {
+      "case_key": "X19",
+      "stratum": "structured",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "PRESENT",
+          "cls": "TP_RAW"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "barrier",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "autocall",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "observation_dates",
+          "truth": "MULTI",
+          "cls": "TP"
+        },
+        {
+          "field": "strike",
+          "truth": "PRESENT",
+          "cls": "FN"
+        }
+      ]
+    },
+    {
+      "case_key": "X20",
+      "stratum": "structured",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "barrier",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "autocall",
+          "truth": "PRESENT",
+          "cls": "FN_NA"
+        },
+        {
+          "field": "observation_dates",
+          "truth": "MULTI",
+          "cls": "TP"
+        },
+        {
+          "field": "participation",
+          "truth": "PRESENT",
+          "cls": "FN"
+        }
+      ]
+    },
+    {
+      "case_key": "X21",
+      "stratum": "supplement",
+      "has_material_document_only_delta": false,
+      "document_only_terms": []
+    },
+    {
+      "case_key": "X22",
+      "stratum": "supplement",
+      "has_material_document_only_delta": false,
+      "document_only_terms": []
+    },
+    {
+      "case_key": "X23",
+      "stratum": "supplement",
+      "has_material_document_only_delta": false,
+      "document_only_terms": []
+    },
+    {
+      "case_key": "X24",
+      "stratum": "correction",
+      "has_material_document_only_delta": false,
+      "document_only_terms": []
+    },
+    {
+      "case_key": "X25",
+      "stratum": "correction",
+      "has_material_document_only_delta": false,
+      "document_only_terms": []
+    },
+    {
+      "case_key": "X26",
+      "stratum": "registration_document",
+      "has_material_document_only_delta": false,
+      "document_only_terms": []
+    },
+    {
+      "case_key": "X27",
+      "stratum": "securitisation",
+      "has_material_document_only_delta": true,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "day_count",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "call_dates",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "TP"
+        },
+        {
+          "field": "reset_dates",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "fixing_rules",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "FN"
+        }
+      ]
+    },
+    {
+      "case_key": "X28",
+      "stratum": "admission_debt",
+      "has_material_document_only_delta": false,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "day_count",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "call_dates",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "business_day_convention",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "reset_dates",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "fixing_rules",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "FN"
+        }
+      ]
+    },
+    {
+      "case_key": "X29",
+      "stratum": "admission_equity",
+      "has_material_document_only_delta": false,
+      "document_only_terms": []
+    },
+    {
+      "case_key": "X30",
+      "stratum": "commercial_paper_programme",
+      "has_material_document_only_delta": false,
+      "document_only_terms": [
+        {
+          "field": "payment_frequency",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "day_count",
+          "truth": "PRESENT",
+          "cls": "FN"
+        },
+        {
+          "field": "redemption_formula",
+          "truth": "PRESENT",
+          "cls": "FN"
+        }
+      ]
+    }
+  ]
+}

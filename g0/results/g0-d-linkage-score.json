@@ -1,0 +1,604 @@
+{
+  "n": 300,
+  "gold_distribution": {
+    "EXACT_LINK": 224,
+    "NO_LINK": 69,
+    "AMBIGUOUS": 7
+  },
+  "prediction_distribution": {
+    "EXACT_LINK": 199,
+    "NO_LINK": 63,
+    "AMBIGUOUS": 38
+  },
+  "accuracy": 0.8833333333333333,
+  "tp": 199,
+  "fp": 0,
+  "fn": 25,
+  "precision": 1.0,
+  "recall": 0.8883928571428571,
+  "ambiguous": {
+    "gold": 7,
+    "correctly_abstained": 5,
+    "forced_ambiguous_links": 0
+  },
+  "per_stratum": {
+    "S1_final_terms_to_programme": {
+      "n": 98,
+      "ok": 98,
+      "fail": 0
+    },
+    "S2_supplement_to_prospectus": {
+      "n": 50,
+      "ok": 50,
+      "fail": 0
+    },
+    "S3_correction_to_document": {
+      "n": 10,
+      "ok": 10,
+      "fail": 0
+    },
+    "S4_programme_succession": {
+      "n": 25,
+      "ok": 0,
+      "fail": 25
+    },
+    "S5_admission_to_security": {
+      "n": 35,
+      "ok": 35,
+      "fail": 0
+    },
+    "S6_same_issuer_wrong_programme": {
+      "n": 15,
+      "ok": 15,
+      "fail": 0
+    },
+    "S7_same_programme_different_role": {
+      "n": 8,
+      "ok": 0,
+      "fail": 8
+    },
+    "S8_similar_title_diff_issuer": {
+      "n": 15,
+      "ok": 15,
+      "fail": 0
+    },
+    "S9_no_link_insufficient": {
+      "n": 24,
+      "ok": 22,
+      "fail": 2
+    },
+    "S10_multi_venue": {
+      "n": 15,
+      "ok": 15,
+      "fail": 0
+    },
+    "S11_ambiguous_ground_truth": {
+      "n": 5,
+      "ok": 5,
+      "fail": 0
+    }
+  },
+  "hard_gates": {
+    "accuracy>=0.98": "FAIL",
+    "precision>=0.99": "PASS",
+    "recall>=0.95": "FAIL",
+    "fp_links==0": "PASS",
+    "forced_ambiguous==0": "PASS"
+  },
+  "failures": [
+    {
+      "case_key": "S4-001",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (BANCA MARCH, S.A.) y rol; 11342 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-002",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (DEUTSCHE BANK, SOCIEDAD ANONIMA ESPAÑOLA) y rol; 11198 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-003",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (CAIXABANK, S.A.) y rol; 11290 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-004",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor pero sin evidencia de sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-005",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (EUROCAJA RURAL, SOCIEDAD COOPERATIVA DE CRÉDITO) y rol; 11239 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-006",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (BBVA GLOBAL MARKETS B.V.) y rol; 11335 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-007",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (ORYZON GENOMICS, S.A.) y rol; 11282 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-008",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (TELEFONICA, S.A.) y rol; 11226 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-009",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (BANKINTER, S.A.) y rol; 11260 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-010",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor pero sin evidencia de sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-011",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (CAJA RURAL DE NAVARRA, S. COOP. DE CREDITO) y rol; 11324 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-012",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (BANKINTER, S.A.) y rol; 11309 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-013",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (IBERCAJA BANCO, S.A.) y rol; 11273 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-014",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (IBERCAJA BANCO, S.A.) y rol; 11227 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-015",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor pero sin evidencia de sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-016",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (BANCO DE SABADELL, S.A.) y rol; 11253 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-017",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (COLONIAL SFL, SOCIMI, S.A.) y rol; 11271 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-018",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor pero sin evidencia de sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-019",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (KUTXABANK, S.A) y rol; 11257 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-020",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (BANCO SANTANDER, S.A.) y rol; 11166 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-021",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (BANCO BILBAO VIZCAYA ARGENTARIA, S.A.) y rol; 11244 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-022",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (BANCO DE SABADELL, S.A.) y rol; 11302 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-023",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (DEUTSCHE BANK, SOCIEDAD ANONIMA ESPAÑOLA) y rol; 11291 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-024",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor pero sin evidencia de sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S4-025",
+      "stratum": "S4_programme_succession",
+      "gold": "EXACT_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "mismo emisor (CAJA RURAL DE GRANADA, SOCIEDAD COOPERATIVA DE CREDITO) y rol; 11305 precede en el tiempo, pero la fila no declara sucesion"
+      ],
+      "correct": false,
+      "error_class": "MISSING_EXPLICIT_REFERENCE"
+    },
+    {
+      "case_key": "S7-001",
+      "stratum": "S7_same_programme_different_role",
+      "gold": "NO_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "NO_EVIDENCE_FALLBACK",
+      "rule_version": "1.0",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [],
+      "correct": false,
+      "error_class": "RULE_DEFECT"
+    },
+    {
+      "case_key": "S7-002",
+      "stratum": "S7_same_programme_different_role",
+      "gold": "NO_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "NO_EVIDENCE_FALLBACK",
+      "rule_version": "1.0",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [],
+      "correct": false,
+      "error_class": "RULE_DEFECT"
+    },
+    {
+      "case_key": "S7-003",
+      "stratum": "S7_same_programme_different_role",
+      "gold": "NO_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "NO_EVIDENCE_FALLBACK",
+      "rule_version": "1.0",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [],
+      "correct": false,
+      "error_class": "RULE_DEFECT"
+    },
+    {
+      "case_key": "S7-004",
+      "stratum": "S7_same_programme_different_role",
+      "gold": "NO_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "NO_EVIDENCE_FALLBACK",
+      "rule_version": "1.0",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [],
+      "correct": false,
+      "error_class": "RULE_DEFECT"
+    },
+    {
+      "case_key": "S7-005",
+      "stratum": "S7_same_programme_different_role",
+      "gold": "NO_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "NO_EVIDENCE_FALLBACK",
+      "rule_version": "1.0",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [],
+      "correct": false,
+      "error_class": "RULE_DEFECT"
+    },
+    {
+      "case_key": "S7-006",
+      "stratum": "S7_same_programme_different_role",
+      "gold": "NO_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "NO_EVIDENCE_FALLBACK",
+      "rule_version": "1.0",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [],
+      "correct": false,
+      "error_class": "RULE_DEFECT"
+    },
+    {
+      "case_key": "S7-007",
+      "stratum": "S7_same_programme_different_role",
+      "gold": "NO_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "NO_EVIDENCE_FALLBACK",
+      "rule_version": "1.0",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [],
+      "correct": false,
+      "error_class": "RULE_DEFECT"
+    },
+    {
+      "case_key": "S7-008",
+      "stratum": "S7_same_programme_different_role",
+      "gold": "NO_LINK",
+      "decision": "AMBIGUOUS",
+      "rule_id": "NO_EVIDENCE_FALLBACK",
+      "rule_version": "1.0",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [],
+      "correct": false,
+      "error_class": "RULE_DEFECT"
+    },
+    {
+      "case_key": "S9-021",
+      "stratum": "S9_no_link_insufficient",
+      "gold": "AMBIGUOUS",
+      "decision": "NO_LINK",
+      "rule_id": "NO_EVIDENCE_FALLBACK",
+      "rule_version": "1.0",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "sin candidato propuesto"
+      ],
+      "correct": false,
+      "error_class": "RULE_DEFECT"
+    },
+    {
+      "case_key": "S9-023",
+      "stratum": "S9_no_link_insufficient",
+      "gold": "AMBIGUOUS",
+      "decision": "NO_LINK",
+      "rule_id": "CNMV_SERIE_NO_DOC",
+      "rule_version": "1.1",
+      "relation": null,
+      "positive_evidence": [],
+      "negative_evidence": [
+        "fila SERIE sin documento observable propio"
+      ],
+      "correct": false,
+      "error_class": "RULE_DEFECT"
+    }
+  ],
+  "error_taxonomy": {
+    "MISSING_EXPLICIT_REFERENCE": 25,
+    "RULE_DEFECT": 10
+  },
+  "taxonomy_note": "Diagnostico, no altera metricas. S4: gold infiere sucesion de programa donde la regla v1.1 exige referencia documental explicita (invariante registrado en linking-rules.md). S7/S9: calibracion del NO_EVIDENCE_FALLBACK."
+}

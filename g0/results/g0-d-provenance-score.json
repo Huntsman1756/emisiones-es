@@ -1,0 +1,8 @@
+{
+  "accepted_factual_values": 258,
+  "evidence_backed": 258,
+  "provenance_bad": 0,
+  "pct_backed": 1.0,
+  "gate_100pct": "PASS",
+  "bad_cases": []
+}

@@ -1,0 +1,33 @@
+{
+ "manifest": "code-freeze.json",
+ "frozen_at_commit": "5426194d8ae2c953b7edbd4fbbbe4d0f9cebde65",
+ "tree_sha": "60f30ceb0ac57b78cb35bdcee716a033aa9382b8",
+ "python": {
+  "version": "3.13.11",
+  "implementation": "CPython"
+ },
+ "locks": {
+  "requirements_lock_sha256": "ba2f63cb78eadb9b26633fb91d62626b3a8f337666e416d982631b1f7a9f4e4d",
+  "environment_lock_sha256": "cb1884fcff36172f466af7652e686fb2027b878b7f8c62af3f49b2f4057c61cc"
+ },
+ "code": {
+  "linker_rules_sha256": "9e392e84b5d63cfd4aa3040cc5ee763ab853e0c9de1a30a6abc2f4992b75b632",
+  "extractor_registry_sha256": "e3b8b576fc6faa48876ad0d73218b53b1ce0dee4a59e741d52f64484ba9a2b40",
+  "normalizers_sha256": "e334ad9051dc37583cee0473042a7bf755c213e74eec02a6e8b4ec7537985ad8",
+  "linking_rules_doc_sha256": "4aba2f57f68d7d9c4269d8952fe8cd6a113e4d37b7574204fae6aa742d79eb5f"
+ },
+ "manifests": {
+  "field_support_freeze_sha256": "a55aae79f619448db198139eca4b49fea41516de750319b824702484a61052f5",
+  "novelty_field_map_sha256": "fb01c28fbde84c5b60445c017e70dd79b0787a499b988acf004fc9b2fbc38bca",
+  "extraction_deep_dev_sha256": "8851c7c594c191678638bea1288de5b7db82d49dd0da74d8cc11276132b59b08",
+  "linkage_holdout_sha256": "a36d37a32845b58f76b2bb75838f38653cb4728219f8bf84244c8e8250996b3f",
+  "extraction_holdout_sha256": "f44ce4d0c82fcae34ce493febe234cc85d7b0165e501a05878f2e5ffd1d23f1c",
+  "threshold_manifest_sha256": "1df6165ea2d1f2eeb221b9ba340f746037302ac94497e90b70fcac457bf9ed7d",
+  "freeze_hashes_sha256": "4b575a025ed77743babd61f6ddd4fc6b54095a301d3a9d2a70874638d1d09540"
+ },
+ "decisions": {
+  "docling_strategy": "KEEP_FULL",
+  "docling_decision_sha256": "36ce9fb6868b79c0d934a006d3485509d67f366233604021c586c03e171fe991"
+ },
+ "post_freeze_policy": "NO code edits / NO rule edits / NO extractor edits / NO support changes / NO threshold changes antes de G0-D"
+}

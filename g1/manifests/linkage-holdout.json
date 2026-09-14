@@ -1,0 +1,1624 @@
+{
+ "manifest": "g1-linkage-holdout",
+ "frozen_at": "2026-09-17",
+ "seed": 20260917,
+ "label_semantics": {
+  "LINK": "relation exists and is provable from source",
+  "NO_LINK": "no relation",
+  "AMBIGUOUS": "relation plausible but not provable -> REVIEW_REQUIRED",
+  "operational_outputs": [
+   "AUTO_LINKED",
+   "REVIEW_REQUIRED",
+   "NO_LINK"
+  ]
+ },
+ "n_cases": 124,
+ "strata_counts": {
+  "L1_explicit_family": 40,
+  "L2_supplement_to_base": 18,
+  "L3_same_programme_role": 10,
+  "L4_same_issuer_diff_programme": 15,
+  "L5_missing_family": 16,
+  "L6_hard_negative": 15,
+  "L7_succession_candidate": 10
+ },
+ "cases": [
+  {
+   "case_key": "L1_explicit_family-001",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11433_007",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11433"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-002",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11338_002",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11338"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-003",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11357_018",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11357"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-004",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11384_002",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11384"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-005",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11400_031",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11400"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-006",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11380_024",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11380"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-007",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11400_002",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11400"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-008",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11335_002",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11335"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-009",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11380_033",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11380"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-010",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11383_005",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11383"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-011",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11357_013",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11357"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-012",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11383_001",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11383"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-013",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11341_002",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11341"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-014",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11340_020",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11340"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-015",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11307_005",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11307"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-016",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11407_004",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11407"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-017",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11307_036",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11307"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-018",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11341_004",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11341"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-019",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11374_001",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11374"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-020",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11286_001",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11286"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-021",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11403_002",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11403"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-022",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11307_039",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11307"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-023",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11309_002",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11309"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-024",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11289_001",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11289"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-025",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11327_002",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11327"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-026",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11307_012",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11307"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-027",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11307_038",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11307"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-028",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11357_010",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11357"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-029",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11307_027",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11307"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-030",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11400_001",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11400"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-031",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11357_014",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11357"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-032",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11340_002",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11340"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-033",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11382_003",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11382"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-034",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11384_003",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11384"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-035",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11290_005",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11290"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-036",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11307_008",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11307"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-037",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11357_004",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11357"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-038",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11307_034",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11307"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-039",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11385_002",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11385"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L1_explicit_family-040",
+   "stratum": "L1_explicit_family",
+   "source_key": "CCFF_11290_019",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11290"
+   },
+   "label": "LINK",
+   "relation_if_link": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "fila CCFF enlaza NUMFOL explicito"
+  },
+  {
+   "case_key": "L2_supplement_to_base-041",
+   "stratum": "L2_supplement_to_base",
+   "source_key": "FAM_11286_11286.4",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11286"
+   },
+   "label": "LINK",
+   "relation_if_link": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro 11286.k listado como SUPLEMENTO de 11286"
+  },
+  {
+   "case_key": "L2_supplement_to_base-042",
+   "stratum": "L2_supplement_to_base",
+   "source_key": "FAM_11286_11286.3",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11286"
+   },
+   "label": "LINK",
+   "relation_if_link": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro 11286.k listado como SUPLEMENTO de 11286"
+  },
+  {
+   "case_key": "L2_supplement_to_base-043",
+   "stratum": "L2_supplement_to_base",
+   "source_key": "FAM_11286_11286.2",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11286"
+   },
+   "label": "LINK",
+   "relation_if_link": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro 11286.k listado como SUPLEMENTO de 11286"
+  },
+  {
+   "case_key": "L2_supplement_to_base-044",
+   "stratum": "L2_supplement_to_base",
+   "source_key": "FAM_11286_11286.1",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11286"
+   },
+   "label": "LINK",
+   "relation_if_link": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro 11286.k listado como SUPLEMENTO de 11286"
+  },
+  {
+   "case_key": "L2_supplement_to_base-045",
+   "stratum": "L2_supplement_to_base",
+   "source_key": "FAM_11291_11291.1",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11291"
+   },
+   "label": "LINK",
+   "relation_if_link": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro 11291.k listado como SUPLEMENTO de 11291"
+  },
+  {
+   "case_key": "L2_supplement_to_base-046",
+   "stratum": "L2_supplement_to_base",
+   "source_key": "FAM_11307_11307.1",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11307"
+   },
+   "label": "LINK",
+   "relation_if_link": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro 11307.k listado como SUPLEMENTO de 11307"
+  },
+  {
+   "case_key": "L2_supplement_to_base-047",
+   "stratum": "L2_supplement_to_base",
+   "source_key": "FAM_11310_11310.2",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11310"
+   },
+   "label": "LINK",
+   "relation_if_link": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro 11310.k listado como SUPLEMENTO de 11310"
+  },
+  {
+   "case_key": "L2_supplement_to_base-048",
+   "stratum": "L2_supplement_to_base",
+   "source_key": "FAM_11310_11310.1",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11310"
+   },
+   "label": "LINK",
+   "relation_if_link": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro 11310.k listado como SUPLEMENTO de 11310"
+  },
+  {
+   "case_key": "L2_supplement_to_base-049",
+   "stratum": "L2_supplement_to_base",
+   "source_key": "FAM_11329_11329.2",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11329"
+   },
+   "label": "LINK",
+   "relation_if_link": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro 11329.k listado como SUPLEMENTO de 11329"
+  },
+  {
+   "case_key": "L2_supplement_to_base-050",
+   "stratum": "L2_supplement_to_base",
+   "source_key": "FAM_11329_11329.1",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11329"
+   },
+   "label": "LINK",
+   "relation_if_link": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro 11329.k listado como SUPLEMENTO de 11329"
+  },
+  {
+   "case_key": "L2_supplement_to_base-051",
+   "stratum": "L2_supplement_to_base",
+   "source_key": "FAM_11335_11335.3",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11335"
+   },
+   "label": "LINK",
+   "relation_if_link": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro 11335.k listado como SUPLEMENTO de 11335"
+  },
+  {
+   "case_key": "L2_supplement_to_base-052",
+   "stratum": "L2_supplement_to_base",
+   "source_key": "FAM_11335_11335.2",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11335"
+   },
+   "label": "LINK",
+   "relation_if_link": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro 11335.k listado como SUPLEMENTO de 11335"
+  },
+  {
+   "case_key": "L2_supplement_to_base-053",
+   "stratum": "L2_supplement_to_base",
+   "source_key": "FAM_11335_11335.1",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11335"
+   },
+   "label": "LINK",
+   "relation_if_link": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro 11335.k listado como SUPLEMENTO de 11335"
+  },
+  {
+   "case_key": "L2_supplement_to_base-054",
+   "stratum": "L2_supplement_to_base",
+   "source_key": "FAM_11357_11357.2",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11357"
+   },
+   "label": "LINK",
+   "relation_if_link": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro 11357.k listado como SUPLEMENTO de 11357"
+  },
+  {
+   "case_key": "L2_supplement_to_base-055",
+   "stratum": "L2_supplement_to_base",
+   "source_key": "FAM_11357_11357.1",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11357"
+   },
+   "label": "LINK",
+   "relation_if_link": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro 11357.k listado como SUPLEMENTO de 11357"
+  },
+  {
+   "case_key": "L2_supplement_to_base-056",
+   "stratum": "L2_supplement_to_base",
+   "source_key": "FAM_11374_11374.3",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11374"
+   },
+   "label": "LINK",
+   "relation_if_link": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro 11374.k listado como SUPLEMENTO de 11374"
+  },
+  {
+   "case_key": "L2_supplement_to_base-057",
+   "stratum": "L2_supplement_to_base",
+   "source_key": "FAM_11374_11374.2",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11374"
+   },
+   "label": "LINK",
+   "relation_if_link": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro 11374.k listado como SUPLEMENTO de 11374"
+  },
+  {
+   "case_key": "L2_supplement_to_base-058",
+   "stratum": "L2_supplement_to_base",
+   "source_key": "FAM_11374_11374.1",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11374"
+   },
+   "label": "LINK",
+   "relation_if_link": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro 11374.k listado como SUPLEMENTO de 11374"
+  },
+  {
+   "case_key": "L3_same_programme_role-059",
+   "stratum": "L3_same_programme_role",
+   "source_key": "FAM_11335_11335",
+   "candidate": {
+    "type": "final_terms_any",
+    "numfol": "11335"
+   },
+   "label": "LINK",
+   "relation_if_link": "BELONGS_TO_SAME_PROGRAMME",
+   "label_source": "structural",
+   "evidence": "mismo NUMFOL, roles distintos"
+  },
+  {
+   "case_key": "L3_same_programme_role-060",
+   "stratum": "L3_same_programme_role",
+   "source_key": "FAM_11286_11286",
+   "candidate": {
+    "type": "final_terms_any",
+    "numfol": "11286"
+   },
+   "label": "LINK",
+   "relation_if_link": "BELONGS_TO_SAME_PROGRAMME",
+   "label_source": "structural",
+   "evidence": "mismo NUMFOL, roles distintos"
+  },
+  {
+   "case_key": "L3_same_programme_role-061",
+   "stratum": "L3_same_programme_role",
+   "source_key": "FAM_11286_11286",
+   "candidate": {
+    "type": "final_terms_any",
+    "numfol": "11286"
+   },
+   "label": "LINK",
+   "relation_if_link": "BELONGS_TO_SAME_PROGRAMME",
+   "label_source": "structural",
+   "evidence": "mismo NUMFOL, roles distintos"
+  },
+  {
+   "case_key": "L3_same_programme_role-062",
+   "stratum": "L3_same_programme_role",
+   "source_key": "FAM_11329_11329",
+   "candidate": {
+    "type": "final_terms_any",
+    "numfol": "11329"
+   },
+   "label": "LINK",
+   "relation_if_link": "BELONGS_TO_SAME_PROGRAMME",
+   "label_source": "structural",
+   "evidence": "mismo NUMFOL, roles distintos"
+  },
+  {
+   "case_key": "L3_same_programme_role-063",
+   "stratum": "L3_same_programme_role",
+   "source_key": "FAM_11335_11335",
+   "candidate": {
+    "type": "final_terms_any",
+    "numfol": "11335"
+   },
+   "label": "LINK",
+   "relation_if_link": "BELONGS_TO_SAME_PROGRAMME",
+   "label_source": "structural",
+   "evidence": "mismo NUMFOL, roles distintos"
+  },
+  {
+   "case_key": "L3_same_programme_role-064",
+   "stratum": "L3_same_programme_role",
+   "source_key": "FAM_11374_11374",
+   "candidate": {
+    "type": "final_terms_any",
+    "numfol": "11374"
+   },
+   "label": "LINK",
+   "relation_if_link": "BELONGS_TO_SAME_PROGRAMME",
+   "label_source": "structural",
+   "evidence": "mismo NUMFOL, roles distintos"
+  },
+  {
+   "case_key": "L3_same_programme_role-065",
+   "stratum": "L3_same_programme_role",
+   "source_key": "FAM_11286_11286",
+   "candidate": {
+    "type": "final_terms_any",
+    "numfol": "11286"
+   },
+   "label": "LINK",
+   "relation_if_link": "BELONGS_TO_SAME_PROGRAMME",
+   "label_source": "structural",
+   "evidence": "mismo NUMFOL, roles distintos"
+  },
+  {
+   "case_key": "L3_same_programme_role-066",
+   "stratum": "L3_same_programme_role",
+   "source_key": "FAM_11374_11374",
+   "candidate": {
+    "type": "final_terms_any",
+    "numfol": "11374"
+   },
+   "label": "LINK",
+   "relation_if_link": "BELONGS_TO_SAME_PROGRAMME",
+   "label_source": "structural",
+   "evidence": "mismo NUMFOL, roles distintos"
+  },
+  {
+   "case_key": "L3_same_programme_role-067",
+   "stratum": "L3_same_programme_role",
+   "source_key": "FAM_11374_11374",
+   "candidate": {
+    "type": "final_terms_any",
+    "numfol": "11374"
+   },
+   "label": "LINK",
+   "relation_if_link": "BELONGS_TO_SAME_PROGRAMME",
+   "label_source": "structural",
+   "evidence": "mismo NUMFOL, roles distintos"
+  },
+  {
+   "case_key": "L3_same_programme_role-068",
+   "stratum": "L3_same_programme_role",
+   "source_key": "FAM_11310_11310",
+   "candidate": {
+    "type": "final_terms_any",
+    "numfol": "11310"
+   },
+   "label": "LINK",
+   "relation_if_link": "BELONGS_TO_SAME_PROGRAMME",
+   "label_source": "structural",
+   "evidence": "mismo NUMFOL, roles distintos"
+  },
+  {
+   "case_key": "L4_same_issuer_diff_programme-069",
+   "stratum": "L4_same_issuer_diff_programme",
+   "source_key": "PROG_11171",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11175"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "mismo emisor OBRASCON HUARTE LAIN, S.A., programas 11171!=11175"
+  },
+  {
+   "case_key": "L4_same_issuer_diff_programme-070",
+   "stratum": "L4_same_issuer_diff_programme",
+   "source_key": "PROG_11183",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11184"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "mismo emisor INVERSA PRIME SOCIMI, S.A., programas 11183!=11184"
+  },
+  {
+   "case_key": "L4_same_issuer_diff_programme-071",
+   "stratum": "L4_same_issuer_diff_programme",
+   "source_key": "PROG_11159",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11241"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "mismo emisor OPDENERGY HOLDING, S.A., programas 11159!=11241"
+  },
+  {
+   "case_key": "L4_same_issuer_diff_programme-072",
+   "stratum": "L4_same_issuer_diff_programme",
+   "source_key": "PROG_11217",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11401"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "mismo emisor NYESA VALORES CORPORACION, S.A., programas 11217!=11401"
+  },
+  {
+   "case_key": "L4_same_issuer_diff_programme-073",
+   "stratum": "L4_same_issuer_diff_programme",
+   "source_key": "PROG_11298",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11299"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "mismo emisor AMPER, S.A., programas 11298!=11299"
+  },
+  {
+   "case_key": "L4_same_issuer_diff_programme-074",
+   "stratum": "L4_same_issuer_diff_programme",
+   "source_key": "PROG_11237",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11430"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "mismo emisor UNION FINANCIERA ASTURIANA, S.A., programas 11237!=11430"
+  },
+  {
+   "case_key": "L4_same_issuer_diff_programme-075",
+   "stratum": "L4_same_issuer_diff_programme",
+   "source_key": "PROG_202200016",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "202500024"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "mismo emisor TWC NOTES, FONDO DE TITULIZACION, programas 202200016!=202500024"
+  },
+  {
+   "case_key": "L4_same_issuer_diff_programme-076",
+   "stratum": "L4_same_issuer_diff_programme",
+   "source_key": "PROG_11204",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11414"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "mismo emisor AUTOPISTAS DEL ATLANTICO, CONCESIONARIA ESPAÑOLA, S.A.U., programas 11204!=11414"
+  },
+  {
+   "case_key": "L4_same_issuer_diff_programme-077",
+   "stratum": "L4_same_issuer_diff_programme",
+   "source_key": "PROG_11221",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11222"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "mismo emisor MONTEPINO LOGISTICA SOCIMI, S.A., programas 11221!=11222"
+  },
+  {
+   "case_key": "L4_same_issuer_diff_programme-078",
+   "stratum": "L4_same_issuer_diff_programme",
+   "source_key": "PROG_11239",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11390"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "mismo emisor EUROCAJA RURAL, SOCIEDAD COOPERATIVA DE CRÉDITO, programas 11239!=11390"
+  },
+  {
+   "case_key": "L4_same_issuer_diff_programme-079",
+   "stratum": "L4_same_issuer_diff_programme",
+   "source_key": "PROG_11231",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11415"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "mismo emisor UNICAJA BANCO, S.A., programas 11231!=11415"
+  },
+  {
+   "case_key": "L4_same_issuer_diff_programme-080",
+   "stratum": "L4_same_issuer_diff_programme",
+   "source_key": "PROG_11146",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11403"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "mismo emisor BANKINTER, S.A., programas 11146!=11403"
+  },
+  {
+   "case_key": "L4_same_issuer_diff_programme-081",
+   "stratum": "L4_same_issuer_diff_programme",
+   "source_key": "PROG_11311",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11312"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "mismo emisor DURO FELGUERA, S.A., programas 11311!=11312"
+  },
+  {
+   "case_key": "L4_same_issuer_diff_programme-082",
+   "stratum": "L4_same_issuer_diff_programme",
+   "source_key": "PROG_202400009",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "202600010"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "mismo emisor CASA VI, FONDO DE TITULIZACION, programas 202400009!=202600010"
+  },
+  {
+   "case_key": "L4_same_issuer_diff_programme-083",
+   "stratum": "L4_same_issuer_diff_programme",
+   "source_key": "PROG_11155",
+   "candidate": {
+    "type": "base_prospectus",
+    "numfol": "11437"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "mismo emisor BANCO SANTANDER, S.A., programas 11155!=11437"
+  },
+  {
+   "case_key": "L5_missing_family-084",
+   "stratum": "L5_missing_family",
+   "source_key": "FOL_11116.2",
+   "candidate": {
+    "type": "any_base_prospectus"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "base no adquirida; relacion no demostrable"
+  },
+  {
+   "case_key": "L5_missing_family-085",
+   "stratum": "L5_missing_family",
+   "source_key": "FOL_11131.1",
+   "candidate": {
+    "type": "any_base_prospectus"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "base no adquirida; relacion no demostrable"
+  },
+  {
+   "case_key": "L5_missing_family-086",
+   "stratum": "L5_missing_family",
+   "source_key": "FOL_11116.1",
+   "candidate": {
+    "type": "any_base_prospectus"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "base no adquirida; relacion no demostrable"
+  },
+  {
+   "case_key": "L5_missing_family-087",
+   "stratum": "L5_missing_family",
+   "source_key": "FOL_11081.1",
+   "candidate": {
+    "type": "any_base_prospectus"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "base no adquirida; relacion no demostrable"
+  },
+  {
+   "case_key": "L5_missing_family-088",
+   "stratum": "L5_missing_family",
+   "source_key": "FOL_11101.3",
+   "candidate": {
+    "type": "any_base_prospectus"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "base no adquirida; relacion no demostrable"
+  },
+  {
+   "case_key": "L5_missing_family-089",
+   "stratum": "L5_missing_family",
+   "source_key": "FOL_11086.3",
+   "candidate": {
+    "type": "any_base_prospectus"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "base no adquirida; relacion no demostrable"
+  },
+  {
+   "case_key": "L5_missing_family-090",
+   "stratum": "L5_missing_family",
+   "source_key": "FOL_11286.2",
+   "candidate": {
+    "type": "any_base_prospectus"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "base no adquirida; relacion no demostrable"
+  },
+  {
+   "case_key": "L5_missing_family-091",
+   "stratum": "L5_missing_family",
+   "source_key": "FOL_11291.1",
+   "candidate": {
+    "type": "any_base_prospectus"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "base no adquirida; relacion no demostrable"
+  },
+  {
+   "case_key": "L5_missing_family-092",
+   "stratum": "L5_missing_family",
+   "source_key": "FOL_11275.1",
+   "candidate": {
+    "type": "any_base_prospectus"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "base no adquirida; relacion no demostrable"
+  },
+  {
+   "case_key": "L5_missing_family-093",
+   "stratum": "L5_missing_family",
+   "source_key": "FOL_11232.1",
+   "candidate": {
+    "type": "any_base_prospectus"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "base no adquirida; relacion no demostrable"
+  },
+  {
+   "case_key": "L5_missing_family-094",
+   "stratum": "L5_missing_family",
+   "source_key": "FOL_11335.2",
+   "candidate": {
+    "type": "any_base_prospectus"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "base no adquirida; relacion no demostrable"
+  },
+  {
+   "case_key": "L5_missing_family-095",
+   "stratum": "L5_missing_family",
+   "source_key": "FOL_11335.1",
+   "candidate": {
+    "type": "any_base_prospectus"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "base no adquirida; relacion no demostrable"
+  },
+  {
+   "case_key": "L5_missing_family-096",
+   "stratum": "L5_missing_family",
+   "source_key": "FOL_11286.3",
+   "candidate": {
+    "type": "any_base_prospectus"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "base no adquirida; relacion no demostrable"
+  },
+  {
+   "case_key": "L5_missing_family-097",
+   "stratum": "L5_missing_family",
+   "source_key": "FOL_11275.3",
+   "candidate": {
+    "type": "any_base_prospectus"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "base no adquirida; relacion no demostrable"
+  },
+  {
+   "case_key": "L5_missing_family-098",
+   "stratum": "L5_missing_family",
+   "source_key": "FOL_11335.3",
+   "candidate": {
+    "type": "any_base_prospectus"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "base no adquirida; relacion no demostrable"
+  },
+  {
+   "case_key": "L5_missing_family-099",
+   "stratum": "L5_missing_family",
+   "source_key": "FOL_11434.1",
+   "candidate": {
+    "type": "any_base_prospectus"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "base no adquirida; relacion no demostrable"
+  },
+  {
+   "case_key": "L6_hard_negative-100",
+   "stratum": "L6_hard_negative",
+   "source_key": "CCFF_11407_004",
+   "candidate": {
+    "type": "final_terms",
+    "record_key": "CCFF_11340_024"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "emisores distintos"
+  },
+  {
+   "case_key": "L6_hard_negative-101",
+   "stratum": "L6_hard_negative",
+   "source_key": "CCFF_11307_017",
+   "candidate": {
+    "type": "final_terms",
+    "record_key": "CCFF_11382_001"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "emisores distintos"
+  },
+  {
+   "case_key": "L6_hard_negative-102",
+   "stratum": "L6_hard_negative",
+   "source_key": "CCFF_11383_007",
+   "candidate": {
+    "type": "final_terms",
+    "record_key": "CCFF_11384_002"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "emisores distintos"
+  },
+  {
+   "case_key": "L6_hard_negative-103",
+   "stratum": "L6_hard_negative",
+   "source_key": "CCFF_11357_008",
+   "candidate": {
+    "type": "final_terms",
+    "record_key": "CCFF_11340_009"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "emisores distintos"
+  },
+  {
+   "case_key": "L6_hard_negative-104",
+   "stratum": "L6_hard_negative",
+   "source_key": "CCFF_11400_004",
+   "candidate": {
+    "type": "final_terms",
+    "record_key": "CCFF_11327_001"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "emisores distintos"
+  },
+  {
+   "case_key": "L6_hard_negative-105",
+   "stratum": "L6_hard_negative",
+   "source_key": "CCFF_11357_013",
+   "candidate": {
+    "type": "final_terms",
+    "record_key": "CCFF_11394_003"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "emisores distintos"
+  },
+  {
+   "case_key": "L6_hard_negative-106",
+   "stratum": "L6_hard_negative",
+   "source_key": "CCFF_11400_024",
+   "candidate": {
+    "type": "final_terms",
+    "record_key": "CCFF_11329_001"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "emisores distintos"
+  },
+  {
+   "case_key": "L6_hard_negative-107",
+   "stratum": "L6_hard_negative",
+   "source_key": "CCFF_11337_003",
+   "candidate": {
+    "type": "final_terms",
+    "record_key": "CCFF_11340_020"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "emisores distintos"
+  },
+  {
+   "case_key": "L6_hard_negative-108",
+   "stratum": "L6_hard_negative",
+   "source_key": "CCFF_11340_020",
+   "candidate": {
+    "type": "final_terms",
+    "record_key": "CCFF_11400_001"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "emisores distintos"
+  },
+  {
+   "case_key": "L6_hard_negative-109",
+   "stratum": "L6_hard_negative",
+   "source_key": "CCFF_11329_001",
+   "candidate": {
+    "type": "final_terms",
+    "record_key": "CCFF_11385_002"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "emisores distintos"
+  },
+  {
+   "case_key": "L6_hard_negative-110",
+   "stratum": "L6_hard_negative",
+   "source_key": "CCFF_11289_001",
+   "candidate": {
+    "type": "final_terms",
+    "record_key": "CCFF_11286_005"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "emisores distintos"
+  },
+  {
+   "case_key": "L6_hard_negative-111",
+   "stratum": "L6_hard_negative",
+   "source_key": "CCFF_11338_002",
+   "candidate": {
+    "type": "final_terms",
+    "record_key": "CCFF_11327_002"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "emisores distintos"
+  },
+  {
+   "case_key": "L6_hard_negative-112",
+   "stratum": "L6_hard_negative",
+   "source_key": "CCFF_11400_002",
+   "candidate": {
+    "type": "final_terms",
+    "record_key": "CCFF_11327_002"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "emisores distintos"
+  },
+  {
+   "case_key": "L6_hard_negative-113",
+   "stratum": "L6_hard_negative",
+   "source_key": "CCFF_11400_021",
+   "candidate": {
+    "type": "final_terms",
+    "record_key": "CCFF_11380_013"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "emisores distintos"
+  },
+  {
+   "case_key": "L6_hard_negative-114",
+   "stratum": "L6_hard_negative",
+   "source_key": "CCFF_11383_001",
+   "candidate": {
+    "type": "final_terms",
+    "record_key": "CCFF_11380_020"
+   },
+   "label": "NO_LINK",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "emisores distintos"
+  },
+  {
+   "case_key": "L7_succession_candidate-115",
+   "stratum": "L7_succession_candidate",
+   "source_key": "FAMILY_11183",
+   "candidate": {
+    "type": "family",
+    "numfol": "11184"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "sucesion no declarada explicitamente"
+  },
+  {
+   "case_key": "L7_succession_candidate-116",
+   "stratum": "L7_succession_candidate",
+   "source_key": "FAMILY_11161",
+   "candidate": {
+    "type": "family",
+    "numfol": "11320"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "sucesion no declarada explicitamente"
+  },
+  {
+   "case_key": "L7_succession_candidate-117",
+   "stratum": "L7_succession_candidate",
+   "source_key": "FAMILY_11146",
+   "candidate": {
+    "type": "family",
+    "numfol": "11403"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "sucesion no declarada explicitamente"
+  },
+  {
+   "case_key": "L7_succession_candidate-118",
+   "stratum": "L7_succession_candidate",
+   "source_key": "FAMILY_11311",
+   "candidate": {
+    "type": "family",
+    "numfol": "11312"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "sucesion no declarada explicitamente"
+  },
+  {
+   "case_key": "L7_succession_candidate-119",
+   "stratum": "L7_succession_candidate",
+   "source_key": "FAMILY_11221",
+   "candidate": {
+    "type": "family",
+    "numfol": "11222"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "sucesion no declarada explicitamente"
+  },
+  {
+   "case_key": "L7_succession_candidate-120",
+   "stratum": "L7_succession_candidate",
+   "source_key": "FAMILY_11207",
+   "candidate": {
+    "type": "family",
+    "numfol": "11301"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "sucesion no declarada explicitamente"
+  },
+  {
+   "case_key": "L7_succession_candidate-121",
+   "stratum": "L7_succession_candidate",
+   "source_key": "FAMILY_11295",
+   "candidate": {
+    "type": "family",
+    "numfol": "11356"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "sucesion no declarada explicitamente"
+  },
+  {
+   "case_key": "L7_succession_candidate-122",
+   "stratum": "L7_succession_candidate",
+   "source_key": "FAMILY_11205",
+   "candidate": {
+    "type": "family",
+    "numfol": "11282"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "sucesion no declarada explicitamente"
+  },
+  {
+   "case_key": "L7_succession_candidate-123",
+   "stratum": "L7_succession_candidate",
+   "source_key": "FAMILY_202200006",
+   "candidate": {
+    "type": "family",
+    "numfol": "202400023"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "sucesion no declarada explicitamente"
+  },
+  {
+   "case_key": "L7_succession_candidate-124",
+   "stratum": "L7_succession_candidate",
+   "source_key": "FAMILY_11214",
+   "candidate": {
+    "type": "family",
+    "numfol": "11334"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_link": null,
+   "label_source": "structural",
+   "evidence": "sucesion no declarada explicitamente"
+  }
+ ],
+ "manifest_sha256": "f15981fcd42eaa9e521ebdbe18e2d844d47a012537b708739b43177d3d4a3af6"
+}

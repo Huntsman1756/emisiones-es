@@ -1,0 +1,40 @@
+{
+ "freeze": "g1-a",
+ "frozen_at": "2026-09-17",
+ "seed": 20260917,
+ "amend2_sha": "417917d",
+ "prereg_sha": "4cd3e69",
+ "amend1_sha": "fd66086",
+ "g1a0_sha": "02a1504",
+ "manifest_sha256": {
+  "universe": "a7d65b5ac3dca3dd5de01eef6ca7a8c57625b704f83ac4a4fdc558738cb10312",
+  "development": "e59e4a20db5abca966f66c2e949a13c210f9b021c7f3d8998bfb44659a904c5d",
+  "extraction-holdout": "0442b39891a998588001692ee57fd45fa86d8991145de780141f310cc2b3e69c",
+  "linkage-holdout": "f15981fcd42eaa9e521ebdbe18e2d844d47a012537b708739b43177d3d4a3af6",
+  "lifecycle-holdout": "cc2b8f3c2220026a15217dfb25977ab6513836e84aa0d7759977edb1bca546f3",
+  "fetch-index": "032daaeb01462479e7f8eeb2de3f30012dc3b465d22640c78e069d0cdfe2361c"
+ },
+ "thresholds": {
+  "safety": {
+   "provenance": 1.0,
+   "invented_values": 0,
+   "false_positive_links": 0,
+   "forced_ambiguous": 0
+  },
+  "support_tiers": {
+   "lt5": "INSUFFICIENT_EVIDENCE",
+   "5_14": "DESCRIPTIVE_ONLY",
+   "gte15": "GATE_ELIGIBLE"
+  },
+  "target_positive": {
+   "coupon_rate_family": 20,
+   "day_count": 20,
+   "call_put": 20
+  },
+  "g0_precision_thresholds_unchanged": true
+ },
+ "annotation_contract": "docs/extraction-contract.md + docs/gates/G1.md (AMEND-1 §4.3)",
+ "canonical_schema_version": "AMEND-2 (commit 417917d): StructuredProductTerms + ExerciseTerms + own day-count codes w/ versioned mappings",
+ "sampling_rules": "seeded stratified by observable source characteristics + documented lexical proxies; never extractor output",
+ "freeze_sha256": "a4beaf288ddaa87011fc3d1f61e62d5108b2c97b8f3021d18c35b08515c9a804"
+}

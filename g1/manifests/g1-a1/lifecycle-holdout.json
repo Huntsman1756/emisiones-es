@@ -1,0 +1,315 @@
+{
+ "manifest": "g1-a1-lifecycle-holdout",
+ "frozen_at": "2026-09-17",
+ "seed": 20260917,
+ "relations": [
+  "SUPPLEMENTS",
+  "MODIFIES",
+  "CORRECTS",
+  "REPLACES"
+ ],
+ "n_cases": 49,
+ "relation_counts": {
+  "SUPPLEMENTS": 42,
+  "MODIFIES": 7
+ },
+ "cases": [
+  {
+   "doc": "FAM_11286_11286.4",
+   "target": "FAM_11286_11286",
+   "relation": "SUPPLEMENTS",
+   "evidence": "11286.4 listado como SUPLEMENTO del folleto 11286"
+  },
+  {
+   "doc": "FAM_11286_11286.3",
+   "target": "FAM_11286_11286",
+   "relation": "SUPPLEMENTS",
+   "evidence": "11286.3 listado como SUPLEMENTO del folleto 11286"
+  },
+  {
+   "doc": "FAM_11286_11286.2",
+   "target": "FAM_11286_11286",
+   "relation": "SUPPLEMENTS",
+   "evidence": "11286.2 listado como SUPLEMENTO del folleto 11286"
+  },
+  {
+   "doc": "FAM_11286_11286.1",
+   "target": "FAM_11286_11286",
+   "relation": "SUPPLEMENTS",
+   "evidence": "11286.1 listado como SUPLEMENTO del folleto 11286"
+  },
+  {
+   "doc": "FAM_11291_11291.1",
+   "target": "FAM_11291_11291",
+   "relation": "SUPPLEMENTS",
+   "evidence": "11291.1 listado como SUPLEMENTO del folleto 11291"
+  },
+  {
+   "doc": "FAM_11307_11307.1",
+   "target": "FAM_11307_11307",
+   "relation": "SUPPLEMENTS",
+   "evidence": "11307.1 listado como SUPLEMENTO del folleto 11307"
+  },
+  {
+   "doc": "FAM_11310_11310.2",
+   "target": "FAM_11310_11310",
+   "relation": "SUPPLEMENTS",
+   "evidence": "11310.2 listado como SUPLEMENTO del folleto 11310"
+  },
+  {
+   "doc": "FAM_11310_11310.1",
+   "target": "FAM_11310_11310",
+   "relation": "SUPPLEMENTS",
+   "evidence": "11310.1 listado como SUPLEMENTO del folleto 11310"
+  },
+  {
+   "doc": "FAM_11329_11329.2",
+   "target": "FAM_11329_11329",
+   "relation": "SUPPLEMENTS",
+   "evidence": "11329.2 listado como SUPLEMENTO del folleto 11329"
+  },
+  {
+   "doc": "FAM_11329_11329.1",
+   "target": "FAM_11329_11329",
+   "relation": "SUPPLEMENTS",
+   "evidence": "11329.1 listado como SUPLEMENTO del folleto 11329"
+  },
+  {
+   "doc": "FAM_11335_11335.3",
+   "target": "FAM_11335_11335",
+   "relation": "SUPPLEMENTS",
+   "evidence": "11335.3 listado como SUPLEMENTO del folleto 11335"
+  },
+  {
+   "doc": "FAM_11335_11335.2",
+   "target": "FAM_11335_11335",
+   "relation": "SUPPLEMENTS",
+   "evidence": "11335.2 listado como SUPLEMENTO del folleto 11335"
+  },
+  {
+   "doc": "FAM_11335_11335.1",
+   "target": "FAM_11335_11335",
+   "relation": "SUPPLEMENTS",
+   "evidence": "11335.1 listado como SUPLEMENTO del folleto 11335"
+  },
+  {
+   "doc": "FAM_11357_11357.2",
+   "target": "FAM_11357_11357",
+   "relation": "SUPPLEMENTS",
+   "evidence": "11357.2 listado como SUPLEMENTO del folleto 11357"
+  },
+  {
+   "doc": "FAM_11357_11357.1",
+   "target": "FAM_11357_11357",
+   "relation": "SUPPLEMENTS",
+   "evidence": "11357.1 listado como SUPLEMENTO del folleto 11357"
+  },
+  {
+   "doc": "FAM_11374_11374.3",
+   "target": "FAM_11374_11374",
+   "relation": "SUPPLEMENTS",
+   "evidence": "11374.3 listado como SUPLEMENTO del folleto 11374"
+  },
+  {
+   "doc": "FAM_11374_11374.2",
+   "target": "FAM_11374_11374",
+   "relation": "SUPPLEMENTS",
+   "evidence": "11374.2 listado como SUPLEMENTO del folleto 11374"
+  },
+  {
+   "doc": "FAM_11374_11374.1",
+   "target": "FAM_11374_11374",
+   "relation": "SUPPLEMENTS",
+   "evidence": "11374.1 listado como SUPLEMENTO del folleto 11374"
+  },
+  {
+   "doc": "FOL_11146.1",
+   "target": "FOL_11146",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11212.1",
+   "target": "FOL_11212",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11275.3",
+   "target": "FOL_11275",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11368.1",
+   "target": "FOL_11368",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11265.2",
+   "target": "FOL_11265",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11081.1",
+   "target": "FOL_11081",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11236.2",
+   "target": "FOL_11236",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11227.4",
+   "target": "FOL_11227",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11231.1",
+   "target": "FOL_11231",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11217.1",
+   "target": "FOL_11217",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11116.1",
+   "target": "FOL_11116",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11298.1",
+   "target": "FOL_11298",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11319.3",
+   "target": "FOL_11319",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11360.2",
+   "target": "FOL_11360",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11328.1",
+   "target": "FOL_11328",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11310.1",
+   "target": "FOL_11310",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11227.3",
+   "target": "FOL_11227",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11257.1",
+   "target": "FOL_11257",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11269.2",
+   "target": "FOL_11269",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11247.1",
+   "target": "FOL_11247",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11373.3",
+   "target": "FOL_11373",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11155.1",
+   "target": "FOL_11155",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11213.1",
+   "target": "FOL_11213",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11170.1",
+   "target": "FOL_11170",
+   "relation": "SUPPLEMENTS",
+   "evidence": "sufijo .k en registro oficial"
+  },
+  {
+   "doc": "FOL_11232-1",
+   "target": "FOL_11232",
+   "relation": "MODIFIES",
+   "evidence": "sufijo -k = modificacion segun esquema observado G0"
+  },
+  {
+   "doc": "FOL_11225-2",
+   "target": "FOL_11225",
+   "relation": "MODIFIES",
+   "evidence": "sufijo -k = modificacion segun esquema observado G0"
+  },
+  {
+   "doc": "FOL_11225-1",
+   "target": "FOL_11225",
+   "relation": "MODIFIES",
+   "evidence": "sufijo -k = modificacion segun esquema observado G0"
+  },
+  {
+   "doc": "FOL_11269-1",
+   "target": "FOL_11269",
+   "relation": "MODIFIES",
+   "evidence": "sufijo -k = modificacion segun esquema observado G0"
+  },
+  {
+   "doc": "FOL_11265-1",
+   "target": "FOL_11265",
+   "relation": "MODIFIES",
+   "evidence": "sufijo -k = modificacion segun esquema observado G0"
+  },
+  {
+   "doc": "FOL_11367-1",
+   "target": "FOL_11367",
+   "relation": "MODIFIES",
+   "evidence": "sufijo -k = modificacion segun esquema observado G0"
+  },
+  {
+   "doc": "FOL_11358-1",
+   "target": "FOL_11358",
+   "relation": "MODIFIES",
+   "evidence": "sufijo -k = modificacion segun esquema observado G0"
+  }
+ ],
+ "note": "membership unchanged; CORRECTS/REPLACES/REDEPOSIT = INSUFFICIENT_EVIDENCE",
+ "manifest_sha256": "09a3f2807f6a3493a093497799403f7f631339cf572ad1e4095fc7cb95ed8606",
+ "supersedes": "a4beaf28"
+}

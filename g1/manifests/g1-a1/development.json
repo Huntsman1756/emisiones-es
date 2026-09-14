@@ -1,0 +1,995 @@
+{
+ "manifest": "g1-a1-development",
+ "frozen_at": "2026-09-17",
+ "seed": 20260917,
+ "supersedes": "g1/manifests/development.json @ G1-A freeze a4beaf28",
+ "reason": "family isolation + cold-issuer quarantine",
+ "new_pool_docs": [
+  "CCFF_11404_002",
+  "FOL_11210",
+  "FOL_11209",
+  "FOL_11178.1",
+  "FOL_11206",
+  "FOL_11198.1",
+  "FOL_202100010",
+  "FOL_11202",
+  "FOL_202100006",
+  "FOL_11198",
+  "FOL_11197",
+  "FOL_11196",
+  "FOL_11193",
+  "FOL_11191",
+  "FOL_202100007",
+  "FOL_11189",
+  "FOL_11186",
+  "FOL_11182",
+  "FOL_11180",
+  "FOL_11179",
+  "FOL_11178",
+  "FOL_11177",
+  "FOL_11176",
+  "FOL_11174",
+  "FOL_11173",
+  "FOL_11169",
+  "FOL_11164",
+  "FOL_11158.1",
+  "FOL_11158",
+  "FOL_11156",
+  "FOL_11154",
+  "FOL_11152",
+  "FOL_11151",
+  "FOL_202100001",
+  "FOL_11148",
+  "FOL_202100000",
+  "FOL_11258",
+  "FOL_11242.3",
+  "FOL_11233.2",
+  "FOL_11256",
+  "FOL_11255",
+  "FOL_202200018",
+  "FOL_202200017",
+  "FOL_11250",
+  "FOL_11248",
+  "FOL_11233.1",
+  "FOL_202200011",
+  "FOL_202200010",
+  "FOL_11244",
+  "FOL_11242",
+  "FOL_11240",
+  "FOL_202200009",
+  "FOL_202200008",
+  "FOL_202200007",
+  "FOL_11235",
+  "FOL_202200005",
+  "FOL_11233",
+  "FOL_11229",
+  "FOL_11228",
+  "FOL_202200002",
+  "FOL_11219",
+  "FOL_202200000",
+  "FOL_11216",
+  "FOL_11215",
+  "FOL_11306",
+  "FOL_11305",
+  "FOL_11304",
+  "FOL_11303",
+  "FOL_202300010",
+  "FOL_11300",
+  "FOL_202300009",
+  "FOL_202300011",
+  "FOL_202300008",
+  "FOL_11296",
+  "FOL_202300007",
+  "FOL_11294",
+  "FOL_11280.1",
+  "FOL_202300006",
+  "FOL_11292",
+  "FOL_11288",
+  "FOL_11287",
+  "FOL_11285",
+  "FOL_11283",
+  "FOL_202300005",
+  "FOL_11281",
+  "FOL_11280",
+  "FOL_11279",
+  "FOL_11278",
+  "FOL_11277",
+  "FOL_202300004",
+  "FOL_11274",
+  "FOL_11272",
+  "FOL_11271",
+  "FOL_11233.4",
+  "FOL_202300003",
+  "FOL_202300002",
+  "FOL_11267",
+  "FOL_11266",
+  "FOL_202300001",
+  "FOL_11264",
+  "FOL_11263",
+  "FOL_11244.1",
+  "FOL_11261",
+  "FOL_11260",
+  "FOL_202300000",
+  "FOL_11259",
+  "FOL_202400030",
+  "FOL_202400029",
+  "FOL_202400028",
+  "FOL_202400026",
+  "FOL_202400025",
+  "FOL_11354",
+  "FOL_202400021",
+  "FOL_11352",
+  "FOL_11351",
+  "FOL_202400020",
+  "FOL_202400019",
+  "FOL_11347",
+  "FOL_11343",
+  "FOL_11342",
+  "FOL_11316.1",
+  "FOL_11333",
+  "FOL_11332",
+  "FOL_202400017",
+  "FOL_11330",
+  "FOL_11326",
+  "FOL_11324",
+  "FOL_11323",
+  "FOL_202400015",
+  "FOL_202400014",
+  "FOL_202400013",
+  "FOL_202400012",
+  "FOL_202400010",
+  "FOL_11316",
+  "FOL_11315",
+  "FOL_202400007",
+  "FOL_202400006",
+  "FOL_202400005",
+  "FOL_202400004",
+  "FOL_202400003",
+  "FOL_202400002",
+  "FOL_202400001",
+  "FOL_11313",
+  "FOL_11278.1",
+  "FOL_202400000",
+  "FOL_202500037",
+  "FOL_11399",
+  "FOL_202500035",
+  "FOL_11397",
+  "FOL_11392",
+  "FOL_202500027",
+  "FOL_11391",
+  "FOL_11388",
+  "FOL_11387",
+  "FOL_11365.1",
+  "FOL_11381",
+  "FOL_11379",
+  "FOL_11378",
+  "FOL_202500020",
+  "FOL_202500019",
+  "FOL_202500016",
+  "FOL_202500015",
+  "FOL_11372",
+  "FOL_202500014",
+  "FOL_202500013",
+  "FOL_202500012",
+  "FOL_11370",
+  "FOL_202500011",
+  "FOL_202500010",
+  "FOL_11365",
+  "FOL_202500007",
+  "FOL_11364",
+  "FOL_11326.1",
+  "FOL_202500003",
+  "FOL_202500001",
+  "FOL_202500000",
+  "FOL_11436",
+  "FOL_11432",
+  "FOL_11431",
+  "FOL_202600014",
+  "FOL_11424",
+  "FOL_11423",
+  "FOL_11422",
+  "FOL_11420",
+  "FOL_11419",
+  "FOL_202600013",
+  "FOL_202600012",
+  "FOL_11412",
+  "FOL_202600005",
+  "FOL_202600009",
+  "FOL_11411",
+  "FOL_11405",
+  "FOL_11402",
+  "FOL_202600000",
+  "ADM_143116",
+  "ADM_143115",
+  "ADM_143114",
+  "ADM_143113",
+  "ADM_143112",
+  "ADM_143111",
+  "ADM_143110",
+  "ADM_143109",
+  "ADM_143108",
+  "ADM_143107",
+  "ADM_143106",
+  "ADM_143105",
+  "ADM_143104",
+  "ADM_143103",
+  "ADM_143102",
+  "ADM_143101",
+  "ADM_143100",
+  "ADM_143099",
+  "ADM_143098",
+  "ADM_143097",
+  "ADM_143096",
+  "ADM_143095",
+  "ADM_143094",
+  "ADM_143093",
+  "ADM_143092",
+  "ADM_143091",
+  "ADM_143090",
+  "ADM_143089",
+  "ADM_143088",
+  "ADM_143087",
+  "ADM_143086",
+  "ADM_143085",
+  "ADM_143084",
+  "ADM_143083",
+  "ADM_143082",
+  "ADM_143081",
+  "ADM_143080",
+  "ADM_143079",
+  "ADM_143078",
+  "ADM_143077",
+  "ADM_143076",
+  "ADM_143075",
+  "ADM_143074",
+  "ADM_143073",
+  "ADM_143072",
+  "ADM_143071",
+  "ADM_143070",
+  "ADM_143069",
+  "ADM_143068",
+  "ADM_143067",
+  "ADM_143066",
+  "ADM_143065",
+  "ADM_143064",
+  "ADM_143063",
+  "ADM_143062",
+  "ADM_143061",
+  "ADM_143060",
+  "ADM_143058",
+  "ADM_143055",
+  "ADM_143054",
+  "ADM_143053",
+  "ADM_143052",
+  "ADM_143051",
+  "ADM_143050",
+  "ADM_143049",
+  "ADM_143046",
+  "ADM_143181",
+  "ADM_143180",
+  "ADM_143179",
+  "ADM_143178",
+  "ADM_143177",
+  "ADM_143176",
+  "ADM_143174",
+  "ADM_143173",
+  "ADM_143172",
+  "ADM_143171",
+  "ADM_143170",
+  "ADM_143169",
+  "ADM_143168",
+  "ADM_143167",
+  "ADM_143165",
+  "ADM_143162",
+  "ADM_143161",
+  "ADM_143160",
+  "ADM_143159",
+  "ADM_143157",
+  "ADM_143155",
+  "ADM_143153",
+  "ADM_143151",
+  "ADM_143149",
+  "ADM_143147",
+  "ADM_143146",
+  "ADM_143145",
+  "ADM_143144",
+  "ADM_143142",
+  "ADM_143141",
+  "ADM_143140",
+  "ADM_143138",
+  "ADM_143137",
+  "ADM_143136",
+  "ADM_143135",
+  "ADM_143134",
+  "ADM_143133",
+  "ADM_143131",
+  "ADM_143127",
+  "ADM_143126",
+  "ADM_143125",
+  "ADM_143123",
+  "ADM_143119",
+  "ADM_143236",
+  "ADM_143234",
+  "ADM_143232",
+  "ADM_143230",
+  "ADM_143228",
+  "ADM_143226",
+  "ADM_143224",
+  "ADM_143221",
+  "ADM_143219",
+  "ADM_143215",
+  "ADM_143213",
+  "ADM_143211",
+  "ADM_143209",
+  "ADM_143206",
+  "ADM_143204",
+  "ADM_143202",
+  "ADM_143200",
+  "ADM_143198",
+  "ADM_143196",
+  "ADM_143195",
+  "ADM_143194",
+  "ADM_143192",
+  "ADM_143191",
+  "ADM_143189",
+  "ADM_143187",
+  "ADM_143185",
+  "ADM_143183",
+  "FAM_11404_11404"
+ ],
+ "n_new_pool_docs": 331,
+ "g0_cases": {
+  "linkage": 300,
+  "extraction": 30,
+  "eligibility": "G0 frozen; cases referencing holdout families are DEV_RESTRICTED for family-sensitive work"
+ },
+ "g0_dev_restricted_families": [
+  "PROG_11170",
+  "PROG_11188",
+  "PROG_11195",
+  "PROG_11204",
+  "PROG_11211",
+  "PROG_11225",
+  "PROG_11227",
+  "PROG_11232",
+  "PROG_11234",
+  "PROG_11265",
+  "PROG_11269",
+  "PROG_11275",
+  "PROG_11286",
+  "PROG_11290",
+  "PROG_11291",
+  "PROG_11295",
+  "PROG_11307",
+  "PROG_11309",
+  "PROG_11310",
+  "PROG_11319",
+  "PROG_11327",
+  "PROG_11329",
+  "PROG_11335",
+  "PROG_11337",
+  "PROG_11338",
+  "PROG_11340",
+  "PROG_11341",
+  "PROG_11357",
+  "PROG_11358",
+  "PROG_11360",
+  "PROG_11373",
+  "PROG_11374",
+  "PROG_11380",
+  "PROG_11382",
+  "PROG_11383",
+  "PROG_11384",
+  "PROG_11385",
+  "PROG_11394",
+  "PROG_11398",
+  "PROG_11400",
+  "PROG_11403",
+  "PROG_11407",
+  "PROG_11415",
+  "PROG_11433",
+  "PROG_11434"
+ ],
+ "quarantined_records": [
+  {
+   "key": "CCFF_11307_034",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11307"
+  },
+  {
+   "key": "CCFF_11340_002",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11340"
+  },
+  {
+   "key": "CCFF_11327_001",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11327"
+  },
+  {
+   "key": "CCFF_11307_032",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11307"
+  },
+  {
+   "key": "CCFF_11307_030",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11307"
+  },
+  {
+   "key": "CCFF_11307_017",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11307"
+  },
+  {
+   "key": "CCFF_11307_008",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11307"
+  },
+  {
+   "key": "CCFF_11307_002",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11307"
+  },
+  {
+   "key": "CCFF_11307_001",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11307"
+  },
+  {
+   "key": "CCFF_11383_001",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11383"
+  },
+  {
+   "key": "CCFF_11357_018",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11357"
+  },
+  {
+   "key": "CCFF_11357_017",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11357"
+  },
+  {
+   "key": "CCFF_11340_022",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11340"
+  },
+  {
+   "key": "CCFF_11357_011",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11357"
+  },
+  {
+   "key": "CCFF_11337_003",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11337"
+  },
+  {
+   "key": "CCFF_11341_002",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11341"
+  },
+  {
+   "key": "CCFF_11357_003",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11357"
+  },
+  {
+   "key": "CCFF_11357_001",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11357"
+  },
+  {
+   "key": "CCFF_11407_004",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11407"
+  },
+  {
+   "key": "CCFF_11400_040",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11400"
+  },
+  {
+   "key": "CCFF_11400_038",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11400"
+  },
+  {
+   "key": "CCFF_11400_035",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11400"
+  },
+  {
+   "key": "CCFF_11400_031",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11400"
+  },
+  {
+   "key": "CCFF_11400_027",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11400"
+  },
+  {
+   "key": "CCFF_11400_025",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11400"
+  },
+  {
+   "key": "CCFF_11400_023",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11400"
+  },
+  {
+   "key": "CCFF_11400_020",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11400"
+  },
+  {
+   "key": "CCFF_11407_002",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11407"
+  },
+  {
+   "key": "CCFF_11400_017",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11400"
+  },
+  {
+   "key": "CCFF_11400_009",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11400"
+  },
+  {
+   "key": "CCFF_11383_007",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11383"
+  },
+  {
+   "key": "CCFF_11383_005",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11383"
+  },
+  {
+   "key": "CCFF_11400_007",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11400"
+  },
+  {
+   "key": "CCFF_11400_005",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11400"
+  },
+  {
+   "key": "CCFF_11394_002",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11394"
+  },
+  {
+   "key": "FOL_11207",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11207"
+  },
+  {
+   "key": "FOL_11116.2",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11116"
+  },
+  {
+   "key": "FOL_11184",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11184"
+  },
+  {
+   "key": "FOL_11183",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11183"
+  },
+  {
+   "key": "FOL_11175",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11175"
+  },
+  {
+   "key": "FOL_11131.1",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11131"
+  },
+  {
+   "key": "FOL_11159",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11159"
+  },
+  {
+   "key": "FOL_11101.3",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11101"
+  },
+  {
+   "key": "FOL_11086.3",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11086"
+  },
+  {
+   "key": "FOL_11251",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11251"
+  },
+  {
+   "key": "FOL_11231.2",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11231"
+  },
+  {
+   "key": "FOL_202200016",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_202200016"
+  },
+  {
+   "key": "FOL_11236.1",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11236"
+  },
+  {
+   "key": "FOL_11237",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11237"
+  },
+  {
+   "key": "FOL_202200006",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_202200006"
+  },
+  {
+   "key": "FOL_11227.1",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11227"
+  },
+  {
+   "key": "FOL_11222",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11222"
+  },
+  {
+   "key": "FOL_11170.3",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11170"
+  },
+  {
+   "key": "FOL_11286.2",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11286"
+  },
+  {
+   "key": "FOL_11301",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11301"
+  },
+  {
+   "key": "FOL_11299",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11299"
+  },
+  {
+   "key": "FOL_11291.1",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11291"
+  },
+  {
+   "key": "FOL_11295",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11295"
+  },
+  {
+   "key": "FOL_11275.1",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11275"
+  },
+  {
+   "key": "FOL_11265.1",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11265"
+  },
+  {
+   "key": "FOL_11290",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11290"
+  },
+  {
+   "key": "FOL_11289",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11289"
+  },
+  {
+   "key": "FOL_11282",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11282"
+  },
+  {
+   "key": "FOL_11231.4",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11231"
+  },
+  {
+   "key": "FOL_11232.1",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11232"
+  },
+  {
+   "key": "FOL_11236.3",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11236"
+  },
+  {
+   "key": "FOL_11234.3",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11234"
+  },
+  {
+   "key": "FOL_11231.3",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11231"
+  },
+  {
+   "key": "FOL_11319.2",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11319"
+  },
+  {
+   "key": "FOL_11357",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11357"
+  },
+  {
+   "key": "FOL_202400023",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_202400023"
+  },
+  {
+   "key": "FOL_11335.2",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11335"
+  },
+  {
+   "key": "FOL_11335.1",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11335"
+  },
+  {
+   "key": "FOL_11319.1",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11319"
+  },
+  {
+   "key": "FOL_11341",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11341"
+  },
+  {
+   "key": "FOL_11340",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11340"
+  },
+  {
+   "key": "FOL_11334",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11334"
+  },
+  {
+   "key": "FOL_11329",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11329"
+  },
+  {
+   "key": "FOL_11320",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11320"
+  },
+  {
+   "key": "FOL_202400009",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_202400009"
+  },
+  {
+   "key": "FOL_11286.3",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11286"
+  },
+  {
+   "key": "FOL_11269.3",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11269"
+  },
+  {
+   "key": "FOL_11312",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11312"
+  },
+  {
+   "key": "FOL_11311",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11311"
+  },
+  {
+   "key": "FOL_11309",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11309"
+  },
+  {
+   "key": "FOL_11398",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11398"
+  },
+  {
+   "key": "FOL_11394",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11394"
+  },
+  {
+   "key": "FOL_11374.2",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11374"
+  },
+  {
+   "key": "FOL_11390",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11390"
+  },
+  {
+   "key": "FOL_11367.1",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11367"
+  },
+  {
+   "key": "FOL_11374.1",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11374"
+  },
+  {
+   "key": "FOL_11373.1",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11373"
+  },
+  {
+   "key": "FOL_202500024",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_202500024"
+  },
+  {
+   "key": "FOL_11385",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11385"
+  },
+  {
+   "key": "FOL_11383",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11383"
+  },
+  {
+   "key": "FOL_11357.1",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11357"
+  },
+  {
+   "key": "FOL_11335.3",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11335"
+  },
+  {
+   "key": "FOL_11328.2",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11328"
+  },
+  {
+   "key": "FOL_11336.1",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11336"
+  },
+  {
+   "key": "FOL_11437",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11437"
+  },
+  {
+   "key": "FOL_11424.1",
+   "reason": "g0_doc_duplicate"
+  },
+  {
+   "key": "FOL_11434.1",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11434"
+  },
+  {
+   "key": "FOL_11433",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11433"
+  },
+  {
+   "key": "FOL_11430",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11430"
+  },
+  {
+   "key": "FOL_202600010",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_202600010"
+  },
+  {
+   "key": "FOL_11367.2",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11367"
+  },
+  {
+   "key": "FOL_11401",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11401"
+  },
+  {
+   "key": "FAM_11290_11290",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11290"
+  },
+  {
+   "key": "FAM_11309_11309",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11309"
+  },
+  {
+   "key": "FAM_11327_11327",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11327"
+  },
+  {
+   "key": "FAM_11338_11338",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11338"
+  },
+  {
+   "key": "FAM_11341_11341",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11341"
+  },
+  {
+   "key": "FAM_11380_11380",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11380"
+  },
+  {
+   "key": "FAM_11384_11384",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11384"
+  },
+  {
+   "key": "FAM_11394_11394",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11394"
+  },
+  {
+   "key": "FAM_11398_11398",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11398"
+  },
+  {
+   "key": "FAM_11403_11403",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11403"
+  },
+  {
+   "key": "FAM_11407_11407",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11407"
+  },
+  {
+   "key": "FAM_11433_11433",
+   "reason": "sibling_of_holdout_family",
+   "family": "PROG_11433"
+  },
+  {
+   "key": "FOL_11416",
+   "reason": "cold_issuer_quarantine",
+   "issuer": "CAIXABANK, S.A."
+  }
+ ],
+ "manifest_sha256": "cbdc890bc906aba143f5a966911264299d91ca19ba5aa34f4485057202654c37"
+}

@@ -1,0 +1,4378 @@
+{
+ "manifest": "g1-family-map",
+ "frozen_at": "2026-09-17",
+ "rule": "document_family_key from structural source evidence only: CCFF/FOL/FAM -> PROG_<numfol base>; ADM -> ISSUE_ADM_<reg>; never inferred from temporal proximity; UNKNOWN when unprovable",
+ "n_records": 728,
+ "n_families": 480,
+ "records": [
+  {
+   "key": "ADM_143044",
+   "family": "ISSUE_ADM_143044",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "key": "ADM_143045",
+   "family": "ISSUE_ADM_143045",
+   "issuer": "CAJA RURAL DE ALBACETE, CIUDAD REAL Y CUENCA, SOCIEDAD COOPERATIVA DE CREDI",
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "key": "ADM_143046",
+   "family": "ISSUE_ADM_143046",
+   "issuer": "ORYZON GENOMICS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143047",
+   "family": "ISSUE_ADM_143047",
+   "issuer": "CAJAMAR CAJA RURAL, SOCIEDAD COOPERATIVA DE CREDITO",
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "key": "ADM_143048",
+   "family": "ISSUE_ADM_143048",
+   "issuer": "IBERCAJA BANCO, S.A.",
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "key": "ADM_143049",
+   "family": "ISSUE_ADM_143049",
+   "issuer": "IBERDROLA, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143050",
+   "family": "ISSUE_ADM_143050",
+   "issuer": "SACYR, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143051",
+   "family": "ISSUE_ADM_143051",
+   "issuer": "COCA-COLA EUROPACIFIC PARTNERS PLC",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143052",
+   "family": "ISSUE_ADM_143052",
+   "issuer": "ACS, ACTIVIDADES DE CONSTRUCCION Y SERVICIOS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143053",
+   "family": "ISSUE_ADM_143053",
+   "issuer": "AIRBUS SE",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143054",
+   "family": "ISSUE_ADM_143054",
+   "issuer": "DURO FELGUERA, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143055",
+   "family": "ISSUE_ADM_143055",
+   "issuer": "DURO FELGUERA, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143056",
+   "family": "ISSUE_ADM_143056",
+   "issuer": "IBERCAJA BANCO, S.A.",
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "key": "ADM_143057",
+   "family": "ISSUE_ADM_143057",
+   "issuer": "IBERCAJA BANCO, S.A.",
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "key": "ADM_143058",
+   "family": "ISSUE_ADM_143058",
+   "issuer": "PROMOTORA DE INFORMACIONES, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143059",
+   "family": "ISSUE_ADM_143059",
+   "issuer": "CAJA RURAL DE NAVARRA, S. COOP. DE CREDITO",
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "key": "ADM_143060",
+   "family": "ISSUE_ADM_143060",
+   "issuer": "AUDAX RENOVABLES, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143061",
+   "family": "ISSUE_ADM_143061",
+   "issuer": "ORYZON GENOMICS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143062",
+   "family": "ISSUE_ADM_143062",
+   "issuer": "PROMOTORA DE INFORMACIONES, S.A.",
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "key": "ADM_143063",
+   "family": "ISSUE_ADM_143063",
+   "issuer": "ORYZON GENOMICS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143064",
+   "family": "ISSUE_ADM_143064",
+   "issuer": "ORYZON GENOMICS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143065",
+   "family": "ISSUE_ADM_143065",
+   "issuer": "URBAS GRUPO FINANCIERO, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143066",
+   "family": "ISSUE_ADM_143066",
+   "issuer": "URBAS GRUPO FINANCIERO, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143067",
+   "family": "ISSUE_ADM_143067",
+   "issuer": "URBAS GRUPO FINANCIERO, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143068",
+   "family": "ISSUE_ADM_143068",
+   "issuer": "AIRBUS SE",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143069",
+   "family": "ISSUE_ADM_143069",
+   "issuer": "PUIG BRANDS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143070",
+   "family": "ISSUE_ADM_143070",
+   "issuer": "URBAS GRUPO FINANCIERO, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143071",
+   "family": "ISSUE_ADM_143071",
+   "issuer": "PUIG BRANDS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143072",
+   "family": "ISSUE_ADM_143072",
+   "issuer": "PUIG BRANDS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143073",
+   "family": "ISSUE_ADM_143073",
+   "issuer": "PUIG BRANDS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143074",
+   "family": "ISSUE_ADM_143074",
+   "issuer": "PUIG BRANDS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143075",
+   "family": "ISSUE_ADM_143075",
+   "issuer": "COCA-COLA EUROPACIFIC PARTNERS PLC",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143076",
+   "family": "ISSUE_ADM_143076",
+   "issuer": "PROMOTORA DE INFORMACIONES, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143077",
+   "family": "ISSUE_ADM_143077",
+   "issuer": "PROMOTORA DE INFORMACIONES, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143078",
+   "family": "ISSUE_ADM_143078",
+   "issuer": "SACYR, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143079",
+   "family": "ISSUE_ADM_143079",
+   "issuer": "ORYZON GENOMICS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143080",
+   "family": "ISSUE_ADM_143080",
+   "issuer": "NUEVA EXPRESIÓN TEXTIL, S.A",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143081",
+   "family": "ISSUE_ADM_143081",
+   "issuer": "ALMIRALL, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143082",
+   "family": "ISSUE_ADM_143082",
+   "issuer": "FERROVIAL N.V.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143083",
+   "family": "ISSUE_ADM_143083",
+   "issuer": "LABORATORIO REIG JOFRE, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143084",
+   "family": "ISSUE_ADM_143084",
+   "issuer": "VISCOFAN, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143085",
+   "family": "ISSUE_ADM_143085",
+   "issuer": "ORYZON GENOMICS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143086",
+   "family": "ISSUE_ADM_143086",
+   "issuer": "COLONIAL SFL, SOCIMI, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143087",
+   "family": "ISSUE_ADM_143087",
+   "issuer": "NUEVA EXPRESIÓN TEXTIL, S.A",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143088",
+   "family": "ISSUE_ADM_143088",
+   "issuer": "ACS, ACTIVIDADES DE CONSTRUCCION Y SERVICIOS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143089",
+   "family": "ISSUE_ADM_143089",
+   "issuer": "MERLIN PROPERTIES, SOCIMI, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143090",
+   "family": "ISSUE_ADM_143090",
+   "issuer": "IBERDROLA, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143091",
+   "family": "ISSUE_ADM_143091",
+   "issuer": "GRUPO EZENTIS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143092",
+   "family": "ISSUE_ADM_143092",
+   "issuer": "COCA-COLA EUROPACIFIC PARTNERS PLC",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143093",
+   "family": "ISSUE_ADM_143093",
+   "issuer": "FOMENTO DE CONSTRUCCIONES Y CONTRATAS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143094",
+   "family": "ISSUE_ADM_143094",
+   "issuer": "IBERPAPEL GESTION, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143095",
+   "family": "ISSUE_ADM_143095",
+   "issuer": "ORYZON GENOMICS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143096",
+   "family": "ISSUE_ADM_143096",
+   "issuer": "URBAS GRUPO FINANCIERO, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143097",
+   "family": "ISSUE_ADM_143097",
+   "issuer": "URBAS GRUPO FINANCIERO, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143098",
+   "family": "ISSUE_ADM_143098",
+   "issuer": "SACYR, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143099",
+   "family": "ISSUE_ADM_143099",
+   "issuer": "MFE-MEDIAFOREUROPE N.V.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143100",
+   "family": "ISSUE_ADM_143100",
+   "issuer": "COCA-COLA EUROPACIFIC PARTNERS PLC",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143101",
+   "family": "ISSUE_ADM_143101",
+   "issuer": "INMOCEMENTO, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143102",
+   "family": "ISSUE_ADM_143102",
+   "issuer": "COX INFRASTRUCTURE GROUP, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143103",
+   "family": "ISSUE_ADM_143103",
+   "issuer": "PROMOTORA DE INFORMACIONES, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143104",
+   "family": "ISSUE_ADM_143104",
+   "issuer": "PROMOTORA DE INFORMACIONES, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143105",
+   "family": "ISSUE_ADM_143105",
+   "issuer": "AYCO GRUPO INMOBILIARIO, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143106",
+   "family": "ISSUE_ADM_143106",
+   "issuer": "AYCO GRUPO INMOBILIARIO, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143107",
+   "family": "ISSUE_ADM_143107",
+   "issuer": "GRUPO EZENTIS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143108",
+   "family": "ISSUE_ADM_143108",
+   "issuer": "ORYZON GENOMICS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143109",
+   "family": "ISSUE_ADM_143109",
+   "issuer": "ORYZON GENOMICS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143110",
+   "family": "ISSUE_ADM_143110",
+   "issuer": "VIDRALA, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143111",
+   "family": "ISSUE_ADM_143111",
+   "issuer": "FERROVIAL N.V.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143112",
+   "family": "ISSUE_ADM_143112",
+   "issuer": "NYESA VALORES CORPORACION, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143113",
+   "family": "ISSUE_ADM_143113",
+   "issuer": "NYESA VALORES CORPORACION, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143114",
+   "family": "ISSUE_ADM_143114",
+   "issuer": "NYESA VALORES CORPORACION, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143115",
+   "family": "ISSUE_ADM_143115",
+   "issuer": "OBRASCON HUARTE LAIN, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143116",
+   "family": "ISSUE_ADM_143116",
+   "issuer": "VISCOFAN, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143119",
+   "family": "ISSUE_ADM_143119",
+   "issuer": "NUEVA EXPRESIÓN TEXTIL, S.A",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143121",
+   "family": "ISSUE_ADM_143121",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "key": "ADM_143123",
+   "family": "ISSUE_ADM_143123",
+   "issuer": "IBERDROLA, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143125",
+   "family": "ISSUE_ADM_143125",
+   "issuer": "SACYR, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143126",
+   "family": "ISSUE_ADM_143126",
+   "issuer": "ACS, ACTIVIDADES DE CONSTRUCCION Y SERVICIOS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143127",
+   "family": "ISSUE_ADM_143127",
+   "issuer": "HBX GROUP INTERNATIONAL PLC",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143129",
+   "family": "ISSUE_ADM_143129",
+   "issuer": "IBERCAJA BANCO, S.A.",
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "key": "ADM_143131",
+   "family": "ISSUE_ADM_143131",
+   "issuer": "GRUPO EZENTIS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143133",
+   "family": "ISSUE_ADM_143133",
+   "issuer": "PROMOTORA DE INFORMACIONES, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143134",
+   "family": "ISSUE_ADM_143134",
+   "issuer": "PROMOTORA DE INFORMACIONES, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143135",
+   "family": "ISSUE_ADM_143135",
+   "issuer": "ORYZON GENOMICS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143136",
+   "family": "ISSUE_ADM_143136",
+   "issuer": "PROMOTORA DE INFORMACIONES, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143137",
+   "family": "ISSUE_ADM_143137",
+   "issuer": "PROMOTORA DE INFORMACIONES, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143138",
+   "family": "ISSUE_ADM_143138",
+   "issuer": "OBRASCON HUARTE LAIN, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143140",
+   "family": "ISSUE_ADM_143140",
+   "issuer": "VISCOFAN, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143141",
+   "family": "ISSUE_ADM_143141",
+   "issuer": "LABORATORIO REIG JOFRE, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143142",
+   "family": "ISSUE_ADM_143142",
+   "issuer": "AMPER, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143144",
+   "family": "ISSUE_ADM_143144",
+   "issuer": "FERROVIAL N.V.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143145",
+   "family": "ISSUE_ADM_143145",
+   "issuer": "NEINOR HOMES, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143146",
+   "family": "ISSUE_ADM_143146",
+   "issuer": "COCA-COLA EUROPACIFIC PARTNERS PLC",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143147",
+   "family": "ISSUE_ADM_143147",
+   "issuer": "REALIA BUSINESS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143149",
+   "family": "ISSUE_ADM_143149",
+   "issuer": "IZERTIS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143151",
+   "family": "ISSUE_ADM_143151",
+   "issuer": "NUEVA EXPRESIÓN TEXTIL, S.A",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143153",
+   "family": "ISSUE_ADM_143153",
+   "issuer": "FOMENTO DE CONSTRUCCIONES Y CONTRATAS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143155",
+   "family": "ISSUE_ADM_143155",
+   "issuer": "ACS, ACTIVIDADES DE CONSTRUCCION Y SERVICIOS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143157",
+   "family": "ISSUE_ADM_143157",
+   "issuer": "IBERDROLA, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143159",
+   "family": "ISSUE_ADM_143159",
+   "issuer": "AMPER, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143160",
+   "family": "ISSUE_ADM_143160",
+   "issuer": "MFE-MEDIAFOREUROPE N.V.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143161",
+   "family": "ISSUE_ADM_143161",
+   "issuer": "NUEVA EXPRESIÓN TEXTIL, S.A",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143162",
+   "family": "ISSUE_ADM_143162",
+   "issuer": "MFE-MEDIAFOREUROPE N.V.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143164",
+   "family": "ISSUE_ADM_143164",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "key": "ADM_143165",
+   "family": "ISSUE_ADM_143165",
+   "issuer": "MFE-MEDIAFOREUROPE N.V.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143166",
+   "family": "ISSUE_ADM_143166",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "key": "ADM_143167",
+   "family": "ISSUE_ADM_143167",
+   "issuer": "SQUIRREL MEDIA, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143168",
+   "family": "ISSUE_ADM_143168",
+   "issuer": "IZERTIS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143169",
+   "family": "ISSUE_ADM_143169",
+   "issuer": "NEINOR HOMES, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143170",
+   "family": "ISSUE_ADM_143170",
+   "issuer": "SQUIRREL MEDIA, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143171",
+   "family": "ISSUE_ADM_143171",
+   "issuer": "PROMOTORA DE INFORMACIONES, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143172",
+   "family": "ISSUE_ADM_143172",
+   "issuer": "NUEVA EXPRESIÓN TEXTIL, S.A",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143173",
+   "family": "ISSUE_ADM_143173",
+   "issuer": "ARIMA REAL ESTATE SOCIMI, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143174",
+   "family": "ISSUE_ADM_143174",
+   "issuer": "VIDRALA, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143176",
+   "family": "ISSUE_ADM_143176",
+   "issuer": "COCA-COLA EUROPACIFIC PARTNERS PLC",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143177",
+   "family": "ISSUE_ADM_143177",
+   "issuer": "GRUPO EZENTIS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143178",
+   "family": "ISSUE_ADM_143178",
+   "issuer": "SOLTEC POWER HOLDINGS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143179",
+   "family": "ISSUE_ADM_143179",
+   "issuer": "IZERTIS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143180",
+   "family": "ISSUE_ADM_143180",
+   "issuer": "NUEVA EXPRESIÓN TEXTIL, S.A",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143181",
+   "family": "ISSUE_ADM_143181",
+   "issuer": "VISCOFAN, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143183",
+   "family": "ISSUE_ADM_143183",
+   "issuer": "NUEVA EXPRESIÓN TEXTIL, S.A",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143185",
+   "family": "ISSUE_ADM_143185",
+   "issuer": "NYESA VALORES CORPORACION, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143187",
+   "family": "ISSUE_ADM_143187",
+   "issuer": "GRUPO EZENTIS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143189",
+   "family": "ISSUE_ADM_143189",
+   "issuer": "GRUPO EZENTIS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143191",
+   "family": "ISSUE_ADM_143191",
+   "issuer": "COCA-COLA EUROPACIFIC PARTNERS PLC",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143192",
+   "family": "ISSUE_ADM_143192",
+   "issuer": "IZERTIS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143194",
+   "family": "ISSUE_ADM_143194",
+   "issuer": "IBERDROLA, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143195",
+   "family": "ISSUE_ADM_143195",
+   "issuer": "NUEVA EXPRESIÓN TEXTIL, S.A",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143196",
+   "family": "ISSUE_ADM_143196",
+   "issuer": "SACYR, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143198",
+   "family": "ISSUE_ADM_143198",
+   "issuer": "ACS, ACTIVIDADES DE CONSTRUCCION Y SERVICIOS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143200",
+   "family": "ISSUE_ADM_143200",
+   "issuer": "GRUPO EZENTIS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143202",
+   "family": "ISSUE_ADM_143202",
+   "issuer": "MERLIN PROPERTIES, SOCIMI, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143204",
+   "family": "ISSUE_ADM_143204",
+   "issuer": "SOLARIA ENERGIA Y MEDIOAMBIENTE, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143206",
+   "family": "ISSUE_ADM_143206",
+   "issuer": "COCA-COLA EUROPACIFIC PARTNERS PLC",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143209",
+   "family": "ISSUE_ADM_143209",
+   "issuer": "PROMOTORA DE INFORMACIONES, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143211",
+   "family": "ISSUE_ADM_143211",
+   "issuer": "TSK ELECTRONICA Y ELECTRICIDAD, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143213",
+   "family": "ISSUE_ADM_143213",
+   "issuer": "NYESA VALORES CORPORACION, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143215",
+   "family": "ISSUE_ADM_143215",
+   "issuer": "ALMIRALL, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143217",
+   "family": "ISSUE_ADM_143217",
+   "issuer": "CAJA RURAL DE NAVARRA, S. COOP. DE CREDITO",
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "key": "ADM_143219",
+   "family": "ISSUE_ADM_143219",
+   "issuer": "VISCOFAN, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143221",
+   "family": "ISSUE_ADM_143221",
+   "issuer": "ORYZON GENOMICS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143224",
+   "family": "ISSUE_ADM_143224",
+   "issuer": "TUBACEX, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143226",
+   "family": "ISSUE_ADM_143226",
+   "issuer": "ACS, ACTIVIDADES DE CONSTRUCCION Y SERVICIOS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143228",
+   "family": "ISSUE_ADM_143228",
+   "issuer": "GRUPO EZENTIS, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143230",
+   "family": "ISSUE_ADM_143230",
+   "issuer": "IBERDROLA, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143232",
+   "family": "ISSUE_ADM_143232",
+   "issuer": "NYESA VALORES CORPORACION, S.A.",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143234",
+   "family": "ISSUE_ADM_143234",
+   "issuer": "NUEVA EXPRESIÓN TEXTIL, S.A",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "ADM_143236",
+   "family": "ISSUE_ADM_143236",
+   "issuer": "NUEVA EXPRESIÓN TEXTIL, S.A",
+   "role": "ISSUE_DOC"
+  },
+  {
+   "key": "CCFF_11251_001",
+   "family": "PROG_11251",
+   "issuer": "OPEN BANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11286_001",
+   "family": "PROG_11286",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11286_005",
+   "family": "PROG_11286",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11286_006",
+   "family": "PROG_11286",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11286_008",
+   "family": "PROG_11286",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11286_010",
+   "family": "PROG_11286",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11286_012",
+   "family": "PROG_11286",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11289_001",
+   "family": "PROG_11289",
+   "issuer": "AENA, S.M.E., S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11290_002",
+   "family": "PROG_11290",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11290_003",
+   "family": "PROG_11290",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11290_005",
+   "family": "PROG_11290",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11290_008",
+   "family": "PROG_11290",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11290_011",
+   "family": "PROG_11290",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11290_012",
+   "family": "PROG_11290",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11290_015",
+   "family": "PROG_11290",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11290_019",
+   "family": "PROG_11290",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11290_020",
+   "family": "PROG_11290",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11291_001",
+   "family": "PROG_11291",
+   "issuer": "DEUTSCHE BANK, SOCIEDAD ANONIMA ESPAÑOLA",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_001",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_002",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_005",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_008",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_010",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_012",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_015",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_017",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_019",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_021",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_023",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_026",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_027",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_029",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_030",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_031",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_032",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_034",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_036",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_038",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11307_039",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11309_002",
+   "family": "PROG_11309",
+   "issuer": "BANKINTER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11310_001",
+   "family": "PROG_11310",
+   "issuer": "KUTXABANK, S.A",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11327_001",
+   "family": "PROG_11327",
+   "issuer": "UNICAJA BANCO, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11327_002",
+   "family": "PROG_11327",
+   "issuer": "UNICAJA BANCO, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11329_001",
+   "family": "PROG_11329",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11329_002",
+   "family": "PROG_11329",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11335_002",
+   "family": "PROG_11335",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11335_003",
+   "family": "PROG_11335",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11337_003",
+   "family": "PROG_11337",
+   "issuer": "BANCO DE SABADELL, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11338_002",
+   "family": "PROG_11338",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11340_002",
+   "family": "PROG_11340",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11340_006",
+   "family": "PROG_11340",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11340_009",
+   "family": "PROG_11340",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11340_013",
+   "family": "PROG_11340",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11340_014",
+   "family": "PROG_11340",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11340_018",
+   "family": "PROG_11340",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11340_020",
+   "family": "PROG_11340",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11340_022",
+   "family": "PROG_11340",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11340_023",
+   "family": "PROG_11340",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11340_024",
+   "family": "PROG_11340",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11341_002",
+   "family": "PROG_11341",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11341_003",
+   "family": "PROG_11341",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11341_004",
+   "family": "PROG_11341",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11357_001",
+   "family": "PROG_11357",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11357_003",
+   "family": "PROG_11357",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11357_004",
+   "family": "PROG_11357",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11357_005",
+   "family": "PROG_11357",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11357_006",
+   "family": "PROG_11357",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11357_008",
+   "family": "PROG_11357",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11357_009",
+   "family": "PROG_11357",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11357_010",
+   "family": "PROG_11357",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11357_011",
+   "family": "PROG_11357",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11357_013",
+   "family": "PROG_11357",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11357_014",
+   "family": "PROG_11357",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11357_017",
+   "family": "PROG_11357",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11357_018",
+   "family": "PROG_11357",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11357_019",
+   "family": "PROG_11357",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11357_020",
+   "family": "PROG_11357",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11357_021",
+   "family": "PROG_11357",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11374_001",
+   "family": "PROG_11374",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11380_002",
+   "family": "PROG_11380",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11380_005",
+   "family": "PROG_11380",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11380_006",
+   "family": "PROG_11380",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11380_008",
+   "family": "PROG_11380",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11380_013",
+   "family": "PROG_11380",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11380_014",
+   "family": "PROG_11380",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11380_016",
+   "family": "PROG_11380",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11380_019",
+   "family": "PROG_11380",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11380_020",
+   "family": "PROG_11380",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11380_023",
+   "family": "PROG_11380",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11380_024",
+   "family": "PROG_11380",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11380_027",
+   "family": "PROG_11380",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11380_033",
+   "family": "PROG_11380",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11380_036",
+   "family": "PROG_11380",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11382_001",
+   "family": "PROG_11382",
+   "issuer": "BANCO DE SABADELL, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11382_003",
+   "family": "PROG_11382",
+   "issuer": "BANCO DE SABADELL, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11383_001",
+   "family": "PROG_11383",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11383_005",
+   "family": "PROG_11383",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11383_007",
+   "family": "PROG_11383",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11384_002",
+   "family": "PROG_11384",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11384_003",
+   "family": "PROG_11384",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11384_004",
+   "family": "PROG_11384",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11385_002",
+   "family": "PROG_11385",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11394_002",
+   "family": "PROG_11394",
+   "issuer": "MAPFRE, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11394_003",
+   "family": "PROG_11394",
+   "issuer": "MAPFRE, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11398_003",
+   "family": "PROG_11398",
+   "issuer": "BANCA MARCH, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_001",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_002",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_004",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_005",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_007",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_009",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_011",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_014",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_017",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_020",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_021",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_023",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_024",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_025",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_027",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_031",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_032",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_034",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_035",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_037",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_038",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_040",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_044",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_046",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11400_047",
+   "family": "PROG_11400",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11403_002",
+   "family": "PROG_11403",
+   "issuer": "BANKINTER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11403_003",
+   "family": "PROG_11403",
+   "issuer": "BANKINTER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11403_004",
+   "family": "PROG_11403",
+   "issuer": "BANKINTER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11404_002",
+   "family": "PROG_11404",
+   "issuer": "KUTXABANK, S.A",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11407_002",
+   "family": "PROG_11407",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11407_003",
+   "family": "PROG_11407",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11407_004",
+   "family": "PROG_11407",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11433_001",
+   "family": "PROG_11433",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11433_005",
+   "family": "PROG_11433",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "CCFF_11433_007",
+   "family": "PROG_11433",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "FINAL_TERMS"
+  },
+  {
+   "key": "FAM_11251_11251",
+   "family": "PROG_11251",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11286_11286",
+   "family": "PROG_11286",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11286_11286.1",
+   "family": "PROG_11286",
+   "issuer": "UNKNOWN",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FAM_11286_11286.2",
+   "family": "PROG_11286",
+   "issuer": "UNKNOWN",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FAM_11286_11286.3",
+   "family": "PROG_11286",
+   "issuer": "UNKNOWN",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FAM_11286_11286.4",
+   "family": "PROG_11286",
+   "issuer": "UNKNOWN",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FAM_11289_11289",
+   "family": "PROG_11289",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11290_11290",
+   "family": "PROG_11290",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11291_11291",
+   "family": "PROG_11291",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11291_11291.1",
+   "family": "PROG_11291",
+   "issuer": "UNKNOWN",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FAM_11307_11307",
+   "family": "PROG_11307",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11307_11307.1",
+   "family": "PROG_11307",
+   "issuer": "UNKNOWN",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FAM_11309_11309",
+   "family": "PROG_11309",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11310_11310",
+   "family": "PROG_11310",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11310_11310.1",
+   "family": "PROG_11310",
+   "issuer": "UNKNOWN",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FAM_11310_11310.2",
+   "family": "PROG_11310",
+   "issuer": "UNKNOWN",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FAM_11327_11327",
+   "family": "PROG_11327",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11329_11329",
+   "family": "PROG_11329",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11329_11329.1",
+   "family": "PROG_11329",
+   "issuer": "UNKNOWN",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FAM_11329_11329.2",
+   "family": "PROG_11329",
+   "issuer": "UNKNOWN",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FAM_11335_11335",
+   "family": "PROG_11335",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11335_11335.1",
+   "family": "PROG_11335",
+   "issuer": "UNKNOWN",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FAM_11335_11335.2",
+   "family": "PROG_11335",
+   "issuer": "UNKNOWN",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FAM_11335_11335.3",
+   "family": "PROG_11335",
+   "issuer": "UNKNOWN",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FAM_11337_11337",
+   "family": "PROG_11337",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11338_11338",
+   "family": "PROG_11338",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11340_11340",
+   "family": "PROG_11340",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11341_11341",
+   "family": "PROG_11341",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11357_11357",
+   "family": "PROG_11357",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11357_11357.1",
+   "family": "PROG_11357",
+   "issuer": "UNKNOWN",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FAM_11357_11357.2",
+   "family": "PROG_11357",
+   "issuer": "UNKNOWN",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FAM_11374_11374",
+   "family": "PROG_11374",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11374_11374.1",
+   "family": "PROG_11374",
+   "issuer": "UNKNOWN",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FAM_11374_11374.2",
+   "family": "PROG_11374",
+   "issuer": "UNKNOWN",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FAM_11374_11374.3",
+   "family": "PROG_11374",
+   "issuer": "UNKNOWN",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FAM_11380_11380",
+   "family": "PROG_11380",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11382_11382",
+   "family": "PROG_11382",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11383_11383",
+   "family": "PROG_11383",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11384_11384",
+   "family": "PROG_11384",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11385_11385",
+   "family": "PROG_11385",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11394_11394",
+   "family": "PROG_11394",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11398_11398",
+   "family": "PROG_11398",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11403_11403",
+   "family": "PROG_11403",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11404_11404",
+   "family": "PROG_11404",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11407_11407",
+   "family": "PROG_11407",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FAM_11433_11433",
+   "family": "PROG_11433",
+   "issuer": "UNKNOWN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11081.1",
+   "family": "PROG_11081",
+   "issuer": "BANCO DE SABADELL, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11086.3",
+   "family": "PROG_11086",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11101.3",
+   "family": "PROG_11101",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11116.1",
+   "family": "PROG_11116",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11116.2",
+   "family": "PROG_11116",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11131.1",
+   "family": "PROG_11131",
+   "issuer": "EUROCAJA RURAL, SOCIEDAD COOPERATIVA DE CRÉDITO",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11146",
+   "family": "PROG_11146",
+   "issuer": "BANKINTER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11146.1",
+   "family": "PROG_11146",
+   "issuer": "BANKINTER, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11147",
+   "family": "PROG_11147",
+   "issuer": "BANKINTER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11148",
+   "family": "PROG_11148",
+   "issuer": "TELEFONICA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11149",
+   "family": "PROG_11149",
+   "issuer": "BANKINTER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11150",
+   "family": "PROG_11150",
+   "issuer": "SANTANDER CONSUMO 4, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11151",
+   "family": "PROG_11151",
+   "issuer": "BANKINTER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11152",
+   "family": "PROG_11152",
+   "issuer": "BBVA CONSUMO 11, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11153",
+   "family": "PROG_11153",
+   "issuer": "CELLNEX TELECOM, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11154",
+   "family": "PROG_11154",
+   "issuer": "BANKINTER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11155",
+   "family": "PROG_11155",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11155.1",
+   "family": "PROG_11155",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11156",
+   "family": "PROG_11156",
+   "issuer": "IM BCC CAJAMAR PYME 3, FONDO DE TITULIZACIÓN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11157",
+   "family": "PROG_11157",
+   "issuer": "LINEA DIRECTA ASEGURADORA, S.A., COMPAÑIA DE SEGUROS Y REASEGUROS",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11158",
+   "family": "PROG_11158",
+   "issuer": "ECOENER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11158.1",
+   "family": "PROG_11158",
+   "issuer": "ECOENER, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11159",
+   "family": "PROG_11159",
+   "issuer": "OPDENERGY HOLDING, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11160",
+   "family": "PROG_11160",
+   "issuer": "BANKINTER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11161",
+   "family": "PROG_11161",
+   "issuer": "COLONIAL SFL, SOCIMI, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11164",
+   "family": "PROG_11164",
+   "issuer": "CAJA RURAL DE NAVARRA, S. COOP. DE CREDITO",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11166",
+   "family": "PROG_11166",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11167",
+   "family": "PROG_11167",
+   "issuer": "BANCA MARCH, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11168",
+   "family": "PROG_11168",
+   "issuer": "BANCA MARCH, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11169",
+   "family": "PROG_11169",
+   "issuer": "BANCO DE SABADELL, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11170",
+   "family": "PROG_11170",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11170.1",
+   "family": "PROG_11170",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11170.3",
+   "family": "PROG_11170",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11171",
+   "family": "PROG_11171",
+   "issuer": "OBRASCON HUARTE LAIN, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11172",
+   "family": "PROG_11172",
+   "issuer": "OBRASCON HUARTE LAIN, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11173",
+   "family": "PROG_11173",
+   "issuer": "OBRASCON HUARTE LAIN, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11174",
+   "family": "PROG_11174",
+   "issuer": "BANKINTER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11175",
+   "family": "PROG_11175",
+   "issuer": "OBRASCON HUARTE LAIN, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11176",
+   "family": "PROG_11176",
+   "issuer": "COLUMBUS MASTER CREDIT CARDS, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11177",
+   "family": "PROG_11177",
+   "issuer": "CORPORACION ACCIONA ENERGIAS RENOVABLES, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11178",
+   "family": "PROG_11178",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11178.1",
+   "family": "PROG_11178",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11179",
+   "family": "PROG_11179",
+   "issuer": "BBVA RMBS 20, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11180",
+   "family": "PROG_11180",
+   "issuer": "PRIMAFRIO CORPORACION, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11182",
+   "family": "PROG_11182",
+   "issuer": "CORPORACION ACCIONA ENERGIAS RENOVABLES, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11183",
+   "family": "PROG_11183",
+   "issuer": "INVERSA PRIME SOCIMI, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11184",
+   "family": "PROG_11184",
+   "issuer": "INVERSA PRIME SOCIMI, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11186",
+   "family": "PROG_11186",
+   "issuer": "BANKINTER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11188",
+   "family": "PROG_11188",
+   "issuer": "CRITERIA CAIXA, S.A.U.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11189",
+   "family": "PROG_11189",
+   "issuer": "ALL IRON RE I SOCIMI, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11191",
+   "family": "PROG_11191",
+   "issuer": "DISTRIBUIDORA INTERNACIONAL DE ALIMENTACION, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11192",
+   "family": "PROG_11192",
+   "issuer": "DISTRIBUIDORA INTERNACIONAL DE ALIMENTACION, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11193",
+   "family": "PROG_11193",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11194",
+   "family": "PROG_11194",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11195",
+   "family": "PROG_11195",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11196",
+   "family": "PROG_11196",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11197",
+   "family": "PROG_11197",
+   "issuer": "CAJA RURAL DE ALBACETE, CIUDAD REAL Y CUENCA, SOCIEDAD COOPERATIVA DE CREDI",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11198",
+   "family": "PROG_11198",
+   "issuer": "DEUTSCHE BANK, SOCIEDAD ANONIMA ESPAÑOLA",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11198.1",
+   "family": "PROG_11198",
+   "issuer": "DEUTSCHE BANK, SOCIEDAD ANONIMA ESPAÑOLA",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11199",
+   "family": "PROG_11199",
+   "issuer": "BANCA MARCH, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11202",
+   "family": "PROG_11202",
+   "issuer": "FONDO DE TITULIZACION SANTANDER CONSUMER SPAIN AUTO 2021-1",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11203",
+   "family": "PROG_11203",
+   "issuer": "FONDO DE TITULIZACION, RMBS PRADO IX",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11204",
+   "family": "PROG_11204",
+   "issuer": "AUTOPISTAS DEL ATLANTICO, CONCESIONARIA ESPAÑOLA, S.A.U.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11205",
+   "family": "PROG_11205",
+   "issuer": "ORYZON GENOMICS, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11206",
+   "family": "PROG_11206",
+   "issuer": "BANCO DE SABADELL, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11207",
+   "family": "PROG_11207",
+   "issuer": "OPEN BANK, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11208",
+   "family": "PROG_11208",
+   "issuer": "OPEN BANK, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11209",
+   "family": "PROG_11209",
+   "issuer": "AIRTIFICIAL INTELLIGENCE STRUCTURES, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11210",
+   "family": "PROG_11210",
+   "issuer": "CAJAMAR CAJA RURAL, SOCIEDAD COOPERATIVA DE CREDITO",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11211",
+   "family": "PROG_11211",
+   "issuer": "BANKINTER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11212",
+   "family": "PROG_11212",
+   "issuer": "IM ANDBANK RMBS 1,FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11212.1",
+   "family": "PROG_11212",
+   "issuer": "IM ANDBANK RMBS 1,FONDO DE TITULIZACION",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11213",
+   "family": "PROG_11213",
+   "issuer": "BANKINTER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11213.1",
+   "family": "PROG_11213",
+   "issuer": "BANKINTER, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11214",
+   "family": "PROG_11214",
+   "issuer": "AYCO GRUPO INMOBILIARIO, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11215",
+   "family": "PROG_11215",
+   "issuer": "AYCO GRUPO INMOBILIARIO, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11216",
+   "family": "PROG_11216",
+   "issuer": "ATRYS HEALTH, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11217",
+   "family": "PROG_11217",
+   "issuer": "NYESA VALORES CORPORACION, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11217.1",
+   "family": "PROG_11217",
+   "issuer": "NYESA VALORES CORPORACION, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11218",
+   "family": "PROG_11218",
+   "issuer": "IM BCC CAJAMAR PYME 4, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11219",
+   "family": "PROG_11219",
+   "issuer": "BBVA RMBS 21, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11220",
+   "family": "PROG_11220",
+   "issuer": "FONDO DE TITULIZACIÓN RMBS PRADO X",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11221",
+   "family": "PROG_11221",
+   "issuer": "MONTEPINO LOGISTICA SOCIMI, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11222",
+   "family": "PROG_11222",
+   "issuer": "MONTEPINO LOGISTICA SOCIMI, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11223",
+   "family": "PROG_11223",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11224",
+   "family": "PROG_11224",
+   "issuer": "AUTOPISTAS DEL ATLANTICO, CONCESIONARIA ESPAÑOLA, S.A.U.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11225",
+   "family": "PROG_11225",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11225-1",
+   "family": "PROG_11225",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "CORRECTION"
+  },
+  {
+   "key": "FOL_11225-2",
+   "family": "PROG_11225",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "CORRECTION"
+  },
+  {
+   "key": "FOL_11227",
+   "family": "PROG_11227",
+   "issuer": "IBERCAJA BANCO, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11227.1",
+   "family": "PROG_11227",
+   "issuer": "IBERCAJA BANCO, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11227.3",
+   "family": "PROG_11227",
+   "issuer": "IBERCAJA BANCO, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11227.4",
+   "family": "PROG_11227",
+   "issuer": "IBERCAJA BANCO, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11228",
+   "family": "PROG_11228",
+   "issuer": "COLONIAL SFL, SOCIMI, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11229",
+   "family": "PROG_11229",
+   "issuer": "CAJA RURAL DE NAVARRA, S. COOP. DE CREDITO",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11231",
+   "family": "PROG_11231",
+   "issuer": "UNICAJA BANCO, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11231.1",
+   "family": "PROG_11231",
+   "issuer": "UNICAJA BANCO, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11231.2",
+   "family": "PROG_11231",
+   "issuer": "UNICAJA BANCO, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11231.3",
+   "family": "PROG_11231",
+   "issuer": "UNICAJA BANCO, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11231.4",
+   "family": "PROG_11231",
+   "issuer": "UNICAJA BANCO, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11232-1",
+   "family": "PROG_11232",
+   "issuer": "BANCO DE SABADELL, S.A.",
+   "role": "CORRECTION"
+  },
+  {
+   "key": "FOL_11232.1",
+   "family": "PROG_11232",
+   "issuer": "BANCO DE SABADELL, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11233",
+   "family": "PROG_11233",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11233.1",
+   "family": "PROG_11233",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11233.2",
+   "family": "PROG_11233",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11233.4",
+   "family": "PROG_11233",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11234",
+   "family": "PROG_11234",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11234.3",
+   "family": "PROG_11234",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11235",
+   "family": "PROG_11235",
+   "issuer": "BBVA CONSUMER AUTO 2022-1, FONDO DE TITULIZACIÓN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11236",
+   "family": "PROG_11236",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11236.1",
+   "family": "PROG_11236",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11236.2",
+   "family": "PROG_11236",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11236.3",
+   "family": "PROG_11236",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11237",
+   "family": "PROG_11237",
+   "issuer": "UNION FINANCIERA ASTURIANA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11238",
+   "family": "PROG_11238",
+   "issuer": "CAJA RURAL DE ALBACETE, CIUDAD REAL Y CUENCA, SOCIEDAD COOPERATIVA DE CREDI",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11239",
+   "family": "PROG_11239",
+   "issuer": "EUROCAJA RURAL, SOCIEDAD COOPERATIVA DE CRÉDITO",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11240",
+   "family": "PROG_11240",
+   "issuer": "SABADELL CONSUMO 2, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11241",
+   "family": "PROG_11241",
+   "issuer": "OPDENERGY HOLDING, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11242",
+   "family": "PROG_11242",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11242.3",
+   "family": "PROG_11242",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11243",
+   "family": "PROG_11243",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11244",
+   "family": "PROG_11244",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11244.1",
+   "family": "PROG_11244",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11245",
+   "family": "PROG_11245",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11246",
+   "family": "PROG_11246",
+   "issuer": "AUTONORIA SPAIN 2022, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11247",
+   "family": "PROG_11247",
+   "issuer": "DEUTSCHE BANK, SOCIEDAD ANONIMA ESPAÑOLA",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11247.1",
+   "family": "PROG_11247",
+   "issuer": "DEUTSCHE BANK, SOCIEDAD ANONIMA ESPAÑOLA",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11248",
+   "family": "PROG_11248",
+   "issuer": "CARS ALLIANCE AUTO LOANS SPAIN 2022, FONDO DE TITULIZACIÓN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11250",
+   "family": "PROG_11250",
+   "issuer": "OPEN BANK, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11251",
+   "family": "PROG_11251",
+   "issuer": "OPEN BANK, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11252",
+   "family": "PROG_11252",
+   "issuer": "URBAS GRUPO FINANCIERO, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11253",
+   "family": "PROG_11253",
+   "issuer": "BANCO DE SABADELL, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11254",
+   "family": "PROG_11254",
+   "issuer": "BBVA RMBS 22, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11255",
+   "family": "PROG_11255",
+   "issuer": "PROMOTORA DE INFORMACIONES, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11256",
+   "family": "PROG_11256",
+   "issuer": "CAJAMAR CAJA RURAL, SOCIEDAD COOPERATIVA DE CREDITO",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11257",
+   "family": "PROG_11257",
+   "issuer": "KUTXABANK, S.A",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11257.1",
+   "family": "PROG_11257",
+   "issuer": "KUTXABANK, S.A",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11258",
+   "family": "PROG_11258",
+   "issuer": "BANCA MARCH, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11259",
+   "family": "PROG_11259",
+   "issuer": "PROMOTORA DE INFORMACIONES, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11260",
+   "family": "PROG_11260",
+   "issuer": "BANKINTER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11261",
+   "family": "PROG_11261",
+   "issuer": "BANKINTER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11262",
+   "family": "PROG_11262",
+   "issuer": "BBVA CONSUMO 12, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11263",
+   "family": "PROG_11263",
+   "issuer": "RMBS MIRAVET 2023-1, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11264",
+   "family": "PROG_11264",
+   "issuer": "RMBS GREEN PRADO XI, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11265",
+   "family": "PROG_11265",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11265-1",
+   "family": "PROG_11265",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "CORRECTION"
+  },
+  {
+   "key": "FOL_11265.1",
+   "family": "PROG_11265",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11265.2",
+   "family": "PROG_11265",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11266",
+   "family": "PROG_11266",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11267",
+   "family": "PROG_11267",
+   "issuer": "TECNICAS REUNIDAS, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11268",
+   "family": "PROG_11268",
+   "issuer": "BANCA MARCH, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11269",
+   "family": "PROG_11269",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11269-1",
+   "family": "PROG_11269",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "CORRECTION"
+  },
+  {
+   "key": "FOL_11269.2",
+   "family": "PROG_11269",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11269.3",
+   "family": "PROG_11269",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11270",
+   "family": "PROG_11270",
+   "issuer": "TELEFONICA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11271",
+   "family": "PROG_11271",
+   "issuer": "COLONIAL SFL, SOCIMI, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11272",
+   "family": "PROG_11272",
+   "issuer": "AUTOPISTAS DEL ATLANTICO, CONCESIONARIA ESPAÑOLA, S.A.U.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11274",
+   "family": "PROG_11274",
+   "issuer": "BANCO DE SABADELL, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11275.1",
+   "family": "PROG_11275",
+   "issuer": "UNICAJA BANCO, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11275.3",
+   "family": "PROG_11275",
+   "issuer": "UNICAJA BANCO, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11276",
+   "family": "PROG_11276",
+   "issuer": "BBVA CONSUMER AUTO 2023-1, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11277",
+   "family": "PROG_11277",
+   "issuer": "VITRUVIO REAL ESTATE SOCIMI, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11278",
+   "family": "PROG_11278",
+   "issuer": "CAJA RURAL DE NAVARRA, S. COOP. DE CREDITO",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11278.1",
+   "family": "PROG_11278",
+   "issuer": "CAJA RURAL DE NAVARRA, S. COOP. DE CREDITO",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11279",
+   "family": "PROG_11279",
+   "issuer": "CAIXABANK CONSUMO 6, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11280",
+   "family": "PROG_11280",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11280.1",
+   "family": "PROG_11280",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11281",
+   "family": "PROG_11281",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11282",
+   "family": "PROG_11282",
+   "issuer": "ORYZON GENOMICS, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11283",
+   "family": "PROG_11283",
+   "issuer": "UNION FINANCIERA ASTURIANA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11284",
+   "family": "PROG_11284",
+   "issuer": "CAJA RURAL DE ALBACETE, CIUDAD REAL Y CUENCA, SOCIEDAD COOPERATIVA DE CREDI",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11285",
+   "family": "PROG_11285",
+   "issuer": "SANTANDER CONSUMO 5, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11286.2",
+   "family": "PROG_11286",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11286.3",
+   "family": "PROG_11286",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11287",
+   "family": "PROG_11287",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11288",
+   "family": "PROG_11288",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11289",
+   "family": "PROG_11289",
+   "issuer": "AENA, S.M.E., S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11290",
+   "family": "PROG_11290",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11291.1",
+   "family": "PROG_11291",
+   "issuer": "DEUTSCHE BANK, SOCIEDAD ANONIMA ESPAÑOLA",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11292",
+   "family": "PROG_11292",
+   "issuer": "EUROCAJA RURAL, SOCIEDAD COOPERATIVA DE CRÉDITO",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11294",
+   "family": "PROG_11294",
+   "issuer": "SABADELL CONSUMER FINANCE AUTOS 1, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11295",
+   "family": "PROG_11295",
+   "issuer": "CAJA RURAL DEL SUR, S. COOP. DE CREDITO",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11296",
+   "family": "PROG_11296",
+   "issuer": "SANTANDER CONSUMER SPAIN AUTO 2023-1, FONDO DE TITULIZACIÓN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11297",
+   "family": "PROG_11297",
+   "issuer": "CAIXABANK PYMES 13, FONDO DE TITULIZACIÓN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11298",
+   "family": "PROG_11298",
+   "issuer": "AMPER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11298.1",
+   "family": "PROG_11298",
+   "issuer": "AMPER, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11299",
+   "family": "PROG_11299",
+   "issuer": "AMPER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11300",
+   "family": "PROG_11300",
+   "issuer": "OPEN BANK, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11301",
+   "family": "PROG_11301",
+   "issuer": "OPEN BANK, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11303",
+   "family": "PROG_11303",
+   "issuer": "PROMOTORA DE INFORMACIONES, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11304",
+   "family": "PROG_11304",
+   "issuer": "BBVA LEASING 3, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11305",
+   "family": "PROG_11305",
+   "issuer": "CAJA RURAL DE GRANADA, SOCIEDAD COOPERATIVA DE CREDITO",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11306",
+   "family": "PROG_11306",
+   "issuer": "CAJAMAR CAJA RURAL, SOCIEDAD COOPERATIVA DE CREDITO",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11307",
+   "family": "PROG_11307",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11309",
+   "family": "PROG_11309",
+   "issuer": "BANKINTER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11310",
+   "family": "PROG_11310",
+   "issuer": "KUTXABANK, S.A",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11310.1",
+   "family": "PROG_11310",
+   "issuer": "KUTXABANK, S.A",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11311",
+   "family": "PROG_11311",
+   "issuer": "DURO FELGUERA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11312",
+   "family": "PROG_11312",
+   "issuer": "DURO FELGUERA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11313",
+   "family": "PROG_11313",
+   "issuer": "BBVA CONSUMO 13, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11314",
+   "family": "PROG_11314",
+   "issuer": "PROMOTORA DE INFORMACIONES, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11315",
+   "family": "PROG_11315",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11316",
+   "family": "PROG_11316",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11316.1",
+   "family": "PROG_11316",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11317",
+   "family": "PROG_11317",
+   "issuer": "PUIG BRANDS, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11318",
+   "family": "PROG_11318",
+   "issuer": "RURAL HIPOTECARIO XX, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11319",
+   "family": "PROG_11319",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11319.1",
+   "family": "PROG_11319",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11319.2",
+   "family": "PROG_11319",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11319.3",
+   "family": "PROG_11319",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11320",
+   "family": "PROG_11320",
+   "issuer": "COLONIAL SFL, SOCIMI, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11322",
+   "family": "PROG_11322",
+   "issuer": "REAL BETIS BALOMPIE, S.A.D.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11323",
+   "family": "PROG_11323",
+   "issuer": "BBVA CONSUMER 2024-1, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11324",
+   "family": "PROG_11324",
+   "issuer": "CAJA RURAL DE NAVARRA, S. COOP. DE CREDITO",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11326",
+   "family": "PROG_11326",
+   "issuer": "BANCO DE SABADELL, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11326.1",
+   "family": "PROG_11326",
+   "issuer": "BANCO DE SABADELL, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11327",
+   "family": "PROG_11327",
+   "issuer": "UNICAJA BANCO, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11328",
+   "family": "PROG_11328",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11328.1",
+   "family": "PROG_11328",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11328.2",
+   "family": "PROG_11328",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11329",
+   "family": "PROG_11329",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11330",
+   "family": "PROG_11330",
+   "issuer": "BBVA RMBS 23, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11332",
+   "family": "PROG_11332",
+   "issuer": "UNION FINANCIERA ASTURIANA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11333",
+   "family": "PROG_11333",
+   "issuer": "AYCO GRUPO INMOBILIARIO, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11334",
+   "family": "PROG_11334",
+   "issuer": "AYCO GRUPO INMOBILIARIO, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11335.1",
+   "family": "PROG_11335",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11335.2",
+   "family": "PROG_11335",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11335.3",
+   "family": "PROG_11335",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11336",
+   "family": "PROG_11336",
+   "issuer": "IBERCAJA BANCO, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11336.1",
+   "family": "PROG_11336",
+   "issuer": "IBERCAJA BANCO, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11338",
+   "family": "PROG_11338",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11340",
+   "family": "PROG_11340",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11341",
+   "family": "PROG_11341",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11342",
+   "family": "PROG_11342",
+   "issuer": "BANCA MARCH, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11343",
+   "family": "PROG_11343",
+   "issuer": "CAJA RURAL DE ALBACETE, CIUDAD REAL Y CUENCA, SOCIEDAD COOPERATIVA DE CREDI",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11347",
+   "family": "PROG_11347",
+   "issuer": "EUROPASTRY, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11350",
+   "family": "PROG_11350",
+   "issuer": "PEPPER IBERIA CONSUMER 2024, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11351",
+   "family": "PROG_11351",
+   "issuer": "BANCA MARCH, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11352",
+   "family": "PROG_11352",
+   "issuer": "COX INFRASTRUCTURE GROUP, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11353",
+   "family": "PROG_11353",
+   "issuer": "SANTANDER CONSUMO 7, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11354",
+   "family": "PROG_11354",
+   "issuer": "INMOCEMENTO, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11355",
+   "family": "PROG_11355",
+   "issuer": "CAJAMAR CAJA RURAL, SOCIEDAD COOPERATIVA DE CREDITO",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11356",
+   "family": "PROG_11356",
+   "issuer": "CAJA RURAL DEL SUR, S. COOP. DE CREDITO",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11357",
+   "family": "PROG_11357",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11357.1",
+   "family": "PROG_11357",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11358",
+   "family": "PROG_11358",
+   "issuer": "BANKINTER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11358-1",
+   "family": "PROG_11358",
+   "issuer": "BANKINTER, S.A.",
+   "role": "CORRECTION"
+  },
+  {
+   "key": "FOL_11360",
+   "family": "PROG_11360",
+   "issuer": "KUTXABANK, S.A",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11360.2",
+   "family": "PROG_11360",
+   "issuer": "KUTXABANK, S.A",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11361",
+   "family": "PROG_11361",
+   "issuer": "HBX GROUP INTERNATIONAL PLC",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11362",
+   "family": "PROG_11362",
+   "issuer": "TDA SABADELL RMBS 5, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11363",
+   "family": "PROG_11363",
+   "issuer": "ABANCA RMBS 2025, FONDO DE TITULIZACIÓN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11364",
+   "family": "PROG_11364",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11365",
+   "family": "PROG_11365",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11365.1",
+   "family": "PROG_11365",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11366",
+   "family": "PROG_11366",
+   "issuer": "TELEFONICA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11367",
+   "family": "PROG_11367",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11367-1",
+   "family": "PROG_11367",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "CORRECTION"
+  },
+  {
+   "key": "FOL_11367.1",
+   "family": "PROG_11367",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11367.2",
+   "family": "PROG_11367",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11368",
+   "family": "PROG_11368",
+   "issuer": "BANCO DE SABADELL, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11368.1",
+   "family": "PROG_11368",
+   "issuer": "BANCO DE SABADELL, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11370",
+   "family": "PROG_11370",
+   "issuer": "FONDO DE TITULIZACION SANTANDER CONSUMO 8",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11371",
+   "family": "PROG_11371",
+   "issuer": "BBVA CONSUMER 2025-1 FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11372",
+   "family": "PROG_11372",
+   "issuer": "UNICAJA BANCO, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11373",
+   "family": "PROG_11373",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11373.1",
+   "family": "PROG_11373",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11373.3",
+   "family": "PROG_11373",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11374",
+   "family": "PROG_11374",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11374.1",
+   "family": "PROG_11374",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11374.2",
+   "family": "PROG_11374",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11377",
+   "family": "PROG_11377",
+   "issuer": "UNION FINANCIERA ASTURIANA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11378",
+   "family": "PROG_11378",
+   "issuer": "CIRSA ENTERPRISES, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11379",
+   "family": "PROG_11379",
+   "issuer": "IZERTIS, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11381",
+   "family": "PROG_11381",
+   "issuer": "CAJA RURAL DE ALBACETE, CIUDAD REAL Y CUENCA, SOCIEDAD COOPERATIVA DE CREDI",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11382",
+   "family": "PROG_11382",
+   "issuer": "BANCO DE SABADELL, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11383",
+   "family": "PROG_11383",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11385",
+   "family": "PROG_11385",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11387",
+   "family": "PROG_11387",
+   "issuer": "SABADELL CONSUMER FINANCE AUTOS 2, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11388",
+   "family": "PROG_11388",
+   "issuer": "FONDO DE TITULIZACION SANTANDER CONSUMO 9",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11390",
+   "family": "PROG_11390",
+   "issuer": "EUROCAJA RURAL, SOCIEDAD COOPERATIVA DE CRÉDITO",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11391",
+   "family": "PROG_11391",
+   "issuer": "SANTANDER CONSUMER SPAIN AUTO 2025-1, FONDO DE TITULIZACIÓN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11392",
+   "family": "PROG_11392",
+   "issuer": "AUTOPISTAS DEL ATLANTICO, CONCESIONARIA ESPAÑOLA, S.A.U.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11394",
+   "family": "PROG_11394",
+   "issuer": "MAPFRE, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11397",
+   "family": "PROG_11397",
+   "issuer": "SOLTEC POWER HOLDINGS, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11398",
+   "family": "PROG_11398",
+   "issuer": "BANCA MARCH, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11399",
+   "family": "PROG_11399",
+   "issuer": "AENA, S.M.E., S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11401",
+   "family": "PROG_11401",
+   "issuer": "NYESA VALORES CORPORACION, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11402",
+   "family": "PROG_11402",
+   "issuer": "BANKINTER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11403",
+   "family": "PROG_11403",
+   "issuer": "BANKINTER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11405",
+   "family": "PROG_11405",
+   "issuer": "ARTECHE LANTEGI ELKARTEA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11406",
+   "family": "PROG_11406",
+   "issuer": "BBVA CONSUMER 2026-1, FONDO DE TITULIZACIÓN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11407",
+   "family": "PROG_11407",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11408",
+   "family": "PROG_11408",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11411",
+   "family": "PROG_11411",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11412",
+   "family": "PROG_11412",
+   "issuer": "PALATINO RESIDENCIAL, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11414",
+   "family": "PROG_11414",
+   "issuer": "AUTOPISTAS DEL ATLANTICO, CONCESIONARIA ESPAÑOLA, S.A.U.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11415",
+   "family": "PROG_11415",
+   "issuer": "UNICAJA BANCO, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11416",
+   "family": "PROG_11416",
+   "issuer": "CAIXABANK, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11418",
+   "family": "PROG_11418",
+   "issuer": "TSK ELECTRONICA Y ELECTRICIDAD, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11419",
+   "family": "PROG_11419",
+   "issuer": "BBVA CONSUMER AUTO 2026-1, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11420",
+   "family": "PROG_11420",
+   "issuer": "CAJA RURAL DE NAVARRA, S. COOP. DE CREDITO",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11422",
+   "family": "PROG_11422",
+   "issuer": "PRIVATE DRIVER ESPAÑA 2026-1, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11423",
+   "family": "PROG_11423",
+   "issuer": "BANCO DE SABADELL, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11424",
+   "family": "PROG_11424",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11424.1",
+   "family": "PROG_11424",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11426",
+   "family": "PROG_11426",
+   "issuer": "BANCO DE SABADELL, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11428",
+   "family": "PROG_11428",
+   "issuer": "PROMOTORA DE INFORMACIONES, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11429",
+   "family": "PROG_11429",
+   "issuer": "CAJA RURAL DE ALBACETE, CIUDAD REAL Y CUENCA, SOCIEDAD COOPERATIVA DE CREDI",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11430",
+   "family": "PROG_11430",
+   "issuer": "UNION FINANCIERA ASTURIANA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11431",
+   "family": "PROG_11431",
+   "issuer": "BANCO DE SABADELL, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11432",
+   "family": "PROG_11432",
+   "issuer": "DIGI SPAIN TELECOM, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11433",
+   "family": "PROG_11433",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11434.1",
+   "family": "PROG_11434",
+   "issuer": "FONDO DE TITULIZACION SANTANDER CONSUMO 11",
+   "role": "SUPPLEMENT"
+  },
+  {
+   "key": "FOL_11436",
+   "family": "PROG_11436",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_11437",
+   "family": "PROG_11437",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202100000",
+   "family": "PROG_202100000",
+   "issuer": "EBN ALPHA SECTOR PRIVADO, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202100001",
+   "family": "PROG_202100001",
+   "issuer": "FONDO DE TITULIZACION, CIMA SPAIN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202100006",
+   "family": "PROG_202100006",
+   "issuer": "HT NEXUS, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202100007",
+   "family": "PROG_202100007",
+   "issuer": "TDA 2015-1, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202100010",
+   "family": "PROG_202100010",
+   "issuer": "SACYR GREEN ENERGY MANAGEMENT, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202200000",
+   "family": "PROG_202200000",
+   "issuer": "IM ACP SHORT-TERM DEBT, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202200002",
+   "family": "PROG_202200002",
+   "issuer": "ICF I BOND, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202200005",
+   "family": "PROG_202200005",
+   "issuer": "ASF 1, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202200006",
+   "family": "PROG_202200006",
+   "issuer": "NPLS UNSECURED, FONDO DE TITULIZACIÓN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202200007",
+   "family": "PROG_202200007",
+   "issuer": "NPLS UNSECURED, FONDO DE TITULIZACIÓN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202200008",
+   "family": "PROG_202200008",
+   "issuer": "PENSIUM ESG I, FONDO DE TITULIZACIÓN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202200009",
+   "family": "PROG_202200009",
+   "issuer": "PENSIUM ESG I, FONDO DE TITULIZACIÓN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202200010",
+   "family": "PROG_202200010",
+   "issuer": "PERFECTA SOLAR RESIDENCIAL, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202200011",
+   "family": "PROG_202200011",
+   "issuer": "FACTOR ONE, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202200016",
+   "family": "PROG_202200016",
+   "issuer": "TWC NOTES, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202200017",
+   "family": "PROG_202200017",
+   "issuer": "FONDO DE TITULIZACION, LANTANA",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202200018",
+   "family": "PROG_202200018",
+   "issuer": "TWC NOTES, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202300000",
+   "family": "PROG_202300000",
+   "issuer": "LINKFACTOR TRADE RECEIVABLES EUR 1, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202300001",
+   "family": "PROG_202300001",
+   "issuer": "SALAMANCA, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202300002",
+   "family": "PROG_202300002",
+   "issuer": "UFASA CONSUMER FINANCE 2, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202300003",
+   "family": "PROG_202300003",
+   "issuer": "TWC NOTES, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202300004",
+   "family": "PROG_202300004",
+   "issuer": "ESPAI BARÇA, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202300005",
+   "family": "PROG_202300005",
+   "issuer": "CESCE FONDO ANTICIPO DE FACTURAS, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202300006",
+   "family": "PROG_202300006",
+   "issuer": "NPLS UNSECURED, FONDO DE TITULIZACIÓN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202300007",
+   "family": "PROG_202300007",
+   "issuer": "FONDO DE TITULIZACION MAGDALENA 7",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202300008",
+   "family": "PROG_202300008",
+   "issuer": "HOLBORN, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202300009",
+   "family": "PROG_202300009",
+   "issuer": "ALCANTARA SHORT-TERM LENDING, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202300010",
+   "family": "PROG_202300010",
+   "issuer": "PENINSULA, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202300011",
+   "family": "PROG_202300011",
+   "issuer": "HOLBORN, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400000",
+   "family": "PROG_202400000",
+   "issuer": "MICROWD, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400001",
+   "family": "PROG_202400001",
+   "issuer": "SALAMANCA, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400002",
+   "family": "PROG_202400002",
+   "issuer": "DACE, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400003",
+   "family": "PROG_202400003",
+   "issuer": "DACE, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400004",
+   "family": "PROG_202400004",
+   "issuer": "DACE, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400005",
+   "family": "PROG_202400005",
+   "issuer": "DACE, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400006",
+   "family": "PROG_202400006",
+   "issuer": "DACE, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400007",
+   "family": "PROG_202400007",
+   "issuer": "WORKCAPITAL I, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400009",
+   "family": "PROG_202400009",
+   "issuer": "CASA VI, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400010",
+   "family": "PROG_202400010",
+   "issuer": "CASA VI, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400012",
+   "family": "PROG_202400012",
+   "issuer": "OAK TRADE FINANCE, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400013",
+   "family": "PROG_202400013",
+   "issuer": "OAK TRADE FINANCE, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400014",
+   "family": "PROG_202400014",
+   "issuer": "OAK TRADE FINANCE, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400015",
+   "family": "PROG_202400015",
+   "issuer": "CASA VI, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400017",
+   "family": "PROG_202400017",
+   "issuer": "TER 1, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400019",
+   "family": "PROG_202400019",
+   "issuer": "CASA VI, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400020",
+   "family": "PROG_202400020",
+   "issuer": "CASA VI, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400021",
+   "family": "PROG_202400021",
+   "issuer": "CASA V, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400023",
+   "family": "PROG_202400023",
+   "issuer": "NPLS UNSECURED, FONDO DE TITULIZACIÓN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400025",
+   "family": "PROG_202400025",
+   "issuer": "RONDA FUNDING, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400026",
+   "family": "PROG_202400026",
+   "issuer": "CASA VI, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400028",
+   "family": "PROG_202400028",
+   "issuer": "FONDO DE TITULIZACION MAGDALENA 11",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400029",
+   "family": "PROG_202400029",
+   "issuer": "BBVA VELA CORPORATE 2024-1, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202400030",
+   "family": "PROG_202400030",
+   "issuer": "PENSIUM ESG I, FONDO DE TITULIZACIÓN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202500000",
+   "family": "PROG_202500000",
+   "issuer": "TWC NOTES, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202500001",
+   "family": "PROG_202500001",
+   "issuer": "MICROWD, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202500003",
+   "family": "PROG_202500003",
+   "issuer": "TR-1, FONDO DE TITULIZACIÓN",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202500007",
+   "family": "PROG_202500007",
+   "issuer": "LA HARMONIA, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202500010",
+   "family": "PROG_202500010",
+   "issuer": "DACE INV, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202500011",
+   "family": "PROG_202500011",
+   "issuer": "DACE INV, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202500012",
+   "family": "PROG_202500012",
+   "issuer": "BE&JING 1, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202500013",
+   "family": "PROG_202500013",
+   "issuer": "BE&JING 1, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202500014",
+   "family": "PROG_202500014",
+   "issuer": "BE&JING 1, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202500015",
+   "family": "PROG_202500015",
+   "issuer": "FINDIRECT, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202500016",
+   "family": "PROG_202500016",
+   "issuer": "FINDANGO ST, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202500019",
+   "family": "PROG_202500019",
+   "issuer": "FINPAY FINANCE, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202500020",
+   "family": "PROG_202500020",
+   "issuer": "MAGDALENA 12 FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202500024",
+   "family": "PROG_202500024",
+   "issuer": "TWC NOTES, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202500027",
+   "family": "PROG_202500027",
+   "issuer": "INSTANT FACTORING 2025-I, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202500035",
+   "family": "PROG_202500035",
+   "issuer": "GAUDI 5 FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202500037",
+   "family": "PROG_202500037",
+   "issuer": "CASTILLO, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202600000",
+   "family": "PROG_202600000",
+   "issuer": "POSETS 2025-1 FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202600005",
+   "family": "PROG_202600005",
+   "issuer": "CASA VI, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202600009",
+   "family": "PROG_202600009",
+   "issuer": "SINCRONICA, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202600010",
+   "family": "PROG_202600010",
+   "issuer": "CASA VI, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202600012",
+   "family": "PROG_202600012",
+   "issuer": "SLF-4, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202600013",
+   "family": "PROG_202600013",
+   "issuer": "SLF-4, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  },
+  {
+   "key": "FOL_202600014",
+   "family": "PROG_202600014",
+   "issuer": "MIRASOL CONSUMER, FONDO DE TITULIZACION",
+   "role": "BASE_PROSPECTUS"
+  }
+ ],
+ "manifest_sha256": "2b598ddac315627f7759c6ae79c5a514b879bebd640f95cf9116f33b96606862"
+}

@@ -1,0 +1,32 @@
+{
+ "manifest": "g1-annotation-contract",
+ "frozen_at": "2026-09-17",
+ "schema_version": "AMEND-2 (417917d)",
+ "truth_labels": {
+  "PRESENT": "valor contractual presente y localizable",
+  "MULTI": "varios valores/distintas condiciones",
+  "NA": "familia no aplicable al instrumento",
+  "ABSENT": "aplicable pero no publicado"
+ },
+ "status_labels": {
+  "DERIVED": "valor derivado con evidencia",
+  "OBSERVED": "valor literal observado",
+  "CONFLICT": "fuentes/documentos en conflicto — registrar ambos con evidencia",
+  "MISSING": "buscado y no encontrado",
+  "NOT_APPLICABLE": "familia NA"
+ },
+ "multi_value": "listas permitidas; cada elemento con su evidencia propia; nunca colapsar en un solo valor",
+ "na_rules": "NA solo cuando la familia es estructuralmente inaplicable al tipo de instrumento; ausencia de mencion != NA",
+ "conflict_rules": "valores divergentes entre base/suplemento/CCFF -> CONFLICT con provenance de cada fuente; no elegir silenciosamente",
+ "evidence_requirements": [
+  "source doc/record",
+  "snapshot sha256",
+  "page",
+  "excerpt/raw lexeme",
+  "extractor identity+version"
+ ],
+ "novelty_gold": "has_material_document_only_delta se determina contra documento + novelty-field-map + disponibilidad FIRDS/ESAP/CNMV; NO depende del extractor",
+ "blind_rule": "truth manual producida sin ver salidas del extractor",
+ "sampling_proxy_rule": "lexical_proxies son SAMPLING_PROXY; nunca gold",
+ "manifest_sha256": "b5a578d21c610884e3ef06ecfe523cc71a4077fa9583e58d889f45024f638970"
+}

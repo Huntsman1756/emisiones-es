@@ -1,0 +1,23 @@
+{
+ "freeze": "g1-a1",
+ "frozen_at": "2026-09-17",
+ "seed": 20260917,
+ "supersedes": {
+  "freeze": "g1-a",
+  "sha256": "a4beaf288ddaa870d4c176b0f9e10d86e9dbe2c1e9bf6f1db2ca5f3e57d04cbef9",
+  "preserved": true
+ },
+ "reason": "family isolation: dev<->holdout same document_family_key = 0; novelty holdout separado; cold-issuer slice; cluster audit",
+ "manifest_sha256": {
+  "family-map": "2b598ddac315627f7759c6ae79c5a514b879bebd640f95cf9116f33b96606862",
+  "novelty-holdout": "e0fb2815d5285fab6352135995146a17c183bac967198a3d314f1b6f2a26e580",
+  "annotation-contract": "b5a578d21c610884e3ef06ecfe523cc71a4077fa9583e58d889f45024f638970",
+  "g1-a1/development": "cbdc890bc906aba143f5a966911264299d91ca19ba5aa34f4485057202654c37",
+  "g1-a1/extraction-holdout": "7288740d74ac4b3192bfd4616e9df77f74cfc5047beea132e55a852477d97370",
+  "g1-a1/linkage-holdout": "32ea9a3a521385f3869711a2a1acf28b4e8883c29e52bfb408d7d50c85607dab",
+  "g1-a1/lifecycle-holdout": "09a3f2807f6a3493a093497799403f7f631339cf572ad1e4095fc7cb95ed8606"
+ },
+ "thresholds": "unchanged (G1 prereg + AMEND-1)",
+ "canonical_schema_version": "AMEND-2 (417917d)",
+ "freeze_sha256": "6924078c5b3808e77eb6bb0f7f4be707773ccd51533829d9712a82f774b23d58"
+}

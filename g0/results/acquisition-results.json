@@ -1,0 +1,131 @@
+{
+ "phase": "G0-B acquisition probe",
+ "generated_at": "2026-09-14",
+ "agent_note": "resultados de sondeo HTTP directo; sin Selenium; UA declarativo de research",
+ "families": [
+  {
+   "family": "cnmv_folletos_emision_opv",
+   "surface": "https://www.cnmv.es/portal/consultas/busqueda?id=19 (POST WebForms) -> folletosemisionopv.aspx?fechaDesde&fechaHasta&page (GET)",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8",
+   "reproducible_get": true,
+   "pagination": "page=N estable; 'Pagina X de Y' parseable",
+   "stable_identifiers": ["registro_oficial (+sufijo .k suplemento / -k modificacion)", "token verdocumento opaco por fila"],
+   "document_link_discovery": "token e=... por fila con documento; filas SERIE sin doc propio",
+   "pdf_retrieval": "200 application/pdf via webservices/verdocumento/ver?e=",
+   "redirects": "detalle NUMFOL devuelve 301 -> 200; cadena registrada",
+   "cookies_session": "no requeridas para GET de resultados; cookiejar aceptado pero opcional",
+   "rate_behaviour": "~25 paginas seguidas a 0.6-1s sin error; no se observo rate-limit",
+   "response_mutation": "ViewState/HTML wrapper mutable entre capturas; filas <td> estables (ver reobservation)",
+   "rows_acquired": 468,
+   "result": "OK"
+  },
+  {
+   "family": "cnmv_folletos_admision",
+   "surface": "busqueda?id=20 -> folletosadmision.aspx?NUMFOL=; serie de registro 143xxx",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8",
+   "reproducible_get": true,
+   "pagination": "page=N estable",
+   "stable_identifiers": ["registro 143xxx", "ISIN por fila", "mercados por fila"],
+   "document_link_discovery": "mayoria de filas enlazan a detalle NUMFOL; subset con verdocumento directo",
+   "pdf_retrieval": "200 application/pdf cuando hay token directo; si no, via detalle",
+   "rows_acquired": 65,
+   "result": "OK"
+  },
+  {
+   "family": "cnmv_ccff",
+   "surface": "busqueda?id=35 -> condiciones-finales?fechaDesde/fechaHasta|nif&page",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8",
+   "reproducible_get": true,
+   "pagination": "page=N; 'Pagina X de 9' observado",
+   "stable_identifiers": ["CCFF_{reg}_{seq} filing id", "registro_oficial", "ISIN", "presentacion/ult_mod"],
+   "document_link_discovery": "token verdocumento en 100% de las filas observadas (39/39 en probe inicial)",
+   "pdf_retrieval": "200 application/pdf",
+   "rows_acquired": 152,
+   "result": "OK",
+   "note": "cobertura temporal corta: 2023 solo 7 filas; registro CCFF parece reciente"
+  },
+  {
+   "family": "cnmv_folleto_detalle",
+   "surface": "folletosemisionopv.aspx?NUMFOL={reg}&lang=es",
+   "status": "301 -> 200",
+   "content_type": "text/html; charset=utf-8",
+   "document_link_discovery": "agrupa base+suplementos+series del registro",
+   "edge_case": "NUMFOL=11425 muestra solo el suplemento; base no visible (caso S11)",
+   "result": "OK"
+  },
+  {
+   "family": "cnmv_document_service",
+   "surface": "webservices/verdocumento/ver?e={token}",
+   "status": 200,
+   "content_type": "application/pdf",
+   "pdf_retrieval": "41/41 PDFs del corpus verificados (magic bytes %PDF-)",
+   "identity": "token opaco; NO reversible a id semantico -> identidad = url + sha256",
+   "result": "OK"
+  },
+  {
+   "family": "cnmv_infraestructuras",
+   "surface": "portal/consultas/rectoras/listadosim?lang=es",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8",
+   "rows_acquired": "lista completa de venues (26 filas)",
+   "result": "OK"
+  },
+  {
+   "family": "cnmv_consulta_isin",
+   "surface": "portal/ancv/isin.aspx?isin={ISIN}",
+   "status": 403,
+   "result": "BLOCKED",
+   "note": "403 desde entorno de adquisicion; no reintentado con browser; no bloquea el corpus"
+  },
+  {
+   "family": "cnmv_operaciones_semanales",
+   "surface": "portal/Publicaciones/CNMVInforma.aspx",
+   "status": 403,
+   "result": "BLOCKED",
+   "note": "publicacion semanal; no es fuente primaria de folletos"
+  },
+  {
+   "family": "cnmv_pasaportes",
+   "surface": "busqueda.aspx?id=11",
+   "status": "400 en probe inicial",
+   "result": "PARTIAL",
+   "note": "fuera del corpus minimo; documentado como limitacion"
+  },
+  {
+   "family": "internet_cnmv_portal",
+   "surface": "internet.cnmv.es/portal/Consultas/Folletos/FolletosEmisionOPV",
+   "result": "NO_JSON_API",
+   "note": "solo API de suggest (addsearch); registro sigue en HTML -> no se implementa XHR"
+  },
+  {
+   "family": "portfolio_exchange",
+   "surface": "portfolio.exchange/es/portfolio-market + api.portfolio.exchange/poex/document/{id}",
+   "status": "200 paginas / 403->200 API docs con Referer",
+   "document_link_discovery": "fichas de instrumento embeben metadatos de documentos (Documento de Emision, versiones, cuentas, avisos)",
+   "pdf_retrieval": "200 application/pdf con header Referer: https://portfolio.exchange/",
+   "result": "OK_LIMITED",
+   "note": "sin bonos listados actualmente (31 valores, todos SOCIMI/equity); docs de deuda soportados por rulebook pero no observados"
+  },
+  {
+   "family": "securitize_dlt",
+   "result": "NOT_AVAILABLE",
+   "note": "autorizada CNMV 2025-11-26 (Reg. UE 2022/858); sin emision publica documentable; DLT_CASE=NOT_AVAILABLE"
+  }
+ ],
+ "corpus_frozen": {
+  "pdfs_downloaded": 41,
+  "pdfs_verified": 41,
+  "extraction_holdout": 30,
+  "extraction_scout": 11,
+  "linkage_holdout": 300,
+  "linkage_scout": 56
+ },
+ "mutations_observed": {
+  "unchanged_pairs": 3,
+  "updated_metadata_real": 1,
+  "note": "folleto_11434 entre capturas: raw_sha256 difiere, normalized_row_sha256 identico"
+ }
+}

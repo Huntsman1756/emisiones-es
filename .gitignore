@@ -12,3 +12,5 @@ build/
 # snapshots y corpus son grandes; los manifests con hashes sí se commitean
 g0/snapshots/*.pdf
 g0/corpus/*.pdf
+# material crudo de adquisicion (licencia CNMV: no redistribuir)
+.work/

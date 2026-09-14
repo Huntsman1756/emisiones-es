@@ -1,0 +1,64 @@
+{
+ "manifest": "source-acquisition",
+ "frozen_at": "2026-09-14",
+ "purpose": "contrato de adquisicion G0-B: que superficies, que identidad, que snapshot",
+ "snapshot_contract": {
+  "required_fields": [
+   "source", "source_family", "source_record_key", "canonical_url",
+   "retrieved_at", "observed_at (cuando la fuente lo exponga)",
+   "http_status", "content_type",
+   "raw_sha256", "normalized_row_sha256",
+   "document_url", "document_sha256 (cuando exista)"
+  ],
+  "auxiliary_headers": ["ETag", "Last-Modified", "Content-Length", "redirect_chain"],
+  "header_rule": "headers son metadata auxiliar; nunca identidad primaria",
+  "versioning": "nunca sobrescribir observaciones; clasificar UNCHANGED/UPDATED/UPDATED_METADATA/DISAPPEARED/NEW",
+  "raw_storage": "PDFs y HTML crudo en g0/snapshots/ y .work/ (gitignored); el manifest referencia url+sha256+local_evidence+retrieved_at"
+ },
+ "identity_model_provisional": {
+  "source_record_key": "id de fila observable: CCFF_{reg}_{seq} | FOL_{reg}[.k|-k] | ADM_{reg} | PSE_{issuer}_{docid}",
+  "source_document_key": "token verdocumento opaco o URL documental; sin semantica reversible",
+  "programme_or_prospectus_reference": "registro_oficial (parte entera) = referencia al folleto/programa, NO identificador de fila",
+  "isin": "identificador del valor; un registro puede tener varios; una fila puede carecer de el",
+  "observed_version": "presentacion + ult_mod (CCFF) o fecha_registro + sufijo (folletos)",
+  "invariants": [
+   "mismo registro oficial -> N condiciones finales -> N ISIN -> N fechas",
+   "registro X.k = suplemento k de X; X-k = modificacion k de X (observado, no universal)",
+   "esquema de registro heterogeneo: 11xxx, 2026xxxxx (FTA), 143xxx (admision)"
+  ]
+ },
+ "sources": [
+  {"family": "cnmv_folletos_emision_opv", "method": "GET paginado tras POST de formulario",
+   "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?fechaDesde={d}&fechaHasta={h}&page={n}&lang=es",
+   "status": "ACQUIRED", "rows": 468},
+  {"family": "cnmv_folletos_admision", "method": "GET paginado",
+   "url": "https://www.cnmv.es/portal/consultas/folletos/folletosadmision.aspx?...&page={n}",
+   "status": "ACQUIRED", "rows": 65},
+  {"family": "cnmv_ccff", "method": "GET paginado por rango de fechas o NIF",
+   "url": "https://www.cnmv.es/portal/consultas/folletos/condiciones-finales?fechaDesde={d}&fechaHasta={h}&page={n}&lang=es",
+   "status": "ACQUIRED", "rows": 152},
+  {"family": "cnmv_folleto_detalle", "method": "GET con redirect",
+   "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL={reg}&lang=es",
+   "status": "ACQUIRED"},
+  {"family": "cnmv_document_service", "method": "GET token opaco",
+   "url": "https://www.cnmv.es/webservices/verdocumento/ver?e={token}",
+   "status": "ACQUIRED", "pdfs": 41},
+  {"family": "cnmv_infraestructuras", "method": "GET",
+   "url": "https://www.cnmv.es/portal/consultas/rectoras/listadosim?lang=es",
+   "status": "ACQUIRED"},
+  {"family": "cnmv_consulta_isin", "status": "BLOCKED_403",
+   "note": "no requerida para el corpus"},
+  {"family": "portfolio_exchange", "method": "GET ficha instrumento + API docs con Referer",
+   "url": "https://portfolio.exchange/es/portfolio-market",
+   "status": "ACQUIRED_LIMITED", "note": "sin deuda listada; docs API exigen header Referer"},
+  {"family": "securitize_dlt", "status": "NOT_AVAILABLE",
+   "note": "sin emision publica documentable en esta fase"}
+ ],
+ "raw_pools": {
+  "folletos_emision_opv_2021_2026": 468,
+  "ccff_2023_2026": 152,
+  "admisiones": 65,
+  "suplementos_en_pool": 69,
+  "modificaciones_en_pool": 6
+ }
+}

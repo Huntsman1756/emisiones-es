@@ -1,0 +1,50 @@
+{
+ "real_pairs": [
+  {
+   "key": "ccff_santander_p0",
+   "classification": "UNCHANGED",
+   "prev_sha": "136ae1a2b4d33c17",
+   "cur_sha": "136ae1a2b4d33c17"
+  },
+  {
+   "key": "folleto_11434",
+   "classification": "UNCHANGED",
+   "prev_sha": "5949d2b153985ce5",
+   "cur_sha": "5949d2b153985ce5"
+  },
+  {
+   "key": "folleto_11434_earlier",
+   "classification": "UPDATED_METADATA",
+   "prev_sha": "9db56522397af374",
+   "cur_sha": "5949d2b153985ce5"
+  },
+  {
+   "key": "listadosim",
+   "classification": "UNCHANGED",
+   "prev_sha": "ffb1707119804ad1",
+   "cur_sha": "ffb1707119804ad1"
+  }
+ ],
+ "fixtures": [
+  {
+   "fixture": "fx_unchanged",
+   "classification": "UNCHANGED"
+  },
+  {
+   "fixture": "fx_updated_row",
+   "classification": "UPDATED"
+  },
+  {
+   "fixture": "fx_updated_metadata",
+   "classification": "UPDATED_METADATA"
+  },
+  {
+   "fixture": "fx_disappeared",
+   "classification": "DISAPPEARED"
+  },
+  {
+   "fixture": "fx_new",
+   "classification": "NEW"
+  }
+ ]
+}

@@ -21,21 +21,27 @@ de riesgos de reutilización que condiciona el diseño del G0.
 
 ### CNMV (cnmv.es, sede.cnmv.gob.es)
 
+```text
+REUSE PERMITTED SUBJECT TO CNMV SITE TERMS
+```
+
 - La [nota legal](https://www.cnmv.es/portal/utilidades/notalegal.aspx)
   afirma copyright sobre "textos, fotos y elementos gráficos" del sitio y su
-  presentación, y exime de responsabilidad. No publica una licencia de
-  reutilización abierta para el contenido de la web.
-- **Matización importante**: los *folletos, condiciones finales y suplementos*
-  son documentos de los emisores registrados por obligación legal (Reglamento
-  UE 2017/1129), no contenido editorial de la CNMV. La difusión pública es un
-  deber legal; el dataset resultante son **hechos extraídos** (términos,
-  fechas, importes), no republicación del texto.
+  presentación, y exime de responsabilidad. **No existe una licencia
+  open-data estándar** para el contenido de la web CNMV.
+- No asumir que "hecho extraído" elimina cualquier obligación: los términos
+  del sitio siguen aplicando aunque el dataset publique hechos normalizados.
+- Obligaciones operativas del proyecto:
+  - Preservar `source_url` y atribución a CNMV en cada observación.
+  - **No redistribuir PDFs CNMV** en el dataset público durante G0.
+  - Publicar: hashes, metadatos, evidence pointers (página/bbox/span) y
+    hechos normalizados.
 - `datos.gob.es` cataloga datasets CNMV (p.ej. "Folletos de emisiones,
-  admisiones y OPAS") con condiciones de uso que remiten a la nota legal.
-- **Decisión de diseño**: el dataset publica *datos estructurados + hashes +
-  URLs fuente*, no los PDFs. Los snapshots locales se conservan para
-  auditoría pero no se redistribuyen por defecto. Riesgo residual: MEDIO,
-  mitigable publicando solo hechos + metadatos de provenance.
+  admisiones y OPAS") cuyas condiciones de uso remiten a la nota legal;
+  tampoco constituyen una licencia abierta verificable.
+- Riesgo residual: MEDIO. No se hacen afirmaciones jurídicas más fuertes que
+  la evidencia disponible; la posición se revisa si CNMV publica términos de
+  reutilización explícitos.
 
 ### ESMA — FIRDS / FITRS / ESAP
 

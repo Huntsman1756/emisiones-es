@@ -1,0 +1,1168 @@
+{
+ "manifest": "linkage-scout.json",
+ "frozen_at": "2026-09-14",
+ "seed": 20260914,
+ "label_policy": "labels assigned by construction from CNMV record structure; AMBIGUOUS cases marked manual; never auto-promote AMBIGUOUS",
+ "n_cases": 56,
+ "cases": [
+  {
+   "case_key": "T1-001",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11431_001",
+    "registro_oficial": "11431",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=IxTESdkPQWfwxbEkhTig%2f5xTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "ES0413860943"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11431",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11431"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-002",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11433_008",
+    "registro_oficial": "11433",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=wQj35JLpPkwIG4Vma7xAC5xTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "ES0305067O31"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11433",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11433"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-003",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11433_006",
+    "registro_oficial": "11433",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=hSHK%2fv0pPmV8Alt6RZE3jpxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "ES0305067O23"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11433",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11433"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-004",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_045",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=0QvbYECFacKeqdOuheSPt5xTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3372842214"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-005",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_043",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=a6KAaI%2bR0TDlZCKOO6CKUpxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3372838618"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-006",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11433_004",
+    "registro_oficial": "11433",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=oYSw7uvZZmauUfNiYE2RnpxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "ES0305067N99"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11433",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11433"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-007",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_042",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=1kEaEPp%2fK9WJVCNpWwxUW5xTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3372842305"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-008",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11433_003",
+    "registro_oficial": "11433",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=KwPyp51tb4PZ%2bMeHbZgvlZxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "ES0305067N65"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11433",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11433"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-009",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11433_002",
+    "registro_oficial": "11433",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=LBprPyPXSlmauku316ncypxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "ES0305067N81"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11433",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11433"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-010",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_041",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=l8NpX3fGehaShffb8ptds5xTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3372838709"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-011",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_039",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=8fKaTG3gkh3xodmpK829ipxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3372842487"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-012",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_036",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=jh1hrCJGy0eceR%2ffifurN5xTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3372839004"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-013",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11425_001",
+    "registro_oficial": "11425",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=%2fzQde5wq5SbVl3CqEAzuVJxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "ES0265936080"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11425",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11425"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-014",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_033",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=mPmaTMIvAal%2boQ2JxO3FUZxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3372839343"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-015",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_030",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=%2b4b0RZ7VCZD6AnAvIL2WS5xTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3372839772"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-016",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_029",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=9IxxgHLjeuucbI0%2bRhP7oZxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3372840192"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-017",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_028",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=JnZtc8BdBsv2PLNp4iNcS5xTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3372842990"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-018",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_026",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=qXVUaBT%2bgA%2bleWlIlQxcAZxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3372840358"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-019",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_022",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=lJ2gpMcudn%2bqfKOpVMW%2bRZxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3372840432"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-020",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_019",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=D1qYbNmB8BvTKppPEyKTEZxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3368928480"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-021",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_018",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=Lw%2fg9T8xOz6ZGTqoIYJqlZxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3367638866"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-022",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_016",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=cfRWKknrFj5AwHQd2yGTnZxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3343237577"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-023",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_015",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=Uxh4%2fXTWnrZr%2fHbJQoJ5fZxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3338750634"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-024",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_013",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=G%2fMgJXlgTCOV%2bG6SjX13q5xTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3334067058"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-025",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_012",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=4v%2fycSk4zTCP2x%2fKHp3cFpxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3332391591"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-026",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_010",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=hr8TeQlyqkWjfpw%2fk5TtJpxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3322562540"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-027",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_008",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=jVamTP4P5Up6CkoeEU9G1ZxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3307951585"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-028",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_006",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=gVgb98KDyH%2brOGmcXwqHKJxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3308965071"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T1-029",
+   "stratum": "scout_ccff_to_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_003",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=2G9MVuujeSyexmW094mGOJxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3298278444"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11400",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11400"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "CCFF->NUMFOL explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T2-001",
+   "stratum": "scout_supplement",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11316.2",
+    "registro_oficial": "11316",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=mr80AORjx7eN0%2bqpVOaxLqEpI%2biFfPy6xtr5zzoQYHkQuBXcwhxHTTOZtrpRPSAM",
+    "isin": ""
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11316",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11316"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro X.k -> X",
+   "notes": ""
+  },
+  {
+   "case_key": "T2-002",
+   "stratum": "scout_supplement",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11365.2",
+    "registro_oficial": "11365",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=kJm0ki%2fGQXUDPHxxzDArmaEpI%2biFfPy6xtr5zzoQYHkQuBXcwhxHTTOZtrpRPSAM",
+    "isin": ""
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11365",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11365"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro X.k -> X",
+   "notes": ""
+  },
+  {
+   "case_key": "T2-003",
+   "stratum": "scout_supplement",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11316.3",
+    "registro_oficial": "11316",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=e4ETXCPUnZS2ao9dz7puFKEpI%2biFfPy6xtr5zzoQYHkQuBXcwhxHTTOZtrpRPSAM",
+    "isin": ""
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11316",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11316"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro X.k -> X",
+   "notes": ""
+  },
+  {
+   "case_key": "T2-004",
+   "stratum": "scout_supplement",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11425.1",
+    "registro_oficial": "11425",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=Dl3p8UCU8VDNK13jqQzCTKEpI%2biFfPy6xtr5zzoQYHkQuBXcwhxHTTOZtrpRPSAM",
+    "isin": ""
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11425",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11425"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro X.k -> X",
+   "notes": ""
+  },
+  {
+   "case_key": "T2-005",
+   "stratum": "scout_supplement",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11416.1",
+    "registro_oficial": "11416",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=CEsc4j35YUCAUabey3IZLqEpI%2biFfPy6xtr5zzoQYHkQuBXcwhxHTTOZtrpRPSAM",
+    "isin": ""
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11416",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11416"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro X.k -> X",
+   "notes": ""
+  },
+  {
+   "case_key": "T2-006",
+   "stratum": "scout_supplement",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11365.3",
+    "registro_oficial": "11365",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=GPSUbigyADxUvMNT7W6U8KEpI%2biFfPy6xtr5zzoQYHkQuBXcwhxHTTOZtrpRPSAM",
+    "isin": ""
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11365",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11365"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "SUPPLEMENTS",
+   "label_source": "structural",
+   "evidence": "registro X.k -> X",
+   "notes": ""
+  },
+  {
+   "case_key": "T4-001",
+   "stratum": "scout_admission",
+   "source": {
+    "family": "cnmv_admision",
+    "record_key": "ADM_143237",
+    "registro_oficial": "143237",
+    "doc_url": null,
+    "isin": "ES0113902359"
+   },
+   "candidate": {
+    "type": "security",
+    "isin": "ES0113902359"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "ADMISSION_OF",
+   "label_source": "structural",
+   "evidence": "admision con ISIN explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T4-002",
+   "stratum": "scout_admission",
+   "source": {
+    "family": "cnmv_admision",
+    "record_key": "ADM_143235",
+    "registro_oficial": "143235",
+    "doc_url": null,
+    "isin": "ES0126962333"
+   },
+   "candidate": {
+    "type": "security",
+    "isin": "ES0126962333"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "ADMISSION_OF",
+   "label_source": "structural",
+   "evidence": "admision con ISIN explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T4-003",
+   "stratum": "scout_admission",
+   "source": {
+    "family": "cnmv_admision",
+    "record_key": "ADM_143233",
+    "registro_oficial": "143233",
+    "doc_url": null,
+    "isin": "ES0150480293"
+   },
+   "candidate": {
+    "type": "security",
+    "isin": "ES0150480293"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "ADMISSION_OF",
+   "label_source": "structural",
+   "evidence": "admision con ISIN explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T4-004",
+   "stratum": "scout_admission",
+   "source": {
+    "family": "cnmv_admision",
+    "record_key": "ADM_143231",
+    "registro_oficial": "143231",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=1Q7BFpT4bD1h%2fVWnhi8%2b26EpI%2biFfPy6xtr5zzoQYHkQuBXcwhxHTTOZtrpRPSAM",
+    "isin": "ES0162600052"
+   },
+   "candidate": {
+    "type": "security",
+    "isin": "ES0162600052"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "ADMISSION_OF",
+   "label_source": "structural",
+   "evidence": "admision con ISIN explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T4-005",
+   "stratum": "scout_admission",
+   "source": {
+    "family": "cnmv_admision",
+    "record_key": "ADM_143229",
+    "registro_oficial": "143229",
+    "doc_url": null,
+    "isin": "ES0172708572"
+   },
+   "candidate": {
+    "type": "security",
+    "isin": "ES0172708572"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "ADMISSION_OF",
+   "label_source": "structural",
+   "evidence": "admision con ISIN explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T4-006",
+   "stratum": "scout_admission",
+   "source": {
+    "family": "cnmv_admision",
+    "record_key": "ADM_143227",
+    "registro_oficial": "143227",
+    "doc_url": null,
+    "isin": "ES0172708572"
+   },
+   "candidate": {
+    "type": "security",
+    "isin": "ES0172708572"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "ADMISSION_OF",
+   "label_source": "structural",
+   "evidence": "admision con ISIN explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T4-007",
+   "stratum": "scout_admission",
+   "source": {
+    "family": "cnmv_admision",
+    "record_key": "ADM_143225",
+    "registro_oficial": "143225",
+    "doc_url": null,
+    "isin": "ES0106043005"
+   },
+   "candidate": {
+    "type": "security",
+    "isin": "ES0106043005"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "ADMISSION_OF",
+   "label_source": "structural",
+   "evidence": "admision con ISIN explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T4-008",
+   "stratum": "scout_admission",
+   "source": {
+    "family": "cnmv_admision",
+    "record_key": "ADM_143223",
+    "registro_oficial": "143223",
+    "doc_url": null,
+    "isin": "ES0117360117"
+   },
+   "candidate": {
+    "type": "security",
+    "isin": "ES0117360117"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "ADMISSION_OF",
+   "label_source": "structural",
+   "evidence": "admision con ISIN explicito",
+   "notes": ""
+  },
+  {
+   "case_key": "T5-001",
+   "stratum": "scout_same_issuer_wrong_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_045",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=0QvbYECFacKeqdOuheSPt5xTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3372842214"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11437"
+   },
+   "label": "NO_LINK",
+   "relation_if_exact": null,
+   "label_source": "structural",
+   "evidence": "CCFF_11400_x vs programa 11437 del mismo emisor",
+   "notes": ""
+  },
+  {
+   "case_key": "T5-002",
+   "stratum": "scout_same_issuer_wrong_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_043",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=a6KAaI%2bR0TDlZCKOO6CKUpxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3372838618"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11437"
+   },
+   "label": "NO_LINK",
+   "relation_if_exact": null,
+   "label_source": "structural",
+   "evidence": "CCFF_11400_x vs programa 11437 del mismo emisor",
+   "notes": ""
+  },
+  {
+   "case_key": "T5-003",
+   "stratum": "scout_same_issuer_wrong_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_042",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=1kEaEPp%2fK9WJVCNpWwxUW5xTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3372842305"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11437"
+   },
+   "label": "NO_LINK",
+   "relation_if_exact": null,
+   "label_source": "structural",
+   "evidence": "CCFF_11400_x vs programa 11437 del mismo emisor",
+   "notes": ""
+  },
+  {
+   "case_key": "T5-004",
+   "stratum": "scout_same_issuer_wrong_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_041",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=l8NpX3fGehaShffb8ptds5xTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3372838709"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11437"
+   },
+   "label": "NO_LINK",
+   "relation_if_exact": null,
+   "label_source": "structural",
+   "evidence": "CCFF_11400_x vs programa 11437 del mismo emisor",
+   "notes": ""
+  },
+  {
+   "case_key": "T5-005",
+   "stratum": "scout_same_issuer_wrong_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_039",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=8fKaTG3gkh3xodmpK829ipxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3372842487"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11437"
+   },
+   "label": "NO_LINK",
+   "relation_if_exact": null,
+   "label_source": "structural",
+   "evidence": "CCFF_11400_x vs programa 11437 del mismo emisor",
+   "notes": ""
+  },
+  {
+   "case_key": "T5-006",
+   "stratum": "scout_same_issuer_wrong_programme",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11400_036",
+    "registro_oficial": "11400",
+    "doc_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=jh1hrCJGy0eceR%2ffifurN5xTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "isin": "XS3372839004"
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11437"
+   },
+   "label": "NO_LINK",
+   "relation_if_exact": null,
+   "label_source": "structural",
+   "evidence": "CCFF_11400_x vs programa 11437 del mismo emisor",
+   "notes": ""
+  },
+  {
+   "case_key": "T7-001",
+   "stratum": "scout_serie_no_doc",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11434",
+    "registro_oficial": "11434",
+    "doc_url": null,
+    "isin": "ES0306053010"
+   },
+   "candidate": {
+    "type": "none"
+   },
+   "label": "NO_LINK",
+   "relation_if_exact": null,
+   "label_source": "structural",
+   "evidence": "fila serie sin doc propio",
+   "notes": ""
+  },
+  {
+   "case_key": "T7-002",
+   "stratum": "scout_serie_no_doc",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11434",
+    "registro_oficial": "11434",
+    "doc_url": null,
+    "isin": "ES0306053036"
+   },
+   "candidate": {
+    "type": "none"
+   },
+   "label": "NO_LINK",
+   "relation_if_exact": null,
+   "label_source": "structural",
+   "evidence": "fila serie sin doc propio",
+   "notes": ""
+  },
+  {
+   "case_key": "T7-003",
+   "stratum": "scout_serie_no_doc",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11434",
+    "registro_oficial": "11434",
+    "doc_url": null,
+    "isin": "ES0306053051"
+   },
+   "candidate": {
+    "type": "none"
+   },
+   "label": "NO_LINK",
+   "relation_if_exact": null,
+   "label_source": "structural",
+   "evidence": "fila serie sin doc propio",
+   "notes": ""
+  },
+  {
+   "case_key": "T7-004",
+   "stratum": "scout_serie_no_doc",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11434",
+    "registro_oficial": "11434",
+    "doc_url": null,
+    "isin": "ES0306053069"
+   },
+   "candidate": {
+    "type": "none"
+   },
+   "label": "NO_LINK",
+   "relation_if_exact": null,
+   "label_source": "structural",
+   "evidence": "fila serie sin doc propio",
+   "notes": ""
+  },
+  {
+   "case_key": "T7-005",
+   "stratum": "scout_serie_no_doc",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11421",
+    "registro_oficial": "11421",
+    "doc_url": null,
+    "isin": "ES0306040017"
+   },
+   "candidate": {
+    "type": "none"
+   },
+   "label": "NO_LINK",
+   "relation_if_exact": null,
+   "label_source": "structural",
+   "evidence": "fila serie sin doc propio",
+   "notes": ""
+  },
+  {
+   "case_key": "T7-006",
+   "stratum": "scout_serie_no_doc",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11421",
+    "registro_oficial": "11421",
+    "doc_url": null,
+    "isin": "ES0306040033"
+   },
+   "candidate": {
+    "type": "none"
+   },
+   "label": "NO_LINK",
+   "relation_if_exact": null,
+   "label_source": "structural",
+   "evidence": "fila serie sin doc propio",
+   "notes": ""
+  },
+  {
+   "case_key": "T8-001",
+   "stratum": "scout_portfolio_equity",
+   "source": {
+    "family": "portfolio_exchange",
+    "record_key": "PSE_ACRS",
+    "registro_oficial": null,
+    "doc_url": "https://api.portfolio.exchange/poex/document/2589",
+    "isin": "ES0105746004"
+   },
+   "candidate": {
+    "type": "security",
+    "isin": "ES0105746004"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "structural",
+   "evidence": "pagina instrumento portfolio.exchange lista Documento de Emision",
+   "notes": "Documento de Emision - AC Residencial (2024-06-26); requiere header Referer"
+  }
+ ],
+ "sampling_rule": "records manually inspected during G0-B discovery phase; free to use for rule design; disjoint from holdout",
+ "strata_counts": {
+  "scout_ccff_to_programme": 29,
+  "scout_portfolio_equity": 1,
+  "scout_same_issuer_wrong_programme": 6,
+  "scout_supplement": 6,
+  "scout_serie_no_doc": 6,
+  "scout_admission": 8
+ },
+ "manifest_sha256": "99239b442bd1b70e9d086c83a112082f9ffcdedc5c451dad4053adf03dd2c359"
+}

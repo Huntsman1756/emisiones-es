@@ -204,6 +204,10 @@ No forma parte del hard gate.
 
 ## Desviaciones registradas
 
+Audit trail completo y permanente: `g0/reports/G0-D-AUDIT-TRAIL.md`
+(truth v1.0/v1.1 + diff + evidencia; scorer provenance antes/después).
+
+
 1. **Scorer de provenance (tooling de evaluación, no código congelado)**:
    criterio corregido para aceptar raw lexeme en `evidence[].excerpt` (diseño
    real del contrato) en vez de exigir `raw_lexeme` top-level. Predicciones no

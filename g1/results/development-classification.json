@@ -1,0 +1,3433 @@
+{
+ "n": 331,
+ "role_accuracy": 1.0,
+ "unknown_rate": 0.0,
+ "false_confident": 0,
+ "false_confident_keys": [],
+ "confusion": {},
+ "per_record": [
+  {
+   "key": "CCFF_11404_002",
+   "expected": "FINAL_TERMS",
+   "predicted": "FINAL_TERMS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_CCFF row = condiciones finales"
+   ]
+  },
+  {
+   "key": "FOL_11210",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11209",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11178.1",
+   "expected": "SUPPLEMENT",
+   "predicted": "SUPPLEMENT",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "meta:rol=SUPLEMENTO / sufijo .k"
+   ]
+  },
+  {
+   "key": "FOL_11206",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11198.1",
+   "expected": "SUPPLEMENT",
+   "predicted": "SUPPLEMENT",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "meta:rol=SUPLEMENTO / sufijo .k"
+   ]
+  },
+  {
+   "key": "FOL_202100010",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11202",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202100006",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11198",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11197",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11196",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11193",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11191",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_202100007",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11189",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11186",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11182",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11180",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11179",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11178",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11177",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11176",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11174",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11173",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11169",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11164",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11158.1",
+   "expected": "SUPPLEMENT",
+   "predicted": "SUPPLEMENT",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "meta:rol=SUPLEMENTO / sufijo .k"
+   ]
+  },
+  {
+   "key": "FOL_11158",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11156",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11154",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11152",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11151",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202100001",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11148",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202100000",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11258",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11242.3",
+   "expected": "SUPPLEMENT",
+   "predicted": "SUPPLEMENT",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "meta:rol=SUPLEMENTO / sufijo .k"
+   ]
+  },
+  {
+   "key": "FOL_11233.2",
+   "expected": "SUPPLEMENT",
+   "predicted": "SUPPLEMENT",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "meta:rol=SUPLEMENTO / sufijo .k"
+   ]
+  },
+  {
+   "key": "FOL_11256",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11255",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_202200018",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202200017",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11250",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11248",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11233.1",
+   "expected": "SUPPLEMENT",
+   "predicted": "SUPPLEMENT",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "meta:rol=SUPLEMENTO / sufijo .k"
+   ]
+  },
+  {
+   "key": "FOL_202200011",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202200010",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11244",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11242",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11240",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202200009",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202200008",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202200007",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11235",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202200005",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11233",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11229",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11228",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_202200002",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11219",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202200000",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11216",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11215",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11306",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11305",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11304",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11303",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_202300010",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11300",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_202300009",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202300011",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202300008",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11296",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202300007",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11294",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11280.1",
+   "expected": "SUPPLEMENT",
+   "predicted": "SUPPLEMENT",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "meta:rol=SUPLEMENTO / sufijo .k"
+   ]
+  },
+  {
+   "key": "FOL_202300006",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11292",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11288",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11287",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11285",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11283",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202300005",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11281",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11280",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11279",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11278",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11277",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_202300004",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11274",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11272",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11271",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11233.4",
+   "expected": "SUPPLEMENT",
+   "predicted": "SUPPLEMENT",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "meta:rol=SUPLEMENTO / sufijo .k"
+   ]
+  },
+  {
+   "key": "FOL_202300003",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202300002",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11267",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11266",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_202300001",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11264",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11263",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11244.1",
+   "expected": "SUPPLEMENT",
+   "predicted": "SUPPLEMENT",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "meta:rol=SUPLEMENTO / sufijo .k"
+   ]
+  },
+  {
+   "key": "FOL_11261",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11260",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_202300000",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11259",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202400030",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202400029",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202400028",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202400026",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_202400025",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11354",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_202400021",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11352",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11351",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202400020",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202400019",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11347",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11343",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11342",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11316.1",
+   "expected": "SUPPLEMENT",
+   "predicted": "SUPPLEMENT",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "meta:rol=SUPLEMENTO / sufijo .k"
+   ]
+  },
+  {
+   "key": "FOL_11333",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11332",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202400017",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11330",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11326",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11324",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11323",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202400015",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202400014",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202400013",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202400012",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202400010",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11316",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11315",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_202400007",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202400006",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_202400005",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_202400004",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202400003",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202400002",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202400001",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11313",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11278.1",
+   "expected": "SUPPLEMENT",
+   "predicted": "SUPPLEMENT",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "meta:rol=SUPLEMENTO / sufijo .k"
+   ]
+  },
+  {
+   "key": "FOL_202400000",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202500037",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11399",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202500035",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11397",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11392",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202500027",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11391",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11388",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11387",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11365.1",
+   "expected": "SUPPLEMENT",
+   "predicted": "SUPPLEMENT",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "meta:rol=SUPLEMENTO / sufijo .k"
+   ]
+  },
+  {
+   "key": "FOL_11381",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11379",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11378",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_202500020",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202500019",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202500016",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202500015",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11372",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202500014",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202500013",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202500012",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11370",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202500011",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_202500010",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11365",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_202500007",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11364",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11326.1",
+   "expected": "SUPPLEMENT",
+   "predicted": "SUPPLEMENT",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "meta:rol=SUPLEMENTO / sufijo .k"
+   ]
+  },
+  {
+   "key": "FOL_202500003",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202500001",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202500000",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11436",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11432",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11431",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202600014",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11424",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11423",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11422",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11420",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11419",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202600013",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202600012",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11412",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_202600005",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_202600009",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "FOL_11411",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11405",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_11402",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base"
+   ]
+  },
+  {
+   "key": "FOL_202600000",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETOS_EMISION row = folleto base",
+    "instrument:DEBT(meta)"
+   ]
+  },
+  {
+   "key": "ADM_143116",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143115",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143114",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143113",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143112",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143111",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143110",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143109",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143108",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143107",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143106",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143105",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143104",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143103",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143102",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143101",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143100",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143099",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143098",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143097",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143096",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143095",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143094",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143093",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143092",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143091",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143090",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143089",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143088",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143087",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143086",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143085",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143084",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143083",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143082",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143081",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143080",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143079",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143078",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143077",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143076",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143075",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143074",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143073",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143072",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143071",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143070",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143069",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143068",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143067",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143066",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143065",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143064",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143063",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143062",
+   "expected": "SECURITIES_NOTE",
+   "predicted": "SECURITIES_NOTE",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION",
+    "meta:denominacion=BONOS/OBLIG. CONVERTIBLES/CANJEABLES"
+   ]
+  },
+  {
+   "key": "ADM_143061",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143060",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143058",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143055",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143054",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143053",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143052",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143051",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143050",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143049",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143046",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143181",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143180",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143179",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143178",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143177",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143176",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143174",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143173",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143172",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143171",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143170",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143169",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143168",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143167",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143165",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143162",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143161",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143160",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143159",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143157",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143155",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143153",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143151",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143149",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143147",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143146",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143145",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143144",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143142",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143141",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143140",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143138",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143137",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143136",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143135",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143134",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143133",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143131",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143127",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143126",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143125",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143123",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143119",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143236",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143234",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143232",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143230",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143228",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143226",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143224",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143221",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143219",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143215",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143213",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143211",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143209",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143206",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143204",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143202",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143200",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143198",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143196",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143195",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143194",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143192",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143191",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143189",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143187",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143185",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "ADM_143183",
+   "expected": "ISSUE_DOC",
+   "predicted": "ISSUE_DOC",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_ADMISSION"
+   ]
+  },
+  {
+   "key": "FAM_11404_11404",
+   "expected": "BASE_PROSPECTUS",
+   "predicted": "BASE_PROSPECTUS",
+   "confidence": "HIGH",
+   "ok": true,
+   "signals": [
+    "surface:CNMV_FOLLETO_DETAIL row = folleto base"
+   ]
+  }
+ ]
+}

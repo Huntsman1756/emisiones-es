@@ -1,0 +1,166 @@
+{
+ "manifest": "g1-upstream-registry",
+ "created_during": "G1-B reuse-driven implementation",
+ "note": "Decisiones de reutilizacion detalladas por fallo G0 en g1/research/decisions.json (G1-A0). Aqui se registran los componentes efectivamente portados/referenciados en codigo y los modulos que los usan.",
+ "components": [
+  {
+   "name": "edgartools",
+   "repository": "github.com/dgunning/edgartools",
+   "license": "MIT",
+   "decision": "PORT_PATTERN",
+   "patterns_used": [
+    "ShelfLifecycle family-first: familia por identificador explicito (file_number SEC -> nº registro folleto/programa CNMV); orden temporal solo DENTRO de familia",
+    "related_filings / registration families / amendment handling",
+    "_424b_classifier: cascada de señales auditable"
+   ],
+   "files_inspected": ["edgar/shelflifecycle.py", "edgar/_filings.py", "edgar/entity/*.py (patrones relacion)"],
+   "our_modules": [
+    "src/emissions_es/linking/family_linker.py",
+    "src/emissions_es/lifecycle/__init__.py",
+    "src/emissions_es/classification/dispatcher.py"
+   ],
+   "custom_delta": "family keys CNMV (nº registro oficial, NUMFOL, prefijo de programa); relaciones explicitas CNMV; S4->REVIEW_REQUIRED sin evidencia"
+  },
+  {
+   "name": "vc-statement-parser",
+   "repository": "github.com/VenturFlow/vc-statement-parser",
+   "license": "ver decisions.json G1-A0",
+   "decision": "PORT_PATTERN",
+   "patterns_used": [
+    "dispatcher -> family extractor -> model -> invariants",
+    "signatures + data anchors + UNKNOWN fallback"
+   ],
+   "files_inspected": ["dispatcher/extractor structure (G1-A0)"],
+   "our_modules": [
+    "src/emissions_es/extraction/common/base.py",
+    "src/emissions_es/extraction/dispatcher.py",
+    "src/emissions_es/extraction/final_terms/__init__.py",
+    "src/emissions_es/extraction/securities_note/__init__.py",
+    "src/emissions_es/extraction/issue_doc/__init__.py",
+    "src/emissions_es/extraction/base_prospectus/__init__.py"
+   ],
+   "custom_delta": "roles y firmas CNMV (FINAL_TERMS/SECURITIES_NOTE/ISSUE_DOC/BASE_PROSPECTUS/SUPPLEMENT/CORRECTION/ADMISSION_RECORD)"
+  },
+  {
+   "name": "sec-cli",
+   "repository": "github.com/tianrking/sec-cli",
+   "license": "ver decisions.json G1-A0",
+   "decision": "PORT_PATTERN",
+   "patterns_used": [
+    "parser por formulario/familia (S-1/F-1/424B) -> records tipados ligados a fuente"
+   ],
+   "files_inspected": ["parser-per-form architecture (G1-A0)"],
+   "our_modules": ["src/emissions_es/extraction/dispatcher.py"],
+   "custom_delta": "familias documentales CNMV en vez de form types SEC"
+  },
+  {
+   "name": "sovereign-prospectus-corpus",
+   "repository": "github.com/Teal-Insights/sovereign-prospectus-corpus",
+   "license": "ver decisions.json G1-A0",
+   "decision": "PORT_PATTERN",
+   "patterns_used": [
+    "grep-first locate -> candidate region -> extract -> verbatim verify",
+    "assert exact_quote in raw_text (verbatim enforcement)",
+    "stable identity + snapshots + page citations"
+   ],
+   "files_inspected": ["clause_extractor / verify (G1-A0)", "CLAUDE.md"],
+   "our_modules": [
+    "src/emissions_es/extraction/common/locate.py",
+    "src/emissions_es/extraction/common/region_view.py",
+    "src/emissions_es/verification/verbatim.py"
+   ],
+   "custom_delta": "candidate regions sobre DoclingDocument (page/bbox/charspan), no sobre markdown; verify por excerpt de evidencia"
+  },
+  {
+   "name": "finos/CDM",
+   "repository": "github.com/finos/common-domain-model",
+   "license": "Apache-2.0",
+   "decision": "ADOPT_DATA",
+   "patterns_used": [
+    "DayCountFractionEnum como tabla canonica (canonical_id + displayName + aliases + referencia ISDA)"
+   ],
+   "files_inspected": ["DayCountFractionEnum (G1-A0)"],
+   "our_modules": ["src/emissions_es/terms/daycount.py"],
+   "custom_delta": "mapeo lexema ES/EN CNMV -> canonical con contexto obligatorio; '1/1' requiere contexto de seccion aplicable"
+  },
+  {
+   "name": "QuantLib",
+   "repository": "github.com/lballabio/QuantLib",
+   "license": "BSD-3-Clause",
+   "decision": "REFERENCE",
+   "patterns_used": [
+    "Callability{price, Type{Call,Put}, date} + CallabilitySchedule -> ExerciseTerms shape",
+    "ActualActual conventions (ISDA/ISMA/AFB) como oraculo semantico"
+   ],
+   "files_inspected": ["ql/instruments/callabilityschedule.hpp", "ql/time/daycounters/actualactual.hpp"],
+   "our_modules": ["src/emissions_es/terms/exercise.py", "src/emissions_es/terms/daycount.py"],
+   "custom_delta": "solo shape semantico; sin pricing; deteccion documental ES (Opcion Emisor/Inversor, amortizacion anticipada)"
+  },
+  {
+   "name": "OpenGamma Strata",
+   "repository": "github.com/OpenGamma/Strata",
+   "license": "Apache-2.0",
+   "decision": "REFERENCE",
+   "patterns_used": ["StandardDayCounts / convertDayCount FpML->DayCount como oraculo de nombres"],
+   "files_inspected": ["FpmlDocument.parseDayCountFraction"],
+   "our_modules": ["src/emissions_es/terms/daycount.py"],
+   "custom_delta": "ninguno; solo referencia de naming"
+  },
+  {
+   "name": "structured-products-toolkit",
+   "repository": "github.com/mattkorman/structured-products-toolkit",
+   "license": "ver decisions.json G1-A0",
+   "decision": "REFERENCE",
+   "patterns_used": [
+    "AutocallNote payoff semantics: autocall_trigger vs coupon_barrier vs protection_barrier; strike; participation; cap; memory"
+   ],
+   "files_inspected": ["payoff models (G1-A0)"],
+   "our_modules": ["src/emissions_es/terms/structured.py"],
+   "custom_delta": "vocabulario ESMA/CNMV ES (cancelacion automatica, barrera de proteccion, cupon condicionado)"
+  },
+  {
+   "name": "structured-products-analytics",
+   "repository": "github.com/sanyalelizabet/structured-products-analytics",
+   "license": "ver decisions.json G1-A0",
+   "decision": "REFERENCE",
+   "patterns_used": ["autocall schedule, coupon barrier, protection barrier, capital protection, participation, physical delivery como campos separados"],
+   "files_inspected": ["repo structure"],
+   "our_modules": ["src/emissions_es/terms/structured.py"],
+   "custom_delta": "su extractor es LLM -> no sirve para factual core; solo modelo/oracle"
+  },
+  {
+   "name": "regit-daycount",
+   "repository": "github.com/org-regit-io/regit-daycount",
+   "license": "ver SPEC.md",
+   "decision": "REFERENCE",
+   "patterns_used": ["convenciones trazadas a estandar citable (ISDA 2006 §4.16, ICMA Rule 251) con worked examples"],
+   "files_inspected": ["SPEC.md"],
+   "our_modules": ["src/emissions_es/terms/daycount.py"],
+   "custom_delta": "confirmacion de que '1/1' es convencion real; nuestro fallo era de contexto"
+  },
+  {
+   "name": "Docling",
+   "repository": "github.com/docling-project/docling",
+   "license": "MIT",
+   "decision": "ADOPT",
+   "patterns_used": ["DoclingDocument como IR de layout (texts/tables/prov con page+bbox+charspan)"],
+   "our_modules": ["src/emissions_es/extraction/docview.py"],
+   "custom_delta": "NormalizedDocumentView: adaptador fino sin duplicar modelo"
+  }
+ ],
+ "counts": {
+  "ADOPT": 1,
+  "ADOPT_DATA": 1,
+  "PORT_PATTERN": 4,
+  "REFERENCE": 4,
+  "WRAP": 0,
+  "FORK": 0
+ },
+ "custom_modules_justified": [
+  "classification/dispatcher.py — signatures/anchors CNMV ES/EN (ver problem-reuse-log: cnmv-labels)",
+  "extraction/extractors.py — vocabulario de labels CNMV + heuristicos de tabla (ver problem-reuse-log: table-label-vs-data-column, multi-regime-fields)",
+  "linking/rules.py — reglas de adjudicacion estructural CNMV (G0) + family keys",
+  "terms/* — shape canonico con mapeo lexema CNMV",
+  "lifecycle/__init__.py — relaciones SUPPLEMENTS/MODIFIES CNMV"
+ ]
+}

@@ -41,7 +41,7 @@
     "*"
    ],
    "extractor_id": "label_value_v1",
-   "extractor_version": "1.0",
+   "extractor_version": "1.1",
    "normalizer": "currency",
    "strategy": "label_value",
    "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
@@ -61,7 +61,7 @@
     "*"
    ],
    "extractor_id": "label_value_v1",
-   "extractor_version": "1.0",
+   "extractor_version": "1.1",
    "normalizer": "date",
    "strategy": "label_value",
    "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
@@ -81,7 +81,7 @@
     "*"
    ],
    "extractor_id": "label_value_v1",
-   "extractor_version": "1.0",
+   "extractor_version": "1.1",
    "normalizer": "date",
    "strategy": "label_value",
    "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
@@ -101,7 +101,7 @@
     "*"
    ],
    "extractor_id": "label_value_v1",
-   "extractor_version": "1.0",
+   "extractor_version": "1.1",
    "normalizer": "money",
    "strategy": "label_value",
    "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
@@ -121,7 +121,7 @@
     "*"
    ],
    "extractor_id": "label_value_v1",
-   "extractor_version": "1.0",
+   "extractor_version": "1.1",
    "normalizer": "money",
    "strategy": "label_value",
    "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
@@ -163,7 +163,7 @@
     "*"
    ],
    "extractor_id": "label_value_v1",
-   "extractor_version": "1.0",
+   "extractor_version": "1.2",
    "normalizer": "percent",
    "strategy": "label_value",
    "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
@@ -230,7 +230,7 @@
     "*"
    ],
    "extractor_id": "label_value_v1",
-   "extractor_version": "1.0",
+   "extractor_version": "1.1",
    "normalizer": "frequency",
    "strategy": "label_value",
    "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
@@ -274,7 +274,7 @@
     "*"
    ],
    "extractor_id": "label_value_v1",
-   "extractor_version": "1.1",
+   "extractor_version": "1.2",
    "normalizer": "dates_or_text",
    "strategy": "label_value",
    "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
@@ -318,7 +318,7 @@
     "*"
    ],
    "extractor_id": "label_value_v1",
-   "extractor_version": "1.0",
+   "extractor_version": "1.1",
    "normalizer": "dates_or_text",
    "strategy": "label_value",
    "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
@@ -341,7 +341,7 @@
     "cubierto"
    ],
    "extractor_id": "label_value_v1",
-   "extractor_version": "1.0",
+   "extractor_version": "1.1",
    "normalizer": "dates_or_text",
    "strategy": "label_value",
    "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
@@ -361,7 +361,7 @@
     "*"
    ],
    "extractor_id": "label_value_v1",
-   "extractor_version": "1.0",
+   "extractor_version": "1.1",
    "normalizer": "text",
    "strategy": "label_value",
    "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
@@ -574,7 +574,7 @@
     "estructurado"
    ],
    "extractor_id": "label_value_v1",
-   "extractor_version": "1.0",
+   "extractor_version": "1.1",
    "normalizer": "text_or_percent",
    "strategy": "label_value",
    "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",

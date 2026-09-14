@@ -1,0 +1,84 @@
+{
+ "manifest": "g1-problem-reuse-log",
+ "created_during": "G1-B",
+ "rule": "antes de solucion CUSTOM: >=3 busquedas razonables + repos relevantes inspeccionados; documentar por que reuse no resuelve o licencia/integracion inaceptable",
+ "entries": [
+  {
+   "problem_id": "cnmv-labels",
+   "failure_example": "coupon_type/denomination/issue_date FN en docs CNMV con labels ES ('Importe nominal y efectivo de la emision', 'Fecha de Emision/Desembolso', 'Base de calculo para el devengo de intereses', 'Periodo de devengo de los intereses')",
+   "capability_needed": "vocabulario de anclas label->value para plantillas CNMV/CCFF ES+EN",
+   "search_queries": ["CNMV prospectus parser", "CNMV prospectus", "final terms pdf extraction finance", "final terms extraction", "ESMA final terms parser", "securities note CNMV", "bond prospectus extraction"],
+   "repositories_considered": ["Alvaru89/final_project_CNMV (scraping fondos, no emisiones)", "afernandez119/cnmv_data (carteras FI trimestrales, no terminos contractuales)", "OOTTTss/prospectus-to-markdown (HK, PDF->md generico)", "weiiilunnnn/financial-prospectus-insights (LLM ratios IPO)"],
+   "selected_upstream": null,
+   "decision": "CUSTOM",
+   "why_reuse_not_possible": "no existe parser OSS de plantillas CNMV; los hallados son de otros reguladores/dominios o LLM (inaceptable para factual core verbatim)",
+   "remaining_custom_delta": "anclas ES/EN por campo contractual en extraction/extractors.py FIELD_SPECS + secciones por familia"
+  },
+  {
+   "problem_id": "table-label-vs-data-column",
+   "failure_example": "X26 (FTS): 'Tipo de interes medio' repetido como cabecera de columna de cartera titulizada -> FP en coupon_type (truth ABSENT)",
+   "capability_needed": "distinguir celda label->valor de cabecera de columna de datos",
+   "search_queries": ["table header detection pdf finance", "prospectus key value extraction", "financial table extraction label value"],
+   "repositories_considered": ["dedoc/FintocStructureExtractor (ADOPT_EVAL pendiente licencia)", "pymupdf4llm table strategies"],
+   "selected_upstream": null,
+   "decision": "CUSTOM",
+   "why_reuse_not_possible": "la distincion depende de la semantica de la plantilla CNMV (mismo label repetido >=3 filas = columna de datos de cartera); heuristico local documentado",
+   "remaining_custom_delta": "heuristico en _label_value_from_tables: label repetido >=3 filas -> data column, se omite"
+  },
+  {
+   "problem_id": "multi-regime-fields",
+   "failure_example": "coupon_type/fixing_rules/redemption_formula emitian CONFLICT cuando el documento define regimen inicial + prorroga o aspectos complementarios (pantalla + fecha determinacion + ISDA)",
+   "capability_needed": "representacion multi-valor honesta sin colapsar ni marcar conflicto espurio",
+   "search_queries": ["structured products payoff", "prospectus supplement tracking", "callable bond schedule"],
+   "repositories_considered": ["mattkorman/structured-products-toolkit", "sanyalelizabet/structured-products-analytics", "Jamie-lam/Structured-Products"],
+   "selected_upstream": "contrato de anotacion propio (multi_value permitido)",
+   "decision": "CUSTOM",
+   "why_reuse_not_possible": "los toolkits modelan payoff/pricing, no extraccion verbatim multi-valor con provenance; nuestro contrato ya define multi_value",
+   "remaining_custom_delta": "FieldSpec.multi -> lista OBSERVED con evidencia por elemento; CONFLICT solo para contradiccion sobre el mismo hecho"
+  },
+  {
+   "problem_id": "day-count-canonical",
+   "failure_example": "G0 FP '1/1' sin contexto; convenciones ISDA/ICMA multiples",
+   "capability_needed": "tabla canonica versionada de day-count conventions",
+   "search_queries": ["day count fraction parser", "ISDA definitions parser", "day-count conventions open source"],
+   "repositories_considered": ["finos/CDM DayCountFractionEnum", "lballabio/QuantLib ActualActual", "OpenGamma/Strata StandardDayCounts", "org-regit-io/regit-daycount"],
+   "selected_upstream": "finos/CDM (ADOPT_DATA) + QuantLib/Strata/regit (REFERENCE)",
+   "decision": "ADOPT_DATA + REFERENCE",
+   "why_reuse_not_possible": "parcial: las tablas existen pero el mapeo lexema CNMV ES/EN->canonical con contexto es CUSTOM",
+   "remaining_custom_delta": "terms/daycount.py: canonical_id + aliases + contexto obligatorio"
+  },
+  {
+   "problem_id": "locate-then-extract",
+   "failure_example": "G0 FN por localizacion (campo en zona no recorrida)",
+   "capability_needed": "localizar region candidata -> extraer -> verificar verbatim",
+   "search_queries": ["prospectus section extraction", "financial document heading classifier", "clause extraction prospectus"],
+   "repositories_considered": ["Teal-Insights/sovereign-prospectus-corpus", "dgunning/edgartools"],
+   "selected_upstream": "sovereign-prospectus-corpus",
+   "decision": "PORT_PATTERN",
+   "why_reuse_not_possible": "n/a — patron adoptado",
+   "remaining_custom_delta": "CandidateRegion sobre DoclingDocument (page/bbox), secciones por familia CNMV"
+  },
+  {
+   "problem_id": "family-first-linkage",
+   "failure_example": "G0 S4 succession: MISSING_EXPLICIT_REFERENCE; gold EXACT_LINK pred AMBIGUOUS",
+   "capability_needed": "familia por id explicito -> orden temporal dentro de familia -> lifecycle",
+   "search_queries": ["prospectus supplement tracking", "shelf registration lifecycle sec", "amendment filings linkage"],
+   "repositories_considered": ["dgunning/edgartools ShelfLifecycle"],
+   "selected_upstream": "edgartools",
+   "decision": "PORT_PATTERN",
+   "why_reuse_not_possible": "n/a — patron adoptado",
+   "remaining_custom_delta": "family key CNMV (nº registro/NUMFOL/programa); S4->REVIEW_REQUIRED"
+  },
+  {
+   "problem_id": "structured-products-semantics",
+   "failure_example": "G0 barrier aplanaba 3 conceptos; participation/strike sin TP",
+   "capability_needed": "modelo canonico autocall_trigger/coupon_barrier/protection_barrier + strike + participation",
+   "search_queries": ["structured products payoff", "autocall note terms", "structured products analytics"],
+   "repositories_considered": ["mattkorman/structured-products-toolkit", "sanyalelizabet/structured-products-analytics", "Jamie-lam/Structured-Products"],
+   "selected_upstream": "structured-products-toolkit + analytics",
+   "decision": "REFERENCE",
+   "why_reuse_not_possible": "extractor LLM no sirve para factual core; solo semantica/oracle",
+   "remaining_custom_delta": "terms/structured.py + anclas ES en FIELD_SPECS"
+  }
+ ]
+}

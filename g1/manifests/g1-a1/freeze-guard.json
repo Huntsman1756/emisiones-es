@@ -1,0 +1,67 @@
+{
+ "manifest": "g1-a1-freeze-guard",
+ "created": "g1-b",
+ "purpose": "byte-level integrity of frozen manifests; supplements freeze.json (novelty-holdout canonicalization quirk: stored manifest_sha256 not strip-recomputable; file verified byte-identical to commit 1cd98b3)",
+ "files": {
+  "g1/manifests/g1-a1/development.json": {
+   "sha256_bytes": "901e0d7fe68315880ce2c96448fb047b75448027f3c90cadb745b36068c77161",
+   "bytes": 20043
+  },
+  "g1/manifests/g1-a1/extraction-holdout.json": {
+   "sha256_bytes": "86a2badff23b2dd3fbdcfe35900e04c99dc5b2d8915362445cb2439734aed855",
+   "bytes": 123261
+  },
+  "g1/manifests/g1-a1/freeze.json": {
+   "sha256_bytes": "33b630446eae8a1a94067a35c39817ff3b601999f66d6d16fba8b8006072ef19",
+   "bytes": 1227
+  },
+  "g1/manifests/g1-a1/lifecycle-holdout.json": {
+   "sha256_bytes": "70df6a8e8c51bb308ac6f7c9cdf419953b64802463204a5a614197d6c1e95133",
+   "bytes": 8198
+  },
+  "g1/manifests/g1-a1/linkage-holdout.json": {
+   "sha256_bytes": "507a87b7e96a427ac748341e8ea51fd51aa1d1ce28671a7813005c59d04c038b",
+   "bytes": 45617
+  },
+  "g1/manifests/annotation-contract.json": {
+   "sha256_bytes": "abce3088d6aecdc2db94c00a520aa10aaaef90de22ab4ba9911816ba74abadc8",
+   "bytes": 1533
+  },
+  "g1/manifests/development.json": {
+   "sha256_bytes": "25b0cf9c0a99d3ce819b141e09ea39779867c13f339a40bf0aacd332d12983e8",
+   "bytes": 486115
+  },
+  "g1/manifests/extraction-holdout.json": {
+   "sha256_bytes": "0a1d510af24a5a208474ac8c102b9e88b47d6c2c9bdb156a12be6b9eb6ee90be",
+   "bytes": 112449
+  },
+  "g1/manifests/family-map.json": {
+   "sha256_bytes": "9ad55ad56cfdc78a04190bf461b6f8273fb480ab0e0e9bd416db5e3a328d169a",
+   "bytes": 101175
+  },
+  "g1/manifests/fetch-index.json": {
+   "sha256_bytes": "be9617127c3ee112c3c95a2f5b6d958f3e39f3becb72cdf971353880f9db76b4",
+   "bytes": 114258
+  },
+  "g1/manifests/freeze.json": {
+   "sha256_bytes": "2833111b611123b25752577fe9f82e71c5f8153f81133dc4b2ce405c4d0c70b4",
+   "bytes": 1606
+  },
+  "g1/manifests/lifecycle-holdout.json": {
+   "sha256_bytes": "ed4b397a0c79c26e991ce0e315cf766618ba0d846c040648378049ae2636bcd2",
+   "bytes": 8316
+  },
+  "g1/manifests/linkage-holdout.json": {
+   "sha256_bytes": "56f36e47e1ed7aca045a692ff488b592650079605f5827f2d1fd613d4902be9d",
+   "bytes": 45512
+  },
+  "g1/manifests/novelty-holdout.json": {
+   "sha256_bytes": "4f63b4943bc8e5db45e760e1c5785939a3fbfd166215b6edd8c6d8d109eda583",
+   "bytes": 55717
+  },
+  "g1/manifests/universe.json": {
+   "sha256_bytes": "605b35fab097111cf7c484bdb800c39dc5b2c277f8d94432c05757273ca82a90",
+   "bytes": 661577
+  }
+ }
+}

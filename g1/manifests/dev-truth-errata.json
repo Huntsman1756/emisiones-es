@@ -1,0 +1,16 @@
+{
+ "manifest": "g1-dev-truth-errata",
+ "created_during": "G1-B development",
+ "purpose": "Erratas objetivas detectadas en truth DEVELOPMENT (G0 holdout reusado como dev). El truth G0 permanece congelado en v1.1 (sha 378567788c6ac17e36f72d1d255030ee5778f22eabd7db8a79ce7178fc541694); las correcciones se aplican solo en scoring dev y NO alteran el resultado G0-D frozen.",
+ "rule": "misma convencion que ERRATA-1/2 del contrato G0: verificacion objetiva sobre el documento (texto literal localizable), nunca reinterpretacion para favorecer al extractor.",
+ "errata": [
+  {
+   "id": "ERRATA-DEV-1",
+   "found": "G1-B, al trazar invented=1 en development-extraction",
+   "case": "X19",
+   "fields": {"day_count": "ABSENT->PRESENT"},
+   "evidence": "Docling X19_CCFF_11380_017, tabla 'Interest: Applicable', fila '(vii) Day Count Fraction: | 1/1' — valor publicado literalmente en la seccion de interes aplicable del documento. El truth v1.1 lo anoto ABSENT ('el campo no aparece en el documento'), objetivamente incorrecto: el campo aparece con valor '1/1'.",
+   "impact": "con truth ABSENT el extractor computaba FP (invented); corregido a PRESENT, el valor OBSERVED '1/1' con evidencia verbatim cuenta TP. El fallo G0 de '1/1' era de inferencia sin contexto — aqui es lexema publicado."
+  }
+ ]
+}

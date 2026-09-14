@@ -1,0 +1,3860 @@
+{
+ "n_cases": 356,
+ "auto_link_precision": 1.0,
+ "auto_link_coverage": 0.9067,
+ "review_required_rate": 0.1067,
+ "false_auto_links": 0,
+ "false_auto_keys": [],
+ "forced_ambiguous_to_auto": 0,
+ "label_x_decision": {
+  "EXACT_LINK|AUTO_LINKED": 243,
+  "NO_LINK|NO_LINK": 73,
+  "EXACT_LINK|REVIEW_REQUIRED": 25,
+  "NO_LINK|REVIEW_REQUIRED": 8,
+  "AMBIGUOUS|NO_LINK": 2,
+  "AMBIGUOUS|REVIEW_REQUIRED": 5
+ },
+ "by_stratum": {
+  "scout_ccff_to_programme": {
+   "AUTO_LINKED": 29
+  },
+  "scout_supplement": {
+   "AUTO_LINKED": 6
+  },
+  "scout_admission": {
+   "AUTO_LINKED": 8
+  },
+  "scout_same_issuer_wrong_programme": {
+   "NO_LINK": 6
+  },
+  "scout_serie_no_doc": {
+   "NO_LINK": 6
+  },
+  "scout_portfolio_equity": {
+   "AUTO_LINKED": 1
+  },
+  "S1_final_terms_to_programme": {
+   "AUTO_LINKED": 98
+  },
+  "S2_supplement_to_prospectus": {
+   "AUTO_LINKED": 50
+  },
+  "S3_correction_to_document": {
+   "AUTO_LINKED": 6,
+   "NO_LINK": 4
+  },
+  "S4_programme_succession": {
+   "REVIEW_REQUIRED": 25
+  },
+  "S5_admission_to_security": {
+   "AUTO_LINKED": 35
+  },
+  "S6_same_issuer_wrong_programme": {
+   "NO_LINK": 15
+  },
+  "S7_same_programme_different_role": {
+   "REVIEW_REQUIRED": 8
+  },
+  "S8_similar_title_diff_issuer": {
+   "NO_LINK": 15
+  },
+  "S9_no_link_insufficient": {
+   "NO_LINK": 24
+  },
+  "S10_multi_venue": {
+   "AUTO_LINKED": 10,
+   "NO_LINK": 5
+  },
+  "S11_ambiguous_ground_truth": {
+   "REVIEW_REQUIRED": 5
+  }
+ },
+ "per_case": [
+  {
+   "case": "T1-001",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-002",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-003",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-004",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-005",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-006",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-007",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-008",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-009",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-010",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-011",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-012",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-013",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-014",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-015",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-016",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-017",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-018",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-019",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-020",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-021",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-022",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-023",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-024",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-025",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-026",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-027",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-028",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T1-029",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_ccff_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "T2-001",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_supplement",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "T2-002",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_supplement",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "T2-003",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_supplement",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "T2-004",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_supplement",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "T2-005",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_supplement",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "T2-006",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_supplement",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "T4-001",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_admission",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "T4-002",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_admission",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "T4-003",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_admission",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "T4-004",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_admission",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "T4-005",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_admission",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "T4-006",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_admission",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "T4-007",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_admission",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "T4-008",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_admission",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "T5-001",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11400 pero candidato es 11437"
+   ]
+  },
+  {
+   "case": "T5-002",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11400 pero candidato es 11437"
+   ]
+  },
+  {
+   "case": "T5-003",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11400 pero candidato es 11437"
+   ]
+  },
+  {
+   "case": "T5-004",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11400 pero candidato es 11437"
+   ]
+  },
+  {
+   "case": "T5-005",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11400 pero candidato es 11437"
+   ]
+  },
+  {
+   "case": "T5-006",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11400 pero candidato es 11437"
+   ]
+  },
+  {
+   "case": "T7-001",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_serie_no_doc",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "T7-002",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_serie_no_doc",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "T7-003",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_serie_no_doc",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "T7-004",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_serie_no_doc",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "T7-005",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_serie_no_doc",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "T7-006",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_serie_no_doc",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "T8-001",
+   "manifest": "linkage-scout.json",
+   "stratum": "scout_portfolio_equity",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "PSE_INSTRUMENT_DOC",
+   "neg": []
+  },
+  {
+   "case": "S1-001",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-002",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-003",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-004",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-005",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-006",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-007",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-008",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-009",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-010",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-011",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-012",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-013",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-014",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-015",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-016",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-017",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-018",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-019",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-020",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-021",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-022",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-023",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-024",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-025",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-026",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-027",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-028",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-029",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-030",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-031",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-032",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-033",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-034",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-035",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-036",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-037",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-038",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-039",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-040",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-041",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-042",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-043",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-044",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-045",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-046",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-047",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-048",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-049",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-050",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-051",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-052",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-053",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-054",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-055",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-056",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-057",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-058",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-059",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-060",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-061",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-062",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-063",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-064",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-065",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-066",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-067",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-068",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-069",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-070",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-071",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-072",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-073",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-074",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-075",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-076",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-077",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-078",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-079",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-080",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-081",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-082",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-083",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-084",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-085",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-086",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-087",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-088",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-089",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-090",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-091",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-092",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-093",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-094",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-095",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-096",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-097",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S1-098",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S1_final_terms_to_programme",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "DEFINES_TERMS_FOR",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": []
+  },
+  {
+   "case": "S2-001",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-002",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-003",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-004",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-005",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-006",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-007",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-008",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-009",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-010",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-011",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-012",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-013",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-014",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-015",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-016",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-017",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-018",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-019",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-020",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-021",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-022",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-023",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-024",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-025",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-026",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-027",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-028",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-029",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-030",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-031",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-032",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-033",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-034",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-035",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-036",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-037",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-038",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-039",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-040",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-041",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-042",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-043",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-044",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-045",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-046",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-047",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-048",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-049",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S2-050",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S2_supplement_to_prospectus",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "SUPPLEMENTS",
+   "rule_id": "CNMV_SUPPLEMENT_SUFFIX",
+   "neg": []
+  },
+  {
+   "case": "S3-001",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S3_correction_to_document",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "CORRECTS",
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "neg": []
+  },
+  {
+   "case": "S3-002",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S3_correction_to_document",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "CORRECTS",
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "neg": []
+  },
+  {
+   "case": "S3-003",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S3_correction_to_document",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "CORRECTS",
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "neg": []
+  },
+  {
+   "case": "S3-004",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S3_correction_to_document",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "CORRECTS",
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "neg": []
+  },
+  {
+   "case": "S3-005",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S3_correction_to_document",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "CORRECTS",
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "neg": []
+  },
+  {
+   "case": "S3-006",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S3_correction_to_document",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "CORRECTS",
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "neg": []
+  },
+  {
+   "case": "S3-007",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S3_correction_to_document",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "neg": [
+    "modificacion de BANCO BILBAO VIZCAYA ARGENTARIA, S.A. (11316) emparejada con folleto ajeno 11147"
+   ]
+  },
+  {
+   "case": "S3-008",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S3_correction_to_document",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "neg": [
+    "modificacion de BANCO BILBAO VIZCAYA ARGENTARIA, S.A. (11316) emparejada con folleto ajeno 11337"
+   ]
+  },
+  {
+   "case": "S3-009",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S3_correction_to_document",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "neg": [
+    "modificacion de CAIXABANK, S.A. (11319) emparejada con folleto ajeno 11415"
+   ]
+  },
+  {
+   "case": "S3-010",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S3_correction_to_document",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_MODIFICATION_DASH",
+   "neg": [
+    "modificacion de PROMOTORA DE INFORMACIONES, S.A. (11303) emparejada con folleto ajeno 11359"
+   ]
+  },
+  {
+   "case": "S4-001",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (BANCA MARCH, S.A.) y rol; 11342 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S4-002",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (DEUTSCHE BANK, SOCIEDAD ANONIMA ESPAÑOLA) y rol; 11198 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S4-003",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (CAIXABANK, S.A.) y rol; 11290 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S4-004",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor pero sin evidencia de sucesion"
+   ]
+  },
+  {
+   "case": "S4-005",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (EUROCAJA RURAL, SOCIEDAD COOPERATIVA DE CRÉDITO) y rol; 11239 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S4-006",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (BBVA GLOBAL MARKETS B.V.) y rol; 11335 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S4-007",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (ORYZON GENOMICS, S.A.) y rol; 11282 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S4-008",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (TELEFONICA, S.A.) y rol; 11226 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S4-009",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (BANKINTER, S.A.) y rol; 11260 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S4-010",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor pero sin evidencia de sucesion"
+   ]
+  },
+  {
+   "case": "S4-011",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (CAJA RURAL DE NAVARRA, S. COOP. DE CREDITO) y rol; 11324 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S4-012",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (BANKINTER, S.A.) y rol; 11309 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S4-013",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (IBERCAJA BANCO, S.A.) y rol; 11273 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S4-014",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (IBERCAJA BANCO, S.A.) y rol; 11227 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S4-015",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor pero sin evidencia de sucesion"
+   ]
+  },
+  {
+   "case": "S4-016",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (BANCO DE SABADELL, S.A.) y rol; 11253 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S4-017",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (COLONIAL SFL, SOCIMI, S.A.) y rol; 11271 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S4-018",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor pero sin evidencia de sucesion"
+   ]
+  },
+  {
+   "case": "S4-019",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (KUTXABANK, S.A) y rol; 11257 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S4-020",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (BANCO SANTANDER, S.A.) y rol; 11166 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S4-021",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (BANCO BILBAO VIZCAYA ARGENTARIA, S.A.) y rol; 11244 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S4-022",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (BANCO DE SABADELL, S.A.) y rol; 11302 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S4-023",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (DEUTSCHE BANK, SOCIEDAD ANONIMA ESPAÑOLA) y rol; 11291 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S4-024",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor pero sin evidencia de sucesion"
+   ]
+  },
+  {
+   "case": "S4-025",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S4_programme_succession",
+   "label": "EXACT_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "neg": [
+    "mismo emisor (CAJA RURAL DE GRANADA, SOCIEDAD COOPERATIVA DE CREDITO) y rol; 11305 precede en el tiempo, pero la fila no declara sucesion"
+   ]
+  },
+  {
+   "case": "S5-001",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-002",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-003",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-004",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-005",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-006",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-007",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-008",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-009",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-010",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-011",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-012",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-013",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-014",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-015",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-016",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-017",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-018",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-019",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-020",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-021",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-022",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-023",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-024",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-025",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-026",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-027",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-028",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-029",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-030",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-031",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-032",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-033",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-034",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S5-035",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S5_admission_to_security",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S6-001",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11380 pero candidato es 11242"
+   ]
+  },
+  {
+   "case": "S6-002",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11359 pero candidato es 11402"
+   ]
+  },
+  {
+   "case": "S6-003",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11307 pero candidato es 11315"
+   ]
+  },
+  {
+   "case": "S6-004",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11275 pero candidato es 11327"
+   ]
+  },
+  {
+   "case": "S6-005",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11340 pero candidato es 11194"
+   ]
+  },
+  {
+   "case": "S6-006",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11383 pero candidato es 11435"
+   ]
+  },
+  {
+   "case": "S6-007",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11340 pero candidato es 11194"
+   ]
+  },
+  {
+   "case": "S6-008",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11383 pero candidato es 11435"
+   ]
+  },
+  {
+   "case": "S6-009",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11290 pero candidato es 11245"
+   ]
+  },
+  {
+   "case": "S6-010",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11385 pero candidato es 11400"
+   ]
+  },
+  {
+   "case": "S6-011",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11307 pero candidato es 11364"
+   ]
+  },
+  {
+   "case": "S6-012",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11335 pero candidato es 11242"
+   ]
+  },
+  {
+   "case": "S6-013",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11307 pero candidato es 11411"
+   ]
+  },
+  {
+   "case": "S6-014",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11351 pero candidato es 11199"
+   ]
+  },
+  {
+   "case": "S6-015",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S6_same_issuer_wrong_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11307 pero candidato es 11364"
+   ]
+  },
+  {
+   "case": "S7-001",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S7_same_programme_different_role",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "neg": [
+    "relacion plausible pero no demostrable"
+   ]
+  },
+  {
+   "case": "S7-002",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S7_same_programme_different_role",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "neg": [
+    "relacion plausible pero no demostrable"
+   ]
+  },
+  {
+   "case": "S7-003",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S7_same_programme_different_role",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "neg": [
+    "relacion plausible pero no demostrable"
+   ]
+  },
+  {
+   "case": "S7-004",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S7_same_programme_different_role",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "neg": [
+    "relacion plausible pero no demostrable"
+   ]
+  },
+  {
+   "case": "S7-005",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S7_same_programme_different_role",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "neg": [
+    "relacion plausible pero no demostrable"
+   ]
+  },
+  {
+   "case": "S7-006",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S7_same_programme_different_role",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "neg": [
+    "relacion plausible pero no demostrable"
+   ]
+  },
+  {
+   "case": "S7-007",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S7_same_programme_different_role",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "neg": [
+    "relacion plausible pero no demostrable"
+   ]
+  },
+  {
+   "case": "S7-008",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S7_same_programme_different_role",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "neg": [
+    "relacion plausible pero no demostrable"
+   ]
+  },
+  {
+   "case": "S8-001",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S8_similar_title_diff_issuer",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11307 pero candidato es 11398"
+   ]
+  },
+  {
+   "case": "S8-002",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S8_similar_title_diff_issuer",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11340 pero candidato es 11275"
+   ]
+  },
+  {
+   "case": "S8-003",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S8_similar_title_diff_issuer",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11307 pero candidato es 11275"
+   ]
+  },
+  {
+   "case": "S8-004",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S8_similar_title_diff_issuer",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11286 pero candidato es 11337"
+   ]
+  },
+  {
+   "case": "S8-005",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S8_similar_title_diff_issuer",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11385 pero candidato es 11253"
+   ]
+  },
+  {
+   "case": "S8-006",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S8_similar_title_diff_issuer",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11307 pero candidato es 11290"
+   ]
+  },
+  {
+   "case": "S8-007",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S8_similar_title_diff_issuer",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11351 pero candidato es 11341"
+   ]
+  },
+  {
+   "case": "S8-008",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S8_similar_title_diff_issuer",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11307 pero candidato es 11268"
+   ]
+  },
+  {
+   "case": "S8-009",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S8_similar_title_diff_issuer",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11382 pero candidato es 11407"
+   ]
+  },
+  {
+   "case": "S8-010",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S8_similar_title_diff_issuer",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11380 pero candidato es 11290"
+   ]
+  },
+  {
+   "case": "S8-011",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S8_similar_title_diff_issuer",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11290 pero candidato es 11382"
+   ]
+  },
+  {
+   "case": "S8-012",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S8_similar_title_diff_issuer",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11380 pero candidato es 11275"
+   ]
+  },
+  {
+   "case": "S8-013",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S8_similar_title_diff_issuer",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11307 pero candidato es 11374"
+   ]
+  },
+  {
+   "case": "S8-014",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S8_similar_title_diff_issuer",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11380 pero candidato es 11166"
+   ]
+  },
+  {
+   "case": "S8-015",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S8_similar_title_diff_issuer",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "neg": [
+    "fila enlaza NUMFOL=11340 pero candidato es 11382"
+   ]
+  },
+  {
+   "case": "S9-001",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-002",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-003",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-004",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-005",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-006",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-007",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-008",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-009",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-010",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-011",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-012",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-013",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-014",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-015",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-016",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-017",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-018",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-019",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-020",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-021",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "AMBIGUOUS",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "neg": [
+    "sin candidato propuesto"
+   ]
+  },
+  {
+   "case": "S9-022",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-023",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "AMBIGUOUS",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S9-024",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S9_no_link_insufficient",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "fila SERIE sin documento observable propio"
+   ]
+  },
+  {
+   "case": "S10-001",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S10_multi_venue",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S10-002",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S10_multi_venue",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S10-003",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S10_multi_venue",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S10-004",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S10_multi_venue",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S10-005",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S10_multi_venue",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S10-006",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S10_multi_venue",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S10-007",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S10_multi_venue",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S10-008",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S10_multi_venue",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S10-009",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S10_multi_venue",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S10-010",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S10_multi_venue",
+   "label": "EXACT_LINK",
+   "decision": "AUTO_LINKED",
+   "relation": "ADMISSION_OF",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "neg": []
+  },
+  {
+   "case": "S10-011",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S10_multi_venue",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "serie marcada sin admision"
+   ]
+  },
+  {
+   "case": "S10-012",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S10_multi_venue",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "serie marcada sin admision"
+   ]
+  },
+  {
+   "case": "S10-013",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S10_multi_venue",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "serie marcada sin admision"
+   ]
+  },
+  {
+   "case": "S10-014",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S10_multi_venue",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "serie marcada sin admision"
+   ]
+  },
+  {
+   "case": "S10-015",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S10_multi_venue",
+   "label": "NO_LINK",
+   "decision": "NO_LINK",
+   "relation": null,
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "neg": [
+    "serie marcada sin admision"
+   ]
+  },
+  {
+   "case": "S11-001",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S11_ambiguous_ground_truth",
+   "label": "AMBIGUOUS",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "neg": [
+    "relacion plausible pero no demostrable"
+   ]
+  },
+  {
+   "case": "S11-002",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S11_ambiguous_ground_truth",
+   "label": "AMBIGUOUS",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "neg": [
+    "relacion plausible pero no demostrable"
+   ]
+  },
+  {
+   "case": "S11-003",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S11_ambiguous_ground_truth",
+   "label": "AMBIGUOUS",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "neg": [
+    "relacion plausible pero no demostrable"
+   ]
+  },
+  {
+   "case": "S11-004",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S11_ambiguous_ground_truth",
+   "label": "AMBIGUOUS",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "neg": [
+    "relacion plausible pero no demostrable"
+   ]
+  },
+  {
+   "case": "S11-005",
+   "manifest": "linkage-holdout.json",
+   "stratum": "S11_ambiguous_ground_truth",
+   "label": "AMBIGUOUS",
+   "decision": "REVIEW_REQUIRED",
+   "relation": null,
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "neg": [
+    "relacion plausible pero no demostrable"
+   ]
+  }
+ ]
+}

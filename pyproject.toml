@@ -1,0 +1,15 @@
+[project]
+name = "emisiones-es"
+version = "0.0.0"
+description = "Open, evidence-backed securities reference and contractual-terms layer for instruments issued or admitted in Spanish markets"
+requires-python = ">=3.13"
+license = {text = "Apache-2.0"}
+# Sin dependencias fijadas en G0-A: los pins se congelan en
+# g0/manifests/g0-manifest.json antes de implementar.
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

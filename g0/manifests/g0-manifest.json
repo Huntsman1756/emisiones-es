@@ -1,0 +1,63 @@
+{
+  "manifest": "g0",
+  "frozen_at": "2026-09-14",
+  "project": "emisiones-es",
+  "gates": {
+    "linkage": {
+      "n_decisions": 300,
+      "exact_target_accuracy_min": 0.98,
+      "precision_min": 0.99,
+      "recall_min": 0.95,
+      "false_positive_links_max": 0,
+      "forced_links_from_ambiguous_max": 0,
+      "silent_forced_linkage_max": 0
+    },
+    "extraction_field_precision_min": {
+      "coupon_rate": 0.95,
+      "day_count": 0.95,
+      "maturity": 0.99,
+      "call_put_schedules": 0.90,
+      "reset_fixing": 0.90,
+      "structured_observation_dates": 0.90,
+      "barrier_strike_redemption": 0.90
+    },
+    "provenance": {
+      "accepted_values_evidence_backed": 1.0,
+      "snapshots_hashed": 1.0,
+      "source_attribution": 1.0,
+      "invented_values_max": 0
+    },
+    "novelty": {
+      "corpus_cases_with_material_delta_min": 0.80
+    }
+  },
+  "corpus": {
+    "target_documents": 30,
+    "selection_rule": "maximize heterogeneity across issuer, instrument type, venue, document role; preregister before extractor implementation",
+    "strata_file": "corpus-proposal.md"
+  },
+  "linkage_stratification_file": "linkage-stratification.md",
+  "oss_pins": {
+    "pyfirds": {"repo": "bunburya/pyfirds", "license": "MIT", "decision": "ADOPT", "pin": "TBD at implementation; contract-test against frozen FIRDS snapshot"},
+    "esma_data_py": {"repo": "European-Securities-Markets-Authority/esma_data_py", "license": "EUPL-1.2", "decision": "WRAP optional (file discovery only)"},
+    "docling": {"repo": "docling-project/docling", "license": "MIT", "decision": "ADOPT"},
+    "gmft": {"repo": "conjuncts/gmft", "license": "MIT", "decision": "WRAP tier-2; gmft_pymupdf forbidden (AGPL)"},
+    "camelot": {"repo": "camelot-dev/camelot", "license": "MIT", "decision": "WRAP tier-2"},
+    "prov": {"repo": "trungdong/prov", "license": "MIT", "decision": "ADOPT optional (W3C PROV export)"},
+    "finos-cdm": {"repo": "finos/common-domain-model", "license": "CSL-1.0 spec / Apache-2.0 bindings", "decision": "REFERENCE + optional dev dep"},
+    "quantlib": {"repo": "lballabio/QuantLib", "license": "BSD-3", "decision": "REFERENCE/oracle (dev)"},
+    "strata": {"repo": "OpenGamma/Strata", "license": "Apache-2.0", "decision": "REFERENCE"},
+    "pygleif": {"repo": "ggravlingen/pygleif", "license": "MIT", "version": "2026.7.3", "decision": "ADOPT", "note": "requires Python >= 3.13"},
+    "secref-data": {"repo": "finos/secref-data", "license": "Apache-2.0", "status": "archived", "decision": "REFERENCE"},
+    "marker": {"license": "GPL-3.0 + restricted weights", "decision": "REJECT"},
+    "mineru": {"license": "modified Apache-2.0", "decision": "REJECT core; benchmark allowed"},
+    "rateslib": {"license": "CC BY-NC-ND 4.0", "decision": "REJECT"},
+    "pymupdf": {"license": "AGPL-3.0", "decision": "REJECT"}
+  },
+  "policy": {
+    "no_llm_in_factual_path": true,
+    "bme_data": "REFERENCE/VALIDATION ONLY — no redistribution",
+    "cnmv_pdfs": "snapshots hashed, not redistributed; publish extracted facts + URLs",
+    "ambiguous_never_forced": true
+  }
+}

@@ -1,0 +1,149 @@
+{
+ "phase": "G0-C.1 deep-dev conversion",
+ "docling_version": "2.126.0",
+ "documents": [
+  {
+   "file": "D01_CCFF_11290_006.pdf",
+   "bytes": 165744,
+   "status": "ok",
+   "seconds": 19.71,
+   "peak_rss_mb": 788.5,
+   "pages": 6,
+   "texts": 133,
+   "tables": 3,
+   "key_value_items": 0
+  },
+  {
+   "file": "D02_CCFF_11380_022.pdf",
+   "bytes": 292328,
+   "status": "ok",
+   "seconds": 20.54,
+   "peak_rss_mb": 84.7,
+   "pages": 14,
+   "texts": 223,
+   "tables": 12,
+   "key_value_items": 0
+  },
+  {
+   "file": "D03_CCFF_11380_015.pdf",
+   "bytes": 289065,
+   "status": "ok",
+   "seconds": 20.46,
+   "peak_rss_mb": 53.8,
+   "pages": 14,
+   "texts": 231,
+   "tables": 11,
+   "key_value_items": 0
+  },
+  {
+   "file": "D04_CCFF_11407_001.pdf",
+   "bytes": 140034,
+   "status": "ok",
+   "seconds": 8.63,
+   "peak_rss_mb": 37.6,
+   "pages": 8,
+   "texts": 124,
+   "tables": 5,
+   "key_value_items": 0
+  },
+  {
+   "file": "D05_CCFF_11398_002.pdf",
+   "bytes": 175682,
+   "status": "ok",
+   "seconds": 5.38,
+   "peak_rss_mb": 32.4,
+   "pages": 6,
+   "texts": 104,
+   "tables": 0,
+   "key_value_items": 0
+  },
+  {
+   "file": "D06_CCFF_11399_001.pdf",
+   "bytes": 197681,
+   "status": "ok",
+   "seconds": 10.25,
+   "peak_rss_mb": 30.4,
+   "pages": 7,
+   "texts": 76,
+   "tables": 6,
+   "key_value_items": 0
+  },
+  {
+   "file": "D07_CCFF_11341_007.pdf",
+   "bytes": 187783,
+   "status": "ok",
+   "seconds": 4.96,
+   "peak_rss_mb": 35.6,
+   "pages": 6,
+   "texts": 106,
+   "tables": 1,
+   "key_value_items": 0
+  },
+  {
+   "file": "D08_CCFF_11384_005.pdf",
+   "bytes": 289333,
+   "status": "ok",
+   "seconds": 10.69,
+   "peak_rss_mb": 39.2,
+   "pages": 9,
+   "texts": 188,
+   "tables": 3,
+   "key_value_items": 0
+  },
+  {
+   "file": "D09_CCFF_11338_001.pdf",
+   "bytes": 300295,
+   "status": "ok",
+   "seconds": 8.32,
+   "peak_rss_mb": 244.4,
+   "pages": 9,
+   "texts": 199,
+   "tables": 1,
+   "key_value_items": 0
+  },
+  {
+   "file": "D10_FOL_11145.1.pdf",
+   "bytes": 187382,
+   "status": "ok",
+   "seconds": 4.76,
+   "peak_rss_mb": -154.7,
+   "pages": 4,
+   "texts": 34,
+   "tables": 1,
+   "key_value_items": 0
+  },
+  {
+   "file": "D11_FOL_11269.1.pdf",
+   "bytes": 187884,
+   "status": "ok",
+   "seconds": 3.77,
+   "peak_rss_mb": 233.5,
+   "pages": 2,
+   "texts": 21,
+   "tables": 0,
+   "key_value_items": 0
+  },
+  {
+   "file": "D12_FOL_11260.1.pdf",
+   "bytes": 148587,
+   "status": "ok",
+   "seconds": 2.46,
+   "peak_rss_mb": -20.5,
+   "pages": 2,
+   "texts": 16,
+   "tables": 0,
+   "key_value_items": 0
+  },
+  {
+   "file": "D13_FOL_11329.1.pdf",
+   "bytes": 163350,
+   "status": "ok",
+   "seconds": 3.07,
+   "peak_rss_mb": 417.7,
+   "pages": 6,
+   "texts": 62,
+   "tables": 1,
+   "key_value_items": 0
+  }
+ ]
+}

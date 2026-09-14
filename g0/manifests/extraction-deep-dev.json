@@ -1,0 +1,414 @@
+{
+ "manifest": "extraction-deep-dev",
+ "frozen_at": "2026-09-14",
+ "purpose": "DEVELOPMENT para segunda ola contractual; externo a scout y holdout; congelado antes de escribir reglas",
+ "storage": "PDFs en g0/snapshots/ (gitignored); identidad = source_url + sha256 + retrieved_at",
+ "n_cases": 13,
+ "cases": [
+  {
+   "case_key": "D01",
+   "stratum": "structured_note",
+   "issuer": "CAIXABANK, S.A.",
+   "isin": "ES03406090F5",
+   "document_role": "final_terms",
+   "instrument_class": "estructurado",
+   "source_family": "cnmv_ccff",
+   "source_record_key": "CCFF_11290_006",
+   "registro_oficial": "11290",
+   "source_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=1ntOUxihF3n%2b2M%2f4l0Qirm8RVSTnbthkymQM6e6vtBY%2bY4xyryP5of8CAL2przhy",
+   "selection_reason": "structured_note: BONOS/OBLIG. ESTRUCTURADOS; seleccion estructural sin inspeccion de contenido",
+   "target_field_families": [
+    "underlying",
+    "barrier",
+    "participation",
+    "cap",
+    "observation_dates",
+    "settlement_type",
+    "redemption_formula"
+   ],
+   "downloaded": {
+    "url": "https://www.cnmv.es/webservices/verdocumento/ver?e=1ntOUxihF3n%2b2M%2f4l0Qirm8RVSTnbthkymQM6e6vtBY%2bY4xyryP5of8CAL2przhy",
+    "retrieved_at": "2026-09-14T10:35:08.688571+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "last_modified": null,
+    "bytes": 165744,
+    "sha256": "f777df484bc73b3063c28c7baaed783c3b89ccaf5a94906a1c891b0081479c10",
+    "is_pdf": true,
+    "local_evidence": "g0\\snapshots\\D01_CCFF_11290_006.pdf"
+   }
+  },
+  {
+   "case_key": "D02",
+   "stratum": "structured_note",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "isin": "ES0305067M41",
+   "document_role": "final_terms",
+   "instrument_class": "estructurado",
+   "source_family": "cnmv_ccff",
+   "source_record_key": "CCFF_11380_022",
+   "registro_oficial": "11380",
+   "source_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=xvAqOEW3S%2fsWJ0i5rdU8VZxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+   "selection_reason": "structured_note: BONOS/OBLIG. ESTRUCTURADOS; seleccion estructural sin inspeccion de contenido",
+   "target_field_families": [
+    "underlying",
+    "barrier",
+    "participation",
+    "cap",
+    "observation_dates",
+    "settlement_type",
+    "redemption_formula"
+   ],
+   "downloaded": {
+    "url": "https://www.cnmv.es/webservices/verdocumento/ver?e=xvAqOEW3S%2fsWJ0i5rdU8VZxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "retrieved_at": "2026-09-14T10:35:09.536350+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "last_modified": null,
+    "bytes": 292328,
+    "sha256": "3a526cf1f24b3e49fb93c4412356f146690ab4d50f4fbdfdf45ed2be00c2c697",
+    "is_pdf": true,
+    "local_evidence": "g0\\snapshots\\D02_CCFF_11380_022.pdf"
+   }
+  },
+  {
+   "case_key": "D03",
+   "stratum": "structured_note",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "isin": "ES0305067L75",
+   "document_role": "final_terms",
+   "instrument_class": "estructurado",
+   "source_family": "cnmv_ccff",
+   "source_record_key": "CCFF_11380_015",
+   "registro_oficial": "11380",
+   "source_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=%2bW0%2fUYW%2bs6cQIR7QZn%2bV%2bJxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+   "selection_reason": "structured_note: BONOS/OBLIG. ESTRUCTURADOS; seleccion estructural sin inspeccion de contenido",
+   "target_field_families": [
+    "underlying",
+    "barrier",
+    "participation",
+    "cap",
+    "observation_dates",
+    "settlement_type",
+    "redemption_formula"
+   ],
+   "downloaded": {
+    "url": "https://www.cnmv.es/webservices/verdocumento/ver?e=%2bW0%2fUYW%2bs6cQIR7QZn%2bV%2bJxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "retrieved_at": "2026-09-14T10:35:10.427206+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "last_modified": null,
+    "bytes": 289065,
+    "sha256": "e9da9bc3a028f903bc9714d33ead9360103bd5ddcf89ca8e8eb2a0895bb99a0f",
+    "is_pdf": true,
+    "local_evidence": "g0\\snapshots\\D03_CCFF_11380_015.pdf"
+   }
+  },
+  {
+   "case_key": "D04",
+   "stratum": "subordinated",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "isin": "XS3352075058",
+   "document_role": "final_terms",
+   "instrument_class": "subordinado",
+   "source_family": "cnmv_ccff",
+   "source_record_key": "CCFF_11407_001",
+   "registro_oficial": "11407",
+   "source_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=E3i%2f0iGoBZYPqZ9QuUayAJxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+   "selection_reason": "subordinated: BONOS/OBLIG. SUBORDINADOS; seleccion estructural sin inspeccion de contenido",
+   "target_field_families": [
+    "ranking",
+    "subordination",
+    "call_dates",
+    "redemption_formula"
+   ],
+   "downloaded": {
+    "url": "https://www.cnmv.es/webservices/verdocumento/ver?e=E3i%2f0iGoBZYPqZ9QuUayAJxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "retrieved_at": "2026-09-14T10:35:11.288250+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "last_modified": null,
+    "bytes": 140034,
+    "sha256": "77922c336b563a4e61af4cce2af9a9ceec9f463394cd69b3e09a2aebb74d5f01",
+    "is_pdf": true,
+    "local_evidence": "g0\\snapshots\\D04_CCFF_11407_001.pdf"
+   }
+  },
+  {
+   "case_key": "D05",
+   "stratum": "plain_vanilla",
+   "issuer": "BANCA MARCH, S.A.",
+   "isin": "ES0213040043",
+   "document_role": "final_terms",
+   "instrument_class": "bono_simple",
+   "source_family": "cnmv_ccff",
+   "source_record_key": "CCFF_11398_002",
+   "registro_oficial": "11398",
+   "source_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=9sRgMjePCtpQe3eDAjJslpxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+   "selection_reason": "plain_vanilla: BONOS/OBLIG. SIMPLES; seleccion estructural sin inspeccion de contenido",
+   "target_field_families": [
+    "call_dates",
+    "put_dates",
+    "benchmark",
+    "spread",
+    "business_day_convention"
+   ],
+   "downloaded": {
+    "url": "https://www.cnmv.es/webservices/verdocumento/ver?e=9sRgMjePCtpQe3eDAjJslpxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "retrieved_at": "2026-09-14T10:35:12.118157+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "last_modified": null,
+    "bytes": 175682,
+    "sha256": "1d5fbdde968257969b2887d43cb1e121c13b49ea19621b7fc7086f581882cba9",
+    "is_pdf": true,
+    "local_evidence": "g0\\snapshots\\D05_CCFF_11398_002.pdf"
+   }
+  },
+  {
+   "case_key": "D06",
+   "stratum": "plain_vanilla",
+   "issuer": "AENA, S.M.E., S.A.",
+   "isin": "ES0205046016",
+   "document_role": "final_terms",
+   "instrument_class": "bono_simple",
+   "source_family": "cnmv_ccff",
+   "source_record_key": "CCFF_11399_001",
+   "registro_oficial": "11399",
+   "source_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=IFRtOaviZi3e5skVKDe%2fC5xTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+   "selection_reason": "plain_vanilla: BONOS/OBLIG. SIMPLES; seleccion estructural sin inspeccion de contenido",
+   "target_field_families": [
+    "call_dates",
+    "put_dates",
+    "benchmark",
+    "spread",
+    "business_day_convention"
+   ],
+   "downloaded": {
+    "url": "https://www.cnmv.es/webservices/verdocumento/ver?e=IFRtOaviZi3e5skVKDe%2fC5xTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "retrieved_at": "2026-09-14T10:35:12.963648+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "last_modified": null,
+    "bytes": 197681,
+    "sha256": "dd11b20eb9814a0bd0a2ef22dbc96c78c43a8d97775d1ce9e3b9cbff3477ff1c",
+    "is_pdf": true,
+    "local_evidence": "g0\\snapshots\\D06_CCFF_11399_001.pdf"
+   }
+  },
+  {
+   "case_key": "D07",
+   "stratum": "covered_bond",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "isin": "ES04139000B5",
+   "document_role": "final_terms",
+   "instrument_class": "cedula",
+   "source_family": "cnmv_ccff",
+   "source_record_key": "CCFF_11341_007",
+   "registro_oficial": "11341",
+   "source_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=ijzt8E7tXeFT9m8Ei3WGxZxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+   "selection_reason": "covered_bond: C&#201;DULAS HIPOTECARIAS; seleccion estructural sin inspeccion de contenido",
+   "target_field_families": [
+    "call_dates",
+    "reset_dates",
+    "fixing_rules",
+    "benchmark",
+    "spread"
+   ],
+   "downloaded": {
+    "url": "https://www.cnmv.es/webservices/verdocumento/ver?e=ijzt8E7tXeFT9m8Ei3WGxZxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "retrieved_at": "2026-09-14T10:35:13.840818+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "last_modified": null,
+    "bytes": 187783,
+    "sha256": "1c37bcc4578118d71ed0a30fd4152143692a620f1a5c1463ab94f82d681a7c5f",
+    "is_pdf": true,
+    "local_evidence": "g0\\snapshots\\D07_CCFF_11341_007.pdf"
+   }
+  },
+  {
+   "case_key": "D08",
+   "stratum": "covered_bond",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "isin": "ES0413211B58",
+   "document_role": "final_terms",
+   "instrument_class": "cedula",
+   "source_family": "cnmv_ccff",
+   "source_record_key": "CCFF_11384_005",
+   "registro_oficial": "11384",
+   "source_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=C2pPTvlKSvGmBlcyvw1a1JxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+   "selection_reason": "covered_bond: C&#201;DULAS HIPOTECARIAS; seleccion estructural sin inspeccion de contenido",
+   "target_field_families": [
+    "call_dates",
+    "reset_dates",
+    "fixing_rules",
+    "benchmark",
+    "spread"
+   ],
+   "downloaded": {
+    "url": "https://www.cnmv.es/webservices/verdocumento/ver?e=C2pPTvlKSvGmBlcyvw1a1JxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "retrieved_at": "2026-09-14T10:35:14.709756+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "last_modified": null,
+    "bytes": 289333,
+    "sha256": "0de2961dc95a456ea4ca29a025557ebb72cba51d45ac6abc0a8c9929202d4741",
+    "is_pdf": true,
+    "local_evidence": "g0\\snapshots\\D08_CCFF_11384_005.pdf"
+   }
+  },
+  {
+   "case_key": "D09",
+   "stratum": "covered_bond",
+   "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+   "isin": "ES0413211A91",
+   "document_role": "final_terms",
+   "instrument_class": "cedula",
+   "source_family": "cnmv_ccff",
+   "source_record_key": "CCFF_11338_001",
+   "registro_oficial": "11338",
+   "source_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=jY5wglOuDLStJa0scemiVpxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+   "selection_reason": "covered_bond: C&#201;DULAS HIPOTECARIAS; seleccion estructural sin inspeccion de contenido",
+   "target_field_families": [
+    "call_dates",
+    "reset_dates",
+    "fixing_rules",
+    "benchmark",
+    "spread"
+   ],
+   "downloaded": {
+    "url": "https://www.cnmv.es/webservices/verdocumento/ver?e=jY5wglOuDLStJa0scemiVpxTNQ0ApePXbjq%2fsfkPJWxIFKoYSXBfkcze4PJ9eezf",
+    "retrieved_at": "2026-09-14T10:35:15.658837+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "last_modified": null,
+    "bytes": 300295,
+    "sha256": "6fabd30af59a991a39628f3f8e2055b309a04b88160b6566b5766d00c4997e57",
+    "is_pdf": true,
+    "local_evidence": "g0\\snapshots\\D09_CCFF_11338_001.pdf"
+   }
+  },
+  {
+   "case_key": "D10",
+   "stratum": "supplement",
+   "issuer": "CAJAMAR CAJA RURAL, SOCIEDAD COOPERATIVA DE CREDITO",
+   "isin": "",
+   "document_role": "supplement",
+   "instrument_class": "n/a",
+   "source_family": "cnmv_folletos_emision",
+   "source_record_key": "FOL_11145.1",
+   "registro_oficial": "11145",
+   "source_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=FkJMndqu7hACxPZFuzBX%2fiJs3cK80xVpwaYndxidzOsOt0h97PRqpgpiEhvAbqfG",
+   "selection_reason": "supplement: SUPLEMENTO; seleccion estructural sin inspeccion de contenido",
+   "target_field_families": [
+    "supplement_changes_economic_terms"
+   ],
+   "downloaded": {
+    "url": "https://www.cnmv.es/webservices/verdocumento/ver?e=FkJMndqu7hACxPZFuzBX%2fiJs3cK80xVpwaYndxidzOsOt0h97PRqpgpiEhvAbqfG",
+    "retrieved_at": "2026-09-14T10:35:16.511495+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "last_modified": null,
+    "bytes": 187382,
+    "sha256": "36870c105ead34156ae128580f26ab0354da3bee5c64ffe240b2e16d20354966",
+    "is_pdf": true,
+    "local_evidence": "g0\\snapshots\\D10_FOL_11145.1.pdf"
+   }
+  },
+  {
+   "case_key": "D11",
+   "stratum": "supplement",
+   "issuer": "CAIXABANK, S.A.",
+   "isin": "",
+   "document_role": "supplement",
+   "instrument_class": "n/a",
+   "source_family": "cnmv_folletos_emision",
+   "source_record_key": "FOL_11269.1",
+   "registro_oficial": "11269",
+   "source_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=CUPbKFrPjCRPZWb8i%2bPJTKEpI%2biFfPy6xtr5zzoQYHkQuBXcwhxHTTOZtrpRPSAM",
+   "selection_reason": "supplement: SUPLEMENTO; seleccion estructural sin inspeccion de contenido",
+   "target_field_families": [
+    "supplement_changes_economic_terms"
+   ],
+   "downloaded": {
+    "url": "https://www.cnmv.es/webservices/verdocumento/ver?e=CUPbKFrPjCRPZWb8i%2bPJTKEpI%2biFfPy6xtr5zzoQYHkQuBXcwhxHTTOZtrpRPSAM",
+    "retrieved_at": "2026-09-14T10:35:17.378649+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "last_modified": null,
+    "bytes": 187884,
+    "sha256": "997994ebdded0046a9f06414f7c79867fb715459f2a444896729360df43a5af0",
+    "is_pdf": true,
+    "local_evidence": "g0\\snapshots\\D11_FOL_11269.1.pdf"
+   }
+  },
+  {
+   "case_key": "D12",
+   "stratum": "supplement",
+   "issuer": "BANKINTER, S.A.",
+   "isin": "",
+   "document_role": "supplement",
+   "instrument_class": "n/a",
+   "source_family": "cnmv_folletos_emision",
+   "source_record_key": "FOL_11260.1",
+   "registro_oficial": "11260",
+   "source_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=wdMfQ0xu61pZ80Ibzu9PRqEpI%2biFfPy6xtr5zzoQYHkQuBXcwhxHTTOZtrpRPSAM",
+   "selection_reason": "supplement: SUPLEMENTO; seleccion estructural sin inspeccion de contenido",
+   "target_field_families": [
+    "supplement_changes_economic_terms"
+   ],
+   "downloaded": {
+    "url": "https://www.cnmv.es/webservices/verdocumento/ver?e=wdMfQ0xu61pZ80Ibzu9PRqEpI%2biFfPy6xtr5zzoQYHkQuBXcwhxHTTOZtrpRPSAM",
+    "retrieved_at": "2026-09-14T10:35:18.408192+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "last_modified": null,
+    "bytes": 148587,
+    "sha256": "3a493a542219c7d7eda8a47fb010613fcbeb19207b8ce6aad07b4c9f514c71f0",
+    "is_pdf": true,
+    "local_evidence": "g0\\snapshots\\D12_FOL_11260.1.pdf"
+   }
+  },
+  {
+   "case_key": "D13",
+   "stratum": "supplement",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "isin": "",
+   "document_role": "supplement",
+   "instrument_class": "n/a",
+   "source_family": "cnmv_folletos_emision",
+   "source_record_key": "FOL_11329.1",
+   "registro_oficial": "11329",
+   "source_url": "https://www.cnmv.es/webservices/verdocumento/ver?e=5MlCZ%2f%2fxIwFz0QoS10zCLqEpI%2biFfPy6xtr5zzoQYHkQuBXcwhxHTTOZtrpRPSAM",
+   "selection_reason": "supplement: SUPLEMENTO; seleccion estructural sin inspeccion de contenido",
+   "target_field_families": [
+    "supplement_changes_economic_terms"
+   ],
+   "downloaded": {
+    "url": "https://www.cnmv.es/webservices/verdocumento/ver?e=5MlCZ%2f%2fxIwFz0QoS10zCLqEpI%2biFfPy6xtr5zzoQYHkQuBXcwhxHTTOZtrpRPSAM",
+    "retrieved_at": "2026-09-14T10:35:19.402263+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "last_modified": null,
+    "bytes": 163350,
+    "sha256": "d260b95db7b58b5f9734386eea5725fbf91a43705819ddc99c4314a678bc86d1",
+    "is_pdf": true,
+    "local_evidence": "g0\\snapshots\\D13_FOL_11329.1.pdf"
+   }
+  }
+ ],
+ "declared_gaps": [
+  {
+   "stratum": "modification",
+   "status": "NO_DEV_EVIDENCE",
+   "note": "todos los folletos rol MODIFICACION con doc_url ya estan usados en scout/holdout; ninguno libre en el pool"
+  },
+  {
+   "stratum": "callable_explicit",
+   "status": "NOT_DETERMINED_PRE",
+   "note": "ningun campo de superficie CNMV identifica callable; la presencia se descubre al abrir los docs development"
+  }
+ ],
+ "manifest_sha256": "e19c5d89d69f9ff8aa9903397aea8fd85c4fdfa0358df8b6eb41c04b60088b00"
+}

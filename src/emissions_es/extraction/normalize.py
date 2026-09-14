@@ -66,7 +66,7 @@ def norm_date(s: str) -> Optional[str]:
         if mo <= 12:
             return f'{y:04d}-{mo:02d}-{d:02d}'
         return None
-    m = re.search(r'(\d{1,2})\s+(?:de\s+)?([A-Za-záéíóú]+)\s+(?:de\s+)?(\d{4})',
+    m = re.search(r'(\d{1,2})\s+(?:de[l]?\s+)?([A-Za-záéíóú]+)\s+(?:de[l]?\s+)?(\d{4})',
                   s, re.I)
     if m:
         d, mon, y = int(m.group(1)), m.group(2).lower(), int(m.group(3))
@@ -109,11 +109,11 @@ ISIN_RX = re.compile(r'\b[A-Z]{2}[0-9A-Z]{9}[0-9]\b')
 
 # objeto de benchmark identificable: indice + tenor opcional + margen
 # opcional. NO acepta prosa alrededor como "valor".
-BENCH_NAMES = (r'EURIBOR|EURISOR|€STR|ESTR|EONIA|SONIA|SOFR|LIBOR|MIBOR|'
+BENCH_NAMES = (r'EURIBOR|EURISOR|€STR|ESTR|EONIA|SONIA|SOFR|LIBOR|MIBOR|MID-?SWAP(?:\s+RATE)?|ICE\s+SWAP\s+RATE|'
                r'CMS|CMT|IRPH|BTF|TIPO\s+DE\s+INTER[EÉ]S\s+DE\s+REFERENCIA')
 BENCH_RX = re.compile(
-    r'\b(' + BENCH_NAMES + r')'
-    r'(?:\s*[,\-]?\s*\d+\s*(?:mes(?:es)?|months?|M|a[ñn]os?|years?))?'
+    r'(?<![A-Za-z0-9])(' + BENCH_NAMES + r')'
+    r'(?:\s*[,\-]?\s*a?\s*\d+\s*(?:mes(?:es)?|months?|M|a[ñn]os?|years?))?'
     r'(?:\s*(?:a\s+)?(?:6|12)\s*meses)?'
     r'(?:\s*[+\-]\s*[0-9][0-9.,]*\s*%?)?', re.I)
 
@@ -175,3 +175,83 @@ def norm_frequency(s: str):
     if re.search(r'\b\d{4}\b', r) and ',' in s:
         return RAW_ONLY
     return None
+
+
+# ---------- segunda ola G0-C.1 ----------
+
+_BPS_RX = re.compile(
+    r'(\d[\d.,]*)\s*(?:puntos?\s+b[aá]sicos|basis\s+points|\bbps?\b)', re.I)
+# exige signo: '3,35%' solo es un tipo fijo (coupon), no un margen
+_PCT_RX = re.compile(
+    r'[+\-−]\s*(\d[\d.,]*)\s*(?:%|por\s*ciento|per\s*cent)', re.I)
+
+
+def norm_spread(s: str):
+    """'+ 0,46%' | 'más 45 puntos básicos' | '45 bps' -> Decimal pct.
+    Un porcentaje sin signo/bps bajo 'Tipo de interés' es el cupon, no
+    el margen -> None (no promover)."""
+    m = _BPS_RX.search(s)
+    if m:
+        n = norm_number(m.group(1))
+        return n / 100 if n is not None else None
+    m = _PCT_RX.search(s)
+    if m:
+        return norm_number(m.group(1))
+    return None
+
+
+def norm_applicability(s: str):
+    """'Applicable'/'Aplica' -> APPLICABLE; resto -> RAW_ONLY | None."""
+    t = re.sub(r'\s+', ' ', s.strip().lower())
+    if re.match(r'^(aplicable|applicable|a\s+plica|s[ií]\b|yes\b)', t):
+        return 'APPLICABLE'
+    if re.match(r'^(not?\s+applicab|no\s+aplica|no\b|not\s+specified|'
+                r'n/?a\b)', t):
+        return 'NOT_APPLICABLE'
+    return RAW_ONLY if t else None
+
+
+def norm_text_or_percent(s: str):
+    """percent si es parseable; si no, RAW_ONLY (el lexema queda
+    observado aunque no haya valor canonico)."""
+    p = norm_percent(s)
+    if p is not None:
+        return p
+    t = re.sub(r'\s+', ' ', s.strip())
+    return RAW_ONLY if t else None
+
+
+_RANK_RX = re.compile(
+    r'\b(senior\s+preferred|senior\s+non[- ]preferred|senior|'
+    r'subordinated|subordinad[ao]s?|ordinary|preferred)\b', re.I)
+_TIER_RX = re.compile(
+    r'\b(tier\s*[12]|t[12]\b|at1\b|additional\s+tier\s*1)\b', re.I)
+
+
+def norm_ranking(s: str):
+    m = _RANK_RX.search(s)
+    if not m:
+        return RAW_ONLY if s.strip() else None
+    return re.sub(r'[\s\-]+', '_', m.group(0).upper().replace('Á', 'A')
+                  .replace('É', 'E'))
+
+
+def norm_subordination(s: str):
+    m = _TIER_RX.search(s)
+    if m:
+        t = re.sub(r'\s+', '', m.group(0).upper())
+        return {'T1': 'TIER_1', 'T2': 'TIER_2', 'TIER1': 'TIER_1',
+                'TIER2': 'TIER_2', 'AT1': 'AT1',
+                'ADDITIONALTIER1': 'AT1'}.get(t, t)
+    if _RANK_RX.search(s):
+        return RAW_ONLY       # senior/subordinated sin tier explicito
+    return None
+
+
+def norm_dates_or_text(s: str):
+    """Primera fecha ISO si existe; si no, RAW_ONLY."""
+    d = norm_date(s)
+    if d:
+        return d
+    t = re.sub(r'\s+', ' ', s.strip())
+    return RAW_ONLY if t else None

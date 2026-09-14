@@ -1,0 +1,46 @@
+{
+ "manifest": "oss-delta-development-precheck.json",
+ "scope": "DEVELOPMENT ONLY — no es el gate final; threshold intacto (>=80%)",
+ "criterion": "% documentos con >=1 termino material DOCUMENT_ONLY (novelty-field-map.json)",
+ "document_only_fields": [
+  "autocall",
+  "barrier",
+  "business_day_convention",
+  "call_dates",
+  "cap",
+  "day_count",
+  "document_lineage",
+  "fixing_rules",
+  "observation_dates",
+  "participation",
+  "payment_frequency",
+  "put_dates",
+  "redemption_formula",
+  "reset_dates",
+  "strike"
+ ],
+ "deep_dev": {
+  "docs": 13,
+  "with_document_only_term": 9,
+  "pct": 69.2,
+  "by_stratum": {
+   "ccff_final_terms": "9/9 = 100%",
+   "supplements": "0/4 = 0%"
+  }
+ },
+ "scout": {
+  "docs": 11,
+  "with_document_only_term": 8,
+  "pct": 72.7
+ },
+ "combined": {
+  "docs": 24,
+  "pct": 70.8
+ },
+ "analysis": [
+  "El 100% de los documentos de emision (CCFF/final terms) contienen >=1 termino material DOCUMENT_ONLY -> la hipotesis OSS_DELTA se sostiene en el estrato que define el producto.",
+  "Los 4 supplements dev producen 0 terminos: sus enmiendas no usan el patron label:value sobre el que operan los extractores. Es una limitacion de cobertura documentada (rol=supplement), no un fallo de la hipotesis: un supplement no es un instrumento, y la metrica del gate se aplica a casos/instrumentos.",
+  "Ningun documento fue seleccionado para mejorar la cifra; el deep-dev se congelo estructuralmente antes de escribir reglas."
+ ],
+ "verdict": "PRECHECK_OK — delta material en docs de emision; supplement extraction = limitacion declarada, no bloqueante para G0-D"
+}

@@ -35,6 +35,18 @@ Código: `src/emissions_es/linking/rules.py` · Orquestador: `linker.py`
 - No resuelve empates: señales positivas+negativas → `AMBIGUOUS`.
 - No usa fuzzy score ni embeddings.
 
+## Invariante
+
+> **La temporalidad registral de CNMV no es un sustituto de una relación
+> documental explícita.**
+
+Un registro posterior del mismo emisor y rol no `REPLACES` al anterior:
+la fila no expone campo de sucesión. Un suplemento registrado antes que
+una CCFF no es automáticamente el documento vigente que definió sus
+términos: la fila no dice qué versión aplicó. En ambos casos la única
+salida honesta es `AMBIGUOUS`. Caso canónico: `CCFF_11286_014`
+(presentada 10/07/2024, con suplementos 11286.1 y .4 ya registrados).
+
 ## Scout metrics (56 casos)
 
 `g0/results/linkage-scout-results.json`: accuracy 56/56, 0 FP, 0 FN.

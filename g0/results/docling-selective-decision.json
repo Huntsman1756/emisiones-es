@@ -1,0 +1,62 @@
+{
+ "manifest": "docling-selective-decision.json",
+ "decision": "KEEP_FULL",
+ "gate_criterion": "ADOPT_SELECTIVE requiere 0 factual fields lost + 0 changed factual values + 0 broken evidence pointers + reduccion material de coste",
+ "prescan": {
+  "tool": "pypdf 6.18.1 (BSD-3-Clause), text extraction por pagina + anchors de FIELD_SPECS + BENCH_RX + ISIN_RX",
+  "context_pages": 2,
+  "evidence_recall": "100%: todas las paginas con evidencia real en los 22 docs dev/scout caen dentro de hit_pages +/- 2"
+ },
+ "measured": {
+  "Y06_FOL_11400": {
+   "pages": 333,
+   "prescan_s": 8.5,
+   "full_docling_s": 264,
+   "covering_range": [
+    1,
+    332
+   ],
+   "covering_pct": 99.7,
+   "merged_range_pages": 309,
+   "merged_pct": 92.8,
+   "n_ranges": 9
+  },
+  "Y08_FOL_11434": {
+   "pages": 254,
+   "prescan_s": 6.9,
+   "full_docling_s": 518,
+   "covering_range": [
+    1,
+    253
+   ],
+   "covering_pct": 99.6,
+   "merged_range_pages": 186,
+   "merged_pct": 73.2,
+   "n_ranges": 14
+  },
+  "Y09_FOL_11417": {
+   "pages": 681,
+   "prescan_s": 18.7,
+   "full_docling_s": 1871,
+   "covering_range": [
+    2,
+    679
+   ],
+   "covering_pct": 99.6,
+   "merged_range_pages": 629,
+   "merged_pct": 92.4,
+   "n_ranges": 12
+  }
+ },
+ "page_provenance": {
+  "verified": true,
+  "method": "DocumentConverter.convert(pdf, page_range=(3,4)) en Y01_CCFF_11400_043.pdf: ProvenanceItem.page_no = {3,4} (paginas originales del PDF, sin renumeracion); textos identicos a la conversion completa pagina 3"
+ },
+ "rationale": [
+  "Docling page_range acepta un UNICO rango contiguo por conversion.",
+  "El covering range de anchors cubre 99.6-99.7% de las paginas: los folletos repiten el template de condiciones en todo el doc.",
+  "Multi-range requeriria 9-14 conversiones + merge de DoclingDocuments (fidelidad no demostrada) para un ahorro maximo del 27% en Y08 y solo ~8% en el doc mas caro (Y09).",
+  "El prescan tiene recall de evidencia perfecto, pero no ofrece reduccion material con la API disponible.",
+  "Por tanto: FULL Docling para G0-D; optimizacion queda para post-G0 (merge multi-range o subset de anchors de mayor especificidad)."
+ ]
+}

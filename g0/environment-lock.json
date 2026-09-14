@@ -1,0 +1,53 @@
+{
+ "manifest": "environment-lock.json",
+ "purpose": "runtime canonico reproducible para G0-D; el unico interprete valido para la evaluacion one-shot",
+ "python": {
+  "version": "3.13.11",
+  "implementation": "CPython",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "executable": "F:\\_Proyectos\\emisiones-es\\.venv\\Scripts\\python.exe"
+ },
+ "direct_dependencies": {
+  "docling": "2.126.0",
+  "pydantic": "2.13.5",
+  "pypdf": "6.18.1",
+  "pytest": "9.1.1"
+ },
+ "key_resolved_versions": {
+  "docling": "2.126.0",
+  "docling-core": "2.96.0",
+  "docling-parse": "7.19.1",
+  "docling-ibm-models": "4.0.2",
+  "docling-slim": "2.126.0",
+  "pydantic": "2.13.5",
+  "pydantic-core": "2.46.5",
+  "pypdf": "6.18.1",
+  "pypdfium2": "5.13.0",
+  "torch": "2.14.0",
+  "rapidocr": "3.9.2"
+ },
+ "pipeline": {
+  "converter": "DocumentConverter()  # defaults",
+  "pipeline_options": "PdfPipelineOptions()  # defaults",
+  "do_ocr": true,
+  "ocr_kind": "auto",
+  "do_table_structure": true,
+  "table_mode": "TableFormerMode.ACCURATE",
+  "table_cell_matching": true,
+  "do_code_enrichment": false,
+  "do_formula_enrichment": false,
+  "images_scale": 1.0,
+  "generate_page_images": false,
+  "models": {
+   "docling_ibm_models": "4.0.2"
+  }
+ },
+ "lockfile": {
+  "path": "requirements-lock.txt",
+  "sha256": "ba2f63cb78eadb9b26633fb91d62626b3a8f337666e416d982631b1f7a9f4e4d",
+  "n_resolved": 108
+ },
+ "install": "uv pip install --python <py313> -r requirements-lock.txt",
+ "environment_sha256": "40535196cce4a67d3c7b45220aa893532adf669ce3b602b43be60ea23eab300f"
+}

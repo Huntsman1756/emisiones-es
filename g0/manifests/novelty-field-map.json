@@ -1,0 +1,216 @@
+{
+ "manifest": "novelty-field-map.json",
+ "states": [
+  "STRUCTURED_UPSTREAM",
+  "PARTIALLY_STRUCTURED",
+  "DOCUMENT_ONLY",
+  "NOT_DETERMINED"
+ ],
+ "rule": "clasificacion frente a FIRDS (RTS23), metadata ESAP y superficies estructuradas CNMV; sin datos comerciales BME",
+ "frozen_for": "G0-D",
+ "fields": {
+  "isin": {
+   "firds": "STRUCTURED_UPSTREAM",
+   "esap": "STRUCTURED_UPSTREAM",
+   "cnmv_structured": "STRUCTURED_UPSTREAM",
+   "worst_case_novelty": "STRUCTURED_UPSTREAM",
+   "note": "FIRDS RTS23 + CNMV row; redundante con documento"
+  },
+  "currency": {
+   "firds": "STRUCTURED_UPSTREAM",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "STRUCTURED_UPSTREAM",
+   "worst_case_novelty": "STRUCTURED_UPSTREAM",
+   "note": "FIRDS nominal currency"
+  },
+  "issue_date": {
+   "firds": "PARTIALLY_STRUCTURED",
+   "esap": "PARTIALLY_STRUCTURED",
+   "cnmv_structured": "PARTIALLY_STRUCTURED",
+   "worst_case_novelty": "PARTIALLY_STRUCTURED",
+   "note": "FIRDS admission/request dates; issue date formal solo doc"
+  },
+  "maturity": {
+   "firds": "STRUCTURED_UPSTREAM",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "PARTIALLY_STRUCTURED",
+   "worst_case_novelty": "PARTIALLY_STRUCTURED",
+   "note": "FIRDS expiry date; extension/prorroga solo doc"
+  },
+  "denomination": {
+   "firds": "PARTIALLY_STRUCTURED",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "PARTIALLY_STRUCTURED",
+   "note": "FIRDS nominal por unidad parcial; denominaciones multiples solo doc"
+  },
+  "issued_amount": {
+   "firds": "STRUCTURED_UPSTREAM",
+   "esap": "PARTIALLY_STRUCTURED",
+   "cnmv_structured": "STRUCTURED_UPSTREAM",
+   "worst_case_novelty": "PARTIALLY_STRUCTURED",
+   "note": "FIRDS total nominal + CNMV row importe"
+  },
+  "coupon_type": {
+   "firds": "PARTIALLY_STRUCTURED",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "PARTIALLY_STRUCTURED",
+   "worst_case_novelty": "PARTIALLY_STRUCTURED",
+   "note": "FIRDS fijo/flotante flag; matiz indexado solo doc"
+  },
+  "coupon_rate": {
+   "firds": "PARTIALLY_STRUCTURED",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "PARTIALLY_STRUCTURED",
+   "worst_case_novelty": "PARTIALLY_STRUCTURED",
+   "note": "FIRDS tipo fijo; resets/steps solo doc"
+  },
+  "benchmark": {
+   "firds": "PARTIALLY_STRUCTURED",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "PARTIALLY_STRUCTURED",
+   "note": "FIRDS flotantes (indice+spread bps); tenors/reglas solo doc"
+  },
+  "spread": {
+   "firds": "PARTIALLY_STRUCTURED",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "PARTIALLY_STRUCTURED",
+   "note": "FIRDS bps en flotantes; margins escalonados solo doc"
+  },
+  "payment_frequency": {
+   "firds": "DOCUMENT_ONLY",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "DOCUMENT_ONLY",
+   "note": "no reportado en FIRDS/ESAP/CNMV structured"
+  },
+  "day_count": {
+   "firds": "DOCUMENT_ONLY",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "DOCUMENT_ONLY",
+   "note": "no reportado upstream"
+  },
+  "call_dates": {
+   "firds": "DOCUMENT_ONLY",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "DOCUMENT_ONLY",
+   "note": "no reportado upstream"
+  },
+  "put_dates": {
+   "firds": "DOCUMENT_ONLY",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "DOCUMENT_ONLY",
+   "note": "no reportado upstream"
+  },
+  "business_day_convention": {
+   "firds": "DOCUMENT_ONLY",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "DOCUMENT_ONLY",
+   "note": "no reportado upstream"
+  },
+  "reset_dates": {
+   "firds": "DOCUMENT_ONLY",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "DOCUMENT_ONLY",
+   "note": "no reportado upstream"
+  },
+  "fixing_rules": {
+   "firds": "DOCUMENT_ONLY",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "DOCUMENT_ONLY",
+   "note": "no reportado upstream"
+  },
+  "ranking": {
+   "firds": "PARTIALLY_STRUCTURED",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "PARTIALLY_STRUCTURED",
+   "note": "FIRDS seniority (SNDB/MZZD/SBOD/JUND) parcial; T2/AT1 fino solo doc"
+  },
+  "subordination": {
+   "firds": "PARTIALLY_STRUCTURED",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "PARTIALLY_STRUCTURED",
+   "note": "igual: tier preciso y mecanica solo doc"
+  },
+  "redemption_formula": {
+   "firds": "DOCUMENT_ONLY",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "DOCUMENT_ONLY",
+   "note": "no reportado upstream"
+  },
+  "underlying": {
+   "firds": "PARTIALLY_STRUCTURED",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "PARTIALLY_STRUCTURED",
+   "note": "FIRDS index name en flotantes; basket/issuer-solvency solo doc"
+  },
+  "barrier": {
+   "firds": "DOCUMENT_ONLY",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "DOCUMENT_ONLY",
+   "note": "no reportado upstream"
+  },
+  "autocall": {
+   "firds": "DOCUMENT_ONLY",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "DOCUMENT_ONLY",
+   "note": "no reportado upstream"
+  },
+  "observation_dates": {
+   "firds": "DOCUMENT_ONLY",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "DOCUMENT_ONLY",
+   "note": "no reportado upstream"
+  },
+  "settlement_type": {
+   "firds": "PARTIALLY_STRUCTURED",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "PARTIALLY_STRUCTURED",
+   "note": "delivery/cash/physical solo doc; venue infra parcial"
+  },
+  "participation": {
+   "firds": "DOCUMENT_ONLY",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "DOCUMENT_ONLY",
+   "note": "no reportado upstream"
+  },
+  "cap": {
+   "firds": "DOCUMENT_ONLY",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "DOCUMENT_ONLY",
+   "note": "no reportado upstream"
+  },
+  "strike": {
+   "firds": "DOCUMENT_ONLY",
+   "esap": "NOT_DETERMINED",
+   "cnmv_structured": "NOT_DETERMINED",
+   "worst_case_novelty": "DOCUMENT_ONLY",
+   "note": "no reportado upstream"
+  },
+  "document_lineage": {
+   "firds": "DOCUMENT_ONLY",
+   "esap": "PARTIALLY_STRUCTURED",
+   "cnmv_structured": "PARTIALLY_STRUCTURED",
+   "worst_case_novelty": "DOCUMENT_ONLY",
+   "note": "ESAP tendra metadata documental; grafo base-suplemento-ccff solo este proyecto"
+  }
+ }
+}

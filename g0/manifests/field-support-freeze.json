@@ -1,0 +1,608 @@
+{
+ "manifest": "field-support-freeze.json",
+ "frozen_for": "G0-D one-shot holdout evaluation",
+ "rule": "un campo UNSUPPORTED_G0/NO_DEV_EVIDENCE no puede pasar a SUPPORTED tras abrir holdout",
+ "evidence_base": [
+  "extraction-scout (11 docs)",
+  "extraction-deep-dev (13 docs)"
+ ],
+ "fields": {
+  "isin": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "*"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "isin",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": []
+  },
+  "currency": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "*"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "currency",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": []
+  },
+  "issue_date": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "*"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "date",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": []
+  },
+  "maturity": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "*"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "date",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": []
+  },
+  "denomination": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "*"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "money",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": []
+  },
+  "issued_amount": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "*"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "money",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": []
+  },
+  "coupon_type": {
+   "status": "PARTIAL",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "*"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "text",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": [
+    "conflictos legitimos frecuentes (regimen fijo->variable, multi-pierna); conserva todos los valores"
+   ]
+  },
+  "coupon_rate": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "*"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "percent",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": []
+  },
+  "benchmark": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "cubierto",
+    "estructurado",
+    "subordinado"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.1",
+   "normalizer": "benchmark",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": [
+    "objeto identificable obligatorio; prosa de disclosure no promueve (regresion Y08 fijada)"
+   ]
+  },
+  "spread": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "cubierto",
+    "subordinado"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.1",
+   "normalizer": "spread",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": [
+    "requiere signo explicito o puntos basicos; cupon fijo bare-pct no promueve"
+   ]
+  },
+  "payment_frequency": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "*"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "frequency",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": [
+    "rango/condicional/multi -> RAW_ONLY o CONFLICT; nunca reduccion silenciosa a canonico"
+   ]
+  },
+  "day_count": {
+   "status": "PARTIAL",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "*"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "text",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": [
+    "texto normalizado minimo; colas de label en lexemas conocidos (no falsifica valor)"
+   ]
+  },
+  "call_dates": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "*"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.1",
+   "normalizer": "dates_or_text",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": [
+    "texto no-fecha -> RAW_ONLY; NOT_APPLICABLE explicito conservado"
+   ]
+  },
+  "business_day_convention": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "*"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.1",
+   "normalizer": "text",
+   "strategy": "value_pattern",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": [
+    "value_pattern: nombre de convencion es objeto autocontenido; puede vivir dentro del valor de otro campo"
+   ]
+  },
+  "put_dates": {
+   "status": "PARTIAL",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "*"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "dates_or_text",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": [
+    "solo evidencia Aplicable/NA en dev; ninguna fecha put observada"
+   ]
+  },
+  "reset_dates": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "subordinado",
+    "cubierto"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "dates_or_text",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": []
+  },
+  "fixing_rules": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "*"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "text",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": [
+    "pagina Reuters + hora de fijacion capturadas como raw text"
+   ]
+  },
+  "ranking": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "subordinado",
+    "at1_t2"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "ranking",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": []
+  },
+  "subordination": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "subordinado",
+    "at1_t2"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "subordination",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": []
+  },
+  "redemption_formula": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "*"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "text",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": [
+    "multi-clausula legitima -> CONFLICT conservado"
+   ]
+  },
+  "underlying": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "estructurado",
+    "cubierto"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "text",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": []
+  },
+  "barrier": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "estructurado"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "text_or_percent",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": [
+    "niveles multiples -> CONFLICT; header-cell misread posible en layouts de columna"
+   ]
+  },
+  "autocall": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "estructurado"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "applicability",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": []
+  },
+  "observation_dates": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "estructurado"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "dates_or_text",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": [
+    "series de fechas -> CONFLICT con todas las fechas observadas"
+   ]
+  },
+  "settlement_type": {
+   "status": "SUPPORTED",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "*"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "text",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": []
+  },
+  "participation": {
+   "status": "NO_DEV_EVIDENCE",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "estructurado"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "text_or_percent",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": [
+    "sin documento dev que exponga participation"
+   ]
+  },
+  "cap": {
+   "status": "NO_DEV_EVIDENCE",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "estructurado"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "text_or_percent",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": [
+    "solo Not applicable en dev; sin cap real observado"
+   ]
+  },
+  "strike": {
+   "status": "NO_DEV_EVIDENCE",
+   "supported_document_roles": [
+    "final_terms",
+    "base_prospectus",
+    "supplement",
+    "admission_doc",
+    "registration_doc",
+    "issue_document"
+   ],
+   "supported_instrument_classes": [
+    "estructurado"
+   ],
+   "extractor_id": "label_value_v1",
+   "extractor_version": "1.0",
+   "normalizer": "text_or_percent",
+   "strategy": "label_value",
+   "evidence_requirements": "label_value en text items o celdas de tabla; page+bbox provenance; raw_lexeme conservado; RAW_ONLY cuando no hay valor canonico seguro",
+   "known_limitations": [
+    "sin documento dev que exponga strike"
+   ]
+  }
+ }
+}

@@ -2,10 +2,18 @@
 name = "emisiones-es"
 version = "0.0.0"
 description = "Open, evidence-backed securities reference and contractual-terms layer for instruments issued or admitted in Spanish markets"
-requires-python = ">=3.13"
+requires-python = ">=3.13,<3.14"
 license = {text = "Apache-2.0"}
-# Sin dependencias fijadas en G0-A: los pins se congelan en
-# g0/manifests/g0-manifest.json antes de implementar.
+# Dependencias directas del proyecto (G0-C.1). Versiones resueltas
+# congeladas en requirements-lock.txt / g0/environment-lock.json.
+dependencies = [
+  "docling==2.126.0",
+  "pydantic>=2.13,<3",
+  "pypdf>=6,<7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=9,<10"]
 
 [build-system]
 requires = ["setuptools>=68"]

@@ -1,0 +1,1048 @@
+{
+  "per_field": {
+    "isin": {
+      "TP": 9,
+      "n": 9,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "benchmark": {
+      "TP": 4,
+      "n": 7,
+      "TN": 3,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "call_dates": {
+      "TN": 3,
+      "n": 9,
+      "CORRECT_NA": 2,
+      "TP": 2,
+      "TP_RAW": 2,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "put_dates": {
+      "TN": 2,
+      "n": 5,
+      "CORRECT_NA": 2,
+      "TP_RAW": 1,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "reset_dates": {
+      "TN": 3,
+      "n": 4,
+      "TP": 1,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "ranking": {
+      "TN": 1,
+      "n": 2,
+      "TP": 1,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "subordination": {
+      "TN": 1,
+      "n": 2,
+      "TP": 1,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "redemption_formula": {
+      "TP": 9,
+      "n": 9,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "underlying": {
+      "TP": 4,
+      "n": 7,
+      "TN": 3,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "barrier": {
+      "TP_RAW": 1,
+      "n": 9,
+      "TP": 2,
+      "TN": 6,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "autocall": {
+      "CORRECT_NA": 1,
+      "n": 9,
+      "TP": 2,
+      "TN": 6,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "observation_dates": {
+      "TP": 3,
+      "n": 3,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "settlement_type": {
+      "TP": 8,
+      "n": 8,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "participation": {
+      "TN": 1,
+      "n": 1,
+      "precision": null,
+      "recall": null
+    },
+    "cap": {
+      "TN": 1,
+      "n": 3,
+      "CORRECT_NA": 2,
+      "precision": null,
+      "recall": null
+    },
+    "strike": {
+      "TN": 2,
+      "n": 2,
+      "precision": null,
+      "recall": null
+    },
+    "business_day_convention": {
+      "TP": 7,
+      "n": 8,
+      "TN": 1,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "fixing_rules": {
+      "CORRECT_NA": 3,
+      "n": 6,
+      "TP": 3,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "spread": {
+      "TP": 3,
+      "n": 6,
+      "TN": 3,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "payment_frequency": {
+      "TP": 4,
+      "n": 4,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  "details": [
+    {
+      "case": "D01",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES03406090F5"
+    },
+    {
+      "case": "D01",
+      "field": "benchmark",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Euribor a 3 meses"
+    },
+    {
+      "case": "D01",
+      "field": "call_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D01",
+      "field": "put_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D01",
+      "field": "reset_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D01",
+      "field": "ranking",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D01",
+      "field": "subordination",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D01",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "100% sobre nominal."
+    },
+    {
+      "case": "D01",
+      "field": "underlying",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['Tipo de Interés', \"Euribor  a  3  meses,  que  se  define  como  el EURIBOR (Euro  Interbank  Offered  Rate)  a  plazo  de  3  meses  tomado  de  la  página Reuters  'Euribor01'  o  cualquier  otra  página  que  pudiera\"]"
+    },
+    {
+      "case": "D01",
+      "field": "barrier",
+      "truth": "PRESENT",
+      "status": "OBSERVED",
+      "cls": "TP_RAW",
+      "value": null
+    },
+    {
+      "case": "D01",
+      "field": "autocall",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE"
+    },
+    {
+      "case": "D01",
+      "field": "observation_dates",
+      "truth": "MULTI",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "2024-01-05"
+    },
+    {
+      "case": "D01",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "IBERCLEAR."
+    },
+    {
+      "case": "D01",
+      "field": "participation",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D01",
+      "field": "cap",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D01",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D02",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES0305067M41"
+    },
+    {
+      "case": "D02",
+      "field": "call_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE"
+    },
+    {
+      "case": "D02",
+      "field": "business_day_convention",
+      "truth": "MULTI",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['Not applicable (Unadjusted)', 'Modified Following Business Day Convention', 'Modified Following Business Day Convention']"
+    },
+    {
+      "case": "D02",
+      "field": "put_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE"
+    },
+    {
+      "case": "D02",
+      "field": "fixing_rules",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE"
+    },
+    {
+      "case": "D02",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['Final Redemption Amount:', 'Calculation Amount * Final Payout']"
+    },
+    {
+      "case": "D02",
+      "field": "underlying",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['EURO STOXX 50 Index', None, None]"
+    },
+    {
+      "case": "D02",
+      "field": "barrier",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "[None, None, None, Decimal('75.00'), None, None]"
+    },
+    {
+      "case": "D02",
+      "field": "autocall",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "APPLICABLE"
+    },
+    {
+      "case": "D02",
+      "field": "observation_dates",
+      "truth": "MULTI",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['2026-03-19', None, None, None, 'NOT_APPLICABLE', '2031-03-31', None, '2031-03-31']"
+    },
+    {
+      "case": "D02",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['NOT_APPLICABLE', 'NOT_APPLICABLE', 'The Issuer does not have the option to vary settlement in respect of the Notes as set out in General Condition 5(b)(ii)']"
+    },
+    {
+      "case": "D02",
+      "field": "cap",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE"
+    },
+    {
+      "case": "D03",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES0305067L75"
+    },
+    {
+      "case": "D03",
+      "field": "call_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE"
+    },
+    {
+      "case": "D03",
+      "field": "business_day_convention",
+      "truth": "MULTI",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['Not applicable (Unadjusted)', 'Modified Following Business Day Convention', 'Modified Following Business Day Convention']"
+    },
+    {
+      "case": "D03",
+      "field": "put_dates",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE"
+    },
+    {
+      "case": "D03",
+      "field": "fixing_rules",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE"
+    },
+    {
+      "case": "D03",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['Index Linked Redemption', 'Calculation Amount * Final Payout']"
+    },
+    {
+      "case": "D03",
+      "field": "underlying",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "[None, None, 'EURO STOXX Banks Index']"
+    },
+    {
+      "case": "D03",
+      "field": "barrier",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "[None, None, None, Decimal('60.00'), None, None]"
+    },
+    {
+      "case": "D03",
+      "field": "autocall",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "APPLICABLE"
+    },
+    {
+      "case": "D03",
+      "field": "observation_dates",
+      "truth": "MULTI",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['2031-02-17', '2026-02-05', None, None, 'NOT_APPLICABLE', '2031-02-17']"
+    },
+    {
+      "case": "D03",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['NOT_APPLICABLE', 'NOT_APPLICABLE', 'NOT_APPLICABLE', 'The Issuer does not have the option to vary settlement in respect of the Notes as set out in General Condition 5(b)(ii)', 'The Issuer does not have the option to vary settlement in respect of the Notes as set out in General Condition 5(b)(ii)']"
+    },
+    {
+      "case": "D03",
+      "field": "cap",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE"
+    },
+    {
+      "case": "D04",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "XS3352075058"
+    },
+    {
+      "case": "D04",
+      "field": "benchmark",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Mid-Swap Rate"
+    },
+    {
+      "case": "D04",
+      "field": "spread",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "[Decimal('1.35'), 'NOT_APPLICABLE']"
+    },
+    {
+      "case": "D04",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ANNUAL"
+    },
+    {
+      "case": "D04",
+      "field": "call_dates",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "[None, None, '2033-04-22']"
+    },
+    {
+      "case": "D04",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Following Business Day Convention"
+    },
+    {
+      "case": "D04",
+      "field": "reset_dates",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['2033-04-22', 'NOT_APPLICABLE', 'NOT_APPLICABLE']"
+    },
+    {
+      "case": "D04",
+      "field": "fixing_rules",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['11.00 a.m. Brussels time', 'Reuters ICAPEURO']"
+    },
+    {
+      "case": "D04",
+      "field": "ranking",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "SUBORDINATED"
+    },
+    {
+      "case": "D04",
+      "field": "subordination",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "TIER_2"
+    },
+    {
+      "case": "D04",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Redemption at par"
+    },
+    {
+      "case": "D04",
+      "field": "underlying",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D04",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D04",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D04",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Delivery against payment"
+    },
+    {
+      "case": "D05",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES0213040043"
+    },
+    {
+      "case": "D05",
+      "field": "benchmark",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D05",
+      "field": "spread",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D05",
+      "field": "call_dates",
+      "truth": "PRESENT",
+      "status": "OBSERVED",
+      "cls": "TP_RAW",
+      "value": null
+    },
+    {
+      "case": "D05",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "En el caso de que alguna de las fechas se declarará día inhábil, se tomará el primer día hábil inmediatamente posterior."
+    },
+    {
+      "case": "D05",
+      "field": "put_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D05",
+      "field": "reset_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D05",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "100% sobre el nominal"
+    },
+    {
+      "case": "D05",
+      "field": "underlying",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D05",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D05",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D05",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Iberclear (y Euroclear/Clearstream)."
+    },
+    {
+      "case": "D06",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES0205046016"
+    },
+    {
+      "case": "D06",
+      "field": "benchmark",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D06",
+      "field": "spread",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D06",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ANNUAL"
+    },
+    {
+      "case": "D06",
+      "field": "call_dates",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "[None, None, None, '2035-10-22']"
+    },
+    {
+      "case": "D06",
+      "field": "business_day_convention",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D06",
+      "field": "put_dates",
+      "truth": "PRESENT",
+      "status": "OBSERVED",
+      "cls": "TP_RAW",
+      "value": null
+    },
+    {
+      "case": "D06",
+      "field": "reset_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D06",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['Subject to any purchase and cancellation or early redemption, the Notes will be redeemed on the Maturity Date at 100 per cent. of their nominal amount.', 'EUR 100,000 per Calculation Amount', 'EUR 100,000 per Calculation Amount']"
+    },
+    {
+      "case": "D06",
+      "field": "underlying",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D06",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D06",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D07",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES04139000B5"
+    },
+    {
+      "case": "D07",
+      "field": "benchmark",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "EURIBOR 3 meses + 0,46%"
+    },
+    {
+      "case": "D07",
+      "field": "spread",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "0.46"
+    },
+    {
+      "case": "D07",
+      "field": "payment_frequency",
+      "truth": "MULTI",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['ANNUAL', None]"
+    },
+    {
+      "case": "D07",
+      "field": "call_dates",
+      "truth": "PRESENT",
+      "status": "OBSERVED",
+      "cls": "TP_RAW",
+      "value": null
+    },
+    {
+      "case": "D07",
+      "field": "business_day_convention",
+      "truth": "MULTI",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['Convención  del  Siguiente  Día  Hábil  ( Following  Business  Day Convention ) (sin ajuste).', 'Convención del Siguiente Día Hábil Modificada ( Modified Following Business Day Convention ) (con ajuste).']"
+    },
+    {
+      "case": "D07",
+      "field": "fixing_rules",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['2 días hábiles antes del inicio de cada periodo de devengo de intereses, publicado en la página de referencia a las 11:00AM CET.', 'Comunicación a AIAF para su publicación en su Boletín Diario.']"
+    },
+    {
+      "case": "D07",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['14  de  julio  de  2033,  sujeta  a  la convención día hábil especificada en el epígrafe 3.5, salvo prórroga.', '100% sobre nominal.']"
+    },
+    {
+      "case": "D07",
+      "field": "underlying",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "EURIBOR 3 meses."
+    },
+    {
+      "case": "D07",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D07",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D07",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Sociedad  de  Gestión  de  los  Sistemas  de Registro, Compensación y Liquidación de Valores, S.A., Unipersonal (Iberclear), domiciliada en Madrid, Plaza de la Lealtad, 1."
+    },
+    {
+      "case": "D07",
+      "field": "strike",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D08",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES0413211B58"
+    },
+    {
+      "case": "D08",
+      "field": "benchmark",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D08",
+      "field": "spread",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D08",
+      "field": "call_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D08",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Si alguna fecha de pago de los cupones coincidiera con  un  día  que  no  fuera  día  hábil,  el  abono  se efectuará el día hábil inmediatamente siguiente, sin que se devengue ningún tipo de interés"
+    },
+    {
+      "case": "D08",
+      "field": "fixing_rules",
+      "truth": "NA",
+      "status": "OBSERVED",
+      "cls": "CORRECT_NA",
+      "value": "NOT_APPLICABLE"
+    },
+    {
+      "case": "D08",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['Sin perjuicio de cualquier amortización anticipada, a la par en la Fecha de vencimiento (el 23 de junio de 2033).', '( véase lo indicado en el epígrafe 19 siguiente de las presentes Condiciones Finales ).', 'NOT_APPLICABLE', '3.129%. La TIR es calculada en la fecha de emisión y desembolso sobre la base del precio de emisión e incluyendo el periodo entre la fecha de emisión y desembolso y la Fecha de vencimiento. No es una indicación de rentabilidad futura.', '23 de junio de 2033.']"
+    },
+    {
+      "case": "D08",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D08",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D08",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "IBERCLEAR."
+    },
+    {
+      "case": "D09",
+      "field": "isin",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ES0413211A91"
+    },
+    {
+      "case": "D09",
+      "field": "benchmark",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['NOT_APPLICABLE', 'Euribor a 3 meses']"
+    },
+    {
+      "case": "D09",
+      "field": "spread",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['NOT_APPLICABLE', Decimal('0.45')]"
+    },
+    {
+      "case": "D09",
+      "field": "payment_frequency",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "ANNUAL"
+    },
+    {
+      "case": "D09",
+      "field": "call_dates",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D09",
+      "field": "business_day_convention",
+      "truth": "PRESENT",
+      "status": "DERIVED",
+      "cls": "TP",
+      "value": "Si  el  día  en  cuestión  o  el  último  día  del  período fuera  inhábil,  el  evento  se  producirá  el  día  hábil inmediatamente posterior de ese mes natural o, en"
+    },
+    {
+      "case": "D09",
+      "field": "fixing_rules",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['Reuters.', 'Base de cálculo para']"
+    },
+    {
+      "case": "D09",
+      "field": "redemption_formula",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['Sin perjuicio de cualquier amortización anticipada, a la par en la fecha de vencimiento (el 6 de junio de 2030).', None, '( Información adicional sobre las condiciones de amortización de los valores puede encontrarse en el epígrafe 19 de las presentes Condiciones Finales ) .', '6 de junio de 2030.']"
+    },
+    {
+      "case": "D09",
+      "field": "barrier",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D09",
+      "field": "autocall",
+      "truth": "ABSENT",
+      "status": "MISSING",
+      "cls": "TN",
+      "value": null
+    },
+    {
+      "case": "D09",
+      "field": "settlement_type",
+      "truth": "PRESENT",
+      "status": "CONFLICT",
+      "cls": "TP",
+      "value": "['IBERCLEAR, que ejerce esta función junto con sus entidades participantes.', 'IBERCLEAR.']"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schema": "extraction-deep-dev ground truth (DEVELOPMENT ONLY)",
+  "note": "Etiquetado manual sobre documentos development. Estados: PRESENT=el campo existe con valor identificable; NA=el documento dice explicitamente no-aplicable; ABSENT=el campo no aparece; MULTI=multiples valores legitimos (CONFLICT esperado).",
+  "cases": {
+    "D01": {
+      "stratum": "structured_note",
+      "truth": {
+        "isin": "PRESENT", "benchmark": "PRESENT", "underlying": "PRESENT",
+        "barrier": "PRESENT", "observation_dates": "MULTI",
+        "settlement_type": "PRESENT", "redemption_formula": "PRESENT",
+        "call_dates": "ABSENT", "put_dates": "ABSENT", "autocall": "NA",
+        "strike": "ABSENT", "participation": "ABSENT", "cap": "ABSENT",
+        "reset_dates": "ABSENT", "ranking": "ABSENT", "subordination": "ABSENT"
+      }
+    },
+    "D02": {
+      "stratum": "structured_note",
+      "truth": {
+        "isin": "PRESENT", "underlying": "PRESENT", "barrier": "PRESENT",
+        "autocall": "PRESENT", "observation_dates": "MULTI",
+        "settlement_type": "PRESENT", "redemption_formula": "PRESENT",
+        "call_dates": "NA", "put_dates": "NA", "fixing_rules": "NA",
+        "cap": "NA", "business_day_convention": "MULTI"
+      }
+    },
+    "D03": {
+      "stratum": "structured_note",
+      "truth": {
+        "isin": "PRESENT", "underlying": "PRESENT", "barrier": "PRESENT",
+        "autocall": "PRESENT", "observation_dates": "MULTI",
+        "settlement_type": "PRESENT", "redemption_formula": "PRESENT",
+        "call_dates": "NA", "put_dates": "NA", "fixing_rules": "NA",
+        "cap": "NA", "business_day_convention": "MULTI"
+      }
+    },
+    "D04": {
+      "stratum": "subordinated",
+      "truth": {
+        "isin": "PRESENT", "ranking": "PRESENT", "subordination": "PRESENT",
+        "reset_dates": "PRESENT", "call_dates": "PRESENT", "spread": "PRESENT",
+        "fixing_rules": "PRESENT", "benchmark": "PRESENT",
+        "redemption_formula": "PRESENT", "payment_frequency": "PRESENT",
+        "business_day_convention": "PRESENT", "settlement_type": "PRESENT",
+        "underlying": "ABSENT", "barrier": "ABSENT", "autocall": "ABSENT"
+      }
+    },
+    "D05": {
+      "stratum": "plain_vanilla",
+      "truth": {
+        "isin": "PRESENT", "call_dates": "PRESENT",
+        "redemption_formula": "PRESENT", "business_day_convention": "PRESENT",
+        "settlement_type": "PRESENT", "put_dates": "ABSENT",
+        "reset_dates": "ABSENT", "benchmark": "ABSENT", "spread": "ABSENT",
+        "underlying": "ABSENT", "barrier": "ABSENT", "autocall": "ABSENT"
+      }
+    },
+    "D06": {
+      "stratum": "plain_vanilla",
+      "truth": {
+        "isin": "PRESENT", "call_dates": "PRESENT", "put_dates": "PRESENT",
+        "redemption_formula": "PRESENT", "payment_frequency": "PRESENT",
+        "business_day_convention": "ABSENT", "reset_dates": "ABSENT",
+        "benchmark": "ABSENT", "spread": "ABSENT", "underlying": "ABSENT",
+        "barrier": "ABSENT", "autocall": "ABSENT"
+      }
+    },
+    "D07": {
+      "stratum": "covered_bond",
+      "truth": {
+        "isin": "PRESENT", "benchmark": "PRESENT", "spread": "PRESENT",
+        "underlying": "PRESENT", "fixing_rules": "PRESENT",
+        "business_day_convention": "MULTI", "redemption_formula": "PRESENT",
+        "payment_frequency": "MULTI", "call_dates": "PRESENT",
+        "settlement_type": "PRESENT", "barrier": "ABSENT",
+        "autocall": "ABSENT", "strike": "ABSENT"
+      }
+    },
+    "D08": {
+      "stratum": "covered_bond",
+      "truth": {
+        "isin": "PRESENT", "business_day_convention": "PRESENT",
+        "redemption_formula": "PRESENT", "settlement_type": "PRESENT",
+        "fixing_rules": "NA", "benchmark": "ABSENT", "spread": "ABSENT",
+        "call_dates": "ABSENT", "barrier": "ABSENT", "autocall": "ABSENT"
+      }
+    },
+    "D09": {
+      "stratum": "covered_bond",
+      "truth": {
+        "isin": "PRESENT", "benchmark": "PRESENT", "spread": "PRESENT",
+        "fixing_rules": "PRESENT", "business_day_convention": "PRESENT",
+        "redemption_formula": "PRESENT", "settlement_type": "PRESENT",
+        "payment_frequency": "PRESENT", "call_dates": "ABSENT",
+        "barrier": "ABSENT", "autocall": "ABSENT"
+      }
+    },
+    "D10": {"stratum": "supplement", "truth": {}},
+    "D11": {"stratum": "supplement", "truth": {}},
+    "D12": {"stratum": "supplement", "truth": {}},
+    "D13": {"stratum": "supplement", "truth": {}}
+  }
+}

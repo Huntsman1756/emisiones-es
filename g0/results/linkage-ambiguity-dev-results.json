@@ -1,0 +1,280 @@
+{
+ "manifest": "cases.json",
+ "manifest_sha256": null,
+ "note": "DEV METRICS != G0 VERDICT; thresholds de holdout intactos",
+ "metrics": {
+  "n": 18,
+  "accuracy": 1.0,
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "ambiguous_predicted": 14,
+  "ambiguous_gold": 14,
+  "forced_ambiguous": 0
+ },
+ "per_stratum": {
+  "ccff_version_timing|ok": 4,
+  "insufficient_isin_evidence|ok": 2,
+  "role_incompatible|ok": 1,
+  "same_isin_sibling_admissions|ok": 1,
+  "serie_vs_base|ok": 5,
+  "succession_unverified|ok": 5
+ },
+ "cases": [
+  {
+   "case_key": "AMB-001",
+   "stratum": "succession_unverified",
+   "gold": "AMBIGUOUS",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (BANCA MARCH, S.A.) y rol; 11268 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "AMB-002",
+   "stratum": "succession_unverified",
+   "gold": "AMBIGUOUS",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (BANCA MARCH, S.A.) y rol; 11398 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "AMB-003",
+   "stratum": "succession_unverified",
+   "gold": "AMBIGUOUS",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor pero sin evidencia de sucesion"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "AMB-004",
+   "stratum": "succession_unverified",
+   "gold": "AMBIGUOUS",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "mismo emisor (CAIXABANK, S.A.) y rol; 11290 precede en el tiempo, pero la fila no declara sucesion"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "AMB-005",
+   "stratum": "succession_unverified",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_PROGRAMME_SUCCESSION",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "emisor distinto"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "AMB-006",
+   "stratum": "serie_vs_base",
+   "gold": "AMBIGUOUS",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila de serie sin documento propio: el base del fondo no es documento de la serie"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "AMB-007",
+   "stratum": "serie_vs_base",
+   "gold": "AMBIGUOUS",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila de serie sin documento propio: el base del fondo no es documento de la serie"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "AMB-008",
+   "stratum": "serie_vs_base",
+   "gold": "AMBIGUOUS",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila de serie sin documento propio: el base del fondo no es documento de la serie"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "AMB-009",
+   "stratum": "serie_vs_base",
+   "gold": "AMBIGUOUS",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila de serie sin documento propio: el base del fondo no es documento de la serie"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "AMB-010",
+   "stratum": "serie_vs_base",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_SERIE_NO_DOC",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "serie de 11202 emparejada con folleto 11240"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "AMB-011",
+   "stratum": "ccff_version_timing",
+   "gold": "EXACT_LINK",
+   "decision": "EXACT_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": "DEFINES_TERMS_FOR",
+   "positive_evidence": [
+    "fila CCFF_11357_009 enlaza explicitamente NUMFOL=11357",
+    "registro destino existe en corpus observado"
+   ],
+   "negative_evidence": [],
+   "correct": true
+  },
+  {
+   "case_key": "AMB-012",
+   "stratum": "ccff_version_timing",
+   "gold": "NO_LINK",
+   "decision": "NO_LINK",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "version supplement.2 (2025-10-09) postdata la CCFF (2025-05-09); no puede definir sus terminos"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "AMB-013",
+   "stratum": "ccff_version_timing",
+   "gold": "AMBIGUOUS",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [
+    "fila CCFF_11286_014 enlaza explicitamente NUMFOL=11286"
+   ],
+   "negative_evidence": [
+    "2 suplemento(s) anteriores a la CCFF: version vigente no resoluble desde la fila"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "AMB-014",
+   "stratum": "ccff_version_timing",
+   "gold": "AMBIGUOUS",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "version supplement.4 (2024-06-13) precede a la CCFF (2024-07-10); puede ser el documento vigente o no"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "AMB-015",
+   "stratum": "same_isin_sibling_admissions",
+   "gold": "AMBIGUOUS",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "3 admisiones comparten ISIN NL0015001OI1: la fila no identifica el documento"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "AMB-016",
+   "stratum": "insufficient_isin_evidence",
+   "gold": "AMBIGUOUS",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_ADMISSION_ISIN",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "fila de admision sin ISIN observable"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "AMB-017",
+   "stratum": "insufficient_isin_evidence",
+   "gold": "AMBIGUOUS",
+   "decision": "AMBIGUOUS",
+   "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
+   "rule_version": "1.1",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [
+    "candidato sin registro_oficial: nada que verificar"
+   ],
+   "correct": true
+  },
+  {
+   "case_key": "AMB-018",
+   "stratum": "role_incompatible",
+   "gold": "AMBIGUOUS",
+   "decision": "AMBIGUOUS",
+   "rule_id": "NO_EVIDENCE_FALLBACK",
+   "rule_version": "1.0",
+   "relation": null,
+   "positive_evidence": [],
+   "negative_evidence": [],
+   "correct": true
+  }
+ ]
+}

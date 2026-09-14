@@ -17,9 +17,11 @@ from dataclasses import dataclass, field
 from typing import Callable, Optional
 
 from emissions_es.extraction.docview import NormalizedDocumentView
-from emissions_es.extraction.normalize import (ISIN_RX, norm_currency,
-                                               norm_date, norm_money,
-                                               norm_number, norm_percent)
+from emissions_es.extraction.normalize import (ISIN_RX, RAW_ONLY,
+                                               norm_benchmark, norm_currency,
+                                               norm_date, norm_frequency,
+                                               norm_money, norm_number,
+                                               norm_percent)
 from emissions_es.model import FactStatus, TermObservation
 
 NA_RX = re.compile(r'^\s*(not\s+applicable|n/?a|no\s+aplica)\s*\.?\s*$', re.I)
@@ -46,6 +48,7 @@ class Extractor:
 NORMALIZERS: dict[str, Callable] = {
     'percent': norm_percent, 'date': norm_date, 'money': norm_money,
     'currency': norm_currency, 'number': norm_number,
+    'benchmark': norm_benchmark, 'frequency': norm_frequency,
 }
 
 
@@ -139,7 +142,9 @@ def _label_value_from_tables(view: NormalizedDocumentView, anchor_rx):
 # prefijo opcional de numeracion ICMA: '(i)', '(xxii)', '45.', '(b)'...
 NUM_PREFIX = r'(?:\(\s*[a-zivx0-9]+\s*\)|\d+\.?|[a-z]\))?\s*'
 # un valor que empieza por verbo es fuga de frase, no un dato
-VERB_LEAK = re.compile(r'^\s*(is|are|was|were|shall|means|ser|es|son)\b', re.I)
+VERB_LEAK = re.compile(
+    r'^\s*(is|are|was|were|shall|means|ser|es|son|in\s+relation\s+to|'
+    r'as\s+provided|specified\s+in|de\s+conformidad|seg[uú]n)\b', re.I)
 # '[[   ] per cent. Fixed Rate]' en un folleto base es plantilla sin
 # cumplimentar, no un hecho del instrumento
 _PLACEHOLDER = re.compile(r'\[[\[\]\s●…\.]*\]|\[●\]')
@@ -188,11 +193,21 @@ def extract_field(view: NormalizedDocumentView, spec: FieldSpec,
                 extractor=extractor_id, extractor_version=version))
             continue
         nv = raw.strip()
+        raw_only = False
         if spec.normalizer in NORMALIZERS:
             out = NORMALIZERS[spec.normalizer](raw)
+            if out is None and spec.normalizer == 'benchmark':
+                # el objeto benchmark puede vivir en el item completo:
+                # '(iii) EURIBOR 3 months was 2.335%…'
+                out = norm_benchmark(getattr(item, 'text', '') or '')
             if out is None:
                 continue          # lexema no normalizable: no promover
-            nv = out
+            if out is RAW_ONLY:
+                # prosa real (rango/alternativas/regimen): conservar
+                # lexema como OBSERVED, sin valor canonico
+                raw_only = True
+            else:
+                nv = out
         elif spec.normalizer == 'isin':
             m = ISIN_RX.search(raw) or ISIN_RX.search(
                 getattr(item, 'text', '') or '')
@@ -203,8 +218,11 @@ def extract_field(view: NormalizedDocumentView, spec: FieldSpec,
         if ev is not None:
             ev.text_excerpt = raw.strip()[:300]
         obs.append(TermObservation(
-            field=spec.field, raw_lexeme=raw.strip(), value=nv,
-            status=FactStatus.DERIVED, confidence_class='anchored',
+            field=spec.field, raw_lexeme=raw.strip(),
+            value=None if raw_only else nv,
+            status=(FactStatus.OBSERVED if raw_only
+                    else FactStatus.DERIVED),
+            confidence_class='raw_only' if raw_only else 'anchored',
             evidence=[ev] if ev else [],
             extractor=extractor_id, extractor_version=version))
 
@@ -249,13 +267,14 @@ FIELD_SPECS: list[FieldSpec] = [
               'percent'),
     FieldSpec('benchmark', [r'Floating\s+Rate\s+Option',
                             r'Tipo\s+de\s+referencia',
-                            r'Reference\s+Rate\s*:',
-                            r'\bEURIBOR\s*\d*\s*(?:mes|month)'], 'text'),
+                            r'[ÍI]ndice\s+de\s+referencia',
+                            r'Reference\s+Rate\b',
+                            r'\bEURIBOR\b', r'€STR\b'], 'benchmark'),
     FieldSpec('spread', [r'\bMargin[s]?\s*:', r'\bSpread\b', r'Margen\s*:'],
               'percent'),
     FieldSpec('payment_frequency', [r'Interest\s+Payment\s+Date\(s\)?',
                                     r'Fechas?\s+de\s+pago\s+de\s+(?:los\s+)?(?:intereses|cupones)'],
-              'text'),
+              'frequency'),
     FieldSpec('day_count', [r'Day\s+Count\s+Fraction', r'Base\s+de\s+c[aá]lculo',
                             r'Day\s+Count\s+Basis'], 'text'),
     FieldSpec('call_dates', [r'Optional\s+Redemption\s+Date\(s\)\s*\(Call\)',

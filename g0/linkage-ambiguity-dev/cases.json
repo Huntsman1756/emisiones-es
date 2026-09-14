@@ -1,0 +1,399 @@
+{
+ "manifest": "linkage-ambiguity-dev",
+ "purpose": "dev set de ambiguedad real; etiquetado manual; NO forma parte de scout ni holdout",
+ "n_cases": 18,
+ "cases": [
+  {
+   "case_key": "AMB-001",
+   "stratum": "succession_unverified",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11199",
+    "registro_oficial": "11199",
+    "rol": "PROGRAMA RENTA FIJA",
+    "fecha": "05/08/2021",
+    "emisor": "BANCA MARCH, S.A.",
+    "isin": ""
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11268",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11268"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_exact": null,
+   "label_source": "manual_dev",
+   "notes": "BANCA MARCH programa RF 2021 vs 2023: renovacion probable pero sin campo explicito de sucesion"
+  },
+  {
+   "case_key": "AMB-002",
+   "stratum": "succession_unverified",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11268",
+    "registro_oficial": "11268",
+    "rol": "PROGRAMA RENTA FIJA",
+    "fecha": "18/04/2023",
+    "emisor": "BANCA MARCH, S.A.",
+    "isin": ""
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11398",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11398"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_exact": null,
+   "label_source": "manual_dev",
+   "notes": "BANCA MARCH 2023 vs 2025"
+  },
+  {
+   "case_key": "AMB-003",
+   "stratum": "succession_unverified",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11196",
+    "registro_oficial": "11196",
+    "rol": "PROGRAMA RENTA FIJA",
+    "fecha": "15/07/2021",
+    "emisor": "ABANCA CORPORACION BANCARIA, S.A.",
+    "isin": ""
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11234",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11234"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_exact": null,
+   "label_source": "manual_dev",
+   "notes": "ABANCA 2021 vs 2022"
+  },
+  {
+   "case_key": "AMB-004",
+   "stratum": "succession_unverified",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11245",
+    "registro_oficial": "11245",
+    "rol": "PROGRAMA RENTA FIJA",
+    "fecha": "21/07/2022",
+    "emisor": "CAIXABANK, S.A.",
+    "isin": ""
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11290",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11290"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_exact": null,
+   "label_source": "manual_dev",
+   "notes": "CAIXABANK 2022 vs 2023"
+  },
+  {
+   "case_key": "AMB-005",
+   "stratum": "succession_unverified",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11245",
+    "registro_oficial": "11245",
+    "rol": "PROGRAMA RENTA FIJA",
+    "fecha": "21/07/2022",
+    "emisor": "CAIXABANK, S.A.",
+    "isin": ""
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11268",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11268"
+   },
+   "label": "NO_LINK",
+   "relation_if_exact": null,
+   "label_source": "manual_dev",
+   "notes": "CAIXABANK vs BANCA MARCH: evidencia negativa emisor"
+  },
+  {
+   "case_key": "AMB-006",
+   "stratum": "serie_vs_base",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11202_SA",
+    "registro_oficial": "11202",
+    "rol": "SERIE Serie A",
+    "fecha": "23/09/2021",
+    "emisor": "FONDO DE TITULIZACION SANTANDER",
+    "isin": ""
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11202",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11202"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_exact": null,
+   "label_source": "manual_dev",
+   "notes": "SERIE Serie A de FTA 11202 vs documento base"
+  },
+  {
+   "case_key": "AMB-007",
+   "stratum": "serie_vs_base",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11150_SC",
+    "registro_oficial": "11150",
+    "rol": "SERIE Class C",
+    "fecha": "16/02/2021",
+    "emisor": "SANTANDER CONSUMO 4, FONDO DE TITULIZACION",
+    "isin": ""
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11150",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11150"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_exact": null,
+   "label_source": "manual_dev",
+   "notes": "SERIE Class C de FTA 11150 vs base"
+  },
+  {
+   "case_key": "AMB-008",
+   "stratum": "serie_vs_base",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11246_SD",
+    "registro_oficial": "11246",
+    "rol": "SERIE Clase D",
+    "fecha": "22/09/2022",
+    "emisor": "AUTONORIA SPAIN 2022, FONDO DE TITULIZACION",
+    "isin": ""
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11246",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11246"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_exact": null,
+   "label_source": "manual_dev",
+   "notes": "SERIE Clase D de FTA 11246 vs base"
+  },
+  {
+   "case_key": "AMB-009",
+   "stratum": "serie_vs_base",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11152_SB",
+    "registro_oficial": "11152",
+    "rol": "SERIE SERIE B",
+    "fecha": "12/03/2021",
+    "emisor": "BBVA CONSUMO 11, FONDO DE TITULIZACION",
+    "isin": ""
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11152",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11152"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_exact": null,
+   "label_source": "manual_dev",
+   "notes": "SERIE B de FTA 11152 vs base"
+  },
+  {
+   "case_key": "AMB-010",
+   "stratum": "serie_vs_base",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11202_SA",
+    "registro_oficial": "11202",
+    "rol": "SERIE Serie A",
+    "fecha": "23/09/2021",
+    "emisor": "FONDO DE TITULIZACION SANTANDER",
+    "isin": ""
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11240",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11240"
+   },
+   "label": "NO_LINK",
+   "relation_if_exact": null,
+   "label_source": "manual_dev",
+   "notes": "Serie de FTA 11202 vs FTA 11240: registros distintos"
+  },
+  {
+   "case_key": "AMB-011",
+   "stratum": "ccff_version_timing",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11357_009",
+    "registro_oficial": "11357",
+    "numfol_link": "11357",
+    "fecha": "21/03/2025",
+    "isin": "XS3032821814",
+    "emisor": "BANCO SANTANDER, S.A."
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11357",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11357",
+    "version": "base"
+   },
+   "label": "EXACT_LINK",
+   "relation_if_exact": "DEFINES_TERMS_FOR",
+   "label_source": "manual_dev",
+   "notes": "CCFF presentada 21/03/2025; suplemento 11357.2 es 09/10/2025 (posterior): la base vigente es la correcta"
+  },
+  {
+   "case_key": "AMB-012",
+   "stratum": "ccff_version_timing",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11357_010",
+    "registro_oficial": "11357",
+    "numfol_link": "11357",
+    "fecha": "09/05/2025",
+    "isin": "XS3071390226",
+    "emisor": "BANCO SANTANDER, S.A."
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11357",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11357",
+    "version": "supplement.2"
+   },
+   "label": "NO_LINK",
+   "relation_if_exact": null,
+   "label_source": "manual_dev",
+   "notes": "el suplemento 11357.2 (09/10/2025) postdata la CCFF (presentada 09/05/2025); no puede definir sus terminos"
+  },
+  {
+   "case_key": "AMB-013",
+   "stratum": "ccff_version_timing",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11286_014",
+    "registro_oficial": "11286",
+    "numfol_link": "11286",
+    "fecha": "10/07/2024",
+    "isin": "ES0305067K19",
+    "emisor": "BBVA GLOBAL MARKETS B.V."
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11286",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11286",
+    "version": "base"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_exact": null,
+   "label_source": "manual_dev",
+   "notes": "CCFF presentada 10/07/2024, DESPUES de suplementos 11286.1 (17/08/2023) y .4 (13/06/2024): no se puede saber desde la fila si los terminos salen del base o de la version suplementada"
+  },
+  {
+   "case_key": "AMB-014",
+   "stratum": "ccff_version_timing",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11286_014",
+    "registro_oficial": "11286",
+    "numfol_link": "11286",
+    "fecha": "10/07/2024",
+    "isin": "ES0305067K19",
+    "emisor": "BBVA GLOBAL MARKETS B.V."
+   },
+   "candidate": {
+    "type": "folleto",
+    "registro_oficial": "11286",
+    "url": "https://www.cnmv.es/portal/consultas/folletos/folletosemisionopv.aspx?NUMFOL=11286",
+    "version": "supplement.4"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_exact": null,
+   "label_source": "manual_dev",
+   "notes": "el suplemento .4 (13/06/2024) precede a la CCFF (10/07/2024): puede ser el documento vigente, o no; la fila no lo resuelve"
+  },
+  {
+   "case_key": "AMB-015",
+   "stratum": "same_isin_sibling_admissions",
+   "source": {
+    "family": "cnmv_admision",
+    "record_key": "ADM_143165",
+    "emisor": "MFE-MEDIAFOREUROPE N.V.",
+    "isin": "NL0015001OI1",
+    "fecha": "30/09/2025"
+   },
+   "candidate": {
+    "type": "admission",
+    "record_key": "ADM_143162",
+    "isin": "NL0015001OI1"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_exact": null,
+   "label_source": "manual_dev",
+   "notes": "tres admisiones del mismo ISIN (143160/143162/143165): eventos distintos, relacion entre documentos no decidible"
+  },
+  {
+   "case_key": "AMB-016",
+   "stratum": "insufficient_isin_evidence",
+   "source": {
+    "family": "cnmv_admision",
+    "record_key": "ADM_143193",
+    "emisor": "ARTECHE LANTEGI ELKARTEA, S.A.",
+    "isin": "",
+    "fecha": "30/01/2026"
+   },
+   "candidate": {
+    "type": "security",
+    "isin": "ES0105449187"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_exact": null,
+   "label_source": "manual_dev",
+   "notes": "admision sin ISIN observable; no se puede confirmar ni descartar el instrumento"
+  },
+  {
+   "case_key": "AMB-017",
+   "stratum": "insufficient_isin_evidence",
+   "source": {
+    "family": "cnmv_ccff",
+    "record_key": "CCFF_11357_009",
+    "registro_oficial": "11357",
+    "numfol_link": "11357",
+    "fecha": "21/03/2025",
+    "isin": "XS3032821814",
+    "emisor": "BANCO SANTANDER, S.A."
+   },
+   "candidate": {
+    "type": "folleto"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_exact": null,
+   "label_source": "manual_dev",
+   "notes": "candidato sin registro_oficial: no hay estructura que verificar"
+  },
+  {
+   "case_key": "AMB-018",
+   "stratum": "role_incompatible",
+   "source": {
+    "family": "cnmv_folletos_emision",
+    "record_key": "FOL_11221",
+    "registro_oficial": "11221",
+    "rol": "DOC. REGISTRO",
+    "fecha": "24/03/2022",
+    "emisor": "MONTEPINO LOGISTICA SOCIMI, S.A.",
+    "isin": ""
+   },
+   "candidate": {
+    "type": "security",
+    "isin": "ES0105449187"
+   },
+   "label": "AMBIGUOUS",
+   "relation_if_exact": null,
+   "label_source": "manual_dev",
+   "notes": "doc de registro SOCIMI (equity) vs instrumento de deuda: rol incompatible, sin evidencia de relacion"
+  }
+ ]
+}

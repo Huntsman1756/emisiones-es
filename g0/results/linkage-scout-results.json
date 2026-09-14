@@ -1,7 +1,7 @@
 {
  "manifest": "linkage-scout.json",
  "manifest_sha256": "99239b442bd1b70e9d086c83a112082f9ffcdedc5c451dad4053adf03dd2c359",
- "note": "SCOUT METRICS != G0 VERDICT; thresholds de holdout intactos",
+ "note": "DEV METRICS != G0 VERDICT; thresholds de holdout intactos",
  "metrics": {
   "n": 56,
   "accuracy": 1.0,
@@ -29,7 +29,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11431_001 enlaza explicitamente NUMFOL=11431"
@@ -43,7 +43,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11433_008 enlaza explicitamente NUMFOL=11433"
@@ -57,7 +57,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11433_006 enlaza explicitamente NUMFOL=11433"
@@ -71,7 +71,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_045 enlaza explicitamente NUMFOL=11400",
@@ -86,7 +86,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_043 enlaza explicitamente NUMFOL=11400",
@@ -101,7 +101,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11433_004 enlaza explicitamente NUMFOL=11433"
@@ -115,7 +115,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_042 enlaza explicitamente NUMFOL=11400",
@@ -130,7 +130,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11433_003 enlaza explicitamente NUMFOL=11433"
@@ -144,7 +144,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11433_002 enlaza explicitamente NUMFOL=11433"
@@ -158,7 +158,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_041 enlaza explicitamente NUMFOL=11400",
@@ -173,7 +173,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_039 enlaza explicitamente NUMFOL=11400",
@@ -188,7 +188,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_036 enlaza explicitamente NUMFOL=11400",
@@ -203,7 +203,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11425_001 enlaza explicitamente NUMFOL=11425",
@@ -218,7 +218,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_033 enlaza explicitamente NUMFOL=11400",
@@ -233,7 +233,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_030 enlaza explicitamente NUMFOL=11400",
@@ -248,7 +248,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_029 enlaza explicitamente NUMFOL=11400",
@@ -263,7 +263,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_028 enlaza explicitamente NUMFOL=11400",
@@ -278,7 +278,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_026 enlaza explicitamente NUMFOL=11400",
@@ -293,7 +293,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_022 enlaza explicitamente NUMFOL=11400",
@@ -308,7 +308,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_019 enlaza explicitamente NUMFOL=11400",
@@ -323,7 +323,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_018 enlaza explicitamente NUMFOL=11400",
@@ -338,7 +338,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_016 enlaza explicitamente NUMFOL=11400",
@@ -353,7 +353,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_015 enlaza explicitamente NUMFOL=11400",
@@ -368,7 +368,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_013 enlaza explicitamente NUMFOL=11400",
@@ -383,7 +383,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_012 enlaza explicitamente NUMFOL=11400",
@@ -398,7 +398,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_010 enlaza explicitamente NUMFOL=11400",
@@ -413,7 +413,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_008 enlaza explicitamente NUMFOL=11400",
@@ -428,7 +428,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_006 enlaza explicitamente NUMFOL=11400",
@@ -443,7 +443,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "DEFINES_TERMS_FOR",
    "positive_evidence": [
     "fila CCFF_11400_003 enlaza explicitamente NUMFOL=11400",
@@ -542,7 +542,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_ADMISSION_ISIN",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "ADMISSION_OF",
    "positive_evidence": [
     "ISIN exacto ES0113902359 en fila de admision"
@@ -556,7 +556,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_ADMISSION_ISIN",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "ADMISSION_OF",
    "positive_evidence": [
     "ISIN exacto ES0126962333 en fila de admision"
@@ -570,7 +570,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_ADMISSION_ISIN",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "ADMISSION_OF",
    "positive_evidence": [
     "ISIN exacto ES0150480293 en fila de admision"
@@ -584,7 +584,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_ADMISSION_ISIN",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "ADMISSION_OF",
    "positive_evidence": [
     "ISIN exacto ES0162600052 en fila de admision"
@@ -598,7 +598,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_ADMISSION_ISIN",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "ADMISSION_OF",
    "positive_evidence": [
     "ISIN exacto ES0172708572 en fila de admision"
@@ -612,7 +612,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_ADMISSION_ISIN",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "ADMISSION_OF",
    "positive_evidence": [
     "ISIN exacto ES0172708572 en fila de admision"
@@ -626,7 +626,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_ADMISSION_ISIN",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "ADMISSION_OF",
    "positive_evidence": [
     "ISIN exacto ES0106043005 en fila de admision"
@@ -640,7 +640,7 @@
    "gold": "EXACT_LINK",
    "decision": "EXACT_LINK",
    "rule_id": "CNMV_ADMISSION_ISIN",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": "ADMISSION_OF",
    "positive_evidence": [
     "ISIN exacto ES0117360117 en fila de admision"
@@ -654,7 +654,7 @@
    "gold": "NO_LINK",
    "decision": "NO_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": null,
    "positive_evidence": [],
    "negative_evidence": [
@@ -668,7 +668,7 @@
    "gold": "NO_LINK",
    "decision": "NO_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": null,
    "positive_evidence": [],
    "negative_evidence": [
@@ -682,7 +682,7 @@
    "gold": "NO_LINK",
    "decision": "NO_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": null,
    "positive_evidence": [],
    "negative_evidence": [
@@ -696,7 +696,7 @@
    "gold": "NO_LINK",
    "decision": "NO_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": null,
    "positive_evidence": [],
    "negative_evidence": [
@@ -710,7 +710,7 @@
    "gold": "NO_LINK",
    "decision": "NO_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": null,
    "positive_evidence": [],
    "negative_evidence": [
@@ -724,7 +724,7 @@
    "gold": "NO_LINK",
    "decision": "NO_LINK",
    "rule_id": "CNMV_CCFF_EXPLICIT_NUMFOL",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": null,
    "positive_evidence": [],
    "negative_evidence": [
@@ -738,7 +738,7 @@
    "gold": "NO_LINK",
    "decision": "NO_LINK",
    "rule_id": "CNMV_SERIE_NO_DOC",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": null,
    "positive_evidence": [],
    "negative_evidence": [
@@ -752,7 +752,7 @@
    "gold": "NO_LINK",
    "decision": "NO_LINK",
    "rule_id": "CNMV_SERIE_NO_DOC",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": null,
    "positive_evidence": [],
    "negative_evidence": [
@@ -766,7 +766,7 @@
    "gold": "NO_LINK",
    "decision": "NO_LINK",
    "rule_id": "CNMV_SERIE_NO_DOC",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": null,
    "positive_evidence": [],
    "negative_evidence": [
@@ -780,7 +780,7 @@
    "gold": "NO_LINK",
    "decision": "NO_LINK",
    "rule_id": "CNMV_SERIE_NO_DOC",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": null,
    "positive_evidence": [],
    "negative_evidence": [
@@ -794,7 +794,7 @@
    "gold": "NO_LINK",
    "decision": "NO_LINK",
    "rule_id": "CNMV_SERIE_NO_DOC",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": null,
    "positive_evidence": [],
    "negative_evidence": [
@@ -808,7 +808,7 @@
    "gold": "NO_LINK",
    "decision": "NO_LINK",
    "rule_id": "CNMV_SERIE_NO_DOC",
-   "rule_version": "1.0",
+   "rule_version": "1.1",
    "relation": null,
    "positive_evidence": [],
    "negative_evidence": [

@@ -200,3 +200,29 @@ def test_payment_schedule_oracle():
     assert s == 'UNVERIFIABLE'
     s, _ = expected_schedule('quarterly', date(2030, 1, 1), date(2026, 1, 1))
     assert s == 'INVALID'
+
+
+# ---------- regresiones G0-C.1 ----------
+
+def test_benchmark_requires_identifiable_object():
+    """Y08 regression: '(iii) EURIBOR 3 months was 2.335%…' es disclosure,
+    no campo label:valor. El objeto debe ser identificable, no prosa."""
+    from emissions_es.extraction.normalize import norm_benchmark
+    assert norm_benchmark('s was 2.335% on 3 July 2026 and will remain constant.') is None
+    assert norm_benchmark('EURIBOR 3 months was 2.335%') == 'EURIBOR 3 months'
+    assert norm_benchmark('EURIBOR + 0.50%') == 'EURIBOR + 0.50%'
+    assert norm_benchmark('the rate will be determined on the fixing date') is None
+    assert norm_benchmark('Tipo de referencia: EURIBOR 6 meses') == 'EURIBOR 6 meses'
+
+
+def test_frequency_canonical_vs_raw_only():
+    from emissions_es.extraction.normalize import RAW_ONLY, norm_frequency
+    assert norm_frequency('5 August in each year, adjusted') == 'ANNUAL'
+    assert norm_frequency('cada seis meses') == 'SEMI_ANNUAL'
+    assert norm_frequency('trimestral') == 'QUARTERLY'
+    # rango / regimen / alternativas -> RAW_ONLY, nunca un canonico forzado
+    assert norm_frequency('and including 9 October 2026 to and including') is RAW_ONLY
+    assert norm_frequency('annually during the fixed period and quarterly thereafter') is RAW_ONLY
+    # token dentro de corchetes de plantilla -> RAW_ONLY
+    assert norm_frequency('Conditions completed [in each year] [or, if earlier]') is RAW_ONLY
+    assert norm_frequency('sin informacion de frecuencia') is None

@@ -1,0 +1,85 @@
+{
+  "audit": "G1-A0 failure-driven OSS audit — decisiones por fallo G0",
+  "failures": {
+    "F1_linkage_S4_programme_succession": {
+      "g0_result": "25/25 FAIL en S4, MISSING_EXPLICIT_REFERENCE; gold=EXACT_LINK, pred=AMBIGUOUS",
+      "root_cause": "la fila CNMV no declara la sucesion; intentar resolverla por precedencia temporal seria inferir una relacion que la fuente no declara",
+      "selected_upstreams": ["edgartools (ShelfLifecycle + related_filings via file_number)"],
+      "reusable_component": "patron family-first-then-temporal: la familia se establece por identificador explicito (file_number en SEC; nº registro folleto base / id de programa en CNMV); el orden temporal solo se usa DENTRO de la familia. generations/re-registration + continuity + has_registration_gap como flag de calidad en vez de forzar relacion",
+      "decision": "PORT_PATTERN",
+      "remaining_custom": "identificador de familia CNMV (nº registro folleto/programa); evidencia de sucesion DECLARADA (p.ej. 'folleto que sustituye a...' en el propio documento o campo CNMV); mapear S4->REVIEW_REQUIRED bajo el modelo G1 AUTO_LINKED/REVIEW_REQUIRED salvo que exista evidencia explicita",
+      "regulator_specific_rejected": ["file_number SEC", "EFFECT", "ASR forms", "Rule 415 expiry", "acession ordering"]
+    },
+    "F2_linkage_S7_S9_document_role": {
+      "g0_result": "10 FAIL (S7=8, S9=2), RULE_DEFECT",
+      "root_cause": "rol documental inferido insuficientemente: la superficie de adquisicion se uso como proxy del rol; faltaban anchors de datos para distinguir mencion de definicion",
+      "selected_upstreams": ["edgartools _424b_classifier (signal cascade)", "vc-statement-parser dispatcher (signatures+data anchors+UNKNOWN)", "dedoc FintocStructureExtractor (title/TOC, track ES)"],
+      "reusable_component": "signal cascade auditable (signals list + confidence + fallback estructural) para document_role; data anchors obligatorios que distinguen 'la pagina menciona X' de 'la pagina ES X'; abstencion UNKNOWN; dedoc para estructura de secciones en prospectos largos",
+      "decision": "PORT_PATTERN x2 (classifier cascade + dispatcher anchors) · ADOPT_EVAL (dedoc)",
+      "remaining_custom": "firmas y anchors por rol CNMV (ES/EN); taxonomia acquisition_surface/document_role/scope_role ya preregistrada en AMEND-1",
+      "regulator_specific_rejected": ["form types SEC", "424B* vocabulario"]
+    },
+    "F3_coupon_rate": {
+      "g0_result": "coupon_rate_family prec 0.9333 (<0.95); coupon_rate recall 0.409; errores: fragmento promovido (X18), label adyacente, formato securities-note no cubierto",
+      "root_cause": "fallo de LOCALIZACION (campo en zona no recorrida o formato desconocido) + promocion de lexema sin contexto de label",
+      "selected_upstreams": ["edgartools _424b_tables (classify_table -> extractor tipado)", "sovereign-prospectus-corpus clause_extractor (grep-first -> cluster -> verbatim verify)"],
+      "reusable_component": "dos fases separadas: (a) localizar region candidata por clustering de matches densos; (b) extraer key-value solo dentro de region clasificada; verificacion verbatim del lexema emitido",
+      "decision": "PORT_PATTERN x2",
+      "remaining_custom": "vocabulario de labels ES/EN de CNMV (Tipo de interes nominal, Cupon, Interest Basis...); specs para formato securities-note y multi-tramo",
+      "regulator_specific_rejected": ["HTML table node model SEC"]
+    },
+    "F4_day_count": {
+      "g0_result": "prec 0.9375 (<0.95); FP '1/1' en X19",
+      "root_cause": "(a) lexema valido promovido sin contexto — '1/1' ES convencion ISDA real (CDM _1_1); (b) normalizacion semantica sin vocabulario canonico",
+      "selected_upstreams": ["finos/CDM DayCountFractionEnum (tabla canonica + displayNames + citas ISDA)", "QuantLib ActualActual conventions", "Strata StandardDayCounts"],
+      "reusable_component": "tabla canonica de convenciones: canonical_id + displayName + aliases lexema + referencia ISDA; context anchors requeridos para lexemas ambiguos como '1/1'",
+      "decision": "ADOPT (tabla CDM como data) + REFERENCE (QuantLib/Strata para semantica)",
+      "remaining_custom": "mapeo lexema ES/EN -> canonical con contexto obligatorio; equivalencia ACT/ACT ICMA vs ISDA vs ISMA en documentos espanoles",
+      "key_finding": "'1/1' no es ruido: es convencion ISDA. El fallo fue de CONTEXTO, no de lexema"
+    },
+    "F5_call_put": {
+      "g0_result": "call_put prec 0.7778 (<0.90); 'para el Emisor: no.' no normalizado a NA; misses en schedules MULTI",
+      "root_cause": "modelo list[date] demasiado pobre + literal 'no' no mapeado + absorcion de label adyacente",
+      "selected_upstreams": ["QuantLib Callability{price,Type{Call,Put},date}+CallabilitySchedule", "finos/CDM optionExercise/putCall (reference)", "termsheet-eval null_inference (sibling inference para eval)"],
+      "reusable_component": "estructura canonica: schedule de {option_side: ISSUER_CALL|HOLDER_PUT, dates, price?, notice_period?, condition?}; NA literal 'no' como valor normalizado explicito",
+      "decision": "PORT_PATTERN (QuantLib shape) + REFERENCE (CDM)",
+      "remaining_custom": "deteccion documental ES (Opcion Emisor/Inversor, amortizacion anticipada, precio de reembolso anticipado); normalizacion 'no.'->NA; schedules MULTI con precios por fecha"
+    },
+    "F6_structured_products": {
+      "g0_result": "cap/participation/strike/put_dates sin TP; barrier recall 0.5; autocall 0.667",
+      "root_cause": "campo 'barrier' aplana 3 conceptos (autocall_trigger/coupon_barrier/protection_barrier); vocabulario ES de productos estructurados no cubierto; pocos documentos dev",
+      "selected_upstreams": ["structured-products-toolkit AutocallNote+payoffs (semantica canonica)", "edgartools extract_structured_note_terms (key-value con catch-all)"],
+      "reusable_component": "modelo canonico de 3 barrier roles + strike + participation + cap + observation schedule + memory flag; fixtures de payoff como oracles de validacion",
+      "decision": "REFERENCE (semantica+fixtures) + PORT_PATTERN (key-value extractor)",
+      "remaining_custom": "vocabulario ES completo (cancelacion automatica, barrera de proteccion, cupon condicionado, strike, participacion, techo); layout ESMA retail structured notes; dimensionar holdout G1 para >=15-20 positivos por familia"
+    },
+    "F7_extraction_architecture": {
+      "g0_result": "universal FIELD_SPECS monolitico; errores de contexto recurrentes",
+      "root_cause": "un unico conjunto de specs para todos los formatos; sin fase de deteccion de familia ni verificacion verbatim sistematica",
+      "selected_upstreams": ["vc-statement-parser (dispatcher->extractor->model->invariants)", "contract-rag (probe->route->DocumentIR, eval omission/invention)", "sovereign-prospectus-corpus (stable identity, snapshots, verbatim verify)", "termsheet-extraction-eval (taxonomy + null inference + constraints)"],
+      "reusable_component": "arquitectura G1 compuesta: probe -> classify document_role (signals+anchors) -> family extractor -> canonical typed model -> verbatim evidence verify + invariant checks; eval con taxonomy omission/invention + null inference",
+      "decision": "PORT_PATTERN (composite)",
+      "remaining_custom": "familias CNMV concretas + specs ES/EN; invariantes de terminos contractuales; integracion con provenance field-level existente"
+    }
+  },
+  "aggregate": {
+    "adopt": 1,
+    "adopt_eval": 1,
+    "fork": 0,
+    "wrap": 0,
+    "port_pattern": 8,
+    "reference": 5,
+    "reject": 2,
+    "largest_custom_reduction": "arquitectura F7 (dispatcher+extractor+verify) + locate-then-extract F3: ~1500-2000 LOC de diseno propio evitadas",
+    "licensing_blockers": [
+      "fixed-income-doc-intelligence: sin LICENSE file (badge MIT insuficiente) — REFERENCE only",
+      "dedoc: pesos XGBoost descargados de HF hub — verificar licencia de los pesos antes de ADOPT",
+      "CDM: verificar licencia exacta por componente (Apache-2.0/CC)"
+    ],
+    "architecture_changing_candidates": [
+      "vc-statement-parser dispatcher+anchors (cambia como se detecta document_role)",
+      "sovereign-prospectus-corpus grep-first locate (cambia como se localizan campos)",
+      "edgartools family-first (cambia el modelo de linkage)"
+    ]
+  }
+}

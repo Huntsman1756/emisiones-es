@@ -1,0 +1,1703 @@
+{
+ "manifest": "extraction-scout.json",
+ "manifest_sha256": "670ac8382753bce15fe30ecab1d86e9087b7af2585109e4e7379380ac7ed103c",
+ "wave": "first (campos de alta utilidad/frecuencia/anclables)",
+ "status_summary": {
+  "benchmark|DERIVED": 2,
+  "benchmark|MISSING": 9,
+  "business_day_convention|CONFLICT": 1,
+  "business_day_convention|DERIVED": 1,
+  "business_day_convention|MISSING": 9,
+  "call_dates|DERIVED": 2,
+  "call_dates|MISSING": 9,
+  "coupon_rate|CONFLICT": 1,
+  "coupon_rate|DERIVED": 3,
+  "coupon_rate|MISSING": 7,
+  "coupon_type|CONFLICT": 2,
+  "coupon_type|DERIVED": 4,
+  "coupon_type|MISSING": 5,
+  "currency|DERIVED": 6,
+  "currency|MISSING": 5,
+  "day_count|CONFLICT": 1,
+  "day_count|DERIVED": 5,
+  "day_count|MISSING": 5,
+  "denomination|DERIVED": 4,
+  "denomination|MISSING": 7,
+  "isin|CONFLICT": 1,
+  "isin|DERIVED": 7,
+  "isin|MISSING": 3,
+  "issue_date|DERIVED": 5,
+  "issue_date|MISSING": 6,
+  "issued_amount|DERIVED": 4,
+  "issued_amount|MISSING": 7,
+  "maturity|DERIVED": 4,
+  "maturity|MISSING": 7,
+  "payment_frequency|CONFLICT": 1,
+  "payment_frequency|DERIVED": 5,
+  "payment_frequency|MISSING": 5,
+  "spread|MISSING": 11
+ },
+ "documents": [
+  {
+   "case_key": "Y01",
+   "stratum": "scout_ccff",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "document_role": "final_terms",
+   "instrument_class": "bono_simple",
+   "source_record_key": "CCFF_11400_043",
+   "fields": [
+    {
+     "field": "isin",
+     "status": "DERIVED",
+     "value": "XS3372838618",
+     "raw_lexeme": "XS3372838618",
+     "n_evidence": 1,
+     "page": 8,
+     "extractor": "EXTRACT_ISIN",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "currency",
+     "status": "DERIVED",
+     "value": "USD",
+     "raw_lexeme": "U.S dollars ('USD')",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_CURRENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issue_date",
+     "status": "DERIVED",
+     "value": "2026-08-05",
+     "raw_lexeme": "5 August 2026",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_ISSUE_DATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "maturity",
+     "status": "DERIVED",
+     "value": "2036-08-05",
+     "raw_lexeme": "5 August 2036, subject to Call Option and Early Redemption as per below",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_MATURITY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "denomination",
+     "status": "DERIVED",
+     "value": "200.000 USD",
+     "raw_lexeme": "USD 200,000",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_DENOMINATION",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issued_amount",
+     "status": "DERIVED",
+     "value": "25000000 USD",
+     "raw_lexeme": "USD 25,000,000",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_ISSUED_AMOUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_type",
+     "status": "DERIVED",
+     "value": "5.90% Fixed Rate (further particulars specified in items 19 and 20 below)",
+     "raw_lexeme": "5.90% Fixed Rate (further particulars specified in items 19 and 20 below)",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_COUPON_TYPE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_rate",
+     "status": "DERIVED",
+     "value": "5.90",
+     "raw_lexeme": "5.90% payable annually in arrear",
+     "n_evidence": 1,
+     "page": 3,
+     "extractor": "EXTRACT_COUPON_RATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "benchmark",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_BENCHMARK",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "spread",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_SPREAD",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "payment_frequency",
+     "status": "DERIVED",
+     "value": "5 August  in  each  year, adjusted in accordance with the Following Business Day Convention.",
+     "raw_lexeme": "5 August  in  each  year, adjusted in accordance with the Following Business Day Convention.",
+     "n_evidence": 1,
+     "page": 3,
+     "extractor": "EXTRACT_PAYMENT_FREQUENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "day_count",
+     "status": "DERIVED",
+     "value": "30/360 (Unadjusted)",
+     "raw_lexeme": "30/360 (Unadjusted)",
+     "n_evidence": 1,
+     "page": 3,
+     "extractor": "EXTRACT_DAY_COUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "call_dates",
+     "status": "DERIVED",
+     "value": "5 August 2029 5 August 2030 5 August 2031 5 August 2032 5 August 2033 5 August 2034",
+     "raw_lexeme": "5 August 2029 5 August 2030 5 August 2031 5 August 2032 5 August 2033 5 August 2034",
+     "n_evidence": 1,
+     "page": 4,
+     "extractor": "EXTRACT_CALL_DATES",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "business_day_convention",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_BUSINESS_DAY_CONVENTION",
+     "extractor_version": "1.0"
+    }
+   ],
+   "docling_ok": true
+  },
+  {
+   "case_key": "Y02",
+   "stratum": "scout_ccff",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "document_role": "final_terms",
+   "instrument_class": "bono_simple",
+   "source_record_key": "CCFF_11400_045",
+   "fields": [
+    {
+     "field": "isin",
+     "status": "DERIVED",
+     "value": "XS3372842214",
+     "raw_lexeme": "XS3372842214",
+     "n_evidence": 1,
+     "page": 8,
+     "extractor": "EXTRACT_ISIN",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "currency",
+     "status": "DERIVED",
+     "value": "CNH",
+     "raw_lexeme": "Renminbi- Offshore CNY ('CNH')",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_CURRENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issue_date",
+     "status": "DERIVED",
+     "value": "2026-08-10",
+     "raw_lexeme": "10 August 2026",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_ISSUE_DATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "maturity",
+     "status": "DERIVED",
+     "value": "2032-08-10",
+     "raw_lexeme": "10 August 2032, subject to Call Option and Early Redemption as per below",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_MATURITY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "denomination",
+     "status": "DERIVED",
+     "value": "1000000 CNH",
+     "raw_lexeme": "CNH 1,000,000",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_DENOMINATION",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issued_amount",
+     "status": "DERIVED",
+     "value": "200000000 CNH",
+     "raw_lexeme": "CNH 200,000,000",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_ISSUED_AMOUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_type",
+     "status": "DERIVED",
+     "value": "2.07% Fixed Rate",
+     "raw_lexeme": "2.07% Fixed Rate",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_COUPON_TYPE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_rate",
+     "status": "DERIVED",
+     "value": "2.07",
+     "raw_lexeme": "2.07% payable annually in arrear",
+     "n_evidence": 1,
+     "page": 3,
+     "extractor": "EXTRACT_COUPON_RATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "benchmark",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_BENCHMARK",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "spread",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_SPREAD",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "payment_frequency",
+     "status": "DERIVED",
+     "value": "10 August in each year, adjusted in accordance with Following Business Day Convention",
+     "raw_lexeme": "10 August in each year, adjusted in accordance with Following Business Day Convention",
+     "n_evidence": 1,
+     "page": 3,
+     "extractor": "EXTRACT_PAYMENT_FREQUENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "day_count",
+     "status": "DERIVED",
+     "value": "30/360 (Unadjusted)",
+     "raw_lexeme": "30/360 (Unadjusted)",
+     "n_evidence": 1,
+     "page": 3,
+     "extractor": "EXTRACT_DAY_COUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "call_dates",
+     "status": "DERIVED",
+     "value": "10 August 2029",
+     "raw_lexeme": "10 August 2029",
+     "n_evidence": 1,
+     "page": 4,
+     "extractor": "EXTRACT_CALL_DATES",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "business_day_convention",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_BUSINESS_DAY_CONVENTION",
+     "extractor_version": "1.0"
+    }
+   ],
+   "docling_ok": true
+  },
+  {
+   "case_key": "Y03",
+   "stratum": "scout_ccff_edge",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "document_role": "final_terms",
+   "instrument_class": "base_folleto_no_visible",
+   "source_record_key": "CCFF_11425_001",
+   "fields": [
+    {
+     "field": "isin",
+     "status": "DERIVED",
+     "value": "ES0265936080",
+     "raw_lexeme": "ES0265936080",
+     "n_evidence": 1,
+     "page": 8,
+     "extractor": "EXTRACT_ISIN",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "currency",
+     "status": "DERIVED",
+     "value": "EUR",
+     "raw_lexeme": "EUR",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_CURRENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issue_date",
+     "status": "DERIVED",
+     "value": "2026-06-09",
+     "raw_lexeme": "9 June 2026",
+     "n_evidence": 1,
+     "page": 3,
+     "extractor": "EXTRACT_ISSUE_DATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "maturity",
+     "status": "DERIVED",
+     "value": "2034-06-09",
+     "raw_lexeme": "9 June 2034",
+     "n_evidence": 1,
+     "page": 3,
+     "extractor": "EXTRACT_MATURITY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "denomination",
+     "status": "DERIVED",
+     "value": "100.000 EUR",
+     "raw_lexeme": "EUR 100,000",
+     "n_evidence": 1,
+     "page": 3,
+     "extractor": "EXTRACT_DENOMINATION",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issued_amount",
+     "status": "DERIVED",
+     "value": "500000000 EUR",
+     "raw_lexeme": "EUR 500,000,000",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_ISSUED_AMOUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_type",
+     "status": "DERIVED",
+     "value": "Reset Notes",
+     "raw_lexeme": "Reset Notes",
+     "n_evidence": 1,
+     "page": 3,
+     "extractor": "EXTRACT_COUPON_TYPE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_rate",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_COUPON_RATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "benchmark",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_BENCHMARK",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "spread",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_SPREAD",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "payment_frequency",
+     "status": "DERIVED",
+     "value": "9 June of each year, commencing on 9 June 2027, up to (and including) the Maturity Date",
+     "raw_lexeme": "9 June of each year, commencing on 9 June 2027, up to (and including) the Maturity Date",
+     "n_evidence": 1,
+     "page": 4,
+     "extractor": "EXTRACT_PAYMENT_FREQUENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "day_count",
+     "status": "DERIVED",
+     "value": "Actual/Actual (ICMA)",
+     "raw_lexeme": "Actual/Actual (ICMA)",
+     "n_evidence": 1,
+     "page": 4,
+     "extractor": "EXTRACT_DAY_COUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "call_dates",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_CALL_DATES",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "business_day_convention",
+     "status": "DERIVED",
+     "value": "Following Business Day Convention",
+     "raw_lexeme": "Following Business Day Convention",
+     "n_evidence": 1,
+     "page": 4,
+     "extractor": "EXTRACT_BUSINESS_DAY_CONVENTION",
+     "extractor_version": "1.0"
+    }
+   ],
+   "docling_ok": true
+  },
+  {
+   "case_key": "Y04",
+   "stratum": "scout_ccff",
+   "issuer": "BANCO DE SABADELL, S.A.",
+   "document_role": "final_terms",
+   "instrument_class": "cedula",
+   "source_record_key": "CCFF_11431_001",
+   "fields": [
+    {
+     "field": "isin",
+     "status": "DERIVED",
+     "value": "ES0413860943",
+     "raw_lexeme": "ES0413860943",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_ISIN",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "currency",
+     "status": "DERIVED",
+     "value": "EUR",
+     "raw_lexeme": "EUR",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_CURRENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issue_date",
+     "status": "DERIVED",
+     "value": "2026-09-10",
+     "raw_lexeme": "ón/ desembolso: 10 de septiembre de 2026",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_ISSUE_DATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "maturity",
+     "status": "DERIVED",
+     "value": "2031-09-10",
+     "raw_lexeme": "10 de septiembre de 2031 (plazo de vencimiento prorrogable 12 meses hasta el 10 de septiembre de 2032 - ver apartado 9 para información sobre el tipo de interés aplicable para el período de prórroga)",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_MATURITY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "denomination",
+     "status": "DERIVED",
+     "value": "100.000 EUR",
+     "raw_lexeme": "100.000 Euros",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_DENOMINATION",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issued_amount",
+     "status": "DERIVED",
+     "value": "750000000 EUR",
+     "raw_lexeme": "750.000.000 Euros",
+     "n_evidence": 1,
+     "page": 2,
+     "extractor": "EXTRACT_ISSUED_AMOUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_type",
+     "status": "CONFLICT",
+     "value": "['fijo: Aplica', '3,375% pagadero anualmente.', 'inicial fijo con amortización anticipada o cambio en el tipo fijo: No aplica', 'variable: Aplica solo para el período de prórroga, en caso de producirse', 'EURIBOR 3 meses más 0,22% pagadero trimestralmente.', 'Mínimo: 0%', 'Máximo: No Aplica', 'indexado: No Aplica', 'con estructura ligada a un subyacente: No Aplica']",
+     "raw_lexeme": null,
+     "n_evidence": 9,
+     "page": 2,
+     "extractor": "EXTRACT_COUPON_TYPE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_rate",
+     "status": "CONFLICT",
+     "value": "[Decimal('3.375'), Decimal('0.22')]",
+     "raw_lexeme": null,
+     "n_evidence": 2,
+     "page": 2,
+     "extractor": "EXTRACT_COUPON_RATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "benchmark",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_BENCHMARK",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "spread",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_SPREAD",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "payment_frequency",
+     "status": "CONFLICT",
+     "value": "['El día 10 de septiembre de cada año, siendo el primer pago de cupón el 10 de septiembre de 2027 y el último pago de cupón el 10 de septiembre de 2031.', 'durante  el  período  de  prórroga,  desde  la  Fecha  de Vencimiento  y  hasta  la  Fecha  de  Vencimiento  Prorrogado,  los  intereses  devengados  se pagarán por trimestres vencidos los días 10 de']",
+     "raw_lexeme": null,
+     "n_evidence": 2,
+     "page": 2,
+     "extractor": "EXTRACT_PAYMENT_FREQUENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "day_count",
+     "status": "CONFLICT",
+     "value": "['para el devengo de intereses: Act/Act (ICMA) (Unadjusted)', 'para el devengo de intereses: Act/360']",
+     "raw_lexeme": null,
+     "n_evidence": 2,
+     "page": 2,
+     "extractor": "EXTRACT_DAY_COUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "call_dates",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_CALL_DATES",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "business_day_convention",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_BUSINESS_DAY_CONVENTION",
+     "extractor_version": "1.0"
+    }
+   ],
+   "docling_ok": true
+  },
+  {
+   "case_key": "Y05",
+   "stratum": "scout_ccff",
+   "issuer": "BBVA GLOBAL MARKETS B.V.",
+   "document_role": "final_terms",
+   "instrument_class": "estructurado",
+   "source_record_key": "CCFF_11433_008",
+   "fields": [
+    {
+     "field": "isin",
+     "status": "DERIVED",
+     "value": "ES0305067O31",
+     "raw_lexeme": "Code: ES0305067O31",
+     "n_evidence": 1,
+     "page": 14,
+     "extractor": "EXTRACT_ISIN",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "currency",
+     "status": "DERIVED",
+     "value": "EUR",
+     "raw_lexeme": "Euro ( 'EUR' )",
+     "n_evidence": 1,
+     "page": 3,
+     "extractor": "EXTRACT_CURRENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issue_date",
+     "status": "DERIVED",
+     "value": "2026-08-21",
+     "raw_lexeme": "21 August 2026",
+     "n_evidence": 1,
+     "page": 3,
+     "extractor": "EXTRACT_ISSUE_DATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "maturity",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_MATURITY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "denomination",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_DENOMINATION",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issued_amount",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_ISSUED_AMOUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_type",
+     "status": "DERIVED",
+     "value": "Credit Linked Interest",
+     "raw_lexeme": "Credit Linked Interest",
+     "n_evidence": 1,
+     "page": 3,
+     "extractor": "EXTRACT_COUPON_TYPE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_rate",
+     "status": "DERIVED",
+     "value": "3.35",
+     "raw_lexeme": "3.35 per cent. per annum",
+     "n_evidence": 1,
+     "page": 4,
+     "extractor": "EXTRACT_COUPON_RATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "benchmark",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_BENCHMARK",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "spread",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_SPREAD",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "payment_frequency",
+     "status": "DERIVED",
+     "value": "and including 9 October 2026 to and including the Scheduled",
+     "raw_lexeme": "and including 9 October 2026 to and including the Scheduled",
+     "n_evidence": 1,
+     "page": 4,
+     "extractor": "EXTRACT_PAYMENT_FREQUENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "day_count",
+     "status": "DERIVED",
+     "value": "30/360",
+     "raw_lexeme": "30/360",
+     "n_evidence": 1,
+     "page": 4,
+     "extractor": "EXTRACT_DAY_COUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "call_dates",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_CALL_DATES",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "business_day_convention",
+     "status": "CONFLICT",
+     "value": "['for Interest Period End Date(s):', 'for Modified Following Business Day Convention']",
+     "raw_lexeme": null,
+     "n_evidence": 2,
+     "page": 4,
+     "extractor": "EXTRACT_BUSINESS_DAY_CONVENTION",
+     "extractor_version": "1.0"
+    }
+   ],
+   "docling_ok": true
+  },
+  {
+   "case_key": "Y06",
+   "stratum": "scout_folleto",
+   "issuer": "BANCO SANTANDER, S.A.",
+   "document_role": "base_prospectus",
+   "instrument_class": "programa_rf",
+   "source_record_key": "FOL_11400",
+   "fields": [
+    {
+     "field": "isin",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_ISIN",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "currency",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_CURRENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issue_date",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_ISSUE_DATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "maturity",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_MATURITY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "denomination",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_DENOMINATION",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issued_amount",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_ISSUED_AMOUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_type",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_COUPON_TYPE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_rate",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_COUPON_RATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "benchmark",
+     "status": "DERIVED",
+     "value": "[ specify ] ( Where the 2021 ISDA Definitions are Applicable, ensure this is a Floating Rate Option included in the Floating Rate Matrix",
+     "raw_lexeme": "[ specify ] ( Where the 2021 ISDA Definitions are Applicable, ensure this is a Floating Rate Option included in the Floating Rate Matrix",
+     "n_evidence": 1,
+     "page": 242,
+     "extractor": "EXTRACT_BENCHMARK",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "spread",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_SPREAD",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "payment_frequency",
+     "status": "DERIVED",
+     "value": "Conditions completed on the basis provided in the Payout Conditions ]] ( If not applicable, delete the remaining sub-paragraphs of this paragraph ) [ ] [in each year] [or, if earlier, the relevant Optional Redemption Date] [, adjusted in accordance with [ specify Business Day ]][not adjusted][or such later date for payment determined as provided in the Settlement Exchange Rate Provisions set out in Condition [5] of the Payout Conditions]] (NB: For Hong Kong dollar denominated Fixed Rate",
+     "raw_lexeme": "Conditions completed on the basis provided in the Payout Conditions ]] ( If not applicable, delete the remaining sub-paragraphs of this paragraph ) [ ] [in each year] [or, if earlier, the relevant Optional Redemption Date] [, adjusted in accordance with [ specify Business Day ]][not adjusted][or such later date for payment determined as provided in the Settlement Exchange Rate Provisions set out in Condition [5] of the Payout Conditions]] (NB: For Hong Kong dollar denominated Fixed Rate",
+     "n_evidence": 1,
+     "page": 267,
+     "extractor": "EXTRACT_PAYMENT_FREQUENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "day_count",
+     "status": "DERIVED",
+     "value": "in relation to the Amortised Face Amount:",
+     "raw_lexeme": "in relation to the Amortised Face Amount:",
+     "n_evidence": 1,
+     "page": 231,
+     "extractor": "EXTRACT_DAY_COUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "call_dates",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_CALL_DATES",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "business_day_convention",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_BUSINESS_DAY_CONVENTION",
+     "extractor_version": "1.0"
+    }
+   ],
+   "docling_ok": true
+  },
+  {
+   "case_key": "Y07",
+   "stratum": "scout_suplemento",
+   "issuer": "ABANCA CORPORACION BANCARIA, S.A.",
+   "document_role": "supplement",
+   "instrument_class": "n/a",
+   "source_record_key": "FOL_11425.1",
+   "fields": [
+    {
+     "field": "isin",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_ISIN",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "currency",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_CURRENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issue_date",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_ISSUE_DATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "maturity",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_MATURITY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "denomination",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_DENOMINATION",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issued_amount",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_ISSUED_AMOUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_type",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_COUPON_TYPE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_rate",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_COUPON_RATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "benchmark",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_BENCHMARK",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "spread",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_SPREAD",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "payment_frequency",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_PAYMENT_FREQUENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "day_count",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_DAY_COUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "call_dates",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_CALL_DATES",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "business_day_convention",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_BUSINESS_DAY_CONVENTION",
+     "extractor_version": "1.0"
+    }
+   ],
+   "docling_ok": true
+  },
+  {
+   "case_key": "Y08",
+   "stratum": "scout_fta",
+   "issuer": "FONDO DE TITULIZACION SANTANDER CONSUMO 11",
+   "document_role": "base_prospectus",
+   "instrument_class": "fta",
+   "source_record_key": "FOL_11434",
+   "fields": [
+    {
+     "field": "isin",
+     "status": "CONFLICT",
+     "value": "['ES0306053002', 'ES0306053010', 'ES0306053028', 'ES0306053036', 'ES0306053044', 'ES0306053051', 'ES0306053069', 'ES0306053002', 'ES0306053010', 'ES0306053028', 'ES0306053036', 'ES0306053044', 'ES0306053051', 'ES0306053069']",
+     "raw_lexeme": null,
+     "n_evidence": 14,
+     "page": 73,
+     "extractor": "EXTRACT_ISIN",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "currency",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_CURRENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issue_date",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_ISSUE_DATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "maturity",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_MATURITY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "denomination",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_DENOMINATION",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issued_amount",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_ISSUED_AMOUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_type",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_COUPON_TYPE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_rate",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_COUPON_RATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "benchmark",
+     "status": "DERIVED",
+     "value": "s was 2.335% on 3 July 2026 and will remain constant.",
+     "raw_lexeme": "s was 2.335% on 3 July 2026 and will remain constant.",
+     "n_evidence": 1,
+     "page": 101,
+     "extractor": "EXTRACT_BENCHMARK",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "spread",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_SPREAD",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "payment_frequency",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_PAYMENT_FREQUENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "day_count",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_DAY_COUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "call_dates",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_CALL_DATES",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "business_day_convention",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_BUSINESS_DAY_CONVENTION",
+     "extractor_version": "1.0"
+    }
+   ],
+   "docling_ok": true
+  },
+  {
+   "case_key": "Y09",
+   "stratum": "scout_dru",
+   "issuer": "TELEFONICA, S.A.",
+   "document_role": "registration_doc",
+   "instrument_class": "dru",
+   "source_record_key": "FOL_11417",
+   "fields": [
+    {
+     "field": "isin",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_ISIN",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "currency",
+     "status": "DERIVED",
+     "value": "EUR",
+     "raw_lexeme": "Saldo dispuesto 31/12/2025 (equivalente millones de euros)",
+     "n_evidence": 1,
+     "page": 112,
+     "extractor": "EXTRACT_CURRENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issue_date",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_ISSUE_DATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "maturity",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_MATURITY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "denomination",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_DENOMINATION",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issued_amount",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_ISSUED_AMOUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_type",
+     "status": "CONFLICT",
+     "value": "['2,12', '3,12', '3,73', '-', '2,93', '22,39', '11,62', '4,28', '-', '4,80', '9,41', '-', '7,71', '1,30', '0,49', '-', '-', '2,79', '-', '-', '-']",
+     "raw_lexeme": null,
+     "n_evidence": 21,
+     "page": 214,
+     "extractor": "EXTRACT_COUPON_TYPE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_rate",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_COUPON_RATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "benchmark",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_BENCHMARK",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "spread",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_SPREAD",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "payment_frequency",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_PAYMENT_FREQUENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "day_count",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_DAY_COUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "call_dates",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_CALL_DATES",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "business_day_convention",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_BUSINESS_DAY_CONVENTION",
+     "extractor_version": "1.0"
+    }
+   ],
+   "docling_ok": true
+  },
+  {
+   "case_key": "Y10",
+   "stratum": "scout_admision",
+   "issuer": "DURO FELGUERA, S.A.",
+   "document_role": "admission_doc",
+   "instrument_class": "equity",
+   "source_record_key": "ADM_143231",
+   "fields": [
+    {
+     "field": "isin",
+     "status": "DERIVED",
+     "value": "ES0162600003",
+     "raw_lexeme": "ES0162600003",
+     "n_evidence": 1,
+     "page": 3,
+     "extractor": "EXTRACT_ISIN",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "currency",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_CURRENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issue_date",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_ISSUE_DATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "maturity",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_MATURITY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "denomination",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_DENOMINATION",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issued_amount",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_ISSUED_AMOUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_type",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_COUPON_TYPE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_rate",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_COUPON_RATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "benchmark",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_BENCHMARK",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "spread",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_SPREAD",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "payment_frequency",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_PAYMENT_FREQUENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "day_count",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_DAY_COUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "call_dates",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_CALL_DATES",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "business_day_convention",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_BUSINESS_DAY_CONVENTION",
+     "extractor_version": "1.0"
+    }
+   ],
+   "docling_ok": true
+  },
+  {
+   "case_key": "Y11",
+   "stratum": "scout_portfolio",
+   "issuer": "AC RESIDENCIAL SOCIMI, S.A.",
+   "document_role": "issue_document",
+   "instrument_class": "equity_socimi",
+   "source_record_key": "PSE_ACRS_DOC_2589",
+   "fields": [
+    {
+     "field": "isin",
+     "status": "DERIVED",
+     "value": "ES0105746004",
+     "raw_lexeme": "ES0105746004",
+     "n_evidence": 1,
+     "page": 9,
+     "extractor": "EXTRACT_ISIN",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "currency",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_CURRENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issue_date",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_ISSUE_DATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "maturity",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_MATURITY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "denomination",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_DENOMINATION",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "issued_amount",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_ISSUED_AMOUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_type",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_COUPON_TYPE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "coupon_rate",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_COUPON_RATE",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "benchmark",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_BENCHMARK",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "spread",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_SPREAD",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "payment_frequency",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_PAYMENT_FREQUENCY",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "day_count",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_DAY_COUNT",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "call_dates",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_CALL_DATES",
+     "extractor_version": "1.0"
+    },
+    {
+     "field": "business_day_convention",
+     "status": "MISSING",
+     "value": null,
+     "raw_lexeme": null,
+     "n_evidence": 0,
+     "page": null,
+     "extractor": "EXTRACT_BUSINESS_DAY_CONVENTION",
+     "extractor_version": "1.0"
+    }
+   ],
+   "docling_ok": true
+  }
+ ]
+}

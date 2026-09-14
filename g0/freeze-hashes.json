@@ -1,0 +1,31 @@
+{
+ "frozen_at": "2026-09-14",
+ "verified_at_phase": "G0-C",
+ "files": {
+  "g0/manifests/linkage-holdout.json": {
+   "file_sha256": "a36d37a32845b58f76b2bb75838f38653cb4728219f8bf84244c8e8250996b3f",
+   "manifest_sha256": "e0f711bfa1de3c109c98d4ae4af35496aae17df2d11622b867fa57bb27bd1139",
+   "n_cases": 300
+  },
+  "g0/manifests/extraction-holdout.json": {
+   "file_sha256": "f44ce4d0c82fcae34ce493febe234cc85d7b0165e501a05878f2e5ffd1d23f1c",
+   "manifest_sha256": "465a70efac101eb0439fd498434f18254e0241d835214cd96e527fcb9cbcdc74",
+   "n_cases": 30
+  },
+  "g0/manifests/g0-manifest.json": {
+   "file_sha256": "1df6165ea2d1f2eeb221b9ba340f746037302ac94497e90b70fcac457bf9ed7d",
+   "manifest_sha256": null,
+   "n_cases": null
+  },
+  "g0/manifests/linkage-scout.json": {
+   "file_sha256": "e7f2faf4ef3e2732ecf4d4ff30c366cb4d0b021f1e680018de2e2ef7a6b06785",
+   "manifest_sha256": "99239b442bd1b70e9d086c83a112082f9ffcdedc5c451dad4053adf03dd2c359",
+   "n_cases": 56
+  },
+  "g0/manifests/extraction-scout.json": {
+   "file_sha256": "e90e4cc64efb85b6eec7dc8c50224c069277cf31348e4d606439a49ad33d8ed6",
+   "manifest_sha256": "670ac8382753bce15fe30ecab1d86e9087b7af2585109e4e7379380ac7ed103c",
+   "n_cases": 11
+  }
+ }
+}

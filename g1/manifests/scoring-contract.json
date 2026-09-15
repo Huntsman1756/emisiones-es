@@ -1,0 +1,181 @@
+{
+ "manifest": "g1-scoring-contract",
+ "created": "G1-B.1 — congelado antes de abrir holdouts G1-C",
+ "supersedes": null,
+ "note": "Semantica de evaluacion congelada. No cambia thresholds preregistrados (docs/gates/G1.md §4.2-4.5); los fija como denominadores y reglas de scoring.",
+
+ "linkage": {
+  "counts_reported": {
+   "n_all": "todos los casos evaluados del linkage holdout",
+   "gold_linkable": "casos con label LINK (elegibles para AUTO_LINKED)",
+   "gold_no_link": "casos con label NO_LINK",
+   "gold_review_required": "casos con label AMBIGUOUS (gold exige abstencion)",
+   "pred_auto_linked": "decision=AUTO_LINKED",
+   "pred_review_required": "decision=REVIEW_REQUIRED",
+   "pred_no_link": "decision=NO_LINK"
+  },
+  "metrics": {
+   "auto_link_precision": {
+    "formula": "correct AUTO_LINKED / pred_auto_linked",
+    "denominator": "pred_auto_linked",
+    "hard_gate": ">= 0.99"
+   },
+   "auto_link_recall": {
+    "formula": "correct AUTO_LINKED / gold_linkable",
+    "denominator": "gold_linkable (casos gold elegibles para auto-link)",
+    "note": "equivale a cobertura automatizada del prereg G1 §4.2"
+   },
+   "auto_link_coverage": {
+    "formula": "pred_auto_linked / gold_linkable",
+    "denominator": "gold_linkable",
+    "note": "devolvio 0.9067 en dev; denominador declarado aqui"
+   },
+   "review_rate": {
+    "formula": "pred_review_required / n_all",
+    "denominator": "n_all (todos los casos evaluados)",
+    "note": "por eso coverage+review_rate pueden sumar >1: denominadores distintos, correcto por contrato"
+   },
+   "false_auto_links": "AUTO_LINKED donde gold != LINK — hard gate = 0",
+   "forced_links": "AUTO_LINKED donde gold = AMBIGUOUS — hard gate = 0",
+   "abstention_correctness": "REVIEW_REQUIRED sobre gold AMBIGUOUS (correcto, no penalizado) + REVIEW_REQUIRED sobre gold LINK (oportunidad perdida, cuenta en recall)"
+  },
+  "no_coverage_without_denominator": true
+ },
+
+ "extraction": {
+  "per_field_report": [
+   "positive_gold", "TP", "FP", "FN",
+   "precision", "recall", "coverage",
+   "exact_95pct_CI_binomial", "gate_eligible"
+  ],
+  "evidence_sufficiency": {
+   "<5": "INSUFFICIENT_EVIDENCE (no se reporta como gate)",
+   "5-14": "DESCRIPTIVE_ONLY (metricas calculadas, NO PASS)",
+   ">=15": "GATE_ELIGIBLE (se aplica threshold)"
+  },
+  "critical_family_targets": {
+   "coupon_rate_family": ">=20 positive gold desired",
+   "day_count": ">=20 positive gold desired",
+   "call_put": ">=20 positive gold desired"
+  },
+  "hard_gates_precision": {
+   "coupon_rate": ">=0.95",
+   "day_count": ">=0.95",
+   "maturity": ">=0.99",
+   "call_put": ">=0.90",
+   "reset_fixing": ">=0.90",
+   "observation": ">=0.90",
+   "barrier_strike_redemption": ">=0.90",
+   "applies_only_if": "gate_eligible = true"
+  },
+  "truth_labels": {
+   "PRESENT": "valor contractual presente y localizable",
+   "MULTI": "varios valores/distintas condiciones legitimas",
+   "NA": "familia no aplicable estructuralmente",
+   "ABSENT": "aplicable pero no publicado"
+  }
+ },
+
+ "multi_value_scoring": {
+  "unit_of_truth": "para campos multi, gold es el CONJUNTO de elementos verdad; la unidad de verdad por campo se define en el annotation contract antes de anotar — nunca caso a caso tras ver predicciones",
+  "classes": {
+   "EXACT": "predicted_set == gold_set",
+   "PARTIAL": "predicted_set != vacio Y predicted_set ⊂ gold_set (subconjunto propio correcto)",
+   "SUPERSET_WITH_ERROR": "predicted_set contiene >=1 elemento gold correcto Y >=1 candidato sin soporte gold — cuenta FP por cada candidato no soportado",
+   "DISJOINT": "ningun candidato correcto — FP por cada candidato + FN por cada gold",
+   "MISSING": "predicted vacio con gold presente — FN",
+   "NOT_APPLICABLE": "gold NA y prediccion NA/ausente"
+  },
+  "element_scoring": {
+   "TP": "elemento predicted con match gold (mismo valor normalizado o lexema equivalente)",
+   "FP": "elemento predicted sin match gold — SUPERSET_WITH_ERROR produce FP",
+   "FN": "elemento gold sin match predicted"
+  },
+  "precision_rule": "NO se concede precision 1.0 porque uno de varios candidatos sea correcto: precision = TP/(TP+FP) a nivel elemento",
+  "ordering": "el orden de la lista es irrelevante para el match",
+  "complementary_aspects": "aspectos complementarios legitimos (fixing components, redemption components, regimenes de cupon) se anotan como elementos gold separados; el extractor que los emite todos = EXACT"
+ },
+
+ "exercise_terms_scoring": {
+  "structural_diagnostic": [
+   "option_side (CALL|PUT correcto)",
+   "exercise_dates / exercise_window",
+   "exercise_price",
+   "notice_period",
+   "conditions"
+  ],
+  "legacy_view": "call_dates / put_dates se usan para los thresholds preregistrados (call_put >=0.90); la evaluacion estructural se reporta como diagnostico separado"
+ },
+
+ "structured_scoring": {
+  "no_flat_barrier": "el campo plano `barrier` no es verdad canonica unica",
+  "evaluated_separately": [
+   "autocall_trigger", "coupon_barrier", "protection_barrier",
+   "strike", "participation", "cap", "observation_schedule"
+  ],
+  "threshold_mapping": "barrier/strike/redemption >=0.90 se aplica a cada rol por separado si gate_eligible; el mapping al contrato preregistrado G0/G1 es explicito y no cambia thresholds"
+ },
+
+ "classification_metric": {
+  "categories": {
+   "METADATA_DETERMINED": "rol derivado de metadata estructurada CNMV (surface, rol, sufijo registro, denominacion) — exito valido de clasificacion pero demuestra determinismo del contrato, no generalizacion ML",
+   "CONTENT_DETERMINED": "rol derivado de titulo/anchors/firmas del contenido del documento"
+  },
+  "reported": [
+   "role_accuracy_overall",
+   "metadata_determined_accuracy",
+   "content_determined_accuracy",
+   "unknown_rate",
+   "false_confident_rate"
+  ],
+  "no_new_threshold": "ningun hard threshold nuevo; las dos categorias se reportan desagregadas"
+ },
+
+ "lifecycle_scoring": {
+  "gate_eligible_relations": ["SUPPLEMENTS", "MODIFIES"],
+  "insufficient_evidence": ["CORRECTS", "REPLACES", "REDEPOSIT"],
+  "metrics": ["precision", "recall", "false_positive_relation_count"],
+  "hard_gate": "false_positive_lifecycle_edge = 0 (prereg G1 §4.5)",
+  "abstention": "abstener ante evidencia insuficiente = correcto, no fallo"
+ },
+
+ "novelty": {
+  "sample": "n=100 SRS novelty holdout (g1/manifests/novelty-holdout.json, seed 20260917)",
+  "estimator": "novelty_rate = cases_with_material_document_only_delta / eligible_cases; SRS sin ponderar",
+  "gate": ">= 0.80",
+  "report": ["rate", "numerator/denominator", "exact 95% CI"],
+  "gold_independence": "gold = documento fuente + novelty-field-map congelado + disponibilidad FIRDS/ESAP/CNMV; NO depende del extractor",
+  "no_challenge_set_prevalence": "el extraction holdout (97 docs enriquecido) NO se usa para estimar prevalencia"
+ },
+
+ "safety_gates": {
+  "accepted_factual_provenance": "= 100%",
+  "invented_unsupported_values": "= 0",
+  "false_auto_linked": "= 0",
+  "forced_ambiguous": "= 0",
+  "no_relaxation": true
+ },
+
+ "blind_truth_protocol": {
+  "preferred": [
+   "1. sellar predicciones del modelo sin verlas (run + hash)",
+   "2. hash predictions",
+   "3. crear/revisar gold sin ver predicciones",
+   "4. sellar truth",
+   "5. revelar y puntuar"
+  ],
+  "alternative": "truth-first si el anotador no ve outputs del extractor",
+  "documentation": "procedimiento documentado en el informe G1-C"
+ },
+
+ "truth_corrections": {
+  "no_overwrite": "la truth nunca se sobrescribe; correcciones objetivas -> truth-v1 vs truth-v2 con semantic diff + evidence + reason + direction of metric impact",
+  "max_processes": "un proceso formal de correccion antes del verdict final",
+  "report": "verdict bajo ambas versiones si la correccion afecta hard gates"
+ },
+
+ "retry_policy": {
+  "allowed": ["crash", "I/O transient", "resource interruption", "corrupted temporary output"],
+  "not_allowed": "retry por resultado malo; first attempt preservado"
+ }
+}

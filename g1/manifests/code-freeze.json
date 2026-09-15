@@ -1,0 +1,52 @@
+{
+ "manifest": "g1-code-freeze",
+ "created": "G1-B.1",
+ "git": {
+  "commit": "c1e15f20de97fd7e32d7b98c76ffb8554fdb40b5",
+  "tree": "13af93ae4d95f382d50d9d40f2f1083d8a07ea97"
+ },
+ "python": "3.13.11",
+ "dependency_lock_sha256": "ba2f63cb78eadb9b26633fb91d62626b3a8f337666e416d982631b1f7a9f4e4d",
+ "pyproject_sha256": "fa05b00373be67f59ed606a9178fde38485da896f5301d096510b0c4ddb1c8cd",
+ "src_tree_sha256": "d7096206ebfed0fd344e288ff550acbb696fd34437c85500cc3412235b35a4c9",
+ "modules": {
+  "classification/dispatcher": "2115a7d90577ecbabe1b2a388635a6cac1e37237669528e25b32a10a96aa5fe3",
+  "extraction/dispatcher": "c281976412e0aff154ecdf4fc65e04470a0f43a812be9ca6069fdc4c9550dc4c",
+  "extraction/extractors": "5cd734c4e7c74506cb2214eadc0a9a73878e6a2c462af53e4e07f37a1b480fcf",
+  "extraction/normalize": "e334ad9051dc37583cee0473042a7bf755c213e74eec02a6e8b4ec7537985ad8",
+  "extraction/common": "91709a13b09b61635d5a70727fe6ff86ab4ffdd4dafbd6b1e91c625ed95aa9e4",
+  "extraction/final_terms": "465370f00c2033333b9d492293a013f77531942095292aa1ccc3f6068ec5db25",
+  "extraction/securities_note": "c8ac15376aa77bc751fd35f1383727e7cb9f1f5040cec26e4c1e7f1f1b3e2474",
+  "extraction/issue_doc": "4877505fd31dd298226199c27adb014a517700304ba2461f8cba56ba5da6aee2",
+  "extraction/base_prospectus": "0af1e1b92649068386b674700b31926c5b2eb397d86fe006121824893dfdcee7",
+  "linking/family_linker": "6a290db5c14863d460ab66ad08aed9b632941a4b6497a9e0089d24cabc7fa984",
+  "linking/rules": "9e392e84b5d63cfd4aa3040cc5ee763ab853e0c9de1a30a6abc2f4992b75b632",
+  "linking/linker": "78ec48ead2ec0795e97462c1c2419350f3f49aabc6c774ba366be052bc12d7df",
+  "verification/verbatim": "c8e6ca973fce8443795c9223b7b53067c7cdcda27aa6f42fbacf3749e1c84a68",
+  "terms/daycount": "8a7cea3ae4766e5820f7904226b44ee53a09dbef72ee4579b6d79f4621923b1a",
+  "terms/exercise": "3a8c41365ed8f8fcc52945535cd9ddb8833fd4c58ba3a3af8ef6edce9b844842",
+  "terms/structured": "79bd1e2b499f302c09b493624f32b9ec33915080ed23c890c8bc27a4934e5dae",
+  "terms/coupon": "9b7807cdc68bc3b69a1fc2b4b1aaa7e3b51dedc1b0cd6c7c30cfb84589764f8b",
+  "lifecycle": "8fafdef842fa48f8495b4b4fe91db3f08d05a18dd5f0160e588cd5c859c299be",
+  "docview": "e9cfe4466f6cadd6f50114f687c74df4a597647ccc0420734a035751f64c0a8f"
+ },
+ "research": {
+  "upstream_registry_sha256": "fc4401104928932665e392dbb75eff2fce8af3ffa50f500ca56ca981150ea653",
+  "problem_reuse_log_sha256": "8f0301c9ba0165c05cab10538e76b1bda671fe3895f502bd6e662975bb62fb32"
+ },
+ "g1a1_freeze": {
+  "freeze_json_sha256": "33b630446eae8a1a94067a35c39817ff3b601999f66d6d16fba8b8006072ef19",
+  "manifests": {
+   "family-map": "9ad55ad56cfdc78a04190bf461b6f8273fb480ab0e0e9bd416db5e3a328d169a",
+   "novelty-holdout": "4f63b4943bc8e5db45e760e1c5785939a3fbfd166215b6edd8c6d8d109eda583",
+   "annotation-contract": "abce3088d6aecdc2db94c00a520aa10aaaef90de22ab4ba9911816ba74abadc8",
+   "g1-a1/development": "901e0d7fe68315880ce2c96448fb047b75448027f3c90cadb745b36068c77161",
+   "g1-a1/extraction-holdout": "86a2badff23b2dd3fbdcfe35900e04c99dc5b2d8915362445cb2439734aed855",
+   "g1-a1/linkage-holdout": "507a87b7e96a427ac748341e8ea51fd51aa1d1ce28671a7813005c59d04c038b",
+   "g1-a1/lifecycle-holdout": "70df6a8e8c51bb308ac6f7c9cdf419953b64802463204a5a614197d6c1e95133"
+  }
+ },
+ "g1a_initial_freeze_json_sha256": "2833111b611123b25752577fe9f82e71c5f8153f81133dc4b2ce405c4d0c70b4",
+ "dev_truth_errata_sha256": "fb3a2c7de4f08153c275cb6064210a05254fe74a2d9fe13ed6fa8e440efea9a5",
+ "policy": "NO CODE CHANGES / NO EXTRACTOR CHANGES / NO LINKER CHANGES / NO FIELD MODEL CHANGES hasta terminar G1-C"
+}

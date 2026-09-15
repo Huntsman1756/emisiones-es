@@ -69,6 +69,12 @@ G1  prereg · AMEND-1/2 · A0 · A · A1 · B · B.1   frozen/PASS
     C  blind evaluation               FAIL (extraction + safety)
 ```
 
+**Post-verdict:** G1 queda congelado como FAIL permanente (tag
+`g1-final-fail`). No se reejecuta ni se remedia sobre los mismos casos.
+Los cuatro holdouts G1 están consumidos y pasan íntegros a DEVELOPMENT
+para la investigación G2; el holdout G2 será una muestra nueva nunca
+vista. Siguiente fase abierta: `docs/gates/G2-A.md`.
+
 Next step is G2 scope definition targeting extraction generalization
 (value extraction on cold templates, structured-payoff families,
 invented-value suppression). No G2 work initiated here.

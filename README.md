@@ -4,7 +4,9 @@ Capa abierta y auditable de referencia de valores, emisiones, documentación y
 términos contractuales para instrumentos emitidos o admitidos en los mercados
 españoles.
 
-**Estado**: fase G0-A (discovery). Aún no hay pipeline de extracción.
+**Estado**: G1 congelado como FAIL permanente (`g1-final-fail`). Fase
+abierta: G2-A — document backend & semantic evidence research. Los
+holdouts G1 están consumidos y pasan íntegros a development.
 
 ## Hipótesis de producto
 

@@ -1,0 +1,809 @@
+{
+ "phase": "G1-C linkage score (scoring-contract)",
+ "n_all": 124,
+ "gold_linkable": 68,
+ "gold_no_link": 30,
+ "gold_review_required": 26,
+ "pred_auto_linked": 40,
+ "pred_review_required": 66,
+ "pred_no_link": 18,
+ "auto_link_precision": 1.0,
+ "auto_link_recall": 0.5882,
+ "auto_link_coverage": 0.5882,
+ "review_rate": 0.5323,
+ "false_auto_links": 0,
+ "false_auto_keys": [],
+ "forced_ambiguous": 0,
+ "by_stratum": {
+  "L1_explicit_family": {
+   "LINK->AUTO_LINKED": 40
+  },
+  "L2_supplement_to_base": {
+   "LINK->REVIEW_REQUIRED": 18
+  },
+  "L3_same_programme_role": {
+   "LINK->REVIEW_REQUIRED": 10
+  },
+  "L4_same_issuer_diff_programme": {
+   "NO_LINK->REVIEW_REQUIRED": 14,
+   "NO_LINK->NO_LINK": 1
+  },
+  "L5_missing_family": {
+   "AMBIGUOUS->NO_LINK": 16
+  },
+  "L6_hard_negative": {
+   "NO_LINK->REVIEW_REQUIRED": 15
+  },
+  "L7_succession_candidate": {
+   "AMBIGUOUS->REVIEW_REQUIRED": 9,
+   "AMBIGUOUS->NO_LINK": 1
+  }
+ },
+ "label_x_decision": {
+  "LINK->AUTO_LINKED": 40,
+  "LINK->REVIEW_REQUIRED": 28,
+  "NO_LINK->REVIEW_REQUIRED": 29,
+  "NO_LINK->NO_LINK": 1,
+  "AMBIGUOUS->NO_LINK": 17,
+  "AMBIGUOUS->REVIEW_REQUIRED": 9
+ },
+ "per_case": [
+  {
+   "case": "L1_explicit_family-001",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-002",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-003",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-004",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-005",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-006",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-007",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-008",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-009",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-010",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-011",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-012",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-013",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-014",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-015",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-016",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-017",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-018",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-019",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-020",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-021",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-022",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-023",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-024",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-025",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-026",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-027",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-028",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-029",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-030",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-031",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-032",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-033",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-034",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-035",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-036",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-037",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-038",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-039",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L1_explicit_family-040",
+   "stratum": "L1_explicit_family",
+   "label": "LINK",
+   "decision": "AUTO_LINKED"
+  },
+  {
+   "case": "L2_supplement_to_base-041",
+   "stratum": "L2_supplement_to_base",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L2_supplement_to_base-042",
+   "stratum": "L2_supplement_to_base",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L2_supplement_to_base-043",
+   "stratum": "L2_supplement_to_base",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L2_supplement_to_base-044",
+   "stratum": "L2_supplement_to_base",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L2_supplement_to_base-045",
+   "stratum": "L2_supplement_to_base",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L2_supplement_to_base-046",
+   "stratum": "L2_supplement_to_base",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L2_supplement_to_base-047",
+   "stratum": "L2_supplement_to_base",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L2_supplement_to_base-048",
+   "stratum": "L2_supplement_to_base",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L2_supplement_to_base-049",
+   "stratum": "L2_supplement_to_base",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L2_supplement_to_base-050",
+   "stratum": "L2_supplement_to_base",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L2_supplement_to_base-051",
+   "stratum": "L2_supplement_to_base",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L2_supplement_to_base-052",
+   "stratum": "L2_supplement_to_base",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L2_supplement_to_base-053",
+   "stratum": "L2_supplement_to_base",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L2_supplement_to_base-054",
+   "stratum": "L2_supplement_to_base",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L2_supplement_to_base-055",
+   "stratum": "L2_supplement_to_base",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L2_supplement_to_base-056",
+   "stratum": "L2_supplement_to_base",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L2_supplement_to_base-057",
+   "stratum": "L2_supplement_to_base",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L2_supplement_to_base-058",
+   "stratum": "L2_supplement_to_base",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L3_same_programme_role-059",
+   "stratum": "L3_same_programme_role",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L3_same_programme_role-060",
+   "stratum": "L3_same_programme_role",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L3_same_programme_role-061",
+   "stratum": "L3_same_programme_role",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L3_same_programme_role-062",
+   "stratum": "L3_same_programme_role",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L3_same_programme_role-063",
+   "stratum": "L3_same_programme_role",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L3_same_programme_role-064",
+   "stratum": "L3_same_programme_role",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L3_same_programme_role-065",
+   "stratum": "L3_same_programme_role",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L3_same_programme_role-066",
+   "stratum": "L3_same_programme_role",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L3_same_programme_role-067",
+   "stratum": "L3_same_programme_role",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L3_same_programme_role-068",
+   "stratum": "L3_same_programme_role",
+   "label": "LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L4_same_issuer_diff_programme-069",
+   "stratum": "L4_same_issuer_diff_programme",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L4_same_issuer_diff_programme-070",
+   "stratum": "L4_same_issuer_diff_programme",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L4_same_issuer_diff_programme-071",
+   "stratum": "L4_same_issuer_diff_programme",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L4_same_issuer_diff_programme-072",
+   "stratum": "L4_same_issuer_diff_programme",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L4_same_issuer_diff_programme-073",
+   "stratum": "L4_same_issuer_diff_programme",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L4_same_issuer_diff_programme-074",
+   "stratum": "L4_same_issuer_diff_programme",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L4_same_issuer_diff_programme-075",
+   "stratum": "L4_same_issuer_diff_programme",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L4_same_issuer_diff_programme-076",
+   "stratum": "L4_same_issuer_diff_programme",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L4_same_issuer_diff_programme-077",
+   "stratum": "L4_same_issuer_diff_programme",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L4_same_issuer_diff_programme-078",
+   "stratum": "L4_same_issuer_diff_programme",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L4_same_issuer_diff_programme-079",
+   "stratum": "L4_same_issuer_diff_programme",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L4_same_issuer_diff_programme-080",
+   "stratum": "L4_same_issuer_diff_programme",
+   "label": "NO_LINK",
+   "decision": "NO_LINK"
+  },
+  {
+   "case": "L4_same_issuer_diff_programme-081",
+   "stratum": "L4_same_issuer_diff_programme",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L4_same_issuer_diff_programme-082",
+   "stratum": "L4_same_issuer_diff_programme",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L4_same_issuer_diff_programme-083",
+   "stratum": "L4_same_issuer_diff_programme",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L5_missing_family-084",
+   "stratum": "L5_missing_family",
+   "label": "AMBIGUOUS",
+   "decision": "NO_LINK"
+  },
+  {
+   "case": "L5_missing_family-085",
+   "stratum": "L5_missing_family",
+   "label": "AMBIGUOUS",
+   "decision": "NO_LINK"
+  },
+  {
+   "case": "L5_missing_family-086",
+   "stratum": "L5_missing_family",
+   "label": "AMBIGUOUS",
+   "decision": "NO_LINK"
+  },
+  {
+   "case": "L5_missing_family-087",
+   "stratum": "L5_missing_family",
+   "label": "AMBIGUOUS",
+   "decision": "NO_LINK"
+  },
+  {
+   "case": "L5_missing_family-088",
+   "stratum": "L5_missing_family",
+   "label": "AMBIGUOUS",
+   "decision": "NO_LINK"
+  },
+  {
+   "case": "L5_missing_family-089",
+   "stratum": "L5_missing_family",
+   "label": "AMBIGUOUS",
+   "decision": "NO_LINK"
+  },
+  {
+   "case": "L5_missing_family-090",
+   "stratum": "L5_missing_family",
+   "label": "AMBIGUOUS",
+   "decision": "NO_LINK"
+  },
+  {
+   "case": "L5_missing_family-091",
+   "stratum": "L5_missing_family",
+   "label": "AMBIGUOUS",
+   "decision": "NO_LINK"
+  },
+  {
+   "case": "L5_missing_family-092",
+   "stratum": "L5_missing_family",
+   "label": "AMBIGUOUS",
+   "decision": "NO_LINK"
+  },
+  {
+   "case": "L5_missing_family-093",
+   "stratum": "L5_missing_family",
+   "label": "AMBIGUOUS",
+   "decision": "NO_LINK"
+  },
+  {
+   "case": "L5_missing_family-094",
+   "stratum": "L5_missing_family",
+   "label": "AMBIGUOUS",
+   "decision": "NO_LINK"
+  },
+  {
+   "case": "L5_missing_family-095",
+   "stratum": "L5_missing_family",
+   "label": "AMBIGUOUS",
+   "decision": "NO_LINK"
+  },
+  {
+   "case": "L5_missing_family-096",
+   "stratum": "L5_missing_family",
+   "label": "AMBIGUOUS",
+   "decision": "NO_LINK"
+  },
+  {
+   "case": "L5_missing_family-097",
+   "stratum": "L5_missing_family",
+   "label": "AMBIGUOUS",
+   "decision": "NO_LINK"
+  },
+  {
+   "case": "L5_missing_family-098",
+   "stratum": "L5_missing_family",
+   "label": "AMBIGUOUS",
+   "decision": "NO_LINK"
+  },
+  {
+   "case": "L5_missing_family-099",
+   "stratum": "L5_missing_family",
+   "label": "AMBIGUOUS",
+   "decision": "NO_LINK"
+  },
+  {
+   "case": "L6_hard_negative-100",
+   "stratum": "L6_hard_negative",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L6_hard_negative-101",
+   "stratum": "L6_hard_negative",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L6_hard_negative-102",
+   "stratum": "L6_hard_negative",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L6_hard_negative-103",
+   "stratum": "L6_hard_negative",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L6_hard_negative-104",
+   "stratum": "L6_hard_negative",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L6_hard_negative-105",
+   "stratum": "L6_hard_negative",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L6_hard_negative-106",
+   "stratum": "L6_hard_negative",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L6_hard_negative-107",
+   "stratum": "L6_hard_negative",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L6_hard_negative-108",
+   "stratum": "L6_hard_negative",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L6_hard_negative-109",
+   "stratum": "L6_hard_negative",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L6_hard_negative-110",
+   "stratum": "L6_hard_negative",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L6_hard_negative-111",
+   "stratum": "L6_hard_negative",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L6_hard_negative-112",
+   "stratum": "L6_hard_negative",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L6_hard_negative-113",
+   "stratum": "L6_hard_negative",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L6_hard_negative-114",
+   "stratum": "L6_hard_negative",
+   "label": "NO_LINK",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L7_succession_candidate-115",
+   "stratum": "L7_succession_candidate",
+   "label": "AMBIGUOUS",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L7_succession_candidate-116",
+   "stratum": "L7_succession_candidate",
+   "label": "AMBIGUOUS",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L7_succession_candidate-117",
+   "stratum": "L7_succession_candidate",
+   "label": "AMBIGUOUS",
+   "decision": "NO_LINK"
+  },
+  {
+   "case": "L7_succession_candidate-118",
+   "stratum": "L7_succession_candidate",
+   "label": "AMBIGUOUS",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L7_succession_candidate-119",
+   "stratum": "L7_succession_candidate",
+   "label": "AMBIGUOUS",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L7_succession_candidate-120",
+   "stratum": "L7_succession_candidate",
+   "label": "AMBIGUOUS",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L7_succession_candidate-121",
+   "stratum": "L7_succession_candidate",
+   "label": "AMBIGUOUS",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L7_succession_candidate-122",
+   "stratum": "L7_succession_candidate",
+   "label": "AMBIGUOUS",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L7_succession_candidate-123",
+   "stratum": "L7_succession_candidate",
+   "label": "AMBIGUOUS",
+   "decision": "REVIEW_REQUIRED"
+  },
+  {
+   "case": "L7_succession_candidate-124",
+   "stratum": "L7_succession_candidate",
+   "label": "AMBIGUOUS",
+   "decision": "REVIEW_REQUIRED"
+  }
+ ],
+ "audit": {
+  "code_freeze_sha": "7e24bfe79e1eeaf68fd4009af1440243544c5c3c2fbbf65826333b49f2d3dfa0",
+  "scoring_contract_sha": "efc79371080ec5ec2dc5ae75dfe1e4e1538aeb729b767ef205b3c42121ad9f5c",
+  "environment_sha": "ba2f63cb78eadb9b26633fb91d62626b3a8f337666e416d982631b1f7a9f4e4d",
+  "input_manifest_sha": "507a87b7e96a427ac748341e8ea51fd51aa1d1ce28671a7813005c59d04c038b",
+  "prediction_sha256": "770ac355d8343902425d7fe4afdc0a7074f04d412a1e1e5142148eee613f84c2",
+  "truth_sha256": "labels dentro del input manifest: 507a87b7e96a427ac748341e8ea51fd51aa1d1ce28671a7813005c59d04c038b",
+  "hard_gates": {
+   "auto_link_precision>=0.99": true,
+   "false_auto_links==0": true,
+   "forced_ambiguous==0": true
+  }
+ }
+}

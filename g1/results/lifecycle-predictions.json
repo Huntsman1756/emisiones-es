@@ -1,0 +1,400 @@
+{
+ "phase": "G1-C lifecycle predictions (sealed pre-scoring)",
+ "code_freeze": "a1da72a",
+ "manifest": "g1/manifests/g1-a1/lifecycle-holdout.json",
+ "n_cases": 49,
+ "predictions": [
+  {
+   "doc": "FAM_11286_11286.4",
+   "target": "FAM_11286_11286",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11286",
+   "pred_evidence": "11286.4 listado como SUPLEMENTO de 11286",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FAM_11286_11286.3",
+   "target": "FAM_11286_11286",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11286",
+   "pred_evidence": "11286.3 listado como SUPLEMENTO de 11286",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FAM_11286_11286.2",
+   "target": "FAM_11286_11286",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11286",
+   "pred_evidence": "11286.2 listado como SUPLEMENTO de 11286",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FAM_11286_11286.1",
+   "target": "FAM_11286_11286",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11286",
+   "pred_evidence": "11286.1 listado como SUPLEMENTO de 11286",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FAM_11291_11291.1",
+   "target": "FAM_11291_11291",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11291",
+   "pred_evidence": "11291.1 listado como SUPLEMENTO de 11291",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FAM_11307_11307.1",
+   "target": "FAM_11307_11307",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11307",
+   "pred_evidence": "11307.1 listado como SUPLEMENTO de 11307",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FAM_11310_11310.2",
+   "target": "FAM_11310_11310",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11310",
+   "pred_evidence": "11310.2 listado como SUPLEMENTO de 11310",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FAM_11310_11310.1",
+   "target": "FAM_11310_11310",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11310",
+   "pred_evidence": "11310.1 listado como SUPLEMENTO de 11310",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FAM_11329_11329.2",
+   "target": "FAM_11329_11329",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11329",
+   "pred_evidence": "11329.2 listado como SUPLEMENTO de 11329",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FAM_11329_11329.1",
+   "target": "FAM_11329_11329",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11329",
+   "pred_evidence": "11329.1 listado como SUPLEMENTO de 11329",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FAM_11335_11335.3",
+   "target": "FAM_11335_11335",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11335",
+   "pred_evidence": "11335.3 listado como SUPLEMENTO de 11335",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FAM_11335_11335.2",
+   "target": "FAM_11335_11335",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11335",
+   "pred_evidence": "11335.2 listado como SUPLEMENTO de 11335",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FAM_11335_11335.1",
+   "target": "FAM_11335_11335",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11335",
+   "pred_evidence": "11335.1 listado como SUPLEMENTO de 11335",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FAM_11357_11357.2",
+   "target": "FAM_11357_11357",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11357",
+   "pred_evidence": "11357.2 listado como SUPLEMENTO de 11357",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FAM_11357_11357.1",
+   "target": "FAM_11357_11357",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11357",
+   "pred_evidence": "11357.1 listado como SUPLEMENTO de 11357",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FAM_11374_11374.3",
+   "target": "FAM_11374_11374",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11374",
+   "pred_evidence": "11374.3 listado como SUPLEMENTO de 11374",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FAM_11374_11374.2",
+   "target": "FAM_11374_11374",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11374",
+   "pred_evidence": "11374.2 listado como SUPLEMENTO de 11374",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FAM_11374_11374.1",
+   "target": "FAM_11374_11374",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11374",
+   "pred_evidence": "11374.1 listado como SUPLEMENTO de 11374",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11146.1",
+   "target": "FOL_11146",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11146",
+   "pred_evidence": "11146.1 listado como SUPLEMENTO de 11146",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11212.1",
+   "target": "FOL_11212",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11212",
+   "pred_evidence": "11212.1 listado como SUPLEMENTO de 11212",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11275.3",
+   "target": "FOL_11275",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11275",
+   "pred_evidence": "11275.3 listado como SUPLEMENTO de 11275",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11368.1",
+   "target": "FOL_11368",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11368",
+   "pred_evidence": "11368.1 listado como SUPLEMENTO de 11368",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11265.2",
+   "target": "FOL_11265",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11265",
+   "pred_evidence": "11265.2 listado como SUPLEMENTO de 11265",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11081.1",
+   "target": "FOL_11081",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11081",
+   "pred_evidence": "11081.1 listado como SUPLEMENTO de 11081",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11236.2",
+   "target": "FOL_11236",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11236",
+   "pred_evidence": "11236.2 listado como SUPLEMENTO de 11236",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11227.4",
+   "target": "FOL_11227",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11227",
+   "pred_evidence": "11227.4 listado como SUPLEMENTO de 11227",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11231.1",
+   "target": "FOL_11231",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11231",
+   "pred_evidence": "11231.1 listado como SUPLEMENTO de 11231",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11217.1",
+   "target": "FOL_11217",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11217",
+   "pred_evidence": "11217.1 listado como SUPLEMENTO de 11217",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11116.1",
+   "target": "FOL_11116",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11116",
+   "pred_evidence": "11116.1 listado como SUPLEMENTO de 11116",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11298.1",
+   "target": "FOL_11298",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11298",
+   "pred_evidence": "11298.1 listado como SUPLEMENTO de 11298",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11319.3",
+   "target": "FOL_11319",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11319",
+   "pred_evidence": "11319.3 listado como SUPLEMENTO de 11319",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11360.2",
+   "target": "FOL_11360",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11360",
+   "pred_evidence": "11360.2 listado como SUPLEMENTO de 11360",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11328.1",
+   "target": "FOL_11328",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11328",
+   "pred_evidence": "11328.1 listado como SUPLEMENTO de 11328",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11310.1",
+   "target": "FOL_11310",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11310",
+   "pred_evidence": "11310.1 listado como SUPLEMENTO de 11310",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11227.3",
+   "target": "FOL_11227",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11227",
+   "pred_evidence": "11227.3 listado como SUPLEMENTO de 11227",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11257.1",
+   "target": "FOL_11257",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11257",
+   "pred_evidence": "11257.1 listado como SUPLEMENTO de 11257",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11269.2",
+   "target": "FOL_11269",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11269",
+   "pred_evidence": "11269.2 listado como SUPLEMENTO de 11269",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11247.1",
+   "target": "FOL_11247",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11247",
+   "pred_evidence": "11247.1 listado como SUPLEMENTO de 11247",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11373.3",
+   "target": "FOL_11373",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11373",
+   "pred_evidence": "11373.3 listado como SUPLEMENTO de 11373",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11155.1",
+   "target": "FOL_11155",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11155",
+   "pred_evidence": "11155.1 listado como SUPLEMENTO de 11155",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11213.1",
+   "target": "FOL_11213",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11213",
+   "pred_evidence": "11213.1 listado como SUPLEMENTO de 11213",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11170.1",
+   "target": "FOL_11170",
+   "pred_relation": "SUPPLEMENTS",
+   "pred_target": "11170",
+   "pred_evidence": "11170.1 listado como SUPLEMENTO de 11170",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11232-1",
+   "target": "FOL_11232",
+   "pred_relation": "MODIFIES",
+   "pred_target": "11232",
+   "pred_evidence": "11232-1 listado como MODIFICACION de 11232",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11225-2",
+   "target": "FOL_11225",
+   "pred_relation": "MODIFIES",
+   "pred_target": "11225",
+   "pred_evidence": "11225-2 listado como MODIFICACION de 11225",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11225-1",
+   "target": "FOL_11225",
+   "pred_relation": "MODIFIES",
+   "pred_target": "11225",
+   "pred_evidence": "11225-1 listado como MODIFICACION de 11225",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11269-1",
+   "target": "FOL_11269",
+   "pred_relation": "MODIFIES",
+   "pred_target": "11269",
+   "pred_evidence": "11269-1 listado como MODIFICACION de 11269",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11265-1",
+   "target": "FOL_11265",
+   "pred_relation": "MODIFIES",
+   "pred_target": "11265",
+   "pred_evidence": "11265-1 listado como MODIFICACION de 11265",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11367-1",
+   "target": "FOL_11367",
+   "pred_relation": "MODIFIES",
+   "pred_target": "11367",
+   "pred_evidence": "11367-1 listado como MODIFICACION de 11367",
+   "status": "PREDICTED"
+  },
+  {
+   "doc": "FOL_11358-1",
+   "target": "FOL_11358",
+   "pred_relation": "MODIFIES",
+   "pred_target": "11358",
+   "pred_evidence": "11358-1 listado como MODIFICACION de 11358",
+   "status": "PREDICTED"
+  }
+ ]
+}

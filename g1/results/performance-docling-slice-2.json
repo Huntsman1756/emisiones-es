@@ -1,0 +1,192 @@
+{
+ "phase": "G1-C docling conversion slice 2",
+ "documents": [
+  {
+   "doc": "FOL_11166",
+   "pages_expected": null,
+   "pdf_sha256": "c7d5ba6feb8f44583428918d1312d341af55395b2afc1abe17c9b37c7e7219f7",
+   "status": "ok",
+   "seconds": 116.51,
+   "peak_rss_mb": 868.1,
+   "pages": 40,
+   "texts": 515,
+   "tables": 6
+  },
+  {
+   "doc": "FOL_11407",
+   "pages_expected": null,
+   "pdf_sha256": "0194016fd82f9a21a52ea5eb2e4bb92f491a7084945e4fd9a9b8e420fe926dcd",
+   "status": "ok",
+   "seconds": 236.12,
+   "peak_rss_mb": 812.1,
+   "pages": 234,
+   "texts": 3325,
+   "tables": 5
+  },
+  {
+   "doc": "ADM_143129",
+   "pages_expected": null,
+   "pdf_sha256": "73fb62b912b0e0abd17e33f9185e3933766605f425148c35cc30574b267a3a82",
+   "status": "ok",
+   "seconds": 95.78,
+   "peak_rss_mb": -106.9,
+   "pages": 66,
+   "texts": 859,
+   "tables": 8
+  },
+  {
+   "doc": "ADM_143045",
+   "pages_expected": null,
+   "pdf_sha256": "c96bd3965c1c3f6f2c5fd5aa0b5a82a48e1d868a79fa46801dbe04ae0253d9bf",
+   "status": "ok",
+   "seconds": 215.77,
+   "peak_rss_mb": 296.4,
+   "pages": 30,
+   "texts": 337,
+   "tables": 2
+  },
+  {
+   "doc": "ADM_143057",
+   "pages_expected": null,
+   "pdf_sha256": "f2d41ad258168d2dd7246404561ed148016afa60854eaf815b550d5a1e9178e8",
+   "status": "ok",
+   "seconds": 58.2,
+   "peak_rss_mb": -347.2,
+   "pages": 58,
+   "texts": 727,
+   "tables": 2
+  },
+  {
+   "doc": "CCFF_11338_002",
+   "pages_expected": 9,
+   "pdf_sha256": "a94c3630410f2d05911cbf2a23db5b338ae9778fe7f4c9b53d2a764d50ba5339",
+   "status": "ok",
+   "seconds": 19.63,
+   "peak_rss_mb": 234.5,
+   "pages": 9,
+   "texts": 199,
+   "tables": 1
+  },
+  {
+   "doc": "CCFF_11384_002",
+   "pages_expected": 9,
+   "pdf_sha256": "8555124b6b4f078e6e7645c9089f70acffeadfb82da300151aec45624fe076fd",
+   "status": "ok",
+   "seconds": 48.56,
+   "peak_rss_mb": 45.1,
+   "pages": 9,
+   "texts": 197,
+   "tables": 1
+  },
+  {
+   "doc": "CCFF_11357_019",
+   "pages_expected": 10,
+   "pdf_sha256": "29a2aa47d9850c8f8b9ffbee18a41217b39f6fd00bbd1d514d92651cca30b8bb",
+   "status": "ok",
+   "seconds": 77.0,
+   "peak_rss_mb": -203.8,
+   "pages": 10,
+   "texts": 139,
+   "tables": 4
+  },
+  {
+   "doc": "CCFF_11400_021",
+   "pages_expected": 9,
+   "pdf_sha256": "ac732da9068daf6d00e4ef99ad3184445e2f791c5ce51d3d235005aa207fc07a",
+   "status": "ok",
+   "seconds": 167.74,
+   "peak_rss_mb": 99.1,
+   "pages": 9,
+   "texts": 168,
+   "tables": 3
+  },
+  {
+   "doc": "CCFF_11398_003",
+   "pages_expected": 6,
+   "pdf_sha256": "146b76e9514d2a5fc7ba251bc8c599c9dc986e1928bd741f5e4dbdb41cdf6fce",
+   "status": "ok",
+   "seconds": 14.98,
+   "peak_rss_mb": -80.9,
+   "pages": 6,
+   "texts": 117,
+   "tables": 0
+  },
+  {
+   "doc": "CCFF_11400_046",
+   "pages_expected": 9,
+   "pdf_sha256": "94a3b8146ab572e410d607f4f91537659fe724dfe3df66b62f2f3400993ec074",
+   "status": "ok",
+   "seconds": 101.49,
+   "peak_rss_mb": -65.4,
+   "pages": 9,
+   "texts": 176,
+   "tables": 2
+  },
+  {
+   "doc": "CCFF_11357_004",
+   "pages_expected": 13,
+   "pdf_sha256": "af1003125af0f513ed196f07db41028a83532668a4976bba49d7b504b1c87315",
+   "status": "ok",
+   "seconds": 129.36,
+   "peak_rss_mb": 104.8,
+   "pages": 13,
+   "texts": 186,
+   "tables": 10
+  },
+  {
+   "doc": "CCFF_11341_004",
+   "pages_expected": 6,
+   "pdf_sha256": "d0bf15d404bb2d904a3b679f7f0a3fa90b0565d5f926ada96f75f4f4e3c9b78b",
+   "status": "ok",
+   "seconds": 17.71,
+   "peak_rss_mb": 1.6,
+   "pages": 6,
+   "texts": 104,
+   "tables": 1
+  },
+  {
+   "doc": "CCFF_11403_004",
+   "pages_expected": 8,
+   "pdf_sha256": "fd54f889318b8ee9aba293660849293cf21898c310562fd2cfcb45cb14950a95",
+   "status": "ok",
+   "seconds": 93.45,
+   "peak_rss_mb": 43.1,
+   "pages": 8,
+   "texts": 128,
+   "tables": 1
+  },
+  {
+   "doc": "CCFF_11380_016",
+   "pages_expected": 25,
+   "pdf_sha256": "a0dbda7e9c8952dc63a01355cd1993af01acc62da7af080f29f94edd19f47be3",
+   "status": "ok",
+   "seconds": 234.37,
+   "peak_rss_mb": 11.2,
+   "pages": 25,
+   "texts": 450,
+   "tables": 27
+  },
+  {
+   "doc": "CCFF_11380_024",
+   "pages_expected": 12,
+   "pdf_sha256": "dd467a1ffd46c0ad67b63dbb2e12d60f4da3391020a5c602deb60dc8bd58a617",
+   "status": "ok",
+   "seconds": 68.18,
+   "peak_rss_mb": 65.6,
+   "pages": 12,
+   "texts": 201,
+   "tables": 5
+  },
+  {
+   "doc": "CCFF_11433_001",
+   "pages_expected": 24,
+   "pdf_sha256": "ce5b38cda4cb61b15a1065291ab6e7f1204d607226dda6d2f3f76741e7adb793",
+   "status": "ok",
+   "seconds": 185.64,
+   "peak_rss_mb": -51.2,
+   "pages": 24,
+   "texts": 413,
+   "tables": 27
+  }
+ ]
+}

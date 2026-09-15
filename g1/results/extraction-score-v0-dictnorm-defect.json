@@ -1,0 +1,4084 @@
+{
+ "phase": "G1-C extraction score v1",
+ "n_docs": 97,
+ "per_field": {
+  "isin": {
+   "positive_gold": 89,
+   "TP": 84,
+   "FP": 0,
+   "FN": 5,
+   "precision": 1.0,
+   "recall": 0.9438,
+   "ci95_precision": [
+    0.957,
+    NaN
+   ],
+   "ci95_recall": [
+    0.8737,
+    0.9815
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "currency": {
+   "positive_gold": 97,
+   "TP": 70,
+   "FP": 0,
+   "FN": 27,
+   "precision": 1.0,
+   "recall": 0.7216,
+   "ci95_precision": [
+    0.9487,
+    NaN
+   ],
+   "ci95_recall": [
+    0.6214,
+    0.8079
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "issue_date": {
+   "positive_gold": 89,
+   "TP": 70,
+   "FP": 0,
+   "FN": 19,
+   "precision": 1.0,
+   "recall": 0.7865,
+   "ci95_precision": [
+    0.9487,
+    NaN
+   ],
+   "ci95_recall": [
+    0.6869,
+    0.8663
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "maturity": {
+   "positive_gold": 93,
+   "TP": 56,
+   "FP": 0,
+   "FN": 37,
+   "precision": 1.0,
+   "recall": 0.6022,
+   "ci95_precision": [
+    0.9362,
+    NaN
+   ],
+   "ci95_recall": [
+    0.4954,
+    0.7022
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "denomination": {
+   "positive_gold": 96,
+   "TP": 4,
+   "FP": 66,
+   "FN": 92,
+   "precision": 0.0571,
+   "recall": 0.0417,
+   "ci95_precision": [
+    0.0158,
+    0.1399
+   ],
+   "ci95_recall": [
+    0.0115,
+    0.1033
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "issued_amount": {
+   "positive_gold": 97,
+   "TP": 1,
+   "FP": 37,
+   "FN": 96,
+   "precision": 0.0263,
+   "recall": 0.0103,
+   "ci95_precision": [
+    0.0007,
+    0.1381
+   ],
+   "ci95_recall": [
+    0.0003,
+    0.0561
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "coupon_type": {
+   "positive_gold": 88,
+   "TP": 53,
+   "FP": 1,
+   "FN": 35,
+   "precision": 0.9815,
+   "recall": 0.6023,
+   "ci95_precision": [
+    0.9011,
+    0.9995
+   ],
+   "ci95_recall": [
+    0.4923,
+    0.7051
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "coupon_rate": {
+   "positive_gold": 70,
+   "TP": 16,
+   "FP": 15,
+   "FN": 60,
+   "precision": 0.5161,
+   "recall": 0.2105,
+   "ci95_precision": [
+    0.3306,
+    0.6985
+   ],
+   "ci95_recall": [
+    0.1254,
+    0.3192
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "benchmark": {
+   "positive_gold": 35,
+   "TP": 11,
+   "FP": 14,
+   "FN": 24,
+   "precision": 0.44,
+   "recall": 0.3143,
+   "ci95_precision": [
+    0.244,
+    0.6507
+   ],
+   "ci95_recall": [
+    0.1685,
+    0.4929
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "spread": {
+   "positive_gold": 25,
+   "TP": 2,
+   "FP": 5,
+   "FN": 23,
+   "precision": 0.2857,
+   "recall": 0.08,
+   "ci95_precision": [
+    0.0367,
+    0.7096
+   ],
+   "ci95_recall": [
+    0.0098,
+    0.2603
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "payment_frequency": {
+   "positive_gold": 74,
+   "TP": 28,
+   "FP": 26,
+   "FN": 47,
+   "precision": 0.5185,
+   "recall": 0.3733,
+   "ci95_precision": [
+    0.3784,
+    0.6566
+   ],
+   "ci95_recall": [
+    0.2643,
+    0.4927
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "day_count": {
+   "positive_gold": 63,
+   "TP": 41,
+   "FP": 7,
+   "FN": 29,
+   "precision": 0.8542,
+   "recall": 0.5857,
+   "ci95_precision": [
+    0.7224,
+    0.9393
+   ],
+   "ci95_recall": [
+    0.4617,
+    0.7023
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "call_dates": {
+   "positive_gold": 37,
+   "TP": 26,
+   "FP": 1,
+   "FN": 16,
+   "precision": 0.963,
+   "recall": 0.619,
+   "ci95_precision": [
+    0.8103,
+    0.9991
+   ],
+   "ci95_recall": [
+    0.4564,
+    0.7643
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "business_day_convention": {
+   "positive_gold": 55,
+   "TP": 27,
+   "FP": 55,
+   "FN": 31,
+   "precision": 0.3293,
+   "recall": 0.4655,
+   "ci95_precision": [
+    0.2294,
+    0.4419
+   ],
+   "ci95_recall": [
+    0.3334,
+    0.6013
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "put_dates": {
+   "positive_gold": 4,
+   "TP": 1,
+   "FP": 2,
+   "FN": 3,
+   "precision": 0.3333,
+   "recall": 0.25,
+   "ci95_precision": [
+    0.0084,
+    0.9057
+   ],
+   "ci95_recall": [
+    0.0063,
+    0.8059
+   ],
+   "gate_eligible": "INSUFFICIENT_EVIDENCE"
+  },
+  "reset_dates": {
+   "positive_gold": 24,
+   "TP": 3,
+   "FP": 0,
+   "FN": 21,
+   "precision": 1.0,
+   "recall": 0.125,
+   "ci95_precision": [
+    0.2924,
+    NaN
+   ],
+   "ci95_recall": [
+    0.0266,
+    0.3236
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "fixing_rules": {
+   "positive_gold": 22,
+   "TP": 9,
+   "FP": 40,
+   "FN": 13,
+   "precision": 0.1837,
+   "recall": 0.4091,
+   "ci95_precision": [
+    0.0876,
+    0.3202
+   ],
+   "ci95_recall": [
+    0.2071,
+    0.6365
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "ranking": {
+   "positive_gold": 15,
+   "TP": 3,
+   "FP": 18,
+   "FN": 12,
+   "precision": 0.1429,
+   "recall": 0.2,
+   "ci95_precision": [
+    0.0305,
+    0.3634
+   ],
+   "ci95_recall": [
+    0.0433,
+    0.4809
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "subordination": {
+   "positive_gold": 33,
+   "TP": 1,
+   "FP": 18,
+   "FN": 32,
+   "precision": 0.0526,
+   "recall": 0.0303,
+   "ci95_precision": [
+    0.0013,
+    0.2603
+   ],
+   "ci95_recall": [
+    0.0008,
+    0.1576
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "redemption_formula": {
+   "positive_gold": 61,
+   "TP": 47,
+   "FP": 64,
+   "FN": 14,
+   "precision": 0.4234,
+   "recall": 0.7705,
+   "ci95_precision": [
+    0.3302,
+    0.5208
+   ],
+   "ci95_recall": [
+    0.645,
+    0.8685
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "underlying": {
+   "positive_gold": 67,
+   "TP": 30,
+   "FP": 47,
+   "FN": 42,
+   "precision": 0.3896,
+   "recall": 0.4167,
+   "ci95_precision": [
+    0.2805,
+    0.5075
+   ],
+   "ci95_recall": [
+    0.3015,
+    0.5389
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "barrier": {
+   "positive_gold": 42,
+   "TP": 8,
+   "FP": 30,
+   "FN": 63,
+   "precision": 0.2105,
+   "recall": 0.1127,
+   "ci95_precision": [
+    0.0955,
+    0.3732
+   ],
+   "ci95_recall": [
+    0.0499,
+    0.21
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "autocall": {
+   "positive_gold": 23,
+   "TP": 1,
+   "FP": 23,
+   "FN": 32,
+   "precision": 0.0417,
+   "recall": 0.0303,
+   "ci95_precision": [
+    0.0011,
+    0.2112
+   ],
+   "ci95_recall": [
+    0.0008,
+    0.1576
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "observation_dates": {
+   "positive_gold": 41,
+   "TP": 46,
+   "FP": 26,
+   "FN": 31,
+   "precision": 0.6389,
+   "recall": 0.5974,
+   "ci95_precision": [
+    0.5171,
+    0.7488
+   ],
+   "ci95_recall": [
+    0.4794,
+    0.7077
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "settlement_type": {
+   "positive_gold": 95,
+   "TP": 54,
+   "FP": 14,
+   "FN": 41,
+   "precision": 0.7941,
+   "recall": 0.5684,
+   "ci95_precision": [
+    0.6788,
+    0.8826
+   ],
+   "ci95_recall": [
+    0.4628,
+    0.6697
+   ],
+   "gate_eligible": "GATE_ELIGIBLE"
+  },
+  "participation": {
+   "positive_gold": 5,
+   "TP": 0,
+   "FP": 1,
+   "FN": 5,
+   "precision": 0.0,
+   "recall": 0.0,
+   "ci95_precision": [
+    NaN,
+    0.975
+   ],
+   "ci95_recall": [
+    NaN,
+    0.5218
+   ],
+   "gate_eligible": "DESCRIPTIVE_ONLY"
+  },
+  "cap": {
+   "positive_gold": 2,
+   "TP": 0,
+   "FP": 3,
+   "FN": 2,
+   "precision": 0.0,
+   "recall": 0.0,
+   "ci95_precision": [
+    NaN,
+    0.7076
+   ],
+   "ci95_recall": [
+    NaN,
+    0.8419
+   ],
+   "gate_eligible": "INSUFFICIENT_EVIDENCE"
+  },
+  "strike": {
+   "positive_gold": 5,
+   "TP": 0,
+   "FP": 0,
+   "FN": 5,
+   "precision": 0.0,
+   "recall": 0.0,
+   "ci95_precision": [
+    null,
+    null
+   ],
+   "ci95_recall": [
+    NaN,
+    0.5218
+   ],
+   "gate_eligible": "DESCRIPTIVE_ONLY"
+  }
+ },
+ "hard_gates": {
+  "coupon_rate": {
+   "threshold": 0.95,
+   "positive_gold": 70,
+   "tier": "GATE_ELIGIBLE",
+   "precision": 0.5161,
+   "applies": true,
+   "pass": false
+  },
+  "day_count": {
+   "threshold": 0.95,
+   "positive_gold": 63,
+   "tier": "GATE_ELIGIBLE",
+   "precision": 0.8542,
+   "applies": true,
+   "pass": false
+  },
+  "maturity": {
+   "threshold": 0.99,
+   "positive_gold": 93,
+   "tier": "GATE_ELIGIBLE",
+   "precision": 1.0,
+   "applies": true,
+   "pass": true
+  },
+  "call_put": {
+   "threshold": 0.9,
+   "positive_gold": 41,
+   "tier": "GATE_ELIGIBLE",
+   "precision": 0.9,
+   "applies": true,
+   "pass": true
+  },
+  "reset_fixing": {
+   "threshold": 0.9,
+   "positive_gold": 46,
+   "tier": "GATE_ELIGIBLE",
+   "precision": 0.2308,
+   "applies": true,
+   "pass": false
+  },
+  "observation": {
+   "threshold": 0.9,
+   "positive_gold": 41,
+   "tier": "GATE_ELIGIBLE",
+   "precision": 0.6389,
+   "applies": true,
+   "pass": false
+  },
+  "barrier_strike_redemption": {
+   "threshold": 0.9,
+   "positive_gold": 131,
+   "tier": "GATE_ELIGIBLE",
+   "precision": 0.3237,
+   "applies": true,
+   "pass": false
+  }
+ },
+ "safety": {
+  "accepted_observations": 1298,
+  "provenance_violations": [],
+  "provenance_rate": 1.0,
+  "value_unverified": [],
+  "invented": [
+   "FOL_11268:barrier",
+   "FOL_11268:autocall",
+   "FOL_11377:participation",
+   "FOL_11382:barrier",
+   "FOL_11382:autocall",
+   "FOL_11382:cap",
+   "FOL_11403:cap",
+   "FOL_11407:put_dates",
+   "FOL_11415:put_dates",
+   "CCFF_11286_010:fixing_rules",
+   "CCFF_11340_018:benchmark",
+   "CCFF_11340_013:benchmark",
+   "CCFF_11403_004:business_day_convention",
+   "CCFF_11394_003:business_day_convention",
+   "CCFF_11394_003:fixing_rules",
+   "CCFF_11394_003:ranking",
+   "CCFF_11394_003:redemption_formula",
+   "CCFF_11307_015:business_day_convention",
+   "CCFF_11307_015:ranking",
+   "CCFF_11307_015:redemption_formula",
+   "CCFF_11329_002:spread",
+   "CCFF_11329_002:fixing_rules",
+   "CCFF_11329_002:ranking",
+   "CCFF_11329_002:redemption_formula",
+   "CCFF_11357_010:business_day_convention",
+   "CCFF_11357_010:fixing_rules",
+   "CCFF_11357_010:ranking",
+   "CCFF_11357_010:redemption_formula",
+   "CCFF_11357_010:cap",
+   "CCFF_11357_004:business_day_convention",
+   "CCFF_11357_004:ranking",
+   "CCFF_11357_004:redemption_formula",
+   "CCFF_11289_001:redemption_formula",
+   "CCFF_11307_010:business_day_convention",
+   "CCFF_11307_010:ranking",
+   "CCFF_11307_010:redemption_formula",
+   "CCFF_11407_003:business_day_convention",
+   "CCFF_11407_003:redemption_formula",
+   "CCFF_11400_046:business_day_convention",
+   "CCFF_11400_046:ranking",
+   "CCFF_11400_046:redemption_formula",
+   "CCFF_11400_037:business_day_convention",
+   "CCFF_11400_037:ranking",
+   "CCFF_11400_037:redemption_formula",
+   "CCFF_11400_037:underlying",
+   "CCFF_11400_024:day_count",
+   "CCFF_11400_024:ranking",
+   "CCFF_11400_024:redemption_formula",
+   "CCFF_11400_002:business_day_convention",
+   "CCFF_11400_002:ranking",
+   "CCFF_11400_002:redemption_formula",
+   "CCFF_11400_047:business_day_convention",
+   "CCFF_11400_047:ranking",
+   "CCFF_11400_047:redemption_formula",
+   "CCFF_11400_021:business_day_convention",
+   "CCFF_11400_021:ranking",
+   "CCFF_11400_021:redemption_formula",
+   "CCFF_11400_032:business_day_convention",
+   "CCFF_11400_032:ranking",
+   "CCFF_11400_032:redemption_formula",
+   "CCFF_11400_032:underlying",
+   "CCFF_11400_004:business_day_convention",
+   "CCFF_11400_004:ranking",
+   "CCFF_11400_004:redemption_formula",
+   "CCFF_11400_011:business_day_convention",
+   "CCFF_11400_011:ranking",
+   "CCFF_11400_011:redemption_formula",
+   "CCFF_11357_019:business_day_convention",
+   "CCFF_11357_019:ranking",
+   "CCFF_11357_019:redemption_formula",
+   "CCFF_11357_009:fixing_rules",
+   "CCFF_11357_009:ranking",
+   "CCFF_11357_009:redemption_formula",
+   "CCFF_11341_004:benchmark",
+   "CCFF_11341_004:spread",
+   "CCFF_11341_004:fixing_rules",
+   "CCFF_11341_004:redemption_formula",
+   "CCFF_11341_003:coupon_rate",
+   "CCFF_11341_003:fixing_rules",
+   "CCFF_11341_003:redemption_formula",
+   "CCFF_11340_009:day_count",
+   "CCFF_11340_009:business_day_convention",
+   "CCFF_11340_009:fixing_rules",
+   "CCFF_11340_009:redemption_formula",
+   "CCFF_11340_020:day_count",
+   "CCFF_11340_020:business_day_convention",
+   "CCFF_11340_020:fixing_rules",
+   "CCFF_11340_020:redemption_formula",
+   "CCFF_11384_002:business_day_convention",
+   "CCFF_11384_002:redemption_formula",
+   "CCFF_11338_002:business_day_convention",
+   "CCFF_11338_002:fixing_rules",
+   "CCFF_11338_002:redemption_formula",
+   "CCFF_11384_004:business_day_convention",
+   "CCFF_11384_004:redemption_formula",
+   "CCFF_11382_003:benchmark",
+   "CCFF_11382_003:fixing_rules",
+   "CCFF_11382_003:redemption_formula",
+   "CCFF_11385_002:benchmark",
+   "CCFF_11385_002:spread",
+   "CCFF_11385_002:fixing_rules",
+   "CCFF_11385_002:redemption_formula",
+   "CCFF_11310_001:coupon_rate",
+   "CCFF_11310_001:business_day_convention",
+   "CCFF_11310_001:fixing_rules",
+   "CCFF_11310_001:redemption_formula",
+   "CCFF_11398_003:coupon_rate",
+   "CCFF_11398_003:fixing_rules",
+   "CCFF_11398_003:redemption_formula",
+   "CCFF_11307_021:business_day_convention",
+   "CCFF_11307_021:ranking",
+   "CCFF_11307_021:redemption_formula"
+  ]
+ },
+ "multi_value_classes": {
+  "isin:MISSING": 5,
+  "currency:MISSING": 27,
+  "issue_date:MISSING": 19,
+  "denomination:MISSING": 26,
+  "issued_amount:MISSING": 59,
+  "coupon_type:MISSING": 34,
+  "coupon_rate:MISSING": 49,
+  "benchmark:MISSING": 18,
+  "spread:MISSING": 21,
+  "payment_frequency:MISSING": 26,
+  "call_dates:MISSING": 10,
+  "business_day_convention:MISSING": 21,
+  "reset_dates:MISSING": 21,
+  "fixing_rules:MISSING": 13,
+  "ranking:MISSING": 12,
+  "subordination:MISSING": 14,
+  "redemption_formula:MISSING": 14,
+  "barrier:MISSING": 10,
+  "settlement_type:MISSING": 27,
+  "strike:MISSING": 5,
+  "isin:EXACT": 84,
+  "maturity:MISSING": 37,
+  "coupon_rate:EXACT": 15,
+  "benchmark:DISJOINT": 6,
+  "day_count:MISSING": 18,
+  "business_day_convention:EXACT": 11,
+  "underlying:EXACT": 24,
+  "currency:EXACT": 70,
+  "issue_date:EXACT": 70,
+  "maturity:EXACT": 56,
+  "denomination:EXACT": 4,
+  "issued_amount:EXACT": 1,
+  "redemption_formula:EXACT": 47,
+  "underlying:DISJOINT": 24,
+  "barrier:EXACT": 1,
+  "observation_dates:EXACT": 22,
+  "settlement_type:EXACT": 54,
+  "coupon_type:EXACT": 53,
+  "coupon_rate:DISJOINT": 5,
+  "benchmark:EXACT": 11,
+  "payment_frequency:DISJOINT": 20,
+  "day_count:DISJOINT": 4,
+  "ranking:EXACT": 3,
+  "underlying:MISSING": 13,
+  "subordination:EXACT": 1,
+  "fixing_rules:EXACT": 9,
+  "call_dates:EXACT": 26,
+  "put_dates:MISSING": 3,
+  "day_count:EXACT": 41,
+  "payment_frequency:EXACT": 25,
+  "reset_dates:EXACT": 3,
+  "denomination:DISJOINT": 66,
+  "business_day_convention:SUPERSET_WITH_ERROR": 16,
+  "barrier:PARTIAL": 4,
+  "autocall:DISJOINT": 21,
+  "observation_dates:SUPERSET_WITH_ERROR": 10,
+  "issued_amount:DISJOINT": 37,
+  "barrier:DISJOINT": 25,
+  "observation_dates:PARTIAL": 6,
+  "business_day_convention:DISJOINT": 7,
+  "autocall:EXACT": 1,
+  "observation_dates:MISSING": 2,
+  "settlement_type:DISJOINT": 14,
+  "participation:MISSING": 5,
+  "cap:MISSING": 2,
+  "underlying:SUPERSET_WITH_ERROR": 6,
+  "barrier:SUPERSET_WITH_ERROR": 2,
+  "autocall:MISSING": 1,
+  "observation_dates:DISJOINT": 1,
+  "coupon_type:DISJOINT": 1,
+  "spread:DISJOINT": 2,
+  "call_dates:DISJOINT": 1,
+  "subordination:DISJOINT": 18,
+  "put_dates:EXACT": 1,
+  "payment_frequency:SUPERSET_WITH_ERROR": 3,
+  "spread:EXACT": 2,
+  "coupon_rate:SUPERSET_WITH_ERROR": 1
+ },
+ "failure_taxonomy": {
+  "issued_amount:PARSING_MISS": 57,
+  "coupon_rate:PARSING_MISS": 47,
+  "maturity:PARSING_MISS": 37,
+  "currency:PARSING_MISS": 27,
+  "denomination:PARSING_MISS": 26,
+  "payment_frequency:PARSING_MISS": 24,
+  "settlement_type:PARSING_MISS": 22,
+  "business_day_convention:PARSING_MISS": 21,
+  "spread:PARSING_MISS": 19,
+  "reset_dates:PARSING_MISS": 19,
+  "issue_date:PARSING_MISS": 18,
+  "coupon_type:PARSING_MISS": 18,
+  "benchmark:PARSING_MISS": 15,
+  "subordination:PARSING_MISS": 14,
+  "redemption_formula:PARSING_MISS": 14,
+  "fixing_rules:PARSING_MISS": 13,
+  "ranking:PARSING_MISS": 12,
+  "day_count:PARSING_MISS": 12,
+  "underlying:PARSING_MISS": 11,
+  "call_dates:PARSING_MISS": 10,
+  "barrier:PARSING_MISS": 10,
+  "strike:PARSING_MISS": 5,
+  "participation:PARSING_MISS": 5,
+  "put_dates:PARSING_MISS": 3,
+  "cap:PARSING_MISS": 2,
+  "coupon_type:LOCATION_MISS": 2,
+  "coupon_rate:LOCATION_MISS": 2,
+  "benchmark:LOCATION_MISS": 2,
+  "spread:LOCATION_MISS": 2,
+  "payment_frequency:LOCATION_MISS": 2,
+  "reset_dates:LOCATION_MISS": 2
+ },
+ "cold_issuer": {
+  "n_docs": 25,
+  "per_field": {
+   "isin": {
+    "positive_gold": 25,
+    "TP": 22,
+    "FP": 0,
+    "FN": 3,
+    "precision": 1.0,
+    "recall": 0.88,
+    "ci95_precision": [
+     0.8456,
+     NaN
+    ],
+    "ci95_recall": [
+     0.6878,
+     0.9745
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "currency": {
+    "positive_gold": 25,
+    "TP": 18,
+    "FP": 0,
+    "FN": 7,
+    "precision": 1.0,
+    "recall": 0.72,
+    "ci95_precision": [
+     0.8147,
+     NaN
+    ],
+    "ci95_recall": [
+     0.5061,
+     0.8793
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "issue_date": {
+    "positive_gold": 25,
+    "TP": 22,
+    "FP": 0,
+    "FN": 3,
+    "precision": 1.0,
+    "recall": 0.88,
+    "ci95_precision": [
+     0.8456,
+     NaN
+    ],
+    "ci95_recall": [
+     0.6878,
+     0.9745
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "maturity": {
+    "positive_gold": 22,
+    "TP": 17,
+    "FP": 0,
+    "FN": 5,
+    "precision": 1.0,
+    "recall": 0.7727,
+    "ci95_precision": [
+     0.8049,
+     NaN
+    ],
+    "ci95_recall": [
+     0.5463,
+     0.9218
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "denomination": {
+    "positive_gold": 25,
+    "TP": 1,
+    "FP": 17,
+    "FN": 24,
+    "precision": 0.0556,
+    "recall": 0.04,
+    "ci95_precision": [
+     0.0014,
+     0.2729
+    ],
+    "ci95_recall": [
+     0.001,
+     0.2035
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "issued_amount": {
+    "positive_gold": 25,
+    "TP": 1,
+    "FP": 17,
+    "FN": 24,
+    "precision": 0.0556,
+    "recall": 0.04,
+    "ci95_precision": [
+     0.0014,
+     0.2729
+    ],
+    "ci95_recall": [
+     0.001,
+     0.2035
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "coupon_type": {
+    "positive_gold": 24,
+    "TP": 2,
+    "FP": 1,
+    "FN": 22,
+    "precision": 0.6667,
+    "recall": 0.0833,
+    "ci95_precision": [
+     0.0943,
+     0.9916
+    ],
+    "ci95_recall": [
+     0.0103,
+     0.27
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "coupon_rate": {
+    "positive_gold": 22,
+    "TP": 0,
+    "FP": 1,
+    "FN": 28,
+    "precision": 0.0,
+    "recall": 0.0,
+    "ci95_precision": [
+     NaN,
+     0.975
+    ],
+    "ci95_recall": [
+     NaN,
+     0.1234
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "benchmark": {
+    "positive_gold": 10,
+    "TP": 1,
+    "FP": 4,
+    "FN": 9,
+    "precision": 0.2,
+    "recall": 0.1,
+    "ci95_precision": [
+     0.0051,
+     0.7164
+    ],
+    "ci95_recall": [
+     0.0025,
+     0.445
+    ],
+    "gate_eligible": "DESCRIPTIVE_ONLY"
+   },
+   "spread": {
+    "positive_gold": 10,
+    "TP": 0,
+    "FP": 1,
+    "FN": 10,
+    "precision": 0.0,
+    "recall": 0.0,
+    "ci95_precision": [
+     NaN,
+     0.975
+    ],
+    "ci95_recall": [
+     NaN,
+     0.3085
+    ],
+    "gate_eligible": "DESCRIPTIVE_ONLY"
+   },
+   "payment_frequency": {
+    "positive_gold": 11,
+    "TP": 1,
+    "FP": 2,
+    "FN": 10,
+    "precision": 0.3333,
+    "recall": 0.0909,
+    "ci95_precision": [
+     0.0084,
+     0.9057
+    ],
+    "ci95_recall": [
+     0.0023,
+     0.4128
+    ],
+    "gate_eligible": "DESCRIPTIVE_ONLY"
+   },
+   "day_count": {
+    "positive_gold": 7,
+    "TP": 1,
+    "FP": 2,
+    "FN": 6,
+    "precision": 0.3333,
+    "recall": 0.1429,
+    "ci95_precision": [
+     0.0084,
+     0.9057
+    ],
+    "ci95_recall": [
+     0.0036,
+     0.5787
+    ],
+    "gate_eligible": "DESCRIPTIVE_ONLY"
+   },
+   "call_dates": {
+    "positive_gold": 10,
+    "TP": 2,
+    "FP": 1,
+    "FN": 12,
+    "precision": 0.6667,
+    "recall": 0.1429,
+    "ci95_precision": [
+     0.0943,
+     0.9916
+    ],
+    "ci95_recall": [
+     0.0178,
+     0.4281
+    ],
+    "gate_eligible": "DESCRIPTIVE_ONLY"
+   },
+   "business_day_convention": {
+    "positive_gold": 17,
+    "TP": 0,
+    "FP": 3,
+    "FN": 17,
+    "precision": 0.0,
+    "recall": 0.0,
+    "ci95_precision": [
+     NaN,
+     0.7076
+    ],
+    "ci95_recall": [
+     NaN,
+     0.1951
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "put_dates": {
+    "positive_gold": 0,
+    "TP": 0,
+    "FP": 0,
+    "FN": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "ci95_precision": [
+     null,
+     null
+    ],
+    "ci95_recall": [
+     null,
+     null
+    ],
+    "gate_eligible": "INSUFFICIENT_EVIDENCE"
+   },
+   "reset_dates": {
+    "positive_gold": 8,
+    "TP": 1,
+    "FP": 0,
+    "FN": 7,
+    "precision": 1.0,
+    "recall": 0.125,
+    "ci95_precision": [
+     0.025,
+     NaN
+    ],
+    "ci95_recall": [
+     0.0032,
+     0.5265
+    ],
+    "gate_eligible": "DESCRIPTIVE_ONLY"
+   },
+   "fixing_rules": {
+    "positive_gold": 7,
+    "TP": 0,
+    "FP": 13,
+    "FN": 7,
+    "precision": 0.0,
+    "recall": 0.0,
+    "ci95_precision": [
+     NaN,
+     0.2471
+    ],
+    "ci95_recall": [
+     NaN,
+     0.4096
+    ],
+    "gate_eligible": "DESCRIPTIVE_ONLY"
+   },
+   "ranking": {
+    "positive_gold": 5,
+    "TP": 2,
+    "FP": 1,
+    "FN": 3,
+    "precision": 0.6667,
+    "recall": 0.4,
+    "ci95_precision": [
+     0.0943,
+     0.9916
+    ],
+    "ci95_recall": [
+     0.0527,
+     0.8534
+    ],
+    "gate_eligible": "DESCRIPTIVE_ONLY"
+   },
+   "subordination": {
+    "positive_gold": 5,
+    "TP": 1,
+    "FP": 1,
+    "FN": 4,
+    "precision": 0.5,
+    "recall": 0.2,
+    "ci95_precision": [
+     0.0126,
+     0.9874
+    ],
+    "ci95_recall": [
+     0.0051,
+     0.7164
+    ],
+    "gate_eligible": "DESCRIPTIVE_ONLY"
+   },
+   "redemption_formula": {
+    "positive_gold": 22,
+    "TP": 15,
+    "FP": 4,
+    "FN": 7,
+    "precision": 0.7895,
+    "recall": 0.6818,
+    "ci95_precision": [
+     0.5443,
+     0.9395
+    ],
+    "ci95_recall": [
+     0.4513,
+     0.8614
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "underlying": {
+    "positive_gold": 19,
+    "TP": 4,
+    "FP": 24,
+    "FN": 15,
+    "precision": 0.1429,
+    "recall": 0.2105,
+    "ci95_precision": [
+     0.0403,
+     0.3267
+    ],
+    "ci95_recall": [
+     0.0605,
+     0.4557
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "barrier": {
+    "positive_gold": 17,
+    "TP": 1,
+    "FP": 8,
+    "FN": 19,
+    "precision": 0.1111,
+    "recall": 0.05,
+    "ci95_precision": [
+     0.0028,
+     0.4825
+    ],
+    "ci95_recall": [
+     0.0013,
+     0.2487
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "autocall": {
+    "positive_gold": 1,
+    "TP": 0,
+    "FP": 0,
+    "FN": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "ci95_precision": [
+     null,
+     null
+    ],
+    "ci95_recall": [
+     NaN,
+     0.975
+    ],
+    "gate_eligible": "INSUFFICIENT_EVIDENCE"
+   },
+   "observation_dates": {
+    "positive_gold": 15,
+    "TP": 22,
+    "FP": 1,
+    "FN": 7,
+    "precision": 0.9565,
+    "recall": 0.7586,
+    "ci95_precision": [
+     0.7805,
+     0.9989
+    ],
+    "ci95_recall": [
+     0.5646,
+     0.897
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "settlement_type": {
+    "positive_gold": 25,
+    "TP": 5,
+    "FP": 13,
+    "FN": 20,
+    "precision": 0.2778,
+    "recall": 0.2,
+    "ci95_precision": [
+     0.0969,
+     0.5348
+    ],
+    "ci95_recall": [
+     0.0683,
+     0.407
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "participation": {
+    "positive_gold": 5,
+    "TP": 0,
+    "FP": 0,
+    "FN": 5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "ci95_precision": [
+     null,
+     null
+    ],
+    "ci95_recall": [
+     NaN,
+     0.5218
+    ],
+    "gate_eligible": "DESCRIPTIVE_ONLY"
+   },
+   "cap": {
+    "positive_gold": 2,
+    "TP": 0,
+    "FP": 0,
+    "FN": 2,
+    "precision": 0.0,
+    "recall": 0.0,
+    "ci95_precision": [
+     null,
+     null
+    ],
+    "ci95_recall": [
+     NaN,
+     0.8419
+    ],
+    "gate_eligible": "INSUFFICIENT_EVIDENCE"
+   },
+   "strike": {
+    "positive_gold": 4,
+    "TP": 0,
+    "FP": 0,
+    "FN": 4,
+    "precision": 0.0,
+    "recall": 0.0,
+    "ci95_precision": [
+     null,
+     null
+    ],
+    "ci95_recall": [
+     NaN,
+     0.6024
+    ],
+    "gate_eligible": "INSUFFICIENT_EVIDENCE"
+   }
+  }
+ },
+ "seen_issuer": {
+  "per_field": {
+   "isin": {
+    "positive_gold": 64,
+    "TP": 62,
+    "FP": 0,
+    "FN": 2,
+    "precision": 1.0,
+    "recall": 0.9688,
+    "ci95_precision": [
+     0.9422,
+     NaN
+    ],
+    "ci95_recall": [
+     0.8916,
+     0.9962
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "currency": {
+    "positive_gold": 72,
+    "TP": 52,
+    "FP": 0,
+    "FN": 20,
+    "precision": 1.0,
+    "recall": 0.7222,
+    "ci95_precision": [
+     0.9315,
+     NaN
+    ],
+    "ci95_recall": [
+     0.6041,
+     0.8214
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "issue_date": {
+    "positive_gold": 64,
+    "TP": 48,
+    "FP": 0,
+    "FN": 16,
+    "precision": 1.0,
+    "recall": 0.75,
+    "ci95_precision": [
+     0.926,
+     NaN
+    ],
+    "ci95_recall": [
+     0.626,
+     0.8498
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "maturity": {
+    "positive_gold": 71,
+    "TP": 39,
+    "FP": 0,
+    "FN": 32,
+    "precision": 1.0,
+    "recall": 0.5493,
+    "ci95_precision": [
+     0.9097,
+     NaN
+    ],
+    "ci95_recall": [
+     0.4266,
+     0.6677
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "denomination": {
+    "positive_gold": 71,
+    "TP": 3,
+    "FP": 49,
+    "FN": 68,
+    "precision": 0.0577,
+    "recall": 0.0423,
+    "ci95_precision": [
+     0.0121,
+     0.1595
+    ],
+    "ci95_recall": [
+     0.0088,
+     0.1186
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "issued_amount": {
+    "positive_gold": 72,
+    "TP": 0,
+    "FP": 20,
+    "FN": 72,
+    "precision": 0.0,
+    "recall": 0.0,
+    "ci95_precision": [
+     NaN,
+     0.1684
+    ],
+    "ci95_recall": [
+     NaN,
+     0.0499
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "coupon_type": {
+    "positive_gold": 64,
+    "TP": 51,
+    "FP": 0,
+    "FN": 13,
+    "precision": 1.0,
+    "recall": 0.7969,
+    "ci95_precision": [
+     0.9302,
+     NaN
+    ],
+    "ci95_recall": [
+     0.6777,
+     0.8872
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "coupon_rate": {
+    "positive_gold": 48,
+    "TP": 16,
+    "FP": 14,
+    "FN": 32,
+    "precision": 0.5333,
+    "recall": 0.3333,
+    "ci95_precision": [
+     0.3433,
+     0.7166
+    ],
+    "ci95_recall": [
+     0.204,
+     0.4841
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "benchmark": {
+    "positive_gold": 25,
+    "TP": 10,
+    "FP": 10,
+    "FN": 15,
+    "precision": 0.5,
+    "recall": 0.4,
+    "ci95_precision": [
+     0.272,
+     0.728
+    ],
+    "ci95_recall": [
+     0.2113,
+     0.6133
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "spread": {
+    "positive_gold": 15,
+    "TP": 2,
+    "FP": 4,
+    "FN": 13,
+    "precision": 0.3333,
+    "recall": 0.1333,
+    "ci95_precision": [
+     0.0433,
+     0.7772
+    ],
+    "ci95_recall": [
+     0.0166,
+     0.4046
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "payment_frequency": {
+    "positive_gold": 63,
+    "TP": 27,
+    "FP": 24,
+    "FN": 37,
+    "precision": 0.5294,
+    "recall": 0.4219,
+    "ci95_precision": [
+     0.3846,
+     0.6707
+    ],
+    "ci95_recall": [
+     0.2994,
+     0.5518
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "day_count": {
+    "positive_gold": 56,
+    "TP": 40,
+    "FP": 5,
+    "FN": 23,
+    "precision": 0.8889,
+    "recall": 0.6349,
+    "ci95_precision": [
+     0.7595,
+     0.9629
+    ],
+    "ci95_recall": [
+     0.504,
+     0.7527
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "call_dates": {
+    "positive_gold": 27,
+    "TP": 24,
+    "FP": 0,
+    "FN": 4,
+    "precision": 1.0,
+    "recall": 0.8571,
+    "ci95_precision": [
+     0.8575,
+     NaN
+    ],
+    "ci95_recall": [
+     0.6733,
+     0.9597
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "business_day_convention": {
+    "positive_gold": 38,
+    "TP": 27,
+    "FP": 52,
+    "FN": 14,
+    "precision": 0.3418,
+    "recall": 0.6585,
+    "ci95_precision": [
+     0.2387,
+     0.4571
+    ],
+    "ci95_recall": [
+     0.4941,
+     0.7992
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "put_dates": {
+    "positive_gold": 4,
+    "TP": 1,
+    "FP": 2,
+    "FN": 3,
+    "precision": 0.3333,
+    "recall": 0.25,
+    "ci95_precision": [
+     0.0084,
+     0.9057
+    ],
+    "ci95_recall": [
+     0.0063,
+     0.8059
+    ],
+    "gate_eligible": "INSUFFICIENT_EVIDENCE"
+   },
+   "reset_dates": {
+    "positive_gold": 16,
+    "TP": 2,
+    "FP": 0,
+    "FN": 14,
+    "precision": 1.0,
+    "recall": 0.125,
+    "ci95_precision": [
+     0.1581,
+     NaN
+    ],
+    "ci95_recall": [
+     0.0155,
+     0.3835
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "fixing_rules": {
+    "positive_gold": 15,
+    "TP": 9,
+    "FP": 27,
+    "FN": 6,
+    "precision": 0.25,
+    "recall": 0.6,
+    "ci95_precision": [
+     0.1212,
+     0.422
+    ],
+    "ci95_recall": [
+     0.3229,
+     0.8366
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "ranking": {
+    "positive_gold": 10,
+    "TP": 1,
+    "FP": 17,
+    "FN": 9,
+    "precision": 0.0556,
+    "recall": 0.1,
+    "ci95_precision": [
+     0.0014,
+     0.2729
+    ],
+    "ci95_recall": [
+     0.0025,
+     0.445
+    ],
+    "gate_eligible": "DESCRIPTIVE_ONLY"
+   },
+   "subordination": {
+    "positive_gold": 28,
+    "TP": 0,
+    "FP": 17,
+    "FN": 28,
+    "precision": 0.0,
+    "recall": 0.0,
+    "ci95_precision": [
+     NaN,
+     0.1951
+    ],
+    "ci95_recall": [
+     NaN,
+     0.1234
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "redemption_formula": {
+    "positive_gold": 39,
+    "TP": 32,
+    "FP": 60,
+    "FN": 7,
+    "precision": 0.3478,
+    "recall": 0.8205,
+    "ci95_precision": [
+     0.2515,
+     0.4543
+    ],
+    "ci95_recall": [
+     0.6647,
+     0.9246
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "underlying": {
+    "positive_gold": 48,
+    "TP": 26,
+    "FP": 23,
+    "FN": 27,
+    "precision": 0.5306,
+    "recall": 0.4906,
+    "ci95_precision": [
+     0.3827,
+     0.6747
+    ],
+    "ci95_recall": [
+     0.3506,
+     0.6316
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "barrier": {
+    "positive_gold": 25,
+    "TP": 7,
+    "FP": 22,
+    "FN": 44,
+    "precision": 0.2414,
+    "recall": 0.1373,
+    "ci95_precision": [
+     0.103,
+     0.4354
+    ],
+    "ci95_recall": [
+     0.057,
+     0.2626
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "autocall": {
+    "positive_gold": 22,
+    "TP": 1,
+    "FP": 23,
+    "FN": 31,
+    "precision": 0.0417,
+    "recall": 0.0312,
+    "ci95_precision": [
+     0.0011,
+     0.2112
+    ],
+    "ci95_recall": [
+     0.0008,
+     0.1622
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "observation_dates": {
+    "positive_gold": 26,
+    "TP": 24,
+    "FP": 25,
+    "FN": 24,
+    "precision": 0.4898,
+    "recall": 0.5,
+    "ci95_precision": [
+     0.3442,
+     0.6366
+    ],
+    "ci95_recall": [
+     0.3523,
+     0.6477
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "settlement_type": {
+    "positive_gold": 70,
+    "TP": 49,
+    "FP": 1,
+    "FN": 21,
+    "precision": 0.98,
+    "recall": 0.7,
+    "ci95_precision": [
+     0.8935,
+     0.9995
+    ],
+    "ci95_recall": [
+     0.5787,
+     0.8038
+    ],
+    "gate_eligible": "GATE_ELIGIBLE"
+   },
+   "participation": {
+    "positive_gold": 0,
+    "TP": 0,
+    "FP": 1,
+    "FN": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "ci95_precision": [
+     NaN,
+     0.975
+    ],
+    "ci95_recall": [
+     null,
+     null
+    ],
+    "gate_eligible": "INSUFFICIENT_EVIDENCE"
+   },
+   "cap": {
+    "positive_gold": 0,
+    "TP": 0,
+    "FP": 3,
+    "FN": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "ci95_precision": [
+     NaN,
+     0.7076
+    ],
+    "ci95_recall": [
+     null,
+     null
+    ],
+    "gate_eligible": "INSUFFICIENT_EVIDENCE"
+   },
+   "strike": {
+    "positive_gold": 1,
+    "TP": 0,
+    "FP": 0,
+    "FN": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "ci95_precision": [
+     null,
+     null
+    ],
+    "ci95_recall": [
+     NaN,
+     0.975
+    ],
+    "gate_eligible": "INSUFFICIENT_EVIDENCE"
+   }
+  }
+ },
+ "classification": {
+  "n": 97,
+  "role_accuracy": 0.9691,
+  "metadata_determined": {
+   "n": 97,
+   "accuracy": 0.9691
+  },
+  "content_determined": {
+   "n": 0,
+   "accuracy": 0.0
+  },
+  "unknown_rate": 0.0,
+  "false_confident": 3
+ },
+ "documents": [
+  {
+   "doc": "ADM_143044",
+   "cold": true,
+   "role_pred": "SECURITIES_NOTE",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "MISSING",
+    "currency": "MISSING",
+    "issue_date": "MISSING",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "benchmark": "MISSING",
+    "spread": "MISSING",
+    "payment_frequency": "MISSING",
+    "call_dates": "MISSING",
+    "business_day_convention": "MISSING",
+    "reset_dates": "MISSING",
+    "fixing_rules": "MISSING",
+    "ranking": "MISSING",
+    "subordination": "MISSING",
+    "redemption_formula": "MISSING",
+    "barrier": "MISSING",
+    "settlement_type": "MISSING",
+    "strike": "MISSING"
+   }
+  },
+  {
+   "doc": "ADM_143045",
+   "cold": false,
+   "role_pred": "ISSUE_DOC",
+   "scope_pred": "OUT_OF_SCOPE",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "MISSING",
+    "maturity": "MISSING",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "coupon_rate": "EXACT",
+    "benchmark": "DISJOINT",
+    "spread": "MISSING",
+    "payment_frequency": "MISSING",
+    "day_count": "MISSING",
+    "business_day_convention": "EXACT",
+    "reset_dates": "MISSING",
+    "fixing_rules": "MISSING",
+    "redemption_formula": "MISSING",
+    "underlying": "EXACT",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "CCFF_11290_005",
+   "cold": true,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "EXACT",
+    "issued_amount": "EXACT",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "MISSING",
+    "business_day_convention": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "EXACT",
+    "observation_dates": "EXACT",
+    "settlement_type": "EXACT",
+    "strike": "MISSING"
+   }
+  },
+  {
+   "doc": "ADM_143047",
+   "cold": false,
+   "role_pred": "ISSUE_DOC",
+   "scope_pred": "OUT_OF_SCOPE",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "MISSING",
+    "maturity": "MISSING",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "DISJOINT",
+    "benchmark": "EXACT",
+    "spread": "MISSING",
+    "payment_frequency": "DISJOINT",
+    "day_count": "DISJOINT",
+    "business_day_convention": "EXACT",
+    "reset_dates": "MISSING",
+    "fixing_rules": "MISSING",
+    "redemption_formula": "MISSING",
+    "underlying": "EXACT",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "ADM_143048",
+   "cold": true,
+   "role_pred": "SECURITIES_NOTE",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "benchmark": "MISSING",
+    "spread": "MISSING",
+    "payment_frequency": "MISSING",
+    "day_count": "MISSING",
+    "call_dates": "MISSING",
+    "business_day_convention": "MISSING",
+    "reset_dates": "MISSING",
+    "fixing_rules": "MISSING",
+    "ranking": "EXACT",
+    "redemption_formula": "MISSING",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "ADM_143056",
+   "cold": true,
+   "role_pred": "SECURITIES_NOTE",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "benchmark": "MISSING",
+    "spread": "MISSING",
+    "payment_frequency": "MISSING",
+    "day_count": "MISSING",
+    "call_dates": "MISSING",
+    "business_day_convention": "MISSING",
+    "reset_dates": "MISSING",
+    "fixing_rules": "MISSING",
+    "redemption_formula": "MISSING",
+    "underlying": "MISSING",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "ADM_143057",
+   "cold": true,
+   "role_pred": "SECURITIES_NOTE",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "benchmark": "MISSING",
+    "spread": "MISSING",
+    "payment_frequency": "MISSING",
+    "day_count": "MISSING",
+    "call_dates": "MISSING",
+    "business_day_convention": "MISSING",
+    "reset_dates": "MISSING",
+    "fixing_rules": "MISSING",
+    "redemption_formula": "MISSING",
+    "underlying": "MISSING",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "ADM_143059",
+   "cold": false,
+   "role_pred": "SECURITIES_NOTE",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "MISSING",
+    "maturity": "EXACT",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "benchmark": "MISSING",
+    "spread": "MISSING",
+    "payment_frequency": "MISSING",
+    "day_count": "MISSING",
+    "business_day_convention": "EXACT",
+    "reset_dates": "MISSING",
+    "fixing_rules": "MISSING",
+    "redemption_formula": "MISSING",
+    "underlying": "EXACT",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "ADM_143121",
+   "cold": true,
+   "role_pred": "SECURITIES_NOTE",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "MISSING",
+    "currency": "MISSING",
+    "issue_date": "MISSING",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "benchmark": "MISSING",
+    "spread": "MISSING",
+    "payment_frequency": "MISSING",
+    "call_dates": "MISSING",
+    "business_day_convention": "MISSING",
+    "reset_dates": "MISSING",
+    "fixing_rules": "MISSING",
+    "ranking": "MISSING",
+    "subordination": "MISSING",
+    "redemption_formula": "MISSING",
+    "barrier": "MISSING",
+    "settlement_type": "MISSING",
+    "strike": "MISSING"
+   }
+  },
+  {
+   "doc": "ADM_143129",
+   "cold": true,
+   "role_pred": "SECURITIES_NOTE",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "benchmark": "MISSING",
+    "spread": "MISSING",
+    "payment_frequency": "MISSING",
+    "day_count": "MISSING",
+    "call_dates": "MISSING",
+    "business_day_convention": "MISSING",
+    "reset_dates": "MISSING",
+    "fixing_rules": "MISSING",
+    "ranking": "EXACT",
+    "subordination": "EXACT",
+    "redemption_formula": "MISSING",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "ADM_143164",
+   "cold": false,
+   "role_pred": "SECURITIES_NOTE",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "MISSING",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "benchmark": "MISSING",
+    "spread": "MISSING",
+    "payment_frequency": "MISSING",
+    "call_dates": "MISSING",
+    "business_day_convention": "MISSING",
+    "reset_dates": "MISSING",
+    "fixing_rules": "MISSING",
+    "ranking": "MISSING",
+    "subordination": "MISSING",
+    "redemption_formula": "MISSING",
+    "barrier": "MISSING",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "ADM_143166",
+   "cold": true,
+   "role_pred": "SECURITIES_NOTE",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "MISSING",
+    "currency": "MISSING",
+    "issue_date": "MISSING",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "benchmark": "MISSING",
+    "spread": "MISSING",
+    "payment_frequency": "MISSING",
+    "call_dates": "MISSING",
+    "business_day_convention": "MISSING",
+    "reset_dates": "MISSING",
+    "fixing_rules": "MISSING",
+    "ranking": "MISSING",
+    "subordination": "MISSING",
+    "redemption_formula": "MISSING",
+    "barrier": "MISSING",
+    "settlement_type": "MISSING",
+    "strike": "MISSING"
+   }
+  },
+  {
+   "doc": "ADM_143217",
+   "cold": false,
+   "role_pred": "ISSUE_DOC",
+   "scope_pred": "OUT_OF_SCOPE",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "MISSING",
+    "maturity": "EXACT",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "coupon_rate": "EXACT",
+    "benchmark": "EXACT",
+    "spread": "MISSING",
+    "payment_frequency": "DISJOINT",
+    "day_count": "DISJOINT",
+    "business_day_convention": "EXACT",
+    "reset_dates": "MISSING",
+    "fixing_rules": "EXACT",
+    "redemption_formula": "MISSING",
+    "underlying": "EXACT",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "FOL_11166",
+   "cold": false,
+   "role_pred": "BASE_PROSPECTUS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "currency": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "benchmark": "EXACT",
+    "payment_frequency": "MISSING",
+    "day_count": "MISSING",
+    "call_dates": "EXACT",
+    "business_day_convention": "EXACT",
+    "reset_dates": "MISSING",
+    "fixing_rules": "EXACT",
+    "ranking": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "EXACT",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "FOL_11268",
+   "cold": false,
+   "role_pred": "BASE_PROSPECTUS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "currency": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "EXACT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "benchmark": "EXACT",
+    "payment_frequency": "MISSING",
+    "day_count": "MISSING",
+    "call_dates": "EXACT",
+    "business_day_convention": "MISSING",
+    "put_dates": "MISSING",
+    "reset_dates": "MISSING",
+    "fixing_rules": "EXACT",
+    "ranking": "MISSING",
+    "subordination": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "EXACT",
+    "barrier": "FP",
+    "autocall": "FP",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "FOL_11338",
+   "cold": false,
+   "role_pred": "BASE_PROSPECTUS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "currency": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "benchmark": "MISSING",
+    "payment_frequency": "MISSING",
+    "day_count": "MISSING",
+    "call_dates": "EXACT",
+    "business_day_convention": "MISSING",
+    "reset_dates": "MISSING",
+    "fixing_rules": "EXACT",
+    "ranking": "MISSING",
+    "subordination": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "MISSING",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "FOL_11377",
+   "cold": false,
+   "role_pred": "BASE_PROSPECTUS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "currency": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "EXACT",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "payment_frequency": "MISSING",
+    "ranking": "MISSING",
+    "redemption_formula": "MISSING",
+    "settlement_type": "MISSING",
+    "participation": "FP"
+   }
+  },
+  {
+   "doc": "FOL_11382",
+   "cold": false,
+   "role_pred": "BASE_PROSPECTUS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "currency": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "benchmark": "EXACT",
+    "payment_frequency": "MISSING",
+    "day_count": "EXACT",
+    "call_dates": "EXACT",
+    "business_day_convention": "EXACT",
+    "put_dates": "MISSING",
+    "reset_dates": "MISSING",
+    "fixing_rules": "EXACT",
+    "ranking": "MISSING",
+    "subordination": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "EXACT",
+    "barrier": "FP",
+    "autocall": "FP",
+    "settlement_type": "EXACT",
+    "cap": "FP"
+   }
+  },
+  {
+   "doc": "FOL_11403",
+   "cold": false,
+   "role_pred": "BASE_PROSPECTUS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "currency": "MISSING",
+    "maturity": "MISSING",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "benchmark": "MISSING",
+    "payment_frequency": "MISSING",
+    "day_count": "MISSING",
+    "call_dates": "EXACT",
+    "business_day_convention": "MISSING",
+    "put_dates": "MISSING",
+    "reset_dates": "MISSING",
+    "fixing_rules": "MISSING",
+    "ranking": "MISSING",
+    "subordination": "MISSING",
+    "redemption_formula": "MISSING",
+    "underlying": "MISSING",
+    "settlement_type": "MISSING",
+    "cap": "FP"
+   }
+  },
+  {
+   "doc": "FOL_11407",
+   "cold": false,
+   "role_pred": "BASE_PROSPECTUS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "currency": "MISSING",
+    "maturity": "MISSING",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "benchmark": "EXACT",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "call_dates": "EXACT",
+    "business_day_convention": "EXACT",
+    "put_dates": "FP",
+    "reset_dates": "MISSING",
+    "fixing_rules": "EXACT",
+    "ranking": "MISSING",
+    "subordination": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "EXACT",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "FOL_11415",
+   "cold": false,
+   "role_pred": "BASE_PROSPECTUS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "currency": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "EXACT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "benchmark": "EXACT",
+    "payment_frequency": "MISSING",
+    "day_count": "MISSING",
+    "call_dates": "EXACT",
+    "business_day_convention": "EXACT",
+    "put_dates": "FP",
+    "reset_dates": "EXACT",
+    "fixing_rules": "EXACT",
+    "ranking": "MISSING",
+    "subordination": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "MISSING",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11286_001",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "DISJOINT",
+    "day_count": "EXACT",
+    "business_day_convention": "SUPERSET_WITH_ERROR",
+    "redemption_formula": "EXACT",
+    "underlying": "EXACT",
+    "barrier": "PARTIAL",
+    "autocall": "DISJOINT",
+    "observation_dates": "SUPERSET_WITH_ERROR",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "CCFF_11290_002",
+   "cold": true,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "business_day_convention": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "DISJOINT",
+    "observation_dates": "PARTIAL",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11335_003",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "benchmark": "MISSING",
+    "day_count": "EXACT",
+    "business_day_convention": "DISJOINT",
+    "fixing_rules": "EXACT",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "DISJOINT",
+    "observation_dates": "EXACT",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "CCFF_11335_002",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "DISJOINT",
+    "day_count": "EXACT",
+    "business_day_convention": "EXACT",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "DISJOINT",
+    "autocall": "EXACT",
+    "observation_dates": "SUPERSET_WITH_ERROR",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11307_038",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "business_day_convention": "DISJOINT",
+    "fixing_rules": "MISSING",
+    "ranking": "EXACT",
+    "redemption_formula": "EXACT",
+    "underlying": "MISSING",
+    "observation_dates": "MISSING",
+    "settlement_type": "MISSING",
+    "strike": "MISSING"
+   }
+  },
+  {
+   "doc": "CCFF_11290_003",
+   "cold": true,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "business_day_convention": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "DISJOINT",
+    "observation_dates": "EXACT",
+    "settlement_type": "DISJOINT"
+   }
+  },
+  {
+   "doc": "CCFF_11340_006",
+   "cold": true,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "business_day_convention": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "MISSING",
+    "observation_dates": "PARTIAL",
+    "settlement_type": "DISJOINT",
+    "participation": "MISSING"
+   }
+  },
+  {
+   "doc": "CCFF_11290_020",
+   "cold": true,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "business_day_convention": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "MISSING",
+    "observation_dates": "PARTIAL",
+    "settlement_type": "DISJOINT",
+    "participation": "MISSING"
+   }
+  },
+  {
+   "doc": "CCFF_11290_019",
+   "cold": true,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "business_day_convention": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "MISSING",
+    "observation_dates": "PARTIAL",
+    "settlement_type": "DISJOINT",
+    "participation": "MISSING"
+   }
+  },
+  {
+   "doc": "CCFF_11290_015",
+   "cold": true,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "business_day_convention": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "MISSING",
+    "observation_dates": "EXACT",
+    "settlement_type": "DISJOINT",
+    "participation": "MISSING",
+    "cap": "MISSING"
+   }
+  },
+  {
+   "doc": "CCFF_11290_012",
+   "cold": true,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "business_day_convention": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "DISJOINT",
+    "observation_dates": "EXACT",
+    "settlement_type": "DISJOINT"
+   }
+  },
+  {
+   "doc": "CCFF_11290_011",
+   "cold": true,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "business_day_convention": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "SUPERSET_WITH_ERROR",
+    "barrier": "DISJOINT",
+    "observation_dates": "EXACT",
+    "settlement_type": "DISJOINT"
+   }
+  },
+  {
+   "doc": "CCFF_11290_008",
+   "cold": true,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "business_day_convention": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "DISJOINT",
+    "observation_dates": "PARTIAL",
+    "settlement_type": "DISJOINT"
+   }
+  },
+  {
+   "doc": "CCFF_11286_012",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "benchmark": "MISSING",
+    "payment_frequency": "DISJOINT",
+    "day_count": "EXACT",
+    "business_day_convention": "DISJOINT",
+    "fixing_rules": "EXACT",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "MISSING",
+    "observation_dates": "EXACT",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "CCFF_11286_010",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "DISJOINT",
+    "day_count": "EXACT",
+    "business_day_convention": "SUPERSET_WITH_ERROR",
+    "fixing_rules": "FP",
+    "redemption_formula": "EXACT",
+    "underlying": "SUPERSET_WITH_ERROR",
+    "barrier": "DISJOINT",
+    "autocall": "DISJOINT",
+    "observation_dates": "PARTIAL",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11286_008",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "DISJOINT",
+    "day_count": "EXACT",
+    "business_day_convention": "SUPERSET_WITH_ERROR",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "PARTIAL",
+    "autocall": "DISJOINT",
+    "observation_dates": "EXACT",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "CCFF_11286_006",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "EXACT",
+    "barrier": "SUPERSET_WITH_ERROR",
+    "autocall": "DISJOINT",
+    "observation_dates": "EXACT",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11286_005",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "MISSING",
+    "maturity": "EXACT",
+    "denomination": "MISSING",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "DISJOINT",
+    "day_count": "EXACT",
+    "business_day_convention": "SUPERSET_WITH_ERROR",
+    "redemption_formula": "EXACT",
+    "underlying": "EXACT",
+    "barrier": "PARTIAL",
+    "autocall": "DISJOINT",
+    "observation_dates": "SUPERSET_WITH_ERROR",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11380_008",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "MISSING",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "DISJOINT",
+    "day_count": "EXACT",
+    "business_day_convention": "SUPERSET_WITH_ERROR",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "DISJOINT",
+    "autocall": "DISJOINT",
+    "observation_dates": "SUPERSET_WITH_ERROR",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11380_006",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "DISJOINT",
+    "autocall": "DISJOINT",
+    "observation_dates": "EXACT",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11380_002",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "EXACT",
+    "barrier": "PARTIAL",
+    "autocall": "DISJOINT",
+    "observation_dates": "EXACT",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11433_007",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "SUPERSET_WITH_ERROR",
+    "barrier": "DISJOINT",
+    "autocall": "DISJOINT",
+    "observation_dates": "SUPERSET_WITH_ERROR",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11380_024",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "MISSING",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "EXACT",
+    "barrier": "SUPERSET_WITH_ERROR",
+    "autocall": "DISJOINT",
+    "observation_dates": "EXACT",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11380_013",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "EXACT",
+    "barrier": "DISJOINT",
+    "autocall": "DISJOINT",
+    "observation_dates": "SUPERSET_WITH_ERROR",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11380_014",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "call_dates": "EXACT",
+    "redemption_formula": "EXACT",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11380_005",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "MISSING",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "DISJOINT",
+    "day_count": "EXACT",
+    "business_day_convention": "SUPERSET_WITH_ERROR",
+    "redemption_formula": "EXACT",
+    "underlying": "EXACT",
+    "barrier": "DISJOINT",
+    "autocall": "DISJOINT",
+    "observation_dates": "EXACT",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11433_005",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "DISJOINT",
+    "day_count": "EXACT",
+    "business_day_convention": "SUPERSET_WITH_ERROR",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "DISJOINT",
+    "autocall": "DISJOINT",
+    "observation_dates": "SUPERSET_WITH_ERROR",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11433_001",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "DISJOINT",
+    "day_count": "EXACT",
+    "business_day_convention": "SUPERSET_WITH_ERROR",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "DISJOINT",
+    "autocall": "DISJOINT",
+    "observation_dates": "SUPERSET_WITH_ERROR",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11380_036",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "MISSING",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "DISJOINT",
+    "day_count": "EXACT",
+    "business_day_convention": "SUPERSET_WITH_ERROR",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "DISJOINT",
+    "autocall": "DISJOINT",
+    "observation_dates": "SUPERSET_WITH_ERROR",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11380_033",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "DISJOINT",
+    "day_count": "EXACT",
+    "business_day_convention": "SUPERSET_WITH_ERROR",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "DISJOINT",
+    "autocall": "DISJOINT",
+    "observation_dates": "SUPERSET_WITH_ERROR",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11380_027",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "business_day_convention": "SUPERSET_WITH_ERROR",
+    "redemption_formula": "EXACT",
+    "underlying": "EXACT",
+    "barrier": "DISJOINT",
+    "autocall": "DISJOINT",
+    "observation_dates": "EXACT",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11380_023",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "business_day_convention": "SUPERSET_WITH_ERROR",
+    "redemption_formula": "EXACT",
+    "underlying": "SUPERSET_WITH_ERROR",
+    "barrier": "DISJOINT",
+    "autocall": "DISJOINT",
+    "observation_dates": "EXACT",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11380_020",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "DISJOINT",
+    "day_count": "EXACT",
+    "business_day_convention": "SUPERSET_WITH_ERROR",
+    "redemption_formula": "EXACT",
+    "underlying": "EXACT",
+    "barrier": "DISJOINT",
+    "autocall": "DISJOINT",
+    "observation_dates": "EXACT",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11380_019",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "business_day_convention": "SUPERSET_WITH_ERROR",
+    "redemption_formula": "EXACT",
+    "underlying": "SUPERSET_WITH_ERROR",
+    "barrier": "DISJOINT",
+    "autocall": "DISJOINT",
+    "observation_dates": "EXACT",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11380_016",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "business_day_convention": "SUPERSET_WITH_ERROR",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "DISJOINT",
+    "autocall": "DISJOINT",
+    "observation_dates": "EXACT",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11340_024",
+   "cold": true,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "autocall": "MISSING",
+    "observation_dates": "DISJOINT",
+    "settlement_type": "DISJOINT"
+   }
+  },
+  {
+   "doc": "CCFF_11340_023",
+   "cold": true,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "MISSING",
+    "observation_dates": "EXACT",
+    "settlement_type": "DISJOINT",
+    "participation": "MISSING",
+    "cap": "MISSING"
+   }
+  },
+  {
+   "doc": "CCFF_11340_018",
+   "cold": true,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "benchmark": "FP",
+    "day_count": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "DISJOINT",
+    "observation_dates": "EXACT",
+    "settlement_type": "DISJOINT"
+   }
+  },
+  {
+   "doc": "CCFF_11340_014",
+   "cold": true,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "SUPERSET_WITH_ERROR",
+    "barrier": "DISJOINT",
+    "observation_dates": "EXACT",
+    "settlement_type": "DISJOINT"
+   }
+  },
+  {
+   "doc": "CCFF_11340_013",
+   "cold": true,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "benchmark": "FP",
+    "day_count": "MISSING",
+    "redemption_formula": "EXACT",
+    "underlying": "DISJOINT",
+    "barrier": "DISJOINT",
+    "observation_dates": "EXACT",
+    "settlement_type": "DISJOINT"
+   }
+  },
+  {
+   "doc": "CCFF_11309_002",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "MISSING",
+    "maturity": "MISSING",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "benchmark": "MISSING",
+    "spread": "MISSING",
+    "payment_frequency": "MISSING",
+    "call_dates": "MISSING",
+    "reset_dates": "MISSING",
+    "subordination": "MISSING"
+   }
+  },
+  {
+   "doc": "CCFF_11403_004",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "MISSING",
+    "maturity": "EXACT",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "benchmark": "MISSING",
+    "spread": "MISSING",
+    "payment_frequency": "MISSING",
+    "business_day_convention": "FP",
+    "underlying": "MISSING",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "CCFF_11403_003",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "MISSING",
+    "maturity": "EXACT",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "benchmark": "MISSING",
+    "spread": "MISSING",
+    "payment_frequency": "MISSING",
+    "call_dates": "EXACT",
+    "reset_dates": "MISSING",
+    "subordination": "MISSING",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "CCFF_11394_003",
+   "cold": true,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "DISJOINT",
+    "coupon_rate": "DISJOINT",
+    "benchmark": "EXACT",
+    "spread": "DISJOINT",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "call_dates": "DISJOINT",
+    "business_day_convention": "FP",
+    "reset_dates": "EXACT",
+    "fixing_rules": "FP",
+    "ranking": "FP",
+    "subordination": "DISJOINT",
+    "redemption_formula": "FP",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11251_001",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "MISSING",
+    "maturity": "MISSING",
+    "issued_amount": "MISSING"
+   }
+  },
+  {
+   "doc": "CCFF_11307_015",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "EXACT",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "call_dates": "EXACT",
+    "business_day_convention": "FP",
+    "ranking": "FP",
+    "subordination": "DISJOINT",
+    "redemption_formula": "FP",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11329_002",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "benchmark": "EXACT",
+    "spread": "FP",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "call_dates": "EXACT",
+    "business_day_convention": "EXACT",
+    "reset_dates": "EXACT",
+    "fixing_rules": "FP",
+    "ranking": "FP",
+    "subordination": "DISJOINT",
+    "redemption_formula": "FP",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "CCFF_11357_010",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "benchmark": "EXACT",
+    "spread": "MISSING",
+    "payment_frequency": "MISSING",
+    "day_count": "EXACT",
+    "business_day_convention": "FP",
+    "reset_dates": "MISSING",
+    "fixing_rules": "FP",
+    "ranking": "FP",
+    "subordination": "DISJOINT",
+    "redemption_formula": "FP",
+    "settlement_type": "EXACT",
+    "cap": "FP"
+   }
+  },
+  {
+   "doc": "CCFF_11357_004",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "MISSING",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "EXACT",
+    "day_count": "DISJOINT",
+    "business_day_convention": "FP",
+    "ranking": "FP",
+    "subordination": "DISJOINT",
+    "redemption_formula": "FP",
+    "underlying": "MISSING",
+    "observation_dates": "MISSING",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11289_001",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "coupon_rate": "DISJOINT",
+    "payment_frequency": "EXACT",
+    "day_count": "DISJOINT",
+    "call_dates": "EXACT",
+    "put_dates": "EXACT",
+    "subordination": "MISSING",
+    "redemption_formula": "FP",
+    "settlement_type": "DISJOINT"
+   }
+  },
+  {
+   "doc": "CCFF_11307_010",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "coupon_rate": "EXACT",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "call_dates": "EXACT",
+    "business_day_convention": "FP",
+    "ranking": "FP",
+    "subordination": "DISJOINT",
+    "redemption_formula": "FP",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11407_003",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "coupon_rate": "EXACT",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "call_dates": "EXACT",
+    "business_day_convention": "FP",
+    "subordination": "MISSING",
+    "redemption_formula": "FP",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "CCFF_11400_046",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "coupon_rate": "EXACT",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "call_dates": "EXACT",
+    "business_day_convention": "FP",
+    "ranking": "FP",
+    "subordination": "DISJOINT",
+    "redemption_formula": "FP",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11400_037",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "coupon_rate": "EXACT",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "call_dates": "EXACT",
+    "business_day_convention": "FP",
+    "ranking": "FP",
+    "subordination": "DISJOINT",
+    "redemption_formula": "FP",
+    "underlying": "FP",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11400_024",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "payment_frequency": "MISSING",
+    "day_count": "FP",
+    "call_dates": "EXACT",
+    "ranking": "FP",
+    "subordination": "DISJOINT",
+    "redemption_formula": "FP",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11400_002",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "coupon_rate": "EXACT",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "call_dates": "EXACT",
+    "business_day_convention": "FP",
+    "ranking": "FP",
+    "subordination": "DISJOINT",
+    "redemption_formula": "FP",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11400_047",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "coupon_rate": "EXACT",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "call_dates": "EXACT",
+    "business_day_convention": "FP",
+    "ranking": "FP",
+    "subordination": "DISJOINT",
+    "redemption_formula": "FP",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11400_021",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "coupon_rate": "EXACT",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "call_dates": "EXACT",
+    "business_day_convention": "FP",
+    "ranking": "FP",
+    "subordination": "DISJOINT",
+    "redemption_formula": "FP",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11400_032",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "coupon_rate": "EXACT",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "business_day_convention": "FP",
+    "ranking": "FP",
+    "subordination": "DISJOINT",
+    "redemption_formula": "FP",
+    "underlying": "FP",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11400_004",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "coupon_rate": "EXACT",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "business_day_convention": "FP",
+    "ranking": "FP",
+    "subordination": "DISJOINT",
+    "redemption_formula": "FP",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11400_011",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "coupon_rate": "EXACT",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "call_dates": "EXACT",
+    "business_day_convention": "FP",
+    "ranking": "FP",
+    "subordination": "DISJOINT",
+    "redemption_formula": "FP",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11357_019",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "coupon_rate": "EXACT",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "call_dates": "EXACT",
+    "business_day_convention": "FP",
+    "ranking": "FP",
+    "subordination": "DISJOINT",
+    "redemption_formula": "FP",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11357_009",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "benchmark": "MISSING",
+    "spread": "MISSING",
+    "payment_frequency": "MISSING",
+    "day_count": "EXACT",
+    "business_day_convention": "SUPERSET_WITH_ERROR",
+    "fixing_rules": "FP",
+    "ranking": "FP",
+    "subordination": "DISJOINT",
+    "redemption_formula": "FP",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11341_004",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "DISJOINT",
+    "benchmark": "FP",
+    "spread": "FP",
+    "payment_frequency": "SUPERSET_WITH_ERROR",
+    "day_count": "MISSING",
+    "business_day_convention": "DISJOINT",
+    "fixing_rules": "FP",
+    "redemption_formula": "FP",
+    "underlying": "EXACT",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11341_003",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "MISSING",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "coupon_rate": "FP",
+    "benchmark": "DISJOINT",
+    "spread": "EXACT",
+    "payment_frequency": "SUPERSET_WITH_ERROR",
+    "day_count": "EXACT",
+    "business_day_convention": "DISJOINT",
+    "fixing_rules": "FP",
+    "redemption_formula": "FP",
+    "underlying": "EXACT",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11340_009",
+   "cold": true,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "benchmark": "DISJOINT",
+    "spread": "MISSING",
+    "payment_frequency": "DISJOINT",
+    "day_count": "FP",
+    "call_dates": "EXACT",
+    "business_day_convention": "FP",
+    "fixing_rules": "FP",
+    "redemption_formula": "FP",
+    "underlying": "EXACT",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11340_020",
+   "cold": true,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "benchmark": "DISJOINT",
+    "spread": "MISSING",
+    "payment_frequency": "DISJOINT",
+    "day_count": "FP",
+    "call_dates": "EXACT",
+    "business_day_convention": "FP",
+    "fixing_rules": "FP",
+    "redemption_formula": "FP",
+    "underlying": "EXACT",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11384_002",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "MISSING",
+    "maturity": "EXACT",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "benchmark": "MISSING",
+    "spread": "DISJOINT",
+    "payment_frequency": "DISJOINT",
+    "business_day_convention": "FP",
+    "redemption_formula": "FP",
+    "underlying": "MISSING",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11338_002",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "MISSING",
+    "maturity": "EXACT",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "benchmark": "DISJOINT",
+    "spread": "MISSING",
+    "payment_frequency": "DISJOINT",
+    "business_day_convention": "FP",
+    "fixing_rules": "FP",
+    "redemption_formula": "FP",
+    "underlying": "MISSING",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11384_004",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "MISSING",
+    "maturity": "EXACT",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "EXACT",
+    "day_count": "MISSING",
+    "business_day_convention": "FP",
+    "redemption_formula": "FP",
+    "underlying": "MISSING",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11382_003",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "coupon_rate": "SUPERSET_WITH_ERROR",
+    "benchmark": "FP",
+    "payment_frequency": "EXACT",
+    "day_count": "MISSING",
+    "business_day_convention": "DISJOINT",
+    "fixing_rules": "FP",
+    "redemption_formula": "FP",
+    "underlying": "EXACT",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11385_002",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "MISSING",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "DISJOINT",
+    "benchmark": "FP",
+    "spread": "FP",
+    "payment_frequency": "SUPERSET_WITH_ERROR",
+    "day_count": "MISSING",
+    "business_day_convention": "DISJOINT",
+    "fixing_rules": "FP",
+    "redemption_formula": "FP",
+    "underlying": "EXACT",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11310_001",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "FP",
+    "benchmark": "EXACT",
+    "spread": "MISSING",
+    "payment_frequency": "DISJOINT",
+    "day_count": "EXACT",
+    "call_dates": "EXACT",
+    "business_day_convention": "FP",
+    "fixing_rules": "FP",
+    "redemption_formula": "FP",
+    "underlying": "MISSING",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "CCFF_11291_001",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "MISSING",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "MISSING",
+    "issued_amount": "MISSING",
+    "coupon_type": "MISSING",
+    "coupon_rate": "MISSING",
+    "payment_frequency": "MISSING",
+    "day_count": "MISSING",
+    "call_dates": "MISSING",
+    "business_day_convention": "EXACT",
+    "underlying": "MISSING",
+    "settlement_type": "MISSING"
+   }
+  },
+  {
+   "doc": "CCFF_11398_003",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "MISSING",
+    "coupon_type": "EXACT",
+    "coupon_rate": "FP",
+    "benchmark": "DISJOINT",
+    "spread": "EXACT",
+    "payment_frequency": "MISSING",
+    "day_count": "EXACT",
+    "fixing_rules": "FP",
+    "redemption_formula": "FP",
+    "underlying": "EXACT",
+    "settlement_type": "EXACT"
+   }
+  },
+  {
+   "doc": "CCFF_11307_021",
+   "cold": false,
+   "role_pred": "FINAL_TERMS",
+   "scope_pred": "INSTRUMENT_DEFINING",
+   "fields": {
+    "isin": "EXACT",
+    "currency": "EXACT",
+    "issue_date": "EXACT",
+    "maturity": "EXACT",
+    "denomination": "DISJOINT",
+    "issued_amount": "DISJOINT",
+    "coupon_type": "EXACT",
+    "coupon_rate": "EXACT",
+    "payment_frequency": "EXACT",
+    "day_count": "EXACT",
+    "call_dates": "EXACT",
+    "business_day_convention": "FP",
+    "ranking": "FP",
+    "subordination": "DISJOINT",
+    "redemption_formula": "FP",
+    "settlement_type": "EXACT"
+   }
+  }
+ ]
+}

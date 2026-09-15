@@ -1,0 +1,239 @@
+{
+ "role": {
+  "SECURITIES_NOTE": {
+   "coupon_rate:MISSING": 9,
+   "call_put:MISSING": 8,
+   "structured:MISSING": 12,
+   "coupon_rate:EXACT": 2,
+   "day_count:MISSING": 6,
+   "coupon_rate:DISJOINT": 1,
+   "day_count:PARTIAL": 1,
+   "day_count:DISJOINT": 1
+  },
+  "FINAL_TERMS": {
+   "coupon_rate:MISSING": 40,
+   "structured:EXACT": 8,
+   "day_count:EXACT": 39,
+   "structured:PARTIAL": 13,
+   "structured:DISJOINT": 11,
+   "structured:MISSING": 8,
+   "structured:SUPERSET_WITH_ERROR": 1,
+   "call_put:EXACT": 19,
+   "day_count:MISSING": 7,
+   "call_put:MISSING": 2,
+   "coupon_rate:EXACT": 15,
+   "call_put:DISJOINT": 1,
+   "structured:FP": 31,
+   "day_count:DISJOINT": 2,
+   "day_count:FP": 3,
+   "coupon_rate:SUPERSET_WITH_ERROR": 2,
+   "coupon_rate:FP": 3,
+   "coupon_rate:DISJOINT": 1
+  },
+  "BASE_PROSPECTUS": {
+   "day_count:MISSING": 5,
+   "call_put:EXACT": 7,
+   "structured:EXACT": 4,
+   "structured:FP": 2,
+   "structured:MISSING": 2,
+   "day_count:EXACT": 2
+  }
+ },
+ "issuer": {
+  "CAIXABANK, S.A.": {
+   "coupon_rate:MISSING": 17,
+   "call_put:MISSING": 3,
+   "structured:MISSING": 9,
+   "structured:EXACT": 1,
+   "structured:DISJOINT": 8,
+   "day_count:MISSING": 2,
+   "day_count:FP": 2,
+   "call_put:EXACT": 2,
+   "structured:FP": 2
+  },
+  "CAJA RURAL DE ALBACETE, CIUDAD REAL Y CUENCA, SOCIEDAD COOPERATIVA DE CREDI": {
+   "coupon_rate:EXACT": 1,
+   "day_count:MISSING": 1,
+   "structured:MISSING": 1
+  },
+  "CAJAMAR CAJA RURAL, SOCIEDAD COOPERATIVA DE CREDITO": {
+   "coupon_rate:DISJOINT": 1,
+   "day_count:PARTIAL": 1,
+   "structured:MISSING": 1
+  },
+  "IBERCAJA BANCO, S.A.": {
+   "coupon_rate:MISSING": 4,
+   "day_count:MISSING": 4,
+   "call_put:MISSING": 4,
+   "structured:MISSING": 4
+  },
+  "CAJA RURAL DE NAVARRA, S. COOP. DE CREDITO": {
+   "coupon_rate:MISSING": 1,
+   "day_count:MISSING": 1,
+   "structured:MISSING": 2,
+   "coupon_rate:EXACT": 1,
+   "day_count:DISJOINT": 1
+  },
+  "ABANCA CORPORACION BANCARIA, S.A.": {
+   "coupon_rate:MISSING": 2,
+   "call_put:MISSING": 1,
+   "structured:MISSING": 1,
+   "day_count:EXACT": 1,
+   "call_put:EXACT": 1,
+   "structured:FP": 1
+  },
+  "BANCO SANTANDER, S.A.": {
+   "day_count:MISSING": 3,
+   "call_put:EXACT": 14,
+   "structured:EXACT": 2,
+   "day_count:EXACT": 18,
+   "coupon_rate:MISSING": 3,
+   "structured:MISSING": 1,
+   "coupon_rate:EXACT": 13,
+   "structured:FP": 20,
+   "day_count:DISJOINT": 1,
+   "day_count:FP": 1,
+   "coupon_rate:SUPERSET_WITH_ERROR": 1,
+   "coupon_rate:FP": 1,
+   "coupon_rate:DISJOINT": 1
+  },
+  "BANCA MARCH, S.A.": {
+   "day_count:MISSING": 1,
+   "call_put:EXACT": 1,
+   "structured:FP": 2,
+   "coupon_rate:FP": 1,
+   "day_count:EXACT": 1
+  },
+  "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.": {
+   "day_count:MISSING": 2,
+   "call_put:EXACT": 1,
+   "structured:EXACT": 1,
+   "structured:FP": 3,
+   "coupon_rate:MISSING": 1
+  },
+  "UNION FINANCIERA ASTURIANA, S.A.": {
+   "structured:MISSING": 1
+  },
+  "BANCO DE SABADELL, S.A.": {
+   "day_count:EXACT": 1,
+   "call_put:EXACT": 1,
+   "structured:FP": 2,
+   "coupon_rate:SUPERSET_WITH_ERROR": 1,
+   "day_count:MISSING": 1
+  },
+  "BANKINTER, S.A.": {
+   "day_count:MISSING": 1,
+   "call_put:EXACT": 2,
+   "structured:MISSING": 1,
+   "coupon_rate:MISSING": 2,
+   "call_put:MISSING": 1
+  },
+  "UNICAJA BANCO, S.A.": {
+   "day_count:MISSING": 1,
+   "call_put:EXACT": 1,
+   "structured:EXACT": 1
+  },
+  "BBVA GLOBAL MARKETS B.V.": {
+   "coupon_rate:MISSING": 18,
+   "day_count:EXACT": 18,
+   "structured:PARTIAL": 13,
+   "structured:DISJOINT": 3,
+   "structured:MISSING": 1,
+   "structured:SUPERSET_WITH_ERROR": 1,
+   "structured:EXACT": 7,
+   "call_put:EXACT": 1
+  },
+  "MAPFRE, S.A.": {
+   "coupon_rate:EXACT": 1,
+   "day_count:EXACT": 1,
+   "call_put:DISJOINT": 1,
+   "structured:FP": 1
+  },
+  "AENA, S.M.E., S.A.": {
+   "coupon_rate:EXACT": 1,
+   "day_count:DISJOINT": 1,
+   "call_put:EXACT": 1,
+   "structured:FP": 1
+  },
+  "KUTXABANK, S.A": {
+   "coupon_rate:FP": 1,
+   "day_count:EXACT": 1,
+   "call_put:EXACT": 1,
+   "structured:FP": 1
+  },
+  "DEUTSCHE BANK, SOCIEDAD ANONIMA ESPA\u00d1OLA": {
+   "coupon_rate:MISSING": 1,
+   "day_count:MISSING": 1,
+   "call_put:MISSING": 1
+  }
+ },
+ "class": {
+  "CONVERTIBLE": {
+   "coupon_rate:MISSING": 3,
+   "call_put:MISSING": 3,
+   "structured:MISSING": 3
+  },
+  "COVERED": {
+   "coupon_rate:EXACT": 2,
+   "day_count:MISSING": 8,
+   "structured:MISSING": 6,
+   "coupon_rate:DISJOINT": 2,
+   "day_count:PARTIAL": 1,
+   "coupon_rate:MISSING": 5,
+   "call_put:MISSING": 3,
+   "day_count:DISJOINT": 1,
+   "coupon_rate:FP": 2,
+   "day_count:EXACT": 2,
+   "structured:FP": 9,
+   "day_count:FP": 2,
+   "call_put:EXACT": 3,
+   "coupon_rate:SUPERSET_WITH_ERROR": 1
+  },
+  "STRUCTURED": {
+   "coupon_rate:MISSING": 33,
+   "structured:EXACT": 8,
+   "day_count:EXACT": 19,
+   "structured:PARTIAL": 13,
+   "structured:DISJOINT": 11,
+   "structured:MISSING": 8,
+   "structured:SUPERSET_WITH_ERROR": 1,
+   "call_put:EXACT": 1,
+   "day_count:MISSING": 2
+  },
+  "PLAIN": {
+   "coupon_rate:MISSING": 6,
+   "day_count:MISSING": 2,
+   "call_put:MISSING": 3,
+   "structured:MISSING": 3,
+   "coupon_rate:EXACT": 14,
+   "day_count:EXACT": 17,
+   "call_put:EXACT": 14,
+   "structured:FP": 20,
+   "day_count:DISJOINT": 2,
+   "day_count:FP": 1,
+   "coupon_rate:FP": 1
+  },
+  "PROGRAMME": {
+   "day_count:MISSING": 5,
+   "call_put:EXACT": 7,
+   "structured:EXACT": 4,
+   "structured:FP": 2,
+   "structured:MISSING": 2,
+   "day_count:EXACT": 2
+  },
+  "SUBORDINATED": {
+   "coupon_rate:MISSING": 2,
+   "call_put:MISSING": 1,
+   "call_put:EXACT": 1,
+   "coupon_rate:EXACT": 1,
+   "day_count:EXACT": 1,
+   "call_put:DISJOINT": 1,
+   "structured:FP": 1
+  },
+  "COVERED_INTL": {
+   "coupon_rate:SUPERSET_WITH_ERROR": 1,
+   "day_count:MISSING": 1,
+   "structured:FP": 1
+  }
+ }
+}

@@ -1,0 +1,317 @@
+{
+ "phase": "G1-C lifecycle score",
+ "n_all": 49,
+ "TP": 49,
+ "FP": 0,
+ "FN": 0,
+ "precision": 1.0,
+ "recall": 1.0,
+ "false_positive_edges": 0,
+ "per_case": [
+  {
+   "doc": "FAM_11286_11286.4",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FAM_11286_11286.3",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FAM_11286_11286.2",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FAM_11286_11286.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FAM_11291_11291.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FAM_11307_11307.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FAM_11310_11310.2",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FAM_11310_11310.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FAM_11329_11329.2",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FAM_11329_11329.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FAM_11335_11335.3",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FAM_11335_11335.2",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FAM_11335_11335.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FAM_11357_11357.2",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FAM_11357_11357.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FAM_11374_11374.3",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FAM_11374_11374.2",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FAM_11374_11374.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11146.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11212.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11275.3",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11368.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11265.2",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11081.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11236.2",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11227.4",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11231.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11217.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11116.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11298.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11319.3",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11360.2",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11328.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11310.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11227.3",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11257.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11269.2",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11247.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11373.3",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11155.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11213.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11170.1",
+   "gold": "SUPPLEMENTS",
+   "pred": "SUPPLEMENTS",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11232-1",
+   "gold": "MODIFIES",
+   "pred": "MODIFIES",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11225-2",
+   "gold": "MODIFIES",
+   "pred": "MODIFIES",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11225-1",
+   "gold": "MODIFIES",
+   "pred": "MODIFIES",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11269-1",
+   "gold": "MODIFIES",
+   "pred": "MODIFIES",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11265-1",
+   "gold": "MODIFIES",
+   "pred": "MODIFIES",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11367-1",
+   "gold": "MODIFIES",
+   "pred": "MODIFIES",
+   "score": "TP"
+  },
+  {
+   "doc": "FOL_11358-1",
+   "gold": "MODIFIES",
+   "pred": "MODIFIES",
+   "score": "TP"
+  }
+ ],
+ "audit": {
+  "code_freeze_sha": "7e24bfe79e1eeaf68fd4009af1440243544c5c3c2fbbf65826333b49f2d3dfa0",
+  "scoring_contract_sha": "efc79371080ec5ec2dc5ae75dfe1e4e1538aeb729b767ef205b3c42121ad9f5c",
+  "environment_sha": "ba2f63cb78eadb9b26633fb91d62626b3a8f337666e416d982631b1f7a9f4e4d",
+  "input_manifest_sha": "70df6a8e8c51bb308ac6f7c9cdf419953b64802463204a5a614197d6c1e95133",
+  "prediction_sha256": "fb8f92936670d1f08aa9253c23f121e227c8db7c6da0198d295df0184deab6ad",
+  "truth_sha256": "gold dentro del input manifest: 70df6a8e8c51bb308ac6f7c9cdf419953b64802463204a5a614197d6c1e95133",
+  "hard_gates": {
+   "false_positive_edges==0": true
+  }
+ }
+}

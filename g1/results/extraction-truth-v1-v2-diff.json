@@ -1,0 +1,961 @@
+{
+ "from": "extraction-truth-v1.json",
+ "to": "extraction-truth-v2.json",
+ "n_changes": 66,
+ "changes": [
+  {
+   "doc": "ADM_143047",
+   "field": "day_count",
+   "v1": {
+    "label": "MULTI",
+    "values": [
+     "Actual/Actual (ICMA)",
+     "Actual/360"
+    ]
+   },
+   "v2": {
+    "label": "MULTI",
+    "values": [
+     "ACT_ACT_ICMA",
+     "ACT_360"
+    ]
+   },
+   "reason": "R1"
+  },
+  {
+   "doc": "CCFF_11289_001",
+   "field": "day_count",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "ACT_ACT"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "ACT_ACT_ICMA"
+    ]
+   },
+   "reason": "R1"
+  },
+  {
+   "doc": "CCFF_11384_004",
+   "field": "day_count",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "ACT_ACT"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "ACT_ACT_ICMA"
+    ]
+   },
+   "reason": "R1"
+  },
+  {
+   "doc": "CCFF_11341_003",
+   "field": "benchmark",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "EURIBOR"
+    ]
+   },
+   "v2": {
+    "label": "MULTI",
+    "values": [
+     "euribor 6 meses",
+     "euribor 3 meses"
+    ]
+   },
+   "reason": "R2"
+  },
+  {
+   "doc": "CCFF_11384_002",
+   "field": "benchmark",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "EURIBOR"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "euribor a 3 meses"
+    ]
+   },
+   "reason": "R2"
+  },
+  {
+   "doc": "CCFF_11338_002",
+   "field": "benchmark",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "EURIBOR"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "euribor a 3 meses"
+    ]
+   },
+   "reason": "R2"
+  },
+  {
+   "doc": "CCFF_11340_009",
+   "field": "benchmark",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "EURIBOR"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "euribor 6 meses"
+    ]
+   },
+   "reason": "R2"
+  },
+  {
+   "doc": "CCFF_11340_020",
+   "field": "benchmark",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "EURIBOR"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "euribor 6 meses"
+    ]
+   },
+   "reason": "R2"
+  },
+  {
+   "doc": "CCFF_11398_003",
+   "field": "benchmark",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "EURIBOR"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "euribor 6 meses"
+    ]
+   },
+   "reason": "R2"
+  },
+  {
+   "doc": "CCFF_11357_009",
+   "field": "benchmark",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "EURIBOR"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "1-month eur-euribor"
+    ]
+   },
+   "reason": "R2"
+  },
+  {
+   "doc": "CCFF_11286_012",
+   "field": "benchmark",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "EURIBOR"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "euribor 6m"
+    ]
+   },
+   "reason": "R2"
+  },
+  {
+   "doc": "ADM_143047",
+   "field": "benchmark",
+   "v1": {
+    "label": "PRESENT"
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "euribor a 12 meses"
+    ]
+   },
+   "reason": "R6 prorroga"
+  },
+  {
+   "doc": "ADM_143047",
+   "field": "spread",
+   "v1": {
+    "label": "PRESENT"
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "0.78"
+    ]
+   },
+   "reason": "R6 prorroga"
+  },
+  {
+   "doc": "CCFF_11307_015",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Senior Preferred"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "senior preferred notes"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11307_010",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Senior Preferred"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "senior preferred notes"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11307_021",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Senior Preferred"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "senior preferred notes"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11357_004",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Senior Preferred"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "senior preferred notes"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11357_009",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Senior Preferred"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "senior preferred notes"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11357_019",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Senior Preferred"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "senior preferred notes"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11400_037",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Senior Preferred"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "senior preferred notes"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11400_047",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Senior Preferred"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "senior preferred notes"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11400_032",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Senior Preferred"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "senior preferred notes"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11400_046",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Senior Non-Preferred"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "senior non-preferred notes"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11400_024",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Senior Non-Preferred"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "senior non-preferred notes"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11400_002",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Senior Non-Preferred"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "senior non-preferred notes"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11400_021",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Senior Non-Preferred"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "senior non-preferred notes"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11400_004",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Senior Non-Preferred"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "senior non-preferred notes"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11400_011",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Senior Non-Preferred"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "senior non-preferred notes"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11407_003",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Senior Non-Preferred"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "senior non preferred instruments"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11403_003",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Senior Non-Preferred"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "senior non preferred notes"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11309_002",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Tier 2"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "tier 2 capital"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11394_003",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Tier 2"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "tier 2 notes"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11329_002",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Senior"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "ordinary senior notes"
+    ]
+   },
+   "reason": "R3"
+  },
+  {
+   "doc": "CCFF_11289_001",
+   "field": "subordination",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "Senior"
+    ]
+   },
+   "v2": "ABSENT",
+   "reason": "R6 no status declared"
+  },
+  {
+   "doc": "CCFF_11341_003",
+   "field": "fixing_rules",
+   "v1": "ABSENT",
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R4"
+  },
+  {
+   "doc": "CCFF_11384_002",
+   "field": "fixing_rules",
+   "v1": "ABSENT",
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R4"
+  },
+  {
+   "doc": "CCFF_11338_002",
+   "field": "fixing_rules",
+   "v1": "ABSENT",
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R4"
+  },
+  {
+   "doc": "CCFF_11340_009",
+   "field": "fixing_rules",
+   "v1": "ABSENT",
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R4"
+  },
+  {
+   "doc": "CCFF_11340_020",
+   "field": "fixing_rules",
+   "v1": "ABSENT",
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R4"
+  },
+  {
+   "doc": "CCFF_11398_003",
+   "field": "fixing_rules",
+   "v1": "ABSENT",
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R4"
+  },
+  {
+   "doc": "CCFF_11403_004",
+   "field": "fixing_rules",
+   "v1": "ABSENT",
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R4"
+  },
+  {
+   "doc": "CCFF_11357_009",
+   "field": "fixing_rules",
+   "v1": "ABSENT",
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R4"
+  },
+  {
+   "doc": "CCFF_11309_002",
+   "field": "fixing_rules",
+   "v1": "ABSENT",
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R4"
+  },
+  {
+   "doc": "CCFF_11394_003",
+   "field": "fixing_rules",
+   "v1": "ABSENT",
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R4"
+  },
+  {
+   "doc": "CCFF_11403_003",
+   "field": "fixing_rules",
+   "v1": "ABSENT",
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R4"
+  },
+  {
+   "doc": "CCFF_11329_002",
+   "field": "fixing_rules",
+   "v1": "ABSENT",
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R4"
+  },
+  {
+   "doc": "CCFF_11341_004",
+   "field": "fixing_rules",
+   "v1": "ABSENT",
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R4"
+  },
+  {
+   "doc": "CCFF_11385_002",
+   "field": "fixing_rules",
+   "v1": "ABSENT",
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R4"
+  },
+  {
+   "doc": "CCFF_11382_003",
+   "field": "fixing_rules",
+   "v1": "ABSENT",
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R4"
+  },
+  {
+   "doc": "CCFF_11291_001",
+   "field": "fixing_rules",
+   "v1": "ABSENT",
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R4"
+  },
+  {
+   "doc": "ADM_143047",
+   "field": "fixing_rules",
+   "v1": {
+    "label": "PRESENT"
+   },
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R4"
+  },
+  {
+   "doc": "CCFF_11380_006",
+   "field": "observation_dates",
+   "v1": {
+    "label": "MULTI",
+    "values": [
+     "2030-11-12"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R5"
+  },
+  {
+   "doc": "CCFF_11380_002",
+   "field": "observation_dates",
+   "v1": {
+    "label": "MULTI",
+    "values": [
+     "2028-08-07"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R5"
+  },
+  {
+   "doc": "CCFF_11433_007",
+   "field": "observation_dates",
+   "v1": {
+    "label": "MULTI",
+    "values": [
+     "2029-08-20"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R5"
+  },
+  {
+   "doc": "CCFF_11380_024",
+   "field": "observation_dates",
+   "v1": {
+    "label": "MULTI",
+    "values": [
+     "2029-04-09"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R5"
+  },
+  {
+   "doc": "CCFF_11380_013",
+   "field": "observation_dates",
+   "v1": {
+    "label": "MULTI",
+    "values": [
+     "2029-02-06"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R5"
+  },
+  {
+   "doc": "CCFF_11433_005",
+   "field": "observation_dates",
+   "v1": {
+    "label": "MULTI",
+    "values": [
+     "2029-07-27"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R5"
+  },
+  {
+   "doc": "CCFF_11433_001",
+   "field": "observation_dates",
+   "v1": {
+    "label": "MULTI",
+    "values": [
+     "2028-07-17"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R5"
+  },
+  {
+   "doc": "CCFF_11380_036",
+   "field": "observation_dates",
+   "v1": {
+    "label": "MULTI",
+    "values": [
+     "2029-07-02"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R5"
+  },
+  {
+   "doc": "CCFF_11380_033",
+   "field": "observation_dates",
+   "v1": {
+    "label": "MULTI",
+    "values": [
+     "2029-06-18"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R5"
+  },
+  {
+   "doc": "CCFF_11380_016",
+   "field": "observation_dates",
+   "v1": {
+    "label": "MULTI",
+    "values": [
+     "2029-05-17"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT"
+   },
+   "reason": "R5"
+  },
+  {
+   "doc": "CCFF_11341_003",
+   "field": "payment_frequency",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "SEMI_ANNUAL"
+    ]
+   },
+   "v2": {
+    "label": "MULTI",
+    "values": [
+     "SEMI_ANNUAL",
+     "QUARTERLY"
+    ]
+   },
+   "reason": "R6"
+  },
+  {
+   "doc": "CCFF_11341_004",
+   "field": "payment_frequency",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "ANNUAL"
+    ]
+   },
+   "v2": {
+    "label": "MULTI",
+    "values": [
+     "ANNUAL",
+     "QUARTERLY"
+    ]
+   },
+   "reason": "R6"
+  },
+  {
+   "doc": "CCFF_11385_002",
+   "field": "payment_frequency",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "ANNUAL"
+    ]
+   },
+   "v2": {
+    "label": "MULTI",
+    "values": [
+     "ANNUAL",
+     "QUARTERLY"
+    ]
+   },
+   "reason": "R6"
+  },
+  {
+   "doc": "CCFF_11382_003",
+   "field": "payment_frequency",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "ANNUAL"
+    ]
+   },
+   "v2": {
+    "label": "MULTI",
+    "values": [
+     "ANNUAL",
+     "QUARTERLY"
+    ]
+   },
+   "reason": "R6"
+  },
+  {
+   "doc": "CCFF_11357_004",
+   "field": "underlying",
+   "v1": {
+    "label": "PRESENT",
+    "values": [
+     "EUR Excluding Tobacco Non-revised Consumer Price Index"
+    ]
+   },
+   "v2": {
+    "label": "PRESENT",
+    "values": [
+     "EUR - Excluding Tobacco -Non-revised Consumer Price Index"
+    ]
+   },
+   "reason": "R2"
+  }
+ ]
+}

@@ -1,0 +1,8907 @@
+{
+ "phase": "G1-C extraction truth v2 (v1 + formal errata)",
+ "base": "extraction-truth-v1.json",
+ "cases": {
+  "ADM_143044": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0840609053"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-01-16"
+     ]
+    },
+    "maturity": "NA",
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "7.5"
+     ]
+    },
+    "benchmark": {
+     "label": "PRESENT"
+    },
+    "spread": {
+     "label": "PRESENT"
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "QUARTERLY"
+     ]
+    },
+    "day_count": "ABSENT",
+    "call_dates": {
+     "label": "MULTI",
+     "values": [
+      "2030-01-16",
+      "2030-07-16"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "NA",
+    "reset_dates": {
+     "label": "PRESENT",
+     "values": [
+      "2030-07-16"
+     ]
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": {
+     "label": "PRESENT"
+    },
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "AT1"
+     ]
+    },
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": "ABSENT",
+    "barrier": {
+     "label": "PRESENT"
+    },
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": {
+     "label": "PRESENT"
+    }
+   }
+  },
+  "ADM_143045": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0405489016"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-01-18"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2034-01-18"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT"
+    },
+    "benchmark": {
+     "label": "PRESENT",
+     "values": [
+      "EURIBOR"
+     ]
+    },
+    "spread": {
+     "label": "PRESENT"
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "SEMI_ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "MULTI",
+     "values": [
+      "Actual/360",
+      "Actual/Actual (ICMA)"
+     ]
+    },
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "ABSENT",
+    "reset_dates": {
+     "label": "PRESENT"
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": "ABSENT",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "barrier": "ABSENT",
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11290_005": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES03406090E8"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2023-12-13"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2024-12-11"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "MULTI",
+     "values": [
+      "3.0",
+      "1.74"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT"
+    },
+    "day_count": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "STOXX EUROPE 600 UTILITIES"
+     ]
+    },
+    "barrier": {
+     "label": "PRESENT"
+    },
+    "autocall": "NA",
+    "observation_dates": {
+     "label": "MULTI",
+     "values": [
+      "2023-12-13",
+      "2024-12-04"
+     ]
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": {
+     "label": "PRESENT"
+    }
+   }
+  },
+  "ADM_143047": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0422714206"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-01-25"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2029-07-25"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "MULTI",
+     "values": [
+      "3.375"
+     ]
+    },
+    "benchmark": {
+     "label": "PRESENT",
+     "values": [
+      "euribor a 12 meses"
+     ]
+    },
+    "spread": {
+     "label": "PRESENT",
+     "values": [
+      "0.78"
+     ]
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "MULTI",
+     "values": [
+      "ACT_ACT_ICMA",
+      "ACT_360"
+     ]
+    },
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "ABSENT",
+    "reset_dates": {
+     "label": "PRESENT"
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": "ABSENT",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "barrier": "ABSENT",
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "ADM_143048": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0344251022"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-01-30"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2028-07-30"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT",
+     "values": [
+      "fixed rate reset"
+     ]
+    },
+    "coupon_rate": {
+     "label": "MULTI",
+     "values": [
+      "4.375"
+     ]
+    },
+    "benchmark": {
+     "label": "PRESENT"
+    },
+    "spread": {
+     "label": "PRESENT"
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "Actual/Actual (ICMA)"
+     ]
+    },
+    "call_dates": {
+     "label": "PRESENT",
+     "values": [
+      "2027-07-30"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "ABSENT",
+    "reset_dates": {
+     "label": "PRESENT",
+     "values": [
+      "2027-07-30"
+     ]
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": {
+     "label": "PRESENT"
+    },
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "ADM_143056": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0444251104"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-02-20"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2034-02-20"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT"
+    },
+    "benchmark": {
+     "label": "PRESENT"
+    },
+    "spread": {
+     "label": "PRESENT"
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "QUARTERLY"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "Actual/Actual"
+     ]
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "ABSENT",
+    "reset_dates": {
+     "label": "PRESENT"
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": "ABSENT",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "barrier": "ABSENT",
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "ADM_143057": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0444251112"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-02-20"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2036-02-20"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT"
+    },
+    "benchmark": {
+     "label": "PRESENT"
+    },
+    "spread": {
+     "label": "PRESENT"
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "QUARTERLY"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "Actual/Actual"
+     ]
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "ABSENT",
+    "reset_dates": {
+     "label": "PRESENT"
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": "ABSENT",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "barrier": "ABSENT",
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "ADM_143059": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0415306119"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-03-05"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2039-11-07"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "3.551"
+     ]
+    },
+    "benchmark": {
+     "label": "PRESENT"
+    },
+    "spread": {
+     "label": "PRESENT"
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "MULTI",
+     "values": [
+      "Actual/Actual (ICMA)",
+      "Actual/360"
+     ]
+    },
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "ABSENT",
+    "reset_dates": {
+     "label": "PRESENT"
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": "ABSENT",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "barrier": "ABSENT",
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "ADM_143121": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0840609061"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-01-24"
+     ]
+    },
+    "maturity": "NA",
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "6.25"
+     ]
+    },
+    "benchmark": {
+     "label": "PRESENT"
+    },
+    "spread": {
+     "label": "PRESENT"
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "QUARTERLY"
+     ]
+    },
+    "day_count": "ABSENT",
+    "call_dates": {
+     "label": "MULTI",
+     "values": [
+      "2032-07-24",
+      "2033-01-24"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "NA",
+    "reset_dates": {
+     "label": "PRESENT",
+     "values": [
+      "2033-01-24"
+     ]
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": {
+     "label": "PRESENT"
+    },
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "AT1"
+     ]
+    },
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": "ABSENT",
+    "barrier": {
+     "label": "PRESENT"
+    },
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": {
+     "label": "PRESENT"
+    }
+   }
+  },
+  "ADM_143129": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0244251049"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-02-18"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2036-08-18"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT",
+     "values": [
+      "fixed rate reset"
+     ]
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "4.125"
+     ]
+    },
+    "benchmark": {
+     "label": "PRESENT"
+    },
+    "spread": {
+     "label": "PRESENT"
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "Actual/Actual (ICMA)"
+     ]
+    },
+    "call_dates": {
+     "label": "MULTI",
+     "values": [
+      "2031-05-18",
+      "2031-08-18"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "NA",
+    "reset_dates": {
+     "label": "PRESENT",
+     "values": [
+      "2031-08-18"
+     ]
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": {
+     "label": "PRESENT"
+    },
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "TIER_2"
+     ]
+    },
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "ADM_143164": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0865936035"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-09-19"
+     ]
+    },
+    "maturity": "NA",
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "6.125"
+     ]
+    },
+    "benchmark": {
+     "label": "PRESENT"
+    },
+    "spread": {
+     "label": "PRESENT"
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "QUARTERLY"
+     ]
+    },
+    "day_count": "ABSENT",
+    "call_dates": {
+     "label": "MULTI",
+     "values": [
+      "2031-09-19",
+      "2032-03-19"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "NA",
+    "reset_dates": {
+     "label": "PRESENT",
+     "values": [
+      "2032-03-19"
+     ]
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": {
+     "label": "PRESENT"
+    },
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "AT1"
+     ]
+    },
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": "ABSENT",
+    "barrier": {
+     "label": "PRESENT"
+    },
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "ADM_143166": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0840609079"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-09-25"
+     ]
+    },
+    "maturity": "NA",
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "5.875"
+     ]
+    },
+    "benchmark": {
+     "label": "PRESENT"
+    },
+    "spread": {
+     "label": "PRESENT"
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "QUARTERLY"
+     ]
+    },
+    "day_count": "ABSENT",
+    "call_dates": {
+     "label": "MULTI",
+     "values": [
+      "2035-03-25",
+      "2035-09-25"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "NA",
+    "reset_dates": {
+     "label": "PRESENT",
+     "values": [
+      "2035-09-25"
+     ]
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": {
+     "label": "PRESENT"
+    },
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "AT1"
+     ]
+    },
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": "ABSENT",
+    "barrier": {
+     "label": "PRESENT"
+    },
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": {
+     "label": "PRESENT"
+    }
+   }
+  },
+  "ADM_143217": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0415306135"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-06-04"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2038-06-04"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "3.522"
+     ]
+    },
+    "benchmark": {
+     "label": "PRESENT"
+    },
+    "spread": {
+     "label": "PRESENT"
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "MULTI",
+     "values": [
+      "Actual/Actual (ICMA)",
+      "Actual/360"
+     ]
+    },
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "ABSENT",
+    "reset_dates": {
+     "label": "PRESENT"
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": "ABSENT",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "barrier": "ABSENT",
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "FOL_11166": {
+   "fields": {
+    "isin": "NA",
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": "ABSENT",
+    "maturity": {
+     "label": "PRESENT"
+    },
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": "ABSENT",
+    "benchmark": {
+     "label": "PRESENT"
+    },
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT"
+    },
+    "day_count": {
+     "label": "PRESENT"
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "NA",
+    "reset_dates": {
+     "label": "PRESENT"
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": {
+     "label": "PRESENT"
+    },
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "barrier": "ABSENT",
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "FOL_11268": {
+   "fields": {
+    "isin": "NA",
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": "ABSENT",
+    "maturity": {
+     "label": "PRESENT"
+    },
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": "ABSENT",
+    "benchmark": {
+     "label": "PRESENT"
+    },
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT"
+    },
+    "day_count": {
+     "label": "PRESENT"
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": {
+     "label": "PRESENT"
+    },
+    "reset_dates": {
+     "label": "PRESENT"
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": {
+     "label": "PRESENT"
+    },
+    "subordination": {
+     "label": "PRESENT"
+    },
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "barrier": "ABSENT",
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "FOL_11338": {
+   "fields": {
+    "isin": "NA",
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": "ABSENT",
+    "maturity": {
+     "label": "PRESENT"
+    },
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": "ABSENT",
+    "benchmark": {
+     "label": "PRESENT"
+    },
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT"
+    },
+    "day_count": {
+     "label": "PRESENT"
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "ABSENT",
+    "reset_dates": {
+     "label": "PRESENT"
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": {
+     "label": "PRESENT"
+    },
+    "subordination": {
+     "label": "PRESENT"
+    },
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "barrier": "ABSENT",
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "FOL_11377": {
+   "fields": {
+    "isin": "NA",
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": "ABSENT",
+    "maturity": {
+     "label": "PRESENT"
+    },
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": "ABSENT",
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT"
+    },
+    "day_count": "ABSENT",
+    "call_dates": "NA",
+    "business_day_convention": "ABSENT",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": {
+     "label": "PRESENT"
+    },
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "FOL_11382": {
+   "fields": {
+    "isin": "NA",
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": "ABSENT",
+    "maturity": {
+     "label": "PRESENT"
+    },
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": "ABSENT",
+    "benchmark": {
+     "label": "PRESENT"
+    },
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT"
+    },
+    "day_count": {
+     "label": "PRESENT"
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": {
+     "label": "PRESENT"
+    },
+    "reset_dates": {
+     "label": "PRESENT"
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": {
+     "label": "PRESENT"
+    },
+    "subordination": {
+     "label": "PRESENT"
+    },
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "barrier": "ABSENT",
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "FOL_11403": {
+   "fields": {
+    "isin": "NA",
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": "ABSENT",
+    "maturity": {
+     "label": "PRESENT"
+    },
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": "ABSENT",
+    "benchmark": {
+     "label": "PRESENT"
+    },
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT"
+    },
+    "day_count": {
+     "label": "PRESENT"
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": {
+     "label": "PRESENT"
+    },
+    "reset_dates": {
+     "label": "PRESENT"
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": {
+     "label": "PRESENT"
+    },
+    "subordination": {
+     "label": "PRESENT"
+    },
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "barrier": "ABSENT",
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "FOL_11407": {
+   "fields": {
+    "isin": "NA",
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": "ABSENT",
+    "maturity": {
+     "label": "PRESENT"
+    },
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": "ABSENT",
+    "benchmark": {
+     "label": "PRESENT"
+    },
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT"
+    },
+    "day_count": {
+     "label": "PRESENT"
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "ABSENT",
+    "reset_dates": {
+     "label": "PRESENT"
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": {
+     "label": "PRESENT"
+    },
+    "subordination": {
+     "label": "PRESENT"
+    },
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "barrier": "ABSENT",
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "FOL_11415": {
+   "fields": {
+    "isin": "NA",
+    "currency": {
+     "label": "PRESENT"
+    },
+    "issue_date": "ABSENT",
+    "maturity": {
+     "label": "PRESENT"
+    },
+    "denomination": {
+     "label": "PRESENT"
+    },
+    "issued_amount": {
+     "label": "PRESENT"
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": "ABSENT",
+    "benchmark": {
+     "label": "PRESENT"
+    },
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT"
+    },
+    "day_count": {
+     "label": "PRESENT"
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "ABSENT",
+    "reset_dates": {
+     "label": "PRESENT"
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": {
+     "label": "PRESENT"
+    },
+    "subordination": {
+     "label": "PRESENT"
+    },
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "barrier": "ABSENT",
+    "autocall": "ABSENT",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11286_001": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067I88"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2023-10-06"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2026-10-06"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "1.5"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "SEMI_ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "1/1"
+     ]
+    },
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Modified Following Business Day Convention"
+     ]
+    },
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURO STOXX Banks Index"
+     ]
+    },
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "65",
+      "70",
+      "100"
+     ]
+    },
+    "autocall": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "observation_dates": {
+     "label": "MULTI",
+     "values": [
+      "2024-03-28",
+      "2024-09-30",
+      "2025-03-31",
+      "2025-09-29",
+      "2026-03-27",
+      "2026-09-29"
+     ]
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11290_002": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES03406090B4"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2023-09-29"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2024-09-27"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "35200000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "MULTI",
+     "values": [
+      "3.00",
+      "1.95"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURO STOXX 50"
+     ]
+    },
+    "barrier": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "autocall": "NA",
+    "observation_dates": {
+     "label": "MULTI",
+     "values": [
+      "2023-09-29",
+      "2024-09-20"
+     ]
+    },
+    "settlement_type": {
+     "label": "PRESENT",
+     "values": [
+      "IBERCLEAR"
+     ]
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11335_003": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067K43"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-12-02"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2025-12-01"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "2400000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT"
+    },
+    "benchmark": {
+     "label": "PRESENT",
+     "values": [
+      "EURIBOR"
+     ]
+    },
+    "spread": "NA",
+    "payment_frequency": "NA",
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT_365F"
+     ]
+    },
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Following Business Day Convention"
+     ]
+    },
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURIBOR"
+     ]
+    },
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "4",
+      "1.65"
+     ]
+    },
+    "autocall": "NA",
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11335_002": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067K35"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-11-14"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2027-11-15"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "500000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "10.8"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "1/1"
+     ]
+    },
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Following Business Day Convention"
+     ]
+    },
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "ES0173516115"
+     ]
+    },
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "70",
+      "100"
+     ]
+    },
+    "autocall": {
+     "label": "PRESENT"
+    },
+    "observation_dates": {
+     "label": "MULTI",
+     "values": [
+      "2025-11-06",
+      "2026-11-09",
+      "2027-11-08"
+     ]
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11307_038": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "XS2925903184"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-10-25"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2034-10-25"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "10000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "1.33"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "NA",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "A_30_360"
+     ]
+    },
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Following Business Day Convention"
+     ]
+    },
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": {
+     "label": "PRESENT",
+     "values": [
+      "SENIOR_PREFERRED"
+     ]
+    },
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "CPTFEMU"
+     ]
+    },
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "NA",
+    "cap": "NA",
+    "strike": {
+     "label": "PRESENT",
+     "values": [
+      "126.01"
+     ]
+    }
+   }
+  },
+  "CCFF_11290_003": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES03406090C2"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2023-11-13"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2024-11-11"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "35200000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "STOXX EUROPE 600 OIL & GAS"
+     ]
+    },
+    "autocall": "NA",
+    "observation_dates": {
+     "label": "MULTI",
+     "values": [
+      "2023-11-13",
+      "2024-11-04"
+     ]
+    },
+    "settlement_type": {
+     "label": "PRESENT",
+     "values": [
+      "IBERCLEAR"
+     ]
+    },
+    "strike": "ABSENT",
+    "barrier": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "coupon_rate": {
+     "label": "MULTI",
+     "values": [
+      "2.05",
+      "2.00"
+     ]
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT"
+   }
+  },
+  "CCFF_11340_006": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES03406090S8"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-10-01"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2025-09-30"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "15600000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "CPTFEMU"
+     ]
+    },
+    "autocall": "NA",
+    "observation_dates": {
+     "label": "MULTI",
+     "values": [
+      "2024-07-31",
+      "2025-07-31"
+     ]
+    },
+    "settlement_type": {
+     "label": "PRESENT",
+     "values": [
+      "IBERCLEAR"
+     ]
+    },
+    "strike": "ABSENT",
+    "barrier": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "coupon_rate": {
+     "label": "PRESENT"
+    },
+    "participation": {
+     "label": "PRESENT",
+     "values": [
+      "167"
+     ]
+    },
+    "cap": "ABSENT"
+   }
+  },
+  "CCFF_11290_020": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES03406090Q2"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-07-25"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2025-07-24"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "25800000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "CPTFEMU"
+     ]
+    },
+    "autocall": "NA",
+    "observation_dates": {
+     "label": "MULTI",
+     "values": [
+      "2024-05-31",
+      "2025-05-31"
+     ]
+    },
+    "settlement_type": {
+     "label": "PRESENT",
+     "values": [
+      "IBERCLEAR"
+     ]
+    },
+    "strike": "ABSENT",
+    "barrier": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "coupon_rate": {
+     "label": "PRESENT"
+    },
+    "participation": {
+     "label": "PRESENT",
+     "values": [
+      "170"
+     ]
+    },
+    "cap": "ABSENT"
+   }
+  },
+  "CCFF_11290_019": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES03406090P4"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-07-25"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2025-07-24"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "33900000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "CPTFEMU"
+     ]
+    },
+    "autocall": "NA",
+    "observation_dates": {
+     "label": "MULTI",
+     "values": [
+      "2024-05-31",
+      "2025-05-31"
+     ]
+    },
+    "settlement_type": {
+     "label": "PRESENT",
+     "values": [
+      "IBERCLEAR"
+     ]
+    },
+    "strike": "ABSENT",
+    "barrier": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "coupon_rate": {
+     "label": "PRESENT"
+    },
+    "participation": {
+     "label": "PRESENT",
+     "values": [
+      "120"
+     ]
+    },
+    "cap": "ABSENT"
+   }
+  },
+  "CCFF_11290_015": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES03406090O7"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-07-09"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2025-07-08"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "17300000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "STOXX EUROPE 600 BASIC RESOURCES"
+     ]
+    },
+    "autocall": "NA",
+    "observation_dates": {
+     "label": "MULTI",
+     "values": [
+      "2024-07-09",
+      "2025-07-01"
+     ]
+    },
+    "settlement_type": {
+     "label": "PRESENT",
+     "values": [
+      "IBERCLEAR"
+     ]
+    },
+    "strike": "ABSENT",
+    "barrier": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "coupon_rate": {
+     "label": "PRESENT"
+    },
+    "participation": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "cap": {
+     "label": "PRESENT",
+     "values": [
+      "8.5"
+     ]
+    }
+   }
+  },
+  "CCFF_11290_012": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES03406090L3"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-06-11"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2025-06-10"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "51600000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EUR/USD"
+     ]
+    },
+    "autocall": "NA",
+    "observation_dates": {
+     "label": "MULTI",
+     "values": [
+      "2024-06-11",
+      "2025-06-03"
+     ]
+    },
+    "settlement_type": {
+     "label": "PRESENT",
+     "values": [
+      "IBERCLEAR"
+     ]
+    },
+    "strike": "ABSENT",
+    "barrier": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "coupon_rate": {
+     "label": "MULTI",
+     "values": [
+      "2.33",
+      "1.00"
+     ]
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT"
+   }
+  },
+  "CCFF_11290_011": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES03406090K5"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-05-08"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2025-05-07"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "64800000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EUR/USD"
+     ]
+    },
+    "barrier": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "autocall": "NA",
+    "observation_dates": {
+     "label": "MULTI",
+     "values": [
+      "2024-05-08",
+      "2025-04-29"
+     ]
+    },
+    "settlement_type": {
+     "label": "PRESENT",
+     "values": [
+      "IBERCLEAR"
+     ]
+    },
+    "strike": "ABSENT",
+    "coupon_rate": {
+     "label": "MULTI",
+     "values": [
+      "3.40",
+      "1.00"
+     ]
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT"
+   }
+  },
+  "CCFF_11290_008": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES03406090H1"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-03-26"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2025-03-25"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "68300000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT"
+    },
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "IBEX 35"
+     ]
+    },
+    "barrier": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "autocall": "NA",
+    "observation_dates": {
+     "label": "MULTI",
+     "values": [
+      "2024-03-26",
+      "2025-03-18"
+     ]
+    },
+    "settlement_type": {
+     "label": "PRESENT",
+     "values": [
+      "IBERCLEAR"
+     ]
+    },
+    "strike": "ABSENT",
+    "coupon_rate": {
+     "label": "MULTI",
+     "values": [
+      "2.50",
+      "1.25"
+     ]
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT"
+   }
+  },
+  "CCFF_11286_012": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067J95"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-02-26"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2025-02-24"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "72900000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT"
+    },
+    "benchmark": {
+     "label": "PRESENT",
+     "values": [
+      "euribor 6m"
+     ]
+    },
+    "spread": "NA",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "SEMI_ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT_365F"
+     ]
+    },
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Following Business Day Convention"
+     ]
+    },
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURIBOR"
+     ]
+    },
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "5",
+      "3.48"
+     ]
+    },
+    "autocall": "NA",
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11286_010": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067J79"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-02-26"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2027-02-22"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "1.5"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "SEMI_ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "1/1"
+     ]
+    },
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Modified Following Business Day Convention"
+     ]
+    },
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURO STOXX Banks Index"
+     ]
+    },
+    "autocall": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "observation_dates": {
+     "label": "MULTI",
+     "values": [
+      "2024-08-15",
+      "2025-02-17",
+      "2025-08-15",
+      "2026-02-16",
+      "2026-08-17",
+      "2027-02-15"
+     ]
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "70",
+      "100"
+     ]
+    }
+   }
+  },
+  "CCFF_11286_008": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067J61"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-03-13"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2029-03-13"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "1000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "35000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "4.355"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "SEMI_ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "1/1"
+     ]
+    },
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Modified Following Business Day Convention"
+     ]
+    },
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURO STOXX Banks Index"
+     ]
+    },
+    "autocall": {
+     "label": "MULTI",
+     "values": [
+      "100",
+      "95",
+      "90",
+      "85",
+      "80"
+     ]
+    },
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "60",
+      "80",
+      "100"
+     ]
+    }
+   }
+  },
+  "CCFF_11286_006": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067J38"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-02-01"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2027-02-05"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "2500000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURO STOXX Banks Index"
+     ]
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": "NA",
+    "coupon_rate": "NA",
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "business_day_convention": "ABSENT",
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "60",
+      "100"
+     ]
+    },
+    "autocall": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "observation_dates": {
+     "label": "PRESENT",
+     "values": [
+      "2027-01-29"
+     ]
+    }
+   }
+  },
+  "CCFF_11286_005": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067J20"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-01-26"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2027-01-26"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1000000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURO STOXX Banks Index"
+     ]
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "1.5"
+     ]
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "SEMI_ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "1/1"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Modified Following Business Day Convention"
+     ]
+    },
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "65",
+      "70",
+      "100"
+     ]
+    },
+    "autocall": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "observation_dates": {
+     "label": "MULTI",
+     "values": [
+      "2024-07-19",
+      "2025-01-20",
+      "2025-07-21",
+      "2026-01-19",
+      "2026-07-20",
+      "2027-01-19"
+     ]
+    }
+   }
+  },
+  "CCFF_11380_008": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067L26"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-11-28"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2030-11-28"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1100000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "NL0010273215"
+     ]
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "5.07"
+     ]
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "SEMI_ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "1/1"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Modified Following Business Day Convention"
+     ]
+    },
+    "barrier": {
+     "label": "PRESENT",
+     "values": [
+      "70"
+     ]
+    },
+    "autocall": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "observation_dates": {
+     "label": "MULTI",
+     "values": [
+      "2026-05-21",
+      "2026-11-23",
+      "2027-05-21",
+      "2027-11-22",
+      "2028-05-22",
+      "2030-11-21"
+     ]
+    }
+   }
+  },
+  "CCFF_11380_006": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067L00"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-11-19"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2030-11-19"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "3000000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": "NA",
+    "coupon_rate": "NA",
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "business_day_convention": "ABSENT",
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "50",
+      "100"
+     ]
+    },
+    "autocall": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "MULTI",
+     "values": [
+      "BNP Paribas SA",
+      "Basf Se"
+     ]
+    }
+   }
+  },
+  "CCFF_11380_002": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067K68"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-08-12"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2028-08-14"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1600000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": "NA",
+    "coupon_rate": "NA",
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "business_day_convention": "ABSENT",
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "60",
+      "100"
+     ]
+    },
+    "autocall": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURO STOXX Banks Index"
+     ]
+    }
+   }
+  },
+  "CCFF_11433_007": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067O15"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-08-18"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2029-08-27"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "1000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1100000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": "NA",
+    "coupon_rate": "NA",
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "business_day_convention": "ABSENT",
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "65",
+      "100"
+     ]
+    },
+    "autocall": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURO STOXX Banks Index"
+     ]
+    }
+   }
+  },
+  "CCFF_11380_024": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067M66"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-04-14"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2029-04-16"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1500000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": "NA",
+    "coupon_rate": "NA",
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "business_day_convention": "ABSENT",
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "60",
+      "100"
+     ]
+    },
+    "autocall": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURO STOXX Banks Index"
+     ]
+    }
+   }
+  },
+  "CCFF_11380_013": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067L67"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-02-13"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2029-02-13"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1600000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": "NA",
+    "coupon_rate": "NA",
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "business_day_convention": "ABSENT",
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "60",
+      "100"
+     ]
+    },
+    "autocall": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURO STOXX Banks Index"
+     ]
+    }
+   }
+  },
+  "CCFF_11380_014": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0205067491"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-02-20"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2036-02-20"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "2800000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": "NA",
+    "coupon_rate": "NA",
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "business_day_convention": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "underlying": "ABSENT"
+   }
+  },
+  "CCFF_11380_005": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067K92"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "USD"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-10-31"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2030-10-31"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "120000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1080000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "6.57"
+     ]
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "SEMI_ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "1/1"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Modified Following Business Day Convention"
+     ]
+    },
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "60",
+      "85"
+     ]
+    },
+    "autocall": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURO STOXX Banks Index"
+     ]
+    }
+   }
+  },
+  "CCFF_11433_005": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067O07"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-08-03"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2029-08-03"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "1000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "210000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "6.36"
+     ]
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "SEMI_ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "1/1"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Modified Following Business Day Convention"
+     ]
+    },
+    "barrier": {
+     "label": "PRESENT",
+     "values": [
+      "60"
+     ]
+    },
+    "autocall": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "MULTI",
+     "values": [
+      "Alphabet Inc",
+      "NVIDIA Corp"
+     ]
+    }
+   }
+  },
+  "CCFF_11433_001": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067N73"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-07-16"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2028-07-24"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "1000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "600000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "5"
+     ]
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "SEMI_ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "1/1"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Modified Following Business Day Convention"
+     ]
+    },
+    "barrier": {
+     "label": "PRESENT",
+     "values": [
+      "60"
+     ]
+    },
+    "autocall": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "MULTI",
+     "values": [
+      "Sap Se",
+      "Microsoft Corp"
+     ]
+    }
+   }
+  },
+  "CCFF_11380_036": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067N57"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-07-09"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2029-07-09"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "1000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "180000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "3.0"
+     ]
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "QUARTERLY"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "1/1"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Modified Following Business Day Convention"
+     ]
+    },
+    "barrier": {
+     "label": "PRESENT",
+     "values": [
+      "70"
+     ]
+    },
+    "autocall": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "Orsted A/S"
+     ]
+    }
+   }
+  },
+  "CCFF_11380_033": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067N32"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-06-26"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2029-06-26"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "1000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "350000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "2.25"
+     ]
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "QUARTERLY"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "1/1"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Modified Following Business Day Convention"
+     ]
+    },
+    "barrier": {
+     "label": "PRESENT",
+     "values": [
+      "50"
+     ]
+    },
+    "autocall": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "MULTI",
+     "values": [
+      "Airbnb, Inc.",
+      "Alphabet Inc"
+     ]
+    }
+   }
+  },
+  "CCFF_11380_027": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067M74"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-05-08"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2031-05-08"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1000000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "3.48"
+     ]
+    },
+    "payment_frequency": {
+     "label": "PRESENT"
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "1/1"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Modified Following Business Day Convention"
+     ]
+    },
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "100",
+      "95",
+      "90",
+      "85",
+      "60"
+     ]
+    },
+    "autocall": {
+     "label": "MULTI",
+     "values": [
+      "100",
+      "95",
+      "90",
+      "85"
+     ]
+    },
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURO STOXX Banks Index"
+     ]
+    }
+   }
+  },
+  "CCFF_11380_023": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067M58"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-04-07"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2027-10-07"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "1000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1000000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "1.5"
+     ]
+    },
+    "payment_frequency": {
+     "label": "PRESENT"
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "1/1"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Modified Following Business Day Convention"
+     ]
+    },
+    "barrier": {
+     "label": "PRESENT",
+     "values": [
+      "70"
+     ]
+    },
+    "autocall": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURO STOXX 50 Index"
+     ]
+    }
+   }
+  },
+  "CCFF_11380_020": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067M17"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-03-20"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2031-03-20"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1000000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "7.2"
+     ]
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "SEMI_ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "1/1"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Modified Following Business Day Convention"
+     ]
+    },
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "100",
+      "95",
+      "90",
+      "85",
+      "60"
+     ]
+    },
+    "autocall": {
+     "label": "MULTI",
+     "values": [
+      "100",
+      "95",
+      "90",
+      "85"
+     ]
+    },
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURO STOXX Banks Index"
+     ]
+    }
+   }
+  },
+  "CCFF_11380_019": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067M25"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-03-18"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2031-03-18"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "1000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "700000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "14.2"
+     ]
+    },
+    "payment_frequency": {
+     "label": "PRESENT"
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "1/1"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Modified Following Business Day Convention"
+     ]
+    },
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "50",
+      "100"
+     ]
+    },
+    "autocall": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURO STOXX Banks Index"
+     ]
+    }
+   }
+  },
+  "CCFF_11380_016": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0305067L83"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-02-24"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2029-05-24"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "1000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "200000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "6.0625"
+     ]
+    },
+    "payment_frequency": {
+     "label": "PRESENT"
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "1/1"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Modified Following Business Day Convention"
+     ]
+    },
+    "barrier": {
+     "label": "PRESENT",
+     "values": [
+      "70"
+     ]
+    },
+    "autocall": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "MULTI",
+     "values": [
+      "Broadcom Inc",
+      "Palantir"
+     ]
+    }
+   }
+  },
+  "CCFF_11340_024": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES03406091E6"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-06-24"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2027-06-24"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "26300000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT",
+     "values": [
+      "IBERCLEAR"
+     ]
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "3.76"
+     ]
+    },
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "business_day_convention": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": {
+     "label": "PRESENT",
+     "values": [
+      "100"
+     ]
+    },
+    "observation_dates": {
+     "label": "MULTI",
+     "values": [
+      "2026-06-17",
+      "2027-06-17"
+     ]
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURO STOXX 50"
+     ]
+    }
+   }
+  },
+  "CCFF_11340_023": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES03406091D8"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-06-10"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2027-06-10"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "13300000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT",
+     "values": [
+      "IBERCLEAR"
+     ]
+    },
+    "participation": {
+     "label": "PRESENT"
+    },
+    "cap": {
+     "label": "PRESENT",
+     "values": [
+      "10"
+     ]
+    },
+    "strike": "ABSENT",
+    "coupon_type": "NA",
+    "coupon_rate": "NA",
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "business_day_convention": "ABSENT",
+    "barrier": {
+     "label": "PRESENT",
+     "values": [
+      "80"
+     ]
+    },
+    "autocall": "NA",
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURO STOXX 50"
+     ]
+    }
+   }
+  },
+  "CCFF_11340_018": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES03406091B2"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-04-23"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2026-04-22"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "37800000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT",
+     "values": [
+      "IBERCLEAR"
+     ]
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "4.10"
+     ]
+    },
+    "payment_frequency": "NA",
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT/364"
+     ]
+    },
+    "business_day_convention": "ABSENT",
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "2.08",
+      "2.58"
+     ]
+    },
+    "autocall": "NA",
+    "observation_dates": {
+     "label": "MULTI",
+     "values": [
+      "2025-04-14",
+      "2026-04-13"
+     ]
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURIBOR"
+     ]
+    }
+   }
+  },
+  "CCFF_11340_014": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES03406090Z3"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-03-21"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2026-03-20"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "5000000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT",
+     "values": [
+      "IBERCLEAR"
+     ]
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "3.00"
+     ]
+    },
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "business_day_convention": "ABSENT",
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "1.03102",
+      "1.12818"
+     ]
+    },
+    "autocall": "NA",
+    "observation_dates": {
+     "label": "MULTI",
+     "values": [
+      "2025-03-14",
+      "2026-03-13"
+     ]
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EUR/USD"
+     ]
+    }
+   }
+  },
+  "CCFF_11340_013": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES03406090V2"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-01-29"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2026-01-28"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "60400000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT",
+     "values": [
+      "IBERCLEAR"
+     ]
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "3.80"
+     ]
+    },
+    "payment_frequency": "NA",
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT/364"
+     ]
+    },
+    "business_day_convention": "ABSENT",
+    "barrier": {
+     "label": "MULTI",
+     "values": [
+      "2.19",
+      "3.00"
+     ]
+    },
+    "autocall": "NA",
+    "observation_dates": {
+     "label": "MULTI",
+     "values": [
+      "2025-01-22",
+      "2026-01-21"
+     ]
+    },
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EURIBOR"
+     ]
+    }
+   }
+  },
+  "CCFF_11309_002": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0213679OQ1"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-03-25"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2034-06-25"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "200000000"
+     ]
+    },
+    "benchmark": {
+     "label": "PRESENT",
+     "values": [
+      "Mid-Swap Rate"
+     ]
+    },
+    "spread": {
+     "label": "PRESENT",
+     "values": [
+      "235"
+     ]
+    },
+    "call_dates": {
+     "label": "PRESENT",
+     "values": [
+      "2029-06-25"
+     ]
+    },
+    "put_dates": "NA",
+    "reset_dates": {
+     "label": "PRESENT",
+     "values": [
+      "2029-06-25"
+     ]
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "tier 2 capital"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "settlement_type": "ABSENT",
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT",
+     "values": [
+      "fixed rate reset"
+     ]
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "5"
+     ]
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": "ABSENT",
+    "business_day_convention": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "underlying": "ABSENT"
+   }
+  },
+  "CCFF_11403_004": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0413679632"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-07-24"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2033-07-25"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1000000000"
+     ]
+    },
+    "benchmark": {
+     "label": "PRESENT",
+     "values": [
+      "Euribor"
+     ]
+    },
+    "spread": {
+     "label": "PRESENT",
+     "values": [
+      "30"
+     ]
+    },
+    "call_dates": "NA",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "QUARTERLY"
+     ]
+    },
+    "day_count": "ABSENT",
+    "business_day_convention": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "underlying": {
+     "label": "PRESENT"
+    }
+   }
+  },
+  "CCFF_11403_003": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0213679OV1"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-06-02"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2034-06-02"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "750000000"
+     ]
+    },
+    "benchmark": {
+     "label": "PRESENT",
+     "values": [
+      "Mid-Swap Rate"
+     ]
+    },
+    "spread": {
+     "label": "PRESENT",
+     "values": [
+      "95"
+     ]
+    },
+    "call_dates": {
+     "label": "PRESENT",
+     "values": [
+      "2033-06-02"
+     ]
+    },
+    "put_dates": "NA",
+    "reset_dates": {
+     "label": "PRESENT",
+     "values": [
+      "2033-06-02"
+     ]
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "senior non preferred notes"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT",
+     "values": [
+      "fixed rate reset"
+     ]
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "3.75"
+     ]
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": "ABSENT",
+    "business_day_convention": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "underlying": "ABSENT"
+   }
+  },
+  "CCFF_11394_003": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0224244139"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-06-09"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2037-06-09"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "500000000"
+     ]
+    },
+    "benchmark": {
+     "label": "PRESENT",
+     "values": [
+      "Mid-Swap Rate"
+     ]
+    },
+    "spread": {
+     "label": "PRESENT",
+     "values": [
+      "1.45"
+     ]
+    },
+    "call_dates": {
+     "label": "PRESENT",
+     "values": [
+      "2036-06-09"
+     ]
+    },
+    "put_dates": "NA",
+    "reset_dates": {
+     "label": "PRESENT",
+     "values": [
+      "2036-06-09"
+     ]
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "tier 2 notes"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT",
+     "values": [
+      "fixed rate reset"
+     ]
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "4.5"
+     ]
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT_ACT_ICMA"
+     ]
+    },
+    "business_day_convention": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "underlying": "ABSENT"
+   }
+  },
+  "CCFF_11251_001": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0513495XP2"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2023-09-22"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2025-03-20"
+     ]
+    },
+    "denomination": "ABSENT",
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "55700000"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "call_dates": "ABSENT",
+    "put_dates": "ABSENT",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "ABSENT",
+    "redemption_formula": "ABSENT",
+    "settlement_type": "ABSENT",
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "coupon_type": "NA",
+    "coupon_rate": "NA",
+    "payment_frequency": "NA",
+    "day_count": "ABSENT",
+    "business_day_convention": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "underlying": "ABSENT"
+   }
+  },
+  "CCFF_11307_015": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "XS2801444360"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-04-11"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2039-04-11"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "10000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "4.48"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT_ACT_ICMA"
+     ]
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": "ABSENT",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "senior preferred notes"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11329_002": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0265936072"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-02-14"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2031-02-14"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "500000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT",
+     "values": [
+      "fixed rate reset"
+     ]
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "3.25"
+     ]
+    },
+    "benchmark": {
+     "label": "PRESENT",
+     "values": [
+      "Mid-Swap Rate"
+     ]
+    },
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT_ACT_ICMA"
+     ]
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Following Business Day Convention"
+     ]
+    },
+    "put_dates": "NA",
+    "reset_dates": {
+     "label": "PRESENT",
+     "values": [
+      "2030-02-14"
+     ]
+    },
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "ordinary senior notes"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11357_010": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "XS3071390226"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-05-13"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2034-05-13"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "30000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "4.00"
+     ]
+    },
+    "benchmark": {
+     "label": "PRESENT",
+     "values": [
+      "EURIBOR"
+     ]
+    },
+    "spread": {
+     "label": "PRESENT",
+     "values": [
+      "105"
+     ]
+    },
+    "payment_frequency": {
+     "label": "MULTI",
+     "values": [
+      "ANNUAL",
+      "SEMI_ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT_360"
+     ]
+    },
+    "call_dates": "NA",
+    "business_day_convention": "ABSENT",
+    "put_dates": "NA",
+    "reset_dates": {
+     "label": "PRESENT",
+     "values": [
+      "2027-05-13"
+     ]
+    },
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "Senior Preferred"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11357_004": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "XS3015679288"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-03-03"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2035-04-03"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "50000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "1.43"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT_ACT_ICMA"
+     ]
+    },
+    "call_dates": "NA",
+    "business_day_convention": "ABSENT",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "senior preferred notes"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "underlying": {
+     "label": "PRESENT",
+     "values": [
+      "EUR - Excluding Tobacco -Non-revised Consumer Price Index"
+     ]
+    },
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": {
+     "label": "PRESENT"
+    },
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11289_001": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0205046008"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2023-10-13"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2030-10-13"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "500000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "4.25"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT_ACT_ICMA"
+     ]
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": "ABSENT",
+    "put_dates": {
+     "label": "PRESENT"
+    },
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "ABSENT",
+    "redemption_formula": "ABSENT",
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT",
+     "values": [
+      "Iberclear"
+     ]
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11307_010": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "XS2790097039"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-03-21"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2037-03-21"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "70000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "3.89"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT_ACT_ICMA"
+     ]
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": "ABSENT",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "senior preferred notes"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11407_003": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "XS3417309021"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-06-23"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2033-06-23"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1000000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "3.625"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT_ACT_ICMA"
+     ]
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": "ABSENT",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "senior non preferred instruments"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11400_046": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "XS3372838451"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "CNH"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-08-11"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2036-08-11"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "1000000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "200000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "2.23"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "A_30_360"
+     ]
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": "ABSENT",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "senior non-preferred notes"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11400_037": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "XS3372842560"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-06-19"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2046-06-19"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "10000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "4.18"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT_ACT_ICMA"
+     ]
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": "ABSENT",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "senior preferred notes"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11400_024": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "XS3372840515"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-05-20"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2046-05-20"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "30000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": "NA",
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "NA"
+     ]
+    },
+    "day_count": "ABSENT",
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": "ABSENT",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "senior non-preferred notes"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11400_002": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "XS3282203002"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "USD"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-01-27"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2046-01-27"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "200000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "40000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "6.00"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "A_30_360"
+     ]
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": "ABSENT",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "senior non-preferred notes"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11400_047": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "XS3372838378"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "USD"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-08-21"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2051-08-21"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "200000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "5000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "6.19"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "A_30_360"
+     ]
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": "ABSENT",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "senior preferred notes"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11400_021": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "XS3372843295"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "USD"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-05-18"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2051-05-18"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "200000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "10000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "6.15"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "A_30_360"
+     ]
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": "ABSENT",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "senior non-preferred notes"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11400_032": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "XS3372839855"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "PEN"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-06-04"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2033-06-04"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "500000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "25000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "6.90"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "A_30_360"
+     ]
+    },
+    "call_dates": "NA",
+    "business_day_convention": "ABSENT",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "senior preferred notes"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11400_004": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "XS3295698370"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "CNH"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-02-12"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2031-02-12"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "1000000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "200000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "2.35"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "A_30_360"
+     ]
+    },
+    "call_dates": "NA",
+    "business_day_convention": "ABSENT",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "senior non-preferred notes"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11400_011": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "XS3330361935"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "USD"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-03-31"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2051-03-31"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "200000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "25000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "6.05"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "A_30_360"
+     ]
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": "ABSENT",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "senior non-preferred notes"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11357_019": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "XS3217583478"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "USD"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-10-28"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2030-10-28"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "200000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "60000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "4.31"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "A_30_360"
+     ]
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": "ABSENT",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "senior preferred notes"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11357_009": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "XS3032821814"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-03-24"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2026-03-24"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": "NA",
+    "benchmark": {
+     "label": "PRESENT",
+     "values": [
+      "1-month eur-euribor"
+     ]
+    },
+    "spread": {
+     "label": "PRESENT",
+     "values": [
+      "0.26"
+     ]
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "MONTHLY"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT_360"
+     ]
+    },
+    "call_dates": "NA",
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Modified Following Business Day Convention"
+     ]
+    },
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "senior preferred notes"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  },
+  "CCFF_11341_004": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0413900988"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-05-13"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2030-05-13"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "500000000"
+     ]
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "reset_dates": "ABSENT",
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "put_dates": "NA",
+    "call_dates": "ABSENT",
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "2.5"
+     ]
+    },
+    "payment_frequency": {
+     "label": "MULTI",
+     "values": [
+      "ANNUAL",
+      "QUARTERLY"
+     ]
+    },
+    "day_count": {
+     "label": "MULTI",
+     "values": [
+      "ACT_ACT_ICMA",
+      "ACT_360"
+     ]
+    },
+    "business_day_convention": {
+     "label": "MULTI",
+     "values": [
+      "Following Business Day Convention",
+      "Modified Following Business Day Convention"
+     ]
+    }
+   }
+  },
+  "CCFF_11341_003": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0413900970"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-04-03"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2037-04-03"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1500000000"
+     ]
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "reset_dates": "ABSENT",
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "put_dates": "NA",
+    "call_dates": "ABSENT",
+    "benchmark": {
+     "label": "MULTI",
+     "values": [
+      "euribor 6 meses",
+      "euribor 3 meses"
+     ]
+    },
+    "spread": {
+     "label": "PRESENT",
+     "values": [
+      "0.60"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": "ABSENT",
+    "payment_frequency": {
+     "label": "MULTI",
+     "values": [
+      "SEMI_ANNUAL",
+      "QUARTERLY"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT_360"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Modified Following Business Day Convention"
+     ]
+    }
+   }
+  },
+  "CCFF_11340_009": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0440609511"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-11-12"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2032-05-12"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1500000000"
+     ]
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "reset_dates": "ABSENT",
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "put_dates": "NA",
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "benchmark": {
+     "label": "PRESENT",
+     "values": [
+      "euribor 6 meses"
+     ]
+    },
+    "spread": {
+     "label": "PRESENT",
+     "values": [
+      "0.51"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "SEMI_ANNUAL"
+     ]
+    },
+    "day_count": "ABSENT",
+    "business_day_convention": "ABSENT"
+   }
+  },
+  "CCFF_11340_020": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0440609529"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-06-05"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2033-06-05"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1500000000"
+     ]
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "reset_dates": "ABSENT",
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "put_dates": "NA",
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "benchmark": {
+     "label": "PRESENT",
+     "values": [
+      "euribor 6 meses"
+     ]
+    },
+    "spread": {
+     "label": "PRESENT",
+     "values": [
+      "0.50"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "SEMI_ANNUAL"
+     ]
+    },
+    "day_count": "ABSENT",
+    "business_day_convention": "ABSENT"
+   }
+  },
+  "CCFF_11384_002": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0413211B25"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-11-27"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2031-11-27"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "2000000000"
+     ]
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "reset_dates": "ABSENT",
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "put_dates": "NA",
+    "call_dates": "ABSENT",
+    "benchmark": {
+     "label": "PRESENT",
+     "values": [
+      "euribor a 3 meses"
+     ]
+    },
+    "spread": {
+     "label": "PRESENT",
+     "values": [
+      "39"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "QUARTERLY"
+     ]
+    },
+    "day_count": "ABSENT",
+    "business_day_convention": "ABSENT"
+   }
+  },
+  "CCFF_11338_002": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0413211B09"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2025-06-06"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2031-06-06"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1500000000"
+     ]
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "reset_dates": "ABSENT",
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "put_dates": "NA",
+    "call_dates": "ABSENT",
+    "benchmark": {
+     "label": "PRESENT",
+     "values": [
+      "euribor a 3 meses"
+     ]
+    },
+    "spread": {
+     "label": "PRESENT",
+     "values": [
+      "50"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "QUARTERLY"
+     ]
+    },
+    "day_count": "ABSENT",
+    "business_day_convention": "ABSENT"
+   }
+  },
+  "CCFF_11384_004": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0413211B41"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-06-23"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2029-06-23"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1250000000"
+     ]
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "put_dates": "NA",
+    "call_dates": "ABSENT",
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "2.875"
+     ]
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT_ACT_ICMA"
+     ]
+    },
+    "business_day_convention": "ABSENT"
+   }
+  },
+  "CCFF_11382_003": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0413860935"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-01-20"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2032-11-30"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "500000000"
+     ]
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "reset_dates": "ABSENT",
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "put_dates": "NA",
+    "call_dates": "ABSENT",
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "2.875"
+     ]
+    },
+    "payment_frequency": {
+     "label": "MULTI",
+     "values": [
+      "ANNUAL",
+      "QUARTERLY"
+     ]
+    },
+    "day_count": {
+     "label": "MULTI",
+     "values": [
+      "ACT_ACT_ICMA",
+      "ACT_360"
+     ]
+    },
+    "business_day_convention": {
+     "label": "MULTI",
+     "values": [
+      "Following Business Day Convention",
+      "Modified Following Business Day Convention"
+     ]
+    }
+   }
+  },
+  "CCFF_11385_002": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES04139000E9"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-02-23"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2036-02-23"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1000000000"
+     ]
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "reset_dates": "ABSENT",
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "put_dates": "NA",
+    "call_dates": "ABSENT",
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "3"
+     ]
+    },
+    "payment_frequency": {
+     "label": "MULTI",
+     "values": [
+      "ANNUAL",
+      "QUARTERLY"
+     ]
+    },
+    "day_count": {
+     "label": "MULTI",
+     "values": [
+      "ACT_ACT_ICMA",
+      "ACT_360"
+     ]
+    },
+    "business_day_convention": {
+     "label": "MULTI",
+     "values": [
+      "Following Business Day Convention",
+      "Modified Following Business Day Convention"
+     ]
+    }
+   }
+  },
+  "CCFF_11310_001": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0443307071"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-02-08"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2032-02-08"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "1300000000"
+     ]
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "put_dates": "NA",
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "benchmark": {
+     "label": "PRESENT",
+     "values": [
+      "EURIBOR"
+     ]
+    },
+    "spread": {
+     "label": "PRESENT",
+     "values": [
+      "0.70"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "SEMI_ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT_360"
+     ]
+    },
+    "business_day_convention": "ABSENT"
+   }
+  },
+  "CCFF_11291_001": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0413320153"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2023-11-23"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2026-11-23"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "500000000"
+     ]
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "reset_dates": "ABSENT",
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "put_dates": "NA",
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "3.625"
+     ]
+    },
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT_ACT_ICMA"
+     ]
+    },
+    "business_day_convention": {
+     "label": "PRESENT",
+     "values": [
+      "Following Business Day Convention"
+     ]
+    }
+   }
+  },
+  "CCFF_11398_003": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "ES0313040109"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2026-05-07"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2031-05-07"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "15000000"
+     ]
+    },
+    "underlying": {
+     "label": "PRESENT"
+    },
+    "reset_dates": "ABSENT",
+    "fixing_rules": {
+     "label": "PRESENT"
+    },
+    "ranking": "ABSENT",
+    "subordination": "NA",
+    "redemption_formula": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT",
+    "put_dates": "NA",
+    "call_dates": "ABSENT",
+    "benchmark": {
+     "label": "PRESENT",
+     "values": [
+      "euribor 6 meses"
+     ]
+    },
+    "spread": {
+     "label": "PRESENT",
+     "values": [
+      "0.42"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "SEMI_ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT_360"
+     ]
+    },
+    "business_day_convention": "ABSENT"
+   }
+  },
+  "CCFF_11307_021": {
+   "fields": {
+    "isin": {
+     "label": "PRESENT",
+     "values": [
+      "XS2810275656"
+     ]
+    },
+    "currency": {
+     "label": "PRESENT",
+     "values": [
+      "EUR"
+     ]
+    },
+    "issue_date": {
+     "label": "PRESENT",
+     "values": [
+      "2024-04-26"
+     ]
+    },
+    "maturity": {
+     "label": "PRESENT",
+     "values": [
+      "2040-04-26"
+     ]
+    },
+    "denomination": {
+     "label": "PRESENT",
+     "values": [
+      "100000"
+     ]
+    },
+    "issued_amount": {
+     "label": "PRESENT",
+     "values": [
+      "15000000"
+     ]
+    },
+    "coupon_type": {
+     "label": "PRESENT"
+    },
+    "coupon_rate": {
+     "label": "PRESENT",
+     "values": [
+      "4.681"
+     ]
+    },
+    "benchmark": "ABSENT",
+    "spread": "ABSENT",
+    "payment_frequency": {
+     "label": "PRESENT",
+     "values": [
+      "ANNUAL"
+     ]
+    },
+    "day_count": {
+     "label": "PRESENT",
+     "values": [
+      "ACT_ACT_ICMA"
+     ]
+    },
+    "call_dates": {
+     "label": "PRESENT"
+    },
+    "business_day_convention": "ABSENT",
+    "put_dates": "NA",
+    "reset_dates": "ABSENT",
+    "fixing_rules": "ABSENT",
+    "ranking": "ABSENT",
+    "subordination": {
+     "label": "PRESENT",
+     "values": [
+      "senior preferred notes"
+     ]
+    },
+    "redemption_formula": "ABSENT",
+    "underlying": "ABSENT",
+    "barrier": "ABSENT",
+    "autocall": "NA",
+    "observation_dates": "ABSENT",
+    "settlement_type": {
+     "label": "PRESENT"
+    },
+    "participation": "ABSENT",
+    "cap": "ABSENT",
+    "strike": "ABSENT"
+   }
+  }
+ }
+}

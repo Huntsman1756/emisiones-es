@@ -1,0 +1,510 @@
+{
+ "phase": "G1-C novelty gold v1 (blind: doc + novelty-field-map + upstream availability; independent of extractor)",
+ "manifest": "g1/manifests/novelty-holdout.json",
+ "seed": 20260917,
+ "rule": "TRUE iff doc publica contenido contractual material en >=1 familia DOCUMENT_ONLY del novelty-field-map congelado; narrativa corporativa/financiera o templates vacios no cuentan",
+ "n_docs": 100,
+ "n_true": 82,
+ "cases": [
+  {
+   "doc": "FOL_11208",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11297",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11238",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FAM_11385_11385",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11252",
+   "has_material_document_only_delta": false,
+   "rationale": "doc registro Urbas; narrativa corporativa"
+  },
+  {
+   "doc": "CCFF_11307_036",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11199",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11356",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FAM_11382_11382",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11284",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FAM_11340_11340",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11408",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11157",
+   "has_material_document_only_delta": false,
+   "rationale": "equity prospectus; solo narrative (duracion/terminacion de contratos de licencia)"
+  },
+  {
+   "doc": "FOL_11153",
+   "has_material_document_only_delta": false,
+   "rationale": "equity OPS; hits corporativos (shareholders agreement, EBITDA, barreras de mercado)"
+  },
+  {
+   "doc": "FOL_11361",
+   "has_material_document_only_delta": false,
+   "rationale": "equity COMBINADA; narrativa sobre deuda corporativa del grupo, no terminos del instrumento"
+  },
+  {
+   "doc": "FOL_11336",
+   "has_material_document_only_delta": false,
+   "rationale": "Ibercaja IPO equity; sin hits contractuales en familias document-only"
+  },
+  {
+   "doc": "CCFF_11307_027",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11355",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "CCFF_11357_020",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11195",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11211",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11214",
+   "has_material_document_only_delta": false,
+   "rationale": "doc registro Ayco; TOC boilerplate + narrativa inmovilizado"
+  },
+  {
+   "doc": "CCFF_11307_023",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11429",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "CCFF_11307_039",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11406",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11188",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11276",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11241",
+   "has_material_document_only_delta": false,
+   "rationale": "equity COMBINADA; narrativa refinancing de notes corporativos + PPAs"
+  },
+  {
+   "doc": "FOL_11150",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11160",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11322",
+   "has_material_document_only_delta": false,
+   "rationale": "equity AMPLIACION; hits = contratos de cesion/financiacion corporativa"
+  },
+  {
+   "doc": "FOL_11371",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11161",
+   "has_material_document_only_delta": false,
+   "rationale": "doc registro Colonial SOCIMI; narrativa deuda/arrendamientos"
+  },
+  {
+   "doc": "FAM_11289_11289",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11350",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11243",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "CCFF_11400_001",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "CCFF_11403_002",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11192",
+   "has_material_document_only_delta": false,
+   "rationale": "equity AMPLIACION; seccion 4.7.6 Redemption provisions = Not applicable"
+  },
+  {
+   "doc": "FOL_11234",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11194",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11262",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "CCFF_11357_013",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11220",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11245",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "CCFF_11307_029",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "CCFF_11357_014",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "CCFF_11307_012",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11203",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "CCFF_11307_031",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11224",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11205",
+   "has_material_document_only_delta": false,
+   "rationale": "doc registro Oryzon; solo calendario de amortizacion de prestamos en estados financieros"
+  },
+  {
+   "doc": "CCFF_11382_001",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11221",
+   "has_material_document_only_delta": false,
+   "rationale": "doc registro Montepino SOCIMI; terminos de prestamos hipotecarios corporativos"
+  },
+  {
+   "doc": "CCFF_11384_003",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11418",
+   "has_material_document_only_delta": false,
+   "rationale": "equity OPS; sin contenido contractual de instrumento en familias document-only"
+  },
+  {
+   "doc": "FOL_11253",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "CCFF_11357_008",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11414",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11366",
+   "has_material_document_only_delta": false,
+   "rationale": "Telefonica DRU; narrativa + tabla de emisiones (campos estructurados); sin terminos doc-only"
+  },
+  {
+   "doc": "CCFF_11329_001",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FAM_11251_11251",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11246",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "CCFF_11374_001",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11318",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "CCFF_11357_021",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "CCFF_11400_044",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11171",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11314",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11317",
+   "has_material_document_only_delta": false,
+   "rationale": "equity COMBINADA; narrativa M&A (opciones sobre participaciones minoritarias)"
+  },
+  {
+   "doc": "CCFF_11307_026",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "CCFF_11327_002",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11428",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11270",
+   "has_material_document_only_delta": false,
+   "rationale": "Telefonica DRU; idem"
+  },
+  {
+   "doc": "CCFF_11307_005",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "CCFF_11400_034",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "CCFF_11400_014",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FAM_11383_11383",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11374",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11307",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11172",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11223",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11147",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11426",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11218",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11239",
+   "has_material_document_only_delta": false,
+   "rationale": "Eurocaja Rural; solo mencion estatutaria de aportaciones; sin regimen retribucion/reembolso"
+  },
+  {
+   "doc": "FOL_11363",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11327",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FAM_11337_11337",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "CCFF_11307_019",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11362",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11353",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11167",
+   "has_material_document_only_delta": false,
+   "rationale": "Banca March DRU; solo narrativa estados financieros"
+  },
+  {
+   "doc": "FOL_11149",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "CCFF_11357_005",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11168",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11204",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "CCFF_11357_006",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  },
+  {
+   "doc": "FOL_11254",
+   "has_material_document_only_delta": true,
+   "rationale": "terminos contractuales de instrumento en >=1 familia DOCUMENT_ONLY (mecanicas de pago/day-count/redemption/opciones)"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "phase": "G1-C classification score",
+ "extraction_holdout": {
+  "n": 97,
+  "role_accuracy": 0.9691,
+  "metadata_determined": {
+   "n": 97,
+   "accuracy": 0.9691
+  },
+  "content_determined": {
+   "n": 0,
+   "accuracy": 0.0
+  },
+  "unknown_rate": 0.0,
+  "false_confident": 3
+ }
+}

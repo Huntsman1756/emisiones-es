@@ -1,0 +1,24 @@
+{
+ "phase": "G1-C novelty score",
+ "n_all": 100,
+ "novelty_true": 82,
+ "rate": 0.82,
+ "gate": 0.8,
+ "gate_pass": true,
+ "ci95": [
+  0.7305229140331881,
+  0.8896887708467395
+ ],
+ "truth_sha256": "78ccfcb656471e4230f718d16321bdb42e7c60bec187dec15d78aceb237bff5c",
+ "audit": {
+  "code_freeze_sha": "7e24bfe79e1eeaf68fd4009af1440243544c5c3c2fbbf65826333b49f2d3dfa0",
+  "scoring_contract_sha": "efc79371080ec5ec2dc5ae75dfe1e4e1538aeb729b767ef205b3c42121ad9f5c",
+  "environment_sha": "ba2f63cb78eadb9b26633fb91d62626b3a8f337666e416d982631b1f7a9f4e4d",
+  "input_manifest_sha": "4f63b4943bc8e5db45e760e1c5785939a3fbfd166215b6edd8c6d8d109eda583",
+  "prediction_sha256": "gold independente del extractor: no aplica",
+  "truth_sha256": "78ccfcb656471e4230f718d16321bdb42e7c60bec187dec15d78aceb237bff5c",
+  "hard_gates": {
+   "rate>=0.80": true
+  }
+ }
+}

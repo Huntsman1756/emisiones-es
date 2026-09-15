@@ -1,0 +1,38 @@
+{
+ "manifest": "g2a-cold-issuer-comparison",
+ "updated": "2026-09-15",
+ "note": "el verificador G2-A filtra claims; la generacion de claims IR-nativa no se construyo (la cobertura de anclas demuestra que el cuello es vocabulario de campo). Metrica honesta: cobertura estructural disponible para claims, no recall final.",
+ "g1_baseline_cold": {
+  "coupon_rate_recall": 0.04,
+  "business_day_convention": "0.00/0.00",
+  "barrier": "0.11/0.05",
+  "deep_terms": "colapso vs seen"
+ },
+ "g2a_structural_probe_cold": {
+  "sample": "10 cold docs stage1",
+  "present_critical_field_instances": 44,
+  "label_anchor_found": "24/44 (55%)",
+  "anchor_anywhere": "39/44 (89%)",
+  "coupon_rate_label_anchor": "1/10 docs (solo CCFF_11394_003)",
+  "day_count_label_anchor": "1/10",
+  "business_day_convention_label_anchor": "0/10"
+ },
+ "delta_assessment": {
+  "backend_change": "sin efecto — docling y dd exponen identico texto/cobertura de anclas",
+  "structural_relations": "suficientes donde el ancla existe; no generan claims donde el vocabulario no casa",
+  "projected_cold_recall_delta": "~0 sin extension de vocabulario o reconocimiento semantico de campos",
+  "vocabulary_fix_is_template_path": "anadir 'Interes Nominal Anual' etc. por familia de emisor = reglas manuales por plantilla — excluido por contrato G2-A"
+ },
+ "binding_constraint": "reconocimiento semantico de campo sobre texto de label arbitrario (ontologia de campos canonica / clasificador), no geometria documental. No demostrado en G2-A.",
+ "g1_invented_reanalysis_summary": {
+  "total": 101,
+  "docling_v2": {"fixed_to_reject": 65, "fixed_to_review": 17, "still_false_supported": 19},
+  "residual_classes": [
+   "convention-in-prose: clausula custom con convencion entre parentesis (gold ABSENT; frontera de contrato de anotacion discutible — candidato truth-errata)",
+   "default/boilerplate redemption en filas multi-elemento",
+   "ranking derivado de titulo del instrumento, no de campo Status",
+   "sub-field attribution: fixing_rules <- 'Relevant Screen Page', coupon_rate <- sub-tasa de periodo"
+  ],
+  "caveat": "varios residuales son ambiguedad del contrato gold (e.g. 'Convencion dia habil: ...(Following, Unadjusted)' = ABSENT en Caixabank pero 'Following Business Day Convention' = PRESENT en Santander) — cero absoluto requeriria alinear contrato de anotacion, no solo verificador"
+ }
+}

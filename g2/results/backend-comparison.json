@@ -1,0 +1,41 @@
+{
+ "manifest": "g2a-backend-comparison",
+ "updated": "2026-09-15",
+ "question": "algun backend permite estructura->relacion->claim verificable mejor que el baseline?",
+ "axes": {
+  "docling": {
+   "install": "OK (frozen env)",
+   "coords": "completas (0 blocks sin bbox)",
+   "table_cells": "row/col grid; sin header flags",
+   "reading_order": "nativo",
+   "ir_adaptation": "97 docs / 10.6s desde conversiones existentes",
+   "runtime": "p50 48.6s/doc (G1-C)",
+   "license": "ELIGIBLE",
+   "verifier_invented": "65R/17V/19SFS (101 total)",
+   "tp_survival": "303/778 unchanged; mejor ratio del bake-off"
+  },
+  "pp_structurev3": {
+   "install": "OK tras paddlex[ocr] + enable_mkldnn=False (workaround Windows)",
+   "coords": "bloques si; celdas de tabla sin bbox (HTML-only en output)",
+   "table_cells": "HTML table -> row/col por td/tr; cells-det models no exportados en parsing_res",
+   "reading_order": "block_order nativo",
+   "runtime": "~57-73s/pagina CPU (~70-100x docling/pagina); doc 36pp = 2056s",
+   "license": "ELIGIBLE",
+   "decision": "STOP (stop-rule: coste desproporcionado + provenance celda incompleta, sin ventaja estructural)"
+  },
+  "deepdoctection": {
+   "install": "OK modo reducido (sin Detectron2)",
+   "coords": "bloques+words; algunos bboxes fuera de rango filtrados por el propio dd",
+   "table_cells": "row/col + COLUMN_HEADER/ROW_HEADER nativos (mas rico)",
+   "reading_order": "text_ordering nativo",
+   "runtime": "~7-10s/pagina, comparable a docling",
+   "license": "ELIGIBLE",
+   "verifier_invented": "40R/6SFS en subset evaluable",
+   "tp_survival": "74/198 unchanged, 114 reject — granularidad word-level fragmenta label-position",
+   "decision": "NO_BACKEND_IMPROVES para el objetivo (misma clase residual SFS; peor supervivencia TP)"
+  },
+  "layoutparser": {"decision": "REFERENCE_ONLY"}
+ },
+ "decision": "KEEP_DOCLING",
+ "rationale": "Ningun challenger aporta relaciones estructurales que resuelvan las clases residuales de falso soporte (convention-in-prose, boilerplate redemption, title-status, sub-field attribution). El discriminador real es semantica de claim-schema, identico sobre cualquier backend. dd es unico con header-flags por celda pero su salida word-level empeora la verificacion label-position y anade warnings de coords/cleanup."
+}

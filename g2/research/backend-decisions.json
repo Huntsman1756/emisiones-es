@@ -1,36 +1,29 @@
 {
  "manifest": "g2a-backend-decisions",
  "updated": "2026-09-15",
- "status": "IN_PROGRESS (stage1 corriendo)",
+ "status": "FINAL",
  "decisions": [
   {
    "backend": "layoutparser",
    "decision": "REFERENCE_ONLY",
-   "stage": "pre",
-   "reason": "toolkit conceptual; ultima release ~2022; no aporta pipeline completo"
+   "reason": "toolkit conceptual; ultima release ~2022"
   },
   {
    "backend": "docling",
-   "decision": "BASELINE_RETAIN",
-   "stage": "stage0",
-   "reason": "IR completa sobre los 97 docs (adaptacion ~10.6s total desde conversiones existentes); provenance pagina+bbox completa; config congelada identica a G1-C"
+   "decision": "KEEP_DOCLING (baseline retenido)",
+   "reason": "IR completa 97/97, provenance pagina+bbox total, mejor supervivencia TP del verificador; config congelada identica a G1-C"
   },
   {
    "backend": "pp_structurev3",
-   "decision": "AT_RISK_COST",
-   "stage": "stage0",
-   "reason": "funciona tras paddlex[ocr]+enable_mkldnn=False, pero ~73s/pagina CPU (doc de 36pp >40min) y celdas exportadas sin bbox en el modo actual. Stop-rule candidato: coste ~100x docling/pagina sin ventaja estructural demostrada todavia. Se completa comparacion discriminativa sobre docs invented antes de decidir."
+   "decision": "STOP (stop-rule activada)",
+   "reason": "~57-73s/pagina CPU (~70-100x docling/pagina; doc 36pp=2056s); celdas sin bbox en output -> provenance por celda imposible; sin ventaja estructural demostrada"
   },
   {
    "backend": "deepdoctection",
-   "decision": "CONTINUE_STAGE1",
-   "stage": "stage0",
-   "reason": "viable en modo reducido; unica backend con header/row/col nativos por celda; ~60-75s por doc de 7pp. Warnings de coords/cleanup documentados."
+   "decision": "NO_BACKEND_IMPROVES",
+   "reason": "viable y con header/cell semantics nativos, pero misma clase residual de falso soporte (6 SFS en subset = mismo umbral que docling) y peor supervivencia TP (114 reject vs 50 en mismo subset). Sin ventaja para el objetivo."
   }
  ],
- "pending": [
-  "stage1: dd sobre 20 docs (10 cold + 10 seen) en curso",
-  "paddle: comparacion sobre docs invented; si no aporta estructura que docling no tenga -> STOP por coste",
-  "decision final tras invented reanalysis v2 por backend"
- ]
+ "selected_strategy": "KEEP_DOCLING + verificador tipado sobre IR propia",
+ "finding_central": "el cuello de botella no es el backend documental: es (a) vocabulario/cobertura de campo en cold issuers (anchors label-position solo 24/44 instancias PRESENT) y (b) semantica de claim-schema para los residuales de falso soporte. Ambos son problemas de semantica financiera, no de representacion."
 }

@@ -1,0 +1,39 @@
+{
+ "manifest": "g2a-stage1-diagnostic",
+ "updated": "2026-09-15",
+ "dataset": {
+  "n_docs": 20,
+  "cold": 10,
+  "seen": 10,
+  "bias": "docs con mayor densidad de invented claims G1 (test discriminativo)",
+  "list_file": ".work/g2a/stage1_docs.txt"
+ },
+ "backends_run": {
+  "docling": "IR sobre los 20 (de las 97 ya convertidas)",
+  "deepdoctection": "IR 20/20 OK; ~32-73s/doc (7-13pp), pico RSS 290-645MB",
+  "pp_structurev3": "STOP en stage0/1 boundary — ~57s/pagina CPU (36pp=2056s, ~70-100x docling/pagina), celdas de tabla exportadas sin bbox (sin geometria de evidencia por celda). Stop rule: coste desproporcionado + provenance celda incompleta, sin ventaja estructural demostrada."
+ },
+ "structural_metrics": {
+  "note": "relaciones derivadas por backend+geometria determinista, no interpretacion financiera",
+  "docling": {"blocks_med": "~200-300/doc FT", "cells": "12-218/doc", "nobbox": 0, "relations": "CONTAINS/NEXT_TO/SAME_ROW/SAME_COLUMN/UNDER_HEADING"},
+  "deepdoctection": {"blocks_med": "~2000-3900/doc (word-level)", "cells": "68+/doc con ROW/COL/header flags nativos", "nobbox": "algunos coords fuera de rango filtrados", "relations": "mismas + header semantics por celda"}
+ },
+ "anchor_coverage_cold": {
+  "method": "anchor en posicion de label (inicio de bloque o celda-label) sobre FIELD_SPECS congelado",
+  "present_field_instances": 44,
+  "label_anchor_found": 24,
+  "anchor_anywhere_found": 39,
+  "critical": "coupon_rate lab=0 en 9/10 docs cold: Caixabank usa 'Interes Nominal Anual' (sin 'Tipo de'), Ibercaja formula 'Tipo de interes' en prosa. El cuello de botella es cobertura de vocabulario de campo, no estructura documental."
+ },
+ "verifier_v2_on_invented": {
+  "docling_97docs": {"FIXED_TO_REJECT": 65, "FIXED_TO_REVIEW": 17, "STILL_FALSE_SUPPORTED": 19},
+  "dd_20docs": {"FIXED_TO_REJECT": 40, "FIXED_TO_REVIEW": 0, "STILL_FALSE_SUPPORTED": 6, "note": "46 casos evaluables en el subset"},
+  "docling_20docs_same_subset": {"FIXED_TO_REJECT": 32, "FIXED_TO_REVIEW": 8, "STILL_FALSE_SUPPORTED": 6}
+ },
+ "tp_control": {
+  "docling_97docs": {"UNCHANGED_CORRECT": 303, "WEAKENED_TO_REVIEW": 213, "LOST_CORRECT_CLAIM": 262, "total_exact": 778},
+  "dd_20docs": {"UNCHANGED_CORRECT": 74, "WEAKENED_TO_REVIEW": 10, "LOST_CORRECT_CLAIM": 114, "total_exact_subset": 198},
+  "docling_20docs_same_subset": {"UNCHANGED_CORRECT": 77, "WEAKENED_TO_REVIEW": 71, "LOST_CORRECT_CLAIM": 50},
+  "note": "TP lost incluye defectos medibles del verificador (label-position no aplica a prosa) y al menos una regla sobre-estricta (default_value_boilerplate rechaza '100% sobre nominal' que gold marca PRESENT en Ibercaja). Parte de los TP 'perdidos' serian re-generados por un extractor IR-nativo."
+ }
+}

@@ -214,3 +214,74 @@ G2-A produce: bake-off de backends, IR canónica candidata, diseño de
 `ClaimEvidence` + verificador tipado, y medición COLD_ISSUER sobre
 development. **No produce**: cambios de scoring contract, nuevos
 thresholds, ni ningún verdict de producto.
+
+## 10. VEREDICTO G2-A (2026-09-15, commit posterior a 80bb73c)
+
+```text
+G2-A VERDICT: FAIL segun criterios preregistrados -> kill criterion ACTIVADO
+```
+
+### Resultados
+
+```text
+Backend bake-off:
+    Docling (baseline)     KEEP_DOCLING   IR 97/97, mejor TP-survival
+    PP-StructureV3         STOP           ~57-73s/pag CPU (~70-100x),
+                                          celdas sin bbox -> sin provenance celda
+    deepdoctection         NO_BACKEND_IMPROVES  viable pero sin ventaja semantica;
+                                          TP-survival peor (word-level)
+    LayoutParser           REFERENCE_ONLY
+
+Invented reanalysis (verificador tipado v2, docling IR, 101 claims):
+    FIXED_TO_REJECT        65
+    FIXED_TO_REVIEW        17
+    STILL_FALSE_SUPPORTED  19   <- hard objective = 0: NO alcanzado
+
+TP-control (778 EXACT de G1):
+    UNCHANGED              303   WEAKENED_TO_REVIEW 213   LOST 262
+
+COLD_ISSUER (10 docs stage1):
+    instancias PRESENT criticas       44
+    anchor en posicion de label       24/44 (55%)
+    anchor en cualquier posicion      39/44 (89%)
+    coupon_rate label-anchor          1/10 docs
+    -> mejora de recall por cambio estructural: ~0
+```
+
+### Por que falla
+
+1. El backend no es el cuello: docling y dd exponen el mismo texto; los
+   residuales son clases semanticas identicas en ambos.
+2. `invented=0` no se alcanza: 19 residuales recurrentes
+   (convention-in-prose, boilerplate redemption, title-status, sub-field
+   attribution) — requieren claim-schemas de campo y/o alineacion del
+   contrato de anotacion, no mejor estructura.
+3. Cold-issuer recall no mejora por estructura: la restriccion es
+   cobertura de vocabulario de campo (e.g. Caixabank 'Interes Nominal
+   Anual' no casa anchors canonicos). Extender vocabulario por familia
+   de emisor = ruta de plantillas excluida por contrato.
+4. Caveat honesto: varios residuales son frontera ambigua del gold
+   (termino publicado en prosa marcado ABSENT) — posible truth-errata;
+   el cero absoluto requeriria revisar el contrato de anotacion.
+
+### Recomendacion
+
+```text
+STOP_GENERAL_EXTRACTION
+```
+
+Conforme al contrato preregistrado: `unsupported=0` no demostrado y
+cold-issuer deep-term recall no mejora materialmente sin reglas por
+emisor. El producto validado sobrevive como:
+
+```text
+security/document graph + reference data + safe linkage (P=1.0, FP=0)
++ novelty 82% demostrada + extraccion con human-review
+```
+
+Una via residual no probada existe — reconocimiento semantico de campo
+sobre labels arbitrarios (ontologia canonica / clasificador, no
+plantillas por emisor) — pero seria una hipotesis nueva, fuera del
+alcance demostrado de G2-A.
+
+Holdout G2: no seleccionado ni inspeccionado. G0/G1 permanecen frozen.

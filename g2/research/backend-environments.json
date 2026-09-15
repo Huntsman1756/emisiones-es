@@ -1,0 +1,51 @@
+{
+ "manifest": "g2a-backend-environments",
+ "updated": "2026-09-15",
+ "note": "entornos aislados bajo .work/g2a/; nada entra en requirements-lock.txt ni src/ sin decision de adopcion. Docling usa el venv congelado del proyecto (misma config que G1-C) en vez de duplicar instalacion.",
+ "python": "3.13.11",
+ "backends": {
+  "docling": {
+   "role": "baseline",
+   "env": ".venv (frozen project env)",
+   "packages": {"docling": "2.126.0"},
+   "code_license": "Apache-2.0",
+   "models": [
+    {"id": "ds4sd/docling-models (layout+tableformer, auto-download HF)", "license": "cdla-permissive-2.0 / apache-2.0 por modelo", "source": "huggingface"}
+   ],
+   "license_status": "ELIGIBLE",
+   "config": "DocumentConverter() default — identico a G1-C, sin favorecer",
+   "perf_g1c": {"p50_s": 48.6, "p90_s": 234.4, "max_s": 880.4, "rss_p90_mb": 235}
+  },
+  "pp_structurev3": {
+   "role": "challenger_A",
+   "env": ".work/g2a/env-paddle (python 3.13.11)",
+   "packages": {"paddlepaddle": "3.3.1", "paddleocr": "3.7.0", "paddlex": "3.7.2", "extra": "paddlex[ocr]"},
+   "code_license": "Apache-2.0",
+   "models": [
+    {"id": "PP-LCNet_x1_0_doc_ori / UVDoc / PP-DocLayout-L / PP-OCRv5 det+rec / table cls + wired/wireless struct + cell det / PP-FormulaNet", "license": "PaddlePaddle official models (Apache-2.0 project; pesos bajo licencia del repo de modelos — pendiente registro por-archivo)", "source": ".work/g2a/models/paddle/official_models/"}
+   ],
+   "model_cache_mb": 1771,
+   "license_status": "ELIGIBLE",
+   "windows_notes": "PP-StructureV3 requiere enable_mkldnn=False en Windows CPU — oneDNN PIR path lanza NotImplementedError (ConvertPirAttribute2RuntimeAttribute). Con MKLDNN off: init OK, inferencia OK."
+  },
+  "deepdoctection": {
+   "role": "challenger_B",
+   "env": ".work/g2a/env-deepdoctection (python 3.13.11)",
+   "packages": {"deepdoctection": "1.4.0", "torch": "2.14.0", "transformers": "5.17.0", "timm": "1.0.29", "python-doctr": "1.1.0", "pdfplumber": "0.11.9", "onnx": "1.22.0"},
+   "code_license": "Apache-2.0",
+   "models": [
+    {"id": "Aryn/deformable-detr-DocLayNet (layout)", "license": "Apache-2.0 (HF)", "source": "huggingface"},
+    {"id": "deepdoctection/tatr_tab_struct_v2 (table struct)", "license": "Apache-2.0 (HF)", "source": "huggingface"},
+    {"id": "doctr db_resnet50 + crnn_vgg16_bn (ocr)", "license": "Apache-2.0", "source": "doctr hub"}
+   ],
+   "model_cache_mb": 425,
+   "license_status": "ELIGIBLE",
+   "license_note": "Detectron2 excluido (upstream no soporta Windows razonablemente). Stack reducido: HF Transformers/timm + DocTr. Fuera vs stack Linux completo: modelos d2 layout/table/cell, Tesseract pipeline, line-matcher. Observado: algunos bboxes fuera de rango normalizado (filtrados por dd) y warning de cleanup 'library is destroyed' al cerrar — documentado en stage0."
+  },
+  "layoutparser": {
+   "role": "reference_only",
+   "reason": "ultima release ~2022; no entra en benchmark salvo hallazgo nuevo",
+   "license_status": "REFERENCE_ONLY"
+  }
+ }
+}

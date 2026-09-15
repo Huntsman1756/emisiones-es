@@ -1,0 +1,7123 @@
+{
+ "phase": "G2-A invented reanalysis v1",
+ "backend_ir": "docling",
+ "invented": {
+  "n": 101,
+  "counts": {
+   "STILL_FALSE_SUPPORTED": 19,
+   "FIXED_TO_REJECT": 65,
+   "FIXED_TO_REVIEW": 17
+  },
+  "cases": [
+   {
+    "case": "FOL_11268:barrier",
+    "verdict": "SUPPORTED",
+    "reason": "full_contract",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 1,
+     "relation": "SAME_BLOCK"
+    },
+    "old_value": null,
+    "cold": false,
+    "classification": "STILL_FALSE_SUPPORTED"
+   },
+   {
+    "case": "FOL_11268:autocall",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 1
+    },
+    "old_value": null,
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "FOL_11377:participation",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 76
+    },
+    "old_value": null,
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "FOL_11382:barrier",
+    "verdict": "SUPPORTED",
+    "reason": "full_contract",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 1,
+     "relation": "SAME_BLOCK"
+    },
+    "old_value": null,
+    "cold": false,
+    "classification": "STILL_FALSE_SUPPORTED"
+   },
+   {
+    "case": "FOL_11382:autocall",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 1
+    },
+    "old_value": null,
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "FOL_11382:cap",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "old_value": null,
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "FOL_11403:cap",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 4
+    },
+    "old_value": null,
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "FOL_11407:put_dates",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 20
+    },
+    "old_value": null,
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "FOL_11415:put_dates",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 19
+    },
+    "old_value": null,
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11286_010:fixing_rules",
+    "verdict": "REJECT",
+    "reason": "label_as_value",
+    "meta": {
+     "ev_blocks": 22
+    },
+    "old_value": "Determination Date(s):",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11340_018:benchmark",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "old_value": "Euribor a 3 meses",
+    "cold": true,
+    "classification": "FIXED_TO_REVIEW"
+   },
+   {
+    "case": "CCFF_11340_013:benchmark",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "old_value": "Euribor a 3 meses",
+    "cold": true,
+    "classification": "FIXED_TO_REVIEW"
+   },
+   {
+    "case": "CCFF_11403_004:business_day_convention",
+    "verdict": "SUPPORTED",
+    "reason": "full_contract",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 1,
+     "relation": "SAME_BLOCK"
+    },
+    "old_value": "In the event that any of the Coupon Payment Dates or the Maturity Date is not a Business Day, the corresponding payment shall be  carried  forward  to  the  immediately  following  Business  Day,  wit",
+    "cold": false,
+    "classification": "STILL_FALSE_SUPPORTED"
+   },
+   {
+    "case": "CCFF_11394_003:business_day_convention",
+    "verdict": "SUPPORTED",
+    "reason": "full_contract",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 1,
+     "relation": "SAME_BLOCK"
+    },
+    "old_value": "Following Business Day Convention",
+    "cold": true,
+    "classification": "STILL_FALSE_SUPPORTED"
+   },
+   {
+    "case": "CCFF_11394_003:ranking",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 15,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "old_value": null,
+    "cold": true,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11394_003:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 21
+    },
+    "old_value": [
+     "EUR 100,000 per Calculation Amount",
+     "Subject to any purchase and cancellation or early redemption, the Notes will be redeemed on the Maturity Date at 100% of their Outstanding Principal Amount."
+    ],
+    "cold": true,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11307_015:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "Modified Following Business Day Convention",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11307_015:ranking",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 33,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "old_value": "SENIOR_PREFERRED",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11307_015:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 36
+    },
+    "old_value": [
+     "Calculation Amount * 100%",
+     "(further particulars specified in items 20 and 21 below) Redemption at par",
+     "(further particulars specified in items 20 and 21 below) Redemption at par"
+    ],
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11329_002:spread",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 61,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "old_value": "1.05",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11329_002:ranking",
+    "verdict": "SUPPORTED",
+    "reason": "full_contract",
+    "meta": {
+     "ev_blocks": 11,
+     "label_anchors": 1,
+     "relation": "SAME_ROW"
+    },
+    "old_value": "SENIOR",
+    "cold": false,
+    "classification": "STILL_FALSE_SUPPORTED"
+   },
+   {
+    "case": "CCFF_11329_002:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 4
+    },
+    "old_value": "Par",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11357_010:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 53,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "old_value": [
+     "Modified Following Adjusted",
+     "Modified Following Adjusted",
+     "Modified Following Business Day Convention"
+    ],
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11357_010:fixing_rules",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 53,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "old_value": "EURIBOR01",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11357_010:ranking",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 39,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "old_value": "SENIOR_PREFERRED",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11357_010:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 26
+    },
+    "old_value": [
+     "Redemption at par",
+     "Calculation Amount * 100%"
+    ],
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11357_010:cap",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 25,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "old_value": "4.50",
+    "cold": false,
+    "classification": "FIXED_TO_REVIEW"
+   },
+   {
+    "case": "CCFF_11357_004:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 13,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "Modified Following Business Day Convention",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11357_004:ranking",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 18,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "old_value": "SENIOR_PREFERRED",
+    "cold": false,
+    "classification": "FIXED_TO_REVIEW"
+   },
+   {
+    "case": "CCFF_11357_004:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 16
+    },
+    "old_value": [
+     "Redemption at par See item 31 below Inflation Linked: please see paragraph \" Provisions Applicable to Reference Item Rate Linked Notes \" below for more details",
+     "Calculation Amount * 100%. See Inflation Linked Note redemption provisions below"
+    ],
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11289_001:redemption_formula",
+    "verdict": "SUPPORTED",
+    "reason": "full_contract",
+    "meta": {
+     "ev_blocks": 27,
+     "label_anchors": 1,
+     "relation": "SAME_ROW"
+    },
+    "old_value": "Subject to any purchase and cancellation or early redemption, the Notes will be redeemed on the Maturity Date at 100 per cent. of their nominal amount.",
+    "cold": false,
+    "classification": "STILL_FALSE_SUPPORTED"
+   },
+   {
+    "case": "CCFF_11307_010:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "Modified Following Business Day Convention",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11307_010:ranking",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "old_value": "SENIOR_PREFERRED",
+    "cold": false,
+    "classification": "FIXED_TO_REVIEW"
+   },
+   {
+    "case": "CCFF_11307_010:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 22
+    },
+    "old_value": [
+     "Redemption at par",
+     "Calculation Amount * 100%"
+    ],
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11407_003:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "Following Business Day Convention",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11407_003:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 30
+    },
+    "old_value": "Redemption at par",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_046:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "Following  Business Day Convention",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_046:ranking",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "old_value": "SENIOR_NON_PREFERRED",
+    "cold": false,
+    "classification": "FIXED_TO_REVIEW"
+   },
+   {
+    "case": "CCFF_11400_046:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 5
+    },
+    "old_value": [
+     "Calculation Amount * 100%",
+     "Redemption at par See item 30 below"
+    ],
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_037:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "Following Business Day Convention",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_037:ranking",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "old_value": "SENIOR_PREFERRED",
+    "cold": false,
+    "classification": "FIXED_TO_REVIEW"
+   },
+   {
+    "case": "CCFF_11400_037:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 17
+    },
+    "old_value": [
+     "Calculation Amount * 100%",
+     "Redemption at par"
+    ],
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_037:underlying",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 14
+    },
+    "old_value": null,
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_024:day_count",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 21,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "ACT_ACT_ISDA",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_024:ranking",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 26,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "old_value": "SENIOR_NON_PREFERRED",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_024:redemption_formula",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 7,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "old_value": [
+     "Reference Price*Specified Denomination",
+     "Redemption as set out in item 30"
+    ],
+    "cold": false,
+    "classification": "FIXED_TO_REVIEW"
+   },
+   {
+    "case": "CCFF_11400_002:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "Modified Following Business Day Convention",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_002:ranking",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 34,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "old_value": "SENIOR_NON_PREFERRED",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_002:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 39
+    },
+    "old_value": [
+     "USD 200,000 per Instrument of USD 200,000 Specified Denomination",
+     "Redemption at par",
+     "Redemption at par"
+    ],
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_047:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "Following Business Day Convention",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_047:ranking",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "old_value": "SENIOR_PREFERRED",
+    "cold": false,
+    "classification": "FIXED_TO_REVIEW"
+   },
+   {
+    "case": "CCFF_11400_047:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 4
+    },
+    "old_value": [
+     "Redemption at par",
+     "Calculation Amount * 100%"
+    ],
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_021:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "Following  Business Day Convention",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_021:ranking",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "old_value": "SENIOR_NON_PREFERRED",
+    "cold": false,
+    "classification": "FIXED_TO_REVIEW"
+   },
+   {
+    "case": "CCFF_11400_021:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 10
+    },
+    "old_value": "Redemption at par See item 30 below",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_032:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "Following  Business Day Convention",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_032:ranking",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "old_value": "SENIOR_PREFERRED",
+    "cold": false,
+    "classification": "FIXED_TO_REVIEW"
+   },
+   {
+    "case": "CCFF_11400_032:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 4
+    },
+    "old_value": [
+     "Calculation Amount * 100%",
+     "Redemption at par"
+    ],
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_032:underlying",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "old_value": null,
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_004:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "Modified Following Business Day Convention",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_004:ranking",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "old_value": "SENIOR_NON_PREFERRED",
+    "cold": false,
+    "classification": "FIXED_TO_REVIEW"
+   },
+   {
+    "case": "CCFF_11400_004:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 5
+    },
+    "old_value": [
+     "Calculation Amount * 100%",
+     "Redemption at par See item 30 below"
+    ],
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_011:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "Following  Business Day Convention",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11400_011:ranking",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "old_value": "SENIOR_NON_PREFERRED",
+    "cold": false,
+    "classification": "FIXED_TO_REVIEW"
+   },
+   {
+    "case": "CCFF_11400_011:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 4
+    },
+    "old_value": [
+     "Calculation Amount * 100%",
+     "Redemption at par See item 30 below"
+    ],
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11357_019:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 30,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "Modified Following Business Day Convention",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11357_019:ranking",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 31,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "old_value": "SENIOR_PREFERRED",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11357_019:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 34
+    },
+    "old_value": [
+     "Calculation Amount * 100%",
+     "(further particulars specified in items 19 and 20 below) Redemption at par",
+     "(further particulars specified in items 19 and 20 below) Redemption at par"
+    ],
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11357_009:ranking",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 22,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "old_value": "SENIOR_PREFERRED",
+    "cold": false,
+    "classification": "FIXED_TO_REVIEW"
+   },
+   {
+    "case": "CCFF_11357_009:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 22
+    },
+    "old_value": "Redemption at par",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11341_004:benchmark",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "EURIBOR 3 meses + 0,36%",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11341_004:spread",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "0.36",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11341_004:redemption_formula",
+    "verdict": "SUPPORTED",
+    "reason": "full_contract",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "SAME_BLOCK"
+    },
+    "old_value": [
+     "13 de mayo de 2030, sujeta a la convención día hábil especificada en el epígrafe 3.5, salvo prórroga.",
+     "100% sobre nominal."
+    ],
+    "cold": false,
+    "classification": "STILL_FALSE_SUPPORTED"
+   },
+   {
+    "case": "CCFF_11341_003:coupon_rate",
+    "verdict": "SUPPORTED",
+    "reason": "full_contract",
+    "meta": {
+     "ev_blocks": 5,
+     "label_anchors": 2,
+     "relation": "SAME_BLOCK"
+    },
+    "old_value": [
+     "0.60",
+     "2.979",
+     "0.60",
+     "2.979"
+    ],
+    "cold": false,
+    "classification": "STILL_FALSE_SUPPORTED"
+   },
+   {
+    "case": "CCFF_11341_003:redemption_formula",
+    "verdict": "SUPPORTED",
+    "reason": "full_contract",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "SAME_BLOCK"
+    },
+    "old_value": [
+     "3 de abril de 2037, sujeta a la convención día hábil especificada en el epígrafe 3.5, salvo prórroga.",
+     "100 % sobre nominal."
+    ],
+    "cold": false,
+    "classification": "STILL_FALSE_SUPPORTED"
+   },
+   {
+    "case": "CCFF_11340_009:day_count",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "ACT_360",
+    "cold": true,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11340_009:business_day_convention",
+    "verdict": "SUPPORTED",
+    "reason": "full_contract",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 1,
+     "relation": "SAME_BLOCK"
+    },
+    "old_value": "en el caso de que alguna de las fechas de pago de los cupones de los intereses coincidiera con un día no hábil según calendario TARGET2, tal fecha se trasladará al  Día  Hábil inmediatamente posterior",
+    "cold": true,
+    "classification": "STILL_FALSE_SUPPORTED"
+   },
+   {
+    "case": "CCFF_11340_009:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "old_value": "100% sobre nominal.",
+    "cold": true,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11340_020:day_count",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "ACT_360",
+    "cold": true,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11340_020:business_day_convention",
+    "verdict": "SUPPORTED",
+    "reason": "full_contract",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 1,
+     "relation": "SAME_BLOCK"
+    },
+    "old_value": "en el caso de que alguna de las fechas de pago de los cupones de los intereses coincidiera con un día no hábil según calendario TARGET2, tal fecha se trasladará al  Día  Hábil inmediatamente posterior",
+    "cold": true,
+    "classification": "STILL_FALSE_SUPPORTED"
+   },
+   {
+    "case": "CCFF_11340_020:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "old_value": "100% sobre nominal.",
+    "cold": true,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11384_002:business_day_convention",
+    "verdict": "SUPPORTED",
+    "reason": "full_contract",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 1,
+     "relation": "SAME_BLOCK"
+    },
+    "old_value": "Si  el  día  en  cuestión  o  el  último  día  del  período fuera  inhábil,  el  evento  se  producirá  el  día  hábil inmediatamente posterior de ese mes natural o, en",
+    "cold": false,
+    "classification": "STILL_FALSE_SUPPORTED"
+   },
+   {
+    "case": "CCFF_11384_002:redemption_formula",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 31,
+     "label_anchors": 3,
+     "relation": "NEXT_TO"
+    },
+    "old_value": [
+     "Sin perjuicio de cualquier amortización anticipada, a  la  par  en  la  fecha  de  vencimiento  (el  27  de noviembre de 2031).",
+     "( véase lo indicado en el epígrafe 19 siguiente de las presentes Condiciones Finales ).",
+     "( Información adicional sobre las condiciones de amortización de los valores puede encontrarse en el epígrafe 19 de las presentes Condiciones Finales ) .",
+     "27 de noviembre de 2031."
+    ],
+    "cold": false,
+    "classification": "FIXED_TO_REVIEW"
+   },
+   {
+    "case": "CCFF_11338_002:business_day_convention",
+    "verdict": "SUPPORTED",
+    "reason": "full_contract",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 1,
+     "relation": "SAME_BLOCK"
+    },
+    "old_value": "Si  el  día  en  cuestión  o  el  último  día  del  período fuera  inhábil,  el  evento  se  producirá  el  día  hábil inmediatamente posterior de ese mes natural o, en su defecto, el día hábil inmedi",
+    "cold": false,
+    "classification": "STILL_FALSE_SUPPORTED"
+   },
+   {
+    "case": "CCFF_11338_002:redemption_formula",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 28,
+     "label_anchors": 3,
+     "relation": "NEXT_TO"
+    },
+    "old_value": [
+     "Sin perjuicio de cualquier amortización anticipada, a la par en la fecha de vencimiento (el 6 de junio de 2031).",
+     "Véase lo indicado en el epígrafe 19 siguiente de las presentes Condiciones Finales.",
+     "( Información adicional sobre las condiciones de amortización de los valores puede encontrarse en el epígrafe 19 de las presentes Condiciones Finales ) .",
+     "6 de junio de 2031."
+    ],
+    "cold": false,
+    "classification": "FIXED_TO_REVIEW"
+   },
+   {
+    "case": "CCFF_11384_004:business_day_convention",
+    "verdict": "SUPPORTED",
+    "reason": "full_contract",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "SAME_BLOCK"
+    },
+    "old_value": "Si alguna fecha de pago de los cupones coincidiera con  un  día  que  no  fuera  día  hábil,  el  abono  se efectuará el día hábil inmediatamente siguiente, sin que se devengue ningún tipo de interés",
+    "cold": false,
+    "classification": "STILL_FALSE_SUPPORTED"
+   },
+   {
+    "case": "CCFF_11384_004:redemption_formula",
+    "verdict": "SUPPORTED",
+    "reason": "full_contract",
+    "meta": {
+     "ev_blocks": 17,
+     "label_anchors": 3,
+     "relation": "SAME_BLOCK"
+    },
+    "old_value": [
+     "Sin perjuicio de cualquier amortización anticipada, a la par en la Fecha de vencimiento (el 23 de junio de 2029).",
+     "( véase lo indicado en el epígrafe 19 siguiente de las presentes Condiciones Finales ).",
+     "2.892%. La TIR es calculada en la fecha de emisión y desembolso sobre la base del precio de emisión e incluyendo el periodo entre la fecha de emisión y desembolso y la Fecha de vencimiento. No es una indicación de rentabilidad futura.",
+     "23 de junio de 2029."
+    ],
+    "cold": false,
+    "classification": "STILL_FALSE_SUPPORTED"
+   },
+   {
+    "case": "CCFF_11382_003:benchmark",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 4,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": [
+     "EURIBOR 3 meses",
+     "Euribor 3 meses"
+    ],
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11382_003:redemption_formula",
+    "verdict": "SUPPORTED",
+    "reason": "full_contract",
+    "meta": {
+     "ev_blocks": 15,
+     "label_anchors": 3,
+     "relation": "SAME_BLOCK"
+    },
+    "old_value": [
+     "Aplica",
+     "30 de noviembre de 2032",
+     "100% sobre nominal"
+    ],
+    "cold": false,
+    "classification": "STILL_FALSE_SUPPORTED"
+   },
+   {
+    "case": "CCFF_11385_002:benchmark",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "EURIBOR 3 meses + 0,36%",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11385_002:spread",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "0.36",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11385_002:redemption_formula",
+    "verdict": "SUPPORTED",
+    "reason": "full_contract",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "SAME_BLOCK"
+    },
+    "old_value": [
+     "23 de febrero de 2036, sujeta a la convención día hábil especificada en el epígrafe 3.5, salvo prórroga.",
+     "100% sobre nominal."
+    ],
+    "cold": false,
+    "classification": "STILL_FALSE_SUPPORTED"
+   },
+   {
+    "case": "CCFF_11310_001:coupon_rate",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 35,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "old_value": "0.70",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11310_001:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 111,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "old_value": "Modified Following Business Day Convention",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11310_001:fixing_rules",
+    "verdict": "SUPPORTED",
+    "reason": "full_contract",
+    "meta": {
+     "ev_blocks": 129,
+     "label_anchors": 6,
+     "relation": "SAME_ROW"
+    },
+    "old_value": [
+     "Applicable",
+     "Reuters EURIBOR 01 (or any replacement page)",
+     "Applicable",
+     "Reuters EURIBOR 01 (or any replacement page)"
+    ],
+    "cold": false,
+    "classification": "STILL_FALSE_SUPPORTED"
+   },
+   {
+    "case": "CCFF_11310_001:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 36
+    },
+    "old_value": [
+     "EUR 100,000 per Calculation Amount",
+     "6-month EURIBOR + 0.70 per cent. per annum Floating Rate. (see paragraph 19 below) Subject to any purchase and cancellation or early redemption, the Covered Bonds will be redeemed on the Maturity Date at 100% of their Outstanding Principal Amount."
+    ],
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11398_003:coupon_rate",
+    "verdict": "SUPPORTED",
+    "reason": "full_contract",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 1,
+     "relation": "SAME_BLOCK"
+    },
+    "old_value": "0.42",
+    "cold": false,
+    "classification": "STILL_FALSE_SUPPORTED"
+   },
+   {
+    "case": "CCFF_11398_003:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 1
+    },
+    "old_value": "100% sobre el nominal",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11307_021:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "old_value": "Modified Following Business Day Convention",
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   },
+   {
+    "case": "CCFF_11307_021:ranking",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "old_value": "SENIOR_PREFERRED",
+    "cold": false,
+    "classification": "FIXED_TO_REVIEW"
+   },
+   {
+    "case": "CCFF_11307_021:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 4
+    },
+    "old_value": [
+     "Calculation Amount * 100%",
+     "Redemption at par"
+    ],
+    "cold": false,
+    "classification": "FIXED_TO_REJECT"
+   }
+  ]
+ },
+ "tp_control": {
+  "counts": {
+   "UNCHANGED_CORRECT": 303,
+   "LOST_CORRECT_CLAIM": 262,
+   "WEAKENED_TO_REVIEW": 213
+  },
+  "lost": [
+   {
+    "case": "ADM_143045:coupon_rate",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": [
+     "0.40",
+     "4.267"
+    ]
+   },
+   {
+    "case": "ADM_143045:business_day_convention",
+    "verdict": "REVIEW",
+    "reason": "prose_clause_support",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 0,
+     "relation": "CLAUSE_PROSE"
+    },
+    "value": "convención del día hábil siguiente modificad"
+   },
+   {
+    "case": "ADM_143045:underlying",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 10,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": [
+     "El tipo de interés está referenciado al EURIBOR a 6 meses.",
+     "Soc. Coop. De Cto. Reg. M. Albacete T. 956 L. 720 F. 155 H. AB-24797 Inscripción 2, CIF: F45755220  Reg. Bco. España 3190"
+    ]
+   },
+   {
+    "case": "CCFF_11290_005:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2023-12-13"
+   },
+   {
+    "case": "CCFF_11290_005:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "CCFF_11290_005:issued_amount",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "47800000",
+     "currency": "EUR",
+     "raw_number": "47.800.000"
+    }
+   },
+   {
+    "case": "CCFF_11290_005:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "value": "100% sobre nominal."
+   },
+   {
+    "case": "ADM_143047:coupon_type",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "EURIBOR 12 meses + 0,78% pagadero anualmente (o, en su caso, en la correspondiente Fecha de Vencimiento Prorrogado), con sujeción a un tipo mínimo del 0%. No se establece tipo máximo."
+   },
+   {
+    "case": "ADM_143047:underlying",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": [
+     "Euribor a 12 meses. El Euribor a estos efectos, será el tipo que aparezca en la página EURIBOR01 de Reuters (o cualquiera que la sustituya en el futuro) para euros y para un plazo de 12 meses, a las 11:00 a.m. (hora de Bruselas) del segundo Día Hábil inmediatamente anterior al inicio de cada período de devengo de interés. Dicho tipo de interés se tomará por su valor facial publicado sin aplicar ningún tipo de transformación.",
+     "Los importes pagaderos bajo los valores serán calculados por referencia a EURIBOR a 12 meses, el cual es provisto por The European Money Markets Institute (EMMI), que aparece en el registro de administradores de índices establecido y mantenido por la ESMA conforme al artículo 36 del Reglamento (UE) 2016/1011 (el ' Reglamento de Índices')."
+    ]
+   },
+   {
+    "case": "ADM_143048:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2024-01-30"
+   },
+   {
+    "case": "ADM_143056:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 21,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2024-02-20"
+   },
+   {
+    "case": "ADM_143057:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 21,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2024-02-20"
+   },
+   {
+    "case": "ADM_143059:business_day_convention",
+    "verdict": "REVIEW",
+    "reason": "prose_clause_support",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 0,
+     "relation": "CLAUSE_PROSE"
+    },
+    "value": "Convention of the following Business Day (modified). In the event that any of the coupon payment dates is not a Business Day, the coupon payment shall be carried forward to the  immediately  following"
+   },
+   {
+    "case": "ADM_143059:underlying",
+    "verdict": "REVIEW",
+    "reason": "prose_clause_support",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 0,
+     "relation": "CLAUSE_PROSE"
+    },
+    "value": "Euribor 3 months + 0.75%, payable quarterly."
+   },
+   {
+    "case": "ADM_143129:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2025-02-18"
+   },
+   {
+    "case": "ADM_143129:ranking",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 12,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "SUBORDINATED"
+   },
+   {
+    "case": "ADM_143129:subordination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 12,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "TIER_2"
+   },
+   {
+    "case": "ADM_143217:coupon_rate",
+    "verdict": "REVIEW",
+    "reason": "prose_clause_support",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 0,
+     "relation": "CLAUSE_PROSE"
+    },
+    "value": "3.522"
+   },
+   {
+    "case": "FOL_11166:benchmark",
+    "verdict": "REJECT",
+    "reason": "label_as_value",
+    "meta": {
+     "ev_blocks": 1
+    },
+    "value": "EURIBOR"
+   },
+   {
+    "case": "FOL_11166:call_dates",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "value": null
+   },
+   {
+    "case": "FOL_11166:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "value": [
+     "Anterior, la convención utilizada para ajustar una fecha que sea un día no hábil, pasando a ser el primer Día Hábil anterior; y",
+     "Modified Following Business Day Convention",
+     "Convención del Día Hábil Anterior",
+     "Preceding  Business  Day  Convention",
+     "Convención del Día Hábil Anterior"
+    ]
+   },
+   {
+    "case": "FOL_11268:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 30,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "FOL_11268:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 30,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "FOL_11268:coupon_type",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 8
+    },
+    "value": [
+     "Aplica/No Aplica",
+     "Aplica/No Aplica",
+     "(N/A; %; pagadero: anualmente, semestralmente, trimestralmente, otros).",
+     "Aplica/No Aplica",
+     "Aplica/No Aplica"
+    ]
+   },
+   {
+    "case": "FOL_11268:call_dates",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 8
+    },
+    "value": null
+   },
+   {
+    "case": "FOL_11268:fixing_rules",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "value": "[Aplicable/No Aplicable]"
+   },
+   {
+    "case": "FOL_11268:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "value": "(N/A; % sobre el nominal)"
+   },
+   {
+    "case": "FOL_11338:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 17,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "FOL_11338:coupon_type",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 5,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "Alternativo"
+   },
+   {
+    "case": "FOL_11338:call_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": null
+   },
+   {
+    "case": "FOL_11338:fixing_rules",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 18,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": [
+     "[ (detallar dónde puede obtenerse esta información) ]",
+     "[Entidad; (indicar si la Entidad pertenece o no al Grupo BBVA) ]",
+     "[ (detallar) ]"
+    ]
+   },
+   {
+    "case": "FOL_11338:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 15,
+     "label_anchors": 3,
+     "relation": null
+    },
+    "value": [
+     "Sin perjuicio de cualquier amortización anticipada, a la par en la fecha de vencimiento (el [---] de [---] de [---])",
+     "( véase lo indicado en el epígrafe 19 siguiente de las presentes Condiciones Finales )",
+     "( Información  adicional  sobre  las  condiciones  de  amortización  de  los  valores  puede encontrarse en el epígrafe 19 de las presentes Condiciones Finales )."
+    ]
+   },
+   {
+    "case": "FOL_11377:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 18,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "FOL_11377:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 18,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "1.000",
+     "currency": "EUR",
+     "raw_number": "1.000"
+    }
+   },
+   {
+    "case": "FOL_11382:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 33,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "FOL_11382:maturity",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 3,
+     "relation": null
+    },
+    "value": "2014-01-07"
+   },
+   {
+    "case": "FOL_11382:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 6,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Aplica/No Aplica",
+     "Aplica / No aplica",
+     "Aplica / No aplica",
+     "[N.A./ [EURIBOR / LIBOR / otro], +/- ["
+    ]
+   },
+   {
+    "case": "FOL_11382:benchmark",
+    "verdict": "REJECT",
+    "reason": "label_as_value",
+    "meta": {
+     "ev_blocks": 1
+    },
+    "value": "EURIBOR"
+   },
+   {
+    "case": "FOL_11382:day_count",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 47,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": null
+   },
+   {
+    "case": "FOL_11382:call_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": null
+   },
+   {
+    "case": "FOL_11382:fixing_rules",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 4
+    },
+    "value": [
+     "[Aplicable/No Aplicable]",
+     "(Aplica/No Aplica) (Solo aplica para las Emisiones de tipos de interés variable referenciadas al EURIBOR) [",
+     "(Aplica/No Aplica) (Solo aplica para las Emisiones de tipos de interés variable referenciadas al EURIBOR denominadas en una divisa distinta al Euro)"
+    ]
+   },
+   {
+    "case": "FOL_11382:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 7
+    },
+    "value": [
+     "[Aplica / No Aplica]",
+     "[ · ]",
+     "[No aplica / % sobre nominal]"
+    ]
+   },
+   {
+    "case": "FOL_11403:call_dates",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "value": null
+   },
+   {
+    "case": "FOL_11407:benchmark",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 22,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "Mid-Swap Rate"
+   },
+   {
+    "case": "FOL_11407:payment_frequency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 14,
+     "label_anchors": 3,
+     "relation": null
+    },
+    "value": null
+   },
+   {
+    "case": "FOL_11407:day_count",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 3,
+     "relation": "NEXT_TO"
+    },
+    "value": "A_30_360"
+   },
+   {
+    "case": "FOL_11407:call_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 15,
+     "label_anchors": 3,
+     "relation": null
+    },
+    "value": null
+   },
+   {
+    "case": "FOL_11407:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": [
+     "FRN Convention",
+     "Modified Following Business Day Convention"
+    ]
+   },
+   {
+    "case": "FOL_11407:fixing_rules",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 24
+    },
+    "value": "[·]"
+   },
+   {
+    "case": "FOL_11407:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 23
+    },
+    "value": "[Redemption at par]"
+   },
+   {
+    "case": "FOL_11407:underlying",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "the Managers named in the relevant Final Terms."
+   },
+   {
+    "case": "FOL_11407:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 6,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Each new Individual Certificate to be issued pursuant to Conditions 2.02 or 2.03 shall be available for delivery within three business days of receipt of the form of t",
+     "Delivery [against/free of] payment"
+    ]
+   },
+   {
+    "case": "FOL_11415:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 22,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "FOL_11415:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 22,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "FOL_11415:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 7,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "[In  respect  of  the  period  from  (and  including)  the  Interest Commencement Date to (but excluding) the Maturity Date,"
+   },
+   {
+    "case": "FOL_11415:benchmark",
+    "verdict": "REJECT",
+    "reason": "label_as_value",
+    "meta": {
+     "ev_blocks": 113
+    },
+    "value": [
+     "Mid-Swap Rate",
+     "EURIBOR",
+     "EURIBOR"
+    ]
+   },
+   {
+    "case": "FOL_11415:call_dates",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 7
+    },
+    "value": null
+   },
+   {
+    "case": "FOL_11415:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 47,
+     "label_anchors": 5,
+     "relation": null
+    },
+    "value": "[Floating Rate Convention / Following Business Day Convention / Modified Following Business Day Convention / Preceding Business Day Convention / No Adjustment]"
+   },
+   {
+    "case": "FOL_11415:reset_dates",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 53
+    },
+    "value": null
+   },
+   {
+    "case": "FOL_11415:fixing_rules",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 88
+    },
+    "value": "[Applicable/Not Applicable] (If not applicable delete the remaining sub-paragraphs of this paragraph)"
+   },
+   {
+    "case": "FOL_11415:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 42,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "value": [
+     "111",
+     "(If not applicable, delete the remaining sub-paragraphs of this paragraph)",
+     "[[20] per cent. / [●] per cent.]"
+    ]
+   },
+   {
+    "case": "FOL_11415:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 7,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "Delivery [against/free of] payment"
+   },
+   {
+    "case": "CCFF_11286_001:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 25,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11286_001:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 25,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2023-10-06"
+   },
+   {
+    "case": "CCFF_11286_001:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 26,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11286_001:coupon_type",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 25
+    },
+    "value": "Index Linked Interest (see paragraph 16 and 21 below)"
+   },
+   {
+    "case": "CCFF_11286_001:redemption_formula",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 10,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "Calculation Amount * Final Payout"
+   },
+   {
+    "case": "CCFF_11286_001:underlying",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 120,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EURO STOXX Banks Index"
+   },
+   {
+    "case": "CCFF_11290_002:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2023-09-29"
+   },
+   {
+    "case": "CCFF_11290_002:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "CCFF_11290_002:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "value": "100% sobre nominal"
+   },
+   {
+    "case": "CCFF_11335_003:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 24,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2024-12-02"
+   },
+   {
+    "case": "CCFF_11335_003:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 25,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11335_003:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 24,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "Applicable"
+   },
+   {
+    "case": "CCFF_11335_003:day_count",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 25,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "ACT_365F"
+   },
+   {
+    "case": "CCFF_11335_003:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 65
+    },
+    "value": [
+     "Redemption at Par",
+     "Redemption at par"
+    ]
+   },
+   {
+    "case": "CCFF_11335_003:observation_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11335_002:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 23,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2024-11-14"
+   },
+   {
+    "case": "CCFF_11335_002:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 25,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11335_002:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 24,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "Applicable"
+   },
+   {
+    "case": "CCFF_11335_002:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 4,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "Following Business Day Convention"
+   },
+   {
+    "case": "CCFF_11335_002:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "label_as_value",
+    "meta": {
+     "ev_blocks": 122
+    },
+    "value": [
+     "Final Redemption Amount:",
+     "Calculation Amount * Final Payout",
+     "Equity Linked Redemption"
+    ]
+   },
+   {
+    "case": "CCFF_11335_002:autocall",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 24,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "APPLICABLE"
+   },
+   {
+    "case": "CCFF_11307_038:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 18,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11307_038:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 18,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2024-10-25"
+   },
+   {
+    "case": "CCFF_11307_038:maturity",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 18,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2034-10-25"
+   },
+   {
+    "case": "CCFF_11307_038:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11307_038:issued_amount",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "10000000",
+     "currency": "EUR",
+     "raw_number": "10,000,000"
+    }
+   },
+   {
+    "case": "CCFF_11307_038:coupon_type",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 14
+    },
+    "value": "Inflation Linked: please see \" Provisions Applicable to Inflation Linked Notes \" below for more details (further particulars specified in items 20 and 23 below)"
+   },
+   {
+    "case": "CCFF_11307_038:ranking",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 18,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "SENIOR_PREFERRED"
+   },
+   {
+    "case": "CCFF_11307_038:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 16
+    },
+    "value": [
+     "Redemption at par See item 30 below Inflation Linked: please see paragraph \" Provisions Applicable to Reference Item Rate Linked Notes \" below for more details",
+     "Calculation Amount * 100%. See Inflation Linked Note redemption provisions below"
+    ]
+   },
+   {
+    "case": "CCFF_11290_003:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2023-11-13"
+   },
+   {
+    "case": "CCFF_11290_003:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "CCFF_11290_003:issued_amount",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "35200000",
+     "currency": "EUR",
+     "raw_number": "35.200.000"
+    }
+   },
+   {
+    "case": "CCFF_11290_003:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "value": "100% sobre nominal."
+   },
+   {
+    "case": "CCFF_11340_006:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 5,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11340_006:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2024-10-01"
+   },
+   {
+    "case": "CCFF_11340_006:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "CCFF_11340_006:issued_amount",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "15600000",
+     "currency": "EUR",
+     "raw_number": "15.600.000"
+    }
+   },
+   {
+    "case": "CCFF_11340_006:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "value": "100% sobre nominal."
+   },
+   {
+    "case": "CCFF_11290_020:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2024-07-25"
+   },
+   {
+    "case": "CCFF_11290_020:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "CCFF_11290_020:issued_amount",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "25800000",
+     "currency": "EUR",
+     "raw_number": "25.800.000"
+    }
+   },
+   {
+    "case": "CCFF_11290_020:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "value": "100% sobre nominal."
+   },
+   {
+    "case": "CCFF_11290_019:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2024-07-25"
+   },
+   {
+    "case": "CCFF_11290_019:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "CCFF_11290_019:issued_amount",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "33900000",
+     "currency": "EUR",
+     "raw_number": "33.900.000"
+    }
+   },
+   {
+    "case": "CCFF_11290_019:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "value": "100% sobre nominal."
+   },
+   {
+    "case": "CCFF_11290_015:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2024-07-09"
+   },
+   {
+    "case": "CCFF_11290_015:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "CCFF_11290_015:issued_amount",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "17300000",
+     "currency": "EUR",
+     "raw_number": "17.300.000"
+    }
+   },
+   {
+    "case": "CCFF_11290_015:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "value": "100% sobre nominal."
+   },
+   {
+    "case": "CCFF_11290_012:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2024-06-11"
+   },
+   {
+    "case": "CCFF_11290_012:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "CCFF_11290_012:issued_amount",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "51600000",
+     "currency": "EUR",
+     "raw_number": "51.600.000"
+    }
+   },
+   {
+    "case": "CCFF_11290_012:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "value": "100% sobre nominal."
+   },
+   {
+    "case": "CCFF_11290_011:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2024-05-08"
+   },
+   {
+    "case": "CCFF_11290_011:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "CCFF_11290_011:issued_amount",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "64800000",
+     "currency": "EUR",
+     "raw_number": "64.800.000"
+    }
+   },
+   {
+    "case": "CCFF_11290_011:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 3
+    },
+    "value": "100% sobre nominal."
+   },
+   {
+    "case": "CCFF_11290_008:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2024-03-26"
+   },
+   {
+    "case": "CCFF_11290_008:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "CCFF_11290_008:issued_amount",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "68300000",
+     "currency": "EUR",
+     "raw_number": "68.300.000"
+    }
+   },
+   {
+    "case": "CCFF_11286_012:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 24,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2024-02-26"
+   },
+   {
+    "case": "CCFF_11286_012:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 25,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11286_012:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 24,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "Applicable"
+   },
+   {
+    "case": "CCFF_11286_012:day_count",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 30,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "ACT_365F"
+   },
+   {
+    "case": "CCFF_11286_012:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 25
+    },
+    "value": [
+     "Redemption at Par",
+     "Redemption at par"
+    ]
+   },
+   {
+    "case": "CCFF_11286_012:observation_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11286_010:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 71,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11286_010:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 71,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "value": "2024-02-26"
+   },
+   {
+    "case": "CCFF_11286_010:maturity",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 71,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2027-02-22"
+   },
+   {
+    "case": "CCFF_11286_010:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 71,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11286_010:coupon_type",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 71,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "Index Linked Interest"
+   },
+   {
+    "case": "CCFF_11286_010:redemption_formula",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 104,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Calculation Amount * Final Payout",
+     "Index Linked Redemption",
+     "Index Linked Redemption"
+    ]
+   },
+   {
+    "case": "CCFF_11286_010:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 83,
+     "label_anchors": 4,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Provisions applicable to Partly Paid",
+     "Provisions applicable to Partly Paid",
+     "49."
+    ]
+   },
+   {
+    "case": "CCFF_11286_008:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 66,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11286_008:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 66,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "value": "2024-03-13"
+   },
+   {
+    "case": "CCFF_11286_008:maturity",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 66,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2029-03-13"
+   },
+   {
+    "case": "CCFF_11286_008:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 66,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "1.000",
+     "currency": "EUR",
+     "raw_number": "1,000"
+    }
+   },
+   {
+    "case": "CCFF_11286_008:coupon_type",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 101,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": [
+     "(xvi) - Memoria",
+     "(i) + Suma de Interés (i) ; o",
+     "Index Linked Interest",
+     "Index Linked Interest"
+    ]
+   },
+   {
+    "case": "CCFF_11286_008:redemption_formula",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 80,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Calculation Amount * Final Payout",
+     "Index Linked Redemption",
+     "Index Linked Redemption"
+    ]
+   },
+   {
+    "case": "CCFF_11286_008:observation_dates",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 69,
+     "label_anchors": 4,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Redemption  Valuation  Date  (see  paragraph  36  (vii) below)",
+     "(see  paragraph  36  (vii) below)",
+     "2024-03-13",
+     "See table above",
+     "2024-03-13",
+     "2029-03-06"
+    ]
+   },
+   {
+    "case": "CCFF_11286_006:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 25,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11286_006:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 25,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2024-02-01"
+   },
+   {
+    "case": "CCFF_11286_006:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 26,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11286_006:redemption_formula",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 6,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "Calculation Amount * Final Payout"
+   },
+   {
+    "case": "CCFF_11286_006:underlying",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 40,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EURO STOXX Banks Index"
+   },
+   {
+    "case": "CCFF_11286_006:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 13,
+     "label_anchors": 4,
+     "relation": "NEXT_TO"
+    },
+    "value": "Provisions applicable to Partly Paid"
+   },
+   {
+    "case": "CCFF_11286_005:maturity",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 67,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2027-01-26"
+   },
+   {
+    "case": "CCFF_11286_005:issued_amount",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 67,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "1000000",
+     "currency": "EUR",
+     "raw_number": "1,000,000"
+    }
+   },
+   {
+    "case": "CCFF_11286_005:coupon_type",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 67
+    },
+    "value": "Index Linked Interest (see paragraph 16 and 21 below)"
+   },
+   {
+    "case": "CCFF_11286_005:redemption_formula",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 23,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "Calculation Amount * Final Payout"
+   },
+   {
+    "case": "CCFF_11286_005:underlying",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 162,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EURO STOXX Banks Index"
+   },
+   {
+    "case": "CCFF_11286_005:settlement_type",
+    "verdict": "REJECT",
+    "reason": "label_as_value",
+    "meta": {
+     "ev_blocks": 64
+    },
+    "value": "Provisions applicable to Partly Paid Notes:"
+   },
+   {
+    "case": "CCFF_11380_008:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 24,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11380_008:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 23,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2025-11-28"
+   },
+   {
+    "case": "CCFF_11380_008:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 25,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11380_008:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 24,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "Equity Linked Interest"
+   },
+   {
+    "case": "CCFF_11380_006:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 79,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "value": "2025-11-19"
+   },
+   {
+    "case": "CCFF_11380_006:maturity",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 79,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2030-11-19"
+   },
+   {
+    "case": "CCFF_11380_006:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 79,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11380_006:observation_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 73,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "value": "2030-11-12"
+   },
+   {
+    "case": "CCFF_11380_002:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 65,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2025-08-12"
+   },
+   {
+    "case": "CCFF_11380_002:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 65,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11380_002:redemption_formula",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 28,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "Calculation Amount * Final Payout"
+   },
+   {
+    "case": "CCFF_11380_002:underlying",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 81,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EURO STOXX Banks Index"
+   },
+   {
+    "case": "CCFF_11380_002:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 27,
+     "label_anchors": 3,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Provisions applicable to Partly Paid",
+     "Provisions applicable to Partly Paid",
+     "The Issuer does not have the option to vary settlement in respect of the Notes as set out in General Condition 5(b)(ii)"
+    ]
+   },
+   {
+    "case": "CCFF_11433_007:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 67,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11433_007:maturity",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 67,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2029-08-27"
+   },
+   {
+    "case": "CCFF_11433_007:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 67,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "1.000",
+     "currency": "EUR",
+     "raw_number": "1,000"
+    }
+   },
+   {
+    "case": "CCFF_11433_007:observation_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 113,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "value": [
+     "2029-08-20",
+     "2026-07-24",
+     "2029-08-20"
+    ]
+   },
+   {
+    "case": "CCFF_11433_007:settlement_type",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 79,
+     "label_anchors": 3,
+     "relation": null
+    },
+    "value": "The Issuer does not have the option to vary settlement in respect of the Notes as set out in General Condition 5(b)(ii)"
+   },
+   {
+    "case": "CCFF_11380_024:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 58,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11380_024:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 58,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11380_024:underlying",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 106,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EURO STOXX Banks Index"
+   },
+   {
+    "case": "CCFF_11380_024:barrier",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 52,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "value": [
+     "60.00",
+     "100"
+    ]
+   },
+   {
+    "case": "CCFF_11380_024:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 39,
+     "label_anchors": 4,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Provisions applicable to Partly Paid",
+     "Provisions applicable to Partly Paid",
+     "54.",
+     "The Issuer  does  not  have  the  option  to  vary  settlement  in"
+    ]
+   },
+   {
+    "case": "CCFF_11380_013:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 23,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11380_013:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 23,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2026-02-13"
+   },
+   {
+    "case": "CCFF_11380_013:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 24,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11380_013:redemption_formula",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 24,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Index Linked Redemption",
+     "Calculation Amount * Final Payout",
+     "Calculation Amount * Final Payout"
+    ]
+   },
+   {
+    "case": "CCFF_11380_013:underlying",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 62,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EURO STOXX Banks Index"
+   },
+   {
+    "case": "CCFF_11380_013:observation_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 38,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "value": [
+     "2029-02-06",
+     "2026-02-13",
+     "2029-02-06"
+    ]
+   },
+   {
+    "case": "CCFF_11380_014:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 73,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11380_014:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 73,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2026-02-20"
+   },
+   {
+    "case": "CCFF_11380_014:maturity",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 73,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2036-02-20"
+   },
+   {
+    "case": "CCFF_11380_014:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 73,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11380_014:call_dates",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 11,
+     "label_anchors": 4,
+     "relation": "NEXT_TO"
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11380_014:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "label_as_value",
+    "meta": {
+     "ev_blocks": 147
+    },
+    "value": [
+     "Final Redemption Amount:",
+     "Calculation Amount * 142.30 per cent.",
+     "(See paragraph 33 (Final Redemption Amount) and 36 below)",
+     "(See paragraph 33 (Final Redemption Amount) and 36 below)"
+    ]
+   },
+   {
+    "case": "CCFF_11380_014:settlement_type",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 16,
+     "label_anchors": 3,
+     "relation": null
+    },
+    "value": "The Issuer does not have the option to vary settlement in respect of the Notes as set out in General Condition 5(b)(ii)"
+   },
+   {
+    "case": "CCFF_11380_005:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 23,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "USD"
+   },
+   {
+    "case": "CCFF_11380_005:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 23,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2025-10-31"
+   },
+   {
+    "case": "CCFF_11380_005:issued_amount",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 24,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "1080000",
+     "currency": "USD",
+     "raw_number": "1,080,000"
+    }
+   },
+   {
+    "case": "CCFF_11380_005:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 23,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "Index Linked Interest"
+   },
+   {
+    "case": "CCFF_11380_005:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "label_as_value",
+    "meta": {
+     "ev_blocks": 98
+    },
+    "value": [
+     "Index Linked Redemption",
+     "Final Redemption Amount:",
+     "Calculation Amount * Final Payout"
+    ]
+   },
+   {
+    "case": "CCFF_11380_005:underlying",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 45,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EURO STOXX Banks Index"
+   },
+   {
+    "case": "CCFF_11380_005:observation_dates",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 207,
+     "label_anchors": 5,
+     "relation": "NEXT_TO"
+    },
+    "value": "2030-10-24"
+   },
+   {
+    "case": "CCFF_11380_005:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 84,
+     "label_anchors": 4,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Provisions applicable to Partly Paid",
+     "Provisions applicable to Partly Paid",
+     "54."
+    ]
+   },
+   {
+    "case": "CCFF_11433_005:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 66,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11433_005:maturity",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 66,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2029-08-03"
+   },
+   {
+    "case": "CCFF_11433_005:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 66,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "1.000",
+     "currency": "EUR",
+     "raw_number": "1,000"
+    }
+   },
+   {
+    "case": "CCFF_11433_005:coupon_type",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 66,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "Equity Linked Interest"
+   },
+   {
+    "case": "CCFF_11433_005:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "label_as_value",
+    "meta": {
+     "ev_blocks": 145
+    },
+    "value": [
+     "Final Redemption Amount:",
+     "Calculation Amount * Final Payout",
+     "Equity Linked Redemption",
+     "Equity Linked Redemption"
+    ]
+   },
+   {
+    "case": "CCFF_11433_005:barrier",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 137,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "value": "60.00"
+   },
+   {
+    "case": "CCFF_11433_001:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 65,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11433_001:maturity",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 65,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2028-07-24"
+   },
+   {
+    "case": "CCFF_11433_001:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 65,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "1.000",
+     "currency": "EUR",
+     "raw_number": "1,000"
+    }
+   },
+   {
+    "case": "CCFF_11433_001:coupon_type",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 65,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "Equity Linked Interest"
+   },
+   {
+    "case": "CCFF_11433_001:redemption_formula",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 105,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Calculation Amount * Final Payout",
+     "Equity Linked Redemption (see paragraph 33 and 40 below)",
+     "Equity Linked Redemption (see paragraph 33 and 40 below)"
+    ]
+   },
+   {
+    "case": "CCFF_11433_001:settlement_type",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 3,
+     "relation": null
+    },
+    "value": "Banco Bilbao Vizcaya Argentaria, S.A."
+   },
+   {
+    "case": "CCFF_11380_036:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 23,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11380_036:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 24,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "1.000",
+     "currency": "EUR",
+     "raw_number": "1,000"
+    }
+   },
+   {
+    "case": "CCFF_11380_036:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 23,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "Equity Linked Interest"
+   },
+   {
+    "case": "CCFF_11380_036:redemption_formula",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 31,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Equity Linked Redemption",
+     "Calculation Amount * Final Payout"
+    ]
+   },
+   {
+    "case": "CCFF_11380_036:settlement_type",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 16,
+     "label_anchors": 3,
+     "relation": null
+    },
+    "value": "Banco Bilbao Vizcaya Argentaria, S.A."
+   },
+   {
+    "case": "CCFF_11380_033:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 22,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11380_033:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 23,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "1.000",
+     "currency": "EUR",
+     "raw_number": "1,000"
+    }
+   },
+   {
+    "case": "CCFF_11380_033:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 22,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "Equity Linked Interest"
+   },
+   {
+    "case": "CCFF_11380_033:redemption_formula",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 42,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Equity Linked Redemption",
+     "Calculation Amount * Final Payout"
+    ]
+   },
+   {
+    "case": "CCFF_11380_033:settlement_type",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 18,
+     "label_anchors": 3,
+     "relation": null
+    },
+    "value": "Banco Bilbao Vizcaya Argentaria, S.A."
+   },
+   {
+    "case": "CCFF_11380_027:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 22,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11380_027:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 22,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2026-05-08"
+   },
+   {
+    "case": "CCFF_11380_027:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 23,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11380_027:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 22,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "Index Linked Interest"
+   },
+   {
+    "case": "CCFF_11380_027:payment_frequency",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 4
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11380_027:redemption_formula",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 29,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Index Linked Redemption",
+     "Calculation Amount * Final Payout"
+    ]
+   },
+   {
+    "case": "CCFF_11380_027:underlying",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 43,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EURO STOXX Banks Index"
+   },
+   {
+    "case": "CCFF_11380_027:observation_dates",
+    "verdict": "REJECT",
+    "reason": "template_scope",
+    "meta": {
+     "ev_blocks": 249
+    },
+    "value": [
+     "Automatic Early Redemption",
+     "Automatic Early Redemption",
+     "(xi)",
+     "2031-04-30",
+     "2026-04-21",
+     "See table above",
+     "2031-04-30"
+    ]
+   },
+   {
+    "case": "CCFF_11380_027:settlement_type",
+    "verdict": "REJECT",
+    "reason": "template_scope",
+    "meta": {
+     "ev_blocks": 56
+    },
+    "value": "The Issuer does not have the option to vary settlement in respect of the Notes as set out in General Condition 5(b)(ii)"
+   },
+   {
+    "case": "CCFF_11380_023:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 23,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11380_023:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 26,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "1.000",
+     "currency": "EUR",
+     "raw_number": "1,000"
+    }
+   },
+   {
+    "case": "CCFF_11380_023:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 23,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "Index Linked Interest"
+   },
+   {
+    "case": "CCFF_11380_023:payment_frequency",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11380_023:redemption_formula",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 57,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Index Linked Redemption",
+     "Calculation Amount * Final Payout"
+    ]
+   },
+   {
+    "case": "CCFF_11380_023:barrier",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 18,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "value": "70.00"
+   },
+   {
+    "case": "CCFF_11380_020:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 51,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2026-03-20"
+   },
+   {
+    "case": "CCFF_11380_020:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 51,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11380_020:coupon_type",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 51,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "Index Linked Interest"
+   },
+   {
+    "case": "CCFF_11380_020:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "label_as_value",
+    "meta": {
+     "ev_blocks": 151
+    },
+    "value": [
+     "Final Redemption Amount:",
+     "Calculation Amount * Final Payout",
+     "Reference Item(s):",
+     "Reference Item(s):"
+    ]
+   },
+   {
+    "case": "CCFF_11380_020:underlying",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 26,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "EURO STOXX Banks Index"
+   },
+   {
+    "case": "CCFF_11380_020:observation_dates",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 120,
+     "label_anchors": 3,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "2031-03-13",
+     "2026-03-06",
+     "See table above",
+     "2031-03-13"
+    ]
+   },
+   {
+    "case": "CCFF_11380_020:settlement_type",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 48,
+     "label_anchors": 3,
+     "relation": null
+    },
+    "value": "The Issuer does not have the option to vary settlement in respect of the Notes as set out in General Condition 5(b)(ii)"
+   },
+   {
+    "case": "CCFF_11380_019:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 22,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11380_019:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 23,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "1.000",
+     "currency": "EUR",
+     "raw_number": "1,000"
+    }
+   },
+   {
+    "case": "CCFF_11380_019:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 22,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "Index Linked Interest"
+   },
+   {
+    "case": "CCFF_11380_019:payment_frequency",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 3
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11380_019:redemption_formula",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 58,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Index Linked Redemption",
+     "Calculation Amount * Final Payout"
+    ]
+   },
+   {
+    "case": "CCFF_11380_016:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 26,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11380_016:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 27,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "1.000",
+     "currency": "EUR",
+     "raw_number": "1,000"
+    }
+   },
+   {
+    "case": "CCFF_11380_016:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 26,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "Equity Linked Interest"
+   },
+   {
+    "case": "CCFF_11380_016:payment_frequency",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 4
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11380_016:redemption_formula",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 45,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Equity Linked Redemption",
+     "Calculation Amount * Final Payout"
+    ]
+   },
+   {
+    "case": "CCFF_11380_016:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 27,
+     "label_anchors": 4,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "(i)",
+     "Banco Bilbao Vizcaya Argentaria, S.A.",
+     "The Issuer does not have the option to vary settlement in respect of the Notes as set out in General Condition 5(b)(ii)"
+    ]
+   },
+   {
+    "case": "CCFF_11340_024:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 5,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11340_024:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2025-06-24"
+   },
+   {
+    "case": "CCFF_11340_024:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "CCFF_11340_024:issued_amount",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "26300000",
+     "currency": "EUR",
+     "raw_number": "26.300.000"
+    }
+   },
+   {
+    "case": "CCFF_11340_024:redemption_formula",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 5,
+     "label_anchors": 3,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Si  en  la  Fecha  de  Observación  Final,  el  nivel  oficial  de  cierre  del  Índice Subyacente es igual o superior al Nivel Inicial , se amortizará la emisión en la Fecha de Amortización Final procediéndose a la devolución del Importe Nominal unitario de cada bono y al abono de un interés igual al 100,00% del porcentaje de revalorización del EUROSTOXX50 respecto al Nivel Inicial.",
+     "Si  en  la  Fecha  de  Observación  Final,  el  nivel  oficial  de  cierre  del  Índice Subyacente es inferior al Nivel Inicial , se amortizará la emisión en la Fecha de Amortización Final procediéndose a la devolución del Importe Nominal unitario de cada bono sin abono de intereses.",
+     "Si  en  la  Fecha  de  Observación  Final,  el  nivel  oficial  de  cierre  del  Índice Subyacente es igual o superior al Nivel Inicial , se amortizará la emisión en la Fecha de Amortización Final procediéndose a la devolución del Importe Nominal unitario de cada bono y al abono de un interés igual al 100,00% del porcentaje de revalorización del EUROSTOXX50 respecto al Nivel Inicial.",
+     "Si  en  la  Fecha  de  Observación  Final,  el  nivel  oficial  de  cierre  del  Índice Subyacente es inferior al Nivel Inicial , se amortizará la emisión en la Fecha de Amortización Final procediéndose a la devolución del Importe Nominal unitario de cada bono sin abono de intereses.",
+     "24 de junio de 2027.",
+     "100% sobre nominal."
+    ]
+   },
+   {
+    "case": "CCFF_11340_023:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 5,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11340_023:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2025-06-10"
+   },
+   {
+    "case": "CCFF_11340_023:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "CCFF_11340_023:issued_amount",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "13300000",
+     "currency": "EUR",
+     "raw_number": "13.300.000"
+    }
+   },
+   {
+    "case": "CCFF_11340_023:redemption_formula",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 3,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "10 de junio de 2027.",
+     "100% sobre nominal."
+    ]
+   },
+   {
+    "case": "CCFF_11340_018:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11340_018:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2025-04-23"
+   },
+   {
+    "case": "CCFF_11340_018:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "CCFF_11340_018:issued_amount",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "37800000",
+     "currency": "EUR",
+     "raw_number": "37.800.000"
+    }
+   },
+   {
+    "case": "CCFF_11340_018:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "value": "100% sobre nominal."
+   },
+   {
+    "case": "CCFF_11340_018:observation_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 17,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": [
+     "2025-04-14",
+     "2026-04-13"
+    ]
+   },
+   {
+    "case": "CCFF_11340_014:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 4,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11340_014:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2025-03-21"
+   },
+   {
+    "case": "CCFF_11340_014:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "CCFF_11340_014:issued_amount",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "5000000",
+     "currency": "EUR",
+     "raw_number": "5.000.000"
+    }
+   },
+   {
+    "case": "CCFF_11340_014:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "value": "100% sobre nominal."
+   },
+   {
+    "case": "CCFF_11340_014:observation_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 23,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": [
+     "2025-03-14",
+     "2026-03-13"
+    ]
+   },
+   {
+    "case": "CCFF_11340_013:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11340_013:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2025-01-29"
+   },
+   {
+    "case": "CCFF_11340_013:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "CCFF_11340_013:issued_amount",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "60400000",
+     "currency": "EUR",
+     "raw_number": "60.400.000"
+    }
+   },
+   {
+    "case": "CCFF_11340_013:redemption_formula",
+    "verdict": "REJECT",
+    "reason": "default_value_boilerplate",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "value": "100% sobre nominal."
+   },
+   {
+    "case": "CCFF_11340_013:observation_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": [
+     "2025-01-22",
+     "2026-01-21"
+    ]
+   },
+   {
+    "case": "CCFF_11394_003:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 23,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11394_003:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 17,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11394_003:issued_amount",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "500000000",
+     "currency": "EUR",
+     "raw_number": "500,000,000"
+    }
+   },
+   {
+    "case": "CCFF_11394_003:benchmark",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "Mid-Swap Rate"
+   },
+   {
+    "case": "CCFF_11394_003:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 11,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "Delivery against payment"
+   },
+   {
+    "case": "CCFF_11307_015:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 33,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11307_015:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 33,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11307_015:call_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 14,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2029-04-11"
+   },
+   {
+    "case": "CCFF_11307_015:subordination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 33,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11307_015:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 16,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "Delivery against payment"
+   },
+   {
+    "case": "CCFF_11329_002:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 66,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "value": "2025-02-14"
+   },
+   {
+    "case": "CCFF_11329_002:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 66,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11329_002:benchmark",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 61,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "Mid-Swap Rate"
+   },
+   {
+    "case": "CCFF_11329_002:payment_frequency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 61,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "ANNUAL"
+   },
+   {
+    "case": "CCFF_11329_002:day_count",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 61,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "ACT_ACT_ICMA"
+   },
+   {
+    "case": "CCFF_11329_002:call_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 9,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2030-02-14"
+   },
+   {
+    "case": "CCFF_11329_002:reset_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 63,
+     "label_anchors": 3,
+     "relation": null
+    },
+    "value": "2030-02-14"
+   },
+   {
+    "case": "CCFF_11357_010:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11357_010:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2025-05-13"
+   },
+   {
+    "case": "CCFF_11357_010:maturity",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2034-05-13"
+   },
+   {
+    "case": "CCFF_11357_010:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 21,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11357_010:issued_amount",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 21,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "30000000",
+     "currency": "EUR",
+     "raw_number": "30,000,000"
+    }
+   },
+   {
+    "case": "CCFF_11357_010:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "Fixed to Float Rate"
+   },
+   {
+    "case": "CCFF_11357_010:benchmark",
+    "verdict": "REJECT",
+    "reason": "label_as_value",
+    "meta": {
+     "ev_blocks": 53
+    },
+    "value": "EURIBOR"
+   },
+   {
+    "case": "CCFF_11357_010:day_count",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 27,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "value": "ACT_360"
+   },
+   {
+    "case": "CCFF_11357_010:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 14,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "Delivery against payment"
+   },
+   {
+    "case": "CCFF_11357_004:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 18,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11357_004:maturity",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 14,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2035-04-03"
+   },
+   {
+    "case": "CCFF_11357_004:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11357_004:coupon_type",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 14
+    },
+    "value": "Inflation Linked: please see \" Provisions Applicable to Inflation Linked Notes \" below for more details (further particulars specified in items 20 and 23 below)"
+   },
+   {
+    "case": "CCFF_11357_004:payment_frequency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 13,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "ANNUAL"
+   },
+   {
+    "case": "CCFF_11357_004:subordination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 18,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11357_004:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 13,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "Delivery against payment"
+   },
+   {
+    "case": "CCFF_11289_001:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11289_001:coupon_type",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 2
+    },
+    "value": "4.250 per cent. Fixed Rate (further particulars specified below)"
+   },
+   {
+    "case": "CCFF_11289_001:payment_frequency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 28,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "ANNUAL"
+   },
+   {
+    "case": "CCFF_11307_010:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11307_010:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2024-03-21"
+   },
+   {
+    "case": "CCFF_11307_010:maturity",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2037-03-21"
+   },
+   {
+    "case": "CCFF_11307_010:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 21,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11307_010:issued_amount",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 21,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "70000000",
+     "currency": "EUR",
+     "raw_number": "70,000,000"
+    }
+   },
+   {
+    "case": "CCFF_11307_010:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "3.89% Fixed Rate"
+   },
+   {
+    "case": "CCFF_11307_010:coupon_rate",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 4,
+     "label_anchors": 3,
+     "relation": "NEXT_TO"
+    },
+    "value": "3.89"
+   },
+   {
+    "case": "CCFF_11307_010:call_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 14,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2036-03-21"
+   },
+   {
+    "case": "CCFF_11307_010:subordination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11307_010:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 16,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "Delivery against payment"
+   },
+   {
+    "case": "CCFF_11407_003:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 29,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11407_003:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 30,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11407_003:issued_amount",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 30,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "1000000000",
+     "currency": "EUR",
+     "raw_number": "1,000,000,000"
+    }
+   },
+   {
+    "case": "CCFF_11400_046:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "CNH"
+   },
+   {
+    "case": "CCFF_11400_046:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2026-08-11"
+   },
+   {
+    "case": "CCFF_11400_046:maturity",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2036-08-11"
+   },
+   {
+    "case": "CCFF_11400_046:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "1000000",
+     "currency": "CNH",
+     "raw_number": "1,000,000"
+    }
+   },
+   {
+    "case": "CCFF_11400_046:issued_amount",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "200000000",
+     "currency": "CNH",
+     "raw_number": "200,000,000"
+    }
+   },
+   {
+    "case": "CCFF_11400_046:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2.23% Fixed Rate"
+   },
+   {
+    "case": "CCFF_11400_046:coupon_rate",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 29,
+     "label_anchors": 3,
+     "relation": "NEXT_TO"
+    },
+    "value": "2.23"
+   },
+   {
+    "case": "CCFF_11400_046:call_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 15,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2029-08-11"
+   },
+   {
+    "case": "CCFF_11400_046:subordination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11400_046:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 14,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "Delivery against payment"
+   },
+   {
+    "case": "CCFF_11400_037:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 21,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11400_037:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 21,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2026-06-19"
+   },
+   {
+    "case": "CCFF_11400_037:maturity",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2046-06-19"
+   },
+   {
+    "case": "CCFF_11400_037:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 22,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11400_037:issued_amount",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 22,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "10000000",
+     "currency": "EUR",
+     "raw_number": "10,000,000"
+    }
+   },
+   {
+    "case": "CCFF_11400_037:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "4.18% Fixed Rate"
+   },
+   {
+    "case": "CCFF_11400_037:payment_frequency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "ANNUAL"
+   },
+   {
+    "case": "CCFF_11400_037:call_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 30,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2031-06-19"
+   },
+   {
+    "case": "CCFF_11400_037:subordination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11400_037:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 14,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "Delivery against payment"
+   },
+   {
+    "case": "CCFF_11400_024:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 26,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11400_024:issued_amount",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 26,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "30000000",
+     "currency": "EUR",
+     "raw_number": "30,000,000"
+    }
+   },
+   {
+    "case": "CCFF_11400_024:call_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 11,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11400_024:subordination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 26,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11400_024:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 14,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "Delivery against payment"
+   },
+   {
+    "case": "CCFF_11400_002:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 34,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "USD"
+   },
+   {
+    "case": "CCFF_11400_002:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 34,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "200.000",
+     "currency": "USD",
+     "raw_number": "200,000"
+    }
+   },
+   {
+    "case": "CCFF_11400_002:issued_amount",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 34,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "40000000",
+     "currency": "USD",
+     "raw_number": "40,000,000"
+    }
+   },
+   {
+    "case": "CCFF_11400_002:coupon_type",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 35
+    },
+    "value": "6.00% Fixed Rate (further particulars specified in items 20 and 21 below)"
+   },
+   {
+    "case": "CCFF_11400_002:call_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 10,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11400_002:subordination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 34,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11400_002:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 15,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "Delivery against payment"
+   },
+   {
+    "case": "CCFF_11400_047:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "USD"
+   },
+   {
+    "case": "CCFF_11400_047:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2026-08-21"
+   },
+   {
+    "case": "CCFF_11400_047:maturity",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2051-08-21"
+   },
+   {
+    "case": "CCFF_11400_047:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 21,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "200.000",
+     "currency": "USD",
+     "raw_number": "200,000"
+    }
+   },
+   {
+    "case": "CCFF_11400_047:issued_amount",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 21,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "5000000",
+     "currency": "USD",
+     "raw_number": "5,000,000"
+    }
+   },
+   {
+    "case": "CCFF_11400_047:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "6.19% Fixed Rate"
+   },
+   {
+    "case": "CCFF_11400_047:call_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 11,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2033-08-21"
+   },
+   {
+    "case": "CCFF_11400_047:subordination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11400_047:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 14,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "Delivery against payment"
+   },
+   {
+    "case": "CCFF_11400_021:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "USD"
+   },
+   {
+    "case": "CCFF_11400_021:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2026-05-18"
+   },
+   {
+    "case": "CCFF_11400_021:maturity",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 18,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2051-05-18"
+   },
+   {
+    "case": "CCFF_11400_021:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "200.000",
+     "currency": "USD",
+     "raw_number": "200,000"
+    }
+   },
+   {
+    "case": "CCFF_11400_021:issued_amount",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "10000000",
+     "currency": "USD",
+     "raw_number": "10,000,000"
+    }
+   },
+   {
+    "case": "CCFF_11400_021:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "6.15% Fixed Rate"
+   },
+   {
+    "case": "CCFF_11400_021:call_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2033-05-18"
+   },
+   {
+    "case": "CCFF_11400_021:subordination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11400_021:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 14,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "Delivery against payment"
+   },
+   {
+    "case": "CCFF_11400_032:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "PEN"
+   },
+   {
+    "case": "CCFF_11400_032:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2026-06-04"
+   },
+   {
+    "case": "CCFF_11400_032:maturity",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2033-06-04"
+   },
+   {
+    "case": "CCFF_11400_032:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 21,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "500.000",
+     "currency": "PEN",
+     "raw_number": "500,000"
+    }
+   },
+   {
+    "case": "CCFF_11400_032:issued_amount",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 21,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "25000000",
+     "currency": "PEN",
+     "raw_number": "25,000,000"
+    }
+   },
+   {
+    "case": "CCFF_11400_032:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "per cent . Fixed Rate"
+   },
+   {
+    "case": "CCFF_11400_032:subordination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11400_032:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 14,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "Delivery against payment"
+   },
+   {
+    "case": "CCFF_11400_004:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "CNH"
+   },
+   {
+    "case": "CCFF_11400_004:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2026-02-12"
+   },
+   {
+    "case": "CCFF_11400_004:maturity",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2031-02-12"
+   },
+   {
+    "case": "CCFF_11400_004:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "1000000",
+     "currency": "CNH",
+     "raw_number": "1,000,000"
+    }
+   },
+   {
+    "case": "CCFF_11400_004:issued_amount",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "200000000",
+     "currency": "CNH",
+     "raw_number": "200,000,000"
+    }
+   },
+   {
+    "case": "CCFF_11400_004:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2.35% Fixed Rate"
+   },
+   {
+    "case": "CCFF_11400_004:subordination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11400_004:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 16,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "Delivery against payment"
+   },
+   {
+    "case": "CCFF_11400_011:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 23,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "USD"
+   },
+   {
+    "case": "CCFF_11400_011:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2026-03-31"
+   },
+   {
+    "case": "CCFF_11400_011:maturity",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2051-03-31"
+   },
+   {
+    "case": "CCFF_11400_011:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "200.000",
+     "currency": "USD",
+     "raw_number": "200,000"
+    }
+   },
+   {
+    "case": "CCFF_11400_011:issued_amount",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "25000000",
+     "currency": "USD",
+     "raw_number": "25,000,000"
+    }
+   },
+   {
+    "case": "CCFF_11400_011:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "6.05% Fixed Rate"
+   },
+   {
+    "case": "CCFF_11400_011:coupon_rate",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 24,
+     "label_anchors": 3,
+     "relation": "NEXT_TO"
+    },
+    "value": "6.05"
+   },
+   {
+    "case": "CCFF_11400_011:call_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11400_011:subordination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11400_011:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 14,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "Delivery against payment"
+   },
+   {
+    "case": "CCFF_11357_019:currency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 31,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "USD"
+   },
+   {
+    "case": "CCFF_11357_019:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 32,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "200.000",
+     "currency": "USD",
+     "raw_number": "200,000"
+    }
+   },
+   {
+    "case": "CCFF_11357_019:issued_amount",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 31,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "60000000",
+     "currency": "USD",
+     "raw_number": "60,000,000"
+    }
+   },
+   {
+    "case": "CCFF_11357_019:payment_frequency",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 30,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "ANNUAL"
+   },
+   {
+    "case": "CCFF_11357_019:day_count",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 30,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "A_30_360"
+   },
+   {
+    "case": "CCFF_11357_019:call_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 29,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2029-01-28"
+   },
+   {
+    "case": "CCFF_11357_019:subordination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 31,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11357_019:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 14,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "Delivery against payment"
+   },
+   {
+    "case": "CCFF_11357_009:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 22,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11357_009:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 21,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2025-03-24"
+   },
+   {
+    "case": "CCFF_11357_009:maturity",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 22,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2026-03-24"
+   },
+   {
+    "case": "CCFF_11357_009:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 23,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11357_009:day_count",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 29,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "ACT_360"
+   },
+   {
+    "case": "CCFF_11357_009:fixing_rules",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 61,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": [
+     "Banco Santander, S.A.",
+     "PROVISIONS RELATING TO REDEMPTION",
+     "Reuters page EURIBOR01"
+    ]
+   },
+   {
+    "case": "CCFF_11357_009:subordination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 22,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11357_009:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 15,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "Delivery against payment"
+   },
+   {
+    "case": "CCFF_11341_004:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2025-05-13"
+   },
+   {
+    "case": "CCFF_11341_003:benchmark",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": [
+     "EURIBOR 6 meses",
+     "EURIBOR 3 meses"
+    ]
+   },
+   {
+    "case": "CCFF_11341_003:spread",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "0.60"
+   },
+   {
+    "case": "CCFF_11341_003:day_count",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 4,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "ACT_360"
+   },
+   {
+    "case": "CCFF_11340_009:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 4,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11340_009:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2024-11-12"
+   },
+   {
+    "case": "CCFF_11340_009:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "CCFF_11340_009:issued_amount",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "1500000000",
+     "currency": "EUR",
+     "raw_number": "1.500.000.000"
+    }
+   },
+   {
+    "case": "CCFF_11340_009:coupon_type",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": [
+     "Euribor 6 meses + 0,51%, pagadero semestralmente.",
+     "En  caso de  aplicación del vencimiento prorrogable,  durante el  periodo de vencimiento prorrogado, el tipo de interés seguirá siendo el definido anteriormente."
+    ]
+   },
+   {
+    "case": "CCFF_11340_020:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 4,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11340_020:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2025-06-05"
+   },
+   {
+    "case": "CCFF_11340_020:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "CCFF_11340_020:issued_amount",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "1500000000",
+     "currency": "EUR",
+     "raw_number": "1.500.000.000"
+    }
+   },
+   {
+    "case": "CCFF_11340_020:coupon_type",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": [
+     "Euribor 6 meses + 0,50%, pagadero semestralmente.",
+     "En  caso de  aplicación del vencimiento prorrogable,  durante el  periodo de vencimiento prorrogado, el tipo de interés seguirá siendo el definido anteriormente."
+    ]
+   },
+   {
+    "case": "CCFF_11384_002:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 17,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11384_002:maturity",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 17,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "2031-11-27"
+   },
+   {
+    "case": "CCFF_11384_002:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Variable.",
+     "Y AMORTIZACIÓN"
+    ]
+   },
+   {
+    "case": "CCFF_11384_002:settlement_type",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": [
+     "IBERCLEAR, que ejerce esta función junto con sus entidades participantes.",
+     "IBERCLEAR."
+    ]
+   },
+   {
+    "case": "CCFF_11338_002:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 17,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11338_002:maturity",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 14,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "2031-06-06"
+   },
+   {
+    "case": "CCFF_11338_002:coupon_type",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 18,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": [
+     "Variable.",
+     "Y AMORTIZACIÓN",
+     "Euribor a 3 meses  más  50 puntos básicos, pagadero trimestralmente."
+    ]
+   },
+   {
+    "case": "CCFF_11338_002:fixing_rules",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 32,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": [
+     "Reuters.",
+     "Base de cálculo para"
+    ]
+   },
+   {
+    "case": "CCFF_11338_002:settlement_type",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 16,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": [
+     "IBERCLEAR, que ejerce esta función junto con sus entidades participantes.",
+     "IBERCLEAR."
+    ]
+   },
+   {
+    "case": "CCFF_11384_004:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 16,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11384_004:coupon_type",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": [
+     "Y AMORTIZACIÓN",
+     "2,875 %, pagadero anualmente"
+    ]
+   },
+   {
+    "case": "CCFF_11384_004:payment_frequency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 15,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "ANNUAL"
+   },
+   {
+    "case": "CCFF_11382_003:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2026-01-20"
+   },
+   {
+    "case": "CCFF_11382_003:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "CCFF_11382_003:issued_amount",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "500000000",
+     "currency": "EUR",
+     "raw_number": "500.000.000"
+    }
+   },
+   {
+    "case": "CCFF_11382_003:underlying",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "Euribor 3 meses."
+   },
+   {
+    "case": "CCFF_11385_002:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 3,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2026-02-23"
+   },
+   {
+    "case": "CCFF_11310_001:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 21,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11310_001:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 35,
+     "label_anchors": 2,
+     "relation": null
+    },
+    "value": "2024-02-08"
+   },
+   {
+    "case": "CCFF_11310_001:maturity",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 35,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2032-02-08"
+   },
+   {
+    "case": "CCFF_11310_001:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 36,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11310_001:coupon_type",
+    "verdict": "REJECT",
+    "reason": "placeholder_value",
+    "meta": {
+     "ev_blocks": 35
+    },
+    "value": "In respect of the period from (and including) the Interest Commencement Date to (but excluding) the Maturity Date, 6- month EURIBOR + 0.70 per cent. per annum Floating Rate. (see paragraph 18 below) In respect of the period from (and including) the Maturity Date to (but excluding) the Extended Maturity Date (if applicable),"
+   },
+   {
+    "case": "CCFF_11310_001:benchmark",
+    "verdict": "REJECT",
+    "reason": "label_as_value",
+    "meta": {
+     "ev_blocks": 111
+    },
+    "value": "EURIBOR"
+   },
+   {
+    "case": "CCFF_11310_001:call_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 32,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11291_001:business_day_convention",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "Following Business Day Convention"
+   },
+   {
+    "case": "CCFF_11398_003:issue_date",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "2026-05-07"
+   },
+   {
+    "case": "CCFF_11398_003:denomination",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 2,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   },
+   {
+    "case": "CCFF_11398_003:spread",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "0.42"
+   },
+   {
+    "case": "CCFF_11398_003:day_count",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 1,
+     "label_anchors": 0,
+     "relation": null
+    },
+    "value": "ACT_360"
+   },
+   {
+    "case": "CCFF_11307_021:currency",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "EUR"
+   },
+   {
+    "case": "CCFF_11307_021:issue_date",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2024-04-26"
+   },
+   {
+    "case": "CCFF_11307_021:maturity",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "2040-04-26"
+   },
+   {
+    "case": "CCFF_11307_021:denomination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100,000"
+    }
+   },
+   {
+    "case": "CCFF_11307_021:issued_amount",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 20,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": {
+     "amount": "15000000",
+     "currency": "EUR",
+     "raw_number": "15,000,000"
+    }
+   },
+   {
+    "case": "CCFF_11307_021:coupon_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": "4.681% Fixed Rate"
+   },
+   {
+    "case": "CCFF_11307_021:call_dates",
+    "verdict": "REJECT",
+    "reason": "no_label_anchor",
+    "meta": {
+     "ev_blocks": 17,
+     "label_anchors": 1,
+     "relation": null
+    },
+    "value": "2029-04-26"
+   },
+   {
+    "case": "CCFF_11307_021:subordination",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 19,
+     "label_anchors": 1,
+     "relation": "NEXT_TO"
+    },
+    "value": null
+   },
+   {
+    "case": "CCFF_11307_021:settlement_type",
+    "verdict": "REVIEW",
+    "reason": "adjacency_only",
+    "meta": {
+     "ev_blocks": 16,
+     "label_anchors": 2,
+     "relation": "NEXT_TO"
+    },
+    "value": "Delivery against payment"
+   }
+  ]
+ }
+}

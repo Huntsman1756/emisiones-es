@@ -1,0 +1,36 @@
+{
+ "manifest": "g2a-backend-decisions",
+ "updated": "2026-09-15",
+ "status": "IN_PROGRESS (stage1 corriendo)",
+ "decisions": [
+  {
+   "backend": "layoutparser",
+   "decision": "REFERENCE_ONLY",
+   "stage": "pre",
+   "reason": "toolkit conceptual; ultima release ~2022; no aporta pipeline completo"
+  },
+  {
+   "backend": "docling",
+   "decision": "BASELINE_RETAIN",
+   "stage": "stage0",
+   "reason": "IR completa sobre los 97 docs (adaptacion ~10.6s total desde conversiones existentes); provenance pagina+bbox completa; config congelada identica a G1-C"
+  },
+  {
+   "backend": "pp_structurev3",
+   "decision": "AT_RISK_COST",
+   "stage": "stage0",
+   "reason": "funciona tras paddlex[ocr]+enable_mkldnn=False, pero ~73s/pagina CPU (doc de 36pp >40min) y celdas exportadas sin bbox en el modo actual. Stop-rule candidato: coste ~100x docling/pagina sin ventaja estructural demostrada todavia. Se completa comparacion discriminativa sobre docs invented antes de decidir."
+  },
+  {
+   "backend": "deepdoctection",
+   "decision": "CONTINUE_STAGE1",
+   "stage": "stage0",
+   "reason": "viable en modo reducido; unica backend con header/row/col nativos por celda; ~60-75s por doc de 7pp. Warnings de coords/cleanup documentados."
+  }
+ ],
+ "pending": [
+  "stage1: dd sobre 20 docs (10 cold + 10 seen) en curso",
+  "paddle: comparacion sobre docs invented; si no aporta estructura que docling no tenga -> STOP por coste",
+  "decision final tras invented reanalysis v2 por backend"
+ ]
+}

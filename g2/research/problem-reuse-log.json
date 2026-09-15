@@ -1,0 +1,42 @@
+{
+ "manifest": "g2a-problem-reuse-log",
+ "rule": "SEARCH -> inspect -> reuse/port/reference -> CUSTOM last",
+ "entries": [
+  {
+   "problem": "representacion documental comun (IR) con bloques, tablas, celdas, coordenadas",
+   "searched": ["docling-core DoclingDocument schema", "deepdoctection Page/Layout API", "paddlex PP-StructureV3 output"],
+   "decision": "REUSE (adapt)",
+   "detail": "IR propia minima (DocumentIR/PageIR/BlockIR) con mapeo por backend; no se copia ningun esquema completo. Campos desconocidos = None."
+  },
+  {
+   "problem": "vocabulario de anchors + normalizadores por campo financiero",
+   "searched": ["codigo propio congelado G1 src/emissions_es/extraction/extractors.py"],
+   "decision": "REUSE",
+   "detail": "FIELD_SPECS/NORMALIZERS/NUM_PREFIX reutilizados solo-lectura desde src/ (frozen). El verificador G2 no redefine vocabulario: anade posicion-de-label, relaciones tipadas y contexto negativo."
+  },
+  {
+   "problem": "asociacion label/value en tablas",
+   "searched": ["paddleocr table/KIE output", "deepdoctection cell sub_categories (ROW_NUMBER/COLUMN_NUMBER/COLUMN_HEADER/ROW_HEADER)", "docling TableData grid"],
+   "decision": "REUSE",
+   "detail": "dd expone header flags + row/col por celda (nativo); docling grid rows/cols; paddle cells sin bbox en modo actual. Relaciones SAME_ROW/SAME_COLUMN derivadas de esos indices, no de interpretacion financiera."
+  },
+  {
+   "problem": "verificacion semantica de claims (claim evidence verification)",
+   "searched": ["conceptos NLI/entailment verification", "docTR/donut-style KIE", "claim-evidence en doc AI"],
+   "decision": "CUSTOM",
+   "detail": "ningun OSS cubre 'este span soporta exactamente este campo financiero'. Verificador v1/v2 propio: label-position + relaciones tipadas + scope + negative-context + tipo canonico -> SUPPORTED/REVIEW/REJECT."
+  },
+  {
+   "problem": "layout/structure backends",
+   "searched": ["PP-StructureV3", "deepdoctection", "LayoutParser", "Docling"],
+   "decision": "bake-off (3 activos + 1 referencia)",
+   "detail": "ver backend-environments.json / backend-decisions.json"
+  },
+  {
+   "problem": "entidad structured payoff coherente",
+   "searched": ["finbert/structured-products parsers", "ISDA CDM (modelo de producto)"],
+   "decision": "REFERENCE (CDM como orientacion de invariantes)",
+   "detail": "docs/g2/structured-payoff.md define StructuredPayoff propio; CDM se usa como referencia conceptual de componentes, no como dependencia."
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "manifest": "g2a-stage0-smoke",
+ "updated": "2026-09-15",
+ "purpose": "smoke: install + convert + IR adapt, sin conclusiones de calidad",
+ "docs": {
+  "plain": "CCFF_11251_001",
+  "table_heavy": "CCFF_11286_008",
+  "structured_cold": "CCFF_11290_005"
+ },
+ "backends": {
+  "docling": {
+   "status": "OK",
+   "ir_docs": 97,
+   "sample": {
+    "CCFF_11251_001": {"pages": 2, "blocks": 15, "cells": 0, "blocks_sin_bbox": 0},
+    "CCFF_11286_008": {"pages": 36, "blocks": 1765, "cells": 1064, "blocks_sin_bbox": 0},
+    "CCFF_11290_005": {"pages": 7, "blocks": 227, "cells": 68, "blocks_sin_bbox": 0}
+   },
+   "relations": "CONTAINS/NEXT_TO/SAME_ROW/SAME_COLUMN/UNDER_HEADING derivadas; KEY_VALUE no inferida (ningun backend la emite nativamente en el smoke)",
+   "notes": "IR completa: textos, headings, tablas con row/col por celda, provenance pagina+bbox nativa. Conversiones G1-C ya existian congeladas; adaptacion IR 97 docs ~10.6s."
+  },
+  "pp_structurev3": {
+   "status": "OK_CON_LIMITACIONES",
+   "ir_docs": 2,
+   "sample": {
+    "CCFF_11251_001": {"pages": 2, "blocks": 65, "cells": 0, "blocks_sin_bbox": 0},
+    "CCFF_11290_005": {"pages": 7, "blocks": 573, "cells": 70, "blocks_sin_bbox": 70}
+   },
+   "install_issues": [
+    "requiere paddlex[ocr] extra (no documentado como dependencia dura del pipeline)",
+    "Windows CPU: NotImplementedError ConvertPirAttribute2RuntimeAttribute con MKLDNN por defecto -> requiere enable_mkldnn=False explicito"
+   ],
+   "runtime": "~73s/pagina CPU (CCFF_11290_005 ~7pp >8min; CCFF_11286_008 36pp en curso >40min) — orden ~100x docling p50 por pagina",
+   "notes": "celdas de tabla presentes pero 70/70 sin bbox en el adapter actual (coordenadas en subestructura o no exportadas por este modo). OCR+layout+table+formula descargados (~1.8GB)."
+  },
+  "deepdoctection": {
+   "status": "OK_REDUCED",
+   "ir_docs": 3,
+   "sample": {
+    "CCFF_11251_001": {"pages": 2, "blocks": 442, "cells": 0},
+    "CCFF_11290_005": {"pages": 7, "blocks": 2547, "cells": 68, "runtime_s": "~60-75"},
+    "CCFF_11309_002": {"pages": 5, "blocks": 1881, "cells": 43}
+   },
+   "notes": "celdas con ROW_NUMBER/COLUMN_NUMBER + header flags nativos (mas rico que docling para header/body cells). Word-level blocks disponibles. Warnings: bboxes fuera de rango filtrados; 'library is destroyed' en cleanup. Stack reducido sin Detectron2 — ver backend-environments.json."
+  },
+  "layoutparser": {"status": "REFERENCE_ONLY", "reason": "release ~2022"}
+ },
+ "verdict": "los 3 backends producen IR util en Stage 0. Paddle viable pero con coste CPU desproporcionado por pagina y celdas sin bbox; dd viable en modo reducido. Ningun backend emite KEY_VALUE nativo — la relacion label/value se deriva de geometria/celdas.",
+ "next": "Stage 1: 20 docs (10 cold + 10 seen, sesgado a docs con invented claims) + verificador tipado v2"
+}

@@ -1,0 +1,187 @@
+{
+ "session_id": "p0d_77711e42",
+ "reviewer_id": "REVIEWER_A",
+ "items": [
+  {
+   "case_id": "P0-ADM_123039",
+   "mode": "MANUAL",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_117215",
+   "mode": "MANUAL",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_116548",
+   "mode": "ASSISTED",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_124130",
+   "mode": "ASSISTED",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_120969",
+   "mode": "ASSISTED",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_123041",
+   "mode": "MANUAL",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_120159",
+   "mode": "ASSISTED",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_121925",
+   "mode": "MANUAL",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_121211",
+   "mode": "ASSISTED",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_120846",
+   "mode": "ASSISTED",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_121210",
+   "mode": "ASSISTED",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_120093",
+   "mode": "MANUAL",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_120966",
+   "mode": "MANUAL",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_116275",
+   "mode": "MANUAL",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_123065",
+   "mode": "ASSISTED",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_118937",
+   "mode": "MANUAL",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_123092",
+   "mode": "MANUAL",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_120983",
+   "mode": "MANUAL",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_123019",
+   "mode": "MANUAL",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_115032",
+   "mode": "MANUAL",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_124146",
+   "mode": "MANUAL",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_120177",
+   "mode": "ASSISTED",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_115733",
+   "mode": "ASSISTED",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_124137",
+   "mode": "MANUAL",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_123067",
+   "mode": "ASSISTED",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_118936",
+   "mode": "ASSISTED",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_124149",
+   "mode": "MANUAL",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_120844",
+   "mode": "ASSISTED",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_123045",
+   "mode": "ASSISTED",
+   "status": "DONE",
+   "warmup": false
+  },
+  {
+   "case_id": "P0-ADM_119967",
+   "mode": "ASSISTED",
+   "status": "DONE",
+   "warmup": false
+  }
+ ],
+ "current": 0
+}

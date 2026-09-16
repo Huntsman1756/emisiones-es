@@ -1,0 +1,44 @@
+{
+  "p0d_results_seal_version": 1,
+  "sealed_at": "2026-09-16T18:20:56Z",
+  "git_sha": "38a933f3260649446845d2c5d7625e0aacd99867",
+  "ui_freeze": "p0/ui-freeze-final.json",
+  "reviewers": {
+    "REVIEWER_A": {
+      "runtime_dir": "p0/runtime/p0d_77711e42",
+      "file_sha256": {
+        "events": "1143014e936bdf3bd37fbd36d46842d69603321db3decff2d18e7e387d225902",
+        "decisions": "2370e95c28372728f0bc0f2b4f4aa1d4277e143ca978a11a52390ccba848e1dd",
+        "intervals": "f2d07eb48f3fbf6c37c53c1acda186a2eb2087ad63a1770646bd8c51fc84d103",
+        "reviews": "92f2d5aefb8ce27e551ff06af7a598c7f3fa8906db95f05bbc73d32d0fed0f65",
+        "closeouts": "1e630be29b7723b383cd7321a1578f2d5ae9e3bddc6d967d476a2223e31ea1c6"
+      },
+      "reviews": 30,
+      "closeouts": 30,
+      "results_copy": "p0/results/p0d/reviewer_a"
+    },
+    "REVIEWER_B": {
+      "runtime_dir": "p0/runtime/p0d_2afdc603",
+      "file_sha256": {
+        "events": "87f839114fc0a26571dcb7e29401954fcedaf3a17cd3386dcf3d5ad9e97ebfe8",
+        "decisions": "15145240aad67c79f3fbf59c3c5e41ca03c1a2ef87b88b0f43e10bd566b15a8b",
+        "intervals": "cddf70a41ac6b1fb5089460f71b8fbed9894968a03a045c1b7953e18351d172a",
+        "reviews": "38d2aebeedd2978b725ea06def25791750957afae3eab8937d75820919764ea6",
+        "closeouts": "91586470c06d668e0a9b25a392dc32f394e34ac3f54fd3225265cde2744d47c6"
+      },
+      "reviews": 30,
+      "closeouts": 30,
+      "results_copy": "p0/results/p0d/reviewer_b"
+    }
+  },
+  "incidents": [
+    {
+      "id": "P0D-INC-1",
+      "case_id": "P0-ADM_123092",
+      "reviewer": "REVIEWER_B",
+      "type": "STORAGE_INTEGRITY",
+      "description": "Chained manual saves produced truncated JSONL lines server-side; lines were recovered and affected fields re-entered by the reviewer. Post-hoc verification: all JSONL parses, lifecycle complete (CASE_OPENED + CASE_SUBMITTED, monotonic ts), 1 review + 1 closeout, 0 lost sealed decisions. Two CASE_SUBMITTED intervals recorded for the case — closeout active_seconds covers both active periods.",
+      "code_changes": "none — logged only, per protocol"
+    }
+  ]
+}

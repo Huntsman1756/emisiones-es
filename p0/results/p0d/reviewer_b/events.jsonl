@@ -1,0 +1,996 @@
+{"ts": 1789579106.8518, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "CASE_OPENED", "payload": {"mode": "MANUAL"}}
+{"ts": 1789579143.3824413, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789579143.785561, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789579144.2782226, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789579144.5660384, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789579144.963123, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789579145.3839238, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789579145.7727022, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789579146.162678, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "ranking", "decision": "CONFIRMED"}}
+{"ts": 1789579146.4421847, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579146.7860415, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789579147.1606135, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789579147.4250386, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579147.6596937, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579148.0039856, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789579148.3958454, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "day_count", "decision": "CONFIRMED"}}
+{"ts": 1789579148.7856915, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789579149.0492506, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "STATUS_CHANGED", "payload": {"field": "reset_fixing", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579149.2845066, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "STATUS_CHANGED", "payload": {"field": "call_put_terms", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579149.598907, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789579149.9073725, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "STATUS_CHANGED", "payload": {"field": "underlying", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579150.1270876, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "STATUS_CHANGED", "payload": {"field": "observation_schedule", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579150.3753464, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "STATUS_CHANGED", "payload": {"field": "autocall", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579150.595511, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "STATUS_CHANGED", "payload": {"field": "coupon_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579150.8285167, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "STATUS_CHANGED", "payload": {"field": "protection_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579151.077098, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "STATUS_CHANGED", "payload": {"field": "strike", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579151.3222873, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579151.551658, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579155.364455, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789579160.290336, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "CASE_PAUSED", "payload": {}}
+{"ts": 1789579160.5288117, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "CASE_RESUMED", "payload": {}}
+{"ts": 1789579167.463452, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120844", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789579167.972376, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789579205.433806, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "DOCUMENT_OPENED", "payload": {"doc_id": "ADM_116275"}}
+{"ts": 1789579205.7276924, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789579205.9632213, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789579206.2149549, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789579206.4495997, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789579206.6647317, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789579206.9146013, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "coupon_type", "decision": "REJECTED"}}
+{"ts": 1789579207.1512918, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "redemption", "decision": "REJECTED"}}
+{"ts": 1789579207.385128, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "underlying", "decision": "REJECTED"}}
+{"ts": 1789579207.591052, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "observation_schedule", "decision": "CONFIRMED"}}
+{"ts": 1789579207.8828142, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789579208.065967, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "EVIDENCE_JUMP", "payload": {"candidate_id": "ADM_116275:settlement_type", "doc_id": "ADM_116275", "page": 5}}
+{"ts": 1789579225.5365086, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789579225.9125164, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789579226.1960168, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "STATUS_CHANGED", "payload": {"field": "ranking", "decision": "MISSING"}}
+{"ts": 1789579226.4406683, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579226.7705948, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789579227.1624722, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789579227.4444118, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579227.684481, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579228.059474, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789579228.3389165, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "STATUS_CHANGED", "payload": {"field": "day_count", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579228.6987095, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789579228.9949226, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "STATUS_CHANGED", "payload": {"field": "reset_fixing", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579229.2123332, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "STATUS_CHANGED", "payload": {"field": "call_put_terms", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579229.555796, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789579229.9452496, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "underlying", "decision": "CONFIRMED"}}
+{"ts": 1789579230.2422798, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "STATUS_CHANGED", "payload": {"field": "autocall", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579230.5860195, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789579231.0170736, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "protection_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789579231.441784, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "strike", "decision": "CONFIRMED"}}
+{"ts": 1789579231.8431952, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "participation", "decision": "CONFIRMED"}}
+{"ts": 1789579232.1262648, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579232.4730155, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789579238.701643, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116275", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789579239.2539308, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "CASE_OPENED", "payload": {"mode": "MANUAL"}}
+{"ts": 1789579301.2958183, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789579301.6916537, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789579302.3818388, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789579302.442794, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789579302.8499126, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789579303.2408302, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789579303.6178958, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789579303.9103858, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "STATUS_CHANGED", "payload": {"field": "ranking", "decision": "MISSING"}}
+{"ts": 1789579304.1466923, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579304.4556386, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789579304.8611693, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789579305.146334, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579305.3946972, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579305.7206295, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789579306.1136036, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "day_count", "decision": "CONFIRMED"}}
+{"ts": 1789579306.4710138, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789579306.769721, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "STATUS_CHANGED", "payload": {"field": "reset_fixing", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579307.0155983, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "STATUS_CHANGED", "payload": {"field": "call_put_terms", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579307.343654, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789579307.732981, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "underlying", "decision": "CONFIRMED"}}
+{"ts": 1789579308.1253364, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "observation_schedule", "decision": "CONFIRMED"}}
+{"ts": 1789579308.483406, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "autocall", "decision": "CONFIRMED"}}
+{"ts": 1789579308.900486, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789579309.2934477, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "protection_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789579309.667326, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "strike", "decision": "CONFIRMED"}}
+{"ts": 1789579309.947873, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579310.1823223, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579310.4985702, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789579316.3317118, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120969", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789579316.9786637, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "CASE_OPENED", "payload": {"mode": "MANUAL"}}
+{"ts": 1789579537.7853837, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789579538.1341512, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789579538.500534, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789579538.8975267, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789579539.2651596, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789579539.6588397, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789579540.0504243, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789579540.4601772, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "ranking", "decision": "CONFIRMED"}}
+{"ts": 1789579540.8665144, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "subordination", "decision": "CONFIRMED"}}
+{"ts": 1789579541.3173566, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789579541.6984475, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789579542.0787582, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "benchmark", "decision": "CONFIRMED"}}
+{"ts": 1789579542.4753833, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "spread", "decision": "CONFIRMED"}}
+{"ts": 1789579542.867135, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789579543.2616627, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "day_count", "decision": "CONFIRMED"}}
+{"ts": 1789579543.661521, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789579544.0617805, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "reset_fixing", "decision": "CONFIRMED"}}
+{"ts": 1789579544.433349, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789579544.8326225, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789579571.8072355, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "STATUS_CHANGED", "payload": {"field": "underlying", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579572.0390124, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "STATUS_CHANGED", "payload": {"field": "observation_schedule", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579572.287252, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "STATUS_CHANGED", "payload": {"field": "autocall", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579572.53781, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "STATUS_CHANGED", "payload": {"field": "coupon_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579572.7726355, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "STATUS_CHANGED", "payload": {"field": "protection_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579573.0080545, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "STATUS_CHANGED", "payload": {"field": "strike", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579573.24272, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579573.475892, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579573.8324862, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789579577.916256, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120846", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789579579.3386066, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "CASE_OPENED", "payload": {"mode": "MANUAL"}}
+{"ts": 1789579604.9082053, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789579605.2830837, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789579605.6603742, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789579606.04964, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789579606.441135, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789579606.8322399, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789579607.2246912, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789579607.6283362, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "ranking", "decision": "CONFIRMED"}}
+{"ts": 1789579608.0312126, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "subordination", "decision": "CONFIRMED"}}
+{"ts": 1789579608.4224396, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789579608.8258889, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789579609.2156389, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "benchmark", "decision": "CONFIRMED"}}
+{"ts": 1789579609.6088514, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "spread", "decision": "CONFIRMED"}}
+{"ts": 1789579609.9834008, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789579610.373586, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "day_count", "decision": "CONFIRMED"}}
+{"ts": 1789579610.7335572, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789579611.1868994, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "reset_fixing", "decision": "CONFIRMED"}}
+{"ts": 1789579611.606266, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789579612.006182, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789579612.2853727, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "STATUS_CHANGED", "payload": {"field": "underlying", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579612.5205069, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "STATUS_CHANGED", "payload": {"field": "observation_schedule", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579612.7468858, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "STATUS_CHANGED", "payload": {"field": "autocall", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579613.0023386, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "STATUS_CHANGED", "payload": {"field": "coupon_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579613.243709, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "STATUS_CHANGED", "payload": {"field": "protection_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579613.485474, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "STATUS_CHANGED", "payload": {"field": "strike", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579613.737182, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579613.9680197, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579614.2968123, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789579618.3723166, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_119967", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789579618.889815, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789579670.7049274, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "DOCUMENT_OPENED", "payload": {"doc_id": "ADM_120983"}}
+{"ts": 1789579685.4623504, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "EVIDENCE_JUMP", "payload": {"candidate_id": "ADM_120983:isin", "doc_id": "ADM_120983", "page": 2}}
+{"ts": 1789579685.7741396, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789579685.9696634, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789579686.2452207, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789579686.47925, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789579686.7287686, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789579686.96233, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789579687.1814477, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789579687.4325175, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789579687.6527843, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "day_count", "decision": "CONFIRMED"}}
+{"ts": 1789579687.9047964, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789579688.1238441, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789579700.5974886, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789579700.9885025, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789579701.3949907, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "ranking", "decision": "CONFIRMED"}}
+{"ts": 1789579701.7719893, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "subordination", "decision": "CONFIRMED"}}
+{"ts": 1789579702.1766312, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "benchmark", "decision": "CONFIRMED"}}
+{"ts": 1789579702.564958, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "spread", "decision": "CONFIRMED"}}
+{"ts": 1789579702.9546738, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "reset_fixing", "decision": "CONFIRMED"}}
+{"ts": 1789579703.3603108, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789579703.6551309, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "STATUS_CHANGED", "payload": {"field": "underlying", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579703.9068983, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "STATUS_CHANGED", "payload": {"field": "observation_schedule", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579704.1573355, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "STATUS_CHANGED", "payload": {"field": "autocall", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579704.405313, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "STATUS_CHANGED", "payload": {"field": "coupon_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579704.6394355, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "STATUS_CHANGED", "payload": {"field": "protection_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579704.8739085, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "STATUS_CHANGED", "payload": {"field": "strike", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579705.122273, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579705.3594255, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579705.6878738, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789579710.907146, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120983", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789579711.4065866, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789579761.2250361, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "DOCUMENT_OPENED", "payload": {"doc_id": "ADM_123041"}}
+{"ts": 1789579761.709551, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "EVIDENCE_JUMP", "payload": {"candidate_id": "ADM_123041:isin", "doc_id": "ADM_123041", "page": 5}}
+{"ts": 1789579762.012667, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789579762.263699, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789579762.4955602, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789579762.745063, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789579762.9933338, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789579763.2424188, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789579763.4852211, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "coupon_type", "decision": "REJECTED"}}
+{"ts": 1789579763.7255938, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "reset_fixing", "decision": "CONFIRMED"}}
+{"ts": 1789579763.974081, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "underlying", "decision": "REJECTED"}}
+{"ts": 1789579764.2208185, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "coupon_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789579764.4563274, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "protection_barrier", "decision": "REJECTED"}}
+{"ts": 1789579764.7034936, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789579799.579253, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789579799.844356, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "STATUS_CHANGED", "payload": {"field": "ranking", "decision": "MISSING"}}
+{"ts": 1789579800.092808, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "MISSING"}}
+{"ts": 1789579800.4524505, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789579800.8424928, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789579801.1431267, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579801.3926272, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579801.7789073, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789579802.0548124, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "STATUS_CHANGED", "payload": {"field": "day_count", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579802.413653, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789579802.6587036, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "STATUS_CHANGED", "payload": {"field": "call_put_terms", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579803.0665212, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789579803.457047, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "underlying", "decision": "CONFIRMED"}}
+{"ts": 1789579803.84624, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "observation_schedule", "decision": "CONFIRMED"}}
+{"ts": 1789579804.2488587, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "autocall", "decision": "CONFIRMED"}}
+{"ts": 1789579804.6398034, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "protection_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789579805.0450456, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "strike", "decision": "CONFIRMED"}}
+{"ts": 1789579805.325675, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579805.5764747, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579810.1590698, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123041", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789579810.7022667, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789579843.3692322, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "DOCUMENT_OPENED", "payload": {"doc_id": "ADM_121925"}}
+{"ts": 1789579843.8303845, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "EVIDENCE_JUMP", "payload": {"candidate_id": "ADM_121925:isin", "doc_id": "ADM_121925", "page": 2}}
+{"ts": 1789579844.1179917, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789579844.3531876, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789579844.5867655, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789579844.8371024, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789579845.0572891, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789579845.3076324, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "coupon_rate", "decision": "REJECTED"}}
+{"ts": 1789579845.5117128, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "redemption", "decision": "REJECTED"}}
+{"ts": 1789579862.0139172, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789579862.402805, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789579862.8090231, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789579863.2136476, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "ranking", "decision": "CONFIRMED"}}
+{"ts": 1789579863.603104, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "subordination", "decision": "CONFIRMED"}}
+{"ts": 1789579863.979566, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789579864.2597694, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579864.4959145, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579864.8394854, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789579865.2306547, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "day_count", "decision": "CONFIRMED"}}
+{"ts": 1789579865.6044292, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789579865.8872995, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "STATUS_CHANGED", "payload": {"field": "reset_fixing", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579866.2318802, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789579866.654425, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789579866.9362044, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "STATUS_CHANGED", "payload": {"field": "underlying", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579867.187805, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "STATUS_CHANGED", "payload": {"field": "observation_schedule", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579867.4352858, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "STATUS_CHANGED", "payload": {"field": "autocall", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579867.6844618, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "STATUS_CHANGED", "payload": {"field": "coupon_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579867.9341104, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "STATUS_CHANGED", "payload": {"field": "protection_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579868.1681778, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "STATUS_CHANGED", "payload": {"field": "strike", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579868.3715289, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579868.652676, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579868.9800987, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789579872.948979, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121925", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789579873.4620636, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789579911.9332845, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "DOCUMENT_OPENED", "payload": {"doc_id": "ADM_123039"}}
+{"ts": 1789579912.3983276, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "EVIDENCE_JUMP", "payload": {"candidate_id": "ADM_123039:isin", "doc_id": "ADM_123039", "page": 2}}
+{"ts": 1789579912.7157483, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789579912.9665956, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789579913.1970117, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789579913.4495082, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789579913.6815279, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789579913.9324703, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789579914.1485069, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "coupon_type", "decision": "REJECTED"}}
+{"ts": 1789579914.4146326, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "benchmark", "decision": "REJECTED"}}
+{"ts": 1789579914.6625006, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "reset_fixing", "decision": "CONFIRMED"}}
+{"ts": 1789579914.9117641, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "underlying", "decision": "CONFIRMED"}}
+{"ts": 1789579915.1621382, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "coupon_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789579915.4118624, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "protection_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789579915.6507683, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789579939.3411899, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789579939.617219, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "STATUS_CHANGED", "payload": {"field": "ranking", "decision": "MISSING"}}
+{"ts": 1789579939.8555322, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "MISSING"}}
+{"ts": 1789579940.197365, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789579940.5864775, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789579940.8822873, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579941.101243, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579941.4491298, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789579941.7301655, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "STATUS_CHANGED", "payload": {"field": "day_count", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579942.0778432, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789579942.310319, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "EVIDENCE_JUMP", "payload": {"candidate_id": "ADM_123039:fixing_rules", "doc_id": "ADM_123039", "page": 2}}
+{"ts": 1789579942.6119506, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "STATUS_CHANGED", "payload": {"field": "call_put_terms", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579942.9568496, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789579943.3601782, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "underlying", "decision": "CONFIRMED"}}
+{"ts": 1789579943.749494, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "observation_schedule", "decision": "CONFIRMED"}}
+{"ts": 1789579944.1399298, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "autocall", "decision": "CONFIRMED"}}
+{"ts": 1789579944.5464094, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "protection_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789579944.93645, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "strike", "decision": "CONFIRMED"}}
+{"ts": 1789579945.340343, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "participation", "decision": "CONFIRMED"}}
+{"ts": 1789579945.6383214, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789579945.9665856, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789579949.7856758, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123039", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789579950.4875922, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789579997.004424, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "DOCUMENT_OPENED", "payload": {"doc_id": "ADM_120966"}}
+{"ts": 1789579997.4862988, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "EVIDENCE_JUMP", "payload": {"candidate_id": "ADM_120966:isin", "doc_id": "ADM_120966", "page": 11}}
+{"ts": 1789579997.7845066, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789579997.994655, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789579998.283878, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789579998.5353255, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789579998.7724347, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789579999.0025246, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789579999.2413065, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "reset_fixing", "decision": "CONFIRMED"}}
+{"ts": 1789579999.4790573, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789579999.7260232, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "underlying", "decision": "CONFIRMED"}}
+{"ts": 1789579999.9616168, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "coupon_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789580000.1823447, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "protection_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789580000.4340038, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "autocall", "decision": "CONFIRMED"}}
+{"ts": 1789580000.6842647, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "observation_schedule", "decision": "REJECTED"}}
+{"ts": 1789580000.9338768, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "settlement", "decision": "REJECTED"}}
+{"ts": 1789580001.1514783, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "cap", "decision": "CONFIRMED"}}
+{"ts": 1789580035.6264796, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789580035.9617326, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789580036.3540533, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789580036.746138, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789580037.1394725, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "ranking", "decision": "CONFIRMED"}}
+{"ts": 1789580037.5422974, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "subordination", "decision": "CONFIRMED"}}
+{"ts": 1789580037.9325206, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789580038.3241243, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789580038.6077468, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580038.8406465, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580039.1808805, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789580039.5751302, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "day_count", "decision": "CONFIRMED"}}
+{"ts": 1789580039.9479191, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789580040.3455842, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "underlying", "decision": "CONFIRMED"}}
+{"ts": 1789580040.7439127, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "observation_schedule", "decision": "CONFIRMED"}}
+{"ts": 1789580041.1431448, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "autocall", "decision": "CONFIRMED"}}
+{"ts": 1789580041.5370913, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789580041.9528465, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "protection_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789580042.3356671, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "strike", "decision": "CONFIRMED"}}
+{"ts": 1789580042.6957877, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "participation", "decision": "CONFIRMED"}}
+{"ts": 1789580043.1305428, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789580046.780757, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120966", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789580047.6130466, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "CASE_OPENED", "payload": {"mode": "MANUAL"}}
+{"ts": 1789580077.4998102, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789580077.891095, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789580078.2819328, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789580078.6740909, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789580079.0154107, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789580079.45815, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789580079.863839, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789580080.2699106, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "ranking", "decision": "CONFIRMED"}}
+{"ts": 1789580080.659307, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "subordination", "decision": "CONFIRMED"}}
+{"ts": 1789580081.0294771, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789580081.455914, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789580081.7507944, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580081.9973135, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580082.3363738, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789580082.7404668, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "day_count", "decision": "CONFIRMED"}}
+{"ts": 1789580083.1292238, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789580083.4245012, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "STATUS_CHANGED", "payload": {"field": "reset_fixing", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580083.7509267, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789580084.1238372, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789580084.4201136, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "STATUS_CHANGED", "payload": {"field": "underlying", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580084.6538742, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "STATUS_CHANGED", "payload": {"field": "observation_schedule", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580084.8732405, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "STATUS_CHANGED", "payload": {"field": "autocall", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580085.0590901, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "STATUS_CHANGED", "payload": {"field": "coupon_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580085.3575163, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "STATUS_CHANGED", "payload": {"field": "protection_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580085.5950189, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "STATUS_CHANGED", "payload": {"field": "strike", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580085.813329, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580086.0654266, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580086.4071522, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789580090.65299, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120159", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789580091.1557796, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "CASE_OPENED", "payload": {"mode": "MANUAL"}}
+{"ts": 1789580122.2793221, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789580122.6177275, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789580122.9934, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789580123.386947, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789580123.7804306, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789580124.1718018, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789580124.5618422, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789580124.8347208, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "STATUS_CHANGED", "payload": {"field": "ranking", "decision": "MISSING"}}
+{"ts": 1789580125.106853, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "MISSING"}}
+{"ts": 1789580125.4345362, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789580125.8395643, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789580126.137603, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580126.368779, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580126.7149925, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789580127.0090406, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "STATUS_CHANGED", "payload": {"field": "day_count", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580127.3553367, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789580127.6501477, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "STATUS_CHANGED", "payload": {"field": "reset_fixing", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580127.8553085, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "STATUS_CHANGED", "payload": {"field": "call_put_terms", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580128.2309866, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789580128.621152, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "underlying", "decision": "CONFIRMED"}}
+{"ts": 1789580129.0254142, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "observation_schedule", "decision": "CONFIRMED"}}
+{"ts": 1789580129.4177847, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "autocall", "decision": "CONFIRMED"}}
+{"ts": 1789580129.8087866, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789580130.20017, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "protection_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789580130.5920694, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "strike", "decision": "CONFIRMED"}}
+{"ts": 1789580130.9830925, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "participation", "decision": "CONFIRMED"}}
+{"ts": 1789580131.2656891, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580131.607939, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789580135.0170205, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123045", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789580135.5643551, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789580189.1346958, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "DOCUMENT_OPENED", "payload": {"doc_id": "ADM_123019"}}
+{"ts": 1789580189.6055388, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "EVIDENCE_JUMP", "payload": {"candidate_id": "ADM_123019:isin", "doc_id": "ADM_123019", "page": 2}}
+{"ts": 1789580189.9074438, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789580190.1284738, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789580190.376847, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789580190.6256628, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789580190.8609695, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789580191.0968547, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789580191.3288088, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789580191.578512, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "coupon_rate", "decision": "REJECTED"}}
+{"ts": 1789580191.828958, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "benchmark", "decision": "REJECTED"}}
+{"ts": 1789580192.075813, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "day_count", "decision": "CONFIRMED"}}
+{"ts": 1789580192.3207562, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789580192.5713565, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "reset_fixing", "decision": "CONFIRMED"}}
+{"ts": 1789580192.8191185, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "underlying", "decision": "CONFIRMED"}}
+{"ts": 1789580193.0694613, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "coupon_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789580193.2902527, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "protection_barrier", "decision": "REJECTED"}}
+{"ts": 1789580193.5413384, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789580217.410912, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789580217.6907532, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "STATUS_CHANGED", "payload": {"field": "ranking", "decision": "MISSING"}}
+{"ts": 1789580217.941915, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "MISSING"}}
+{"ts": 1789580218.2270586, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789580218.6760433, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789580218.9562573, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580219.2060003, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580219.5501795, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789580219.9418292, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789580220.3458176, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789580220.7515383, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "underlying", "decision": "CONFIRMED"}}
+{"ts": 1789580221.1567693, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "observation_schedule", "decision": "CONFIRMED"}}
+{"ts": 1789580221.5325325, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "autocall", "decision": "CONFIRMED"}}
+{"ts": 1789580221.951221, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "protection_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789580222.3486671, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "strike", "decision": "CONFIRMED"}}
+{"ts": 1789580222.7396429, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "participation", "decision": "CONFIRMED"}}
+{"ts": 1789580223.0347333, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580223.3780105, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789580227.9928784, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123019", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789580228.572833, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "CASE_OPENED", "payload": {"mode": "MANUAL"}}
+{"ts": 1789580269.006886, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789580269.345275, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789580269.7205484, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789580270.1088123, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789580270.499781, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789580270.890402, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789580271.2948923, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789580271.5765474, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "STATUS_CHANGED", "payload": {"field": "ranking", "decision": "MISSING"}}
+{"ts": 1789580271.8275597, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "MISSING"}}
+{"ts": 1789580272.195953, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789580272.5688615, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789580272.847752, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580273.0523186, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580273.4438982, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789580273.7242446, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "STATUS_CHANGED", "payload": {"field": "day_count", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580274.0598822, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789580274.4541843, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "reset_fixing", "decision": "CONFIRMED"}}
+{"ts": 1789580274.7345555, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "STATUS_CHANGED", "payload": {"field": "call_put_terms", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580275.0657418, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789580275.4559214, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "underlying", "decision": "CONFIRMED"}}
+{"ts": 1789580275.8493464, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "observation_schedule", "decision": "CONFIRMED"}}
+{"ts": 1789580276.252078, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "autocall", "decision": "CONFIRMED"}}
+{"ts": 1789580276.6444478, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789580277.0488896, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "protection_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789580277.4398477, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "strike", "decision": "CONFIRMED"}}
+{"ts": 1789580277.8292634, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "participation", "decision": "CONFIRMED"}}
+{"ts": 1789580278.0873744, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580278.4576488, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789580438.9688778, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121210", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789580439.5948968, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "CASE_OPENED", "payload": {"mode": "MANUAL"}}
+{"ts": 1789580486.3590384, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789580486.743958, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789580487.137153, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789580487.529251, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789580487.9190576, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789580488.312277, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789580488.702421, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789580489.107173, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "ranking", "decision": "CONFIRMED"}}
+{"ts": 1789580489.4791877, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "subordination", "decision": "CONFIRMED"}}
+{"ts": 1789580489.890713, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789580490.2828915, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789580490.6585548, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "benchmark", "decision": "CONFIRMED"}}
+{"ts": 1789580491.0525153, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "spread", "decision": "CONFIRMED"}}
+{"ts": 1789580491.444144, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789580491.8351135, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "day_count", "decision": "CONFIRMED"}}
+{"ts": 1789580492.2424011, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789580513.5319104, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "reset_fixing", "decision": "CONFIRMED"}}
+{"ts": 1789580513.9194198, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789580514.3095574, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789580514.6075404, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "STATUS_CHANGED", "payload": {"field": "underlying", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580514.8543196, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "STATUS_CHANGED", "payload": {"field": "observation_schedule", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580515.0735118, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "STATUS_CHANGED", "payload": {"field": "autocall", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580515.310748, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "STATUS_CHANGED", "payload": {"field": "coupon_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580515.5577137, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "STATUS_CHANGED", "payload": {"field": "protection_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580515.7924242, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "STATUS_CHANGED", "payload": {"field": "strike", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580516.0259316, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580516.2380207, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580516.6036983, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789580525.9358516, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118936", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789580527.1122608, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "CASE_OPENED", "payload": {"mode": "MANUAL"}}
+{"ts": 1789580596.233472, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789580596.6066318, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789580596.9969792, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789580597.3799837, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789580597.7702014, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789580598.1741173, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789580598.564865, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789580598.955785, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "ranking", "decision": "CONFIRMED"}}
+{"ts": 1789580599.2513752, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580599.5927958, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789580599.9837942, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789580600.3552022, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "benchmark", "decision": "CONFIRMED"}}
+{"ts": 1789580600.7314677, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "spread", "decision": "CONFIRMED"}}
+{"ts": 1789580601.1196704, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789580601.524983, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "day_count", "decision": "CONFIRMED"}}
+{"ts": 1789580601.9260943, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789580602.3207061, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "reset_fixing", "decision": "CONFIRMED"}}
+{"ts": 1789580602.6054287, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "STATUS_CHANGED", "payload": {"field": "call_put_terms", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580602.947957, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789580603.2123094, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "STATUS_CHANGED", "payload": {"field": "underlying", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580603.4216216, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "STATUS_CHANGED", "payload": {"field": "observation_schedule", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580603.679355, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "STATUS_CHANGED", "payload": {"field": "autocall", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580603.926405, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "STATUS_CHANGED", "payload": {"field": "coupon_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580604.1603653, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "STATUS_CHANGED", "payload": {"field": "protection_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580604.410203, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "STATUS_CHANGED", "payload": {"field": "strike", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580604.6280658, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580604.8588905, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580605.200826, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789580609.1963038, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123065", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789580609.7014372, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "CASE_OPENED", "payload": {"mode": "MANUAL"}}
+{"ts": 1789580636.7960954, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789580637.1974094, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789580637.5884619, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789580637.960522, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789580638.3514628, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789580638.741141, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789580639.1447875, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789580639.534812, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "ranking", "decision": "CONFIRMED"}}
+{"ts": 1789580639.816628, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580640.1594493, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789580640.56072, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789580640.841341, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580641.075581, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580641.4187887, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789580641.8084154, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "day_count", "decision": "CONFIRMED"}}
+{"ts": 1789580642.2399623, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789580642.4924688, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "STATUS_CHANGED", "payload": {"field": "reset_fixing", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580642.8360107, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789580643.2249084, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789580643.4881501, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "STATUS_CHANGED", "payload": {"field": "underlying", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580643.7224967, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "STATUS_CHANGED", "payload": {"field": "observation_schedule", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580643.9714777, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "STATUS_CHANGED", "payload": {"field": "autocall", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580644.2068226, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "STATUS_CHANGED", "payload": {"field": "coupon_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580644.463246, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "STATUS_CHANGED", "payload": {"field": "protection_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580644.6906962, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "STATUS_CHANGED", "payload": {"field": "strike", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580644.938902, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580645.1269252, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580645.5177927, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789580654.7289314, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115733", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789580655.2206917, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "CASE_OPENED", "payload": {"mode": "MANUAL"}}
+{"ts": 1789580688.8383324, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789580689.2285187, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789580689.6063793, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789580689.998385, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789580690.4042158, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789580690.7963233, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789580691.1702032, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789580691.450148, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "STATUS_CHANGED", "payload": {"field": "ranking", "decision": "MISSING"}}
+{"ts": 1789580691.6834838, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "MISSING"}}
+{"ts": 1789580692.0258448, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789580692.4300869, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789580692.7190716, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580693.002057, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580693.2949572, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789580693.5920532, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "STATUS_CHANGED", "payload": {"field": "day_count", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580693.9194171, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789580694.309567, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "reset_fixing", "decision": "CONFIRMED"}}
+{"ts": 1789580694.7039678, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789580695.1060073, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789580695.4797287, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "underlying", "decision": "CONFIRMED"}}
+{"ts": 1789580695.8691542, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "observation_schedule", "decision": "CONFIRMED"}}
+{"ts": 1789580696.2577658, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "autocall", "decision": "CONFIRMED"}}
+{"ts": 1789580696.6315067, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789580697.0373414, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "protection_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789580697.4290648, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "strike", "decision": "CONFIRMED"}}
+{"ts": 1789580697.709074, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580697.9407623, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580698.2983055, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789580707.8744273, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_121211", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789580708.4390557, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "CASE_OPENED", "payload": {"mode": "MANUAL"}}
+{"ts": 1789580741.14301, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789580741.531996, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789580741.9177725, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789580742.3086042, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789580742.7064495, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789580743.0699224, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789580743.472424, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789580743.752467, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "STATUS_CHANGED", "payload": {"field": "ranking", "decision": "MISSING"}}
+{"ts": 1789580743.9857116, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "MISSING"}}
+{"ts": 1789580744.3455267, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789580744.7499952, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789580745.0281744, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580745.2628212, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580745.607251, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789580745.8879886, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "STATUS_CHANGED", "payload": {"field": "day_count", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580746.2312036, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789580746.6221082, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "reset_fixing", "decision": "CONFIRMED"}}
+{"ts": 1789580746.9936068, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789580747.3840292, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789580747.7576706, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "underlying", "decision": "CONFIRMED"}}
+{"ts": 1789580748.1052551, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "observation_schedule", "decision": "CONFIRMED"}}
+{"ts": 1789580748.5064995, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "autocall", "decision": "CONFIRMED"}}
+{"ts": 1789580748.8950143, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789580749.284543, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "protection_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789580749.6724594, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "strike", "decision": "CONFIRMED"}}
+{"ts": 1789580749.966188, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580750.1982095, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580750.5408895, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789580754.6460629, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123067", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789580755.1986058, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "CASE_OPENED", "payload": {"mode": "MANUAL"}}
+{"ts": 1789580789.156748, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789580789.4948597, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789580789.8701782, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789580790.2421937, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789580790.6331344, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789580791.022625, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789580791.4225295, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789580791.7155526, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "STATUS_CHANGED", "payload": {"field": "ranking", "decision": "MISSING"}}
+{"ts": 1789580791.9478698, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "MISSING"}}
+{"ts": 1789580792.3089945, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789580793.0664046, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789580793.0667434, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580793.1970031, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580793.5634642, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789580793.8432527, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "STATUS_CHANGED", "payload": {"field": "day_count", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580794.1849518, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789580794.574571, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "reset_fixing", "decision": "CONFIRMED"}}
+{"ts": 1789580794.964949, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789580795.367549, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789580795.7579436, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "underlying", "decision": "CONFIRMED"}}
+{"ts": 1789580796.1312437, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "observation_schedule", "decision": "CONFIRMED"}}
+{"ts": 1789580796.5324447, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "autocall", "decision": "CONFIRMED"}}
+{"ts": 1789580796.906514, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789580797.2987795, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "protection_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789580797.6899638, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "strike", "decision": "CONFIRMED"}}
+{"ts": 1789580798.0630567, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "participation", "decision": "CONFIRMED"}}
+{"ts": 1789580798.3485868, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580798.7081146, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789580804.0078359, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124130", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789580804.578218, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789580860.152117, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "DOCUMENT_OPENED", "payload": {"doc_id": "ADM_118937"}}
+{"ts": 1789580860.7281845, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "EVIDENCE_JUMP", "payload": {"candidate_id": "ADM_118937:isin", "doc_id": "ADM_118937", "page": 7}}
+{"ts": 1789580861.014493, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789580861.2628105, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789580861.481057, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789580861.714682, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "day_count", "decision": "CONFIRMED"}}
+{"ts": 1789580861.959025, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789580862.2024274, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "redemption", "decision": "REJECTED"}}
+{"ts": 1789580862.5606556, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789580862.9311352, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789580863.3045638, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789580863.7080524, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789580864.0939395, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789580864.4853113, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789580864.875913, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "ranking", "decision": "CONFIRMED"}}
+{"ts": 1789580865.2667236, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "subordination", "decision": "CONFIRMED"}}
+{"ts": 1789580865.5470142, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580865.7957256, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580866.1402094, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789580866.4204423, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "STATUS_CHANGED", "payload": {"field": "reset_fixing", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580866.7615786, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789580867.1501915, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789580867.4291382, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "STATUS_CHANGED", "payload": {"field": "underlying", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580867.6644044, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "STATUS_CHANGED", "payload": {"field": "observation_schedule", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580867.897768, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "STATUS_CHANGED", "payload": {"field": "autocall", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580868.133311, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "STATUS_CHANGED", "payload": {"field": "coupon_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580868.350492, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "STATUS_CHANGED", "payload": {"field": "protection_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580868.6005201, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "STATUS_CHANGED", "payload": {"field": "strike", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580868.849476, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580869.0980237, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580869.4407158, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789580876.4235168, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_118937", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789580877.2997227, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789580982.1089606, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "DOCUMENT_OPENED", "payload": {"doc_id": "ADM_120093"}}
+{"ts": 1789580982.705694, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "EVIDENCE_JUMP", "payload": {"candidate_id": "ADM_120093:isin", "doc_id": "ADM_120093", "page": 118}}
+{"ts": 1789580983.0169625, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789580983.2400215, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789580983.4885933, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "ranking", "decision": "CONFIRMED"}}
+{"ts": 1789580983.8355331, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789580984.1950262, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789580984.56237, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789580984.953946, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789580985.3295193, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789580985.7166739, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "subordination", "decision": "CONFIRMED"}}
+{"ts": 1789580986.109497, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789580986.5119157, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789580986.9028287, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "benchmark", "decision": "CONFIRMED"}}
+{"ts": 1789580987.292005, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "spread", "decision": "CONFIRMED"}}
+{"ts": 1789580987.6818955, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789580988.0707724, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "day_count", "decision": "CONFIRMED"}}
+{"ts": 1789580988.461092, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789580988.8519256, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "reset_fixing", "decision": "CONFIRMED"}}
+{"ts": 1789580989.2253666, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789580989.6160645, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789580989.897631, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "STATUS_CHANGED", "payload": {"field": "underlying", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580990.1429908, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "STATUS_CHANGED", "payload": {"field": "observation_schedule", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580990.3611474, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "STATUS_CHANGED", "payload": {"field": "autocall", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580990.595406, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "STATUS_CHANGED", "payload": {"field": "coupon_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580990.8283515, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "STATUS_CHANGED", "payload": {"field": "protection_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580991.0803719, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "STATUS_CHANGED", "payload": {"field": "strike", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580991.3125212, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580991.5486565, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789580991.893439, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789580998.2218204, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120093", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789580999.7837458, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789581046.5202894, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "DOCUMENT_OPENED", "payload": {"doc_id": "ADM_115032"}}
+{"ts": 1789581047.0935097, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "EVIDENCE_JUMP", "payload": {"candidate_id": "ADM_115032:isin", "doc_id": "ADM_115032", "page": 1}}
+{"ts": 1789581047.3805919, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789581047.6161556, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789581047.8503184, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789581048.084528, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789581048.3188396, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789581048.5658803, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "coupon_type", "decision": "REJECTED"}}
+{"ts": 1789581048.7830267, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "underlying", "decision": "CONFIRMED"}}
+{"ts": 1789581049.034689, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "coupon_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789581049.2664254, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "protection_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789581049.4831662, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789581049.8276434, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789581050.2157145, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789581050.5099716, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "STATUS_CHANGED", "payload": {"field": "ranking", "decision": "MISSING"}}
+{"ts": 1789581050.7454963, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "MISSING"}}
+{"ts": 1789581051.0902004, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789581051.4937303, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789581051.7885323, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581052.007361, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581052.3536692, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789581052.635649, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "STATUS_CHANGED", "payload": {"field": "day_count", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581052.9716432, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789581053.3617206, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "reset_fixing", "decision": "CONFIRMED"}}
+{"ts": 1789581053.6989875, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789581054.1266334, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789581054.5155659, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "observation_schedule", "decision": "CONFIRMED"}}
+{"ts": 1789581054.921045, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "autocall", "decision": "CONFIRMED"}}
+{"ts": 1789581055.3222618, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "strike", "decision": "CONFIRMED"}}
+{"ts": 1789581055.6041532, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581055.8394914, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581062.0064466, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_115032", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789581062.5968235, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789581149.3667018, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "DOCUMENT_OPENED", "payload": {"doc_id": "ADM_117215"}}
+{"ts": 1789581149.941611, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "EVIDENCE_JUMP", "payload": {"candidate_id": "ADM_117215:isin", "doc_id": "ADM_117215", "page": 8}}
+{"ts": 1789581150.24269, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789581150.462151, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "currency", "decision": "REJECTED"}}
+{"ts": 1789581150.695324, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789581151.0391498, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789581151.4315343, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789581151.8191366, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789581152.2233577, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789581152.6148186, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789581153.0139823, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "ranking", "decision": "CONFIRMED"}}
+{"ts": 1789581153.310146, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581153.6394265, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789581154.028272, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789581154.311845, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581154.5257344, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581154.92033, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789581155.3096259, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "day_count", "decision": "CONFIRMED"}}
+{"ts": 1789581155.6969154, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789581155.9781497, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "STATUS_CHANGED", "payload": {"field": "reset_fixing", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581156.3200495, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789581156.711235, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789581156.9741933, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "STATUS_CHANGED", "payload": {"field": "underlying", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581157.2095542, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "STATUS_CHANGED", "payload": {"field": "observation_schedule", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581157.4420097, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "STATUS_CHANGED", "payload": {"field": "autocall", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581157.6774688, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "STATUS_CHANGED", "payload": {"field": "coupon_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581157.909788, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "STATUS_CHANGED", "payload": {"field": "protection_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581158.1428027, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "STATUS_CHANGED", "payload": {"field": "strike", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581158.3752224, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581158.6107147, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581158.9531617, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789581165.0850246, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_117215", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789581165.8441305, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "CASE_OPENED", "payload": {"mode": "MANUAL"}}
+{"ts": 1789581194.3780146, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789581194.766689, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789581195.141242, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789581195.5146303, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789581195.889325, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789581196.2589707, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789581196.6475885, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789581196.9280407, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "STATUS_CHANGED", "payload": {"field": "ranking", "decision": "MISSING"}}
+{"ts": 1789581197.1589043, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581197.4987328, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789581197.8712442, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789581198.1509106, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581198.3840954, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581198.7248094, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789581199.1156404, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "day_count", "decision": "CONFIRMED"}}
+{"ts": 1789581199.5056424, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789581199.7859514, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "STATUS_CHANGED", "payload": {"field": "reset_fixing", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581200.0198388, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "STATUS_CHANGED", "payload": {"field": "call_put_terms", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581200.36457, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789581200.6573968, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "STATUS_CHANGED", "payload": {"field": "underlying", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581200.891319, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "STATUS_CHANGED", "payload": {"field": "observation_schedule", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581201.1250968, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "STATUS_CHANGED", "payload": {"field": "autocall", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581201.3566554, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "STATUS_CHANGED", "payload": {"field": "coupon_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581201.6063895, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "STATUS_CHANGED", "payload": {"field": "protection_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581201.8253632, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "STATUS_CHANGED", "payload": {"field": "strike", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581202.0587404, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581202.2905157, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581202.6647265, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789581208.762698, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_116548", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789581209.2747304, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789581300.093967, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "DOCUMENT_OPENED", "payload": {"doc_id": "ADM_124149"}}
+{"ts": 1789581300.6595817, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "EVIDENCE_JUMP", "payload": {"candidate_id": "ADM_124149:isin", "doc_id": "ADM_124149", "page": 13}}
+{"ts": 1789581300.9571426, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "isin", "decision": "REJECTED"}}
+{"ts": 1789581301.2043474, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789581301.4378414, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789581301.6817248, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789581301.9058864, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "coupon_type", "decision": "REJECTED"}}
+{"ts": 1789581302.1402564, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789581302.373633, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "reset_fixing", "decision": "CONFIRMED"}}
+{"ts": 1789581313.287578, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789581313.5370007, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789581313.7870228, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "redemption", "decision": "REJECTED"}}
+{"ts": 1789581314.0082886, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "underlying", "decision": "CONFIRMED"}}
+{"ts": 1789581314.2464721, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "observation_schedule", "decision": "REJECTED"}}
+{"ts": 1789581314.4944315, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "autocall", "decision": "REJECTED"}}
+{"ts": 1789581314.7426527, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "coupon_barrier", "decision": "REJECTED"}}
+{"ts": 1789581314.9901478, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "protection_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789581315.224083, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "cap", "decision": "CONFIRMED"}}
+{"ts": 1789581315.475158, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "settlement", "decision": "REJECTED"}}
+{"ts": 1789581338.4956684, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789581338.8840048, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789581339.2748542, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789581339.6469414, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789581340.0373924, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "ranking", "decision": "CONFIRMED"}}
+{"ts": 1789581340.315445, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581340.6438453, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789581341.046147, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789581341.340822, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581341.5741878, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581341.9188898, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789581342.3099427, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "day_count", "decision": "CONFIRMED"}}
+{"ts": 1789581342.7305572, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "observation_schedule", "decision": "CONFIRMED"}}
+{"ts": 1789581343.1103675, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "autocall", "decision": "CONFIRMED"}}
+{"ts": 1789581343.461539, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789581343.8923829, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "strike", "decision": "CONFIRMED"}}
+{"ts": 1789581344.1875458, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581344.529297, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789581344.9219048, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789581351.255989, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124149", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789581351.999704, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "CASE_OPENED", "payload": {"mode": "MANUAL"}}
+{"ts": 1789581387.5072813, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789581387.895439, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789581388.2677357, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789581388.646162, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789581389.0371742, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789581389.4093542, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789581389.7981632, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789581390.1693428, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "ranking", "decision": "CONFIRMED"}}
+{"ts": 1789581390.4577675, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581390.801644, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789581391.1903546, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789581391.4699292, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581391.699824, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581392.042158, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789581392.548848, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "STATUS_CHANGED", "payload": {"field": "day_count", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581392.6710968, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789581392.9665189, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "STATUS_CHANGED", "payload": {"field": "reset_fixing", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581393.2094178, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "STATUS_CHANGED", "payload": {"field": "call_put_terms", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581393.502002, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789581393.940053, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "underlying", "decision": "CONFIRMED"}}
+{"ts": 1789581394.3437731, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "observation_schedule", "decision": "CONFIRMED"}}
+{"ts": 1789581394.7348547, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "autocall", "decision": "CONFIRMED"}}
+{"ts": 1789581395.013838, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "STATUS_CHANGED", "payload": {"field": "coupon_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581395.3589687, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "protection_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789581395.7586386, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "strike", "decision": "CONFIRMED"}}
+{"ts": 1789581396.0522854, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581396.3005779, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581396.6288548, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789581404.1676168, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_120177", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789581404.7400658, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789581634.905934, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "DOCUMENT_OPENED", "payload": {"doc_id": "ADM_124137"}}
+{"ts": 1789581635.6806014, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789581635.6810067, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789581635.687641, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789581635.69139, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789581658.1670413, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789581658.4035969, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789581705.5555527, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789581705.9435894, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789581706.317298, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789581706.7090185, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789581707.0977757, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "ranking", "decision": "CONFIRMED"}}
+{"ts": 1789581707.4892905, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "subordination", "decision": "CONFIRMED"}}
+{"ts": 1789581707.877409, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789581708.2689245, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789581708.5497193, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581708.7833354, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581709.3898642, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789581709.3902009, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "STATUS_CHANGED", "payload": {"field": "day_count", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581709.7289824, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789581710.0236294, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "STATUS_CHANGED", "payload": {"field": "reset_fixing", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581710.3616054, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789581710.7518, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789581711.033526, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "STATUS_CHANGED", "payload": {"field": "underlying", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581711.2684655, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "STATUS_CHANGED", "payload": {"field": "observation_schedule", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581711.501284, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "STATUS_CHANGED", "payload": {"field": "autocall", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581711.7335155, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "STATUS_CHANGED", "payload": {"field": "coupon_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581711.9839237, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "STATUS_CHANGED", "payload": {"field": "protection_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581712.2180293, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "STATUS_CHANGED", "payload": {"field": "strike", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581712.4512985, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581712.6694825, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581713.0466394, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789581724.6505835, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124137", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789581725.6537068, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789581808.4740872, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "DOCUMENT_OPENED", "payload": {"doc_id": "ADM_123092"}}
+{"ts": 1789581829.6887848, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789581838.6914594, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "FOCUS_LOST", "payload": {}}
+{"ts": 1789581915.803573, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789581935.0217814, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "EVIDENCE_JUMP", "payload": {"candidate_id": "ADM_123092:isin", "doc_id": "ADM_123092", "page": 11}}
+{"ts": 1789581935.3062124, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "isin", "decision": "REJECTED"}}
+{"ts": 1789581935.971932, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789581936.223829, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789581936.4430807, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789581936.7043765, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "coupon_type", "decision": "REJECTED"}}
+{"ts": 1789581936.9508348, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789581937.202785, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "redemption", "decision": "REJECTED"}}
+{"ts": 1789581937.4342144, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "underlying", "decision": "CONFIRMED"}}
+{"ts": 1789581937.6848593, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "observation_schedule", "decision": "REJECTED"}}
+{"ts": 1789581937.9340513, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "autocall", "decision": "CONFIRMED"}}
+{"ts": 1789581938.1829555, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "coupon_barrier", "decision": "REJECTED"}}
+{"ts": 1789581938.4259446, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "protection_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789581938.6683562, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CANDIDATE_REJECTED", "payload": {"field": "settlement", "decision": "REJECTED"}}
+{"ts": 1789581945.8841674, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789581946.133523, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789581976.5701396, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "STATUS_CHANGED", "payload": {"field": "ranking", "decision": "MISSING"}}
+{"ts": 1789581976.8128483, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "MISSING"}}
+{"ts": 1789581977.8121781, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581978.1048436, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581978.7428477, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "STATUS_CHANGED", "payload": {"field": "day_count", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581979.2115612, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "STATUS_CHANGED", "payload": {"field": "reset_fixing", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581981.0359094, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "STATUS_CHANGED", "payload": {"field": "coupon_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789581982.4605668, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789582061.0009465, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789582061.387039, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789582063.4518282, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789582063.4522882, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789582063.452974, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789582063.4536734, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789582063.4541948, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789582063.7749326, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789582064.1647353, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "underlying", "decision": "CONFIRMED"}}
+{"ts": 1789582064.5792897, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "observation_schedule", "decision": "CONFIRMED"}}
+{"ts": 1789582064.9840782, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "autocall", "decision": "CONFIRMED"}}
+{"ts": 1789582065.3582134, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "protection_barrier", "decision": "CONFIRMED"}}
+{"ts": 1789582065.7588916, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "strike", "decision": "CONFIRMED"}}
+{"ts": 1789582066.1645465, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "participation", "decision": "CONFIRMED"}}
+{"ts": 1789582066.55945, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789582072.4929419, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789582080.3507254, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789582110.2206974, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789582417.0567195, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789582438.3757656, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789582440.2216256, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789582442.0719204, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789582443.9601755, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789582452.1662517, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_123092", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789582452.8814974, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789582495.3803878, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "DOCUMENT_OPENED", "payload": {"doc_id": "ADM_124146"}}
+{"ts": 1789582496.307282, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "EVIDENCE_JUMP", "payload": {"candidate_id": "ADM_124146:isin", "doc_id": "ADM_124146", "page": 9}}
+{"ts": 1789582496.5515072, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "isin", "decision": "CONFIRMED"}}
+{"ts": 1789582496.7778337, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "EVIDENCE_JUMP", "payload": {"candidate_id": "ADM_124146:coupon_rate", "doc_id": "ADM_124146", "page": 12}}
+{"ts": 1789582497.0218744, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "CANDIDATE_CONFIRMED", "payload": {"field": "coupon_rate", "decision": "CONFIRMED"}}
+{"ts": 1789582540.0332575, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issuer", "decision": "CONFIRMED"}}
+{"ts": 1789582541.887608, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "currency", "decision": "CONFIRMED"}}
+{"ts": 1789582543.760468, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issue_date", "decision": "CONFIRMED"}}
+{"ts": 1789582545.6171415, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "maturity", "decision": "CONFIRMED"}}
+{"ts": 1789582547.4849124, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "denomination", "decision": "CONFIRMED"}}
+{"ts": 1789582549.3344371, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "issued_amount", "decision": "CONFIRMED"}}
+{"ts": 1789582551.196551, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "ranking", "decision": "CONFIRMED"}}
+{"ts": 1789582552.7061975, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "STATUS_CHANGED", "payload": {"field": "subordination", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789582553.9099262, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "coupon_type", "decision": "CONFIRMED"}}
+{"ts": 1789582555.4243174, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "STATUS_CHANGED", "payload": {"field": "benchmark", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789582556.2508974, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "STATUS_CHANGED", "payload": {"field": "spread", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789582557.4010158, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "payment_frequency", "decision": "CONFIRMED"}}
+{"ts": 1789582559.256534, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "day_count", "decision": "CONFIRMED"}}
+{"ts": 1789582561.107737, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "business_day_convention", "decision": "CONFIRMED"}}
+{"ts": 1789582562.6194854, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "STATUS_CHANGED", "payload": {"field": "reset_fixing", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789582563.7884252, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "call_put_terms", "decision": "CONFIRMED"}}
+{"ts": 1789582565.6258519, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "redemption", "decision": "CONFIRMED"}}
+{"ts": 1789582567.1427872, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "STATUS_CHANGED", "payload": {"field": "underlying", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789582567.9686794, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "STATUS_CHANGED", "payload": {"field": "observation_schedule", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789582568.7970726, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "STATUS_CHANGED", "payload": {"field": "autocall", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789582569.6240325, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "STATUS_CHANGED", "payload": {"field": "coupon_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789582570.4524531, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "STATUS_CHANGED", "payload": {"field": "protection_barrier", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789582571.2835512, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "STATUS_CHANGED", "payload": {"field": "strike", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789582572.1057472, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "STATUS_CHANGED", "payload": {"field": "participation", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789582572.9358602, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "STATUS_CHANGED", "payload": {"field": "cap", "decision": "NOT_APPLICABLE"}}
+{"ts": 1789582574.1467776, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "MANUAL_FIELD_ADDED", "payload": {"field": "settlement", "decision": "CONFIRMED"}}
+{"ts": 1789582583.302581, "reviewer_id": "REVIEWER_B", "case_id": "P0-ADM_124146", "event_type": "CASE_SUBMITTED", "payload": {}}

@@ -4,9 +4,13 @@ Capa abierta y auditable de referencia de valores, emisiones, documentación y
 términos contractuales para instrumentos emitidos o admitidos en los mercados
 españoles.
 
-**Estado**: G1 congelado como FAIL permanente (`g1-final-fail`). Fase
-abierta: G2-A — document backend & semantic evidence research. Los
-holdouts G1 están consumidos y pasan íntegros a development.
+**Estado**: línea de investigación de extracción cerrada
+(`g0/g1/g2-a/g2-b` — todos `-final-fail`; veredictos en `docs/gates/`).
+La extracción contractual automática general queda **descartada
+experimentalmente**. Fase abierta: **P0 — productization / reviewer
+workflow** (securities reference-data & document intelligence con
+extracción human-in-the-loop basada en evidencia). Ver
+[`docs/gates/P0.md`](docs/gates/P0.md).
 
 ## Hipótesis de producto
 

@@ -1,0 +1,599 @@
+{
+ "case_id": "P0-ADM_120966",
+ "source_record_key": "ADM_120966",
+ "document_sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_120966",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_120966",
+    "role": "SECURITIES_NOTE",
+    "issuer": "BBVA GLOBAL MARKETS B.V.",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_120966:isin",
+   "field": "isin",
+   "value": "ES0305067C92",
+   "raw_lexeme": "ES0305067C92",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120966",
+     "page": 11,
+     "bbox": [
+      102.96,
+      165.09,
+      351.29,
+      84.01
+     ],
+     "excerpt": "ES0305067C92",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120966:maturity",
+   "field": "maturity",
+   "value": "2022-02-11",
+   "raw_lexeme": "time possibility portion repayment), The Maturity Date of the Notes is 11 February 2022, subject to adjustment.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120966",
+     "page": 23,
+     "bbox": [
+      66.48,
+      771.84,
+      548.17,
+      100.29
+     ],
+     "excerpt": "time possibility portion repayment), The Maturity Date of the Notes is 11 February 2022, subject to adjustment.",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120966:denomination",
+   "field": "denomination",
+   "value": {
+    "amount": "50.000",
+    "currency": "EUR",
+    "raw_number": "50,000"
+   },
+   "raw_lexeme": "EUR 50,000",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120966",
+     "page": 3,
+     "bbox": [
+      301.2,
+      629.49,
+      353.73,
+      620.47
+     ],
+     "excerpt": "EUR 50,000",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120966:coupon_type",
+   "field": "coupon_type",
+   "value": [
+    "Interest Basis:",
+    "Applicable"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120966",
+     "page": 3,
+     "bbox": [
+      109.32,
+      414.09,
+      168.69,
+      405.07
+     ],
+     "excerpt": "Interest Basis:",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    },
+    {
+     "doc_id": "ADM_120966",
+     "page": 3,
+     "bbox": [
+      301.2,
+      414.09,
+      347.61,
+      405.07
+     ],
+     "excerpt": "Applicable",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120966:call_dates",
+   "field": "call_dates",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "Not applicable",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120966",
+     "page": 9,
+     "bbox": [
+      301.2,
+      768.93,
+      362.25,
+      759.91
+     ],
+     "excerpt": "Not applicable",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120966:business_day_convention",
+   "field": "business_day_convention",
+   "value": "Modified Following Business Day Convention",
+   "raw_lexeme": "Modified Following Business Day Convention",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120966",
+     "page": 4,
+     "bbox": [
+      77.39,
+      283.87,
+      491.0,
+      95.75
+     ],
+     "excerpt": "Modified Following Business Day Convention",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    },
+    {
+     "doc_id": "ADM_120966",
+     "page": 4,
+     "bbox": [
+      77.39,
+      283.87,
+      491.0,
+      95.75
+     ],
+     "excerpt": "Modified Following Business Day Convention",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120966:fixing_rules",
+   "field": "fixing_rules",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "Not applicable",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim_doclevel",
+   "evidence": [
+    {
+     "doc_id": "ADM_120966",
+     "page": 5,
+     "bbox": [
+      107.88,
+      770.96,
+      542.75,
+      709.96
+     ],
+     "excerpt": "",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120966:redemption_formula",
+   "field": "redemption_formula",
+   "value": [
+    "Redemption Basis:",
+    "Index Linked Redemption",
+    "Calculation Amount * Final Payout"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120966",
+     "page": 3,
+     "bbox": [
+      109.32,
+      344.25,
+      187.65,
+      335.23
+     ],
+     "excerpt": "Redemption Basis:",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    },
+    {
+     "doc_id": "ADM_120966",
+     "page": 3,
+     "bbox": [
+      301.2,
+      344.25,
+      408.69,
+      335.23
+     ],
+     "excerpt": "Index Linked Redemption",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    },
+    {
+     "doc_id": "ADM_120966",
+     "page": 7,
+     "bbox": [
+      301.2,
+      699.21,
+      445.89,
+      690.19
+     ],
+     "excerpt": "Calculation Amount * Final Payout",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120966:underlying",
+   "field": "underlying",
+   "value": [
+    "See paragraph 21(i) Index below",
+    "EURO STOXX Banks Index",
+    "Index:",
+    "See paragraph 21(i) above"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120966",
+     "page": 3,
+     "bbox": [
+      301.2,
+      320.97,
+      434.73,
+      311.95
+     ],
+     "excerpt": "See paragraph 21(i) Index below",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    },
+    {
+     "doc_id": "ADM_120966",
+     "page": 6,
+     "bbox": [
+      301.2,
+      768.93,
+      419.49,
+      759.91
+     ],
+     "excerpt": "EURO STOXX Banks Index",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    },
+    {
+     "doc_id": "ADM_120966",
+     "page": 9,
+     "bbox": [
+      150.96,
+      675.93,
+      179.01,
+      666.91
+     ],
+     "excerpt": "Index:",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    },
+    {
+     "doc_id": "ADM_120966",
+     "page": 9,
+     "bbox": [
+      301.2,
+      676.05,
+      408.93,
+      667.03
+     ],
+     "excerpt": "See paragraph 21(i) above",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120966:barrier",
+   "field": "barrier",
+   "value": "70",
+   "raw_lexeme": "70 per cent",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120966",
+     "page": 8,
+     "bbox": [
+      301.2,
+      536.79,
+      473.97,
+      527.83
+     ],
+     "excerpt": "Calculation Amount * AER Percentage",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    },
+    {
+     "doc_id": "ADM_120966",
+     "page": 8,
+     "bbox": [
+      301.2,
+      513.69,
+      367.05,
+      504.67
+     ],
+     "excerpt": "See table below",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    },
+    {
+     "doc_id": "ADM_120966",
+     "page": 8,
+     "bbox": [
+      288.36,
+      57.27,
+      295.17,
+      49.12
+     ],
+     "excerpt": "8",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    },
+    {
+     "doc_id": "ADM_120966",
+     "page": 4,
+     "bbox": [
+      106.32,
+      585.69,
+      536.17,
+      328.12
+     ],
+     "excerpt": "70 per cent",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    },
+    {
+     "doc_id": "ADM_120966",
+     "page": 8,
+     "bbox": [
+      85.66,
+      473.41,
+      526.78,
+      269.31
+     ],
+     "excerpt": "AER Percentage",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    },
+    {
+     "doc_id": "ADM_120966",
+     "page": 22,
+     "bbox": [
+      66.79,
+      771.94,
+      547.62,
+      92.25
+     ],
+     "excerpt": "AER Percentage",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120966:autocall",
+   "field": "autocall",
+   "value": "APPLICABLE",
+   "raw_lexeme": "Applicable",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120966",
+     "page": 7,
+     "bbox": [
+      301.2,
+      255.09,
+      347.61,
+      246.07
+     ],
+     "excerpt": "Applicable",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120966:observation_dates",
+   "field": "observation_dates",
+   "value": "2022-02-04",
+   "raw_lexeme": "4 February 2022",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120966",
+     "page": 6,
+     "bbox": [
+      301.2,
+      621.33,
+      348.33,
+      612.31
+     ],
+     "excerpt": "Trade Date",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    },
+    {
+     "doc_id": "ADM_120966",
+     "page": 6,
+     "bbox": [
+      301.2,
+      398.73,
+      366.45,
+      389.71
+     ],
+     "excerpt": "See table above",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    },
+    {
+     "doc_id": "ADM_120966",
+     "page": 9,
+     "bbox": [
+      152.4,
+      573.21,
+      202.89,
+      564.19
+     ],
+     "excerpt": "Strike Date:",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    },
+    {
+     "doc_id": "ADM_120966",
+     "page": 9,
+     "bbox": [
+      301.2,
+      573.21,
+      411.09,
+      564.19
+     ],
+     "excerpt": "See paragraph 21(v) above",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    },
+    {
+     "doc_id": "ADM_120966",
+     "page": 9,
+     "bbox": [
+      150.96,
+      529.17,
+      278.97,
+      520.15
+     ],
+     "excerpt": "Redemption Valuation Date(s):",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    },
+    {
+     "doc_id": "ADM_120966",
+     "page": 9,
+     "bbox": [
+      301.2,
+      529.29,
+      369.81,
+      520.27
+     ],
+     "excerpt": "4 February 2022",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    },
+    {
+     "doc_id": "ADM_120966",
+     "page": 9,
+     "bbox": [
+      150.96,
+      482.73,
+      237.09,
+      473.71
+     ],
+     "excerpt": "Observation Date(s):",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120966:settlement_type",
+   "field": "settlement_type",
+   "value": [
+    "Settlement Exchange Rate Provisions:",
+    "9"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120966",
+     "page": 3,
+     "bbox": [
+      109.32,
+      274.53,
+      264.81,
+      265.51
+     ],
+     "excerpt": "Settlement Exchange Rate Provisions:",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    },
+    {
+     "doc_id": "ADM_120966",
+     "page": 9,
+     "bbox": [
+      288.36,
+      57.27,
+      295.17,
+      49.12
+     ],
+     "excerpt": "9",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120966:cap",
+   "field": "cap",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "Not applicable",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim_doclevel",
+   "evidence": [
+    {
+     "doc_id": "ADM_120966",
+     "page": 4,
+     "bbox": [
+      77.39,
+      283.87,
+      491.0,
+      95.75
+     ],
+     "excerpt": "",
+     "sha256": "4478dc2457e006c7b07abef67aa6e5ed27a39d8e25e1bbf430e948fa5ee6f3bf"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "067170919468556f9de68337f6c1478376b8779bcb5a1d6b6ebb49380078b83a"
+}

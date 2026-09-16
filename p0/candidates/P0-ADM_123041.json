@@ -1,0 +1,396 @@
+{
+ "case_id": "P0-ADM_123041",
+ "source_record_key": "ADM_123041",
+ "document_sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_123041",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_123041",
+    "role": "SECURITIES_NOTE",
+    "issuer": "BANKINTER, S.A.",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_123041:isin",
+   "field": "isin",
+   "value": "ES0313679M86",
+   "raw_lexeme": "ES0313679M86",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123041",
+     "page": 5,
+     "bbox": [
+      85.1,
+      539.02,
+      514.58,
+      502.65
+     ],
+     "excerpt": "ES0313679M86",
+     "sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123041:currency",
+   "field": "currency",
+   "value": "EUR",
+   "raw_lexeme": "Euros.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123041",
+     "page": 2,
+     "bbox": [
+      85.1,
+      632.29,
+      234.89,
+      623.76
+     ],
+     "excerpt": "Euros.",
+     "sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123041:issue_date",
+   "field": "issue_date",
+   "value": "2020-07-17",
+   "raw_lexeme": "17 de julio de 2020.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123041",
+     "page": 2,
+     "bbox": [
+      85.1,
+      460.42,
+      395.47,
+      451.89
+     ],
+     "excerpt": "17 de julio de 2020.",
+     "sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123041:maturity",
+   "field": "maturity",
+   "value": "2023-07-24",
+   "raw_lexeme": "24 de julio de 2023",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123041",
+     "page": 2,
+     "bbox": [
+      85.1,
+      434.38,
+      291.17,
+      425.85
+     ],
+     "excerpt": "24 de julio de 2023",
+     "sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123041:denomination",
+   "field": "denomination",
+   "value": {
+    "amount": "100.000",
+    "currency": "EUR",
+    "raw_number": "100.000"
+   },
+   "raw_lexeme": "100.000 euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123041",
+     "page": 2,
+     "bbox": [
+      203.21,
+      523.06,
+      370.75,
+      514.53
+     ],
+     "excerpt": "100.000 euros",
+     "sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2"
+    },
+    {
+     "doc_id": "ADM_123041",
+     "page": 2,
+     "bbox": [
+      203.21,
+      523.06,
+      370.75,
+      514.53
+     ],
+     "excerpt": "100.000 euros",
+     "sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123041:issued_amount",
+   "field": "issued_amount",
+   "value": {
+    "amount": "400.000",
+    "currency": "EUR",
+    "raw_number": "400.000"
+   },
+   "raw_lexeme": "400.000 euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123041",
+     "page": 2,
+     "bbox": [
+      203.21,
+      583.81,
+      331.63,
+      575.28
+     ],
+     "excerpt": "400.000 euros",
+     "sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123041:coupon_type",
+   "field": "coupon_type",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "N/A",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123041",
+     "page": 2,
+     "bbox": [
+      85.1,
+      408.22,
+      211.49,
+      399.69
+     ],
+     "excerpt": "Tipo de interés fijo: N/A",
+     "sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2"
+    },
+    {
+     "doc_id": "ADM_123041",
+     "page": 2,
+     "bbox": [
+      85.1,
+      383.86,
+      233.69,
+      375.33
+     ],
+     "excerpt": "Tipo de interés variable: N/A",
+     "sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2"
+    },
+    {
+     "doc_id": "ADM_123041",
+     "page": 2,
+     "bbox": [
+      85.1,
+      359.6,
+      240.77,
+      351.07
+     ],
+     "excerpt": "Tipo de interés indexado: N/A",
+     "sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123041:fixing_rules",
+   "field": "fixing_rules",
+   "value": [
+    "En la fecha de determinación inicial.",
+    "Tal y como se ha indicado previamente."
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123041",
+     "page": 2,
+     "bbox": [
+      113.42,
+      165.41,
+      426.02,
+      156.88
+     ],
+     "excerpt": "En la fecha de determinación inicial.",
+     "sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2"
+    },
+    {
+     "doc_id": "ADM_123041",
+     "page": 3,
+     "bbox": [
+      120.5,
+      71.57,
+      445.27,
+      63.05
+     ],
+     "excerpt": "Tal y como se ha indicado previamente.",
+     "sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123041:underlying",
+   "field": "underlying",
+   "value": [
+    "Valor.",
+    "Acción  de  Renault (FR0000131906) publicado por Euronext Paris. Código RNO FP EQUITY (Bloomberg). Renault diseña, fabrica, comercializa y repara automóviles y vehículos comer",
+    "ver apartado 10.",
+    "ver apartado 10.",
+    "ver apartado 10 Nombre y descripción del subyacente : ver apartado 10 Indicación de dónde puede obtenerse información sobre el subyacente : ver apartado 10 Ponderación de los subyacentes : N/A Precio"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123041",
+     "page": 2,
+     "bbox": [
+      113.42,
+      317.12,
+      251.33,
+      308.59
+     ],
+     "excerpt": "Valor.",
+     "sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2"
+    },
+    {
+     "doc_id": "ADM_123041",
+     "page": 2,
+     "bbox": [
+      113.42,
+      305.0,
+      512.42,
+      272.11
+     ],
+     "excerpt": "Acción  de  Renault (FR0000131906) publicado por Euronext Paris. Código RNO FP EQUITY (Bloomberg). Renault diseña, fabrica, comercializa y repara automóviles y vehículos comer",
+     "sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2"
+    },
+    {
+     "doc_id": "ADM_123041",
+     "page": 3,
+     "bbox": [
+      120.5,
+      229.52,
+      302.21,
+      220.99
+     ],
+     "excerpt": "ver apartado 10.",
+     "sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2"
+    },
+    {
+     "doc_id": "ADM_123041",
+     "page": 3,
+     "bbox": [
+      120.5,
+      217.4,
+      383.83,
+      208.87
+     ],
+     "excerpt": "ver apartado 10.",
+     "sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2"
+    },
+    {
+     "doc_id": "ADM_123041",
+     "page": 4,
+     "bbox": [
+      121.1,
+      216.08,
+      515.62,
+      73.85
+     ],
+     "excerpt": "ver apartado 10 Nombre y descripción del subyacente : ver apartado 10 Indicación de dónde puede obtenerse información sobre el subyacente : ver apartado 10 Ponderación de los subyacentes : N/A Precio",
+     "sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123041:barrier",
+   "field": "barrier",
+   "value": "100",
+   "raw_lexeme": "100% del Precio Inicial del Subyacente, esto es, 53,04 euros.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123041",
+     "page": 3,
+     "bbox": [
+      106.46,
+      540.94,
+      478.18,
+      532.41
+     ],
+     "excerpt": "100% del Precio Inicial del Subyacente, esto es, 53,04 euros.",
+     "sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123041:settlement_type",
+   "field": "settlement_type",
+   "value": "Iberclear",
+   "raw_lexeme": "Iberclear",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123041",
+     "page": 5,
+     "bbox": [
+      85.1,
+      226.16,
+      271.01,
+      217.63
+     ],
+     "excerpt": "Iberclear",
+     "sha256": "2392f2eec8c229de114ea8042e0a397b055da01b5a9baafabc140d424c4b96f2"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "307c8d4192678647562d675c4b8f3b8f345212d0b75162cc499f67626f24fb36"
+}

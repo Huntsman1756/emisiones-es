@@ -1,0 +1,82 @@
+{
+ "manifest": "p0-ui-freeze",
+ "freeze_version": 1,
+ "purpose": "PRE_WARMUP",
+ "supersedes": null,
+ "frozen_at": "2026-09-16T06:59:57+00:00",
+ "git_sha": "f8fe58ca571a96a7fd09721e9d90b7b1f5e37c1d",
+ "tree_sha": "8df4fcff4340b4612ad91db774bb245b5ea9edc3",
+ "tests": {
+  "suite": "tests/test_p0_app.py",
+  "returncode": 0,
+  "tail": [
+   "19 passed in 0.27s"
+  ]
+ },
+ "files": {
+  "review_schema": {
+   "path": "p0/manifests/review-schema.json",
+   "sha256": "e5f5be35b9ef7cda487250fb8ed4e7dd7139bac755981d618daf685205b5f5a7"
+  },
+  "protocol": {
+   "path": "p0/manifests/protocol.json",
+   "sha256": "4027ba85fc255328f55f225a2f832d6b2838393a9a7d81cdc80c1c0d956e2dd3"
+  },
+  "sample": {
+   "path": "p0/manifests/sample.json",
+   "sha256": "958b81e44e569d92d0a02cdbb61f48b757ae0b6c67f84c795c030426feba3956"
+  },
+  "assignments": {
+   "path": "p0/manifests/assignments.json",
+   "sha256": "82f26fcb9073d608c32b99391e18a98a9628c34f6eb6fa324e061b023b556562"
+  },
+  "app_models": {
+   "path": "p0/app/models.py",
+   "sha256": "863011227128d986cbcb41c42bb00290b873c0769898b8fcbdd0f75aa6cd675a"
+  },
+  "app_cases": {
+   "path": "p0/app/cases.py",
+   "sha256": "4478ff568d0506c050d86cc53ab8e11ecf63d217909ad16aba7710433bb92e37"
+  },
+  "app_store": {
+   "path": "p0/app/store.py",
+   "sha256": "f4cfdf2a82f2c89f2066cc6f4981267635db874396984c89fdb69bcbef1a5320"
+  },
+  "app_evidence": {
+   "path": "p0/app/evidence.py",
+   "sha256": "2b5f95691e9d8f436b32036845f55a335eab1e22cf81d8a72f15e17e12f60560"
+  },
+  "app_session": {
+   "path": "p0/app/session.py",
+   "sha256": "0fb22d29d3f2a84d31fec987f437da718d8acc55c354a1665f9d5fad16d0bbb0"
+  },
+  "app_server": {
+   "path": "p0/app/server.py",
+   "sha256": "2ee873593c8e6c1a4de89a17c973e84404d27dd056b9b852590ab3f29a703bad"
+  },
+  "app_js": {
+   "path": "p0/app/static/app.js",
+   "sha256": "1609e044baaa82b57cbc5e99c722653c312ade6e98f08dd438547ca01e18e598"
+  },
+  "app_css": {
+   "path": "p0/app/static/style.css",
+   "sha256": "1c6609ce9b52d699bd253c890d09b491deab58bd44bcd02497984ab8690c2c6a"
+  },
+  "app_html": {
+   "path": "p0/app/static/index.html",
+   "sha256": "82c4ded992778bf0f7e2d447a425c5f9c9057fd1148e329c5b74ba9cf19fab73"
+  },
+  "ingest": {
+   "path": "p0/ingest_p0.py",
+   "sha256": "2ee020b4d95a4265efe16727adfedf01d68b9c94f491c27e84a9f99b2a80feb8"
+  },
+  "candidate_engine": {
+   "path": "src/emissions_es/extraction/",
+   "sha256": "d06c78b17386784e2864b26748c6ecb0ca8443436a2d8697bdf204a75bedef72"
+  },
+  "graph_engine": {
+   "path": "src/emissions_es/linking/",
+   "sha256": "73c66e823ec6e28bb9fbb393671a59effb1ee32d098153e04e9c69473906d571"
+  }
+ }
+}

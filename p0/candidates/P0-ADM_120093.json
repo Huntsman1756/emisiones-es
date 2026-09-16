@@ -1,0 +1,99 @@
+{
+ "case_id": "P0-ADM_120093",
+ "source_record_key": "ADM_120093",
+ "document_sha256": "98e45ca40dc94632f3ac17808ec9582a110026ded9a949460cd9d551c2c2e113",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_120093",
+  "confidence": "HIGH"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_120093",
+    "role": "SECURITIES_NOTE",
+    "issuer": "UNICAJA BANCO, S.A.",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_120093:isin",
+   "field": "isin",
+   "value": "ES0280907017",
+   "raw_lexeme": "ES0280907017",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120093",
+     "page": 118,
+     "bbox": [
+      85.34,
+      685.84,
+      529.01,
+      663.35
+     ],
+     "excerpt": "ES0280907017",
+     "sha256": "98e45ca40dc94632f3ac17808ec9582a110026ded9a949460cd9d551c2c2e113"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120093:issue_date",
+   "field": "issue_date",
+   "value": "2019-11-13",
+   "raw_lexeme": "13 November 2019",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120093",
+     "page": 7,
+     "bbox": [
+      88.19,
+      612.56,
+      522.33,
+      101.92
+     ],
+     "excerpt": "13 November 2019",
+     "sha256": "98e45ca40dc94632f3ac17808ec9582a110026ded9a949460cd9d551c2c2e113"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120093:ranking",
+   "field": "ranking",
+   "value": "SUBORDINATED",
+   "raw_lexeme": "made in euro without deduction for or on account of taxes imposed or levied by the Kingdom of Spain to the extent described under Condition 7 in the Conditions. The payment obligations of the Bank under the Notes on account of principal constitute direct, unconditional, unsecured and subordinated obligations of the Bank in accordance with Article 92.2 of the Insolvency",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim_doclevel",
+   "evidence": [
+    {
+     "doc_id": "ADM_120093",
+     "page": 7,
+     "bbox": [
+      88.19,
+      612.56,
+      522.33,
+      101.92
+     ],
+     "excerpt": "made in euro without deduction for or on account of taxes imposed or levied by the Kingdom of Spain to the extent described under Condition 7 in the Conditions. The payment obligations of the Bank under the Notes on account of principal constitute direct, unconditional, unsecured and subordinated ob",
+     "sha256": "98e45ca40dc94632f3ac17808ec9582a110026ded9a949460cd9d551c2c2e113"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "29b033d4fd0dd153ae469cd31543f3d7ad1bf274f5e2633e201fc92f6d158e23"
+}

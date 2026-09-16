@@ -1,0 +1,192 @@
+{
+ "case_id": "P0-ADM_118937",
+ "source_record_key": "ADM_118937",
+ "document_sha256": "f0be61d399c6520e415f8a252bc0ac9fdf27c28e91f9dc656b28a0a3c13d133d",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_118937",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_118937",
+    "role": "SECURITIES_NOTE",
+    "issuer": "WIZINK MASTER CREDIT CARDS, FONDO DE TITULIZACION",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_118937:isin",
+   "field": "isin",
+   "value": "ES0305279111",
+   "raw_lexeme": "ES0305279111",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_118937",
+     "page": 7,
+     "bbox": [
+      65.59,
+      770.0,
+      518.09,
+      416.9
+     ],
+     "excerpt": "ES0305279111",
+     "sha256": "f0be61d399c6520e415f8a252bc0ac9fdf27c28e91f9dc656b28a0a3c13d133d"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_118937:coupon_type",
+   "field": "coupon_type",
+   "value": "1.25 per cent. Fixed Rate. (Additional information on the securities interest can be found in section 19 of these Final Terms)",
+   "raw_lexeme": "1.25 per cent. Fixed Rate. (Additional information on the securities interest can be found in section 19 of these Final Terms)",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_118937",
+     "page": 4,
+     "bbox": [
+      65.51,
+      770.26,
+      529.23,
+      233.63
+     ],
+     "excerpt": "1.25 per cent. Fixed Rate. (Additional information on the securities interest can be found in section 19 of these Final Terms)",
+     "sha256": "f0be61d399c6520e415f8a252bc0ac9fdf27c28e91f9dc656b28a0a3c13d133d"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_118937:coupon_rate",
+   "field": "coupon_rate",
+   "value": "1.25",
+   "raw_lexeme": "1.25 per cent. Fixed Rate. (Additional information on the securities interest can be found in section 19 of these Final Terms)",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_118937",
+     "page": 4,
+     "bbox": [
+      65.51,
+      770.26,
+      529.23,
+      233.63
+     ],
+     "excerpt": "1.25 per cent. Fixed Rate. (Additional information on the securities interest can be found in section 19 of these Final Terms)",
+     "sha256": "f0be61d399c6520e415f8a252bc0ac9fdf27c28e91f9dc656b28a0a3c13d133d"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_118937:day_count",
+   "field": "day_count",
+   "value": "ACT_360",
+   "raw_lexeme": "Actual/360",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_118937",
+     "page": 5,
+     "bbox": [
+      65.76,
+      753.91,
+      529.04,
+      209.43
+     ],
+     "excerpt": "Actual/360",
+     "sha256": "f0be61d399c6520e415f8a252bc0ac9fdf27c28e91f9dc656b28a0a3c13d133d"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_118937:business_day_convention",
+   "field": "business_day_convention",
+   "value": "Modified Following Business Day Convention",
+   "raw_lexeme": "Modified Following Business Day Convention",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_118937",
+     "page": 5,
+     "bbox": [
+      65.76,
+      753.91,
+      529.04,
+      209.43
+     ],
+     "excerpt": "Modified Following Business Day Convention",
+     "sha256": "f0be61d399c6520e415f8a252bc0ac9fdf27c28e91f9dc656b28a0a3c13d133d"
+    },
+    {
+     "doc_id": "ADM_118937",
+     "page": 5,
+     "bbox": [
+      65.76,
+      753.91,
+      529.04,
+      209.43
+     ],
+     "excerpt": "Modified Following Business Day Convention",
+     "sha256": "f0be61d399c6520e415f8a252bc0ac9fdf27c28e91f9dc656b28a0a3c13d133d"
+    },
+    {
+     "doc_id": "ADM_118937",
+     "page": 5,
+     "bbox": [
+      65.76,
+      753.91,
+      529.04,
+      209.43
+     ],
+     "excerpt": "Modified Following Business Day Convention",
+     "sha256": "f0be61d399c6520e415f8a252bc0ac9fdf27c28e91f9dc656b28a0a3c13d133d"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_118937:redemption_formula",
+   "field": "redemption_formula",
+   "value": "Unless previously redeemed or cancelled, the Class C2019-02 Notes will be redeemed on their Notes Final Legal Maturity Date",
+   "raw_lexeme": "Unless previously redeemed or cancelled, the Class C2019-02 Notes will be redeemed on their Notes Final Legal Maturity Date",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_118937",
+     "page": 4,
+     "bbox": [
+      65.51,
+      770.26,
+      529.23,
+      233.63
+     ],
+     "excerpt": "Unless previously redeemed or cancelled, the Class C2019-02 Notes will be redeemed on their Notes Final Legal Maturity Date",
+     "sha256": "f0be61d399c6520e415f8a252bc0ac9fdf27c28e91f9dc656b28a0a3c13d133d"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "24cb8a031fc19737858ee4e57eb31fcf6ba55e9f31ebac3bf005fc39f06a2c84"
+}

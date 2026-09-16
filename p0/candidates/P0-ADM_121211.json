@@ -1,0 +1,368 @@
+{
+ "case_id": "P0-ADM_121211",
+ "source_record_key": "ADM_121211",
+ "document_sha256": "c924019cf852ffca3f8d28f36692ee77bdcca55a61d79e29bf5964c9d1ca9876",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_121211",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_121211",
+    "role": "SECURITIES_NOTE",
+    "issuer": "BANKINTER, S.A.",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_121211:isin",
+   "field": "isin",
+   "value": "ES0313679P83",
+   "raw_lexeme": "ES0313679P83",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121211",
+     "page": 2,
+     "bbox": [
+      141.74,
+      723.37,
+      283.25,
+      714.84
+     ],
+     "excerpt": "ES0313679P83",
+     "sha256": "c924019cf852ffca3f8d28f36692ee77bdcca55a61d79e29bf5964c9d1ca9876"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121211:currency",
+   "field": "currency",
+   "value": "EUR",
+   "raw_lexeme": "Euros.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121211",
+     "page": 2,
+     "bbox": [
+      85.1,
+      668.77,
+      234.89,
+      660.24
+     ],
+     "excerpt": "Euros.",
+     "sha256": "c924019cf852ffca3f8d28f36692ee77bdcca55a61d79e29bf5964c9d1ca9876"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121211:issue_date",
+   "field": "issue_date",
+   "value": "2020-03-20",
+   "raw_lexeme": "20 de marzo de 2020",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121211",
+     "page": 2,
+     "bbox": [
+      85.1,
+      496.9,
+      401.95,
+      488.37
+     ],
+     "excerpt": "20 de marzo de 2020",
+     "sha256": "c924019cf852ffca3f8d28f36692ee77bdcca55a61d79e29bf5964c9d1ca9876"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121211:maturity",
+   "field": "maturity",
+   "value": "2023-03-29",
+   "raw_lexeme": "29 de marzo de 2023",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121211",
+     "page": 2,
+     "bbox": [
+      85.1,
+      470.74,
+      300.53,
+      462.21
+     ],
+     "excerpt": "29 de marzo de 2023",
+     "sha256": "c924019cf852ffca3f8d28f36692ee77bdcca55a61d79e29bf5964c9d1ca9876"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121211:denomination",
+   "field": "denomination",
+   "value": {
+    "amount": "100.000",
+    "currency": "EUR",
+    "raw_number": "100.000"
+   },
+   "raw_lexeme": "100.000 euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121211",
+     "page": 2,
+     "bbox": [
+      203.21,
+      559.54,
+      370.75,
+      551.01
+     ],
+     "excerpt": "100.000 euros",
+     "sha256": "c924019cf852ffca3f8d28f36692ee77bdcca55a61d79e29bf5964c9d1ca9876"
+    },
+    {
+     "doc_id": "ADM_121211",
+     "page": 2,
+     "bbox": [
+      203.21,
+      559.54,
+      370.75,
+      551.01
+     ],
+     "excerpt": "100.000 euros",
+     "sha256": "c924019cf852ffca3f8d28f36692ee77bdcca55a61d79e29bf5964c9d1ca9876"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121211:issued_amount",
+   "field": "issued_amount",
+   "value": {
+    "amount": "500.000",
+    "currency": "EUR",
+    "raw_number": "500.000"
+   },
+   "raw_lexeme": "500.000 euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121211",
+     "page": 2,
+     "bbox": [
+      203.21,
+      620.29,
+      331.63,
+      611.76
+     ],
+     "excerpt": "500.000 euros",
+     "sha256": "c924019cf852ffca3f8d28f36692ee77bdcca55a61d79e29bf5964c9d1ca9876"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121211:coupon_type",
+   "field": "coupon_type",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "N/A",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121211",
+     "page": 2,
+     "bbox": [
+      85.1,
+      444.7,
+      211.49,
+      436.17
+     ],
+     "excerpt": "Tipo de interés fijo: N/A",
+     "sha256": "c924019cf852ffca3f8d28f36692ee77bdcca55a61d79e29bf5964c9d1ca9876"
+    },
+    {
+     "doc_id": "ADM_121211",
+     "page": 2,
+     "bbox": [
+      85.1,
+      420.34,
+      233.69,
+      411.81
+     ],
+     "excerpt": "Tipo de interés variable: N/A",
+     "sha256": "c924019cf852ffca3f8d28f36692ee77bdcca55a61d79e29bf5964c9d1ca9876"
+    },
+    {
+     "doc_id": "ADM_121211",
+     "page": 2,
+     "bbox": [
+      85.1,
+      396.1,
+      240.77,
+      387.57
+     ],
+     "excerpt": "Tipo de interés indexado: N/A",
+     "sha256": "c924019cf852ffca3f8d28f36692ee77bdcca55a61d79e29bf5964c9d1ca9876"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121211:fixing_rules",
+   "field": "fixing_rules",
+   "value": "En la fecha de determinación inicial.",
+   "raw_lexeme": "En la fecha de determinación inicial.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121211",
+     "page": 2,
+     "bbox": [
+      113.42,
+      232.04,
+      428.11,
+      223.51
+     ],
+     "excerpt": "En la fecha de determinación inicial.",
+     "sha256": "c924019cf852ffca3f8d28f36692ee77bdcca55a61d79e29bf5964c9d1ca9876"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121211:underlying",
+   "field": "underlying",
+   "value": [
+    "Índice.",
+    "Índice  Euro  Stoxx  50 (EU0009658145) publicado por STOXX Limited. Código SX5E Index (Bloomberg). El Índice  Euro  Stoxx  50  es  un  índice  bursátil  compuesto  por  los  5",
+    ": ver apartado 10.",
+    "ver apartado 10 Nombre y descripción del subyacente : ver apartado 10 Indicación de dónde puede obtenerse información sobre el subyacente : ver apartado 10 Ponderación  de los subyacentes : N/A Precio"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121211",
+     "page": 2,
+     "bbox": [
+      113.42,
+      353.6,
+      255.89,
+      345.07
+     ],
+     "excerpt": "Índice.",
+     "sha256": "c924019cf852ffca3f8d28f36692ee77bdcca55a61d79e29bf5964c9d1ca9876"
+    },
+    {
+     "doc_id": "ADM_121211",
+     "page": 2,
+     "bbox": [
+      113.42,
+      341.48,
+      512.43,
+      296.47
+     ],
+     "excerpt": "Índice  Euro  Stoxx  50 (EU0009658145) publicado por STOXX Limited. Código SX5E Index (Bloomberg). El Índice  Euro  Stoxx  50  es  un  índice  bursátil  compuesto  por  los  5",
+     "sha256": "c924019cf852ffca3f8d28f36692ee77bdcca55a61d79e29bf5964c9d1ca9876"
+    },
+    {
+     "doc_id": "ADM_121211",
+     "page": 3,
+     "bbox": [
+      296.57,
+      213.68,
+      376.75,
+      205.15
+     ],
+     "excerpt": ": ver apartado 10.",
+     "sha256": "c924019cf852ffca3f8d28f36692ee77bdcca55a61d79e29bf5964c9d1ca9876"
+    },
+    {
+     "doc_id": "ADM_121211",
+     "page": 4,
+     "bbox": [
+      121.1,
+      128.81,
+      515.62,
+      59.45
+     ],
+     "excerpt": "ver apartado 10 Nombre y descripción del subyacente : ver apartado 10 Indicación de dónde puede obtenerse información sobre el subyacente : ver apartado 10 Ponderación  de los subyacentes : N/A Precio",
+     "sha256": "c924019cf852ffca3f8d28f36692ee77bdcca55a61d79e29bf5964c9d1ca9876"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121211:barrier",
+   "field": "barrier",
+   "value": "70.00",
+   "raw_lexeme": "70,00% del Precio Inicial del Subyacente, esto es, 2.360,3790 puntos.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121211",
+     "page": 3,
+     "bbox": [
+      106.46,
+      565.18,
+      512.5,
+      556.65
+     ],
+     "excerpt": "70,00% del Precio Inicial del Subyacente, esto es, 2.360,3790 puntos.",
+     "sha256": "c924019cf852ffca3f8d28f36692ee77bdcca55a61d79e29bf5964c9d1ca9876"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121211:settlement_type",
+   "field": "settlement_type",
+   "value": "Iberclear",
+   "raw_lexeme": "Iberclear",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121211",
+     "page": 5,
+     "bbox": [
+      85.1,
+      144.77,
+      271.01,
+      136.24
+     ],
+     "excerpt": "Iberclear",
+     "sha256": "c924019cf852ffca3f8d28f36692ee77bdcca55a61d79e29bf5964c9d1ca9876"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "58e677b14e88a04b89dd4802dbd71fc4fbc5f76bf1e40c229e39cd8ad63f85e2"
+}

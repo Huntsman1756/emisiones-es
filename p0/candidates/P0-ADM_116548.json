@@ -1,0 +1,326 @@
+{
+ "case_id": "P0-ADM_116548",
+ "source_record_key": "ADM_116548",
+ "document_sha256": "e7a123fafd97e668bd17f4eecf30935f19974be48b14234181a3cb11df2bd858",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_116548",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_116548",
+    "role": "SECURITIES_NOTE",
+    "issuer": "BANKIA, S.A (ABSORBIDA)",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_116548:isin",
+   "field": "isin",
+   "value": "ES0313307201",
+   "raw_lexeme": "ES0313307201",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116548",
+     "page": 1,
+     "bbox": [
+      159.86,
+      280.73,
+      301.7,
+      270.12
+     ],
+     "excerpt": "ES0313307201",
+     "sha256": "e7a123fafd97e668bd17f4eecf30935f19974be48b14234181a3cb11df2bd858"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116548:currency",
+   "field": "currency",
+   "value": "EUR",
+   "raw_lexeme": "Euro",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116548",
+     "page": 2,
+     "bbox": [
+      106.34,
+      612.34,
+      254.64,
+      601.73
+     ],
+     "excerpt": "Euro",
+     "sha256": "e7a123fafd97e668bd17f4eecf30935f19974be48b14234181a3cb11df2bd858"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116548:issue_date",
+   "field": "issue_date",
+   "value": "2019-03-25",
+   "raw_lexeme": "el 25 de marzo de 2019",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116548",
+     "page": 2,
+     "bbox": [
+      106.34,
+      446.59,
+      383.78,
+      435.98
+     ],
+     "excerpt": "el 25 de marzo de 2019",
+     "sha256": "e7a123fafd97e668bd17f4eecf30935f19974be48b14234181a3cb11df2bd858"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116548:maturity",
+   "field": "maturity",
+   "value": "2024-03-25",
+   "raw_lexeme": "el 25 de marzo de 2024",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116548",
+     "page": 2,
+     "bbox": [
+      106.34,
+      428.47,
+      347.18,
+      417.86
+     ],
+     "excerpt": "el 25 de marzo de 2024",
+     "sha256": "e7a123fafd97e668bd17f4eecf30935f19974be48b14234181a3cb11df2bd858"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116548:denomination",
+   "field": "denomination",
+   "value": {
+    "amount": "100.000",
+    "currency": "EUR",
+    "raw_number": "100.000"
+   },
+   "raw_lexeme": "100.000 euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116548",
+     "page": 2,
+     "bbox": [
+      141.86,
+      520.39,
+      305.66,
+      509.78
+     ],
+     "excerpt": "100.000 euros",
+     "sha256": "e7a123fafd97e668bd17f4eecf30935f19974be48b14234181a3cb11df2bd858"
+    },
+    {
+     "doc_id": "ADM_116548",
+     "page": 2,
+     "bbox": [
+      141.86,
+      520.39,
+      305.66,
+      509.78
+     ],
+     "excerpt": "100.000 euros",
+     "sha256": "e7a123fafd97e668bd17f4eecf30935f19974be48b14234181a3cb11df2bd858"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116548:issued_amount",
+   "field": "issued_amount",
+   "value": {
+    "amount": "500000000",
+    "currency": "EUR",
+    "raw_number": "500.000.000"
+   },
+   "raw_lexeme": "500.000.000 euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116548",
+     "page": 2,
+     "bbox": [
+      141.86,
+      575.74,
+      289.22,
+      565.13
+     ],
+     "excerpt": "500.000.000 euros",
+     "sha256": "e7a123fafd97e668bd17f4eecf30935f19974be48b14234181a3cb11df2bd858"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116548:coupon_type",
+   "field": "coupon_type",
+   "value": "0,875% nominal anual, pagadero anualmente",
+   "raw_lexeme": "0,875% nominal anual, pagadero anualmente",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116548",
+     "page": 2,
+     "bbox": [
+      141.86,
+      392.35,
+      377.42,
+      381.74
+     ],
+     "excerpt": "0,875% nominal anual, pagadero anualmente",
+     "sha256": "e7a123fafd97e668bd17f4eecf30935f19974be48b14234181a3cb11df2bd858"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116548:coupon_rate",
+   "field": "coupon_rate",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "N/A",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116548",
+     "page": 2,
+     "bbox": [
+      106.34,
+      205.13,
+      394.58,
+      194.52
+     ],
+     "excerpt": "Tipo de interés con estructura ligada a un subyacente: N/A",
+     "sha256": "e7a123fafd97e668bd17f4eecf30935f19974be48b14234181a3cb11df2bd858"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116548:day_count",
+   "field": "day_count",
+   "value": "ACT_ACT_ICMA",
+   "raw_lexeme": "Act/Act (ICMA)",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116548",
+     "page": 2,
+     "bbox": [
+      141.86,
+      374.21,
+      438.65,
+      363.6
+     ],
+     "excerpt": "Act/Act (ICMA)",
+     "sha256": "e7a123fafd97e668bd17f4eecf30935f19974be48b14234181a3cb11df2bd858"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116548:call_dates",
+   "field": "call_dates",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "N/A",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116548",
+     "page": 2,
+     "bbox": [
+      106.34,
+      168.98,
+      432.05,
+      158.37
+     ],
+     "excerpt": "Opciones de amortización anticipada o cancelación anticipada: N/A",
+     "sha256": "e7a123fafd97e668bd17f4eecf30935f19974be48b14234181a3cb11df2bd858"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116548:business_day_convention",
+   "field": "business_day_convention",
+   "value": "Following Unadjusted",
+   "raw_lexeme": "Following Unadjusted",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116548",
+     "page": 2,
+     "bbox": [
+      141.86,
+      356.09,
+      367.34,
+      345.48
+     ],
+     "excerpt": "Following Unadjusted",
+     "sha256": "e7a123fafd97e668bd17f4eecf30935f19974be48b14234181a3cb11df2bd858"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116548:redemption_formula",
+   "field": "redemption_formula",
+   "value": "100% del Valor Nominal.",
+   "raw_lexeme": "100% del Valor Nominal.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116548",
+     "page": 3,
+     "bbox": [
+      141.86,
+      672.1,
+      397.75,
+      661.49
+     ],
+     "excerpt": "100% del Valor Nominal.",
+     "sha256": "e7a123fafd97e668bd17f4eecf30935f19974be48b14234181a3cb11df2bd858"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "ad890a184a309b023088bada40d0c8c1ee3341f3ac76c0c93c92d4f0d413527c"
+}

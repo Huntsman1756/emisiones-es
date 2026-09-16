@@ -1,0 +1,463 @@
+{
+ "case_id": "P0-ADM_121548",
+ "source_record_key": "ADM_121548",
+ "document_sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_121548",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_121548",
+    "role": "SECURITIES_NOTE",
+    "issuer": "BBVA GLOBAL MARKETS B.V.",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_121548:isin",
+   "field": "isin",
+   "value": "ES0305067C43",
+   "raw_lexeme": "ES0305067C43",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121548",
+     "page": 11,
+     "bbox": [
+      102.39,
+      432.0,
+      392.81,
+      137.05
+     ],
+     "excerpt": "ES0305067C43",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121548:issue_date",
+   "field": "issue_date",
+   "value": "2020-04-08",
+   "raw_lexeme": "8 April 2020",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121548",
+     "page": 3,
+     "bbox": [
+      301.68,
+      582.16,
+      355.31,
+      573.87
+     ],
+     "excerpt": "8 April 2020",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121548:denomination",
+   "field": "denomination",
+   "value": {
+    "amount": "100.000",
+    "currency": "EUR",
+    "raw_number": "100,000"
+   },
+   "raw_lexeme": "EUR 100,000",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121548",
+     "page": 3,
+     "bbox": [
+      301.68,
+      651.76,
+      359.2,
+      643.47
+     ],
+     "excerpt": "EUR 100,000",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121548:coupon_type",
+   "field": "coupon_type",
+   "value": "Applicable",
+   "raw_lexeme": "Applicable",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121548",
+     "page": 3,
+     "bbox": [
+      301.68,
+      436.24,
+      348.07,
+      427.95
+     ],
+     "excerpt": "Applicable",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121548:call_dates",
+   "field": "call_dates",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "Not applicable",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121548",
+     "page": 3,
+     "bbox": [
+      301.68,
+      343.36,
+      362.79,
+      335.07
+     ],
+     "excerpt": "Not applicable",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121548:business_day_convention",
+   "field": "business_day_convention",
+   "value": "Modified Following Business Day Convention",
+   "raw_lexeme": "Modified Following Business Day Convention",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121548",
+     "page": 4,
+     "bbox": [
+      70.44,
+      352.78,
+      535.81,
+      102.63
+     ],
+     "excerpt": "Modified Following Business Day Convention",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    },
+    {
+     "doc_id": "ADM_121548",
+     "page": 4,
+     "bbox": [
+      70.44,
+      352.78,
+      535.81,
+      102.63
+     ],
+     "excerpt": "Modified Following Business Day Convention",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121548:redemption_formula",
+   "field": "redemption_formula",
+   "value": [
+    "Index Linked Redemption",
+    "Final Redemption Amount:",
+    "Calculation Amount * Final Payout"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121548",
+     "page": 3,
+     "bbox": [
+      301.68,
+      389.92,
+      409.18,
+      381.63
+     ],
+     "excerpt": "Index Linked Redemption",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    },
+    {
+     "doc_id": "ADM_121548",
+     "page": 5,
+     "bbox": [
+      109.2,
+      578.8,
+      227.01,
+      570.51
+     ],
+     "excerpt": "Final Redemption Amount:",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    },
+    {
+     "doc_id": "ADM_121548",
+     "page": 5,
+     "bbox": [
+      301.68,
+      578.8,
+      446.41,
+      570.51
+     ],
+     "excerpt": "Calculation Amount * Final Payout",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121548:underlying",
+   "field": "underlying",
+   "value": "EURO STOXX Select Dividend 30 Index",
+   "raw_lexeme": "EURO STOXX Select Dividend 30 Index",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121548",
+     "page": 3,
+     "bbox": [
+      301.68,
+      366.64,
+      435.26,
+      358.35
+     ],
+     "excerpt": "See paragraph 35(i) Index below",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    },
+    {
+     "doc_id": "ADM_121548",
+     "page": 7,
+     "bbox": [
+      76.19,
+      770.78,
+      527.41,
+      90.62
+     ],
+     "excerpt": "EURO STOXX Select Dividend 30 Index",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    },
+    {
+     "doc_id": "ADM_121548",
+     "page": 7,
+     "bbox": [
+      76.19,
+      770.78,
+      527.41,
+      90.62
+     ],
+     "excerpt": "EURO STOXX Select Dividend 30 Index",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121548:barrier",
+   "field": "barrier",
+   "value": "90",
+   "raw_lexeme": "90 per cent",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121548",
+     "page": 6,
+     "bbox": [
+      301.68,
+      204.64,
+      474.46,
+      196.35
+     ],
+     "excerpt": "Calculation Amount * AER Percentage",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    },
+    {
+     "doc_id": "ADM_121548",
+     "page": 6,
+     "bbox": [
+      301.68,
+      181.6,
+      367.51,
+      173.31
+     ],
+     "excerpt": "See table below",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    },
+    {
+     "doc_id": "ADM_121548",
+     "page": 6,
+     "bbox": [
+      288.73,
+      56.41,
+      295.51,
+      48.91
+     ],
+     "excerpt": "6",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    },
+    {
+     "doc_id": "ADM_121548",
+     "page": 4,
+     "bbox": [
+      106.73,
+      649.47,
+      536.82,
+      389.93
+     ],
+     "excerpt": "90 per cent",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    },
+    {
+     "doc_id": "ADM_121548",
+     "page": 7,
+     "bbox": [
+      76.19,
+      770.78,
+      527.41,
+      90.62
+     ],
+     "excerpt": "AER Percentage",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121548:autocall",
+   "field": "autocall",
+   "value": "APPLICABLE",
+   "raw_lexeme": "Applicable",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121548",
+     "page": 6,
+     "bbox": [
+      301.68,
+      608.8,
+      348.07,
+      600.51
+     ],
+     "excerpt": "Applicable",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121548:observation_dates",
+   "field": "observation_dates",
+   "value": [
+    "2020-04-08",
+    "2020-04-08",
+    "2022-04-11",
+    "2022-04-11"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121548",
+     "page": 7,
+     "bbox": [
+      76.19,
+      770.78,
+      527.41,
+      90.62
+     ],
+     "excerpt": "8 April 2020",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    },
+    {
+     "doc_id": "ADM_121548",
+     "page": 7,
+     "bbox": [
+      76.19,
+      770.78,
+      527.41,
+      90.62
+     ],
+     "excerpt": "8 April 2020",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    },
+    {
+     "doc_id": "ADM_121548",
+     "page": 7,
+     "bbox": [
+      76.19,
+      770.78,
+      527.41,
+      90.62
+     ],
+     "excerpt": "11 April 2022",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    },
+    {
+     "doc_id": "ADM_121548",
+     "page": 7,
+     "bbox": [
+      76.19,
+      770.78,
+      527.41,
+      90.62
+     ],
+     "excerpt": "11 April 2022",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121548:settlement_type",
+   "field": "settlement_type",
+   "value": "The Issuer does not have the option to vary settlement in respect of the Notes as set out in General Condition 5(b)(ii)",
+   "raw_lexeme": "The Issuer does not have the option to vary settlement in respect of the Notes as set out in General Condition 5(b)(ii)",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121548",
+     "page": 8,
+     "bbox": [
+      70.51,
+      359.83,
+      543.46,
+      312.35
+     ],
+     "excerpt": "The Issuer does not have the option to vary settlement in respect of the Notes as set out in General Condition 5(b)(ii)",
+     "sha256": "2ece34ad1d4a73aa1744b9c232df3cbf931659279e91a7a0550938ea9718b8b7"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "716fe0ee14057dcf8a92483e40d18783e69bf87d111f4a8c7c288afe3d435667"
+}

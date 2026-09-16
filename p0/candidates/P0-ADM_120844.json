@@ -1,0 +1,295 @@
+{
+ "case_id": "P0-ADM_120844",
+ "source_record_key": "ADM_120844",
+ "document_sha256": "8babfb47c0bb4f3854294d1389addff977a7d296c9fd0e3002daaff5b1b3a2a6",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_120844",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_120844",
+    "role": "SECURITIES_NOTE",
+    "issuer": "BANCO DE SABADELL, S.A.",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_120844:isin",
+   "field": "isin",
+   "value": "ES0413860745",
+   "raw_lexeme": "ES0413860745",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120844",
+     "page": 1,
+     "bbox": [
+      101.66,
+      274.66,
+      250.86,
+      265.73
+     ],
+     "excerpt": "ES0413860745",
+     "sha256": "8babfb47c0bb4f3854294d1389addff977a7d296c9fd0e3002daaff5b1b3a2a6"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120844:issue_date",
+   "field": "issue_date",
+   "value": "2020-01-20",
+   "raw_lexeme": "20 de enero de 2020",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120844",
+     "page": 2,
+     "bbox": [
+      85.1,
+      597.87,
+      361.16,
+      588.94
+     ],
+     "excerpt": "20 de enero de 2020",
+     "sha256": "8babfb47c0bb4f3854294d1389addff977a7d296c9fd0e3002daaff5b1b3a2a6"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120844:maturity",
+   "field": "maturity",
+   "value": "2028-02-10",
+   "raw_lexeme": "10 de febrero de 2028",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120844",
+     "page": 2,
+     "bbox": [
+      85.1,
+      576.39,
+      318.32,
+      567.46
+     ],
+     "excerpt": "10 de febrero de 2028",
+     "sha256": "8babfb47c0bb4f3854294d1389addff977a7d296c9fd0e3002daaff5b1b3a2a6"
+    },
+    {
+     "doc_id": "ADM_120844",
+     "page": 3,
+     "bbox": [
+      107.18,
+      746.79,
+      256.98,
+      737.86
+     ],
+     "excerpt": " Fecha: 10 de febrero de 2028.",
+     "sha256": "8babfb47c0bb4f3854294d1389addff977a7d296c9fd0e3002daaff5b1b3a2a6"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120844:issued_amount",
+   "field": "issued_amount",
+   "value": [
+    {
+     "amount": "1000000000",
+     "currency": "EUR",
+     "raw_number": "1.000.000.000"
+    },
+    {
+     "amount": "990440000",
+     "currency": "EUR",
+     "raw_number": "990.440.000"
+    }
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "CONFLICT",
+   "confidence_class": null,
+   "evidence": [
+    {
+     "doc_id": "ADM_120844",
+     "page": 2,
+     "bbox": [
+      107.06,
+      721.71,
+      257.58,
+      712.78
+     ],
+     "excerpt": " Nominal: 1.000.000.000 Euros",
+     "sha256": "8babfb47c0bb4f3854294d1389addff977a7d296c9fd0e3002daaff5b1b3a2a6"
+    },
+    {
+     "doc_id": "ADM_120844",
+     "page": 2,
+     "bbox": [
+      107.06,
+      704.43,
+      248.1,
+      695.5
+     ],
+     "excerpt": " Efectivo: 990.440.000 Euros",
+     "sha256": "8babfb47c0bb4f3854294d1389addff977a7d296c9fd0e3002daaff5b1b3a2a6"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120844:coupon_type",
+   "field": "coupon_type",
+   "value": [
+    "0,125% anual pagadero anualmente.",
+    "N.A.",
+    "N.A.",
+    "N.A."
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120844",
+     "page": 2,
+     "bbox": [
+      85.1,
+      554.76,
+      368.36,
+      545.83
+     ],
+     "excerpt": "0,125% anual pagadero anualmente.",
+     "sha256": "8babfb47c0bb4f3854294d1389addff977a7d296c9fd0e3002daaff5b1b3a2a6"
+    },
+    {
+     "doc_id": "ADM_120844",
+     "page": 2,
+     "bbox": [
+      85.1,
+      318.94,
+      246.54,
+      310.01
+     ],
+     "excerpt": "N.A.",
+     "sha256": "8babfb47c0bb4f3854294d1389addff977a7d296c9fd0e3002daaff5b1b3a2a6"
+    },
+    {
+     "doc_id": "ADM_120844",
+     "page": 2,
+     "bbox": [
+      85.1,
+      297.46,
+      252.66,
+      288.53
+     ],
+     "excerpt": "N.A.",
+     "sha256": "8babfb47c0bb4f3854294d1389addff977a7d296c9fd0e3002daaff5b1b3a2a6"
+    },
+    {
+     "doc_id": "ADM_120844",
+     "page": 2,
+     "bbox": [
+      85.1,
+      275.98,
+      391.07,
+      267.05
+     ],
+     "excerpt": "N.A.",
+     "sha256": "8babfb47c0bb4f3854294d1389addff977a7d296c9fd0e3002daaff5b1b3a2a6"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120844:redemption_formula",
+   "field": "redemption_formula",
+   "value": [
+    " Fecha: 10 de febrero de 2028.",
+    " Precio  de  amortización  final:  100%  sobre  nominal  (a  la  par),  libre  de  gastos  y comisiones para los tenedores de los valores.",
+    " Estructura de Amortización Final: N.A."
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120844",
+     "page": 3,
+     "bbox": [
+      107.18,
+      746.79,
+      256.98,
+      737.86
+     ],
+     "excerpt": " Fecha: 10 de febrero de 2028.",
+     "sha256": "8babfb47c0bb4f3854294d1389addff977a7d296c9fd0e3002daaff5b1b3a2a6"
+    },
+    {
+     "doc_id": "ADM_120844",
+     "page": 3,
+     "bbox": [
+      107.18,
+      729.63,
+      512.79,
+      709.3
+     ],
+     "excerpt": " Precio  de  amortización  final:  100%  sobre  nominal  (a  la  par),  libre  de  gastos  y comisiones para los tenedores de los valores.",
+     "sha256": "8babfb47c0bb4f3854294d1389addff977a7d296c9fd0e3002daaff5b1b3a2a6"
+    },
+    {
+     "doc_id": "ADM_120844",
+     "page": 3,
+     "bbox": [
+      107.18,
+      700.95,
+      289.01,
+      692.02
+     ],
+     "excerpt": " Estructura de Amortización Final: N.A.",
+     "sha256": "8babfb47c0bb4f3854294d1389addff977a7d296c9fd0e3002daaff5b1b3a2a6"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120844:settlement_type",
+   "field": "settlement_type",
+   "value": "Sociedad  de  Gestión  de  los  Sistemas  de  Registro, Compensación y Liquidación de Valores, S.A. Sociedad Unipersonal (IBERCLEAR), con domicilio social en la plaza de la Lealtad, n.º1, Madrid. El E",
+   "raw_lexeme": "Sociedad  de  Gestión  de  los  Sistemas  de  Registro, Compensación y Liquidación de Valores, S.A. Sociedad Unipersonal (IBERCLEAR), con domicilio social en la plaza de la Lealtad, n.º1, Madrid. El E",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120844",
+     "page": 4,
+     "bbox": [
+      85.1,
+      769.25,
+      513.13,
+      713.98
+     ],
+     "excerpt": "Sociedad  de  Gestión  de  los  Sistemas  de  Registro, Compensación y Liquidación de Valores, S.A. Sociedad Unipersonal (IBERCLEAR), con domicilio social en la plaza de la Lealtad, n.º1, Madrid. El E",
+     "sha256": "8babfb47c0bb4f3854294d1389addff977a7d296c9fd0e3002daaff5b1b3a2a6"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "6b995f33f2eb6b20963202410ba9e90b58519c15d4801c80d3f6125f98a65d40"
+}

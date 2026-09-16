@@ -1,0 +1,219 @@
+{
+ "case_id": "P0-ADM_121925",
+ "source_record_key": "ADM_121925",
+ "document_sha256": "4644dcbaa71797c61f82bf51bea13375cf0512fabf27681aa7324c50ff25fa58",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_121925",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_121925",
+    "role": "SECURITIES_NOTE",
+    "issuer": "LIBERBANK, S.A. (ABSORBIDA)",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_121925:isin",
+   "field": "isin",
+   "value": "ES0468675030",
+   "raw_lexeme": "ES0468675030",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121925",
+     "page": 2,
+     "bbox": [
+      113.3,
+      480.29,
+      345.39,
+      474.82
+     ],
+     "excerpt": "ES0468675030",
+     "sha256": "4644dcbaa71797c61f82bf51bea13375cf0512fabf27681aa7324c50ff25fa58"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121925:currency",
+   "field": "currency",
+   "value": "EUR",
+   "raw_lexeme": "Euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121925",
+     "page": 2,
+     "bbox": [
+      84.98,
+      367.23,
+      239.65,
+      361.76
+     ],
+     "excerpt": "Euros",
+     "sha256": "4644dcbaa71797c61f82bf51bea13375cf0512fabf27681aa7324c50ff25fa58"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121925:issue_date",
+   "field": "issue_date",
+   "value": "2020-06-03",
+   "raw_lexeme": "3 de junio de 2020.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121925",
+     "page": 2,
+     "bbox": [
+      84.98,
+      143.28,
+      348.51,
+      137.81
+     ],
+     "excerpt": "3 de junio de 2020.",
+     "sha256": "4644dcbaa71797c61f82bf51bea13375cf0512fabf27681aa7324c50ff25fa58"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121925:maturity",
+   "field": "maturity",
+   "value": "2029-09-25",
+   "raw_lexeme": "25 de septiembre de 2029.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121925",
+     "page": 2,
+     "bbox": [
+      84.98,
+      118.56,
+      343.47,
+      113.09
+     ],
+     "excerpt": "25 de septiembre de 2029.",
+     "sha256": "4644dcbaa71797c61f82bf51bea13375cf0512fabf27681aa7324c50ff25fa58"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121925:coupon_type",
+   "field": "coupon_type",
+   "value": [
+    " Tipo de interés: 0,25% pagadero anualmente.",
+    " Base de cálculo para el devengo de intereses: Act/Act (ICMA).",
+    " Convención día hábil: En caso de que la fecha de pago de cupón no sea un Día Hábil, según el  calendario  TARGET2,  el  pago  del  mismo  se  realizará  el  Día  Hábil  inmediatamente posterior, sin que los tenedores de los Valores  tengan derecho a percibir intereses por dicho diferimiento (convención Following Unadjusted)"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121925",
+     "page": 3,
+     "bbox": [
+      113.3,
+      736.4,
+      335.67,
+      730.93
+     ],
+     "excerpt": " Tipo de interés: 0,25% pagadero anualmente.",
+     "sha256": "4644dcbaa71797c61f82bf51bea13375cf0512fabf27681aa7324c50ff25fa58"
+    },
+    {
+     "doc_id": "ADM_121925",
+     "page": 3,
+     "bbox": [
+      113.3,
+      717.68,
+      409.47,
+      712.21
+     ],
+     "excerpt": " Base de cálculo para el devengo de intereses: Act/Act (ICMA).",
+     "sha256": "4644dcbaa71797c61f82bf51bea13375cf0512fabf27681aa7324c50ff25fa58"
+    },
+    {
+     "doc_id": "ADM_121925",
+     "page": 3,
+     "bbox": [
+      113.3,
+      701.84,
+      541.35,
+      663.01
+     ],
+     "excerpt": " Convención día hábil: En caso de que la fecha de pago de cupón no sea un Día Hábil, según el  calendario  TARGET2,  el  pago  del  mismo  se  realizará  el  Día  Hábil  inmediatamente posterior, sin que los tenedores de los Valores  tengan derecho a percibir intereses por dicho diferimiento (conve",
+     "sha256": "4644dcbaa71797c61f82bf51bea13375cf0512fabf27681aa7324c50ff25fa58"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121925:coupon_rate",
+   "field": "coupon_rate",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "No aplicable.",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121925",
+     "page": 3,
+     "bbox": [
+      84.98,
+      457.49,
+      426.75,
+      452.02
+     ],
+     "excerpt": "Tipo de interés con estructura ligada a un subyacente: No aplicable.",
+     "sha256": "4644dcbaa71797c61f82bf51bea13375cf0512fabf27681aa7324c50ff25fa58"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_121925:redemption_formula",
+   "field": "redemption_formula",
+   "value": ".",
+   "raw_lexeme": ".",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_121925",
+     "page": 4,
+     "bbox": [
+      84.98,
+      599.36,
+      368.91,
+      593.89
+     ],
+     "excerpt": ".",
+     "sha256": "4644dcbaa71797c61f82bf51bea13375cf0512fabf27681aa7324c50ff25fa58"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "755b8c8b49d5e61ec687670381bcd007a250f0d47712451dc65478ec333fab74"
+}

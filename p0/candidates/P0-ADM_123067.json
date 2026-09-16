@@ -1,0 +1,419 @@
+{
+ "case_id": "P0-ADM_123067",
+ "source_record_key": "ADM_123067",
+ "document_sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_123067",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_123067",
+    "role": "SECURITIES_NOTE",
+    "issuer": "BANKINTER, S.A.",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_123067:isin",
+   "field": "isin",
+   "value": "ES0313679N93",
+   "raw_lexeme": "ES0313679N93",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123067",
+     "page": 6,
+     "bbox": [
+      85.1,
+      759.63,
+      514.64,
+      723.12
+     ],
+     "excerpt": "ES0313679N93",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123067:currency",
+   "field": "currency",
+   "value": "EUR",
+   "raw_lexeme": "Euros.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123067",
+     "page": 2,
+     "bbox": [
+      85.1,
+      632.29,
+      234.89,
+      623.76
+     ],
+     "excerpt": "Euros.",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123067:issue_date",
+   "field": "issue_date",
+   "value": "2020-09-04",
+   "raw_lexeme": "4 de septiembre de 2020 (al ser una emisión ofrecida en canje, el pago de los valores se realizará de conformidad con lo recogido en el apartado 54).",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123067",
+     "page": 2,
+     "bbox": [
+      85.1,
+      460.42,
+      512.4,
+      427.65
+     ],
+     "excerpt": "4 de septiembre de 2020 (al ser una emisión ofrecida en canje, el pago de los valores se realizará de conformidad con lo recogido en el apartado 54).",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123067:maturity",
+   "field": "maturity",
+   "value": "2024-09-11",
+   "raw_lexeme": "11 de septiembre de 2024",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123067",
+     "page": 2,
+     "bbox": [
+      85.1,
+      410.02,
+      322.01,
+      401.49
+     ],
+     "excerpt": "11 de septiembre de 2024",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123067:denomination",
+   "field": "denomination",
+   "value": {
+    "amount": "100.000",
+    "currency": "EUR",
+    "raw_number": "100.000"
+   },
+   "raw_lexeme": "100.000 euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123067",
+     "page": 2,
+     "bbox": [
+      203.21,
+      523.06,
+      370.75,
+      514.53
+     ],
+     "excerpt": "100.000 euros",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    },
+    {
+     "doc_id": "ADM_123067",
+     "page": 2,
+     "bbox": [
+      203.21,
+      523.06,
+      370.75,
+      514.53
+     ],
+     "excerpt": "100.000 euros",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123067:issued_amount",
+   "field": "issued_amount",
+   "value": {
+    "amount": "10000000",
+    "currency": "EUR",
+    "raw_number": "10.000.000"
+   },
+   "raw_lexeme": "10.000.000 euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123067",
+     "page": 2,
+     "bbox": [
+      203.21,
+      583.81,
+      346.03,
+      575.28
+     ],
+     "excerpt": "10.000.000 euros",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123067:coupon_type",
+   "field": "coupon_type",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "N/A",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123067",
+     "page": 2,
+     "bbox": [
+      85.1,
+      383.86,
+      211.49,
+      375.33
+     ],
+     "excerpt": "Tipo de interés fijo: N/A",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    },
+    {
+     "doc_id": "ADM_123067",
+     "page": 2,
+     "bbox": [
+      85.1,
+      359.6,
+      233.69,
+      351.07
+     ],
+     "excerpt": "Tipo de interés variable: N/A",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    },
+    {
+     "doc_id": "ADM_123067",
+     "page": 2,
+     "bbox": [
+      85.1,
+      335.24,
+      240.77,
+      326.71
+     ],
+     "excerpt": "Tipo de interés indexado: N/A",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123067:benchmark",
+   "field": "benchmark",
+   "value": "Estr",
+   "raw_lexeme": "ver apartado 10 Nombre y descripción del subyacente : ver apartado 10 Indicación de dónde puede obtenerse información sobre el subyacente : ver apartado 10 Ponderación de los subyacentes : N/A Precio",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123067",
+     "page": 5,
+     "bbox": [
+      121.1,
+      443.74,
+      515.62,
+      265.03
+     ],
+     "excerpt": "ver apartado 10 Nombre y descripción del subyacente : ver apartado 10 Indicación de dónde puede obtenerse información sobre el subyacente : ver apartado 10 Ponderación de los subyacentes : N/A Precio",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123067:fixing_rules",
+   "field": "fixing_rules",
+   "value": [
+    "En la fecha de determinación inicial.",
+    "Tal y como se ha indicado previamente."
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123067",
+     "page": 2,
+     "bbox": [
+      113.42,
+      135.05,
+      425.95,
+      126.52
+     ],
+     "excerpt": "En la fecha de determinación inicial.",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    },
+    {
+     "doc_id": "ADM_123067",
+     "page": 4,
+     "bbox": [
+      120.5,
+      492.34,
+      445.27,
+      483.81
+     ],
+     "excerpt": "Tal y como se ha indicado previamente.",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123067:underlying",
+   "field": "underlying",
+   "value": [
+    "Índice.",
+    "Índice  EuroStoxx  Banks (EU0009658426) publicado por STOXX Limited. Código SX7E INDEX (Bloomberg). El Índice Euro Stoxx Banks (EU0009658145) publicado por STOXX Limited. Códi",
+    "ver apartado 10.",
+    "ver apartado 10.",
+    "ver apartado 10 Nombre y descripción del subyacente : ver apartado 10 Indicación de dónde puede obtenerse información sobre el subyacente : ver apartado 10 Ponderación de los subyacentes : N/A Precio"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123067",
+     "page": 2,
+     "bbox": [
+      113.42,
+      292.88,
+      254.33,
+      284.35
+     ],
+     "excerpt": "Índice.",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    },
+    {
+     "doc_id": "ADM_123067",
+     "page": 2,
+     "bbox": [
+      110.18,
+      274.64,
+      512.5,
+      217.51
+     ],
+     "excerpt": "Índice  EuroStoxx  Banks (EU0009658426) publicado por STOXX Limited. Código SX7E INDEX (Bloomberg). El Índice Euro Stoxx Banks (EU0009658145) publicado por STOXX Limited. Códi",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    },
+    {
+     "doc_id": "ADM_123067",
+     "page": 4,
+     "bbox": [
+      120.5,
+      662.41,
+      302.21,
+      653.88
+     ],
+     "excerpt": "ver apartado 10.",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    },
+    {
+     "doc_id": "ADM_123067",
+     "page": 4,
+     "bbox": [
+      120.5,
+      650.29,
+      383.83,
+      641.76
+     ],
+     "excerpt": "ver apartado 10.",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    },
+    {
+     "doc_id": "ADM_123067",
+     "page": 5,
+     "bbox": [
+      121.1,
+      443.74,
+      515.62,
+      265.03
+     ],
+     "excerpt": "ver apartado 10 Nombre y descripción del subyacente : ver apartado 10 Indicación de dónde puede obtenerse información sobre el subyacente : ver apartado 10 Ponderación de los subyacentes : N/A Precio",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123067:barrier",
+   "field": "barrier",
+   "value": "70",
+   "raw_lexeme": "70% del Precio Inicial del Subyacente, esto es, 65,786 puntos.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123067",
+     "page": 3,
+     "bbox": [
+      106.46,
+      434.26,
+      512.73,
+      424.82
+     ],
+     "excerpt": "70% del Precio Inicial del Subyacente, esto es, 65,786 puntos.",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123067:settlement_type",
+   "field": "settlement_type",
+   "value": "Iberclear",
+   "raw_lexeme": "Iberclear",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123067",
+     "page": 6,
+     "bbox": [
+      85.1,
+      448.54,
+      271.01,
+      440.01
+     ],
+     "excerpt": "Iberclear",
+     "sha256": "074ec49499a36ff66623e9a2f2d6dccb0edd0982df2061ec36a8fcb43da75479"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "8fc724798c06f76365df9235828206a8107356efaa56472ace67864d46c21fcc"
+}

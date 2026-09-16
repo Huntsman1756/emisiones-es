@@ -1,0 +1,324 @@
+{
+ "case_id": "P0-ADM_119967",
+ "source_record_key": "ADM_119967",
+ "document_sha256": "1958746c35c26eb783c09e69efecaf353d213a743e4e21bafc3e26f04eef6ea0",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_119967",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_119967",
+    "role": "SECURITIES_NOTE",
+    "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_119967:isin",
+   "field": "isin",
+   "value": "ES0413211972",
+   "raw_lexeme": "ES0413211972.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_119967",
+     "page": 2,
+     "bbox": [
+      262.13,
+      622.66,
+      344.18,
+      612.76
+     ],
+     "excerpt": "ES0413211972.",
+     "sha256": "1958746c35c26eb783c09e69efecaf353d213a743e4e21bafc3e26f04eef6ea0"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_119967:currency",
+   "field": "currency",
+   "value": "EUR",
+   "raw_lexeme": "Euro.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_119967",
+     "page": 2,
+     "bbox": [
+      262.13,
+      406.87,
+      291.48,
+      396.97
+     ],
+     "excerpt": "Euro.",
+     "sha256": "1958746c35c26eb783c09e69efecaf353d213a743e4e21bafc3e26f04eef6ea0"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_119967:maturity",
+   "field": "maturity",
+   "value": "2023-10-10",
+   "raw_lexeme": "10 de octubre de 2023.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_119967",
+     "page": 3,
+     "bbox": [
+      262.13,
+      750.7,
+      381.38,
+      740.8
+     ],
+     "excerpt": "10 de octubre de 2023.",
+     "sha256": "1958746c35c26eb783c09e69efecaf353d213a743e4e21bafc3e26f04eef6ea0"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_119967:coupon_type",
+   "field": "coupon_type",
+   "value": [
+    "Variable.",
+    "Y AMORTIZACIÓN",
+    "El mayor entre el 0 % y el Euribor a 3 meses más 13 puntos básicos, pagadero trimestralmente."
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_119967",
+     "page": 3,
+     "bbox": [
+      262.13,
+      725.38,
+      308.64,
+      715.48
+     ],
+     "excerpt": "Variable.",
+     "sha256": "1958746c35c26eb783c09e69efecaf353d213a743e4e21bafc3e26f04eef6ea0"
+    },
+    {
+     "doc_id": "ADM_119967",
+     "page": 3,
+     "bbox": [
+      85.1,
+      305.81,
+      282.0,
+      295.91
+     ],
+     "excerpt": "Y AMORTIZACIÓN",
+     "sha256": "1958746c35c26eb783c09e69efecaf353d213a743e4e21bafc3e26f04eef6ea0"
+    },
+    {
+     "doc_id": "ADM_119967",
+     "page": 3,
+     "bbox": [
+      85.6,
+      281.39,
+      512.09,
+      89.3
+     ],
+     "excerpt": "El mayor entre el 0 % y el Euribor a 3 meses más 13 puntos básicos, pagadero trimestralmente.",
+     "sha256": "1958746c35c26eb783c09e69efecaf353d213a743e4e21bafc3e26f04eef6ea0"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_119967:payment_frequency",
+   "field": "payment_frequency",
+   "value": "ANNUAL",
+   "raw_lexeme": "Los días 10 de los meses de enero, abril, julio y octubre de cada año hasta la fecha de vencimiento. El primer cupón se pagará el 10 de enero de 2020.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_119967",
+     "page": 4,
+     "bbox": [
+      262.37,
+      490.63,
+      513.41,
+      442.81
+     ],
+     "excerpt": "Los días 10 de los meses de enero, abril, julio y octubre de cada año hasta la fecha de vencimiento. El primer cupón se pagará el 10 de enero de 2020.",
+     "sha256": "1958746c35c26eb783c09e69efecaf353d213a743e4e21bafc3e26f04eef6ea0"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_119967:business_day_convention",
+   "field": "business_day_convention",
+   "value": "Si",
+   "raw_lexeme": "Si",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_119967",
+     "page": 4,
+     "bbox": [
+      106.46,
+      170.78,
+      275.15,
+      160.88
+     ],
+     "excerpt": "Si",
+     "sha256": "1958746c35c26eb783c09e69efecaf353d213a743e4e21bafc3e26f04eef6ea0"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_119967:redemption_formula",
+   "field": "redemption_formula",
+   "value": [
+    "Sin perjuicio de cualquier amortización anticipada, a  la  par  en  la  fecha  de  vencimiento  (el  10  de octubre de 2023).",
+    "(véase lo indicado en el epígrafe 17 siguiente de las presentes Condiciones Finales).",
+    "( Información adicional sobre las condiciones de amortización de los valores puede encontrarse en el epígrafe 17 de las presentes Condiciones Finales ) .",
+    "Dado que se trata de una emisión cuya rentabilidad depende del comportamiento del Euribor a 3 meses no es posible calcular a priori una TIR definitiva. No obstante, para un precio de emisión de 100,00 % y suponiendo un Euribor a 3 meses de -0,412 % (del día 27/09/2019) más 13 puntos básicos y fijo para cada periodo trimestral de  pago  de  cupones,  la  TIR  resultante  es  de 0,00 % .",
+    "10 de octubre de 2023."
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_119967",
+     "page": 3,
+     "bbox": [
+      262.13,
+      662.14,
+      513.41,
+      626.92
+     ],
+     "excerpt": "Sin perjuicio de cualquier amortización anticipada, a  la  par  en  la  fecha  de  vencimiento  (el  10  de octubre de 2023).",
+     "sha256": "1958746c35c26eb783c09e69efecaf353d213a743e4e21bafc3e26f04eef6ea0"
+    },
+    {
+     "doc_id": "ADM_119967",
+     "page": 3,
+     "bbox": [
+      262.13,
+      610.78,
+      505.01,
+      588.16
+     ],
+     "excerpt": "(véase lo indicado en el epígrafe 17 siguiente de las presentes Condiciones Finales).",
+     "sha256": "1958746c35c26eb783c09e69efecaf353d213a743e4e21bafc3e26f04eef6ea0"
+    },
+    {
+     "doc_id": "ADM_119967",
+     "page": 3,
+     "bbox": [
+      99.26,
+      572.86,
+      513.14,
+      550.21
+     ],
+     "excerpt": "( Información adicional sobre las condiciones de amortización de los valores puede encontrarse en el epígrafe 17 de las presentes Condiciones Finales ) .",
+     "sha256": "1958746c35c26eb783c09e69efecaf353d213a743e4e21bafc3e26f04eef6ea0"
+    },
+    {
+     "doc_id": "ADM_119967",
+     "page": 5,
+     "bbox": [
+      262.37,
+      662.14,
+      513.41,
+      551.05
+     ],
+     "excerpt": "Dado que se trata de una emisión cuya rentabilidad depende del comportamiento del Euribor a 3 meses no es posible calcular a priori una TIR definitiva. No obstante, para un precio de emisión de 100,00 % y suponiendo un Euribor a 3 meses de -0,412 % (del día 27/09/2019) más 13 puntos básicos y fijo p",
+     "sha256": "1958746c35c26eb783c09e69efecaf353d213a743e4e21bafc3e26f04eef6ea0"
+    },
+    {
+     "doc_id": "ADM_119967",
+     "page": 5,
+     "bbox": [
+      262.13,
+      484.27,
+      378.38,
+      474.37
+     ],
+     "excerpt": "10 de octubre de 2023.",
+     "sha256": "1958746c35c26eb783c09e69efecaf353d213a743e4e21bafc3e26f04eef6ea0"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_119967:settlement_type",
+   "field": "settlement_type",
+   "value": [
+    "AIAF Mercado de Renta Fija.",
+    "Anotaciones en cuenta.",
+    "IBERCLEAR,  que  ejerce  esta  función  junto  con sus entidades participantes."
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_119967",
+     "page": 3,
+     "bbox": [
+      262.37,
+      509.59,
+      410.42,
+      499.69
+     ],
+     "excerpt": "AIAF Mercado de Renta Fija.",
+     "sha256": "1958746c35c26eb783c09e69efecaf353d213a743e4e21bafc3e26f04eef6ea0"
+    },
+    {
+     "doc_id": "ADM_119967",
+     "page": 3,
+     "bbox": [
+      262.13,
+      471.55,
+      380.18,
+      461.65
+     ],
+     "excerpt": "Anotaciones en cuenta.",
+     "sha256": "1958746c35c26eb783c09e69efecaf353d213a743e4e21bafc3e26f04eef6ea0"
+    },
+    {
+     "doc_id": "ADM_119967",
+     "page": 3,
+     "bbox": [
+      262.37,
+      420.31,
+      513.19,
+      397.69
+     ],
+     "excerpt": "IBERCLEAR,  que  ejerce  esta  función  junto  con sus entidades participantes.",
+     "sha256": "1958746c35c26eb783c09e69efecaf353d213a743e4e21bafc3e26f04eef6ea0"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "9d304ab375e4b420a5a5ee851be3233946a7e3118100c300916b86f7d0ee93c7"
+}

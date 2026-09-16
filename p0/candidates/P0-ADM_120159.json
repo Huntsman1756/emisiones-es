@@ -1,0 +1,356 @@
+{
+ "case_id": "P0-ADM_120159",
+ "source_record_key": "ADM_120159",
+ "document_sha256": "5fc0c69bb5b42dfe916ceba20e8bd3cc4f48fecf84f2fc27ae4f3c545c8317d5",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_120159",
+  "confidence": "HIGH"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_120159",
+    "role": "SECURITIES_NOTE",
+    "issuer": "BANKIA, S.A (ABSORBIDA)",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_120159:isin",
+   "field": "isin",
+   "value": "ES0413307168",
+   "raw_lexeme": "ES0413307168",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120159",
+     "page": 1,
+     "bbox": [
+      141.86,
+      241.85,
+      286.94,
+      231.24
+     ],
+     "excerpt": "ES0413307168",
+     "sha256": "5fc0c69bb5b42dfe916ceba20e8bd3cc4f48fecf84f2fc27ae4f3c545c8317d5"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120159:currency",
+   "field": "currency",
+   "value": "EUR",
+   "raw_lexeme": "Euro",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120159",
+     "page": 2,
+     "bbox": [
+      106.34,
+      560.23,
+      254.64,
+      549.62
+     ],
+     "excerpt": "Euro",
+     "sha256": "5fc0c69bb5b42dfe916ceba20e8bd3cc4f48fecf84f2fc27ae4f3c545c8317d5"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120159:issue_date",
+   "field": "issue_date",
+   "value": "2019-11-22",
+   "raw_lexeme": "22 de noviembre de 2019",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120159",
+     "page": 2,
+     "bbox": [
+      106.34,
+      394.51,
+      391.22,
+      383.9
+     ],
+     "excerpt": "22 de noviembre de 2019",
+     "sha256": "5fc0c69bb5b42dfe916ceba20e8bd3cc4f48fecf84f2fc27ae4f3c545c8317d5"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120159:maturity",
+   "field": "maturity",
+   "value": "2027-11-22",
+   "raw_lexeme": "22 de noviembre de 2027",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120159",
+     "page": 2,
+     "bbox": [
+      106.34,
+      376.37,
+      354.74,
+      365.76
+     ],
+     "excerpt": "22 de noviembre de 2027",
+     "sha256": "5fc0c69bb5b42dfe916ceba20e8bd3cc4f48fecf84f2fc27ae4f3c545c8317d5"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120159:denomination",
+   "field": "denomination",
+   "value": {
+    "amount": "100.000",
+    "currency": "EUR",
+    "raw_number": "100.000"
+   },
+   "raw_lexeme": "100.000 euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120159",
+     "page": 2,
+     "bbox": [
+      141.86,
+      468.31,
+      305.66,
+      457.7
+     ],
+     "excerpt": "100.000 euros",
+     "sha256": "5fc0c69bb5b42dfe916ceba20e8bd3cc4f48fecf84f2fc27ae4f3c545c8317d5"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120159:issued_amount",
+   "field": "issued_amount",
+   "value": [
+    {
+     "amount": "160000000",
+     "currency": "EUR",
+     "raw_number": "160.000.000"
+    },
+    {
+     "amount": "100.000",
+     "currency": "EUR",
+     "raw_number": "100.000"
+    }
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "CONFLICT",
+   "confidence_class": null,
+   "evidence": [
+    {
+     "doc_id": "ADM_120159",
+     "page": 2,
+     "bbox": [
+      141.86,
+      523.63,
+      289.22,
+      513.02
+     ],
+     "excerpt": "160.000.000 euros",
+     "sha256": "5fc0c69bb5b42dfe916ceba20e8bd3cc4f48fecf84f2fc27ae4f3c545c8317d5"
+    },
+    {
+     "doc_id": "ADM_120159",
+     "page": 2,
+     "bbox": [
+      141.86,
+      468.31,
+      305.66,
+      457.7
+     ],
+     "excerpt": "100.000 euros",
+     "sha256": "5fc0c69bb5b42dfe916ceba20e8bd3cc4f48fecf84f2fc27ae4f3c545c8317d5"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120159:coupon_type",
+   "field": "coupon_type",
+   "value": "0,150% pagadero anualmente",
+   "raw_lexeme": "0,150% pagadero anualmente",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120159",
+     "page": 2,
+     "bbox": [
+      141.86,
+      255.17,
+      296.54,
+      244.56
+     ],
+     "excerpt": "0,150% pagadero anualmente",
+     "sha256": "5fc0c69bb5b42dfe916ceba20e8bd3cc4f48fecf84f2fc27ae4f3c545c8317d5"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120159:coupon_rate",
+   "field": "coupon_rate",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "N/A",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120159",
+     "page": 3,
+     "bbox": [
+      106.34,
+      705.94,
+      397.22,
+      695.33
+     ],
+     "excerpt": "Tipo de interés con estructura ligada a un subyacente: N/A",
+     "sha256": "5fc0c69bb5b42dfe916ceba20e8bd3cc4f48fecf84f2fc27ae4f3c545c8317d5"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120159:day_count",
+   "field": "day_count",
+   "value": "A_30_360",
+   "raw_lexeme": "30/360 (ICMA)",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120159",
+     "page": 2,
+     "bbox": [
+      141.86,
+      236.57,
+      425.57,
+      225.96
+     ],
+     "excerpt": "30/360 (ICMA)",
+     "sha256": "5fc0c69bb5b42dfe916ceba20e8bd3cc4f48fecf84f2fc27ae4f3c545c8317d5"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120159:call_dates",
+   "field": "call_dates",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "No",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120159",
+     "page": 3,
+     "bbox": [
+      141.86,
+      651.22,
+      348.26,
+      640.61
+     ],
+     "excerpt": "Amortización anticipada por el Emisor:  No",
+     "sha256": "5fc0c69bb5b42dfe916ceba20e8bd3cc4f48fecf84f2fc27ae4f3c545c8317d5"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120159:business_day_convention",
+   "field": "business_day_convention",
+   "value": "Following Unadjusted",
+   "raw_lexeme": "Following Unadjusted",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120159",
+     "page": 2,
+     "bbox": [
+      141.86,
+      218.09,
+      353.3,
+      207.48
+     ],
+     "excerpt": "Following Unadjusted",
+     "sha256": "5fc0c69bb5b42dfe916ceba20e8bd3cc4f48fecf84f2fc27ae4f3c545c8317d5"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120159:put_dates",
+   "field": "put_dates",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "No",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120159",
+     "page": 3,
+     "bbox": [
+      141.86,
+      595.42,
+      350.42,
+      584.81
+     ],
+     "excerpt": "Amortización anticipada por el inversor: No",
+     "sha256": "5fc0c69bb5b42dfe916ceba20e8bd3cc4f48fecf84f2fc27ae4f3c545c8317d5"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120159:redemption_formula",
+   "field": "redemption_formula",
+   "value": "100%",
+   "raw_lexeme": "100%",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120159",
+     "page": 3,
+     "bbox": [
+      141.86,
+      540.19,
+      315.76,
+      529.58
+     ],
+     "excerpt": "100%",
+     "sha256": "5fc0c69bb5b42dfe916ceba20e8bd3cc4f48fecf84f2fc27ae4f3c545c8317d5"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "b5e9936de3f218fa165178786f2e96d308271bf1949dd7c671276b61b8bb1423"
+}

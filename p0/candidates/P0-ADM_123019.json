@@ -1,0 +1,479 @@
+{
+ "case_id": "P0-ADM_123019",
+ "source_record_key": "ADM_123019",
+ "document_sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_123019",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_123019",
+    "role": "SECURITIES_NOTE",
+    "issuer": "BANKINTER, S.A.",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_123019:isin",
+   "field": "isin",
+   "value": "ES0213679LD5",
+   "raw_lexeme": "ES0213679LD5",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123019",
+     "page": 2,
+     "bbox": [
+      141.74,
+      674.77,
+      283.85,
+      666.24
+     ],
+     "excerpt": "ES0213679LD5",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123019:currency",
+   "field": "currency",
+   "value": "EUR",
+   "raw_lexeme": "Euros.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123019",
+     "page": 2,
+     "bbox": [
+      85.1,
+      620.17,
+      234.89,
+      611.64
+     ],
+     "excerpt": "Euros.",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123019:issue_date",
+   "field": "issue_date",
+   "value": "2020-07-03",
+   "raw_lexeme": "3 de julio de 2020.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123019",
+     "page": 2,
+     "bbox": [
+      85.1,
+      448.3,
+      389.59,
+      439.77
+     ],
+     "excerpt": "3 de julio de 2020.",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123019:maturity",
+   "field": "maturity",
+   "value": "2025-07-10",
+   "raw_lexeme": "10 de julio de 2025",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123019",
+     "page": 2,
+     "bbox": [
+      85.1,
+      422.14,
+      291.18,
+      413.61
+     ],
+     "excerpt": "10 de julio de 2025",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123019:denomination",
+   "field": "denomination",
+   "value": {
+    "amount": "100.000",
+    "currency": "EUR",
+    "raw_number": "100.000"
+   },
+   "raw_lexeme": "100.000 euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123019",
+     "page": 2,
+     "bbox": [
+      203.21,
+      510.94,
+      370.75,
+      502.41
+     ],
+     "excerpt": "100.000 euros",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    },
+    {
+     "doc_id": "ADM_123019",
+     "page": 2,
+     "bbox": [
+      203.21,
+      510.94,
+      370.75,
+      502.41
+     ],
+     "excerpt": "100.000 euros",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123019:issued_amount",
+   "field": "issued_amount",
+   "value": {
+    "amount": "1000000",
+    "currency": "EUR",
+    "raw_number": "1.000.000"
+   },
+   "raw_lexeme": "1.000.000 euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123019",
+     "page": 2,
+     "bbox": [
+      203.21,
+      571.69,
+      340.27,
+      563.16
+     ],
+     "excerpt": "1.000.000 euros",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123019:coupon_type",
+   "field": "coupon_type",
+   "value": [
+    "Cupón del 1,00% pagadero sobre el 85% del Importe Nominal Inicial de Inversión, es decir, para una inversión de 100.000 Euros, 850 Euros.",
+    "aplicable al 15% del Importe Nominal Inicial de Inversión."
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123019",
+     "page": 2,
+     "bbox": [
+      85.1,
+      396.1,
+      512.35,
+      375.33
+     ],
+     "excerpt": "Cupón del 1,00% pagadero sobre el 85% del Importe Nominal Inicial de Inversión, es decir, para una inversión de 100.000 Euros, 850 Euros.",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    },
+    {
+     "doc_id": "ADM_123019",
+     "page": 2,
+     "bbox": [
+      85.1,
+      225.92,
+      479.71,
+      205.27
+     ],
+     "excerpt": "aplicable al 15% del Importe Nominal Inicial de Inversión.",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123019:coupon_rate",
+   "field": "coupon_rate",
+   "value": "15",
+   "raw_lexeme": "aplicable al 15% del Importe Nominal Inicial de Inversión.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123019",
+     "page": 2,
+     "bbox": [
+      85.1,
+      225.92,
+      479.71,
+      205.27
+     ],
+     "excerpt": "aplicable al 15% del Importe Nominal Inicial de Inversión.",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123019:benchmark",
+   "field": "benchmark",
+   "value": "Estr",
+   "raw_lexeme": "ver apartado 10 Nombre y descripción del subyacente : ver apartado 10 Indicación de dónde puede obtenerse información sobre el subyacente : ver apartado 10 Ponderación de los subyacentes : N/A Precio",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123019",
+     "page": 5,
+     "bbox": [
+      121.1,
+      601.69,
+      515.62,
+      410.85
+     ],
+     "excerpt": "ver apartado 10 Nombre y descripción del subyacente : ver apartado 10 Indicación de dónde puede obtenerse información sobre el subyacente : ver apartado 10 Ponderación de los subyacentes : N/A Precio",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123019:day_count",
+   "field": "day_count",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "N/A",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123019",
+     "page": 2,
+     "bbox": [
+      113.42,
+      359.6,
+      346.99,
+      351.07
+     ],
+     "excerpt": "Base de cálculo para el devengo de intereses: N/A",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123019:business_day_convention",
+   "field": "business_day_convention",
+   "value": "En el caso de que alguna de las fechas se declarara como día inhábil, se tomará el primer día hábil inmediatamente posterior.",
+   "raw_lexeme": "En el caso de que alguna de las fechas se declarara como día inhábil, se tomará el primer día hábil inmediatamente posterior.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123019",
+     "page": 2,
+     "bbox": [
+      113.42,
+      347.48,
+      512.49,
+      326.71
+     ],
+     "excerpt": "En el caso de que alguna de las fechas se declarara como día inhábil, se tomará el primer día hábil inmediatamente posterior.",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123019:fixing_rules",
+   "field": "fixing_rules",
+   "value": [
+    "En la fecha de determinación inicial.",
+    "Tal y como se ha indicado previamente."
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123019",
+     "page": 3,
+     "bbox": [
+      113.42,
+      735.37,
+      425.95,
+      726.84
+     ],
+     "excerpt": "En la fecha de determinación inicial.",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    },
+    {
+     "doc_id": "ADM_123019",
+     "page": 4,
+     "bbox": [
+      120.5,
+      528.7,
+      445.27,
+      520.17
+     ],
+     "excerpt": "Tal y como se ha indicado previamente.",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123019:underlying",
+   "field": "underlying",
+   "value": [
+    "Valor.",
+    "Acción de Banco Santander S.A. (ES0113900J37) publicado por Bolsa de Madrid S.A. Código Bloomberg: SAN SM EQUITY. Banco Santander S.A. es una entidad financiera con sede en España.",
+    "ver apartado 10.",
+    "ver apartado 10.",
+    "ver apartado 10 Nombre y descripción del subyacente : ver apartado 10 Indicación de dónde puede obtenerse información sobre el subyacente : ver apartado 10 Ponderación de los subyacentes : N/A Precio"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123019",
+     "page": 2,
+     "bbox": [
+      113.42,
+      201.68,
+      251.33,
+      193.15
+     ],
+     "excerpt": "Valor.",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    },
+    {
+     "doc_id": "ADM_123019",
+     "page": 2,
+     "bbox": [
+      110.18,
+      183.41,
+      512.49,
+      150.64
+     ],
+     "excerpt": "Acción de Banco Santander S.A. (ES0113900J37) publicado por Bolsa de Madrid S.A. Código Bloomberg: SAN SM EQUITY. Banco Santander S.A. es una entidad financiera con sede en España.",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    },
+    {
+     "doc_id": "ADM_123019",
+     "page": 4,
+     "bbox": [
+      120.5,
+      686.77,
+      302.21,
+      678.24
+     ],
+     "excerpt": "ver apartado 10.",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    },
+    {
+     "doc_id": "ADM_123019",
+     "page": 4,
+     "bbox": [
+      120.5,
+      674.53,
+      383.83,
+      666.0
+     ],
+     "excerpt": "ver apartado 10.",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    },
+    {
+     "doc_id": "ADM_123019",
+     "page": 5,
+     "bbox": [
+      121.1,
+      601.69,
+      515.62,
+      410.85
+     ],
+     "excerpt": "ver apartado 10 Nombre y descripción del subyacente : ver apartado 10 Indicación de dónde puede obtenerse información sobre el subyacente : ver apartado 10 Ponderación de los subyacentes : N/A Precio",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123019:barrier",
+   "field": "barrier",
+   "value": "100",
+   "raw_lexeme": "100% del Precio Inicial del Subyacente, esto es, 2,153 euros.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123019",
+     "page": 3,
+     "bbox": [
+      106.46,
+      346.4,
+      478.18,
+      337.87
+     ],
+     "excerpt": "100% del Precio Inicial del Subyacente, esto es, 2,153 euros.",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123019:settlement_type",
+   "field": "settlement_type",
+   "value": "Iberclear",
+   "raw_lexeme": "Iberclear",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123019",
+     "page": 6,
+     "bbox": [
+      85.1,
+      613.81,
+      271.01,
+      605.28
+     ],
+     "excerpt": "Iberclear",
+     "sha256": "62083b6d74ef3c54323450e5431814696443d2d7b7d57af146131321f35d06bf"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "1c369a51597855d262dce45ba14136dcba469a98c31270fdd2dcfad3ee5f6869"
+}

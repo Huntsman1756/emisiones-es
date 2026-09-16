@@ -1,0 +1,286 @@
+{
+ "case_id": "P0-ADM_118936",
+ "source_record_key": "ADM_118936",
+ "document_sha256": "ce96297f8fa03bbc9b4c272ca60b1bc680248ca1438948be37e47741bfd6f59a",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_118936",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_118936",
+    "role": "SECURITIES_NOTE",
+    "issuer": "WIZINK MASTER CREDIT CARDS, FONDO DE TITULIZACION",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_118936:isin",
+   "field": "isin",
+   "value": "ES0305279103",
+   "raw_lexeme": "ES0305279103",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_118936",
+     "page": 7,
+     "bbox": [
+      65.75,
+      769.79,
+      517.68,
+      141.71
+     ],
+     "excerpt": "ES0305279103",
+     "sha256": "ce96297f8fa03bbc9b4c272ca60b1bc680248ca1438948be37e47741bfd6f59a"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_118936:coupon_type",
+   "field": "coupon_type",
+   "value": "EURIBOR for one month + 0.52 per cent (Additional information on the securities interest can be found in section 19 of these Final Terms)",
+   "raw_lexeme": "EURIBOR for one month + 0.52 per cent (Additional information on the securities interest can be found in section 19 of these Final Terms)",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_118936",
+     "page": 4,
+     "bbox": [
+      65.4,
+      770.19,
+      529.63,
+      258.57
+     ],
+     "excerpt": "EURIBOR for one month + 0.52 per cent (Additional information on the securities interest can be found in section 19 of these Final Terms)",
+     "sha256": "ce96297f8fa03bbc9b4c272ca60b1bc680248ca1438948be37e47741bfd6f59a"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_118936:coupon_rate",
+   "field": "coupon_rate",
+   "value": "0.52",
+   "raw_lexeme": "EURIBOR for one month + 0.52 per cent (Additional information on the securities interest can be found in section 19 of these Final Terms)",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_118936",
+     "page": 4,
+     "bbox": [
+      65.4,
+      770.19,
+      529.63,
+      258.57
+     ],
+     "excerpt": "EURIBOR for one month + 0.52 per cent (Additional information on the securities interest can be found in section 19 of these Final Terms)",
+     "sha256": "ce96297f8fa03bbc9b4c272ca60b1bc680248ca1438948be37e47741bfd6f59a"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_118936:day_count",
+   "field": "day_count",
+   "value": "ACT_360",
+   "raw_lexeme": "Actual/360",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_118936",
+     "page": 5,
+     "bbox": [
+      65.64,
+      770.5,
+      529.45,
+      110.51
+     ],
+     "excerpt": "Actual/360",
+     "sha256": "ce96297f8fa03bbc9b4c272ca60b1bc680248ca1438948be37e47741bfd6f59a"
+    },
+    {
+     "doc_id": "ADM_118936",
+     "page": 5,
+     "bbox": [
+      65.64,
+      770.5,
+      529.45,
+      110.51
+     ],
+     "excerpt": "Actual/360",
+     "sha256": "ce96297f8fa03bbc9b4c272ca60b1bc680248ca1438948be37e47741bfd6f59a"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_118936:business_day_convention",
+   "field": "business_day_convention",
+   "value": "Modified Following Business Day Convention",
+   "raw_lexeme": "Modified Following Business Day Convention",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_118936",
+     "page": 5,
+     "bbox": [
+      65.64,
+      770.5,
+      529.45,
+      110.51
+     ],
+     "excerpt": "Modified Following Business Day Convention",
+     "sha256": "ce96297f8fa03bbc9b4c272ca60b1bc680248ca1438948be37e47741bfd6f59a"
+    },
+    {
+     "doc_id": "ADM_118936",
+     "page": 5,
+     "bbox": [
+      65.64,
+      770.5,
+      529.45,
+      110.51
+     ],
+     "excerpt": "Modified Following Business Day Convention",
+     "sha256": "ce96297f8fa03bbc9b4c272ca60b1bc680248ca1438948be37e47741bfd6f59a"
+    },
+    {
+     "doc_id": "ADM_118936",
+     "page": 5,
+     "bbox": [
+      65.64,
+      770.5,
+      529.45,
+      110.51
+     ],
+     "excerpt": "Modified Following Business Day Convention",
+     "sha256": "ce96297f8fa03bbc9b4c272ca60b1bc680248ca1438948be37e47741bfd6f59a"
+    },
+    {
+     "doc_id": "ADM_118936",
+     "page": 5,
+     "bbox": [
+      65.64,
+      770.5,
+      529.45,
+      110.51
+     ],
+     "excerpt": "Modified Following Business Day Convention",
+     "sha256": "ce96297f8fa03bbc9b4c272ca60b1bc680248ca1438948be37e47741bfd6f59a"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_118936:fixing_rules",
+   "field": "fixing_rules",
+   "value": "Reuters EURIBOR01 screen",
+   "raw_lexeme": "Reuters EURIBOR01 screen",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_118936",
+     "page": 5,
+     "bbox": [
+      65.64,
+      770.5,
+      529.45,
+      110.51
+     ],
+     "excerpt": "Reuters EURIBOR01 screen",
+     "sha256": "ce96297f8fa03bbc9b4c272ca60b1bc680248ca1438948be37e47741bfd6f59a"
+    },
+    {
+     "doc_id": "ADM_118936",
+     "page": 5,
+     "bbox": [
+      65.64,
+      770.5,
+      529.45,
+      110.51
+     ],
+     "excerpt": "Reuters EURIBOR01 screen",
+     "sha256": "ce96297f8fa03bbc9b4c272ca60b1bc680248ca1438948be37e47741bfd6f59a"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_118936:redemption_formula",
+   "field": "redemption_formula",
+   "value": "Unless previously redeemed or cancelled, the Class A2019-02Notes will be redeemed on their Notes Final Legal Maturity Date",
+   "raw_lexeme": "Unless previously redeemed or cancelled, the Class A2019-02Notes will be redeemed on their Notes Final Legal Maturity Date",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_118936",
+     "page": 4,
+     "bbox": [
+      65.4,
+      770.19,
+      529.63,
+      258.57
+     ],
+     "excerpt": "Unless previously redeemed or cancelled, the Class A2019-02Notes will be redeemed on their Notes Final Legal Maturity Date",
+     "sha256": "ce96297f8fa03bbc9b4c272ca60b1bc680248ca1438948be37e47741bfd6f59a"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_118936:cap",
+   "field": "cap",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "Not Applicable",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim_doclevel",
+   "evidence": [
+    {
+     "doc_id": "ADM_118936",
+     "page": 5,
+     "bbox": [
+      65.64,
+      770.5,
+      529.45,
+      110.51
+     ],
+     "excerpt": "",
+     "sha256": "ce96297f8fa03bbc9b4c272ca60b1bc680248ca1438948be37e47741bfd6f59a"
+    },
+    {
+     "doc_id": "ADM_118936",
+     "page": 5,
+     "bbox": [
+      65.64,
+      770.5,
+      529.45,
+      110.51
+     ],
+     "excerpt": "",
+     "sha256": "ce96297f8fa03bbc9b4c272ca60b1bc680248ca1438948be37e47741bfd6f59a"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "5e8965832d047cbeff3593c77c2c1f2828ecada5f351d3dbad5a55985ea0f895"
+}

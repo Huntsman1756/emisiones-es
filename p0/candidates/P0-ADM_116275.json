@@ -1,0 +1,344 @@
+{
+ "case_id": "P0-ADM_116275",
+ "source_record_key": "ADM_116275",
+ "document_sha256": "64508f01bf224023d6c91e15d89a6d8e3b3d11e7cb9a94a785f6e9b61269f78d",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_116275",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_116275",
+    "role": "SECURITIES_NOTE",
+    "issuer": "CAIXABANK, S.A.",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_116275:isin",
+   "field": "isin",
+   "value": "ES0340609959",
+   "raw_lexeme": "ES0340609959",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116275",
+     "page": 1,
+     "bbox": [
+      138.5,
+      240.31,
+      287.82,
+      231.38
+     ],
+     "excerpt": "ES0340609959",
+     "sha256": "64508f01bf224023d6c91e15d89a6d8e3b3d11e7cb9a94a785f6e9b61269f78d"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116275:currency",
+   "field": "currency",
+   "value": "EUR",
+   "raw_lexeme": "Euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116275",
+     "page": 1,
+     "bbox": [
+      120.5,
+      182.23,
+      262.98,
+      173.3
+     ],
+     "excerpt": "Euros",
+     "sha256": "64508f01bf224023d6c91e15d89a6d8e3b3d11e7cb9a94a785f6e9b61269f78d"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116275:issue_date",
+   "field": "issue_date",
+   "value": "2019-02-22",
+   "raw_lexeme": "22 de febrero de 2019",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116275",
+     "page": 2,
+     "bbox": [
+      120.5,
+      673.71,
+      383.72,
+      664.78
+     ],
+     "excerpt": "22 de febrero de 2019",
+     "sha256": "64508f01bf224023d6c91e15d89a6d8e3b3d11e7cb9a94a785f6e9b61269f78d"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116275:maturity",
+   "field": "maturity",
+   "value": "2022-08-22",
+   "raw_lexeme": "22 de agosto de 2022",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116275",
+     "page": 3,
+     "bbox": [
+      138.5,
+      105.17,
+      383.96,
+      96.24
+     ],
+     "excerpt": "22 de agosto de 2022",
+     "sha256": "64508f01bf224023d6c91e15d89a6d8e3b3d11e7cb9a94a785f6e9b61269f78d"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116275:denomination",
+   "field": "denomination",
+   "value": {
+    "amount": "100.000",
+    "currency": "EUR",
+    "raw_number": "100.000"
+   },
+   "raw_lexeme": "100.000 Euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116275",
+     "page": 2,
+     "bbox": [
+      138.5,
+      733.11,
+      302.22,
+      724.18
+     ],
+     "excerpt": "100.000 Euros",
+     "sha256": "64508f01bf224023d6c91e15d89a6d8e3b3d11e7cb9a94a785f6e9b61269f78d"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116275:coupon_type",
+   "field": "coupon_type",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "N/A",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116275",
+     "page": 2,
+     "bbox": [
+      120.5,
+      627.75,
+      249.18,
+      618.82
+     ],
+     "excerpt": "Tipo de Interés Fijo: N/A",
+     "sha256": "64508f01bf224023d6c91e15d89a6d8e3b3d11e7cb9a94a785f6e9b61269f78d"
+    },
+    {
+     "doc_id": "ADM_116275",
+     "page": 2,
+     "bbox": [
+      120.5,
+      604.71,
+      268.14,
+      595.78
+     ],
+     "excerpt": "Tipo de Interés variable: N/A",
+     "sha256": "64508f01bf224023d6c91e15d89a6d8e3b3d11e7cb9a94a785f6e9b61269f78d"
+    },
+    {
+     "doc_id": "ADM_116275",
+     "page": 2,
+     "bbox": [
+      120.5,
+      581.64,
+      273.06,
+      572.71
+     ],
+     "excerpt": "Tipo de interés indexado: N/A",
+     "sha256": "64508f01bf224023d6c91e15d89a6d8e3b3d11e7cb9a94a785f6e9b61269f78d"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116275:redemption_formula",
+   "field": "redemption_formula",
+   "value": [
+    "22 de agosto de 2022",
+    "ver apartado 10"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116275",
+     "page": 3,
+     "bbox": [
+      138.5,
+      105.17,
+      383.96,
+      96.24
+     ],
+     "excerpt": "22 de agosto de 2022",
+     "sha256": "64508f01bf224023d6c91e15d89a6d8e3b3d11e7cb9a94a785f6e9b61269f78d"
+    },
+    {
+     "doc_id": "ADM_116275",
+     "page": 3,
+     "bbox": [
+      138.5,
+      92.93,
+      365.0,
+      84.0
+     ],
+     "excerpt": "ver apartado 10",
+     "sha256": "64508f01bf224023d6c91e15d89a6d8e3b3d11e7cb9a94a785f6e9b61269f78d"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116275:underlying",
+   "field": "underlying",
+   "value": "Índice",
+   "raw_lexeme": "Índice",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116275",
+     "page": 2,
+     "bbox": [
+      138.5,
+      534.96,
+      280.5,
+      526.03
+     ],
+     "excerpt": "Índice",
+     "sha256": "64508f01bf224023d6c91e15d89a6d8e3b3d11e7cb9a94a785f6e9b61269f78d"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116275:observation_dates",
+   "field": "observation_dates",
+   "value": [
+    "2019-02-22",
+    "2022-08-16",
+    "2019-02-22",
+    "2022-08-16"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116275",
+     "page": 3,
+     "bbox": [
+      121.1,
+      293.26,
+      356.84,
+      284.33
+     ],
+     "excerpt": "22 de febrero de 2019",
+     "sha256": "64508f01bf224023d6c91e15d89a6d8e3b3d11e7cb9a94a785f6e9b61269f78d"
+    },
+    {
+     "doc_id": "ADM_116275",
+     "page": 3,
+     "bbox": [
+      121.1,
+      281.74,
+      351.32,
+      272.81
+     ],
+     "excerpt": "16 de agosto de 2022",
+     "sha256": "64508f01bf224023d6c91e15d89a6d8e3b3d11e7cb9a94a785f6e9b61269f78d"
+    },
+    {
+     "doc_id": "ADM_116275",
+     "page": 4,
+     "bbox": [
+      121.1,
+      432.58,
+      356.84,
+      423.65
+     ],
+     "excerpt": "22 de febrero de 2019",
+     "sha256": "64508f01bf224023d6c91e15d89a6d8e3b3d11e7cb9a94a785f6e9b61269f78d"
+    },
+    {
+     "doc_id": "ADM_116275",
+     "page": 4,
+     "bbox": [
+      121.1,
+      421.06,
+      351.32,
+      412.13
+     ],
+     "excerpt": "16 de agosto de 2022",
+     "sha256": "64508f01bf224023d6c91e15d89a6d8e3b3d11e7cb9a94a785f6e9b61269f78d"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_116275:settlement_type",
+   "field": "settlement_type",
+   "value": "Sociedad  de  Gestión  de  los  Sistemas  de  Registro, Compensación  y  Liquidación  de  Valores,  S.A.U.:  (IBERCLEAR),  con  domicilio social en la Plaza de la Lealtad, nº1, Madrid.",
+   "raw_lexeme": "Sociedad  de  Gestión  de  los  Sistemas  de  Registro, Compensación  y  Liquidación  de  Valores,  S.A.U.:  (IBERCLEAR),  con  domicilio social en la Plaza de la Lealtad, nº1, Madrid.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_116275",
+     "page": 5,
+     "bbox": [
+      120.5,
+      148.03,
+      512.78,
+      116.06
+     ],
+     "excerpt": "Sociedad  de  Gestión  de  los  Sistemas  de  Registro, Compensación  y  Liquidación  de  Valores,  S.A.U.:  (IBERCLEAR),  con  domicilio social en la Plaza de la Lealtad, nº1, Madrid.",
+     "sha256": "64508f01bf224023d6c91e15d89a6d8e3b3d11e7cb9a94a785f6e9b61269f78d"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "ad69ddfc0e8e83473cc5cdbda02d2eabba8055ed3030e114bb7b63bbf6bad4cf"
+}

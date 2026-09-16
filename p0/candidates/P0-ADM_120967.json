@@ -1,0 +1,349 @@
+{
+ "case_id": "P0-ADM_120967",
+ "source_record_key": "ADM_120967",
+ "document_sha256": "2b53c4e25b150b2b303e5872397ea4b0bb4aec747fcd5a2bba5e173f24f4738b",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_120967",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_120967",
+    "role": "SECURITIES_NOTE",
+    "issuer": "BANKINTER, S.A.",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_120967:isin",
+   "field": "isin",
+   "value": "ES0213679JR9",
+   "raw_lexeme": "ES0213679JR9",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120967",
+     "page": 2,
+     "bbox": [
+      103.1,
+      626.17,
+      280.01,
+      617.64
+     ],
+     "excerpt": "ES0213679JR9",
+     "sha256": "2b53c4e25b150b2b303e5872397ea4b0bb4aec747fcd5a2bba5e173f24f4738b"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120967:currency",
+   "field": "currency",
+   "value": "EUR",
+   "raw_lexeme": "Euros.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120967",
+     "page": 2,
+     "bbox": [
+      85.1,
+      571.57,
+      234.89,
+      563.04
+     ],
+     "excerpt": "Euros.",
+     "sha256": "2b53c4e25b150b2b303e5872397ea4b0bb4aec747fcd5a2bba5e173f24f4738b"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120967:issue_date",
+   "field": "issue_date",
+   "value": "2020-02-06",
+   "raw_lexeme": "6 de febrero de 2020",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120967",
+     "page": 2,
+     "bbox": [
+      85.1,
+      399.7,
+      341.67,
+      391.17
+     ],
+     "excerpt": "6 de febrero de 2020",
+     "sha256": "2b53c4e25b150b2b303e5872397ea4b0bb4aec747fcd5a2bba5e173f24f4738b"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120967:maturity",
+   "field": "maturity",
+   "value": "2027-10-06",
+   "raw_lexeme": "6 de octubre de 2027",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120967",
+     "page": 2,
+     "bbox": [
+      85.1,
+      373.52,
+      301.49,
+      364.99
+     ],
+     "excerpt": "6 de octubre de 2027",
+     "sha256": "2b53c4e25b150b2b303e5872397ea4b0bb4aec747fcd5a2bba5e173f24f4738b"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120967:denomination",
+   "field": "denomination",
+   "value": {
+    "amount": "100.000",
+    "currency": "EUR",
+    "raw_number": "100.000"
+   },
+   "raw_lexeme": "100.000 euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120967",
+     "page": 2,
+     "bbox": [
+      203.21,
+      462.34,
+      370.75,
+      453.81
+     ],
+     "excerpt": "100.000 euros",
+     "sha256": "2b53c4e25b150b2b303e5872397ea4b0bb4aec747fcd5a2bba5e173f24f4738b"
+    },
+    {
+     "doc_id": "ADM_120967",
+     "page": 2,
+     "bbox": [
+      203.21,
+      462.34,
+      370.75,
+      453.81
+     ],
+     "excerpt": "100.000 euros",
+     "sha256": "2b53c4e25b150b2b303e5872397ea4b0bb4aec747fcd5a2bba5e173f24f4738b"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120967:issued_amount",
+   "field": "issued_amount",
+   "value": {
+    "amount": "750000000",
+    "currency": "EUR",
+    "raw_number": "750.000.000"
+   },
+   "raw_lexeme": "750.000.000 euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120967",
+     "page": 2,
+     "bbox": [
+      203.21,
+      523.06,
+      351.79,
+      514.53
+     ],
+     "excerpt": "750.000.000 euros",
+     "sha256": "2b53c4e25b150b2b303e5872397ea4b0bb4aec747fcd5a2bba5e173f24f4738b"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120967:coupon_type",
+   "field": "coupon_type",
+   "value": "0,625 % nominal anual, calculado sobre el importe nominal de cada obligación, pagadero anualmente.",
+   "raw_lexeme": "0,625 % nominal anual, calculado sobre el importe nominal de cada obligación, pagadero anualmente.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120967",
+     "page": 2,
+     "bbox": [
+      121.1,
+      323.25,
+      512.32,
+      302.47
+     ],
+     "excerpt": "0,625 % nominal anual, calculado sobre el importe nominal de cada obligación, pagadero anualmente.",
+     "sha256": "2b53c4e25b150b2b303e5872397ea4b0bb4aec747fcd5a2bba5e173f24f4738b"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120967:coupon_rate",
+   "field": "coupon_rate",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "N/A",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120967",
+     "page": 3,
+     "bbox": [
+      85.1,
+      601.69,
+      366.29,
+      593.16
+     ],
+     "excerpt": "Tipo de interés con estructura ligada a un subyacente : N/A",
+     "sha256": "2b53c4e25b150b2b303e5872397ea4b0bb4aec747fcd5a2bba5e173f24f4738b"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120967:payment_frequency",
+   "field": "payment_frequency",
+   "value": "ANNUAL",
+   "raw_lexeme": "los días 6 de octubre de cada año. El primer cupón se abonará el 6 de octubre de 2020 y el último cupón se abonará coincidiendo con el vencimiento de la emisión. En el caso de que el día de pago del c",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120967",
+     "page": 3,
+     "bbox": [
+      121.1,
+      771.88,
+      512.44,
+      702.48
+     ],
+     "excerpt": "los días 6 de octubre de cada año. El primer cupón se abonará el 6 de octubre de 2020 y el último cupón se abonará coincidiendo con el vencimiento de la emisión. En el caso de que el día de pago del c",
+     "sha256": "2b53c4e25b150b2b303e5872397ea4b0bb4aec747fcd5a2bba5e173f24f4738b"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120967:day_count",
+   "field": "day_count",
+   "value": "ACT_ACT_ICMA",
+   "raw_lexeme": "Act/Act (ICMA).",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120967",
+     "page": 2,
+     "bbox": [
+      121.1,
+      131.23,
+      414.67,
+      122.56
+     ],
+     "excerpt": "Act/Act (ICMA).",
+     "sha256": "2b53c4e25b150b2b303e5872397ea4b0bb4aec747fcd5a2bba5e173f24f4738b"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120967:business_day_convention",
+   "field": "business_day_convention",
+   "value": "ver a continuación.",
+   "raw_lexeme": "ver a continuación.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120967",
+     "page": 2,
+     "bbox": [
+      121.1,
+      119.11,
+      328.03,
+      110.44
+     ],
+     "excerpt": "ver a continuación.",
+     "sha256": "2b53c4e25b150b2b303e5872397ea4b0bb4aec747fcd5a2bba5e173f24f4738b"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120967:redemption_formula",
+   "field": "redemption_formula",
+   "value": "100% (a la par), libre de gastos para los tenedores de los valores.",
+   "raw_lexeme": "100% (a la par), libre de gastos para los tenedores de los valores.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120967",
+     "page": 3,
+     "bbox": [
+      110.66,
+      267.56,
+      512.22,
+      246.91
+     ],
+     "excerpt": "100% (a la par), libre de gastos para los tenedores de los valores.",
+     "sha256": "2b53c4e25b150b2b303e5872397ea4b0bb4aec747fcd5a2bba5e173f24f4738b"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120967:settlement_type",
+   "field": "settlement_type",
+   "value": "Iberclear (Clearstream y Euroclear).",
+   "raw_lexeme": "Iberclear (Clearstream y Euroclear).",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120967",
+     "page": 4,
+     "bbox": [
+      85.1,
+      382.9,
+      385.99,
+      374.37
+     ],
+     "excerpt": "Iberclear (Clearstream y Euroclear).",
+     "sha256": "2b53c4e25b150b2b303e5872397ea4b0bb4aec747fcd5a2bba5e173f24f4738b"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "db627af49342a239ae280d24e4be4a9458f5a5347dfc22582cb44e631bc8903b"
+}

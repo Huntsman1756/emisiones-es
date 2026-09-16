@@ -1,0 +1,314 @@
+{
+ "case_id": "P0-ADM_120983",
+ "source_record_key": "ADM_120983",
+ "document_sha256": "39fd0cad85e99d2b0b07270b14a5431c439d2ae7e4c8b1340801d5b5970d6fba",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_120983",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_120983",
+    "role": "SECURITIES_NOTE",
+    "issuer": "BANCO SANTANDER, S.A.",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_120983:isin",
+   "field": "isin",
+   "value": "ES0413900582",
+   "raw_lexeme": "ES0413900582.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120983",
+     "page": 2,
+     "bbox": [
+      103.09,
+      638.7,
+      255.62,
+      629.03
+     ],
+     "excerpt": "ES0413900582.",
+     "sha256": "39fd0cad85e99d2b0b07270b14a5431c439d2ae7e4c8b1340801d5b5970d6fba"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120983:currency",
+   "field": "currency",
+   "value": "EUR",
+   "raw_lexeme": "euros.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120983",
+     "page": 2,
+     "bbox": [
+      103.09,
+      402.05,
+      246.13,
+      392.69
+     ],
+     "excerpt": "euros.",
+     "sha256": "39fd0cad85e99d2b0b07270b14a5431c439d2ae7e4c8b1340801d5b5970d6fba"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120983:issue_date",
+   "field": "issue_date",
+   "value": "2020-02-19",
+   "raw_lexeme": "19 de febrero de 2020.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120983",
+     "page": 2,
+     "bbox": [
+      85.05,
+      186.06,
+      441.32,
+      176.39
+     ],
+     "excerpt": "19 de febrero de 2020.",
+     "sha256": "39fd0cad85e99d2b0b07270b14a5431c439d2ae7e4c8b1340801d5b5970d6fba"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120983:maturity",
+   "field": "maturity",
+   "value": "2030-02-19",
+   "raw_lexeme": "19 de febrero de 2030",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120983",
+     "page": 3,
+     "bbox": [
+      103.07,
+      733.37,
+      468.49,
+      724.02
+     ],
+     "excerpt": "19 de febrero de 2030",
+     "sha256": "39fd0cad85e99d2b0b07270b14a5431c439d2ae7e4c8b1340801d5b5970d6fba"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120983:issued_amount",
+   "field": "issued_amount",
+   "value": {
+    "amount": "250000000",
+    "currency": null,
+    "raw_number": "250.000.000."
+   },
+   "raw_lexeme": "250.000.000.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120983",
+     "page": 2,
+     "bbox": [
+      103.11,
+      456.52,
+      342.87,
+      447.16
+     ],
+     "excerpt": "250.000.000.",
+     "sha256": "39fd0cad85e99d2b0b07270b14a5431c439d2ae7e4c8b1340801d5b5970d6fba"
+    },
+    {
+     "doc_id": "ADM_120983",
+     "page": 2,
+     "bbox": [
+      103.1,
+      420.16,
+      342.38,
+      410.8
+     ],
+     "excerpt": "250.000.000.",
+     "sha256": "39fd0cad85e99d2b0b07270b14a5431c439d2ae7e4c8b1340801d5b5970d6fba"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120983:coupon_type",
+   "field": "coupon_type",
+   "value": "0.05% pagadero anualmente.",
+   "raw_lexeme": "0.05% pagadero anualmente.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120983",
+     "page": 2,
+     "bbox": [
+      103.09,
+      360.28,
+      326.77,
+      350.92
+     ],
+     "excerpt": "0.05% pagadero anualmente.",
+     "sha256": "39fd0cad85e99d2b0b07270b14a5431c439d2ae7e4c8b1340801d5b5970d6fba"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120983:coupon_rate",
+   "field": "coupon_rate",
+   "value": "0.05",
+   "raw_lexeme": "0.05% pagadero anualmente.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120983",
+     "page": 2,
+     "bbox": [
+      103.09,
+      360.28,
+      326.77,
+      350.92
+     ],
+     "excerpt": "0.05% pagadero anualmente.",
+     "sha256": "39fd0cad85e99d2b0b07270b14a5431c439d2ae7e4c8b1340801d5b5970d6fba"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120983:payment_frequency",
+   "field": "payment_frequency",
+   "value": "ANNUAL",
+   "raw_lexeme": "el 19 de febrero de cada año hasta su vencimiento.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120983",
+     "page": 2,
+     "bbox": [
+      103.07,
+      239.82,
+      501.22,
+      230.46
+     ],
+     "excerpt": "el 19 de febrero de cada año hasta su vencimiento.",
+     "sha256": "39fd0cad85e99d2b0b07270b14a5431c439d2ae7e4c8b1340801d5b5970d6fba"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120983:day_count",
+   "field": "day_count",
+   "value": "ACT_ACT_ICMA",
+   "raw_lexeme": "Act/Act (ICMA) (sin ajustar).",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120983",
+     "page": 2,
+     "bbox": [
+      103.08,
+      342.17,
+      455.76,
+      332.81
+     ],
+     "excerpt": "Act/Act (ICMA) (sin ajustar).",
+     "sha256": "39fd0cad85e99d2b0b07270b14a5431c439d2ae7e4c8b1340801d5b5970d6fba"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120983:business_day_convention",
+   "field": "business_day_convention",
+   "value": "Convención del Día Siguiente Hábil Modificado ( Modified Following Business Day Convention ).",
+   "raw_lexeme": "Convención del Día Siguiente Hábil Modificado ( Modified Following Business Day Convention ).",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120983",
+     "page": 2,
+     "bbox": [
+      103.07,
+      324.05,
+      475.06,
+      303.19
+     ],
+     "excerpt": "Convención del Día Siguiente Hábil Modificado ( Modified Following Business Day Convention ).",
+     "sha256": "39fd0cad85e99d2b0b07270b14a5431c439d2ae7e4c8b1340801d5b5970d6fba"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120983:redemption_formula",
+   "field": "redemption_formula",
+   "value": [
+    "19 de febrero de 2030",
+    "100 % sobre nominal"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120983",
+     "page": 3,
+     "bbox": [
+      103.07,
+      733.37,
+      468.49,
+      724.02
+     ],
+     "excerpt": "19 de febrero de 2030",
+     "sha256": "39fd0cad85e99d2b0b07270b14a5431c439d2ae7e4c8b1340801d5b5970d6fba"
+    },
+    {
+     "doc_id": "ADM_120983",
+     "page": 3,
+     "bbox": [
+      103.07,
+      715.14,
+      346.2,
+      705.78
+     ],
+     "excerpt": "100 % sobre nominal",
+     "sha256": "39fd0cad85e99d2b0b07270b14a5431c439d2ae7e4c8b1340801d5b5970d6fba"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "0af9f7d6101cb1a3b881c398deca3d52af7c6605b44eac74357aa9688a547348"
+}

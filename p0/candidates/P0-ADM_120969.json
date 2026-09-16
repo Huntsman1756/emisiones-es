@@ -1,0 +1,532 @@
+{
+ "case_id": "P0-ADM_120969",
+ "source_record_key": "ADM_120969",
+ "document_sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_120969",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_120969",
+    "role": "SECURITIES_NOTE",
+    "issuer": "BBVA GLOBAL MARKETS B.V.",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_120969:isin",
+   "field": "isin",
+   "value": [
+    "IT0000072618",
+    null,
+    "ES0305067D00"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "CONFLICT",
+   "confidence_class": null,
+   "evidence": [
+    {
+     "doc_id": "ADM_120969",
+     "page": 6,
+     "bbox": [
+      69.21,
+      770.39,
+      447.81,
+      517.86
+     ],
+     "excerpt": "IT0000072618",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    },
+    {
+     "doc_id": "ADM_120969",
+     "page": 9,
+     "bbox": [
+      69.65,
+      529.07,
+      469.28,
+      103.91
+     ],
+     "excerpt": "See paragraph 22(iii) above",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    },
+    {
+     "doc_id": "ADM_120969",
+     "page": 12,
+     "bbox": [
+      102.85,
+      165.14,
+      351.98,
+      83.98
+     ],
+     "excerpt": "ES0305067D00",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120969:maturity",
+   "field": "maturity",
+   "value": "2022-02-11",
+   "raw_lexeme": "time possibility portion repayment), The Maturity Date of the Notes is 11 February 2022, subject to adjustment.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120969",
+     "page": 24,
+     "bbox": [
+      66.45,
+      771.9,
+      548.22,
+      100.23
+     ],
+     "excerpt": "time possibility portion repayment), The Maturity Date of the Notes is 11 February 2022, subject to adjustment.",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120969:coupon_type",
+   "field": "coupon_type",
+   "value": [
+    "Interest Basis:",
+    "Applicable"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120969",
+     "page": 3,
+     "bbox": [
+      109.32,
+      414.09,
+      168.69,
+      405.07
+     ],
+     "excerpt": "Interest Basis:",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    },
+    {
+     "doc_id": "ADM_120969",
+     "page": 3,
+     "bbox": [
+      301.2,
+      414.09,
+      347.61,
+      405.07
+     ],
+     "excerpt": "Applicable",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120969:call_dates",
+   "field": "call_dates",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "Not applicable",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim_doclevel",
+   "evidence": [
+    {
+     "doc_id": "ADM_120969",
+     "page": 9,
+     "bbox": [
+      68.43,
+      770.89,
+      439.44,
+      541.21
+     ],
+     "excerpt": "",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    },
+    {
+     "doc_id": "ADM_120969",
+     "page": 9,
+     "bbox": [
+      68.43,
+      770.89,
+      439.44,
+      541.21
+     ],
+     "excerpt": "",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120969:business_day_convention",
+   "field": "business_day_convention",
+   "value": "Modified Following Business Day Convention",
+   "raw_lexeme": "Modified Following Business Day Convention",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120969",
+     "page": 4,
+     "bbox": [
+      106.52,
+      284.56,
+      490.48,
+      86.77
+     ],
+     "excerpt": "Modified Following Business Day Convention",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    },
+    {
+     "doc_id": "ADM_120969",
+     "page": 4,
+     "bbox": [
+      106.52,
+      284.56,
+      490.48,
+      86.77
+     ],
+     "excerpt": "Modified Following Business Day Convention",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120969:put_dates",
+   "field": "put_dates",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "Not applicable",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim_doclevel",
+   "evidence": [
+    {
+     "doc_id": "ADM_120969",
+     "page": 9,
+     "bbox": [
+      68.43,
+      770.89,
+      439.44,
+      541.21
+     ],
+     "excerpt": "",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    },
+    {
+     "doc_id": "ADM_120969",
+     "page": 9,
+     "bbox": [
+      68.43,
+      770.89,
+      439.44,
+      541.21
+     ],
+     "excerpt": "",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120969:fixing_rules",
+   "field": "fixing_rules",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "Not applicable",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim_doclevel",
+   "evidence": [
+    {
+     "doc_id": "ADM_120969",
+     "page": 4,
+     "bbox": [
+      106.52,
+      284.56,
+      490.48,
+      86.77
+     ],
+     "excerpt": "",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120969:redemption_formula",
+   "field": "redemption_formula",
+   "value": [
+    "Redemption Basis:",
+    "Equity Linked Redemption",
+    "Calculation Amount * Final Payout"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120969",
+     "page": 3,
+     "bbox": [
+      109.32,
+      344.25,
+      187.65,
+      335.23
+     ],
+     "excerpt": "Redemption Basis:",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    },
+    {
+     "doc_id": "ADM_120969",
+     "page": 3,
+     "bbox": [
+      301.2,
+      344.25,
+      412.53,
+      335.23
+     ],
+     "excerpt": "Equity Linked Redemption",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    },
+    {
+     "doc_id": "ADM_120969",
+     "page": 7,
+     "bbox": [
+      301.2,
+      579.81,
+      445.89,
+      570.79
+     ],
+     "excerpt": "Calculation Amount * Final Payout",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120969:barrier",
+   "field": "barrier",
+   "value": "60",
+   "raw_lexeme": "60 per cent",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120969",
+     "page": 8,
+     "bbox": [
+      301.2,
+      411.03,
+      473.97,
+      402.07
+     ],
+     "excerpt": "Calculation Amount * AER Percentage",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    },
+    {
+     "doc_id": "ADM_120969",
+     "page": 8,
+     "bbox": [
+      301.2,
+      387.93,
+      367.05,
+      378.91
+     ],
+     "excerpt": "See table below",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    },
+    {
+     "doc_id": "ADM_120969",
+     "page": 4,
+     "bbox": [
+      105.72,
+      585.63,
+      532.85,
+      342.09
+     ],
+     "excerpt": "60 per cent",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    },
+    {
+     "doc_id": "ADM_120969",
+     "page": 8,
+     "bbox": [
+      85.69,
+      347.91,
+      526.84,
+      143.74
+     ],
+     "excerpt": "AER Percentage",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    },
+    {
+     "doc_id": "ADM_120969",
+     "page": 23,
+     "bbox": [
+      66.82,
+      771.93,
+      547.65,
+      92.25
+     ],
+     "excerpt": "AER Percentage",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    },
+    {
+     "doc_id": "ADM_120969",
+     "page": 23,
+     "bbox": [
+      66.82,
+      771.93,
+      547.65,
+      92.25
+     ],
+     "excerpt": "Barrier Condition' Barrier Value on such equal to or greater",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120969:autocall",
+   "field": "autocall",
+   "value": "APPLICABLE",
+   "raw_lexeme": "Applicable",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120969",
+     "page": 7,
+     "bbox": [
+      301.2,
+      122.49,
+      347.61,
+      113.47
+     ],
+     "excerpt": "Applicable",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120969:observation_dates",
+   "field": "observation_dates",
+   "value": "2022-02-04",
+   "raw_lexeme": "4 February 2022",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120969",
+     "page": 6,
+     "bbox": [
+      69.21,
+      770.39,
+      447.81,
+      517.86
+     ],
+     "excerpt": "Trade Date",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    },
+    {
+     "doc_id": "ADM_120969",
+     "page": 6,
+     "bbox": [
+      106.81,
+      291.38,
+      459.56,
+      102.69
+     ],
+     "excerpt": "See table above",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    },
+    {
+     "doc_id": "ADM_120969",
+     "page": 9,
+     "bbox": [
+      69.65,
+      529.07,
+      469.28,
+      103.91
+     ],
+     "excerpt": "See paragraph 22(viii) above",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    },
+    {
+     "doc_id": "ADM_120969",
+     "page": 9,
+     "bbox": [
+      69.65,
+      529.07,
+      469.28,
+      103.91
+     ],
+     "excerpt": "4 February 2022",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120969:settlement_type",
+   "field": "settlement_type",
+   "value": "Settlement Exchange Rate Provisions:",
+   "raw_lexeme": "Settlement Exchange Rate Provisions:",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120969",
+     "page": 3,
+     "bbox": [
+      109.32,
+      274.53,
+      264.81,
+      265.51
+     ],
+     "excerpt": "Settlement Exchange Rate Provisions:",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120969:cap",
+   "field": "cap",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "Not applicable",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim_doclevel",
+   "evidence": [
+    {
+     "doc_id": "ADM_120969",
+     "page": 4,
+     "bbox": [
+      106.52,
+      284.56,
+      490.48,
+      86.77
+     ],
+     "excerpt": "",
+     "sha256": "ca507e6cb2997bd4d40b0e61170fd77b8ef223f75e49d88929a3098a5d2f6648"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "a96d72fa370127539d2d6a5aebece9536f391087e4ac273e0c34caaa481d63c9"
+}

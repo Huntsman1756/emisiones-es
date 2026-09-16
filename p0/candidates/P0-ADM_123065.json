@@ -1,0 +1,399 @@
+{
+ "case_id": "P0-ADM_123065",
+ "source_record_key": "ADM_123065",
+ "document_sha256": "9bb7d8cf67c29ca993f096604655beda7bc2cf7cccf8bb38a223a84e79b78366",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_123065",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_123065",
+    "role": "SECURITIES_NOTE",
+    "issuer": "BANCA MARCH, S.A.",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_123065:isin",
+   "field": "isin",
+   "value": "ES0413040108",
+   "raw_lexeme": "ES0413040108",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123065",
+     "page": 2,
+     "bbox": [
+      121.1,
+      711.51,
+      270.42,
+      702.58
+     ],
+     "excerpt": "ES0413040108",
+     "sha256": "9bb7d8cf67c29ca993f096604655beda7bc2cf7cccf8bb38a223a84e79b78366"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123065:currency",
+   "field": "currency",
+   "value": "EUR",
+   "raw_lexeme": "euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123065",
+     "page": 2,
+     "bbox": [
+      106.34,
+      606.75,
+      246.66,
+      597.82
+     ],
+     "excerpt": "euros",
+     "sha256": "9bb7d8cf67c29ca993f096604655beda7bc2cf7cccf8bb38a223a84e79b78366"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123065:issue_date",
+   "field": "issue_date",
+   "value": "2020-08-17",
+   "raw_lexeme": "17 de agosto de 2020",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123065",
+     "page": 2,
+     "bbox": [
+      106.34,
+      441.72,
+      368.0,
+      432.79
+     ],
+     "excerpt": "17 de agosto de 2020",
+     "sha256": "9bb7d8cf67c29ca993f096604655beda7bc2cf7cccf8bb38a223a84e79b78366"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123065:maturity",
+   "field": "maturity",
+   "value": "2035-08-17",
+   "raw_lexeme": "17 de agosto de 2035",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123065",
+     "page": 2,
+     "bbox": [
+      106.34,
+      418.68,
+      328.88,
+      409.75
+     ],
+     "excerpt": "17 de agosto de 2035",
+     "sha256": "9bb7d8cf67c29ca993f096604655beda7bc2cf7cccf8bb38a223a84e79b78366"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123065:denomination",
+   "field": "denomination",
+   "value": {
+    "amount": "100.000",
+    "currency": "EUR",
+    "raw_number": "100.000"
+   },
+   "raw_lexeme": "100.000 euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123065",
+     "page": 2,
+     "bbox": [
+      121.1,
+      501.12,
+      283.62,
+      492.19
+     ],
+     "excerpt": "100.000 euros",
+     "sha256": "9bb7d8cf67c29ca993f096604655beda7bc2cf7cccf8bb38a223a84e79b78366"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123065:coupon_type",
+   "field": "coupon_type",
+   "value": [
+    "Aplica",
+    "EURIBOR a 3 meses + 0.50% pagadero trimestralmente."
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123065",
+     "page": 2,
+     "bbox": [
+      106.34,
+      349.78,
+      261.04,
+      340.85
+     ],
+     "excerpt": "Aplica",
+     "sha256": "9bb7d8cf67c29ca993f096604655beda7bc2cf7cccf8bb38a223a84e79b78366"
+    },
+    {
+     "doc_id": "ADM_123065",
+     "page": 2,
+     "bbox": [
+      121.1,
+      324.93,
+      467.39,
+      314.82
+     ],
+     "excerpt": "EURIBOR a 3 meses + 0.50% pagadero trimestralmente.",
+     "sha256": "9bb7d8cf67c29ca993f096604655beda7bc2cf7cccf8bb38a223a84e79b78366"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123065:coupon_rate",
+   "field": "coupon_rate",
+   "value": "0.50",
+   "raw_lexeme": "EURIBOR a 3 meses + 0.50% pagadero trimestralmente.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123065",
+     "page": 2,
+     "bbox": [
+      121.1,
+      324.93,
+      467.39,
+      314.82
+     ],
+     "excerpt": "EURIBOR a 3 meses + 0.50% pagadero trimestralmente.",
+     "sha256": "9bb7d8cf67c29ca993f096604655beda7bc2cf7cccf8bb38a223a84e79b78366"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123065:benchmark",
+   "field": "benchmark",
+   "value": "EURIBOR a 3 meses + 0.50%",
+   "raw_lexeme": "EURIBOR a 3 meses + 0.50% pagadero trimestralmente.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123065",
+     "page": 2,
+     "bbox": [
+      121.1,
+      324.93,
+      467.39,
+      314.82
+     ],
+     "excerpt": "EURIBOR a 3 meses + 0.50% pagadero trimestralmente.",
+     "sha256": "9bb7d8cf67c29ca993f096604655beda7bc2cf7cccf8bb38a223a84e79b78366"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123065:spread",
+   "field": "spread",
+   "value": "0.50",
+   "raw_lexeme": "EURIBOR a 3 meses + 0.50% pagadero trimestralmente.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123065",
+     "page": 2,
+     "bbox": [
+      121.1,
+      324.93,
+      467.39,
+      314.82
+     ],
+     "excerpt": "EURIBOR a 3 meses + 0.50% pagadero trimestralmente.",
+     "sha256": "9bb7d8cf67c29ca993f096604655beda7bc2cf7cccf8bb38a223a84e79b78366"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123065:day_count",
+   "field": "day_count",
+   "value": "ACT_360",
+   "raw_lexeme": "ACT/360.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123065",
+     "page": 3,
+     "bbox": [
+      121.1,
+      592.94,
+      394.88,
+      582.83
+     ],
+     "excerpt": "ACT/360.",
+     "sha256": "9bb7d8cf67c29ca993f096604655beda7bc2cf7cccf8bb38a223a84e79b78366"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123065:call_dates",
+   "field": "call_dates",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "No aplica",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123065",
+     "page": 4,
+     "bbox": [
+      106.34,
+      440.4,
+      447.78,
+      431.47
+     ],
+     "excerpt": "Opciones de amortización anticipada o cancelación anticipada: No aplica",
+     "sha256": "9bb7d8cf67c29ca993f096604655beda7bc2cf7cccf8bb38a223a84e79b78366"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123065:fixing_rules",
+   "field": "fixing_rules",
+   "value": [
+    "Reuters  (página  EURIBOR01)  o  en  Bloomberg  (código EUR03M Index).",
+    "Para cada  periodo  de  tres  meses  desde  una  Fecha  de  Pago  de  los  cupones  y  la siguiente,  el  tipo  interbancario  ofrecido  para  depósitos  a  tres  meses  en  euros, calculado por la Fe",
+    "En la fecha de determinación inicial"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123065",
+     "page": 3,
+     "bbox": [
+      121.1,
+      718.7,
+      513.08,
+      697.3
+     ],
+     "excerpt": "Reuters  (página  EURIBOR01)  o  en  Bloomberg  (código EUR03M Index).",
+     "sha256": "9bb7d8cf67c29ca993f096604655beda7bc2cf7cccf8bb38a223a84e79b78366"
+    },
+    {
+     "doc_id": "ADM_123065",
+     "page": 3,
+     "bbox": [
+      121.1,
+      145.98,
+      513.07,
+      90.02
+     ],
+     "excerpt": "Para cada  periodo  de  tres  meses  desde  una  Fecha  de  Pago  de  los  cupones  y  la siguiente,  el  tipo  interbancario  ofrecido  para  depósitos  a  tres  meses  en  euros, calculado por la Fe",
+     "sha256": "9bb7d8cf67c29ca993f096604655beda7bc2cf7cccf8bb38a223a84e79b78366"
+    },
+    {
+     "doc_id": "ADM_123065",
+     "page": 4,
+     "bbox": [
+      121.1,
+      707.18,
+      426.08,
+      697.07
+     ],
+     "excerpt": "En la fecha de determinación inicial",
+     "sha256": "9bb7d8cf67c29ca993f096604655beda7bc2cf7cccf8bb38a223a84e79b78366"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123065:redemption_formula",
+   "field": "redemption_formula",
+   "value": "100 % sobre el nominal",
+   "raw_lexeme": "100 % sobre el nominal",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123065",
+     "page": 4,
+     "bbox": [
+      139.1,
+      335.5,
+      389.92,
+      326.57
+     ],
+     "excerpt": "100 % sobre el nominal",
+     "sha256": "9bb7d8cf67c29ca993f096604655beda7bc2cf7cccf8bb38a223a84e79b78366"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_123065:settlement_type",
+   "field": "settlement_type",
+   "value": "Iberclear",
+   "raw_lexeme": "Iberclear",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_123065",
+     "page": 5,
+     "bbox": [
+      103.1,
+      216.34,
+      503.03,
+      207.41
+     ],
+     "excerpt": "Iberclear",
+     "sha256": "9bb7d8cf67c29ca993f096604655beda7bc2cf7cccf8bb38a223a84e79b78366"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "9de46cf051fbe2c0d6de114088610cc05e9e244d50ab5d1285666bfea001632b"
+}

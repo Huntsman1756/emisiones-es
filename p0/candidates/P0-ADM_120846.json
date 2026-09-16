@@ -1,0 +1,99 @@
+{
+ "case_id": "P0-ADM_120846",
+ "source_record_key": "ADM_120846",
+ "document_sha256": "7c8794105578306c8887d1973e04f0686b7e3ee143c63c9238ad12200f260831",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_120846",
+  "confidence": "HIGH"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_120846",
+    "role": "SECURITIES_NOTE",
+    "issuer": "IBERCAJA BANCO, S.A.",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_120846:isin",
+   "field": "isin",
+   "value": "ES0244251015",
+   "raw_lexeme": "ES0244251015",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120846",
+     "page": 144,
+     "bbox": [
+      85.32,
+      533.35,
+      529.55,
+      508.41
+     ],
+     "excerpt": "ES0244251015",
+     "sha256": "7c8794105578306c8887d1973e04f0686b7e3ee143c63c9238ad12200f260831"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120846:issue_date",
+   "field": "issue_date",
+   "value": "2020-01-23",
+   "raw_lexeme": "23 January 2020",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120846",
+     "page": 7,
+     "bbox": [
+      88.94,
+      613.61,
+      522.58,
+      111.36
+     ],
+     "excerpt": "23 January 2020",
+     "sha256": "7c8794105578306c8887d1973e04f0686b7e3ee143c63c9238ad12200f260831"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120846:ranking",
+   "field": "ranking",
+   "value": "SUBORDINATED",
+   "raw_lexeme": "The payment obligations of the Bank under the Notes on account of principal constitute direct, unconditional, unsecured and subordinated",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120846",
+     "page": 7,
+     "bbox": [
+      88.94,
+      613.61,
+      522.58,
+      111.36
+     ],
+     "excerpt": "The payment obligations of the Bank under the Notes on account of principal constitute direct, unconditional, unsecured and subordinated",
+     "sha256": "7c8794105578306c8887d1973e04f0686b7e3ee143c63c9238ad12200f260831"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "84e1a4e808ca544333e2463752b2e947c00c1767af020018827bd0399f5e1b62"
+}

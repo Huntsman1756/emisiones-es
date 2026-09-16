@@ -1,0 +1,209 @@
+{
+ "manifest": "p0-candidate-seal",
+ "cases": [
+  {
+   "case_id": "P0-ADM_121210",
+   "sha256": "98a97ab6101ef9e4f0bc7e92127e7d0dd11bfe2e5c9baddd14f5602737549992",
+   "n_candidates": 11,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_123067",
+   "sha256": "ac85566e65f05a6a1635801cb7610c465aeb4278ad13e4346a0d8b0e082c06ae",
+   "n_candidates": 12,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_121211",
+   "sha256": "cf6dac63f16dc204ae1238b07d17fce22f02bfe52318fead59a17407dad17168",
+   "n_candidates": 11,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_123092",
+   "sha256": "011e8561e5d8dd482362a7c5abf56cab8134db86c9c11f141db0079e543526ca",
+   "n_candidates": 14,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_124149",
+   "sha256": "c9afd07f1850a19c9d914ed1e80afcfeab7fb11aadfd217b77bc90349f396509",
+   "n_candidates": 16,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_123019",
+   "sha256": "66f00136ecfab3994036e1f75b6573cd3702c144c4907f9ef588bb08db51831f",
+   "n_candidates": 15,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_123039",
+   "sha256": "4d6b50653ad2c1953fd667b525011830759900aa3832c3bb90e5518aab90840c",
+   "n_candidates": 12,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_123041",
+   "sha256": "c6c7bae46205197a392854f5f84fea04adfd641ae408edabdf9f317e6aa950e7",
+   "n_candidates": 11,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_124130",
+   "sha256": "9235ce5c22df329039a5762cad44257e79af87281a55b0e4a8153e461979ceca",
+   "n_candidates": 15,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_123045",
+   "sha256": "a728b067eb4c7e96038d83e0ed6f5a712cab842da20257cefd671aea55fac98d",
+   "n_candidates": 12,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_115032",
+   "sha256": "4603a7e745c98bb09d9d49a2e42d2fc4d4991d2ffffaa7f2802fafff12316b3f",
+   "n_candidates": 9,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_120177",
+   "sha256": "81cde809dd27677f97971583300194fcadc945098874d233e05bcb64f9909253",
+   "n_candidates": 11,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_120093",
+   "sha256": "0a4b7fd3651766672a26885169325ad5328d1ef3f6fc60025c44f831aa9c7044",
+   "n_candidates": 3,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_115733",
+   "sha256": "9998776f445797a83e505540fa8b0d01b6893b1cc7e9d70355d85b54aaf5fa5c",
+   "n_candidates": 16,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_116275",
+   "sha256": "401ed9bbe4496658df1ba6d373bacb364d79b72f03d52e508546f0b5f88318f8",
+   "n_candidates": 10,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_120969",
+   "sha256": "653205c46be1d2abafd4f849513cac46c3c60c542c0f1a51e4e36f4c14f49a1a",
+   "n_candidates": 13,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_120966",
+   "sha256": "f62427d0d7102b536375a9e9cdf2e1e7edad55d811f7d926ae76909aa3ebce6f",
+   "n_candidates": 14,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_118937",
+   "sha256": "13034f17d7f128d30df4173a5d7e0ebad40e9d5d5bf78a43a65cb00e91767764",
+   "n_candidates": 6,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_120846",
+   "sha256": "9f0cbd7a812caefeeca850bc8643fdf78eb3ba33c15fbfb08438e7ea57589c61",
+   "n_candidates": 3,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_118936",
+   "sha256": "686038d33c6935fc3bad95063be7fb5c9f7b24c1d1be3aeccc5e1d8779fdc9ee",
+   "n_candidates": 8,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_124146",
+   "sha256": "31bd9f3bed98570e986847c7e38a89a63f72dee1d24ad520d411277663fe49e4",
+   "n_candidates": 2,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_120983",
+   "sha256": "734b70a6af53eaed9cf1f867e430602d058b69e12fac128eacb396fdde33455d",
+   "n_candidates": 11,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_120159",
+   "sha256": "7d14792b5e64d4ff2938ffcfb5790590065fa3480ccb72398c3f940718cd7b86",
+   "n_candidates": 13,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_117215",
+   "sha256": "288b634ae5cb149962f713ae628de7af1ea81a7f293d22fe7f68d8fb69a27f15",
+   "n_candidates": 3,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_123065",
+   "sha256": "6e6d54055b362c05c93e35c0a817733f4633a2808a162c3b716413da24bbc31e",
+   "n_candidates": 14,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_124137",
+   "sha256": "d36a79ec7fbe693e01bc8b6c5fd7abbf6dc3a0a3edc34a5689f10468922bf24f",
+   "n_candidates": 3,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_121925",
+   "sha256": "4622bcd38b44216daae9186a1e81a8e189193622d4cd64279d0d34a3a206994d",
+   "n_candidates": 7,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_120844",
+   "sha256": "128f17d7741efe946bd1bd5dd863c00b9c9bc4b5ef7c7094741172479a63857c",
+   "n_candidates": 7,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_119967",
+   "sha256": "f263578350f8a39bc784e422fede4d9960722552dc1518925f2051be9663af46",
+   "n_candidates": 8,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_116548",
+   "sha256": "50abbd0d53081c566318b2a5cb00a4348316bfb2ee4ff5fa205eca298c68fe1c",
+   "n_candidates": 12,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_120967",
+   "sha256": "ec54d83b6247e198fcca34ac1e2353f3eed79000138576f41ca7d3d5fa1e5df8",
+   "n_candidates": 13,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_118245",
+   "sha256": "4bd91a105b43a6876713f6b5a220fe6fc5af205b50fa159e8b2d44f3a30ac2a4",
+   "n_candidates": 12,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_123650",
+   "sha256": "e107ff56931a01e5ec02f2870313c32d3f15e0537e15c63f5c1259d78b9bb484",
+   "n_candidates": 15,
+   "role": "SECURITIES_NOTE"
+  },
+  {
+   "case_id": "P0-ADM_121548",
+   "sha256": "a89b3a209abc8de03d6128df9d31ae2850dbb4188abae908b85ea9b891b6999d",
+   "n_candidates": 12,
+   "role": "SECURITIES_NOTE"
+  }
+ ]
+}

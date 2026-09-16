@@ -1,0 +1,99 @@
+{
+ "case_id": "P0-ADM_124137",
+ "source_record_key": "ADM_124137",
+ "document_sha256": "b1819bbf73edd2b129da0dc42c1c1718ef8569d2e04a633a53d327161a6fa332",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_124137",
+  "confidence": "HIGH"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_124137",
+    "role": "SECURITIES_NOTE",
+    "issuer": "SIX FINANCE (LUXEMBOURG) S.A.",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_124137:isin",
+   "field": "isin",
+   "value": "ES0305523005",
+   "raw_lexeme": "ES0305523005",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124137",
+     "page": 33,
+     "bbox": [
+      275.03,
+      645.85,
+      363.92,
+      639.66
+     ],
+     "excerpt": "ES0305523005",
+     "sha256": "b1819bbf73edd2b129da0dc42c1c1718ef8569d2e04a633a53d327161a6fa332"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_124137:issue_date",
+   "field": "issue_date",
+   "value": "2020-12-02",
+   "raw_lexeme": "2 December 2020",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124137",
+     "page": 29,
+     "bbox": [
+      88.94,
+      667.1,
+      549.91,
+      131.41
+     ],
+     "excerpt": "2 December 2020",
+     "sha256": "b1819bbf73edd2b129da0dc42c1c1718ef8569d2e04a633a53d327161a6fa332"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_124137:maturity",
+   "field": "maturity",
+   "value": "2025-12-02",
+   "raw_lexeme": "2 December 2025.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124137",
+     "page": 30,
+     "bbox": [
+      275.03,
+      691.46,
+      347.81,
+      684.72
+     ],
+     "excerpt": "2 December 2025.",
+     "sha256": "b1819bbf73edd2b129da0dc42c1c1718ef8569d2e04a633a53d327161a6fa332"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "a77130ab07fc12e1a0b28e94a4cecc5bc18fc198bfe9a91e1a120d7f975f70c3"
+}

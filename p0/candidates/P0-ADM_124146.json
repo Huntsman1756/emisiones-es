@@ -1,0 +1,76 @@
+{
+ "case_id": "P0-ADM_124146",
+ "source_record_key": "ADM_124146",
+ "document_sha256": "d11f3c2c362eade595d4440785456096d19ddad54c77ed05631ce75c6147c0f1",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_124146",
+  "confidence": "HIGH"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_124146",
+    "role": "SECURITIES_NOTE",
+    "issuer": "CAJAMAR CAJA RURAL, SOCIEDAD COOPERATIVA DE CREDITO",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_124146:isin",
+   "field": "isin",
+   "value": "ES0422714149",
+   "raw_lexeme": "ES0422714149",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124146",
+     "page": 9,
+     "bbox": [
+      85.1,
+      370.83,
+      513.11,
+      348.6
+     ],
+     "excerpt": "ES0422714149",
+     "sha256": "d11f3c2c362eade595d4440785456096d19ddad54c77ed05631ce75c6147c0f1"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_124146:coupon_rate",
+   "field": "coupon_rate",
+   "value": "0",
+   "raw_lexeme": "Las Cédulas Hipotecarias objeto de esta emisión devengan a favor de sus tenedores, desde la fecha de desembolso (incluido) hasta la fecha de amortización de las mismas (excluida), un tipo de interés nominal fijo anual del 0%, es decir, 0 euros por Cédula Hipotecaria.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124146",
+     "page": 12,
+     "bbox": [
+      85.1,
+      519.4,
+      513.1,
+      484.46
+     ],
+     "excerpt": "Las Cédulas Hipotecarias objeto de esta emisión devengan a favor de sus tenedores, desde la fecha de desembolso (incluido) hasta la fecha de amortización de las mismas (excluida), un tipo de interés nominal fijo anual del 0%, es decir, 0 euros por Cédula Hipotecaria.",
+     "sha256": "d11f3c2c362eade595d4440785456096d19ddad54c77ed05631ce75c6147c0f1"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "f9ff0c1645f5a2f4a0f23b4ff7b39e966ddbbb98c84e36e0076583ceaac55081"
+}

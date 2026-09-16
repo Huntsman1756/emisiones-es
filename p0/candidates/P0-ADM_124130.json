@@ -1,0 +1,466 @@
+{
+ "case_id": "P0-ADM_124130",
+ "source_record_key": "ADM_124130",
+ "document_sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_124130",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_124130",
+    "role": "SECURITIES_NOTE",
+    "issuer": "BANKINTER, S.A.",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_124130:isin",
+   "field": "isin",
+   "value": "ES0213679MJ0",
+   "raw_lexeme": "ES0213679MJ0",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124130",
+     "page": 1,
+     "bbox": [
+      141.74,
+      208.25,
+      259.96,
+      199.25
+     ],
+     "excerpt": "ES0213679MJ0",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_124130:currency",
+   "field": "currency",
+   "value": "EUR",
+   "raw_lexeme": "Euros.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124130",
+     "page": 1,
+     "bbox": [
+      85.1,
+      156.41,
+      211.84,
+      147.41
+     ],
+     "excerpt": "Euros.",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_124130:issue_date",
+   "field": "issue_date",
+   "value": "2020-11-20",
+   "raw_lexeme": "20 de noviembre de 2020",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124130",
+     "page": 2,
+     "bbox": [
+      85.1,
+      636.73,
+      368.35,
+      627.73
+     ],
+     "excerpt": "20 de noviembre de 2020",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_124130:maturity",
+   "field": "maturity",
+   "value": "2025-11-27",
+   "raw_lexeme": "27 de noviembre de 2025",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124130",
+     "page": 2,
+     "bbox": [
+      85.1,
+      613.09,
+      282.53,
+      604.09
+     ],
+     "excerpt": "27 de noviembre de 2025",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_124130:denomination",
+   "field": "denomination",
+   "value": {
+    "amount": "100.000",
+    "currency": "EUR",
+    "raw_number": "100.000"
+   },
+   "raw_lexeme": "100.000 euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124130",
+     "page": 2,
+     "bbox": [
+      203.21,
+      694.69,
+      342.78,
+      685.69
+     ],
+     "excerpt": "100.000 euros",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    },
+    {
+     "doc_id": "ADM_124130",
+     "page": 2,
+     "bbox": [
+      203.21,
+      694.69,
+      342.78,
+      685.69
+     ],
+     "excerpt": "100.000 euros",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_124130:issued_amount",
+   "field": "issued_amount",
+   "value": {
+    "amount": "1700000",
+    "currency": "EUR",
+    "raw_number": "1.700.000"
+   },
+   "raw_lexeme": "1.700.000 euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124130",
+     "page": 2,
+     "bbox": [
+      203.21,
+      750.61,
+      317.7,
+      741.61
+     ],
+     "excerpt": "1.700.000 euros",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_124130:coupon_type",
+   "field": "coupon_type",
+   "value": [
+    "cupón 1,25% pagadero sobre el 85% del Importe Nominal Inicial de Inversión, es decir, para una inversión de 100.000 Euros, 1.062,5 Euros.",
+    "aplicable  al  15,00%  del  Importe  Nominal  Inicial  de Inversión."
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124130",
+     "page": 2,
+     "bbox": [
+      85.1,
+      589.45,
+      512.2,
+      569.38
+     ],
+     "excerpt": "cupón 1,25% pagadero sobre el 85% del Importe Nominal Inicial de Inversión, es decir, para una inversión de 100.000 Euros, 1.062,5 Euros.",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    },
+    {
+     "doc_id": "ADM_124130",
+     "page": 2,
+     "bbox": [
+      85.1,
+      444.22,
+      512.34,
+      424.18
+     ],
+     "excerpt": "aplicable  al  15,00%  del  Importe  Nominal  Inicial  de Inversión.",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_124130:coupon_rate",
+   "field": "coupon_rate",
+   "value": "15.00",
+   "raw_lexeme": "aplicable  al  15,00%  del  Importe  Nominal  Inicial  de Inversión.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124130",
+     "page": 2,
+     "bbox": [
+      85.1,
+      444.22,
+      512.34,
+      424.18
+     ],
+     "excerpt": "aplicable  al  15,00%  del  Importe  Nominal  Inicial  de Inversión.",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_124130:benchmark",
+   "field": "benchmark",
+   "value": "Estr",
+   "raw_lexeme": "ver apartado 10 Nombre y descripción del subyacente : ver apartado 10 Indicación detallada de dónde puede obtenerse información sobre el subyacente : ver apartado 10 Ponderación del subyacente : N/A P",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124130",
+     "page": 4,
+     "bbox": [
+      106.46,
+      433.66,
+      512.16,
+      292.76
+     ],
+     "excerpt": "ver apartado 10 Nombre y descripción del subyacente : ver apartado 10 Indicación detallada de dónde puede obtenerse información sobre el subyacente : ver apartado 10 Ponderación del subyacente : N/A P",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_124130:day_count",
+   "field": "day_count",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "N/A",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124130",
+     "page": 2,
+     "bbox": [
+      121.1,
+      566.98,
+      323.46,
+      557.98
+     ],
+     "excerpt": "Base de cálculo para el devengo de intereses: N/A",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_124130:business_day_convention",
+   "field": "business_day_convention",
+   "value": "En el caso de que alguna de las fechas se declarara como día inhábil, se tomará el primer día hábil inmediatamente posterior.",
+   "raw_lexeme": "En el caso de que alguna de las fechas se declarara como día inhábil, se tomará el primer día hábil inmediatamente posterior.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124130",
+     "page": 2,
+     "bbox": [
+      121.1,
+      555.46,
+      512.3,
+      535.54
+     ],
+     "excerpt": "En el caso de que alguna de las fechas se declarara como día inhábil, se tomará el primer día hábil inmediatamente posterior.",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_124130:fixing_rules",
+   "field": "fixing_rules",
+   "value": [
+    "En la fecha de determinación inicial.",
+    "Tal y como se ha indicado previamente."
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124130",
+     "page": 2,
+     "bbox": [
+      113.42,
+      280.52,
+      376.02,
+      271.52
+     ],
+     "excerpt": "En la fecha de determinación inicial.",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    },
+    {
+     "doc_id": "ADM_124130",
+     "page": 3,
+     "bbox": [
+      113.42,
+      234.2,
+      385.29,
+      225.2
+     ],
+     "excerpt": "Tal y como se ha indicado previamente.",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_124130:underlying",
+   "field": "underlying",
+   "value": [
+    "Valor.",
+    "Acción  de  Repsol  S.A.  (ES0173516115) publicado  por  Bolsa  de  Madrid  S.A.  Código  REP  SM  EQUITY  (Bloomberg).  REPSOL  es  una  compañía energética  con  sede  en  Esp",
+    "ver apartado 10.",
+    "ver apartado 10 Nombre y descripción del subyacente : ver apartado 10 Indicación detallada de dónde puede obtenerse información sobre el subyacente : ver apartado 10 Ponderación del subyacente : N/A P"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124130",
+     "page": 2,
+     "bbox": [
+      113.42,
+      415.78,
+      234.16,
+      406.78
+     ],
+     "excerpt": "Valor.",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    },
+    {
+     "doc_id": "ADM_124130",
+     "page": 2,
+     "bbox": [
+      113.42,
+      404.26,
+      512.39,
+      351.32
+     ],
+     "excerpt": "Acción  de  Repsol  S.A.  (ES0173516115) publicado  por  Bolsa  de  Madrid  S.A.  Código  REP  SM  EQUITY  (Bloomberg).  REPSOL  es  una  compañía energética  con  sede  en  Esp",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    },
+    {
+     "doc_id": "ADM_124130",
+     "page": 3,
+     "bbox": [
+      113.42,
+      348.32,
+      334.62,
+      339.32
+     ],
+     "excerpt": "ver apartado 10.",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    },
+    {
+     "doc_id": "ADM_124130",
+     "page": 4,
+     "bbox": [
+      106.46,
+      433.66,
+      512.16,
+      292.76
+     ],
+     "excerpt": "ver apartado 10 Nombre y descripción del subyacente : ver apartado 10 Indicación detallada de dónde puede obtenerse información sobre el subyacente : ver apartado 10 Ponderación del subyacente : N/A P",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_124130:barrier",
+   "field": "barrier",
+   "value": "100.00",
+   "raw_lexeme": "100,00% del Precio Inicial del Subyacente, es decir, 5,784 euros.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124130",
+     "page": 3,
+     "bbox": [
+      113.42,
+      665.77,
+      431.97,
+      656.77
+     ],
+     "excerpt": "100,00% del Precio Inicial del Subyacente, es decir, 5,784 euros.",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_124130:settlement_type",
+   "field": "settlement_type",
+   "value": "Iberclear",
+   "raw_lexeme": "Iberclear",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_124130",
+     "page": 5,
+     "bbox": [
+      85.1,
+      551.62,
+      242.2,
+      542.62
+     ],
+     "excerpt": "Iberclear",
+     "sha256": "60147ff53e1aa80e60eadc31a0b7079fd7b2125a7f4061e87d3c27b005b3a543"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "6c53ee844ded1ae26d0b06e7fe320a99e28e553c7fa8ba6b42d84237ef89af41"
+}

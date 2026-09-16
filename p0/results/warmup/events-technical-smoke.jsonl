@@ -1,0 +1,20 @@
+{"ts": 1789544409.6441462, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_120967", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789544409.6452606, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_120967", "event_type": "EVIDENCE_JUMP", "payload": {"doc_id": "ADM_120967", "page": 2}}
+{"ts": 1789544409.9053211, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_120967", "event_type": "CASE_PAUSED", "payload": {}}
+{"ts": 1789544411.0073326, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_120967", "event_type": "CASE_RESUMED", "payload": {}}
+{"ts": 1789544411.0645497, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_120967", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789544411.076507, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_118245", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789544411.0775936, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_118245", "event_type": "EVIDENCE_JUMP", "payload": {"doc_id": "ADM_118245", "page": 1}}
+{"ts": 1789544411.1993167, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_118245", "event_type": "CASE_PAUSED", "payload": {}}
+{"ts": 1789544412.30148, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_118245", "event_type": "CASE_RESUMED", "payload": {}}
+{"ts": 1789544412.3107915, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_118245", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789544412.509676, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_123650", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789544412.510589, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_123650", "event_type": "EVIDENCE_JUMP", "payload": {"doc_id": "ADM_123650", "page": 1}}
+{"ts": 1789544412.5412369, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_123650", "event_type": "CASE_PAUSED", "payload": {}}
+{"ts": 1789544413.643559, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_123650", "event_type": "CASE_RESUMED", "payload": {}}
+{"ts": 1789544413.651684, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_123650", "event_type": "CASE_SUBMITTED", "payload": {}}
+{"ts": 1789544413.6619391, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_121548", "event_type": "CASE_OPENED", "payload": {"mode": "ASSISTED"}}
+{"ts": 1789544413.662838, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_121548", "event_type": "EVIDENCE_JUMP", "payload": {"doc_id": "ADM_121548", "page": 11}}
+{"ts": 1789544413.8185306, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_121548", "event_type": "CASE_PAUSED", "payload": {}}
+{"ts": 1789544414.9205248, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_121548", "event_type": "CASE_RESUMED", "payload": {}}
+{"ts": 1789544414.931065, "reviewer_id": "REVIEWER_A", "case_id": "P0-ADM_121548", "event_type": "CASE_SUBMITTED", "payload": {}}

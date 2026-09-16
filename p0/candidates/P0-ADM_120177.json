@@ -1,0 +1,457 @@
+{
+ "case_id": "P0-ADM_120177",
+ "source_record_key": "ADM_120177",
+ "document_sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_120177",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_120177",
+    "role": "SECURITIES_NOTE",
+    "issuer": "BBVA GLOBAL MARKETS B.V.",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_120177:isin",
+   "field": "isin",
+   "value": [
+    "ES0113900J37",
+    "ES0113900J37",
+    "ES0305067C35"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "CONFLICT",
+   "confidence_class": null,
+   "evidence": [
+    {
+     "doc_id": "ADM_120177",
+     "page": 7,
+     "bbox": [
+      74.08,
+      771.4,
+      525.66,
+      82.27
+     ],
+     "excerpt": "ES0113900J37",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    },
+    {
+     "doc_id": "ADM_120177",
+     "page": 7,
+     "bbox": [
+      74.08,
+      771.4,
+      525.66,
+      82.27
+     ],
+     "excerpt": "ES0113900J37",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    },
+    {
+     "doc_id": "ADM_120177",
+     "page": 10,
+     "bbox": [
+      104.03,
+      164.81,
+      349.93,
+      83.96
+     ],
+     "excerpt": "ES0305067C35",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120177:issue_date",
+   "field": "issue_date",
+   "value": "2019-12-02",
+   "raw_lexeme": "2 December 2019",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120177",
+     "page": 3,
+     "bbox": [
+      301.2,
+      732.71,
+      374.3,
+      723.75
+     ],
+     "excerpt": "2 December 2019",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120177:denomination",
+   "field": "denomination",
+   "value": {
+    "amount": "100.000",
+    "currency": "EUR",
+    "raw_number": "100,000"
+   },
+   "raw_lexeme": "EUR 100,000",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120177",
+     "page": 2,
+     "bbox": [
+      301.2,
+      143.34,
+      357.48,
+      134.38
+     ],
+     "excerpt": "EUR 100,000",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120177:coupon_type",
+   "field": "coupon_type",
+   "value": "Applicable",
+   "raw_lexeme": "Applicable",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120177",
+     "page": 3,
+     "bbox": [
+      301.2,
+      586.96,
+      350.27,
+      578.0
+     ],
+     "excerpt": "Applicable",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120177:call_dates",
+   "field": "call_dates",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "Not applicable",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120177",
+     "page": 3,
+     "bbox": [
+      301.2,
+      470.06,
+      364.68,
+      461.1
+     ],
+     "excerpt": "Not applicable",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120177:business_day_convention",
+   "field": "business_day_convention",
+   "value": "Modified Following Business Day Convention",
+   "raw_lexeme": "Modified Following Business Day Convention",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120177",
+     "page": 4,
+     "bbox": [
+      70.72,
+      489.64,
+      536.9,
+      100.81
+     ],
+     "excerpt": "Modified Following Business Day Convention",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    },
+    {
+     "doc_id": "ADM_120177",
+     "page": 4,
+     "bbox": [
+      70.72,
+      489.64,
+      536.9,
+      100.81
+     ],
+     "excerpt": "Modified Following Business Day Convention",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120177:redemption_formula",
+   "field": "redemption_formula",
+   "value": [
+    "Equity Linked Redemption",
+    "Calculation Amount * Final Payout"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120177",
+     "page": 3,
+     "bbox": [
+      301.2,
+      540.51,
+      415.15,
+      531.55
+     ],
+     "excerpt": "Equity Linked Redemption",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    },
+    {
+     "doc_id": "ADM_120177",
+     "page": 5,
+     "bbox": [
+      301.2,
+      626.21,
+      453.6,
+      617.25
+     ],
+     "excerpt": "Calculation Amount * Final Payout",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120177:barrier",
+   "field": "barrier",
+   "value": "60",
+   "raw_lexeme": "60 per cent",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120177",
+     "page": 6,
+     "bbox": [
+      301.2,
+      204.84,
+      476.02,
+      196.09
+     ],
+     "excerpt": "Calculation Amount * AER Percentage",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    },
+    {
+     "doc_id": "ADM_120177",
+     "page": 6,
+     "bbox": [
+      301.2,
+      181.78,
+      368.7,
+      172.82
+     ],
+     "excerpt": "See table below",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    },
+    {
+     "doc_id": "ADM_120177",
+     "page": 6,
+     "bbox": [
+      288.38,
+      57.35,
+      295.4,
+      49.77
+     ],
+     "excerpt": "6",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    },
+    {
+     "doc_id": "ADM_120177",
+     "page": 4,
+     "bbox": [
+      91.83,
+      770.39,
+      536.61,
+      525.19
+     ],
+     "excerpt": "60 per cent",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    },
+    {
+     "doc_id": "ADM_120177",
+     "page": 7,
+     "bbox": [
+      74.08,
+      771.4,
+      525.66,
+      82.27
+     ],
+     "excerpt": "AER Percentage",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120177:autocall",
+   "field": "autocall",
+   "value": "APPLICABLE",
+   "raw_lexeme": "Applicable",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120177",
+     "page": 6,
+     "bbox": [
+      301.2,
+      610.18,
+      350.27,
+      601.22
+     ],
+     "excerpt": "Applicable",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120177:observation_dates",
+   "field": "observation_dates",
+   "value": [
+    "Automatic Early Redemption Valuation Time:",
+    "Automatic Early Redemption Valuation Time:",
+    "2019-11-20",
+    "2019-11-20",
+    "2024-11-25",
+    "2024-11-25"
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120177",
+     "page": 7,
+     "bbox": [
+      74.08,
+      771.4,
+      525.66,
+      82.27
+     ],
+     "excerpt": "Automatic Early Redemption Valuation Time:",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    },
+    {
+     "doc_id": "ADM_120177",
+     "page": 7,
+     "bbox": [
+      74.08,
+      771.4,
+      525.66,
+      82.27
+     ],
+     "excerpt": "Automatic Early Redemption Valuation Time:",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    },
+    {
+     "doc_id": "ADM_120177",
+     "page": 7,
+     "bbox": [
+      74.08,
+      771.4,
+      525.66,
+      82.27
+     ],
+     "excerpt": "20 November 2019",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    },
+    {
+     "doc_id": "ADM_120177",
+     "page": 7,
+     "bbox": [
+      74.08,
+      771.4,
+      525.66,
+      82.27
+     ],
+     "excerpt": "20 November 2019",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    },
+    {
+     "doc_id": "ADM_120177",
+     "page": 7,
+     "bbox": [
+      74.08,
+      771.4,
+      525.66,
+      82.27
+     ],
+     "excerpt": "25 November 2024",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    },
+    {
+     "doc_id": "ADM_120177",
+     "page": 7,
+     "bbox": [
+      74.08,
+      771.4,
+      525.66,
+      82.27
+     ],
+     "excerpt": "25 November 2024",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_120177:settlement_type",
+   "field": "settlement_type",
+   "value": "Provisions applicable to Partly Paid Notes; amount of each payment comprising the Issue Price and date on which each payment is to be made and consequences of failure to pay, including any right of th",
+   "raw_lexeme": "Provisions applicable to Partly Paid Notes; amount of each payment comprising the Issue Price and date on which each payment is to be made and consequences of failure to pay, including any right of th",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_120177",
+     "page": 8,
+     "bbox": [
+      68.09,
+      769.21,
+      540.01,
+      104.56
+     ],
+     "excerpt": "Provisions applicable to Partly Paid Notes; amount of each payment comprising the Issue Price and date on which each payment is to be made and consequences of failure to pay, including any right of th",
+     "sha256": "818851f92ce94688d85cc2b05da370748e377324f6a7bb3e42050796d5a61e77"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "3dbdd25fc0dfea94978022dfd1f463b29a4940f1e6f7318598531a8d7dd72acc"
+}

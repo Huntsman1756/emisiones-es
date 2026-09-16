@@ -1,0 +1,306 @@
+{
+ "case_id": "P0-ADM_115032",
+ "source_record_key": "ADM_115032",
+ "document_sha256": "a3c9c7e4070acc6407a5964c96b0cf24173f0f16139c9d53a4df950d4cd3708c",
+ "classification": {
+  "document_role": "SECURITIES_NOTE",
+  "scope_role": "INSTRUMENT_DEFINING",
+  "instrument_class": "DEBT",
+  "document_family_key": "ISSUE_ADM_115032",
+  "confidence": "MEDIUM"
+ },
+ "extractor": "securities_note",
+ "graph": {
+  "status": "INCOMPLETE",
+  "nodes": [
+   {
+    "id": "ADM_115032",
+    "role": "SECURITIES_NOTE",
+    "issuer": "BANKINTER, S.A.",
+    "observed": true,
+    "is_case_doc": true
+   }
+  ],
+  "edges": [],
+  "missing_expected_documents": []
+ },
+ "candidates": [
+  {
+   "candidate_id": "ADM_115032:isin",
+   "field": "isin",
+   "value": "ES0213679FM8",
+   "raw_lexeme": "ES0213679FM8",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_115032",
+     "page": 1,
+     "bbox": [
+      141.74,
+      160.49,
+      285.89,
+      151.96
+     ],
+     "excerpt": "ES0213679FM8",
+     "sha256": "a3c9c7e4070acc6407a5964c96b0cf24173f0f16139c9d53a4df950d4cd3708c"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_115032:currency",
+   "field": "currency",
+   "value": "EUR",
+   "raw_lexeme": "Euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_115032",
+     "page": 1,
+     "bbox": [
+      85.1,
+      106.01,
+      229.85,
+      97.49
+     ],
+     "excerpt": "Euros",
+     "sha256": "a3c9c7e4070acc6407a5964c96b0cf24173f0f16139c9d53a4df950d4cd3708c"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_115032:issue_date",
+   "field": "issue_date",
+   "value": "2018-12-28",
+   "raw_lexeme": "28 de diciembre de 2018",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_115032",
+     "page": 2,
+     "bbox": [
+      85.1,
+      644.65,
+      419.71,
+      636.12
+     ],
+     "excerpt": "28 de diciembre de 2018",
+     "sha256": "a3c9c7e4070acc6407a5964c96b0cf24173f0f16139c9d53a4df950d4cd3708c"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_115032:maturity",
+   "field": "maturity",
+   "value": "2024-01-05",
+   "raw_lexeme": "5 de enero de 2024",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_115032",
+     "page": 2,
+     "bbox": [
+      85.1,
+      616.69,
+      293.69,
+      608.16
+     ],
+     "excerpt": "5 de enero de 2024",
+     "sha256": "a3c9c7e4070acc6407a5964c96b0cf24173f0f16139c9d53a4df950d4cd3708c"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_115032:denomination",
+   "field": "denomination",
+   "value": {
+    "amount": "100.000",
+    "currency": "EUR",
+    "raw_number": "100.000"
+   },
+   "raw_lexeme": "100.000 euros",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_115032",
+     "page": 2,
+     "bbox": [
+      203.21,
+      707.17,
+      370.75,
+      698.64
+     ],
+     "excerpt": "100.000 euros",
+     "sha256": "a3c9c7e4070acc6407a5964c96b0cf24173f0f16139c9d53a4df950d4cd3708c"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_115032:coupon_type",
+   "field": "coupon_type",
+   "value": "NOT_APPLICABLE",
+   "raw_lexeme": "N/A",
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_115032",
+     "page": 2,
+     "bbox": [
+      85.1,
+      590.53,
+      211.49,
+      582.0
+     ],
+     "excerpt": "Tipo de interés fijo: N/A",
+     "sha256": "a3c9c7e4070acc6407a5964c96b0cf24173f0f16139c9d53a4df950d4cd3708c"
+    },
+    {
+     "doc_id": "ADM_115032",
+     "page": 2,
+     "bbox": [
+      85.1,
+      566.29,
+      233.69,
+      557.76
+     ],
+     "excerpt": "Tipo de interés variable: N/A",
+     "sha256": "a3c9c7e4070acc6407a5964c96b0cf24173f0f16139c9d53a4df950d4cd3708c"
+    },
+    {
+     "doc_id": "ADM_115032",
+     "page": 2,
+     "bbox": [
+      85.1,
+      541.9,
+      240.77,
+      533.37
+     ],
+     "excerpt": "Tipo de interés indexado: N/A",
+     "sha256": "a3c9c7e4070acc6407a5964c96b0cf24173f0f16139c9d53a4df950d4cd3708c"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_115032:underlying",
+   "field": "underlying",
+   "value": [
+    "Valor.",
+    "Acción  de  BBVA  S.A. (ES0113211835)  publicado  por  Bolsa  de  Madrid  S.A.  Código  BBVA  SM  EQUITY (Bloomberg). BBVA es una entidad financiera con sede en España.",
+    "ver apartado 10.",
+    "ver apartado 10."
+   ],
+   "raw_lexeme": null,
+   "state": "CANDIDATE",
+   "observation_status": "OBSERVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_115032",
+     "page": 2,
+     "bbox": [
+      109.7,
+      493.3,
+      253.37,
+      484.77
+     ],
+     "excerpt": "Valor.",
+     "sha256": "a3c9c7e4070acc6407a5964c96b0cf24173f0f16139c9d53a4df950d4cd3708c"
+    },
+    {
+     "doc_id": "ADM_115032",
+     "page": 2,
+     "bbox": [
+      109.7,
+      481.18,
+      512.43,
+      448.29
+     ],
+     "excerpt": "Acción  de  BBVA  S.A. (ES0113211835)  publicado  por  Bolsa  de  Madrid  S.A.  Código  BBVA  SM  EQUITY (Bloomberg). BBVA es una entidad financiera con sede en España.",
+     "sha256": "a3c9c7e4070acc6407a5964c96b0cf24173f0f16139c9d53a4df950d4cd3708c"
+    },
+    {
+     "doc_id": "ADM_115032",
+     "page": 3,
+     "bbox": [
+      113.42,
+      136.97,
+      295.13,
+      128.44
+     ],
+     "excerpt": "ver apartado 10.",
+     "sha256": "a3c9c7e4070acc6407a5964c96b0cf24173f0f16139c9d53a4df950d4cd3708c"
+    },
+    {
+     "doc_id": "ADM_115032",
+     "page": 3,
+     "bbox": [
+      113.42,
+      124.85,
+      376.75,
+      116.32
+     ],
+     "excerpt": "ver apartado 10.",
+     "sha256": "a3c9c7e4070acc6407a5964c96b0cf24173f0f16139c9d53a4df950d4cd3708c"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_115032:barrier",
+   "field": "barrier",
+   "value": "60.00",
+   "raw_lexeme": "60,00% del Precio Inicial del Subyacente, esto es, 2,79 euros.",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_115032",
+     "page": 3,
+     "bbox": [
+      109.7,
+      543.7,
+      480.94,
+      535.17
+     ],
+     "excerpt": "60,00% del Precio Inicial del Subyacente, esto es, 2,79 euros.",
+     "sha256": "a3c9c7e4070acc6407a5964c96b0cf24173f0f16139c9d53a4df950d4cd3708c"
+    }
+   ]
+  },
+  {
+   "candidate_id": "ADM_115032:settlement_type",
+   "field": "settlement_type",
+   "value": "Iberclear",
+   "raw_lexeme": "Iberclear",
+   "state": "CANDIDATE",
+   "observation_status": "DERIVED",
+   "confidence_class": "verified_verbatim",
+   "evidence": [
+    {
+     "doc_id": "ADM_115032",
+     "page": 5,
+     "bbox": [
+      85.1,
+      201.68,
+      271.01,
+      193.15
+     ],
+     "excerpt": "Iberclear",
+     "sha256": "a3c9c7e4070acc6407a5964c96b0cf24173f0f16139c9d53a4df950d4cd3708c"
+    }
+   ]
+  }
+ ],
+ "candidate_file_sha256": "8f81c4e9060fe1feea7b7ff55c20b2946ff3eedca324712cda921e37a8febbba"
+}

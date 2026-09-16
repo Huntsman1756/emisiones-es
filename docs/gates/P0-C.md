@@ -28,6 +28,14 @@ graph engine. v1.2 añade instrumentación preregistrada de close-out
 lógica de producto.
 (`p0/ui-freeze.json` v1 queda obsoleto — fue emitido sobre sample v1.)
 
+Nota de audit trail sobre `git_sha=3cd3e7b` en el freeze v1.2: ese commit
+contiene el último cambio funcional de `p0/app/` (instrumentación de
+close-out). El commit posterior `035f75f` solo añade el propio artefacto
+de freeze + este documento — `git diff 3cd3e7b..035f75f` toca únicamente
+`docs/gates/P0-C.md` y `p0/ui-freeze-prewarmup-v1.2.json`. Todos los
+hashes sellados en el freeze se verificaron idénticos al estado en HEAD
+(`035f75f`). El freeze representa correctamente la aplicación ejecutable.
+
 ## Pre-flight (ejecutado)
 
 - `git status` limpio en `f8fe58c`.

@@ -1,0 +1,24 @@
+{
+ "manifest": "p0d-sessions",
+ "sealed_at": "pre-first-review",
+ "freeze": "p0/ui-freeze-final.json @ afc0991f53",
+ "assignments_sha256": "d35d224e2e37a7227de59f7ebfb72abfe1fb978089172c133d097a8df57bac75",
+ "sessions": {
+  "REVIEWER_A": {
+   "file": "p0/runtime/session_p0d_77711e42.json",
+   "sha256": "2f204f8c891d0b26e0ff42c616c75a2b1336cd095773a9645b24299cbeba3a4d",
+   "n_cases": 30,
+   "manual": 15,
+   "assisted": 15
+  },
+  "REVIEWER_B": {
+   "file": "p0/runtime/session_p0d_2afdc603.json",
+   "sha256": "7b66f504fc286e306427e06c451c13242b46c0b92482df2f9c19f24776538fef",
+   "n_cases": 30,
+   "manual": 15,
+   "assisted": 15
+  }
+ },
+ "verification": "orden = case_order congelado; modo por caso = assignments; cada caso A/B en modos distintos; sin warm-ups",
+ "rules": "no metricas intermedias; no parches UI durante P0-D; PRODUCT_LOGIC_REQUEST solo se registra; al llegar 60/60 sellar y parar antes de gold/scoring"
+}

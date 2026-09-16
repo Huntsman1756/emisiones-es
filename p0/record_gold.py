@@ -68,9 +68,10 @@ def absence_scan(doc, terms):
     return hits
 
 
-def run(spec_path):
+def run(spec_path, store_dir=None, adjudicator=None):
     spec = json.load(open(spec_path, encoding='utf-8'))
-    store = GoldStore()
+    store = GoldStore(store_dir, adjudicator) if (store_dir or adjudicator) \
+        else GoldStore()
     cid = spec['case_id']
     doc = spec.get('doc') or cid.replace('P0-', '')
     written = []
@@ -117,4 +118,12 @@ def run(spec_path):
 
 
 if __name__ == '__main__':
-    run(sys.argv[1])
+    # python -m p0.record_gold <spec> [--store DIR] [--adjudicator ID]
+    args = [a for a in sys.argv[1:] if not a.startswith('--')]
+    opts = dict(zip(
+        [a[2:] for a in sys.argv[1:] if a.startswith('--')],
+        [sys.argv[sys.argv.index(a) + 1]
+         for a in sys.argv[1:] if a.startswith('--')]))
+    run(args[0],
+        store_dir=opts.get('store'),
+        adjudicator=opts.get('adjudicator'))

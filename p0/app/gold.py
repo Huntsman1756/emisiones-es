@@ -28,8 +28,9 @@ class GoldError(Exception):
 
 
 class GoldStore:
-    def __init__(self, root=GOLD_DIR):
+    def __init__(self, root=GOLD_DIR, adjudicator=ADJUDICATOR):
         self.root = Path(root)
+        self.adjudicator = adjudicator
         self.root.mkdir(parents=True, exist_ok=True)
         self.units_path = self.root / 'gold.jsonl'
         self.cases_path = self.root / 'gold_cases.jsonl'
@@ -91,7 +92,7 @@ class GoldStore:
             'adjudication_note': adjudication_note,
             'critical_verified': critical_verified,
             'second_check': second_check,
-            'adjudicator': ADJUDICATOR,
+            'adjudicator': self.adjudicator,
             'created_at': ts if ts is not None else time.time(),
         }
         self._append(self.units_path, unit)
@@ -134,7 +135,7 @@ class GoldStore:
                   if not latest[f]['critical_verified']]
         if uncrit:
             raise GoldError(f'{case_id}: critical units not verified {uncrit}')
-        rec = {'case_id': case_id, 'adjudicator': ADJUDICATOR,
+        rec = {'case_id': case_id, 'adjudicator': self.adjudicator,
                'n_units': len(units), 'fields': len(latest),
                'sealed_at': time.time()}
         self._append(self.cases_path, rec)

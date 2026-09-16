@@ -1,6 +1,6 @@
 {
  "manifest": "p0-assignments",
- "frozen_at": "2026-09-16T07:18:33+00:00",
+ "frozen_at": "2026-09-16T09:43:04+00:00",
  "seed": 20260917,
  "design": "crossed: cada caso 1x MANUAL + 1x ASSISTED por revisores distintos; 15/15 por revisor y modo; estratificado por stratum; orden de casos aleatorio independiente por revisor",
  "reviewers": {
@@ -287,16 +287,28 @@
  },
  "warmup_assignment": {
   "REVIEWER_A": [
-   "P0-ADM_120967",
-   "P0-ADM_118245",
-   "P0-ADM_123650",
-   "P0-ADM_121548"
+   {
+    "case_id": "P0-ADM_120967",
+    "mode": "MANUAL",
+    "stratum": "LOW"
+   },
+   {
+    "case_id": "P0-ADM_123650",
+    "mode": "ASSISTED",
+    "stratum": "HIGH"
+   }
   ],
   "REVIEWER_B": [
-   "P0-ADM_120967",
-   "P0-ADM_118245",
-   "P0-ADM_123650",
-   "P0-ADM_121548"
+   {
+    "case_id": "P0-ADM_118245",
+    "mode": "ASSISTED",
+    "stratum": "MEDIUM"
+   },
+   {
+    "case_id": "P0-ADM_121548",
+    "mode": "MANUAL",
+    "stratum": "HIGH"
+   }
   ],
   "rule": "warmup no cuenta en metricas; nunca entra al holdout"
  },

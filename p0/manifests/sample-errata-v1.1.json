@@ -1,0 +1,80 @@
+{
+ "manifest": "p0-sample-errata-v1.1",
+ "amends": "p0/manifests/sample.json (commit cb81b6f, sha256 93953f0eba88…)",
+ "reason": "defecto objetivo de estratificacion descubierto en ingest mecanico, antes de cualquier exposicion humana: el pool admitia denominaciones no-deuda y 9/10 casos MEDIUM eran warrants, no BONOS/OBLIG.",
+ "independent_of": "rendimiento del producto; ninguna revision humana habia ocurrido",
+ "sample_v1": {
+  "sha256": "93953f0eba886aba9a53b0f886d82ea140d74a06bfbff9b38f093750ce9f9985",
+  "commit": "cb81b6f",
+  "preserved_in": "git history"
+ },
+ "sample_v1_1": {
+  "sha256": "c8bc3cf71da75e9508e779f16bad5c98ad270cfaf7c2da0d35dd7643f9c25741",
+  "strata": {
+   "LOW": 10,
+   "MEDIUM": 10,
+   "HIGH": 10
+  },
+  "issuers": 15,
+  "max_issuer_share": 0.3,
+  "family_cold": 30,
+  "overlap_with_G0G1G2": 0,
+  "pdfs_valid": 30
+ },
+ "cases_kept": [
+  "P0-ADM_117215",
+  "P0-ADM_119967",
+  "P0-ADM_120159",
+  "P0-ADM_120844",
+  "P0-ADM_120983",
+  "P0-ADM_121925",
+  "P0-ADM_123065",
+  "P0-ADM_124130",
+  "P0-ADM_124137",
+  "P0-ADM_124146"
+ ],
+ "cases_dropped": [
+  "P0-ADM_115140",
+  "P0-ADM_115226",
+  "P0-ADM_115408",
+  "P0-ADM_116740",
+  "P0-ADM_118572",
+  "P0-ADM_119895",
+  "P0-ADM_120160",
+  "P0-ADM_120967",
+  "P0-ADM_122384",
+  "P0-ADM_122928",
+  "P0-ADM_123049",
+  "P0-ADM_123054",
+  "P0-ADM_123063",
+  "P0-ADM_123078",
+  "P0-ADM_123509",
+  "P0-ADM_123645",
+  "P0-ADM_123652",
+  "P0-ADM_123661",
+  "P0-ADM_124127",
+  "P0-ADM_124128"
+ ],
+ "cases_new": [
+  "P0-ADM_115032",
+  "P0-ADM_115733",
+  "P0-ADM_116275",
+  "P0-ADM_116548",
+  "P0-ADM_118936",
+  "P0-ADM_118937",
+  "P0-ADM_120093",
+  "P0-ADM_120177",
+  "P0-ADM_120846",
+  "P0-ADM_120966",
+  "P0-ADM_120969",
+  "P0-ADM_121210",
+  "P0-ADM_121211",
+  "P0-ADM_123019",
+  "P0-ADM_123039",
+  "P0-ADM_123041",
+  "P0-ADM_123045",
+  "P0-ADM_123067",
+  "P0-ADM_123092",
+  "P0-ADM_124149"
+ ]
+}

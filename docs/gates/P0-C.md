@@ -1,32 +1,36 @@
 # P0-C — WARM-UP / USABILITY SMOKE
 
-**Estado:** freeze v1 + ingest + smoke técnico ejecutados; warm-up humano pendiente.
-**HEAD:** `f8fe58c` (+ cambios P0-C en commit posterior).
+**Estado:** PENDING_HUMAN_WARMUP — freeze v1.1 + ingest + smoke técnico ejecutados.
+
+## Enmienda formal de muestra (P0-SAMPLE-v1.1)
+
+`p0/manifests/sample-errata-v1.1.json` — enmienda formal:
+
+```text
+P0-SAMPLE-v1    sha 93953f0e…  commit cb81b6f (preservado en git)
+P0-SAMPLE-v1.1  sha c8bc3cf7…  motivo: bug estratificación MEDIUM
+                20 casos sustituidos, 10 conservados
+                re-verificado: overlap G0/G1/G2 = 0 · 30×FAMILY_COLD
+                15 emisores · max 30% · 30/30 PDFs válidos
+```
+
+`assignments.json` regenerado contra v1.1 (mismo seed) — incluye warm-up
+cruzado: cada reviewer hace 1×MANUAL + 1×ASSISTED, nunca el mismo caso en
+ambos modos. A: LOW MANUAL + HIGH ASSISTED · B: MEDIUM ASSISTED + HIGH MANUAL.
+
+## Freeze
+
+`p0/ui-freeze-prewarmup-v1.1.json` — `freeze_version=1.1`,
+`purpose=PRE_WARMUP`, `supersedes=p0/ui-freeze.json`, git `310f37f0b2`,
+tests rc=0. Sellos: app, manifests, sample-v1.1, assignments-v1.1,
+candidate-seal, candidate engine, graph engine.
+(`p0/ui-freeze.json` v1 queda obsoleto — fue emitido sobre sample v1.)
 
 ## Pre-flight (ejecutado)
 
 - `git status` limpio en `f8fe58c`.
 - Procesos en background: solo `bdns-archive-es` (otro proyecto); nada escribe en este repo.
 - 19/19 tests P0-B verdes.
-
-## Errata P0-SAMPLE-v1.1 (detectada en ingest mecánico, antes de cualquier revisión)
-
-La muestra v1 (`93953f0e…`) admitía denominaciones no-deuda en el pool: 9/10
-casos MEDIUM eran warrants (`W.CALL …`, `PUT EUR/USD`), no `BONOS/OBLIG.`.
-Corregido: pool restringido a denominaciones de deuda instrument-defining,
-`MEDIUM == 'BONOS/OBLIG.'` exacto, misma seed `20260916`, selección en orden
-HIGH→MEDIUM→LOW (el universo estructurado 2019-2020 es ~91% Bankinter — sin
-ese orden el cap de emisor impedía llenar HIGH). Muestra v1.1:
-`c8bc3cf71da75e95…` — 30 casos, 15 emisores, máx 30%, todo FAMILY_COLD.
-Ninguna revisión humana se había ejecutado; artifacts v1 de casos que no
-persisten quedaron descartados.
-
-## Freeze v1
-
-`p0/ui-freeze.json` — `freeze_version=1`, `purpose=PRE_WARMUP`,
-git `f8fe58ca57`, tests rc=0. Sellos de app code, manifests,
-candidate engine (`src/emissions_es/extraction`), graph engine
-(`src/emissions_es/linking`).
 
 ## Ingest mecánico (post-freeze, lógica congelada)
 
@@ -49,15 +53,22 @@ Artefactos en `p0/results/warmup/*-technical-smoke.jsonl`.
 
 ## Pendiente (requiere humano)
 
-El warm-up de usabilidad real (los 4 casos con un revisor mirando la UI)
-no lo puede ejecutar esta fase automáticamente. Sesión preparada:
-`p0/runtime/session_warmup_2f131b62.json` (4 casos, ASSISTED).
+Warm-up real con revisores — sesiones preparadas:
 
 ```text
-python -m p0.app.server --session p0/runtime/session_warmup_2f131b62.json --port 8766
+REVIEWER_A: p0/runtime/session_warmup_eec924b2.json
+            (ADM_120967 MANUAL · ADM_123650 ASSISTED)
+REVIEWER_B: p0/runtime/session_warmup_0a1eb983.json
+            (ADM_118245 ASSISTED · ADM_121548 MANUAL)
+
+python -m p0.app.server --session <session.json> --port 8766
 ```
 
+P0-C no se cierra hasta que **ambos** reviewers hayan hecho sus warm-ups:
+si solo hay uno disponible, hace los suyos pero P0-C queda abierto y no se
+emite `ui-freeze-final` hasta que el segundo complete los suyos.
+
 Tras el warm-up humano: registrar issues (taxonomía §7), aplicar solo fixes
-permitidos (§8), verificar inmutabilidad de candidates (§9), generar
-`p0/ui-freeze-final.json` (`--version 2 --purpose P0-D-FINAL
---supersedes p0/ui-freeze.json`), y entonces P0-D.
+permitidos (§8), verificar inmutabilidad de candidates/graph/schema (§9),
+generar `p0/ui-freeze-final.json` (`--version 2 --purpose P0-D-FINAL
+--supersedes p0/ui-freeze-prewarmup-v1.1.json`), y entonces P0-D.

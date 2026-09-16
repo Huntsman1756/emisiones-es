@@ -28,6 +28,8 @@ SEALED = {
     'app_css': 'p0/app/static/style.css',
     'app_html': 'p0/app/static/index.html',
     'ingest': 'p0/ingest_p0.py',
+    'sample_errata': 'p0/manifests/sample-errata-v1.1.json',
+    'candidate_seal': 'p0/results/candidate-seal.json',
 }
 
 
@@ -38,7 +40,7 @@ def sha(p):
 def main():
     import argparse
     ap = argparse.ArgumentParser()
-    ap.add_argument('--version', type=int, default=1)
+    ap.add_argument('--version', default='1')
     ap.add_argument('--purpose', default='PRE_WARMUP')
     ap.add_argument('--out', default='p0/ui-freeze.json')
     ap.add_argument('--supersedes', default=None)

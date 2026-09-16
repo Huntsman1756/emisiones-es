@@ -1,0 +1,30 @@
+{
+ "artifact": "gold-audit",
+ "created_at": "2026-09-16T19:32:55.534861+00:00",
+ "cases_sealed": 30,
+ "fields_per_case": 28,
+ "total_units": 840,
+ "status_totals": {
+  "CONFIRMED_VALUE": 576,
+  "NOT_APPLICABLE": 208,
+  "MISSING": 56
+ },
+ "critical_fields": [
+  "call_put_terms",
+  "coupon_barrier",
+  "coupon_rate",
+  "coupon_type",
+  "currency",
+  "isin",
+  "maturity",
+  "protection_barrier",
+  "redemption",
+  "underlying"
+ ],
+ "critical_verified_count": 300,
+ "consistency_issues": [],
+ "p0d_inc_1": {
+  "case_id": "P0-ADM_123092",
+  "note": "storage incident during P0-D review persistence; gold adjudicated normally from source documents — incident is workflow/product scope, not truth scope"
+ }
+}

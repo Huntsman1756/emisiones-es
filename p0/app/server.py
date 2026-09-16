@@ -267,7 +267,8 @@ def make_handler(app):
                     return self._json({'ok': True, 'decision': dec})
                 if u.path == '/api/submit':
                     review = app.store.submit_review(
-                        rev, body['case_id'], SCHEMA)
+                        rev, body['case_id'], SCHEMA,
+                        reviewer_notes=body.get('reviewer_notes'))
                     for i, it in enumerate(app.session['items']):
                         if it['case_id'] == body['case_id']:
                             app.session['items'][i]['status'] = 'DONE'

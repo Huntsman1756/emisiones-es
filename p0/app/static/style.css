@@ -11,6 +11,8 @@ body { margin: 0; font: 13px/1.4 system-ui, sans-serif; background: #f4f5f7; col
 #case-meta > span { margin-right: 12px; }
 #timer { font: 600 15px ui-monospace, monospace; margin-right: 6px; }
 #progress-box > * { margin-left: 10px; }
+#reviewer-notes { width: 220px; padding: 3px 8px; border: 1px solid #b9bfc7;
+  border-radius: 3px; }
 button { cursor: pointer; border: 1px solid #b9bfc7; background: #fff;
   border-radius: 3px; padding: 3px 10px; }
 button.primary { background: #1f3a5f; color: #fff; border-color: #1f3a5f; }

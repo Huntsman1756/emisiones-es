@@ -140,17 +140,26 @@ class ReviewStore:
                 if d['case_id'] == case_id and d['reviewer_id'] == reviewer_id]
 
     # ---------- submit ----------
-    def submit_review(self, reviewer_id, case_id, schema, ts=None):
-        """Seal the review. Returns warnings; never blocks valid states."""
+    def submit_review(self, reviewer_id, case_id, schema, ts=None,
+                      reviewer_notes=None):
+        """Seal the review + write session close-out. Never blocks
+        valid states; unresolved criticals are warnings only."""
         decs = self.decisions_for(case_id, reviewer_id)
         by_field = {}
         for d in decs:
             by_field.setdefault(d['field'], []).append(d)
 
-        unresolved_critical = []
-        for f in schema['fields']:
-            if f['critical'] and f['id'] not in by_field:
-                unresolved_critical.append(f['id'])
+        unresolved_critical = [
+            f['id'] for f in schema['fields']
+            if f['critical'] and f['id'] not in by_field]
+
+        events = [e for e in self._read(self.events_path)
+                  if e['case_id'] == case_id
+                  and e['reviewer_id'] == reviewer_id]
+        n_ev = lambda t: sum(1 for e in events
+                             if e['event_type'] == t)
+        ptrs = [p for d in decs for p in d.get('evidence_pointers', [])]
+        audit = evidence.audit_case(case_id, ptrs)
 
         review = {
             'case_id': case_id, 'reviewer_id': reviewer_id,
@@ -162,6 +171,25 @@ class ReviewStore:
             'decisions': decs,
         }
         self._append(self.reviews_path, review)
+
+        closeout = {
+            'reviewer_id': reviewer_id, 'case_id': case_id,
+            'submitted': True,
+            'active_seconds': review['active_seconds'],
+            'pause_count': n_ev('CASE_PAUSED'),
+            'focus_lost_count': n_ev('FOCUS_LOST'),
+            'decisions_count': len(decs),
+            'critical_fields_unresolved': unresolved_critical,
+            'evidence_jumps': n_ev('EVIDENCE_JUMP'),
+            'broken_evidence': int(audit['ok'] < audit['total']),
+            'manual_fields_added': sum(
+                1 for d in decs if d.get('origin') == 'MANUAL_DISCOVERY'),
+            'ui_errors': [e['payload'] for e in events
+                          if e['event_type'] == 'UI_ERROR'],
+            'reviewer_notes': list(reviewer_notes or []),
+        }
+        self._append(self.root / 'closeouts.jsonl', closeout)
+        review['closeout'] = closeout
         return review
 
     # ---------- freeze guard ----------

@@ -183,6 +183,39 @@ def test_multivalue_decision(store, dev_cases):
     assert dec['value'] == ['2027-01-01', '2028-01-01']
 
 
+# --- session close-out -----------------------------------------------
+
+def test_closeout_fields(store, dev_cases):
+    cand = _cand(dev_cases)
+    store.record_event('R1', 'c1', 'CASE_OPENED', ts=0.0)
+    store.record_event('R1', 'c1', 'EVIDENCE_JUMP',
+                       {'doc_id': DOC, 'page': 1}, ts=5.0)
+    store.record_event('R1', 'c1', 'FOCUS_LOST', ts=8.0)
+    store.record_event('R1', 'c1', 'CASE_PAUSED', ts=10.0)
+    store.record_event('R1', 'c1', 'CASE_RESUMED', ts=20.0)
+    store.record_event('R1', 'c1', 'UI_ERROR', {'msg': 'x'}, ts=25.0)
+    store.record_decision('R1', 'c1', 'isin', 'CONFIRMED',
+                          value=cand['value'],
+                          candidate_id=cand['candidate_id'],
+                          origin='MACHINE_CANDIDATE',
+                          case_candidates=dev_cases[DOC]['candidates'])
+    store.record_event('R1', 'c1', 'CASE_SUBMITTED', ts=50.0)
+    review = store.submit_review('R1', 'c1', SCHEMA, ts=50.0,
+                               reviewer_notes=['shortcut X unclear'])
+    co = review['closeout']
+    assert co['submitted'] is True
+    assert co['active_seconds'] == pytest.approx(40.0)
+    assert co['pause_count'] == 1
+    assert co['focus_lost_count'] == 1
+    assert co['evidence_jumps'] == 1
+    assert co['decisions_count'] == 1
+    assert co['broken_evidence'] == 0
+    assert co['ui_errors'] == [{'msg': 'x'}]
+    assert co['reviewer_notes'] == ['shortcut X unclear']
+    assert len(co['critical_fields_unresolved']) == \
+        sum(1 for f in SCHEMA['fields'] if f['critical']) - 1
+
+
 # --- freeze guard ---------------------------------------------------
 
 def test_freeze_guard_detects_mismatch(tmp_path, store):

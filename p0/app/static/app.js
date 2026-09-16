@@ -371,6 +371,11 @@ $('mm-ok').onclick = async () => {
 };
 
 /* ---------- submit ---------- */
+window.onerror = (msg, src, line) => {
+  if (S.caseId) event('UI_ERROR', {msg: String(msg).slice(0, 200),
+                                   line});
+};
+
 $('btn-submit').onclick = async () => {
   if (!S.caseId) return;
   const crit = S.payload.schema.fields.filter(f => f.critical);
@@ -378,8 +383,11 @@ $('btn-submit').onclick = async () => {
   if (unresolved.length &&
       !confirm('Critical field unresolved: ' + unresolved.join(', ') +
                '\nSubmit anyway?')) return;
+  const notes = $('reviewer-notes').value.trim();
   await event('CASE_SUBMITTED');
-  const res = await api.post('/api/submit', {case_id: S.caseId});
+  const res = await api.post('/api/submit', {
+    case_id: S.caseId,
+    reviewer_notes: notes ? [notes] : []});
   if (!res.ok) { toast(res.error, true); return; }
   window.onbeforeunload = null;
   clearInterval(S.tick);

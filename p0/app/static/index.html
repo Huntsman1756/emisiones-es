@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Emisiones ES — P0 Review</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header id="topbar">
+  <div id="case-meta">
+    <span id="case-id"></span>
+    <span id="case-isin" class="mono"></span>
+    <span id="case-issuer"></span>
+    <span id="case-class" class="badge"></span>
+    <span id="case-mode" class="badge mode"></span>
+  </div>
+  <div id="timer-box">
+    <span id="timer">00:00</span>
+    <button id="btn-pause" title="Pause (explicit)">Pause</button>
+  </div>
+  <div id="progress-box">
+    <span id="progress"></span>
+    <span id="progress-critical" class="crit"></span>
+    <button id="btn-submit" class="primary">Submit</button>
+  </div>
+</header>
+
+<div id="case-list-bar"></div>
+
+<main id="layout">
+  <aside id="col-graph">
+    <h3>Document graph</h3>
+    <div id="graph-status"></div>
+    <div id="graph-nodes"></div>
+    <div id="graph-edges"></div>
+    <div id="graph-missing"></div>
+  </aside>
+
+  <section id="col-fields">
+    <div id="fields"></div>
+  </section>
+
+  <section id="col-evidence">
+    <div id="ev-head">
+      <span id="ev-doc" class="mono"></span>
+      <span id="ev-page"></span>
+      <span id="ev-role" class="badge"></span>
+    </div>
+    <div id="ev-controls">
+      <button id="ev-prev">&larr;</button>
+      <button id="ev-next">&rarr;</button>
+      <button id="ev-zoom-in">+</button>
+      <button id="ev-zoom-out">−</button>
+      <input id="ev-search" placeholder="search in document">
+      <button id="ev-search-btn">Go</button>
+      <a id="ev-fullpdf" target="_blank">full PDF</a>
+      <button id="ev-capture" title="Use current page as evidence">capture evidence</button>
+    </div>
+    <div id="ev-search-results"></div>
+    <div id="ev-viewport"><div id="ev-canvas"></div></div>
+  </section>
+</main>
+
+<div id="modal-manual" class="modal hidden">
+  <div class="modal-body">
+    <h4 id="mm-title">Add value manually</h4>
+    <input id="mm-value" placeholder="value">
+    <input id="mm-excerpt" placeholder="source excerpt (optional)">
+    <div id="mm-evidence"></div>
+    <div class="modal-actions">
+      <button id="mm-ok" class="primary">Confirm</button>
+      <button id="mm-cancel">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>

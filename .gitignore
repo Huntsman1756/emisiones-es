@@ -15,3 +15,4 @@ g0/corpus/*.pdf
 g1/snapshots/*.pdf
 # material crudo de adquisicion (licencia CNMV: no redistribuir)
 .work/
+p0/runtime/

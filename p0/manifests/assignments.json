@@ -1,0 +1,304 @@
+{
+ "manifest": "p0-assignments",
+ "frozen_at": "2026-09-16T05:47:02+00:00",
+ "seed": 20260917,
+ "design": "crossed: cada caso 1x MANUAL + 1x ASSISTED por revisores distintos; 15/15 por revisor y modo; estratificado por stratum; orden de casos aleatorio independiente por revisor",
+ "reviewers": {
+  "REVIEWER_A": "TBD (registrar perfil en ejecucion)",
+  "REVIEWER_B": "TBD (registrar perfil en ejecucion)"
+ },
+ "assignments": [
+  {
+   "case_id": "P0-ADM_124137",
+   "stratum": "LOW",
+   "group": "G1",
+   "REVIEWER_A": "MANUAL",
+   "REVIEWER_B": "ASSISTED"
+  },
+  {
+   "case_id": "P0-ADM_123065",
+   "stratum": "LOW",
+   "group": "G1",
+   "REVIEWER_A": "MANUAL",
+   "REVIEWER_B": "ASSISTED"
+  },
+  {
+   "case_id": "P0-ADM_120159",
+   "stratum": "LOW",
+   "group": "G1",
+   "REVIEWER_A": "MANUAL",
+   "REVIEWER_B": "ASSISTED"
+  },
+  {
+   "case_id": "P0-ADM_124146",
+   "stratum": "LOW",
+   "group": "G1",
+   "REVIEWER_A": "MANUAL",
+   "REVIEWER_B": "ASSISTED"
+  },
+  {
+   "case_id": "P0-ADM_120967",
+   "stratum": "LOW",
+   "group": "G1",
+   "REVIEWER_A": "MANUAL",
+   "REVIEWER_B": "ASSISTED"
+  },
+  {
+   "case_id": "P0-ADM_121925",
+   "stratum": "LOW",
+   "group": "G2",
+   "REVIEWER_A": "ASSISTED",
+   "REVIEWER_B": "MANUAL"
+  },
+  {
+   "case_id": "P0-ADM_120844",
+   "stratum": "LOW",
+   "group": "G2",
+   "REVIEWER_A": "ASSISTED",
+   "REVIEWER_B": "MANUAL"
+  },
+  {
+   "case_id": "P0-ADM_117215",
+   "stratum": "LOW",
+   "group": "G2",
+   "REVIEWER_A": "ASSISTED",
+   "REVIEWER_B": "MANUAL"
+  },
+  {
+   "case_id": "P0-ADM_120983",
+   "stratum": "LOW",
+   "group": "G2",
+   "REVIEWER_A": "ASSISTED",
+   "REVIEWER_B": "MANUAL"
+  },
+  {
+   "case_id": "P0-ADM_119967",
+   "stratum": "LOW",
+   "group": "G2",
+   "REVIEWER_A": "ASSISTED",
+   "REVIEWER_B": "MANUAL"
+  },
+  {
+   "case_id": "P0-ADM_122928",
+   "stratum": "MEDIUM",
+   "group": "G1",
+   "REVIEWER_A": "MANUAL",
+   "REVIEWER_B": "ASSISTED"
+  },
+  {
+   "case_id": "P0-ADM_120160",
+   "stratum": "MEDIUM",
+   "group": "G1",
+   "REVIEWER_A": "MANUAL",
+   "REVIEWER_B": "ASSISTED"
+  },
+  {
+   "case_id": "P0-ADM_122384",
+   "stratum": "MEDIUM",
+   "group": "G1",
+   "REVIEWER_A": "MANUAL",
+   "REVIEWER_B": "ASSISTED"
+  },
+  {
+   "case_id": "P0-ADM_116740",
+   "stratum": "MEDIUM",
+   "group": "G1",
+   "REVIEWER_A": "MANUAL",
+   "REVIEWER_B": "ASSISTED"
+  },
+  {
+   "case_id": "P0-ADM_119895",
+   "stratum": "MEDIUM",
+   "group": "G1",
+   "REVIEWER_A": "MANUAL",
+   "REVIEWER_B": "ASSISTED"
+  },
+  {
+   "case_id": "P0-ADM_115140",
+   "stratum": "MEDIUM",
+   "group": "G2",
+   "REVIEWER_A": "ASSISTED",
+   "REVIEWER_B": "MANUAL"
+  },
+  {
+   "case_id": "P0-ADM_118572",
+   "stratum": "MEDIUM",
+   "group": "G2",
+   "REVIEWER_A": "ASSISTED",
+   "REVIEWER_B": "MANUAL"
+  },
+  {
+   "case_id": "P0-ADM_115226",
+   "stratum": "MEDIUM",
+   "group": "G2",
+   "REVIEWER_A": "ASSISTED",
+   "REVIEWER_B": "MANUAL"
+  },
+  {
+   "case_id": "P0-ADM_115408",
+   "stratum": "MEDIUM",
+   "group": "G2",
+   "REVIEWER_A": "ASSISTED",
+   "REVIEWER_B": "MANUAL"
+  },
+  {
+   "case_id": "P0-ADM_123509",
+   "stratum": "MEDIUM",
+   "group": "G2",
+   "REVIEWER_A": "ASSISTED",
+   "REVIEWER_B": "MANUAL"
+  },
+  {
+   "case_id": "P0-ADM_123078",
+   "stratum": "HIGH",
+   "group": "G1",
+   "REVIEWER_A": "MANUAL",
+   "REVIEWER_B": "ASSISTED"
+  },
+  {
+   "case_id": "P0-ADM_123054",
+   "stratum": "HIGH",
+   "group": "G1",
+   "REVIEWER_A": "MANUAL",
+   "REVIEWER_B": "ASSISTED"
+  },
+  {
+   "case_id": "P0-ADM_123049",
+   "stratum": "HIGH",
+   "group": "G1",
+   "REVIEWER_A": "MANUAL",
+   "REVIEWER_B": "ASSISTED"
+  },
+  {
+   "case_id": "P0-ADM_123652",
+   "stratum": "HIGH",
+   "group": "G1",
+   "REVIEWER_A": "MANUAL",
+   "REVIEWER_B": "ASSISTED"
+  },
+  {
+   "case_id": "P0-ADM_124128",
+   "stratum": "HIGH",
+   "group": "G1",
+   "REVIEWER_A": "MANUAL",
+   "REVIEWER_B": "ASSISTED"
+  },
+  {
+   "case_id": "P0-ADM_124127",
+   "stratum": "HIGH",
+   "group": "G2",
+   "REVIEWER_A": "ASSISTED",
+   "REVIEWER_B": "MANUAL"
+  },
+  {
+   "case_id": "P0-ADM_123645",
+   "stratum": "HIGH",
+   "group": "G2",
+   "REVIEWER_A": "ASSISTED",
+   "REVIEWER_B": "MANUAL"
+  },
+  {
+   "case_id": "P0-ADM_123661",
+   "stratum": "HIGH",
+   "group": "G2",
+   "REVIEWER_A": "ASSISTED",
+   "REVIEWER_B": "MANUAL"
+  },
+  {
+   "case_id": "P0-ADM_124130",
+   "stratum": "HIGH",
+   "group": "G2",
+   "REVIEWER_A": "ASSISTED",
+   "REVIEWER_B": "MANUAL"
+  },
+  {
+   "case_id": "P0-ADM_123063",
+   "stratum": "HIGH",
+   "group": "G2",
+   "REVIEWER_A": "ASSISTED",
+   "REVIEWER_B": "MANUAL"
+  }
+ ],
+ "case_order": {
+  "REVIEWER_A": [
+   "P0-ADM_124137",
+   "P0-ADM_124128",
+   "P0-ADM_124127",
+   "P0-ADM_120844",
+   "P0-ADM_115408",
+   "P0-ADM_121925",
+   "P0-ADM_124130",
+   "P0-ADM_123078",
+   "P0-ADM_120983",
+   "P0-ADM_123509",
+   "P0-ADM_124146",
+   "P0-ADM_122928",
+   "P0-ADM_120160",
+   "P0-ADM_116740",
+   "P0-ADM_123054",
+   "P0-ADM_119895",
+   "P0-ADM_120159",
+   "P0-ADM_123661",
+   "P0-ADM_123065",
+   "P0-ADM_122384",
+   "P0-ADM_123063",
+   "P0-ADM_115140",
+   "P0-ADM_115226",
+   "P0-ADM_123652",
+   "P0-ADM_120967",
+   "P0-ADM_118572",
+   "P0-ADM_117215",
+   "P0-ADM_123049",
+   "P0-ADM_119967",
+   "P0-ADM_123645"
+  ],
+  "REVIEWER_B": [
+   "P0-ADM_123049",
+   "P0-ADM_116740",
+   "P0-ADM_115408",
+   "P0-ADM_123509",
+   "P0-ADM_123645",
+   "P0-ADM_123661",
+   "P0-ADM_121925",
+   "P0-ADM_123078",
+   "P0-ADM_124137",
+   "P0-ADM_120160",
+   "P0-ADM_124130",
+   "P0-ADM_119967",
+   "P0-ADM_123065",
+   "P0-ADM_124146",
+   "P0-ADM_118572",
+   "P0-ADM_123054",
+   "P0-ADM_115226",
+   "P0-ADM_120983",
+   "P0-ADM_120967",
+   "P0-ADM_120844",
+   "P0-ADM_119895",
+   "P0-ADM_122928",
+   "P0-ADM_122384",
+   "P0-ADM_124128",
+   "P0-ADM_124127",
+   "P0-ADM_117215",
+   "P0-ADM_115140",
+   "P0-ADM_123652",
+   "P0-ADM_120159",
+   "P0-ADM_123063"
+  ]
+ },
+ "warmup_assignment": {
+  "REVIEWER_A": [
+   "P0-ADM_118013",
+   "P0-ADM_118674",
+   "P0-ADM_123031",
+   "P0-ADM_123029"
+  ],
+  "REVIEWER_B": [
+   "P0-ADM_118013",
+   "P0-ADM_118674",
+   "P0-ADM_123031",
+   "P0-ADM_123029"
+  ],
+  "rule": "warmup no cuenta en metricas; nunca entra al holdout"
+ },
+ "assignments_sha256": "26ff883dbaa999a22616636f2c5c34703d6d1480797accac67b28f3f1df151c9"
+}

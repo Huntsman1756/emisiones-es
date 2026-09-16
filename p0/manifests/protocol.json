@@ -1,0 +1,44 @@
+{
+ "manifest": "p0-protocol",
+ "version": "p0.1",
+ "frozen_at": "pre-P0-B (antes de construir UI)",
+ "hypothesis": "Emisiones ES permite a un profesional revisar y confirmar los terminos de una emision de forma materialmente mas rapida que el workflow manual sobre CNMV/PDF, sin degradar exactitud, completitud ni auditabilidad.",
+ "invariant": "No existe promocion automatica de CANDIDATE a CONFIRMED. machine_candidate y human_confirmed_observation son capas separadas.",
+ "sample": {
+  "n": 30,
+  "source": "p0/manifests/sample.json (CNMV admisiones 2019-2020; overlap con G0/G1/G2 = 0 por construccion)",
+  "strata": {"LOW": 10, "MEDIUM": 10, "HIGH": 10},
+  "warmup": "4 casos fuera del holdout; 2 por revisor (1 LOW/MEDIUM + 1 HIGH); no cuentan en metricas"
+ },
+ "reviewers": {
+  "n": 2,
+  "requirements": "familiaridad con documentacion financiera; no haber anotado casos P0; sin conocer outputs/truth del otro revisor durante sesiones",
+  "record": ["reviewer_id", "experience_band", "domain_experience", "prior_familiarity_with_CNMV"],
+  "adjudication": "preferencia: tercer experto; fallback: adjudicacion conjunta DESPUES de sellar outputs/tiempos (100% discrepancias + audit 20% acuerdos)",
+  "fallback_if_no_second_reviewer": "P0-pilot de un solo revisor, explicitamente no concluyente; gate oficial se reserva hasta tener al segundo"
+ },
+ "design": "crossed: cada caso 1x MANUAL + 1x ASSISTED, nunca mismo revisor en ambos modos; 15/15; orden aleatorio independiente por revisor; anti-learning: sin discutir casos ni ver outputs/gold hasta completar los 60 reviews",
+ "workflows": {
+  "MANUAL": "CNMV/fuentes primarias + PDF viewer + busqueda + calculadora + formulario vacio; SIN Emisiones ES, sin LLM/AI, sin extractores externos",
+  "ASSISTED": "todo lo anterior + vista ISIN + document graph + reference data + machine candidates + page/bbox evidence + Confirm/Reject/Conflict/Missing"
+ },
+ "primary_metric": {
+  "time_ratio": "assisted_active_time / manual_active_time por caso",
+  "endpoint": "median(time_ratio)",
+  "gate": "median <= 0.60 (>=40% reduccion) AND >=70% de 30 casos mas rapidos en ASSISTED AND upper 95% CI (bootstrap) <= 0.80"
+ },
+ "quality": {
+  "gold": "post-hoc desde source documents/official metadata/graph evidence; nunca output automatico como autoridad; truth-v1/v2 + semantic diff",
+  "gates": "assisted confirmed-precision >= 0.99; precision_assisted >= precision_manual - 0.01; recall_assisted >= recall_manual - 0.05",
+  "safety": "CRITICAL_ERROR assisted = 0; unsupported CONFIRMED = 0; 100% CONFIRMED assisted con evidence pointer valido"
+ },
+ "evidence_gate": "correct evidence navigation >= 98%; 0 pointers a documento/instrumento equivocado",
+ "diagnostics": ["candidate counts/accept/reject/review rates", "candidate coverage of final gold", "documents opened, PDF searches, evidence jumps", "field agreement inter-reviewer (pre-adjudicacion)", "subgrupos: strata, FAMILY_SEEN/COLD, tipo, reviewer (no cambian el verdict)"],
+ "verdicts": {
+  "PASS": "todos los hard gates",
+  "FAIL": "mas rapido pero menos seguro | seguro pero median saving <40% | velocidad por menor completitud",
+  "INCONCLUSIVE": "solo <24/30 casos con paired timings validos o problema externo; nunca por rendimiento insuficiente"
+ },
+ "sequencing": ["P0-A protocol+sample freeze", "P0-B reviewer UI", "P0-C warm-up smoke", "P0-D 60 timed blind reviews", "P0-E gold adjudication", "P0-F one-shot product scoring"],
+ "frozen_rules": "umbrales no cambian entre fases; UI se desarrolla solo con G0/G1/G2 dev data; nunca usar docs P0 para modificar candidates/UI/graph logic; no sustituir casos por rendimiento de candidates"
+}

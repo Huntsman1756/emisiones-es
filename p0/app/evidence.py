@@ -41,11 +41,20 @@ def validate_pointer(pointer):
 
     excerpt = (pointer.get('excerpt') or '').strip()
     if excerpt and ir:
-        page_text = ' '.join(
-            (bl.get('text') or '') for bl in pages[page]['blocks'])
-        if excerpt[:80] not in page_text:
+        page_text = _norm(' '.join(
+            (bl.get('text') or '') for bl in pages[page]['blocks']))
+        if _norm(excerpt)[:80] not in page_text:
             return 'BROKEN_EVIDENCE', 'excerpt not present in page text'
     return 'OK', None
+
+
+def _norm(s):
+    """Normalizacion para comparacion de excerpts: NFKC + colapso de
+    espacios + casefold. El excerpt del revisor puede diferir del texto
+    IR en espaciado/encoding sin que el pointer sea invalido."""
+    import unicodedata
+    return ' '.join(unicodedata.normalize('NFKC', s)
+                    .casefold().split())
 
 
 def audit_case(case_id, pointers):

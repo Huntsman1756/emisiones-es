@@ -210,7 +210,12 @@ function fieldCard(f, cands) {
 }
 
 function fmtVal(v) {
-  return Array.isArray(v) ? v.join(' | ') : (v ?? '');
+  if (v == null) return '';
+  if (Array.isArray(v)) return v.map(fmtVal).join(' | ');
+  if (typeof v === 'object')
+    return Object.entries(v).map(([k, x]) => `${k}=${fmtVal(x)}`)
+      .join(' ');
+  return String(v);
 }
 
 function candRow(f, c) {

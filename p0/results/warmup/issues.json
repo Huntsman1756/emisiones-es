@@ -1,0 +1,46 @@
+{
+ "manifest": "p0-c-warmup-issues",
+ "source": "reviewer_notes en closeouts de las 4 sesiones warm-up",
+ "issues": [
+  {
+   "issue_id": "WU-1",
+   "category": "EVIDENCE_RENDER_BUG",
+   "warmup_case": "P0-ADM_123650, P0-ADM_118245",
+   "description": "Valores de candidate dict/list se renderizaban como [object Object]; candidate de Redemption aparecia sin valor visible",
+   "change": "fmtVal serializa objetos como k=v y listas recursivamente",
+   "allowed_by_protocol": "8 (rendering/highlight)",
+   "candidate_semantics_changed": false,
+   "status": "FIXED"
+  },
+  {
+   "issue_id": "WU-2",
+   "category": "EVIDENCE_RENDER_BUG",
+   "warmup_case": "P0-ADM_120967, P0-ADM_123650",
+   "description": "Excerpts literales del PDF disparaban BROKEN_EVIDENCE por diferencias de espaciado/encoding entre el texto IR y lo tecleado por el revisor",
+   "change": "comparacion de excerpt normalizada (NFKC + colapso espacios + casefold)",
+   "allowed_by_protocol": "8 (instrumentation/evidence validation bug)",
+   "candidate_semantics_changed": false,
+   "status": "FIXED"
+  },
+  {
+   "issue_id": "WU-3",
+   "category": "PRODUCT_LOGIC_REQUEST",
+   "warmup_case": "P0-ADM_118245",
+   "description": "Candidate coupon_rate 50.00 correspondia en realidad a participacion; protection_barrier 100.00 era barrera de cupon, no de capital — el revisor detecto la misattribution via evidencia",
+   "change": "NINGUNO — registrado, no implementado antes de P0-D",
+   "allowed_by_protocol": "OUT_OF_SCOPE_P0_C",
+   "candidate_semantics_changed": false,
+   "status": "LOGGED_ONLY",
+   "note": "Confirmacion empirica del hallazgo G2-B: la ambiguedad semantica label->campo es real y el workflow humano la captura"
+  }
+ ],
+ "summary": {
+  "warmups_submitted": 4,
+  "blocker_bugs": 0,
+  "broken_evidence": 0,
+  "wrong_document_pointers": 0,
+  "timer_defects": 0,
+  "event_log_defects": 0,
+  "product_logic_changes": 0
+ }
+}

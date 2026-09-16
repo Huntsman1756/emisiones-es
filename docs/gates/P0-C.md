@@ -20,10 +20,12 @@ ambos modos. A: LOW MANUAL + HIGH ASSISTED · B: MEDIUM ASSISTED + HIGH MANUAL.
 
 ## Freeze
 
-`p0/ui-freeze-prewarmup-v1.1.json` — `freeze_version=1.1`,
-`purpose=PRE_WARMUP`, `supersedes=p0/ui-freeze.json`, git `310f37f0b2`,
-tests rc=0. Sellos: app, manifests, sample-v1.1, assignments-v1.1,
-candidate-seal, candidate engine, graph engine.
+`p0/ui-freeze-prewarmup-v1.2.json` — `freeze_version=1.2`,
+`purpose=PRE_WARMUP`, supersedes v1.1 → v1, tests rc=0. Sellos: app,
+manifests, sample-v1.1, assignments, candidate-seal, candidate engine,
+graph engine. v1.2 añade instrumentación preregistrada de close-out
+(`closeouts.jsonl` + `UI_ERROR` + reviewer_notes UX-only) — sin tocar
+lógica de producto.
 (`p0/ui-freeze.json` v1 queda obsoleto — fue emitido sobre sample v1.)
 
 ## Pre-flight (ejecutado)

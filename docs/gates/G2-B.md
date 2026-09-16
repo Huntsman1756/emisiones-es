@@ -1,8 +1,8 @@
 # G2-B — SEMANTIC FIELD RECOGNITION PROBE
 
-**Estado: OPEN (preregistrado)** — experimento único y estrecho. No es una
-evaluación de producto ni resucita `GENERAL_EXTRACTION`. Abre tras
-`g2-a-final-fail` (`8ad3e2d`, tag `g2-a-final-fail`).
+**Estado: CLOSED — FAIL (2026-09-16)** — experimento único y estrecho. No es
+una evaluación de producto ni resucita `GENERAL_EXTRACTION`. Abrió tras
+`g2-a-final-fail` (`8ad3e2d`, tag `g2-a-final-fail`). Veredicto en §10.
 
 ## 0. Motivación
 
@@ -165,3 +165,67 @@ g2/results/g2b-baselines.json
 g2/results/g2b-challengers.json
 g2/results/g2b-verdict.json
 ```
+
+## 10. VEREDICTO G2-B (2026-09-16)
+
+```text
+G2-B VERDICT: FAIL -> END automated contractual extraction research
+```
+
+### Dataset
+
+```text
+9,977 ejemplos (227 field + 1,350 UNKNOWN en TEST cold-issuer)
+434 instancias PRESENT sin label resoluble (no entran; no se inventa gold)
+split sin solape document_family_key/issuer_key; 12/227 test 'suspect'
+```
+
+### Resultados TEST cold-issuer
+
+| sistema | recall campos (confident) | wrong_confident |
+|---|---|---|
+| B0 aliases exactos (FIELD_SPECS) | 56.4% | 17 |
+| B1 léxico normalizado | 50.7% | 58 |
+| C2a embeddings (label) | 0% | 0 (sin punto operativo) |
+| C2b embeddings (label+ctx) | 0% | 0 |
+| C1 Valentine COMA / Cupid / Jaccard-Lev | 0% | 0 |
+| C1 Valentine SimilarityFlooding | STOP runtime >35min | — |
+
+Diagnóstico C2a a umbrales fijos en test: τ=0.90 → recall 7.9% con wc=46;
+τ=0.95 → recall 1.3% con wc=27. **No existe punto operativo seguro.**
+
+### Por qué falla
+
+1. **Ambigüedad irreducible del surface-form**: la misma frase de label
+   denota campos distintos según plantilla — `Interest Basis` →
+   `coupon_rate`/`coupon_type`, `Aggregate Amount` → `denomination`/
+   `issued_amount`, `Status of the Notes` → `ranking`/`subordination`,
+   `Tipo de Subyacente` → `underlying`/`benchmark`. Los 17 wrong-confident
+   de B0 son de esta clase; ningún matcher de labels los resuelve porque el
+   label no porta la información que los distingue.
+2. **Separabilidad nula**: en dev, mappings incorrectos alcanzan cosine 1.0
+   (frases idénticas pertenecen a campos distintos en docs distintos).
+   `wrong_confident=0` exige recall=0 en todo challenger.
+3. Es la misma clase residual que los 19 `STILL_FALSE_SUPPORTED` de G2-A:
+   el problema es semántica de claim-schema, no vocabulario ni estructura.
+
+### Consecuencia
+
+La hipótesis "label recognition is solvable" queda refutada a nivel
+label+contexto estructural. Conforme al contrato:
+
+```text
+END automated contractual extraction research
+```
+
+Estado final del proyecto:
+
+```text
+PROVEN   security/document graph · CNMV acquisition · identity ·
+         safe linkage (P=1.0, FP=0) · lifecycle supplements ·
+         novelty 82% · human-review assisted extraction
+REJECTED general contract extraction · backend substitution ·
+         structure-only verification · semantic field recognition
+```
+
+No se selecciona holdout G2. No procede G3.

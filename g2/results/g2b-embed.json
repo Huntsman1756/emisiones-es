@@ -1,0 +1,3227 @@
+{
+ "manifest": "g2b-challenger-embed",
+ "model": "paraphrase-multilingual-MiniLM-L12-v2",
+ "license": "apache-2.0 (model card HF)",
+ "C2a_label_only": {
+  "tau_confident": 1.01,
+  "tau_review": 0.4,
+  "dev": {
+   "n_examples": 1620,
+   "n_field": 148,
+   "n_unknown": 1472,
+   "field_recall_confident": 0.0,
+   "top1_accuracy_confident": 0.0,
+   "wrong_confident": 0,
+   "wrong_confident_on_unknown": 0,
+   "review_or_unknown_on_fields": 148,
+   "per_field": {
+    "isin": {
+     "n": 11,
+     "ok": 0,
+     "wrong": 0,
+     "review": 11
+    },
+    "issue_date": {
+     "n": 10,
+     "ok": 0,
+     "wrong": 0,
+     "review": 10
+    },
+    "maturity": {
+     "n": 11,
+     "ok": 0,
+     "wrong": 0,
+     "review": 11
+    },
+    "denomination": {
+     "n": 12,
+     "ok": 0,
+     "wrong": 0,
+     "review": 12
+    },
+    "issued_amount": {
+     "n": 11,
+     "ok": 0,
+     "wrong": 0,
+     "review": 11
+    },
+    "coupon_type": {
+     "n": 10,
+     "ok": 0,
+     "wrong": 0,
+     "review": 10
+    },
+    "day_count": {
+     "n": 4,
+     "ok": 0,
+     "wrong": 0,
+     "review": 4
+    },
+    "business_day_convention": {
+     "n": 6,
+     "ok": 0,
+     "wrong": 0,
+     "review": 6
+    },
+    "fixing_rules": {
+     "n": 6,
+     "ok": 0,
+     "wrong": 0,
+     "review": 6
+    },
+    "redemption_formula": {
+     "n": 6,
+     "ok": 0,
+     "wrong": 0,
+     "review": 6
+    },
+    "barrier": {
+     "n": 4,
+     "ok": 0,
+     "wrong": 0,
+     "review": 4
+    },
+    "observation_dates": {
+     "n": 3,
+     "ok": 0,
+     "wrong": 0,
+     "review": 3
+    },
+    "currency": {
+     "n": 10,
+     "ok": 0,
+     "wrong": 0,
+     "review": 10
+    },
+    "underlying": {
+     "n": 6,
+     "ok": 0,
+     "wrong": 0,
+     "review": 6
+    },
+    "settlement_type": {
+     "n": 10,
+     "ok": 0,
+     "wrong": 0,
+     "review": 10
+    },
+    "autocall": {
+     "n": 3,
+     "ok": 0,
+     "wrong": 0,
+     "review": 3
+    },
+    "benchmark": {
+     "n": 6,
+     "ok": 0,
+     "wrong": 0,
+     "review": 6
+    },
+    "call_dates": {
+     "n": 5,
+     "ok": 0,
+     "wrong": 0,
+     "review": 5
+    },
+    "coupon_rate": {
+     "n": 3,
+     "ok": 0,
+     "wrong": 0,
+     "review": 3
+    },
+    "payment_frequency": {
+     "n": 6,
+     "ok": 0,
+     "wrong": 0,
+     "review": 6
+    },
+    "subordination": {
+     "n": 1,
+     "ok": 0,
+     "wrong": 0,
+     "review": 1
+    },
+    "spread": {
+     "n": 3,
+     "ok": 0,
+     "wrong": 0,
+     "review": 3
+    },
+    "reset_dates": {
+     "n": 1,
+     "ok": 0,
+     "wrong": 0,
+     "review": 1
+    }
+   },
+   "wrong_cases": [],
+   "macro_recall": 0.0,
+   "macro_precision": null
+  },
+  "test": {
+   "n_examples": 1577,
+   "n_field": 227,
+   "n_unknown": 1350,
+   "field_recall_confident": 0.0,
+   "top1_accuracy_confident": 0.0,
+   "wrong_confident": 0,
+   "wrong_confident_on_unknown": 0,
+   "review_or_unknown_on_fields": 227,
+   "per_field": {
+    "isin": {
+     "n": 18,
+     "ok": 0,
+     "wrong": 0,
+     "review": 18
+    },
+    "currency": {
+     "n": 18,
+     "ok": 0,
+     "wrong": 0,
+     "review": 18
+    },
+    "issue_date": {
+     "n": 22,
+     "ok": 0,
+     "wrong": 0,
+     "review": 22
+    },
+    "maturity": {
+     "n": 20,
+     "ok": 0,
+     "wrong": 0,
+     "review": 20
+    },
+    "denomination": {
+     "n": 18,
+     "ok": 0,
+     "wrong": 0,
+     "review": 18
+    },
+    "issued_amount": {
+     "n": 17,
+     "ok": 0,
+     "wrong": 0,
+     "review": 17
+    },
+    "coupon_rate": {
+     "n": 15,
+     "ok": 0,
+     "wrong": 0,
+     "review": 15
+    },
+    "redemption_formula": {
+     "n": 15,
+     "ok": 0,
+     "wrong": 0,
+     "review": 15
+    },
+    "underlying": {
+     "n": 11,
+     "ok": 0,
+     "wrong": 0,
+     "review": 11
+    },
+    "barrier": {
+     "n": 14,
+     "ok": 0,
+     "wrong": 0,
+     "review": 14
+    },
+    "observation_dates": {
+     "n": 9,
+     "ok": 0,
+     "wrong": 0,
+     "review": 9
+    },
+    "settlement_type": {
+     "n": 18,
+     "ok": 0,
+     "wrong": 0,
+     "review": 18
+    },
+    "participation": {
+     "n": 4,
+     "ok": 0,
+     "wrong": 0,
+     "review": 4
+    },
+    "cap": {
+     "n": 2,
+     "ok": 0,
+     "wrong": 0,
+     "review": 2
+    },
+    "autocall": {
+     "n": 1,
+     "ok": 0,
+     "wrong": 0,
+     "review": 1
+    },
+    "benchmark": {
+     "n": 3,
+     "ok": 0,
+     "wrong": 0,
+     "review": 3
+    },
+    "spread": {
+     "n": 3,
+     "ok": 0,
+     "wrong": 0,
+     "review": 3
+    },
+    "reset_dates": {
+     "n": 1,
+     "ok": 0,
+     "wrong": 0,
+     "review": 1
+    },
+    "fixing_rules": {
+     "n": 3,
+     "ok": 0,
+     "wrong": 0,
+     "review": 3
+    },
+    "subordination": {
+     "n": 2,
+     "ok": 0,
+     "wrong": 0,
+     "review": 2
+    },
+    "payment_frequency": {
+     "n": 5,
+     "ok": 0,
+     "wrong": 0,
+     "review": 5
+    },
+    "day_count": {
+     "n": 1,
+     "ok": 0,
+     "wrong": 0,
+     "review": 1
+    },
+    "call_dates": {
+     "n": 2,
+     "ok": 0,
+     "wrong": 0,
+     "review": 2
+    },
+    "coupon_type": {
+     "n": 3,
+     "ok": 0,
+     "wrong": 0,
+     "review": 3
+    },
+    "ranking": {
+     "n": 2,
+     "ok": 0,
+     "wrong": 0,
+     "review": 2
+    }
+   },
+   "wrong_cases": [],
+   "macro_recall": 0.0,
+   "macro_precision": null
+  },
+  "diagnostic_fixed_tau_test": {
+   "0.8": {
+    "n_examples": 1577,
+    "n_field": 227,
+    "n_unknown": 1350,
+    "field_recall_confident": 0.2026,
+    "top1_accuracy_confident": 0.1862,
+    "wrong_confident": 201,
+    "wrong_confident_on_unknown": 167,
+    "review_or_unknown_on_fields": 147,
+    "per_field": {
+     "isin": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "currency": {
+      "n": 18,
+      "ok": 1,
+      "wrong": 0,
+      "review": 17
+     },
+     "issue_date": {
+      "n": 22,
+      "ok": 1,
+      "wrong": 4,
+      "review": 17
+     },
+     "maturity": {
+      "n": 20,
+      "ok": 2,
+      "wrong": 1,
+      "review": 17
+     },
+     "denomination": {
+      "n": 18,
+      "ok": 17,
+      "wrong": 1,
+      "review": 0
+     },
+     "issued_amount": {
+      "n": 17,
+      "ok": 0,
+      "wrong": 1,
+      "review": 16
+     },
+     "coupon_rate": {
+      "n": 15,
+      "ok": 0,
+      "wrong": 5,
+      "review": 10
+     },
+     "redemption_formula": {
+      "n": 15,
+      "ok": 12,
+      "wrong": 2,
+      "review": 1
+     },
+     "underlying": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 7,
+      "review": 4
+     },
+     "barrier": {
+      "n": 14,
+      "ok": 0,
+      "wrong": 1,
+      "review": 13
+     },
+     "observation_dates": {
+      "n": 9,
+      "ok": 6,
+      "wrong": 0,
+      "review": 3
+     },
+     "settlement_type": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "participation": {
+      "n": 4,
+      "ok": 0,
+      "wrong": 3,
+      "review": 1
+     },
+     "cap": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 1,
+      "review": 1
+     },
+     "autocall": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "benchmark": {
+      "n": 3,
+      "ok": 1,
+      "wrong": 0,
+      "review": 2
+     },
+     "spread": {
+      "n": 3,
+      "ok": 1,
+      "wrong": 0,
+      "review": 2
+     },
+     "reset_dates": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 1,
+      "review": 0
+     },
+     "fixing_rules": {
+      "n": 3,
+      "ok": 1,
+      "wrong": 0,
+      "review": 2
+     },
+     "subordination": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 2,
+      "review": 0
+     },
+     "payment_frequency": {
+      "n": 5,
+      "ok": 1,
+      "wrong": 3,
+      "review": 1
+     },
+     "day_count": {
+      "n": 1,
+      "ok": 1,
+      "wrong": 0,
+      "review": 0
+     },
+     "call_dates": {
+      "n": 2,
+      "ok": 2,
+      "wrong": 0,
+      "review": 0
+     },
+     "coupon_type": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "ranking": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 2,
+      "review": 0
+     }
+    },
+    "wrong_cases": [
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "coupon_rate",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Nombre y descripción del  Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "barrier",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Nombre y descripción del Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "coupon_rate",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_002",
+      "gold": "coupon_rate",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11340_006",
+      "gold": "participation",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_020",
+      "gold": "participation",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_019",
+      "gold": "participation",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_015",
+      "gold": "cap",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_012",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Nombre y descripción del Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_011",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Nombre y descripción del Subyacente"
+     },
+     {
+      "doc": "CCFF_11340_024",
+      "gold": "redemption_formula",
+      "pred": "maturity",
+      "label": "Fecha de Amortización Final (24 de junio de 2027)"
+     },
+     {
+      "doc": "CCFF_11340_023",
+      "gold": "redemption_formula",
+      "pred": "maturity",
+      "label": "Fecha de Amortización Final"
+     },
+     {
+      "doc": "CCFF_11340_014",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Nombre y descripción del Subyacente"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "denomination",
+      "pred": "issued_amount",
+      "label": "Aggregate Amount"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "issued_amount",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "reset_dates",
+      "pred": "payment_frequency",
+      "label": "Fixed Rate Note Provisions"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "subordination",
+      "pred": "benchmark",
+      "label": "Status of the Notes"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "coupon_rate",
+      "pred": "maturity",
+      "label": "Interest Basis"
+     },
+     {
+      "doc": "CCFF_11340_009",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Tipo de Subyacente"
+     },
+     {
+      "doc": "CCFF_11340_009",
+      "gold": "payment_frequency",
+      "pred": "issue_date",
+      "label": "Fecha de Pago"
+     },
+     {
+      "doc": "CCFF_11340_020",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Tipo de Subyacente"
+     },
+     {
+      "doc": "CCFF_11340_020",
+      "gold": "payment_frequency",
+      "pred": "issue_date",
+      "label": "Fecha de Pago"
+     },
+     {
+      "doc": "ADM_143057",
+      "gold": "issue_date",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143056",
+      "gold": "issue_date",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143048",
+      "gold": "issue_date",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143048",
+      "gold": "maturity",
+      "pred": "payment_frequency",
+      "label": "Interest"
+     },
+     {
+      "doc": "ADM_143048",
+      "gold": "ranking",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "issue_date",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "coupon_rate",
+      "pred": "payment_frequency",
+      "label": "Interest"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "ranking",
+      "pred": "benchmark",
+      "label": "Status of the Notes"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "subordination",
+      "pred": "benchmark",
+      "label": "Status of the Notes"
+     },
+     {
+      "doc": "ADM_143121",
+      "gold": "payment_frequency",
+      "pred": "coupon_rate",
+      "label": "As of 30 September 2024"
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "UNKNOWN",
+      "pred": "redemption_formula",
+      "label": "Evento Fiscal: No Aplicable."
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "UNKNOWN",
+      "pred": "settlement_type",
+      "label": "Ejemplos de liquidación a vencimiento"
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "UNKNOWN",
+      "pred": "day_count",
+      "label": "Fórmula de cálculo"
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Modalidad"
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "UNKNOWN",
+      "pred": "put_dates",
+      "label": "Representación de los inversores"
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "UNKNOWN",
+      "pred": "benchmark",
+      "label": "Otros"
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "UNKNOWN",
+      "pred": "redemption_formula",
+      "label": "Evento Fiscal: No Aplicable."
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "UNKNOWN",
+      "pred": "settlement_type",
+      "label": "Ejemplos de liquidación a vencimiento"
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "UNKNOWN",
+      "pred": "day_count",
+      "label": "Fórmula de cálculo"
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Modalidad"
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "UNKNOWN",
+      "pred": "put_dates",
+      "label": "Representación de los inversores"
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "UNKNOWN",
+      "pred": "benchmark",
+      "label": "Otros"
+     },
+     {
+      "doc": "CCFF_11290_002",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_002",
+      "gold": "UNKNOWN",
+      "pred": "redemption_formula",
+      "label": "Evento Fiscal: No Aplicable"
+     },
+     {
+      "doc": "CCFF_11290_002",
+      "gold": "UNKNOWN",
+      "pred": "settlement_type",
+      "label": "Ejemplos de liquidación a vencimiento"
+     },
+     {
+      "doc": "CCFF_11290_002",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_002",
+      "gold": "UNKNOWN",
+      "pred": "day_count",
+      "label": "Fórmula de cálculo"
+     },
+     {
+      "doc": "CCFF_11290_002",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Modalidad"
+     },
+     {
+      "doc": "CCFF_11290_002",
+      "gold": "UNKNOWN",
+      "pred": "put_dates",
+      "label": "Representación de los inversores"
+     },
+     {
+      "doc": "CCFF_11290_002",
+      "gold": "UNKNOWN",
+      "pred": "benchmark",
+      "label": "Otros"
+     },
+     {
+      "doc": "CCFF_11340_006",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11340_006",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subya cente"
+     }
+    ],
+    "macro_recall": 0.2325,
+    "macro_precision": 0.2782
+   },
+   "0.85": {
+    "n_examples": 1577,
+    "n_field": 227,
+    "n_unknown": 1350,
+    "field_recall_confident": 0.0881,
+    "top1_accuracy_confident": 0.129,
+    "wrong_confident": 135,
+    "wrong_confident_on_unknown": 105,
+    "review_or_unknown_on_fields": 177,
+    "per_field": {
+     "isin": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "currency": {
+      "n": 18,
+      "ok": 1,
+      "wrong": 0,
+      "review": 17
+     },
+     "issue_date": {
+      "n": 22,
+      "ok": 1,
+      "wrong": 4,
+      "review": 17
+     },
+     "maturity": {
+      "n": 20,
+      "ok": 1,
+      "wrong": 1,
+      "review": 18
+     },
+     "denomination": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 1,
+      "review": 17
+     },
+     "issued_amount": {
+      "n": 17,
+      "ok": 0,
+      "wrong": 1,
+      "review": 16
+     },
+     "coupon_rate": {
+      "n": 15,
+      "ok": 0,
+      "wrong": 5,
+      "review": 10
+     },
+     "redemption_formula": {
+      "n": 15,
+      "ok": 12,
+      "wrong": 0,
+      "review": 3
+     },
+     "underlying": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 7,
+      "review": 4
+     },
+     "barrier": {
+      "n": 14,
+      "ok": 0,
+      "wrong": 1,
+      "review": 13
+     },
+     "observation_dates": {
+      "n": 9,
+      "ok": 0,
+      "wrong": 0,
+      "review": 9
+     },
+     "settlement_type": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "participation": {
+      "n": 4,
+      "ok": 0,
+      "wrong": 3,
+      "review": 1
+     },
+     "cap": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 1,
+      "review": 1
+     },
+     "autocall": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "benchmark": {
+      "n": 3,
+      "ok": 1,
+      "wrong": 0,
+      "review": 2
+     },
+     "spread": {
+      "n": 3,
+      "ok": 1,
+      "wrong": 0,
+      "review": 2
+     },
+     "reset_dates": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 1,
+      "review": 0
+     },
+     "fixing_rules": {
+      "n": 3,
+      "ok": 1,
+      "wrong": 0,
+      "review": 2
+     },
+     "subordination": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 2,
+      "review": 0
+     },
+     "payment_frequency": {
+      "n": 5,
+      "ok": 1,
+      "wrong": 1,
+      "review": 3
+     },
+     "day_count": {
+      "n": 1,
+      "ok": 1,
+      "wrong": 0,
+      "review": 0
+     },
+     "call_dates": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "coupon_type": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "ranking": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 2,
+      "review": 0
+     }
+    },
+    "wrong_cases": [
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "coupon_rate",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Nombre y descripción del  Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "barrier",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Nombre y descripción del Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "coupon_rate",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_002",
+      "gold": "coupon_rate",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11340_006",
+      "gold": "participation",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_020",
+      "gold": "participation",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_019",
+      "gold": "participation",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_015",
+      "gold": "cap",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_012",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Nombre y descripción del Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_011",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Nombre y descripción del Subyacente"
+     },
+     {
+      "doc": "CCFF_11340_014",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Nombre y descripción del Subyacente"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "denomination",
+      "pred": "issued_amount",
+      "label": "Aggregate Amount"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "issued_amount",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "reset_dates",
+      "pred": "payment_frequency",
+      "label": "Fixed Rate Note Provisions"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "subordination",
+      "pred": "benchmark",
+      "label": "Status of the Notes"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "coupon_rate",
+      "pred": "maturity",
+      "label": "Interest Basis"
+     },
+     {
+      "doc": "CCFF_11340_009",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Tipo de Subyacente"
+     },
+     {
+      "doc": "CCFF_11340_020",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Tipo de Subyacente"
+     },
+     {
+      "doc": "ADM_143057",
+      "gold": "issue_date",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143056",
+      "gold": "issue_date",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143048",
+      "gold": "issue_date",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143048",
+      "gold": "maturity",
+      "pred": "payment_frequency",
+      "label": "Interest"
+     },
+     {
+      "doc": "ADM_143048",
+      "gold": "ranking",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "issue_date",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "coupon_rate",
+      "pred": "payment_frequency",
+      "label": "Interest"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "ranking",
+      "pred": "benchmark",
+      "label": "Status of the Notes"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "subordination",
+      "pred": "benchmark",
+      "label": "Status of the Notes"
+     },
+     {
+      "doc": "ADM_143121",
+      "gold": "payment_frequency",
+      "pred": "coupon_rate",
+      "label": "As of 30 September 2024"
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "UNKNOWN",
+      "pred": "day_count",
+      "label": "Fórmula de cálculo"
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Modalidad"
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "UNKNOWN",
+      "pred": "put_dates",
+      "label": "Representación de los inversores"
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "UNKNOWN",
+      "pred": "day_count",
+      "label": "Fórmula de cálculo"
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Modalidad"
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "UNKNOWN",
+      "pred": "put_dates",
+      "label": "Representación de los inversores"
+     },
+     {
+      "doc": "CCFF_11290_002",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_002",
+      "gold": "UNKNOWN",
+      "pred": "redemption_formula",
+      "label": "Evento Fiscal: No Aplicable"
+     },
+     {
+      "doc": "CCFF_11290_002",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_002",
+      "gold": "UNKNOWN",
+      "pred": "day_count",
+      "label": "Fórmula de cálculo"
+     },
+     {
+      "doc": "CCFF_11290_002",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Modalidad"
+     },
+     {
+      "doc": "CCFF_11290_002",
+      "gold": "UNKNOWN",
+      "pred": "put_dates",
+      "label": "Representación de los inversores"
+     },
+     {
+      "doc": "CCFF_11340_006",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11340_006",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subya cente"
+     },
+     {
+      "doc": "CCFF_11340_006",
+      "gold": "UNKNOWN",
+      "pred": "put_dates",
+      "label": "Representación de los inversores"
+     },
+     {
+      "doc": "CCFF_11340_006",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Modalidad"
+     },
+     {
+      "doc": "CCFF_11340_006",
+      "gold": "UNKNOWN",
+      "pred": "day_count",
+      "label": "Fórmula de cálculo"
+     },
+     {
+      "doc": "CCFF_11290_020",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_020",
+      "gold": "UNKNOWN",
+      "pred": "put_dates",
+      "label": "Representación de los inversores"
+     },
+     {
+      "doc": "CCFF_11290_020",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subya cente"
+     },
+     {
+      "doc": "CCFF_11290_020",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Modalidad"
+     },
+     {
+      "doc": "CCFF_11290_020",
+      "gold": "UNKNOWN",
+      "pred": "day_count",
+      "label": "Fórmula de cálculo"
+     },
+     {
+      "doc": "CCFF_11290_019",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Índice"
+     },
+     {
+      "doc": "CCFF_11290_019",
+      "gold": "UNKNOWN",
+      "pred": "put_dates",
+      "label": "Representación de los inversores"
+     },
+     {
+      "doc": "CCFF_11290_019",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subya cente"
+     },
+     {
+      "doc": "CCFF_11290_019",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Modalidad"
+     }
+    ],
+    "macro_recall": 0.126,
+    "macro_precision": 0.2089
+   },
+   "0.9": {
+    "n_examples": 1577,
+    "n_field": 227,
+    "n_unknown": 1350,
+    "field_recall_confident": 0.0793,
+    "top1_accuracy_confident": 0.2812,
+    "wrong_confident": 46,
+    "wrong_confident_on_unknown": 26,
+    "review_or_unknown_on_fields": 189,
+    "per_field": {
+     "isin": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "currency": {
+      "n": 18,
+      "ok": 1,
+      "wrong": 0,
+      "review": 17
+     },
+     "issue_date": {
+      "n": 22,
+      "ok": 1,
+      "wrong": 4,
+      "review": 17
+     },
+     "maturity": {
+      "n": 20,
+      "ok": 0,
+      "wrong": 1,
+      "review": 19
+     },
+     "denomination": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "issued_amount": {
+      "n": 17,
+      "ok": 0,
+      "wrong": 1,
+      "review": 16
+     },
+     "coupon_rate": {
+      "n": 15,
+      "ok": 0,
+      "wrong": 2,
+      "review": 13
+     },
+     "redemption_formula": {
+      "n": 15,
+      "ok": 12,
+      "wrong": 0,
+      "review": 3
+     },
+     "underlying": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 5,
+      "review": 6
+     },
+     "barrier": {
+      "n": 14,
+      "ok": 0,
+      "wrong": 1,
+      "review": 13
+     },
+     "observation_dates": {
+      "n": 9,
+      "ok": 0,
+      "wrong": 0,
+      "review": 9
+     },
+     "settlement_type": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "participation": {
+      "n": 4,
+      "ok": 0,
+      "wrong": 0,
+      "review": 4
+     },
+     "cap": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "autocall": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "benchmark": {
+      "n": 3,
+      "ok": 1,
+      "wrong": 0,
+      "review": 2
+     },
+     "spread": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "reset_dates": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 1,
+      "review": 0
+     },
+     "fixing_rules": {
+      "n": 3,
+      "ok": 1,
+      "wrong": 0,
+      "review": 2
+     },
+     "subordination": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 2,
+      "review": 0
+     },
+     "payment_frequency": {
+      "n": 5,
+      "ok": 1,
+      "wrong": 1,
+      "review": 3
+     },
+     "day_count": {
+      "n": 1,
+      "ok": 1,
+      "wrong": 0,
+      "review": 0
+     },
+     "call_dates": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "coupon_type": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "ranking": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 2,
+      "review": 0
+     }
+    },
+    "wrong_cases": [
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Nombre y descripción del  Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "barrier",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Nombre y descripción del Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_012",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Nombre y descripción del Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_011",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Nombre y descripción del Subyacente"
+     },
+     {
+      "doc": "CCFF_11340_014",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Nombre y descripción del Subyacente"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "issued_amount",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "reset_dates",
+      "pred": "payment_frequency",
+      "label": "Fixed Rate Note Provisions"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "subordination",
+      "pred": "benchmark",
+      "label": "Status of the Notes"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "coupon_rate",
+      "pred": "maturity",
+      "label": "Interest Basis"
+     },
+     {
+      "doc": "ADM_143057",
+      "gold": "issue_date",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143056",
+      "gold": "issue_date",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143048",
+      "gold": "issue_date",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143048",
+      "gold": "maturity",
+      "pred": "payment_frequency",
+      "label": "Interest"
+     },
+     {
+      "doc": "ADM_143048",
+      "gold": "ranking",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "issue_date",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "coupon_rate",
+      "pred": "payment_frequency",
+      "label": "Interest"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "ranking",
+      "pred": "benchmark",
+      "label": "Status of the Notes"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "subordination",
+      "pred": "benchmark",
+      "label": "Status of the Notes"
+     },
+     {
+      "doc": "ADM_143121",
+      "gold": "payment_frequency",
+      "pred": "coupon_rate",
+      "label": "As of 30 September 2024"
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_002",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_012",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_011",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11340_024",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "UNKNOWN",
+      "pred": "denomination",
+      "label": "Calculation Amount"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "UNKNOWN",
+      "pred": "issued_amount",
+      "label": "Tranche"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "UNKNOWN",
+      "pred": "isin",
+      "label": "Reasons for the offer"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "UNKNOWN",
+      "pred": "issue_date",
+      "label": "Series"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "UNKNOWN",
+      "pred": "call_dates",
+      "label": "Call Options"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "UNKNOWN",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "UNKNOWN",
+      "pred": "issue_date",
+      "label": "Issue Price"
+     },
+     {
+      "doc": "ADM_143057",
+      "gold": "UNKNOWN",
+      "pred": "payment_frequency",
+      "label": "Interest"
+     },
+     {
+      "doc": "ADM_143057",
+      "gold": "UNKNOWN",
+      "pred": "settlement_type",
+      "label": "Registration, clearing and settlement"
+     },
+     {
+      "doc": "ADM_143056",
+      "gold": "UNKNOWN",
+      "pred": "payment_frequency",
+      "label": "Interest"
+     },
+     {
+      "doc": "ADM_143056",
+      "gold": "UNKNOWN",
+      "pred": "settlement_type",
+      "label": "Registration, clearing and settlement"
+     },
+     {
+      "doc": "ADM_143048",
+      "gold": "UNKNOWN",
+      "pred": "settlement_type",
+      "label": "Registration, clearing and settlement"
+     },
+     {
+      "doc": "ADM_143166",
+      "gold": "UNKNOWN",
+      "pred": "coupon_rate",
+      "label": "July 2024"
+     },
+     {
+      "doc": "ADM_143166",
+      "gold": "UNKNOWN",
+      "pred": "maturity",
+      "label": "May 2024"
+     },
+     {
+      "doc": "ADM_143166",
+      "gold": "UNKNOWN",
+      "pred": "autocall",
+      "label": "January 2023"
+     },
+     {
+      "doc": "ADM_143166",
+      "gold": "UNKNOWN",
+      "pred": "maturity",
+      "label": "June 2024"
+     },
+     {
+      "doc": "ADM_143166",
+      "gold": "UNKNOWN",
+      "pred": "coupon_rate",
+      "label": "November 2024"
+     },
+     {
+      "doc": "ADM_143166",
+      "gold": "UNKNOWN",
+      "pred": "coupon_rate",
+      "label": "March 2024"
+     },
+     {
+      "doc": "ADM_143166",
+      "gold": "UNKNOWN",
+      "pred": "maturity",
+      "label": "May 2025"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "UNKNOWN",
+      "pred": "settlement_type",
+      "label": "Registration, clearing and settlement"
+     }
+    ],
+    "macro_recall": 0.1107,
+    "macro_precision": 0.2335
+   },
+   "0.95": {
+    "n_examples": 1577,
+    "n_field": 227,
+    "n_unknown": 1350,
+    "field_recall_confident": 0.0132,
+    "top1_accuracy_confident": 0.1,
+    "wrong_confident": 27,
+    "wrong_confident_on_unknown": 17,
+    "review_or_unknown_on_fields": 214,
+    "per_field": {
+     "isin": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "currency": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "issue_date": {
+      "n": 22,
+      "ok": 1,
+      "wrong": 4,
+      "review": 17
+     },
+     "maturity": {
+      "n": 20,
+      "ok": 0,
+      "wrong": 1,
+      "review": 19
+     },
+     "denomination": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "issued_amount": {
+      "n": 17,
+      "ok": 0,
+      "wrong": 1,
+      "review": 16
+     },
+     "coupon_rate": {
+      "n": 15,
+      "ok": 0,
+      "wrong": 2,
+      "review": 13
+     },
+     "redemption_formula": {
+      "n": 15,
+      "ok": 0,
+      "wrong": 0,
+      "review": 15
+     },
+     "underlying": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 0,
+      "review": 11
+     },
+     "barrier": {
+      "n": 14,
+      "ok": 0,
+      "wrong": 1,
+      "review": 13
+     },
+     "observation_dates": {
+      "n": 9,
+      "ok": 0,
+      "wrong": 0,
+      "review": 9
+     },
+     "settlement_type": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "participation": {
+      "n": 4,
+      "ok": 0,
+      "wrong": 0,
+      "review": 4
+     },
+     "cap": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "autocall": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "benchmark": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "spread": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "reset_dates": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "fixing_rules": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "subordination": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "payment_frequency": {
+      "n": 5,
+      "ok": 1,
+      "wrong": 0,
+      "review": 4
+     },
+     "day_count": {
+      "n": 1,
+      "ok": 1,
+      "wrong": 0,
+      "review": 0
+     },
+     "call_dates": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "coupon_type": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "ranking": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 1,
+      "review": 1
+     }
+    },
+    "wrong_cases": [
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "barrier",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "issued_amount",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "coupon_rate",
+      "pred": "maturity",
+      "label": "Interest Basis"
+     },
+     {
+      "doc": "ADM_143057",
+      "gold": "issue_date",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143056",
+      "gold": "issue_date",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143048",
+      "gold": "issue_date",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143048",
+      "gold": "maturity",
+      "pred": "payment_frequency",
+      "label": "Interest"
+     },
+     {
+      "doc": "ADM_143048",
+      "gold": "ranking",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "issue_date",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "coupon_rate",
+      "pred": "payment_frequency",
+      "label": "Interest"
+     },
+     {
+      "doc": "CCFF_11290_005",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_003",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_002",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_012",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11290_011",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11340_024",
+      "gold": "UNKNOWN",
+      "pred": "underlying",
+      "label": "Subyacente"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "UNKNOWN",
+      "pred": "isin",
+      "label": "Reasons for the offer"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "UNKNOWN",
+      "pred": "issue_date",
+      "label": "Series"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "UNKNOWN",
+      "pred": "currency",
+      "label": "Issuer"
+     },
+     {
+      "doc": "CCFF_11394_003",
+      "gold": "UNKNOWN",
+      "pred": "issue_date",
+      "label": "Issue Price"
+     },
+     {
+      "doc": "ADM_143057",
+      "gold": "UNKNOWN",
+      "pred": "payment_frequency",
+      "label": "Interest"
+     },
+     {
+      "doc": "ADM_143057",
+      "gold": "UNKNOWN",
+      "pred": "settlement_type",
+      "label": "Registration, clearing and settlement"
+     },
+     {
+      "doc": "ADM_143056",
+      "gold": "UNKNOWN",
+      "pred": "payment_frequency",
+      "label": "Interest"
+     },
+     {
+      "doc": "ADM_143056",
+      "gold": "UNKNOWN",
+      "pred": "settlement_type",
+      "label": "Registration, clearing and settlement"
+     },
+     {
+      "doc": "ADM_143048",
+      "gold": "UNKNOWN",
+      "pred": "settlement_type",
+      "label": "Registration, clearing and settlement"
+     },
+     {
+      "doc": "ADM_143166",
+      "gold": "UNKNOWN",
+      "pred": "maturity",
+      "label": "June 2024"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "UNKNOWN",
+      "pred": "settlement_type",
+      "label": "Registration, clearing and settlement"
+     }
+    ],
+    "macro_recall": 0.0498,
+    "macro_precision": 0.1917
+   }
+  }
+ },
+ "C2b_label_ctx": {
+  "tau_confident": 0.93,
+  "tau_review": 0.4,
+  "dev": {
+   "n_examples": 1620,
+   "n_field": 148,
+   "n_unknown": 1472,
+   "field_recall_confident": 0.0,
+   "top1_accuracy_confident": 0.0,
+   "wrong_confident": 0,
+   "wrong_confident_on_unknown": 0,
+   "review_or_unknown_on_fields": 148,
+   "per_field": {
+    "isin": {
+     "n": 11,
+     "ok": 0,
+     "wrong": 0,
+     "review": 11
+    },
+    "issue_date": {
+     "n": 10,
+     "ok": 0,
+     "wrong": 0,
+     "review": 10
+    },
+    "maturity": {
+     "n": 11,
+     "ok": 0,
+     "wrong": 0,
+     "review": 11
+    },
+    "denomination": {
+     "n": 12,
+     "ok": 0,
+     "wrong": 0,
+     "review": 12
+    },
+    "issued_amount": {
+     "n": 11,
+     "ok": 0,
+     "wrong": 0,
+     "review": 11
+    },
+    "coupon_type": {
+     "n": 10,
+     "ok": 0,
+     "wrong": 0,
+     "review": 10
+    },
+    "day_count": {
+     "n": 4,
+     "ok": 0,
+     "wrong": 0,
+     "review": 4
+    },
+    "business_day_convention": {
+     "n": 6,
+     "ok": 0,
+     "wrong": 0,
+     "review": 6
+    },
+    "fixing_rules": {
+     "n": 6,
+     "ok": 0,
+     "wrong": 0,
+     "review": 6
+    },
+    "redemption_formula": {
+     "n": 6,
+     "ok": 0,
+     "wrong": 0,
+     "review": 6
+    },
+    "barrier": {
+     "n": 4,
+     "ok": 0,
+     "wrong": 0,
+     "review": 4
+    },
+    "observation_dates": {
+     "n": 3,
+     "ok": 0,
+     "wrong": 0,
+     "review": 3
+    },
+    "currency": {
+     "n": 10,
+     "ok": 0,
+     "wrong": 0,
+     "review": 10
+    },
+    "underlying": {
+     "n": 6,
+     "ok": 0,
+     "wrong": 0,
+     "review": 6
+    },
+    "settlement_type": {
+     "n": 10,
+     "ok": 0,
+     "wrong": 0,
+     "review": 10
+    },
+    "autocall": {
+     "n": 3,
+     "ok": 0,
+     "wrong": 0,
+     "review": 3
+    },
+    "benchmark": {
+     "n": 6,
+     "ok": 0,
+     "wrong": 0,
+     "review": 6
+    },
+    "call_dates": {
+     "n": 5,
+     "ok": 0,
+     "wrong": 0,
+     "review": 5
+    },
+    "coupon_rate": {
+     "n": 3,
+     "ok": 0,
+     "wrong": 0,
+     "review": 3
+    },
+    "payment_frequency": {
+     "n": 6,
+     "ok": 0,
+     "wrong": 0,
+     "review": 6
+    },
+    "subordination": {
+     "n": 1,
+     "ok": 0,
+     "wrong": 0,
+     "review": 1
+    },
+    "spread": {
+     "n": 3,
+     "ok": 0,
+     "wrong": 0,
+     "review": 3
+    },
+    "reset_dates": {
+     "n": 1,
+     "ok": 0,
+     "wrong": 0,
+     "review": 1
+    }
+   },
+   "wrong_cases": [],
+   "macro_recall": 0.0,
+   "macro_precision": null
+  },
+  "test": {
+   "n_examples": 1577,
+   "n_field": 227,
+   "n_unknown": 1350,
+   "field_recall_confident": 0.0,
+   "top1_accuracy_confident": 0.0,
+   "wrong_confident": 0,
+   "wrong_confident_on_unknown": 0,
+   "review_or_unknown_on_fields": 227,
+   "per_field": {
+    "isin": {
+     "n": 18,
+     "ok": 0,
+     "wrong": 0,
+     "review": 18
+    },
+    "currency": {
+     "n": 18,
+     "ok": 0,
+     "wrong": 0,
+     "review": 18
+    },
+    "issue_date": {
+     "n": 22,
+     "ok": 0,
+     "wrong": 0,
+     "review": 22
+    },
+    "maturity": {
+     "n": 20,
+     "ok": 0,
+     "wrong": 0,
+     "review": 20
+    },
+    "denomination": {
+     "n": 18,
+     "ok": 0,
+     "wrong": 0,
+     "review": 18
+    },
+    "issued_amount": {
+     "n": 17,
+     "ok": 0,
+     "wrong": 0,
+     "review": 17
+    },
+    "coupon_rate": {
+     "n": 15,
+     "ok": 0,
+     "wrong": 0,
+     "review": 15
+    },
+    "redemption_formula": {
+     "n": 15,
+     "ok": 0,
+     "wrong": 0,
+     "review": 15
+    },
+    "underlying": {
+     "n": 11,
+     "ok": 0,
+     "wrong": 0,
+     "review": 11
+    },
+    "barrier": {
+     "n": 14,
+     "ok": 0,
+     "wrong": 0,
+     "review": 14
+    },
+    "observation_dates": {
+     "n": 9,
+     "ok": 0,
+     "wrong": 0,
+     "review": 9
+    },
+    "settlement_type": {
+     "n": 18,
+     "ok": 0,
+     "wrong": 0,
+     "review": 18
+    },
+    "participation": {
+     "n": 4,
+     "ok": 0,
+     "wrong": 0,
+     "review": 4
+    },
+    "cap": {
+     "n": 2,
+     "ok": 0,
+     "wrong": 0,
+     "review": 2
+    },
+    "autocall": {
+     "n": 1,
+     "ok": 0,
+     "wrong": 0,
+     "review": 1
+    },
+    "benchmark": {
+     "n": 3,
+     "ok": 0,
+     "wrong": 0,
+     "review": 3
+    },
+    "spread": {
+     "n": 3,
+     "ok": 0,
+     "wrong": 0,
+     "review": 3
+    },
+    "reset_dates": {
+     "n": 1,
+     "ok": 0,
+     "wrong": 0,
+     "review": 1
+    },
+    "fixing_rules": {
+     "n": 3,
+     "ok": 0,
+     "wrong": 0,
+     "review": 3
+    },
+    "subordination": {
+     "n": 2,
+     "ok": 0,
+     "wrong": 0,
+     "review": 2
+    },
+    "payment_frequency": {
+     "n": 5,
+     "ok": 0,
+     "wrong": 0,
+     "review": 5
+    },
+    "day_count": {
+     "n": 1,
+     "ok": 0,
+     "wrong": 0,
+     "review": 1
+    },
+    "call_dates": {
+     "n": 2,
+     "ok": 0,
+     "wrong": 0,
+     "review": 2
+    },
+    "coupon_type": {
+     "n": 3,
+     "ok": 0,
+     "wrong": 0,
+     "review": 3
+    },
+    "ranking": {
+     "n": 2,
+     "ok": 0,
+     "wrong": 0,
+     "review": 2
+    }
+   },
+   "wrong_cases": [],
+   "macro_recall": 0.0,
+   "macro_precision": null
+  },
+  "diagnostic_fixed_tau_test": {
+   "0.8": {
+    "n_examples": 1577,
+    "n_field": 227,
+    "n_unknown": 1350,
+    "field_recall_confident": 0.0132,
+    "top1_accuracy_confident": 0.2143,
+    "wrong_confident": 11,
+    "wrong_confident_on_unknown": 8,
+    "review_or_unknown_on_fields": 221,
+    "per_field": {
+     "isin": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "currency": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "issue_date": {
+      "n": 22,
+      "ok": 0,
+      "wrong": 0,
+      "review": 22
+     },
+     "maturity": {
+      "n": 20,
+      "ok": 0,
+      "wrong": 0,
+      "review": 20
+     },
+     "denomination": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "issued_amount": {
+      "n": 17,
+      "ok": 0,
+      "wrong": 0,
+      "review": 17
+     },
+     "coupon_rate": {
+      "n": 15,
+      "ok": 0,
+      "wrong": 0,
+      "review": 15
+     },
+     "redemption_formula": {
+      "n": 15,
+      "ok": 1,
+      "wrong": 0,
+      "review": 14
+     },
+     "underlying": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 1,
+      "review": 10
+     },
+     "barrier": {
+      "n": 14,
+      "ok": 0,
+      "wrong": 0,
+      "review": 14
+     },
+     "observation_dates": {
+      "n": 9,
+      "ok": 1,
+      "wrong": 0,
+      "review": 8
+     },
+     "settlement_type": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "participation": {
+      "n": 4,
+      "ok": 0,
+      "wrong": 0,
+      "review": 4
+     },
+     "cap": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "autocall": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "benchmark": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "spread": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "reset_dates": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "fixing_rules": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "subordination": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 1,
+      "review": 1
+     },
+     "payment_frequency": {
+      "n": 5,
+      "ok": 1,
+      "wrong": 0,
+      "review": 4
+     },
+     "day_count": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "call_dates": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "coupon_type": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "ranking": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 1,
+      "review": 1
+     }
+    },
+    "wrong_cases": [
+     {
+      "doc": "CCFF_11340_014",
+      "gold": "underlying",
+      "pred": "benchmark",
+      "label": "Nombre y descripción del Subyacente"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "ranking",
+      "pred": "benchmark",
+      "label": "Status of the Notes"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "subordination",
+      "pred": "benchmark",
+      "label": "Status of the Notes"
+     },
+     {
+      "doc": "CCFF_11340_014",
+      "gold": "UNKNOWN",
+      "pred": "put_dates",
+      "label": "Representación de los inversores"
+     },
+     {
+      "doc": "CCFF_11340_014",
+      "gold": "UNKNOWN",
+      "pred": "call_dates",
+      "label": "Modalidad"
+     },
+     {
+      "doc": "CCFF_11340_009",
+      "gold": "UNKNOWN",
+      "pred": "maturity",
+      "label": "Fecha de Inicio de Devengo de Intereses: 12 de noviembre de 2024"
+     },
+     {
+      "doc": "CCFF_11340_020",
+      "gold": "UNKNOWN",
+      "pred": "maturity",
+      "label": "Fecha de Inicio de Devengo de Intereses: 5 de junio de 2025"
+     },
+     {
+      "doc": "ADM_143057",
+      "gold": "UNKNOWN",
+      "pred": "settlement_type",
+      "label": "Registration, clearing and settlement"
+     },
+     {
+      "doc": "ADM_143056",
+      "gold": "UNKNOWN",
+      "pred": "settlement_type",
+      "label": "Registration, clearing and settlement"
+     },
+     {
+      "doc": "ADM_143048",
+      "gold": "UNKNOWN",
+      "pred": "settlement_type",
+      "label": "Registration, clearing and settlement"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "UNKNOWN",
+      "pred": "settlement_type",
+      "label": "Registration, clearing and settlement"
+     }
+    ],
+    "macro_recall": 0.0151,
+    "macro_precision": 0.4286
+   },
+   "0.85": {
+    "n_examples": 1577,
+    "n_field": 227,
+    "n_unknown": 1350,
+    "field_recall_confident": 0.0044,
+    "top1_accuracy_confident": 0.2,
+    "wrong_confident": 4,
+    "wrong_confident_on_unknown": 4,
+    "review_or_unknown_on_fields": 226,
+    "per_field": {
+     "isin": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "currency": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "issue_date": {
+      "n": 22,
+      "ok": 0,
+      "wrong": 0,
+      "review": 22
+     },
+     "maturity": {
+      "n": 20,
+      "ok": 0,
+      "wrong": 0,
+      "review": 20
+     },
+     "denomination": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "issued_amount": {
+      "n": 17,
+      "ok": 0,
+      "wrong": 0,
+      "review": 17
+     },
+     "coupon_rate": {
+      "n": 15,
+      "ok": 0,
+      "wrong": 0,
+      "review": 15
+     },
+     "redemption_formula": {
+      "n": 15,
+      "ok": 1,
+      "wrong": 0,
+      "review": 14
+     },
+     "underlying": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 0,
+      "review": 11
+     },
+     "barrier": {
+      "n": 14,
+      "ok": 0,
+      "wrong": 0,
+      "review": 14
+     },
+     "observation_dates": {
+      "n": 9,
+      "ok": 0,
+      "wrong": 0,
+      "review": 9
+     },
+     "settlement_type": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "participation": {
+      "n": 4,
+      "ok": 0,
+      "wrong": 0,
+      "review": 4
+     },
+     "cap": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "autocall": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "benchmark": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "spread": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "reset_dates": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "fixing_rules": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "subordination": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "payment_frequency": {
+      "n": 5,
+      "ok": 0,
+      "wrong": 0,
+      "review": 5
+     },
+     "day_count": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "call_dates": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "coupon_type": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "ranking": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     }
+    },
+    "wrong_cases": [
+     {
+      "doc": "ADM_143057",
+      "gold": "UNKNOWN",
+      "pred": "settlement_type",
+      "label": "Registration, clearing and settlement"
+     },
+     {
+      "doc": "ADM_143056",
+      "gold": "UNKNOWN",
+      "pred": "settlement_type",
+      "label": "Registration, clearing and settlement"
+     },
+     {
+      "doc": "ADM_143048",
+      "gold": "UNKNOWN",
+      "pred": "settlement_type",
+      "label": "Registration, clearing and settlement"
+     },
+     {
+      "doc": "ADM_143129",
+      "gold": "UNKNOWN",
+      "pred": "settlement_type",
+      "label": "Registration, clearing and settlement"
+     }
+    ],
+    "macro_recall": 0.0027,
+    "macro_precision": 0.5
+   },
+   "0.9": {
+    "n_examples": 1577,
+    "n_field": 227,
+    "n_unknown": 1350,
+    "field_recall_confident": 0.0,
+    "top1_accuracy_confident": 0.0,
+    "wrong_confident": 0,
+    "wrong_confident_on_unknown": 0,
+    "review_or_unknown_on_fields": 227,
+    "per_field": {
+     "isin": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "currency": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "issue_date": {
+      "n": 22,
+      "ok": 0,
+      "wrong": 0,
+      "review": 22
+     },
+     "maturity": {
+      "n": 20,
+      "ok": 0,
+      "wrong": 0,
+      "review": 20
+     },
+     "denomination": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "issued_amount": {
+      "n": 17,
+      "ok": 0,
+      "wrong": 0,
+      "review": 17
+     },
+     "coupon_rate": {
+      "n": 15,
+      "ok": 0,
+      "wrong": 0,
+      "review": 15
+     },
+     "redemption_formula": {
+      "n": 15,
+      "ok": 0,
+      "wrong": 0,
+      "review": 15
+     },
+     "underlying": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 0,
+      "review": 11
+     },
+     "barrier": {
+      "n": 14,
+      "ok": 0,
+      "wrong": 0,
+      "review": 14
+     },
+     "observation_dates": {
+      "n": 9,
+      "ok": 0,
+      "wrong": 0,
+      "review": 9
+     },
+     "settlement_type": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "participation": {
+      "n": 4,
+      "ok": 0,
+      "wrong": 0,
+      "review": 4
+     },
+     "cap": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "autocall": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "benchmark": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "spread": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "reset_dates": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "fixing_rules": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "subordination": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "payment_frequency": {
+      "n": 5,
+      "ok": 0,
+      "wrong": 0,
+      "review": 5
+     },
+     "day_count": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "call_dates": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "coupon_type": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "ranking": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     }
+    },
+    "wrong_cases": [],
+    "macro_recall": 0.0,
+    "macro_precision": null
+   },
+   "0.95": {
+    "n_examples": 1577,
+    "n_field": 227,
+    "n_unknown": 1350,
+    "field_recall_confident": 0.0,
+    "top1_accuracy_confident": 0.0,
+    "wrong_confident": 0,
+    "wrong_confident_on_unknown": 0,
+    "review_or_unknown_on_fields": 227,
+    "per_field": {
+     "isin": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "currency": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "issue_date": {
+      "n": 22,
+      "ok": 0,
+      "wrong": 0,
+      "review": 22
+     },
+     "maturity": {
+      "n": 20,
+      "ok": 0,
+      "wrong": 0,
+      "review": 20
+     },
+     "denomination": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "issued_amount": {
+      "n": 17,
+      "ok": 0,
+      "wrong": 0,
+      "review": 17
+     },
+     "coupon_rate": {
+      "n": 15,
+      "ok": 0,
+      "wrong": 0,
+      "review": 15
+     },
+     "redemption_formula": {
+      "n": 15,
+      "ok": 0,
+      "wrong": 0,
+      "review": 15
+     },
+     "underlying": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 0,
+      "review": 11
+     },
+     "barrier": {
+      "n": 14,
+      "ok": 0,
+      "wrong": 0,
+      "review": 14
+     },
+     "observation_dates": {
+      "n": 9,
+      "ok": 0,
+      "wrong": 0,
+      "review": 9
+     },
+     "settlement_type": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "participation": {
+      "n": 4,
+      "ok": 0,
+      "wrong": 0,
+      "review": 4
+     },
+     "cap": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "autocall": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "benchmark": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "spread": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "reset_dates": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "fixing_rules": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "subordination": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "payment_frequency": {
+      "n": 5,
+      "ok": 0,
+      "wrong": 0,
+      "review": 5
+     },
+     "day_count": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "call_dates": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "coupon_type": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "ranking": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     }
+    },
+    "wrong_cases": [],
+    "macro_recall": 0.0,
+    "macro_precision": null
+   }
+  }
+ }
+}

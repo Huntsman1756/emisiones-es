@@ -1,0 +1,36 @@
+{
+ "manifest": "g2b-environments",
+ "updated": "2026-09-16",
+ "python": "3.13.11",
+ "components": {
+  "baselines_b0_b1": {
+   "env": ".venv (frozen project env, read-only)",
+   "packages": {"stdlib+re": "-", "difflib": "stdlib"},
+   "code": ".work/g2b/run_baselines.py + .work/g2b/common.py",
+   "license_status": "ELIGIBLE"
+  },
+  "c2_embeddings": {
+   "env": ".work/g2a/env-deepdoctection (reutilizado; torch/transformers ya presentes)",
+   "packages": {"sentence-transformers": "6.0.1", "scikit-learn": "1.9.1"},
+   "model": {"id": "paraphrase-multilingual-MiniLM-L12-v2",
+             "source": "huggingface", "license": "apache-2.0"},
+   "license_status": "ELIGIBLE"
+  },
+  "c1_valentine": {
+   "env": ".work/g2b/env-valentine (python 3.13.11, aislado)",
+   "packages": {"valentine": "1.0.0", "pandas": "3.0.5", "numpy": "2.5.3",
+                "pydantic": "2.13.5", "scipy": "1.18.1", "nltk": "3.10.3",
+                "networkx": "3.6.1", "rapidfuzz": "3.14.6"},
+   "code_license": "MIT (delftdata/valentine)",
+   "license_status": "ELIGIBLE",
+   "matchers_run": ["Coma(schema)", "Cupid", "SimilarityFlooding",
+                    "JaccardDistanceMatcher(Levenshtein)"],
+   "matchers_excluded": {"DistributionBased": "instancias sinteticas de una fila no soportan matching por distribucion"}
+  },
+  "reference_only": {
+   "sherlock": "MIT; requiere reentrenar sobre ontologia propia -> fuera de alcance probe",
+   "sato": "MIT; structured prediction sobre tablas web; misma objecion",
+   "doduo": "MIT; column annotation preentrenado sobre VizNet; ontologia no financiera"
+  }
+ }
+}

@@ -37,6 +37,12 @@
    "searched": ["finbert/structured-products parsers", "ISDA CDM (modelo de producto)"],
    "decision": "REFERENCE (CDM como orientacion de invariantes)",
    "detail": "docs/g2/structured-payoff.md define StructuredPayoff propio; CDM se usa como referencia conceptual de componentes, no como dependencia."
+  },
+  {
+   "problem": "G2-B: semantic field recognition (label arbitrario -> campo canonico)",
+   "searched": ["delftdata/valentine (COMA, Cupid, SimilarityFlooding, JaccardLevenshtein, DistributionBased)", "mitmedialab/sherlock", "megagonlabs/sato", "megagonlabs/doduo", "sentence-transformers multilingual"],
+   "decision": "REUSE (valentine como challenger), REFERENCE (sherlock/sato/doduo)",
+   "detail": "valentine 1.0.0 instalado en env aislado (.work/g2b/env-valentine, MIT): matchers COMA/Cupid/SF/Jaccard-Lev ejecutados sobre inventario canonico de aliases. sherlock/sato/doduo = ontologias genericas no financieras y requeririan reentrenar -> solo referencia de arquitectura. embeddings: paraphrase-multilingual-MiniLM-L12-v2 (apache-2.0) sobre el mismo inventario."
   }
  ]
 }

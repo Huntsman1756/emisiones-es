@@ -1,0 +1,973 @@
+{
+ "manifest": "g2b-challenger-valentine",
+ "n_source_labels": 1573,
+ "n_target_phrases": 375,
+ "matchers": {
+  "coma_schema": {
+   "tau_confident": 1.01,
+   "dev": {
+    "n_examples": 1620,
+    "n_field": 148,
+    "n_unknown": 1472,
+    "field_recall_confident": 0.0,
+    "top1_accuracy_confident": 0.0,
+    "wrong_confident": 0,
+    "wrong_confident_on_unknown": 0,
+    "review_or_unknown_on_fields": 148,
+    "per_field": {
+     "isin": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 0,
+      "review": 11
+     },
+     "issue_date": {
+      "n": 10,
+      "ok": 0,
+      "wrong": 0,
+      "review": 10
+     },
+     "maturity": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 0,
+      "review": 11
+     },
+     "denomination": {
+      "n": 12,
+      "ok": 0,
+      "wrong": 0,
+      "review": 12
+     },
+     "issued_amount": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 0,
+      "review": 11
+     },
+     "coupon_type": {
+      "n": 10,
+      "ok": 0,
+      "wrong": 0,
+      "review": 10
+     },
+     "day_count": {
+      "n": 4,
+      "ok": 0,
+      "wrong": 0,
+      "review": 4
+     },
+     "business_day_convention": {
+      "n": 6,
+      "ok": 0,
+      "wrong": 0,
+      "review": 6
+     },
+     "fixing_rules": {
+      "n": 6,
+      "ok": 0,
+      "wrong": 0,
+      "review": 6
+     },
+     "redemption_formula": {
+      "n": 6,
+      "ok": 0,
+      "wrong": 0,
+      "review": 6
+     },
+     "barrier": {
+      "n": 4,
+      "ok": 0,
+      "wrong": 0,
+      "review": 4
+     },
+     "observation_dates": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "currency": {
+      "n": 10,
+      "ok": 0,
+      "wrong": 0,
+      "review": 10
+     },
+     "underlying": {
+      "n": 6,
+      "ok": 0,
+      "wrong": 0,
+      "review": 6
+     },
+     "settlement_type": {
+      "n": 10,
+      "ok": 0,
+      "wrong": 0,
+      "review": 10
+     },
+     "autocall": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "benchmark": {
+      "n": 6,
+      "ok": 0,
+      "wrong": 0,
+      "review": 6
+     },
+     "call_dates": {
+      "n": 5,
+      "ok": 0,
+      "wrong": 0,
+      "review": 5
+     },
+     "coupon_rate": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "payment_frequency": {
+      "n": 6,
+      "ok": 0,
+      "wrong": 0,
+      "review": 6
+     },
+     "subordination": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "spread": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "reset_dates": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     }
+    },
+    "wrong_cases": [],
+    "macro_recall": 0.0,
+    "macro_precision": null
+   },
+   "test": {
+    "n_examples": 1577,
+    "n_field": 227,
+    "n_unknown": 1350,
+    "field_recall_confident": 0.0,
+    "top1_accuracy_confident": 0.0,
+    "wrong_confident": 0,
+    "wrong_confident_on_unknown": 0,
+    "review_or_unknown_on_fields": 227,
+    "per_field": {
+     "isin": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "currency": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "issue_date": {
+      "n": 22,
+      "ok": 0,
+      "wrong": 0,
+      "review": 22
+     },
+     "maturity": {
+      "n": 20,
+      "ok": 0,
+      "wrong": 0,
+      "review": 20
+     },
+     "denomination": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "issued_amount": {
+      "n": 17,
+      "ok": 0,
+      "wrong": 0,
+      "review": 17
+     },
+     "coupon_rate": {
+      "n": 15,
+      "ok": 0,
+      "wrong": 0,
+      "review": 15
+     },
+     "redemption_formula": {
+      "n": 15,
+      "ok": 0,
+      "wrong": 0,
+      "review": 15
+     },
+     "underlying": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 0,
+      "review": 11
+     },
+     "barrier": {
+      "n": 14,
+      "ok": 0,
+      "wrong": 0,
+      "review": 14
+     },
+     "observation_dates": {
+      "n": 9,
+      "ok": 0,
+      "wrong": 0,
+      "review": 9
+     },
+     "settlement_type": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "participation": {
+      "n": 4,
+      "ok": 0,
+      "wrong": 0,
+      "review": 4
+     },
+     "cap": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "autocall": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "benchmark": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "spread": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "reset_dates": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "fixing_rules": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "subordination": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "payment_frequency": {
+      "n": 5,
+      "ok": 0,
+      "wrong": 0,
+      "review": 5
+     },
+     "day_count": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "call_dates": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "coupon_type": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "ranking": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     }
+    },
+    "wrong_cases": [],
+    "macro_recall": 0.0,
+    "macro_precision": null
+   }
+  },
+  "cupid": {
+   "tau_confident": 0.91,
+   "dev": {
+    "n_examples": 1620,
+    "n_field": 148,
+    "n_unknown": 1472,
+    "field_recall_confident": 0.0,
+    "top1_accuracy_confident": 0.0,
+    "wrong_confident": 0,
+    "wrong_confident_on_unknown": 0,
+    "review_or_unknown_on_fields": 148,
+    "per_field": {
+     "isin": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 0,
+      "review": 11
+     },
+     "issue_date": {
+      "n": 10,
+      "ok": 0,
+      "wrong": 0,
+      "review": 10
+     },
+     "maturity": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 0,
+      "review": 11
+     },
+     "denomination": {
+      "n": 12,
+      "ok": 0,
+      "wrong": 0,
+      "review": 12
+     },
+     "issued_amount": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 0,
+      "review": 11
+     },
+     "coupon_type": {
+      "n": 10,
+      "ok": 0,
+      "wrong": 0,
+      "review": 10
+     },
+     "day_count": {
+      "n": 4,
+      "ok": 0,
+      "wrong": 0,
+      "review": 4
+     },
+     "business_day_convention": {
+      "n": 6,
+      "ok": 0,
+      "wrong": 0,
+      "review": 6
+     },
+     "fixing_rules": {
+      "n": 6,
+      "ok": 0,
+      "wrong": 0,
+      "review": 6
+     },
+     "redemption_formula": {
+      "n": 6,
+      "ok": 0,
+      "wrong": 0,
+      "review": 6
+     },
+     "barrier": {
+      "n": 4,
+      "ok": 0,
+      "wrong": 0,
+      "review": 4
+     },
+     "observation_dates": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "currency": {
+      "n": 10,
+      "ok": 0,
+      "wrong": 0,
+      "review": 10
+     },
+     "underlying": {
+      "n": 6,
+      "ok": 0,
+      "wrong": 0,
+      "review": 6
+     },
+     "settlement_type": {
+      "n": 10,
+      "ok": 0,
+      "wrong": 0,
+      "review": 10
+     },
+     "autocall": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "benchmark": {
+      "n": 6,
+      "ok": 0,
+      "wrong": 0,
+      "review": 6
+     },
+     "call_dates": {
+      "n": 5,
+      "ok": 0,
+      "wrong": 0,
+      "review": 5
+     },
+     "coupon_rate": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "payment_frequency": {
+      "n": 6,
+      "ok": 0,
+      "wrong": 0,
+      "review": 6
+     },
+     "subordination": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "spread": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "reset_dates": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     }
+    },
+    "wrong_cases": [],
+    "macro_recall": 0.0,
+    "macro_precision": null
+   },
+   "test": {
+    "n_examples": 1577,
+    "n_field": 227,
+    "n_unknown": 1350,
+    "field_recall_confident": 0.0,
+    "top1_accuracy_confident": 0.0,
+    "wrong_confident": 0,
+    "wrong_confident_on_unknown": 0,
+    "review_or_unknown_on_fields": 227,
+    "per_field": {
+     "isin": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "currency": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "issue_date": {
+      "n": 22,
+      "ok": 0,
+      "wrong": 0,
+      "review": 22
+     },
+     "maturity": {
+      "n": 20,
+      "ok": 0,
+      "wrong": 0,
+      "review": 20
+     },
+     "denomination": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "issued_amount": {
+      "n": 17,
+      "ok": 0,
+      "wrong": 0,
+      "review": 17
+     },
+     "coupon_rate": {
+      "n": 15,
+      "ok": 0,
+      "wrong": 0,
+      "review": 15
+     },
+     "redemption_formula": {
+      "n": 15,
+      "ok": 0,
+      "wrong": 0,
+      "review": 15
+     },
+     "underlying": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 0,
+      "review": 11
+     },
+     "barrier": {
+      "n": 14,
+      "ok": 0,
+      "wrong": 0,
+      "review": 14
+     },
+     "observation_dates": {
+      "n": 9,
+      "ok": 0,
+      "wrong": 0,
+      "review": 9
+     },
+     "settlement_type": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "participation": {
+      "n": 4,
+      "ok": 0,
+      "wrong": 0,
+      "review": 4
+     },
+     "cap": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "autocall": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "benchmark": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "spread": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "reset_dates": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "fixing_rules": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "subordination": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "payment_frequency": {
+      "n": 5,
+      "ok": 0,
+      "wrong": 0,
+      "review": 5
+     },
+     "day_count": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "call_dates": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "coupon_type": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "ranking": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     }
+    },
+    "wrong_cases": [],
+    "macro_recall": 0.0,
+    "macro_precision": null
+   }
+  },
+  "jaccard_levenshtein": {
+   "tau_confident": 0.67,
+   "dev": {
+    "n_examples": 1620,
+    "n_field": 148,
+    "n_unknown": 1472,
+    "field_recall_confident": 0.0,
+    "top1_accuracy_confident": 0.0,
+    "wrong_confident": 0,
+    "wrong_confident_on_unknown": 0,
+    "review_or_unknown_on_fields": 148,
+    "per_field": {
+     "isin": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 0,
+      "review": 11
+     },
+     "issue_date": {
+      "n": 10,
+      "ok": 0,
+      "wrong": 0,
+      "review": 10
+     },
+     "maturity": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 0,
+      "review": 11
+     },
+     "denomination": {
+      "n": 12,
+      "ok": 0,
+      "wrong": 0,
+      "review": 12
+     },
+     "issued_amount": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 0,
+      "review": 11
+     },
+     "coupon_type": {
+      "n": 10,
+      "ok": 0,
+      "wrong": 0,
+      "review": 10
+     },
+     "day_count": {
+      "n": 4,
+      "ok": 0,
+      "wrong": 0,
+      "review": 4
+     },
+     "business_day_convention": {
+      "n": 6,
+      "ok": 0,
+      "wrong": 0,
+      "review": 6
+     },
+     "fixing_rules": {
+      "n": 6,
+      "ok": 0,
+      "wrong": 0,
+      "review": 6
+     },
+     "redemption_formula": {
+      "n": 6,
+      "ok": 0,
+      "wrong": 0,
+      "review": 6
+     },
+     "barrier": {
+      "n": 4,
+      "ok": 0,
+      "wrong": 0,
+      "review": 4
+     },
+     "observation_dates": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "currency": {
+      "n": 10,
+      "ok": 0,
+      "wrong": 0,
+      "review": 10
+     },
+     "underlying": {
+      "n": 6,
+      "ok": 0,
+      "wrong": 0,
+      "review": 6
+     },
+     "settlement_type": {
+      "n": 10,
+      "ok": 0,
+      "wrong": 0,
+      "review": 10
+     },
+     "autocall": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "benchmark": {
+      "n": 6,
+      "ok": 0,
+      "wrong": 0,
+      "review": 6
+     },
+     "call_dates": {
+      "n": 5,
+      "ok": 0,
+      "wrong": 0,
+      "review": 5
+     },
+     "coupon_rate": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "payment_frequency": {
+      "n": 6,
+      "ok": 0,
+      "wrong": 0,
+      "review": 6
+     },
+     "subordination": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "spread": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "reset_dates": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     }
+    },
+    "wrong_cases": [],
+    "macro_recall": 0.0,
+    "macro_precision": null
+   },
+   "test": {
+    "n_examples": 1577,
+    "n_field": 227,
+    "n_unknown": 1350,
+    "field_recall_confident": 0.0,
+    "top1_accuracy_confident": 0.0,
+    "wrong_confident": 0,
+    "wrong_confident_on_unknown": 0,
+    "review_or_unknown_on_fields": 227,
+    "per_field": {
+     "isin": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "currency": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "issue_date": {
+      "n": 22,
+      "ok": 0,
+      "wrong": 0,
+      "review": 22
+     },
+     "maturity": {
+      "n": 20,
+      "ok": 0,
+      "wrong": 0,
+      "review": 20
+     },
+     "denomination": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "issued_amount": {
+      "n": 17,
+      "ok": 0,
+      "wrong": 0,
+      "review": 17
+     },
+     "coupon_rate": {
+      "n": 15,
+      "ok": 0,
+      "wrong": 0,
+      "review": 15
+     },
+     "redemption_formula": {
+      "n": 15,
+      "ok": 0,
+      "wrong": 0,
+      "review": 15
+     },
+     "underlying": {
+      "n": 11,
+      "ok": 0,
+      "wrong": 0,
+      "review": 11
+     },
+     "barrier": {
+      "n": 14,
+      "ok": 0,
+      "wrong": 0,
+      "review": 14
+     },
+     "observation_dates": {
+      "n": 9,
+      "ok": 0,
+      "wrong": 0,
+      "review": 9
+     },
+     "settlement_type": {
+      "n": 18,
+      "ok": 0,
+      "wrong": 0,
+      "review": 18
+     },
+     "participation": {
+      "n": 4,
+      "ok": 0,
+      "wrong": 0,
+      "review": 4
+     },
+     "cap": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "autocall": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "benchmark": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "spread": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "reset_dates": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "fixing_rules": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "subordination": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "payment_frequency": {
+      "n": 5,
+      "ok": 0,
+      "wrong": 0,
+      "review": 5
+     },
+     "day_count": {
+      "n": 1,
+      "ok": 0,
+      "wrong": 0,
+      "review": 1
+     },
+     "call_dates": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     },
+     "coupon_type": {
+      "n": 3,
+      "ok": 0,
+      "wrong": 0,
+      "review": 3
+     },
+     "ranking": {
+      "n": 2,
+      "ok": 0,
+      "wrong": 0,
+      "review": 2
+     }
+    },
+    "wrong_cases": [],
+    "macro_recall": 0.0,
+    "macro_precision": null
+   }
+  },
+  "similarity_flooding": {
+   "error": "STOP runtime: >35min sobre 1573x375 pares de columnas (algoritmo iterativo de grafos); coste desproporcionado, stop rule"
+  }
+ }
+}

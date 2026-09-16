@@ -1,0 +1,69 @@
+{
+ "manifest": "g2b-verdict",
+ "date": "2026-09-16",
+ "verdict": "FAIL",
+ "per_contract": "END automated contractual extraction research",
+ "dataset": {
+  "file": "g2/research/g2b-label-dataset.json",
+  "n_examples": 9977,
+  "field_examples": {"train_dev": 801, "test_cold": 227},
+  "unknown_examples": {"train_dev": 7599, "test_cold": 1350},
+  "unresolved_field_instances": 434,
+  "split_integrity": "sin solape document_family_key ni issuer_key train/test",
+  "gold_construction": "truth-v2 + localizacion estructural determinista; 12/227 test marcados suspect (labels confusos entre campos)"
+ },
+ "test_cold_results": {
+  "B0_exact_aliases_fieldspecs": {
+   "field_recall_confident": 0.5639,
+   "wrong_confident": 17,
+   "note": "== baseline G2-A (~55% label-anchor). Sus 17 errores son labels genuinamente ambiguos, no cobertura."
+  },
+  "B1_lexical_normalized": {
+   "field_recall_confident": 0.5066,
+   "wrong_confident": 58,
+   "tau_confident": 1.0,
+   "note": "dev no alcanzo wc=0 a ningun umbral; tau forzado al maximo y aun asi wc=58 en test"
+  },
+  "C2a_embed_label_only": {
+   "field_recall_confident": 0.0,
+   "wrong_confident": 0,
+   "note": "sin punto operativo: dev no permite wc=0 con recall>0. Diagnostico test: tau=0.9 -> recall 7.9% wc=46; tau=0.95 -> recall 1.3% wc=27"
+  },
+  "C2b_embed_label_ctx": {
+   "field_recall_confident": 0.0,
+   "wrong_confident": 0,
+   "note": "anadir heading+value_shape al texto empeora; tau=0.9 -> recall 0"
+  },
+  "C1_valentine_coma": {"field_recall_confident": 0.0, "wrong_confident": 0,
+   "note": "sin punto operativo wc=0"},
+  "C1_valentine_cupid": {"field_recall_confident": 0.0, "wrong_confident": 0,
+   "note": "sin punto operativo wc=0"},
+  "C1_valentine_jaccard_levenshtein": {"field_recall_confident": 0.0,
+   "wrong_confident": 0, "note": "sin punto operativo wc=0"},
+  "C1_valentine_similarity_flooding": {"status": "STOP",
+   "reason": ">35min runtime sobre 1573x375 columnas; desproporcionado"}
+ },
+ "gates": {
+  "GATE_SAFETY_wrong_confident_eq_0": {
+   "result": "NO ALCANZABLE con recall>0",
+   "detail": "ningun comparador tiene punto operativo con wrong_confident=0 y recall>0; el baseline exacto produce 17 wc por ambiguedad genuina de labels"
+  },
+  "GATE_VALUE_recall_ge_80": {
+   "result": "NO",
+   "detail": "ningun sistema supera 56% (B0) con seguridad razonable; challengers = 0%"
+  }
+ },
+ "root_cause": [
+  "Ambiguedad irreducible del label surface-form: la misma frase denota campos distintos segun plantilla ('Interest Basis'->coupon_rate|coupon_type; 'Aggregate Amount'->denomination|issued_amount; 'Status of the Notes'->ranking|subordination; 'Tipo de Subyacente'->underlying|benchmark). Ningun matcher de labels la resuelve.",
+  "Distribuciones de similitud correct/incorrect totalmente solapadas (wrong llega a cosine 1.0 en dev) -> abstencion segura imposible.",
+  "Es la misma clase residual que los 19 STILL_FALSE_SUPPORTED de G2-A: el problema es claim-schema/semantica de campo, no representacion ni vocabulario."
+ ],
+ "consequence": "La hipotesis 'label recognition is solvable' queda refutada a nivel de label+contexto estructural. Cierra la ultima via de extraccion contractual automatica general sin plantillas por emisor.",
+ "product_state": {
+  "PROVEN": ["security/document graph", "CNMV acquisition", "identity",
+             "safe linkage P=1.0 FP=0", "lifecycle supplements",
+             "novelty 82%", "human-review assisted extraction (viable)"],
+  "REJECTED": ["general contract extraction", "backend substitution",
+               "structure-only verification", "semantic field recognition (label-level)"]
+ }
+}

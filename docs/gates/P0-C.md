@@ -1,6 +1,32 @@
 # P0-C — WARM-UP / USABILITY SMOKE
 
-**Estado:** PENDING_HUMAN_WARMUP — freeze v1.1 + ingest + smoke técnico ejecutados.
+**Estado:** **PASS** — 4/4 warm-ups humanos completados, fixes permitidos aplicados, `ui-freeze-final.json` emitido (`afc0991f53`, tests rc=0). Listo para P0-D.
+
+## Resultado warm-up humano (4/4 submitted)
+
+```text
+REVIEWER_A  ADM_120967 MANUAL    516s · 29 decisions · 17 manual adds
+            ADM_123650 ASSISTED  319s · 32 decisions · 9 manual adds
+REVIEWER_B  ADM_118245 ASSISTED  175s · 30 decisions · 10 manual adds
+            ADM_121548 MANUAL    228s · 28 decisions · 16 manual adds
+```
+
+Todos: 28/28 campos, 10/10 críticos resueltos, 0 broken evidence,
+0 wrong-document, 0 UI errors, event log íntegro (orden + lifecycle,
+sin duplicados). Pause/Resume, atajos j/k/c/r/x/e, grafo y saltos de
+evidencia ejercitados en las 4 sesiones.
+
+## Issues (`p0/results/warmup/issues.json`)
+
+- **WU-1** EVIDENCE_RENDER_BUG: `[object Object]` en valores dict/list → FIXED.
+- **WU-2** EVIDENCE_RENDER_BUG: excerpts literales → BROKEN_EVIDENCE falso positivo; comparación normalizada → FIXED.
+- **WU-3** PRODUCT_LOGIC_REQUEST: candidate misattribution
+  (coupon_rate↔participación, protection_barrier↔barrera cupón) →
+  LOGGED_ONLY. Confirmación empírica del hallazgo G2-B.
+
+Inmutabilidad post-fixes: sample/assignments/protocol/schema/candidate-seal/
+engines — 0 drift vs freeze v1.2. Solo cambiaron `app.js` y `evidence.py`
+(fixes permitidos §8).
 
 ## Enmienda formal de muestra (P0-SAMPLE-v1.1)
 

@@ -1,0 +1,90 @@
+{
+ "manifest": "p0-ui-freeze",
+ "freeze_version": "2",
+ "purpose": "P0-D-FINAL",
+ "supersedes": "p0/ui-freeze-prewarmup-v1.2.json",
+ "frozen_at": "2026-09-16T16:12:37+00:00",
+ "git_sha": "afc0991f53dbb7401a8743d6eb35a4ac5792d5f9",
+ "tree_sha": "372e57e4a71c45717daf35910088567f6997fb8c",
+ "tests": {
+  "suite": "tests/test_p0_app.py",
+  "returncode": 0,
+  "tail": [
+   "20 passed in 0.85s"
+  ]
+ },
+ "files": {
+  "review_schema": {
+   "path": "p0/manifests/review-schema.json",
+   "sha256": "e5f5be35b9ef7cda487250fb8ed4e7dd7139bac755981d618daf685205b5f5a7"
+  },
+  "protocol": {
+   "path": "p0/manifests/protocol.json",
+   "sha256": "4027ba85fc255328f55f225a2f832d6b2838393a9a7d81cdc80c1c0d956e2dd3"
+  },
+  "sample": {
+   "path": "p0/manifests/sample.json",
+   "sha256": "b12edf37ffc76c36099f8c94f0cc8415d49b0156c666e365733fa436195afabb"
+  },
+  "assignments": {
+   "path": "p0/manifests/assignments.json",
+   "sha256": "430414ecb62ffe1007c6b1ad7651a67c924f75e9519c14e64f363834fcbd828a"
+  },
+  "app_models": {
+   "path": "p0/app/models.py",
+   "sha256": "b63733d888450d01094344bb665351fb5e9e1ae4572f79fe5ad12cd5b2603f15"
+  },
+  "app_cases": {
+   "path": "p0/app/cases.py",
+   "sha256": "4478ff568d0506c050d86cc53ab8e11ecf63d217909ad16aba7710433bb92e37"
+  },
+  "app_store": {
+   "path": "p0/app/store.py",
+   "sha256": "2d7cdaa21df16a5afc0effd13f8c4d109c660c993c2b6b86aa87f6b0a038a8dd"
+  },
+  "app_evidence": {
+   "path": "p0/app/evidence.py",
+   "sha256": "bbe21c888c3e8a7f75f930dea4ae2998a6714b774d9b80aa7b23ff4179b4430d"
+  },
+  "app_session": {
+   "path": "p0/app/session.py",
+   "sha256": "0fb22d29d3f2a84d31fec987f437da718d8acc55c354a1665f9d5fad16d0bbb0"
+  },
+  "app_server": {
+   "path": "p0/app/server.py",
+   "sha256": "bc7206f9fb4e15f201f3ce79383e9857861bd888351ff48f904cc8663055a5e0"
+  },
+  "app_js": {
+   "path": "p0/app/static/app.js",
+   "sha256": "ff0cc23004b05fb2c2b22ce593c5e57282289e9925d1ddd90431aa9b57365ba2"
+  },
+  "app_css": {
+   "path": "p0/app/static/style.css",
+   "sha256": "2b1e56c62bdff68c63bd52a50700392ce7fd2c03c129537729a797347a4d8421"
+  },
+  "app_html": {
+   "path": "p0/app/static/index.html",
+   "sha256": "e1805e2b8dae0d2a277bf67a928ef86fdda862bba0bf56446f9cee2ceed4c8ef"
+  },
+  "ingest": {
+   "path": "p0/ingest_p0.py",
+   "sha256": "2ee020b4d95a4265efe16727adfedf01d68b9c94f491c27e84a9f99b2a80feb8"
+  },
+  "sample_errata": {
+   "path": "p0/manifests/sample-errata-v1.1.json",
+   "sha256": "5a29d777b88b10f3fce2d9803fd9af47d09d345679712a8703bf7486f1732203"
+  },
+  "candidate_seal": {
+   "path": "p0/results/candidate-seal.json",
+   "sha256": "92e76debbd539e26f8de3cfb291a60177a95ad87680d9bb5e2d0c040d3e83ef4"
+  },
+  "candidate_engine": {
+   "path": "src/emissions_es/extraction/",
+   "sha256": "d06c78b17386784e2864b26748c6ecb0ca8443436a2d8697bdf204a75bedef72"
+  },
+  "graph_engine": {
+   "path": "src/emissions_es/linking/",
+   "sha256": "73c66e823ec6e28bb9fbb393671a59effb1ee32d098153e04e9c69473906d571"
+  }
+ }
+}

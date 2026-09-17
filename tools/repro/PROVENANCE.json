@@ -1,0 +1,21 @@
+{
+ "artifact": "repro-tooling-provenance",
+ "created_at": "2026-09-17",
+ "purpose": "Post-evaluation preservation of previously external research tooling. The frozen P0 ingest pipeline (p0/ingest_p0.py) imports the G2-A IR adapter from .work/g2a/ir/, which was never versioned. These copies are byte-identical to the files used during the experiments; nothing was reconstructed retrospectively.",
+ "canonical_source": ".work/g2a/ir/ (unversioned local working dir)",
+ "incorporated_after": "p0-final-fail",
+ "files": {
+  "ir.py": {
+   "source": ".work/g2a/ir/ir.py",
+   "sha256": "a9ef8779c71bb68b2fb3b05acaed255446a335c0e5ec9ff93493452a44404cee",
+   "destination": "tools/repro/ir.py"
+  },
+  "adapter_docling.py": {
+   "source": ".work/g2a/ir/adapter_docling.py",
+   "sha256": "12297832cf615e4909fd4333a476a1324b7c7673a3d1173144dd221fd4ba30e7",
+   "destination": "tools/repro/adapter_docling.py"
+  }
+ },
+ "usage": "p0/ingest_p0.py (sealed, unmodified) does sys.path.insert(0, REPO/'.work/g2a/ir'). To rerun the pipeline on a fresh clone, redirect that sys.path entry to tools/repro/ — the module names (ir, adapter_docling) are unchanged. The adapter converts Docling JSON to the canonical DocumentIR used by G2-A/P0.",
+ "dependencies": "stdlib only for these two modules; the full ingest also needs docling output (docling-slim in requirements-lock.txt) and the CNMV PDFs, which are not redistributed."
+}

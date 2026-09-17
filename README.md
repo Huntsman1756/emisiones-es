@@ -62,10 +62,11 @@ Requires **CPython 3.13** (canonical frozen env: Windows/3.13.11;
 see `g0/environment-lock.json`).
 
 ```powershell
-python -m venv .venv            # or: uv venv --python 3.13
+uv venv .venv --python 3.13
 uv pip install --python .venv -r requirements-lock.txt   # frozen env
+uv pip install --python .venv -e .                        # package itself
 # or, without uv:
-.venv\Scripts\python -m pip install -r requirements-lock.txt
+python -m venv .venv && .venv\Scripts\python -m pip install -r requirements-lock.txt -e .
 ```
 
 The lock was compiled on Windows (`uv pip compile pyproject.toml

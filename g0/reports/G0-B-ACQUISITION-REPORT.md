@@ -1,6 +1,6 @@
 # G0-B — Acquisition & Holdout Freeze — Informe
 
-Fecha de congelado: 2026-09-14 · Repo: `F:\_Proyectos\emisiones-es`
+Fecha de congelado: 2026-09-14 · Repo: `emisiones-es` (checkout local del owner)
 
 ## Veredicto: PASS
 

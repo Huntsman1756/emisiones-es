@@ -14,8 +14,12 @@ g0/snapshots/*.pdf
 g0/corpus/*.pdf
 g1/snapshots/*.pdf
 # material crudo de adquisicion (licencia CNMV: no redistribuir)
+# y derivados de texto completo regenerables via p0/ingest_p0.py
 .work/
 p0/runtime/
+p0/docs/
+p0/docling/
+p0/ir/
 
 # local tool configs (may contain keys)
 opencode.json

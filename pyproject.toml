@@ -6,10 +6,14 @@ requires-python = ">=3.13,<3.14"
 license = {text = "Apache-2.0"}
 # Dependencias directas del proyecto (G0-C.1). Versiones resueltas
 # congeladas en requirements-lock.txt / g0/environment-lock.json.
+# pypdfium2 y Pillow son dependencias directas de la app de revision P0
+# (render de paginas PDF a PNG). Ya resueltas en el lock congelado.
 dependencies = [
   "docling==2.126.0",
   "pydantic>=2.13,<3",
   "pypdf>=6,<7",
+  "pypdfium2>=5,<6",
+  "pillow>=12,<13",
 ]
 
 [project.optional-dependencies]

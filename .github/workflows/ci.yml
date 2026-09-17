@@ -1,0 +1,23 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+
+      - name: Create venv (CPython 3.13)
+        run: uv venv --python 3.13 .venv
+
+      - name: Install frozen environment
+        run: uv pip install --python .venv -r requirements-lock.txt
+
+      - name: Run tests
+        run: .venv/Scripts/python.exe -m pytest tests/ -q

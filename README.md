@@ -1,73 +1,75 @@
 # Emisiones ES
 
-Capa abierta y auditable de referencia de valores, emisiones, documentación y
-términos contractuales para instrumentos emitidos o admitidos en los mercados
-españoles.
+**Research-grade open infrastructure for Spanish securities/document
+data** — validated acquisition, identity, document graph and
+conservative linkage, plus a complete, hash-sealed experimental record
+of approaches that did and did not work.
 
-**Estado**: línea de investigación de extracción cerrada
-(`g0/g1/g2-a/g2-b` — todos `-final-fail`; veredictos en `docs/gates/`).
-La extracción contractual automática general queda **descartada
-experimentalmente**. Fase abierta: **P0 — productization / reviewer
-workflow** (securities reference-data & document intelligence con
-extracción human-in-the-loop basada en evidencia). Ver
-[`docs/gates/P0.md`](docs/gates/P0.md).
+This is not a ready-to-use contractual-extraction tool and not a
+validated reviewer product. It is the audited infrastructure and the
+experimental evidence behind those conclusions.
 
-## Hipótesis de producto
+## Results (all gates preregistered, all verdicts sealed)
 
-Existe valor diferencial en reconstruir el **grafo documental** de una emisión
-(folleto base → suplementos → condiciones finales → correcciones/redepósitos →
-admisión) y en extraer **términos contractuales profundos** con provenance a
-nivel de campo, que no están disponibles de forma estructurada en FIRDS/ESAP.
+| Phase | Question | Verdict |
+|---|---|---|
+| G0 | Can acquisition + deterministic tiers + extraction hit frozen thresholds? | **FAIL** |
+| G1 | Improved extraction on a stratified dev set? | **FAIL** |
+| G2-A / G2-B | Document graph / docling-IR variants? | **FAIL / FAIL** |
+| P0 | Human-in-the-loop reviewer product (manual vs assisted, 30 crossed cases, blinded human gold)? | **FAIL** — assisted was *slower* (median time ratio 1.387, gate ≤ 0.60; only 7/30 cases faster; 95% CI [1.18, 1.75]) and confirmed-value precision vs human truth was 0.43 (gate ≥ 0.99) |
 
-El objeto canónico del sistema es el **instrumento financiero**, no el PDF ni
-el registro de un venue concreto.
+Every gate definition, threshold and dataset was frozen before
+evaluation; every result carries SHA-256 artifact seals. The negative
+results are the finding: they are preserved, not deleted. See
+`docs/gates/` and `p0/reports/P0-F-FINAL-EVALUATION.md`.
 
-## Principio rector: REUSE FIRST
+### What is demonstrated to work
 
-El código propio se limita a:
+- Acquisition and identity resolution over CNMV admission records
+- The canonical instrument model (`src/emissions_es/`)
+- The document-graph and conservative linkage machinery
+- The sealed evaluation harness itself: freeze manifests, blinded
+  scoring, evidence validation, one-shot scorer with defect versioning
+- The reviewer web app (functional; loopback-only, hardened)
 
-1. adaptadores de fuentes específicas (CNMV, venues),
-2. *document/security linkage*,
-3. extracción de términos contractuales,
-4. reconciliación entre fuentes.
+### What is experimentally rejected
 
-Todo lo demás se resuelve con OSS existente. Ver
-[`docs/oss-reuse-matrix.md`](docs/oss-reuse-matrix.md).
+- General automatic contractual extraction (G0/G1/G2)
+- The assisted-review workflow as configured (P0): candidates covered
+  only ~26% of human-gold confirmed fields, so assisted review cost more
+  time than it saved
 
-## Estructura del repositorio
+## Repository layout
 
 ```text
-src/emissions_es/   paquete Python: modelo canónico, clasificación,
-                    extracción, linking, reconciliación, verificación
-p0/                 fase P0 — reviewer app + protocolo de evaluación
-  app/              servidor HTTP stdlib + UI de revisión asistida
-  manifests/        protocolo, muestra y esquema congelados
-  results/          artefactos sellados de evaluación (reviews, gold)
-g0/ g1/ g2/         fases de investigación cerradas (manifests, truth,
-                    resultados, informes de gate)
-tools/              scripts de pipeline (ingest, freeze, scoring)
-docs/               arquitectura, contratos, gates preregistrados
-tests/              suite pytest (offline, fixtures sintéticas)
+src/emissions_es/   canonical model, classification, extraction,
+                    linking, reconciliation, verification
+p0/                 P0 phase — reviewer app + frozen evaluation protocol
+  app/              stdlib HTTP server + assisted-review UI
+  manifests/        frozen protocol, sample, schema
+  results/          sealed evaluation artifacts (reviews, gold, scores)
+  score_p0.py       one-shot scorer (v1→v3 audit trail preserved)
+g0/ g1/ g2/         closed research phases (manifests, results, reports)
+tools/repro/        frozen IR adapter (post-evaluation preservation,
+                    byte-identical + PROVENANCE.json)
+docs/               architecture, contracts, preregistered gates
+tests/              pytest suite (offline, synthetic fixtures)
 ```
 
-## Instalación
+## Install
 
-Requisitos: **CPython 3.13** (el entorno canónico congelado es
-Windows/3.13.11; ver `g0/environment-lock.json`).
-
-```powershell
-python -m venv .venv            # o: uv venv --python 3.13
-uv pip install --python .venv -r requirements-lock.txt   # entorno congelado
-```
-
-Sin `uv`, equivalente con pip:
+Requires **CPython 3.13** (canonical frozen env: Windows/3.13.11;
+see `g0/environment-lock.json`).
 
 ```powershell
+python -m venv .venv            # or: uv venv --python 3.13
+uv pip install --python .venv -r requirements-lock.txt   # frozen env
+# or, without uv:
 .venv\Scripts\python -m pip install -r requirements-lock.txt
 ```
 
-El lock fue compilado en Windows (`uv pip compile pyproject.toml --extra dev`)
-y su SHA-256 está sellado en `g0/code-freeze.json`; no se regenera.
+The lock was compiled on Windows (`uv pip compile pyproject.toml
+--extra dev`); its SHA-256 is sealed in `g0/code-freeze.json`.
 
 ## Tests
 
@@ -75,11 +77,9 @@ y su SHA-256 está sellado en `g0/code-freeze.json`; no se regenera.
 .venv\Scripts\python -m pytest tests/ -q
 ```
 
-La suite es offline. Los tests que validan contra documentos CNMV reales
-(snapshots `g*/`, artefactos `.work/` no distribuidos) se **saltan**
-automáticamente si el material no está presente; el resto usa fixtures
-sintéticas. Un test de regresión del frontend usa `node` si está
-disponible (skip si no).
+Fully offline. Tests that need the (non-distributed) CNMV corpus or
+`.work/` artifacts **skip** automatically; the rest use synthetic
+fixtures. One frontend regression test uses `node` if present.
 
 ## Reviewer app (P0)
 
@@ -87,48 +87,52 @@ disponible (skip si no).
 .venv\Scripts\python -m p0.app.server --session p0/runtime/session_<id>.json --port 8765
 ```
 
-La app solo escucha en loopback (127.0.0.1) y exige Host/Origin same-origin.
-Las sesiones se crean con `p0/app/session.py` (`dev_session` para UI sobre
-casos de desarrollo G1; `p0_session` desde `p0/manifests/assignments.json`).
+Loopback-only (127.0.0.1) with same-origin Host/Origin checks. Sessions
+are created via `p0/app/session.py`. Document views need the local CNMV
+corpus (not distributed — see below) and will 404 without it.
 
-## Política de datos
+## Data policy
 
-**Este repositorio no distribuye documentos CNMV** ni texto completo derivado
-(PDFs, salidas Docling, IR): CNMV no publica una licencia open-data
-estándar para ese contenido. Solo se publican hashes, metadatos, evidence pointers y hechos
-normalizados (ver `docs/licensing.md`). Los documentos de la muestra P0 se
-obtienen de su `document_url` oficial. El ingest mecánico
-(`p0/ingest_p0.py`: fetch, Docling, IR, candidates sellados) es
-maquinaria del owner — usa el adaptador IR congelado de `.work/g2a/ir/`,
-que no se distribuye.
+**This repository does not distribute CNMV documents** or derived
+full-text (PDFs, Docling output, IR): CNMV publishes no standard
+open-data licence for that content. Only hashes, metadata, evidence
+pointers and normalized facts are published (`docs/licensing.md`).
+P0 sample documents are obtainable from their official `document_url`.
+The mechanical ingest (`p0/ingest_p0.py`, sealed) imports the IR adapter
+now preserved in `tools/repro/` — redirect its `sys.path` entry from
+`.work/g2a/ir` to `tools/repro/` to rerun the pipeline on your own
+corpus.
 
-Los artefactos de evaluación congelados (`p0/manifests/`, `p0/results/`,
-`g*/manifests/`, `g*/holdout-truth/`) **no se modifican**: su integridad está
-sellada por SHA-256 y protegida por tests (`test_freeze_guard`,
-`test_g1_freeze_guard`).
+Frozen evaluation artifacts (`p0/manifests/`, `p0/results/`,
+`g*/manifests/`) are **never modified**: integrity is SHA-256-sealed and
+protected by `test_freeze_guard` / `test_g1_freeze_guard`.
 
-## Documentación
+## Publication provenance
 
-| Documento | Contenido |
+This public repository is a history-sanitized export of the private
+canonical research repository — see `docs/PUBLICATION_PROVENANCE.md`.
+File-level SHA-256 seals inside artifacts remain the authoritative
+integrity references; embedded `git_sha`/`tree_sha` fields in historical
+freezes refer to the canonical history and may not resolve here.
+
+## Documentation
+
+| Doc | Contents |
 |---|---|
-| `docs/architecture.md` | Arquitectura G0 (tiers deterministas) |
-| `docs/source-map.md` | Mapa de fuentes primarias y endpoints |
-| `docs/oss-reuse-matrix.md` | Inventario OSS + decisiones de reutilización |
-| `docs/licensing.md` | Licencias y riesgos de reutilización de datos |
-| `docs/canonical-model.md` | Modelo conceptual mínimo |
-| `docs/venue-model.md` | Venues e infraestructuras registradas en CNMV |
-| `docs/gates/G0*.md` | Definición de gates, umbrales preregistrados |
-| `docs/gates/P0*.md` | Protocolo de evaluación de producto P0 |
-| `docs/gates/R0.md` | Gate de publicación: canonical privado → export público sanitizado |
-| `g0/manifests/` | Muestreo, umbrales y versiones congeladas |
+| `docs/architecture.md` | G0 architecture (deterministic tiers) |
+| `docs/source-map.md` | Primary sources and endpoints |
+| `docs/oss-reuse-matrix.md` | OSS inventory + reuse decisions |
+| `docs/licensing.md` | Data licences and reuse risks |
+| `docs/gates/*.md` | All gate definitions + verdicts |
+| `p0/reports/` | P0 evaluation reports |
 
-## Lo que NO es
+## What this is not
 
-No es un scraper más de la CNMV, ni un wrapper de FIRDS, ni un security
-master comercial, ni un "Bloomberg open source". No redistribuye datos de
-mercado sujetos a licencia (BME).
+Not another CNMV scraper, not a FIRDS wrapper, not a commercial security
+master, not an "open-source Bloomberg". It does not redistribute
+licensed market data (BME).
 
-## Licencia
+## Licence
 
-Apache-2.0 (código). Los datos de fuentes primarias conservan sus términos
-originales — ver `docs/licensing.md`.
+Apache-2.0 (code). Primary-source data retains its original terms — see
+`docs/licensing.md`.

@@ -58,7 +58,7 @@ def main():
         sys.exit('REFUSED: p0/ui-freeze.json missing — freeze UI first')
     for d in (DOCS, DL, IRD, CAND):
         d.mkdir(exist_ok=True)
-    sample = json.load(open(SAMPLE, encoding='utf-8'))
+    sample = json.loads(SAMPLE.read_text(encoding='utf-8'))
 
     from docling.document_converter import DocumentConverter
     from docling_core.types.doc import DoclingDocument
@@ -77,7 +77,8 @@ def main():
         pdf = DOCS / f'{key}.pdf'
         if not pdf.exists():
             req = urllib.request.Request(c['document_url'], headers=UA)
-            pdf.write_bytes(urllib.request.urlopen(req, timeout=90).read())
+            with urllib.request.urlopen(req, timeout=90) as resp:
+                pdf.write_bytes(resp.read())
             time.sleep(0.5)
         sha = hashlib.sha256(pdf.read_bytes()).hexdigest()
 

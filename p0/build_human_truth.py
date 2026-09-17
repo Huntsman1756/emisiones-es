@@ -18,8 +18,8 @@ from p0.app.gold import CRITICAL
 REPO = Path(__file__).resolve().parent.parent
 GOLD_DIR = REPO / 'p0' / 'results' / 'gold_human'
 FIELDS = [f['id'] for f in
-          json.load(open(REPO / 'p0' / 'manifests' / 'review-schema.json',
-                         encoding='utf-8'))['fields']]
+          json.loads((REPO / 'p0' / 'manifests' / 'review-schema.json')
+                     .read_text(encoding='utf-8'))['fields']]
 
 
 def sha256_file(p):
@@ -33,9 +33,10 @@ def sha256_json(obj):
 
 def main(adjudication_mode, adjudicator_ids):
     sealed = [json.loads(l) for l in
-              open(GOLD_DIR / 'gold_cases.jsonl', encoding='utf-8')]
+              (GOLD_DIR / 'gold_cases.jsonl')
+              .read_text(encoding='utf-8').splitlines() if l.strip()]
     units = defaultdict(dict)
-    for l in open(GOLD_DIR / 'gold.jsonl', encoding='utf-8'):
+    for l in (GOLD_DIR / 'gold.jsonl').read_text(encoding='utf-8').splitlines():
         d = json.loads(l)
         units[d['case_id']][d['field']] = d  # latest wins
 
@@ -91,8 +92,8 @@ def main(adjudication_mode, adjudicator_ids):
         for c in cases_out for f in cases_out[c]['fields'])
 
     doc_shas = {}
-    for c in json.load(open(REPO / 'p0' / 'manifests' / 'sample.json',
-                            encoding='utf-8'))['cases']:
+    for c in json.loads((REPO / 'p0' / 'manifests' / 'sample.json')
+                        .read_text(encoding='utf-8'))['cases']:
         key = c['source_record_key']
         p = cases.pdf_path(key)
         if p:

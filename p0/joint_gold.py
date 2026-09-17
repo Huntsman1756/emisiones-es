@@ -26,9 +26,10 @@ JOINT_ADJ = 'JOINT_REVIEWER_A_B'
 def _latest(root):
     units = defaultdict(dict)
     p = Path(root) / 'gold.jsonl'
-    for l in open(p, encoding='utf-8'):
-        d = json.loads(l)
-        units[d['case_id']][d['field']] = d
+    for l in p.read_text(encoding='utf-8').splitlines():
+        if l.strip():
+            d = json.loads(l)
+            units[d['case_id']][d['field']] = d
     return units
 
 

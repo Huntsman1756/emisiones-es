@@ -17,6 +17,15 @@ def dev_cases():
 
 
 @pytest.fixture()
+def dev_pdf(dev_cases):
+    """Los tests que validan punteros contra el documento real necesitan
+    el snapshot local (g1/snapshots no se distribuye; ver
+    docs/licensing.md)."""
+    if cases.pdf_path(DOC) is None:
+        pytest.skip('snapshot local no distribuido')
+
+
+@pytest.fixture()
 def store(tmp_path):
     return ReviewStore(tmp_path)
 
@@ -49,7 +58,7 @@ def test_candidate_cannot_auto_promote(store, dev_cases):
     assert cand['state'] == 'CANDIDATE'   # untouched
 
 
-def test_confirm_creates_human_observation(store, dev_cases):
+def test_confirm_creates_human_observation(store, dev_cases, dev_pdf):
     cand = _cand(dev_cases)
     dec = store.record_decision(
         'R1', 'c1', 'isin', 'CONFIRMED', value=cand['value'],
@@ -151,7 +160,7 @@ def test_event_log_schema(store):
 
 # --- evidence validation -------------------------------------------
 
-def test_evidence_pointer_valid(dev_cases):
+def test_evidence_pointer_valid(dev_cases, dev_pdf):
     cand = _cand(dev_cases)
     status, detail = evidence.validate_pointer(cand['evidence'][0])
     assert status == 'OK', detail
@@ -173,7 +182,7 @@ def test_wrong_document_evidence_rejected():
 
 # --- multi-value ----------------------------------------------------
 
-def test_multivalue_decision(store, dev_cases):
+def test_multivalue_decision(store, dev_cases, dev_pdf):
     cand = {**_cand(dev_cases), 'candidate_id': 'D:call_dates', 'field': 'call_dates'}
     dec = store.record_decision(
         'R1', 'c1', 'call_put_terms', 'CONFIRMED',
@@ -185,7 +194,7 @@ def test_multivalue_decision(store, dev_cases):
 
 # --- session close-out -----------------------------------------------
 
-def test_closeout_fields(store, dev_cases):
+def test_closeout_fields(store, dev_cases, dev_pdf):
     cand = _cand(dev_cases)
     store.record_event('R1', 'c1', 'CASE_OPENED', ts=0.0)
     store.record_event('R1', 'c1', 'EVIDENCE_JUMP',

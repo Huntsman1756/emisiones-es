@@ -15,8 +15,8 @@ from p0.app.gold import CRITICAL
 REPO = Path(__file__).resolve().parent.parent
 GOLD_DIR = REPO / 'p0' / 'results' / 'gold'
 FIELDS = [f['id'] for f in
-          json.load(open(REPO / 'p0' / 'manifests' / 'review-schema.json',
-                         encoding='utf-8'))['fields']]
+          json.loads((REPO / 'p0' / 'manifests' / 'review-schema.json')
+                     .read_text(encoding='utf-8'))['fields']]
 
 
 def sha256_file(p):
@@ -30,9 +30,10 @@ def sha256_json(obj):
 
 def main():
     sealed = [json.loads(l) for l in
-              open(GOLD_DIR / 'gold_cases.jsonl', encoding='utf-8')]
+              (GOLD_DIR / 'gold_cases.jsonl')
+              .read_text(encoding='utf-8').splitlines() if l.strip()]
     units = defaultdict(dict)
-    for l in open(GOLD_DIR / 'gold.jsonl', encoding='utf-8'):
+    for l in (GOLD_DIR / 'gold.jsonl').read_text(encoding='utf-8').splitlines():
         d = json.loads(l)
         units[d['case_id']][d['field']] = d  # latest wins
 
@@ -79,8 +80,10 @@ def main():
         'n_fields_per_case': len(FIELDS),
         'cases': cases_out,
     }
-    truth_sha = sha256_json(truth)
-    truth['truth_sha256'] = truth_sha
+    # truth_sha256 cubre el payload sin el propio campo (igual que
+    # build_human_truth): el seal referencia ese mismo valor, no el
+    # hash del fichero ya auto-contenido
+    truth['truth_sha256'] = sha256_json(truth)
     (GOLD_DIR / 'truth-v1.json').write_text(
         json.dumps(truth, indent=1, ensure_ascii=False), encoding='utf-8')
 
@@ -89,8 +92,8 @@ def main():
         for c in cases_out for f in cases_out[c]['fields'])
 
     doc_shas = {}
-    for c in json.load(open(REPO / 'p0' / 'manifests' / 'sample.json',
-                            encoding='utf-8'))['cases']:
+    for c in json.loads((REPO / 'p0' / 'manifests' / 'sample.json')
+                        .read_text(encoding='utf-8'))['cases']:
         key = c['source_record_key']
         p = cases.pdf_path(key)
         if p:
@@ -99,9 +102,7 @@ def main():
     seal = {
         'artifact': 'gold-seal',
         'created_at': datetime.now(timezone.utc).isoformat(),
-        'truth_sha256': sha256_json(
-            json.loads((GOLD_DIR / 'truth-v1.json')
-                       .read_text(encoding='utf-8'))),
+        'truth_sha256': truth['truth_sha256'],
         'sample_sha256': sha256_file(REPO / 'p0' / 'manifests' / 'sample.json'),
         'review_schema_sha256': sha256_file(
             REPO / 'p0' / 'manifests' / 'review-schema.json'),
@@ -141,7 +142,7 @@ def main():
     print('cases:', len(sealed), 'units:', sum(status_tot.values()))
     print('status:', dict(status_tot))
     print('issues:', len(issues))
-    print('truth sha:', truth_sha[:16])
+    print('truth sha:', truth['truth_sha256'][:16])
     print('seal sha:', seal['seal_sha256'][:16])
 
 

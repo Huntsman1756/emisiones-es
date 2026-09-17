@@ -148,7 +148,8 @@ const vm = require('vm');
 const assert = require('assert');
 const elements = new Map();
 const element = () => ({textContent: '', innerHTML: '', value: '', className: '',
-  style: {}, classList: {add() {}, remove() {}}, appendChild() {},
+  style: {}, children: [], classList: {add() {}, remove() {}},
+  appendChild(c) { this.children.push(c); },
   querySelector() { return element(); }, addEventListener() {}});
 const context = {console, URL, setTimeout, clearTimeout, setInterval, clearInterval,
   document: {getElementById(id) { if (!elements.has(id)) elements.set(id, element()); return elements.get(id); },
@@ -161,6 +162,11 @@ vm.runInContext(src, context);
   assert.equal(vm.runInContext('safeUrl("javascript:alert(1)")', context), null);
   const html = vm.runInContext(`candRow({id:'isin'}, {value:'<img src=x onerror=bad>', evidence:[{excerpt:'<svg onload=bad>', doc_id:'<b>bad</b>', page:1}]}).innerHTML`, context);
   assert(!html.includes('<img') && !html.includes('<svg') && !html.includes('<b>bad'));
+  vm.runInContext(`S.decisions={isin:[{decision:'<img src=x>',value:'<svg onload=bad>',origin:'<b>x</b>'}]}`, context);
+  const card = vm.runInContext(`fieldCard({id:'isin',label:'<i>l</i>',critical:false},[])`, context);
+  assert(!card.innerHTML.includes('<i>l</i>'));
+  const rows = card.children[0].children.map(c => c.innerHTML).join('');
+  assert(!rows.includes('<img') && !rows.includes('<svg') && !rows.includes('<b>x</b>'));
   await assert.rejects(vm.runInContext('api.get("/bad")', context));
   assert(elements.get('toast').textContent.includes('offline'));
   vm.runInContext(`S.caseId='C'; S.decisions={}; mmField='isin'; S.capturedEv={doc_id:'D',page:1}; $('mm-value').value='preserve me';`, context);

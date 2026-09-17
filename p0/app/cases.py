@@ -317,4 +317,4 @@ def ir_for(doc_key):
     p = ir_path(doc_key)
     if not p:
         return None
-    return json.load(open(p, encoding='utf-8'))
+    return json.loads(p.read_text(encoding='utf-8'))

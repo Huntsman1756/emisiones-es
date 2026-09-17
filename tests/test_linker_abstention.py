@@ -166,11 +166,14 @@ def test_admission_doc_candidate_never_exact():
 def test_ambiguity_dev_manifest_zero_forced_links():
     """End-to-end sobre g0/linkage-ambiguity-dev: 0 EXACT sobre gold
     AMBIGUOUS."""
+    import pytest
     root = Path(__file__).resolve().parents[1]
+    obs_path = root / '.work/observations.json'
+    if not obs_path.exists():
+        pytest.skip('artefacto local .work no distribuido')
     man = json.load(open(root / 'g0/linkage-ambiguity-dev/cases.json',
                          encoding='utf-8'))
-    obs = json.load(open(root / '.work/observations.json',
-                         encoding='utf-8'))
+    obs = json.load(open(obs_path, encoding='utf-8'))
     kb = KnowledgeBase(folletos=obs['folletos'], ccff=obs['ccff'],
                        admisiones=obs['admisiones'])
     by_key = {o['source_record_key']: o

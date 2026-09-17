@@ -76,7 +76,7 @@ def absence_scan(doc, terms):
 def run(spec_path, store_dir=None, adjudicator=None):
     if bool(store_dir) != bool(adjudicator):
         raise GoldError('--store and --adjudicator must be given together')
-    spec = json.load(open(spec_path, encoding='utf-8'))
+    spec = json.loads(Path(spec_path).read_text(encoding='utf-8'))
     store = GoldStore(store_dir, adjudicator) if store_dir else GoldStore()
     cid = spec['case_id']
     doc = spec.get('doc') or cid.replace('P0-', '')

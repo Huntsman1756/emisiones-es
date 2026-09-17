@@ -75,8 +75,11 @@ y su SHA-256 está sellado en `g0/code-freeze.json`; no se regenera.
 .venv\Scripts\python -m pytest tests/ -q
 ```
 
-La suite es offline y usa documentos sintéticos; no requiere el corpus CNMV.
-Un test de regresión del frontend usa `node` si está disponible (skip si no).
+La suite es offline. Los tests que validan contra documentos CNMV reales
+(snapshots `g*/`, artefactos `.work/` no distribuidos) se **saltan**
+automáticamente si el material no está presente; el resto usa fixtures
+sintéticas. Un test de regresión del frontend usa `node` si está
+disponible (skip si no).
 
 ## Reviewer app (P0)
 

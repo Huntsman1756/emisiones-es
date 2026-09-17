@@ -205,17 +205,17 @@ function fieldCard(f, cands) {
   const decs = S.decisions[f.id] || [];
   const st = decs.length ? decs[decs.length - 1].decision : 'OPEN';
   card.innerHTML =
-    `<div class="fhead"><span><span class="fname">${f.label}</span>` +
+    `<div class="fhead"><span><span class="fname">${esc(f.label)}</span>` +
     (f.critical ? '<span class="fcrit">CRITICAL</span>' : '') +
-    `</span><span class="fstatus st-${st}">${st}</span></div>`;
+    `</span><span class="fstatus st-${esc(st)}">${esc(st)}</span></div>`;
   const body = document.createElement('div');
   card.appendChild(body);
   cands.forEach(c => body.appendChild(candRow(f, c)));
   decs.forEach(d => {
     const dv = document.createElement('div');
     dv.className = 'decision-val';
-    dv.innerHTML = `${d.decision}: <b>${fmtVal(d.value)}</b> ` +
-      `<span class="dv-src">${d.origin}</span>`;
+    dv.innerHTML = `${esc(d.decision)}: <b>${esc(fmtVal(d.value))}</b> ` +
+      `<span class="dv-src">${esc(d.origin)}</span>`;
     body.appendChild(dv);
   });
   const acts = document.createElement('div');

@@ -15,8 +15,8 @@ from . import evidence
 
 REPO = Path(__file__).resolve().parents[2]
 GOLD_DIR = REPO / 'p0' / 'results' / 'gold'
-SCHEMA = json.load(open(REPO / 'p0' / 'manifests' / 'review-schema.json',
-                        encoding='utf-8'))
+SCHEMA = json.loads((REPO / 'p0' / 'manifests' / 'review-schema.json')
+                    .read_text(encoding='utf-8'))
 GOLD_STATES = ('CONFIRMED_VALUE', 'CONFLICT', 'MISSING', 'NOT_APPLICABLE')
 ADJUDICATOR = 'ADJUDICATOR_C'
 CRITICAL = {f['id'] for f in SCHEMA['fields'] if f['critical']}

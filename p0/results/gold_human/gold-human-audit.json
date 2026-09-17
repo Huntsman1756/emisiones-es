@@ -1,0 +1,34 @@
+{
+ "artifact": "gold-human-audit",
+ "created_at": "2026-09-17T05:44:04.707282+00:00",
+ "cases_sealed": 30,
+ "fields_per_case": 28,
+ "total_units": 840,
+ "status_totals": {
+  "CONFIRMED_VALUE": 560,
+  "NOT_APPLICABLE": 119,
+  "MISSING": 160,
+  "CONFLICT": 1
+ },
+ "critical_fields": [
+  "call_put_terms",
+  "coupon_barrier",
+  "coupon_rate",
+  "coupon_type",
+  "currency",
+  "isin",
+  "maturity",
+  "protection_barrier",
+  "redemption",
+  "underlying"
+ ],
+ "critical_verified_count": 300,
+ "consistency_issues": [],
+ "p0d_inc_1": {
+  "case_id": "P0-ADM_123092",
+  "note": "storage incident during P0-D review persistence; gold adjudicated normally from source documents — incident is workflow/product scope, not truth scope"
+ },
+ "p0_adm_123067": {
+  "note": "document prints two conflicting underlying ISINs; resolution under official-source-only rules is whatever the human adjudicator recorded — Bloomberg was not used"
+ }
+}

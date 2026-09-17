@@ -22,10 +22,10 @@ def store(tmp_path):
 
 
 @pytest.fixture()
-def app(tmp_path, dev_cases):
+def app(tmp_path, dev_cases, monkeypatch):
+    monkeypatch.setattr(session_mod, 'RUNTIME', tmp_path)
     sess = session_mod._write_session(
-        'REV_T', [{'case_id': DOC, 'mode': 'ASSISTED', 'status': 'PENDING'},
-                  {'case_id': DOC, 'mode': 'MANUAL', 'status': 'PENDING'}],
+        'REV_T', [{'case_id': DOC, 'mode': 'ASSISTED', 'status': 'PENDING'}],
         't')
     a = App(sess)
     a.cases = dev_cases
@@ -54,7 +54,7 @@ def test_confirm_creates_human_observation(store, dev_cases):
     dec = store.record_decision(
         'R1', 'c1', 'isin', 'CONFIRMED', value=cand['value'],
         candidate_id=cand['candidate_id'], origin='MACHINE_CANDIDATE',
-        case_candidates=dev_cases[DOC]['candidates'])
+        case_candidates=dev_cases[DOC]['candidates'], case_documents={DOC})
     assert dec['decision'] == 'CONFIRMED'
     assert dec['evidence_pointers'], 'CONFIRMED carries evidence'
 
@@ -65,7 +65,7 @@ def test_reject_preserves_candidate(store, dev_cases):
     store.record_decision('R1', 'c1', 'isin', 'REJECTED',
                           candidate_id=cand['candidate_id'],
                           origin='MACHINE_CANDIDATE',
-                          case_candidates=dev_cases[DOC]['candidates'])
+                          case_candidates=dev_cases[DOC]['candidates'], case_documents={DOC})
     assert cand == before
 
 
@@ -81,7 +81,7 @@ def test_confirmed_requires_value(store, dev_cases):
         store.record_decision('R1', 'c1', 'isin', 'CONFIRMED', value=None,
                               candidate_id=cand['candidate_id'],
                               origin='MACHINE_CANDIDATE',
-                              case_candidates=dev_cases[DOC]['candidates'])
+                              case_candidates=dev_cases[DOC]['candidates'], case_documents={DOC})
 
 
 def test_unknown_candidate_rejected(store, dev_cases):
@@ -89,15 +89,15 @@ def test_unknown_candidate_rejected(store, dev_cases):
         store.record_decision('R1', 'c1', 'isin', 'CONFIRMED', value='X',
                               candidate_id='nope',
                               origin='MACHINE_CANDIDATE',
-                              case_candidates=dev_cases[DOC]['candidates'])
+                              case_candidates=dev_cases[DOC]['candidates'], case_documents={DOC})
 
 
 def test_critical_unresolved_warning(store):
     review = store.submit_review('R1', 'c1', SCHEMA)
     n_crit = sum(1 for f in SCHEMA['fields'] if f['critical'])
     assert len(review['unresolved_critical']) == n_crit
-    store.record_decision('R1', 'c1', 'isin', 'MISSING')
-    review = store.submit_review('R1', 'c1', SCHEMA)
+    store.record_decision('R1', 'c2', 'isin', 'MISSING')
+    review = store.submit_review('R1', 'c2', SCHEMA)
     assert 'isin' not in review['unresolved_critical']
 
 
@@ -174,12 +174,12 @@ def test_wrong_document_evidence_rejected():
 # --- multi-value ----------------------------------------------------
 
 def test_multivalue_decision(store, dev_cases):
-    cand = _cand(dev_cases)
+    cand = {**_cand(dev_cases), 'candidate_id': 'D:call_dates', 'field': 'call_dates'}
     dec = store.record_decision(
         'R1', 'c1', 'call_put_terms', 'CONFIRMED',
         value=['2027-01-01', '2028-01-01'],
         candidate_id=cand['candidate_id'], origin='MACHINE_CANDIDATE',
-        case_candidates=dev_cases[DOC]['candidates'])
+        case_candidates=[cand], case_documents={DOC})
     assert dec['value'] == ['2027-01-01', '2028-01-01']
 
 
@@ -198,10 +198,10 @@ def test_closeout_fields(store, dev_cases):
                           value=cand['value'],
                           candidate_id=cand['candidate_id'],
                           origin='MACHINE_CANDIDATE',
-                          case_candidates=dev_cases[DOC]['candidates'])
+                          case_candidates=dev_cases[DOC]['candidates'], case_documents={DOC})
     store.record_event('R1', 'c1', 'CASE_SUBMITTED', ts=50.0)
     review = store.submit_review('R1', 'c1', SCHEMA, ts=50.0,
-                               reviewer_notes=['shortcut X unclear'])
+                               reviewer_notes=['shortcut X unclear'], case_documents={DOC})
     co = review['closeout']
     assert co['submitted'] is True
     assert co['active_seconds'] == pytest.approx(40.0)

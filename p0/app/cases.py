@@ -7,8 +7,11 @@ sample manifest + sealed candidate artifacts (generated post-UI-freeze).
 
 No P0 holdout document is inspected here beyond mechanical ingest.
 """
+import hashlib
 import json
-import os
+import re
+from copy import deepcopy
+from threading import RLock
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
@@ -25,12 +28,32 @@ EXPECTED_ROLES_BY_CONTEXT = {
 }
 
 _cache = {}
+_cache_lock = RLock()
+
+
+def valid_doc_id(doc_key):
+    return isinstance(doc_key, str) and re.fullmatch(
+        r'[A-Za-z0-9][A-Za-z0-9_-]{0,199}', doc_key) is not None
 
 
 def _load(name, path):
-    if name not in _cache:
-        _cache[name] = json.load(open(path, encoding='utf-8'))
-    return _cache[name]
+    path = Path(path).resolve()
+    stat = path.stat()
+    key = (name, path, stat.st_mtime_ns, stat.st_size)
+    with _cache_lock:
+        if key not in _cache:
+            with path.open(encoding='utf-8') as f:
+                _cache[key] = json.load(f)
+        return deepcopy(_cache[key])
+
+
+def document_ids(case):
+    docs = set(case.get('documents', []))
+    if case.get('primary_doc'):
+        docs.add(case['primary_doc'])
+    docs.update(n['id'] for n in (case.get('graph') or {}).get('nodes', [])
+                if n.get('observed'))
+    return {d for d in docs if valid_doc_id(d)}
 
 
 def _family_map():
@@ -64,26 +87,66 @@ def _pool_meta():
             for d in _dev_manifest().get('new_pool_docs', [])}
 
 
+def _contained_file(base, name):
+    base = Path(base).resolve()
+    path = (base / name).resolve()
+    return path if path.parent == base and path.is_file() else None
+
+
 def pdf_path(doc_key):
+    if not valid_doc_id(doc_key):
+        return None
     for base in (SNAPSHOT_DIR, P0_DOCS_DIR):
-        p = base / f'{doc_key}.pdf'
-        if p.exists():
+        p = _contained_file(base, f'{doc_key}.pdf')
+        if p:
             return p
     return None
 
 
 def ir_path(doc_key):
-    p = IR_DIR / f'{doc_key}.ir.json'
-    if p.exists():
-        return p
-    p = REPO / 'p0' / 'ir' / f'{doc_key}.ir.json'
-    return p if p.exists() else None
+    if not valid_doc_id(doc_key):
+        return None
+    for base in (IR_DIR, REPO / 'p0' / 'ir'):
+        p = _contained_file(base, f'{doc_key}.ir.json')
+        if p:
+            return p
+    return None
+
+
+def _sealed_candidate(cid):
+    if not valid_doc_id(cid):
+        raise ValueError('invalid case id')
+    path = _contained_file(P0_CAND_DIR, f'{cid}.json')
+    if path is None:
+        return None
+    raw = path.read_bytes()
+    seal = _load('candidate_seal', REPO / 'p0/results/candidate-seal.json')
+    expected = next((c['sha256'] for c in seal['cases']
+                     if c['case_id'] == cid), None)
+    if expected is None or hashlib.sha256(raw).hexdigest() != expected:
+        raise ValueError(f'candidate seal mismatch: {cid}')
+    obj = json.loads(raw)
+    declared = obj.pop('candidate_file_sha256', None)
+    actual = hashlib.sha256(json.dumps(
+        obj, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
+    if declared != actual or obj.get('case_id') != cid:
+        raise ValueError(f'candidate content seal mismatch: {cid}')
+    obj['candidate_file_sha256'] = declared
+    return obj
 
 
 def doc_sha256(doc_key):
+    if not valid_doc_id(doc_key):
+        return None
     for f in _fetch_index()['fetches']:
         if f['doc_id'] == doc_key:
             return f['sha256']
+    sample = _load('p0_sample', REPO / 'p0/manifests/sample.json')
+    for c in sample['cases'] + sample['warmup_cases']:
+        if c['source_record_key'] == doc_key:
+            sealed = _sealed_candidate(c['case_id'])
+            if sealed and sealed.get('source_record_key') == doc_key:
+                return sealed.get('document_sha256')
     return None
 
 
@@ -218,9 +281,9 @@ def build_p0_cases():
     cases = {}
     for c in sample['cases'] + sample['warmup_cases']:
         cid = c['case_id']
-        cand_file = P0_CAND_DIR / f'{cid}.json'
-        sealed = json.load(open(cand_file, encoding='utf-8')) \
-            if cand_file.exists() else None
+        sealed = _sealed_candidate(cid)
+        if sealed and sealed.get('source_record_key') != c['source_record_key']:
+            raise ValueError(f'candidate document mismatch: {cid}')
         cases[cid] = {
             'case_id': cid,
             'case_class': 'P0_' + c['role'].upper(),

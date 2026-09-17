@@ -14,17 +14,42 @@ const S = {
 };
 
 const $ = id => document.getElementById(id);
-const api = {
-  get: async u => (await fetch(u)).json(),
-  post: async (u, b) => (await fetch(u, {method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify(b)})).json(),
+const esc = value => String(value ?? '').replace(/[&<>"']/g,
+  c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
+const safeUrl = value => {
+  try {
+    const u = new URL(value);
+    return ['https:', 'http:'].includes(u.protocol) ? u.href : null;
+  } catch { return null; }
 };
+async function request(u, options) {
+  try {
+    const response = await fetch(u, options);
+    const data = await response.json();
+    if (!response.ok || data?.ok === false || data?.error)
+      throw new Error(data?.error || `HTTP ${response.status}`);
+    return data;
+  } catch (error) {
+    toast(`Request failed: ${error.message}. Changes may not be saved; verify before retrying.`, true);
+    throw error;
+  }
+}
+const api = {
+  get: u => request(u),
+  post: (u, b) => request(u, {method: 'POST',
+    headers: {'Content-Type': 'application/json'}, body: JSON.stringify(b)}),
+};
+let toastTimer;
+window.addEventListener('unhandledrejection', e => {
+  toast(e.reason?.message || 'Operation failed', true);
+  e.preventDefault();
+});
 
 function toast(msg, isErr) {
   const t = $('toast');
   t.textContent = msg; t.className = 'show' + (isErr ? ' err' : '');
-  setTimeout(() => t.className = '', 2600);
+  clearTimeout(toastTimer);
+  if (!isErr) toastTimer = setTimeout(() => t.className = '', 2600);
 }
 
 async function event(type, payload) {
@@ -114,14 +139,14 @@ document.addEventListener('visibilitychange', () => {
 function renderGraph() {
   const g = S.payload.graph || {status: 'INCOMPLETE', nodes: [], edges: []};
   $('graph-status').innerHTML =
-    `<span class="badge">${g.status || 'INCOMPLETE'}</span>`;
+    `<span class="badge">${esc(g.status || 'INCOMPLETE')}</span>`;
   const nn = $('graph-nodes'); nn.innerHTML = '';
   (g.nodes || []).forEach(n => {
     const d = document.createElement('div');
     d.className = 'gnode' + (n.is_case_doc ? ' case' : '') +
       (n.observed ? '' : ' no-pdf');
-    d.innerHTML = `<div class="role">${n.role}</div>` +
-      `<div class="mono">${n.id}</div>`;
+    d.innerHTML = `<div class="role">${esc(n.role)}</div>` +
+      `<div class="mono">${esc(n.id)}</div>`;
     if (n.observed) d.onclick = () => {
       openDoc(n.id, 1, []); event('DOCUMENT_OPENED', {doc_id: n.id});
     };
@@ -132,8 +157,8 @@ function renderGraph() {
     const d = document.createElement('div');
     d.className = 'gedge';
     const cls = e.state === 'AUTO_LINKED' ? 'st-auto' : 'st-review';
-    d.innerHTML = `${e.from} <b>→</b> ${e.to}<br>` +
-      `<span class="${cls}">${e.state}</span> ${e.relation || ''}`;
+    d.innerHTML = `${esc(e.from)} <b>→</b> ${esc(e.to)}<br>` +
+      `<span class="${cls}">${esc(e.state)}</span> ${esc(e.relation || '')}`;
     d.onclick = () => event('GRAPH_EDGE_FOLLOWED',
       {from: e.from, to: e.to});
     ne.appendChild(d);
@@ -157,7 +182,7 @@ function renderForm() {
   Object.keys(fams).forEach(fam => {
     const fh = document.createElement('div');
     fh.className = 'family';
-    fh.innerHTML = `<h4>${fam}</h4>`;
+    fh.innerHTML = `<h4>${esc(fam)}</h4>`;
     root.appendChild(fh);
     fams[fam].forEach(fid => {
       const f = schemaById[fid];
@@ -223,10 +248,10 @@ function candRow(f, c) {
   r.className = 'cand';
   const ev0 = (c.evidence || [])[0] || {};
   r.innerHTML =
-    `<span class="cval">${fmtVal(c.value)}</span>` +
-    `<span class="cex" title="${(ev0.excerpt || '').replace(/"/g, '&quot;')}">` +
-    `${ev0.excerpt || ''}</span>` +
-    `<span class="csrc">${ev0.doc_id || ''} p${ev0.page || '?'}</span>` +
+    `<span class="cval">${esc(fmtVal(c.value))}</span>` +
+    `<span class="cex" title="${esc(ev0.excerpt || '')}">` +
+    `${esc(ev0.excerpt || '')}</span>` +
+    `<span class="csrc">${esc(ev0.doc_id || '')} p${esc(ev0.page || '?')}</span>` +
     `<button data-a="ev">E</button>` +
     `<button data-a="CONFIRMED">C</button>` +
     `<button data-a="REJECTED">R</button>` +

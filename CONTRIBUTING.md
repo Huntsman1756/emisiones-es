@@ -5,6 +5,7 @@
 ```powershell
 python -m venv .venv            # o: uv venv --python 3.13
 uv pip install --python .venv -r requirements-lock.txt
+uv pip install --python .venv -e .
 .venv\Scripts\python -m pytest tests/ -q
 ```
 
@@ -33,8 +34,15 @@ CPython 3.13 es el único intérprete soportado (entorno canónico congelado).
   `tests/` (pytest, offline, fixtures sintéticas — sin corpus real).
 - Estilo: código en inglés, documentación del dominio en español;
   comentarios solo donde aporten (invariantes, protocolo).
-- Commits: prefijo de fase (`G0-*`, `G1-*`, `G2-*`, `P0-*`) + descripción
-  corta; ver `git log` para el estilo.
+- Commits: los commits históricos de investigación conservan prefijos de fase
+  (`G0-*`, `G1-*`, `G2-*`, `P0-*`). El mantenimiento post-cierre usa prefijos
+  descriptivos convencionales como `fix:`, `docs:` o `chore:`.
+- Nuevas hipótesis de extracción o reviewer assistance no reabren los gates
+  sellados: deben plantearse como una fase nueva con preregistración propia.
+
+## Conducta
+
+Al participar en el proyecto aceptas `CODE_OF_CONDUCT.md`.
 
 ## Seguridad
 

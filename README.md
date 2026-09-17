@@ -127,6 +127,19 @@ freezes refer to the canonical history and may not resolve here.
 | `docs/gates/*.md` | All gate definitions + verdicts |
 | `p0/reports/` | P0 evaluation reports |
 
+## Contributing and security
+
+Contributions are welcome when they preserve the sealed experimental record.
+Read `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` before opening a pull request.
+Security vulnerabilities and sensitive reports should follow `SECURITY.md`
+and use GitHub's private Security Advisory flow rather than a public issue.
+
+## Citation
+
+GitHub exposes machine-readable citation metadata from `CITATION.cff`. Use
+**Cite this repository** on GitHub, or cite the repository URL and the exact
+commit/tag used in your work.
+
 ## What this is not
 
 Not another CNMV scraper, not a FIRDS wrapper, not a commercial security

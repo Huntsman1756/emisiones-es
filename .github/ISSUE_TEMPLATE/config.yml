@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/Huntsman1756/emisiones-es/security/advisories/new
+    about: Reporta vulnerabilidades y datos sensibles de forma privada.
+  - name: Project documentation
+    url: https://github.com/Huntsman1756/emisiones-es/tree/main/docs
+    about: Revisa arquitectura, fuentes, licensing y gates antes de abrir un issue.

@@ -12,6 +12,11 @@ Spec unit:
     {'method':'value_in_page'}                # auto: value tokens in page
     {'method':'absence_scan','terms':[re..]}  # auto: zero hits in doc
     {'method':'dual_excerpt'}                 # >=2 pointers, diff pages
+
+P0-E.1 human adjudication MUST pass both flags:
+  --store p0/results/gold_human --adjudicator <HUMAN_ID>
+--store and --adjudicator are only valid together; the bare default
+writes to the provisional agent store p0/results/gold.
 """
 import json
 import re
@@ -69,9 +74,10 @@ def absence_scan(doc, terms):
 
 
 def run(spec_path, store_dir=None, adjudicator=None):
+    if bool(store_dir) != bool(adjudicator):
+        raise GoldError('--store and --adjudicator must be given together')
     spec = json.load(open(spec_path, encoding='utf-8'))
-    store = GoldStore(store_dir, adjudicator) if (store_dir or adjudicator) \
-        else GoldStore()
+    store = GoldStore(store_dir, adjudicator) if store_dir else GoldStore()
     cid = spec['case_id']
     doc = spec.get('doc') or cid.replace('P0-', '')
     written = []

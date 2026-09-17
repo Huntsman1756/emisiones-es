@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use Emisiones ES or its published research artifacts, please cite this repository."
+authors:
+  - family-names: "Huntsman1756"
+title: "Emisiones ES"
+type: software
+date-released: 2026-09-17
+url: "https://github.com/Huntsman1756/emisiones-es"
+repository-code: "https://github.com/Huntsman1756/emisiones-es"
+license: Apache-2.0
+abstract: >-
+  Research-grade open infrastructure for Spanish securities and document data,
+  including acquisition, identity, document linkage, provenance, reproducible
+  evaluation, and preserved negative experimental results.
+keywords:
+  - securities
+  - CNMV
+  - financial data
+  - document intelligence
+  - reproducible research
+  - Spain

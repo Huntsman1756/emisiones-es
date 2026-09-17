@@ -91,8 +91,8 @@ casos de desarrollo G1; `p0_session` desde `p0/manifests/assignments.json`).
 ## Política de datos
 
 **Este repositorio no distribuye documentos CNMV** ni texto completo derivado
-(PDFs, salidas Docling, IR): la nota legal de CNMV no concede una licencia
-abierta. Solo se publican hashes, metadatos, evidence pointers y hechos
+(PDFs, salidas Docling, IR): CNMV no publica una licencia open-data
+estándar para ese contenido. Solo se publican hashes, metadatos, evidence pointers y hechos
 normalizados (ver `docs/licensing.md`). Los documentos de la muestra P0 se
 obtienen de su `document_url` oficial. El ingest mecánico
 (`p0/ingest_p0.py`: fetch, Docling, IR, candidates sellados) es
@@ -116,6 +116,7 @@ sellada por SHA-256 y protegida por tests (`test_freeze_guard`,
 | `docs/venue-model.md` | Venues e infraestructuras registradas en CNMV |
 | `docs/gates/G0*.md` | Definición de gates, umbrales preregistrados |
 | `docs/gates/P0*.md` | Protocolo de evaluación de producto P0 |
+| `docs/gates/R0.md` | Gate de publicación: canonical privado → export público sanitizado |
 | `g0/manifests/` | Muestreo, umbrales y versiones congeladas |
 
 ## Lo que NO es

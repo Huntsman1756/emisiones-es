@@ -1,0 +1,46 @@
+{
+ "artifact": "p0-final-score",
+ "scorer_version": 3,
+ "verdict": "FAIL",
+ "gates": {
+  "TIME": {
+   "verdict": "FAIL",
+   "checks": {
+    "median<=0.60": false,
+    ">=21/30 faster": false,
+    "ci95 upper<=0.80": false
+   }
+  },
+  "QUALITY": {
+   "verdict": "FAIL",
+   "checks": {
+    "assisted_precision>=0.99": false,
+    "precision_noninferior": true,
+    "recall_noninferior": true
+   }
+  },
+  "SAFETY": {
+   "verdict": "FAIL",
+   "checks": {
+    "critical_errors==0": false,
+    "unsupported_confirmed==0": true,
+    "evidence_rate==1.0": true
+   }
+  },
+  "EVIDENCE": {
+   "verdict": "PASS",
+   "checks": {
+    "navigation>=0.98": true,
+    "wrong_document==0": true
+   }
+  },
+  "FREEZE": {
+   "verdict": "PASS"
+  }
+ },
+ "freeze_problems": [],
+ "truth_sha256": "d1f686538bd01a75d036e4b668c88d09589908e7562d56fbf23396a1b8f9e7f1",
+ "scored_reviews": 60,
+ "scored_fields": 1680,
+ "created_at": "2026-09-17T06:25:08.752467+00:00"
+}

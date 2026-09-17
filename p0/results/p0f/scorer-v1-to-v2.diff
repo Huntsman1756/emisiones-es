@@ -1,0 +1,215 @@
+diff --git a/p0/scorer_versions/scorer-v1.py b/p0/score_p0.py
+index e4de41e..ff9a644 100644
+--- a/p0/scorer_versions/scorer-v1.py
++++ b/p0/score_p0.py
+@@ -42,6 +42,17 @@ median, seed 20260917, B=10000 (frozen constants below).
+ 
+ Verdict: PASS iff TIME + QUALITY + SAFETY + EVIDENCE + FREEZE all pass.
+ No NEAR PASS / PASS WITH CAVEATS.
++
++v2 (objective defect fixes, see p0/results/p0f/scorer-v1-to-v2.md):
++  - timing_status absent from sealed P0-D reviews.jsonl (field added to
++    store.py after the seal) -> recomputed from sealed events using the
++    frozen rule: CASE_PAUSED not resumed/submitted within 300s ->
++    INVALID_TIMING (mirrors p0/app/store.py submission logic).
++  - value_equal: mechanical denotation equivalences only (ES/EN dates,
++    ISO-4217 currency names, ES/EN number formats, %, punctuation-
++    insensitive equality, containment with consistent numeric content).
++    NO translation/synonymy: residual representation gaps count as
++    disagreements and are reported as such.
+ """
+ import hashlib
+ import json
+@@ -55,6 +66,8 @@ from pathlib import Path
+ 
+ REPO = Path(__file__).resolve().parent.parent
+ 
++SCORER_VERSION = 2
++
+ # frozen before any real data was loaded (P0-F contract §3)
+ BOOTSTRAP_SEED = 20260917
+ BOOTSTRAP_REPLICATES = 10000
+@@ -109,6 +122,116 @@ def _as_number(v):
+     return None
+ 
+ 
++_MONTHS = {m: i for i, m in enumerate((
++    'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio',
++    'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'), 1)}
++_MONTHS.update({m: i for i, m in enumerate((
++    'january', 'february', 'march', 'april', 'may', 'june', 'july',
++    'august', 'september', 'october', 'november', 'december'), 1)})
++
++_CURRENCY = {}
++for _code, _names in (
++        ('eur', ('euro', 'euros', 'eur')),
++        ('usd', ('dolar', 'dolares', 'dolar estadounidense', 'dollar',
++                 'dollars', 'us dollar', 'usd',
++                 'dólar', 'dólares', 'dólar estadounidense',
++                 'dólares estadounidenses')),
++        ('gbp', ('libra', 'libras', 'libra esterlina', 'pound',
++                 'pounds', 'pound sterling', 'gbp')),
++        ('chf', ('franco', 'francos', 'franco suizo', 'swiss franc', 'chf')),
++        ('jpy', ('yen', 'yenes', 'jpy'))):
++    for _n in _names:
++        _CURRENCY[_n] = _code
++
++
++def _to_date(s):
++    """Parse ES/EN date forms -> (y, m, d) or None."""
++    s = _norm_text(s)
++    m = re.match(r'^(\d{4})-(\d{1,2})-(\d{1,2})\b', s)
++    if m:
++        return (int(m[1]), int(m[2]), int(m[3]))
++    m = re.match(r'^(\d{1,2}) de ([a-z]+) de (\d{4})\b', s)
++    if m and m[2] in _MONTHS:
++        return (int(m[3]), _MONTHS[m[2]], int(m[1]))
++    m = re.match(r'^(\d{1,2}) ([a-z]+) (\d{4})\b', s) or \
++        re.match(r'^([a-z]+) (\d{1,2}),? (\d{4})\b', s)
++    if m:
++        mon = m[2] if m[2] in _MONTHS else m[1]
++        if mon in _MONTHS:
++            day = m[1] if m[2] in _MONTHS else m[2]
++            return (int(m[3]), _MONTHS[mon], int(day))
++    m = re.match(r'^(\d{1,2})[/\-](\d{1,2})[/\-](\d{4})\b', s)
++    if m:
++        return (int(m[3]), int(m[2]), int(m[1]))
++    return None
++
++
++def _numbers(s):
++    """Numeric tokens with ES/EN separators normalized to float."""
++    out = []
++    for tok in re.findall(r'\d[\d.,]*', str(s)):
++        t = tok.rstrip('.,')
++        if not t:
++            continue
++        if '.' in t and ',' in t:  # last separator is the decimal mark
++            if t.rfind('.') > t.rfind(','):
++                t = t.replace(',', '')
++            else:
++                t = t.replace('.', '').replace(',', '.')
++        elif ',' in t:
++            t = t.replace(',', '') if re.fullmatch(
++                r'\d{1,3}(,\d{3})+', t) else t.replace(',', '.')
++        elif re.fullmatch(r'\d{1,3}(\.\d{3})+', t):
++            t = t.replace('.', '')
++        try:
++            out.append(float(t))
++        except ValueError:
++            pass
++    return out
++
++
++def _alnum(s):
++    return re.sub(r'[^a-z0-9]', '', _norm_text(s))
++
++
++def _canon_text(s):
++    """Normalized text with numeric tokens rewritten canonically and
++    currency names mapped to ISO-4217."""
++    s = _norm_text(s)
++    for name, code in _CURRENCY.items():
++        s = re.sub(rf'\b{re.escape(name)}\b', code, s)
++    def _rep(m):
++        t = m[0].rstrip('.,')
++        vals = _numbers(t)
++        return f'#{vals[0]:g}#' if len(vals) == 1 else m[0]
++    return re.sub(r'\d[\d.,]*', _rep, s)
++
++
++def _scalar_equal(a, b):
++    """Mechanical denotation equivalence. No translation/synonymy."""
++    na, nb = _as_number(a), _as_number(b)
++    if na is not None and nb is not None:
++        return na == nb
++    sa, sb = _norm_text(a), _norm_text(b)
++    if sa == sb:
++        return True
++    da, db = _to_date(a), _to_date(b)
++    if da and db:
++        return da == db
++    if sa in _CURRENCY and sb in _CURRENCY:
++        return _CURRENCY[sa] == _CURRENCY[sb]
++    if _alnum(a) == _alnum(b) and _alnum(a):
++        return True  # 'ACT/ACT (ICMA)' == 'ACT_ACT_ICMA'
++    ca, cb = _canon_text(a), _canon_text(b)
++    if ca == cb:
++        return True  # '50.000 euros' == '50,000 EUR'
++    # containment with consistent numeric content:
++    # '4.35%' inside '4.35% of the initial nominal investment, ...'
++    if ca and cb and (ca in cb or cb in ca):
++        return _numbers(a) == _numbers(b)
++    return False
++
++
+ def value_equal(a, b):
+     """Normalized equality. Multi-values are multisets: correct element +
+     extra wrong element does NOT count as a match."""
+@@ -129,10 +252,7 @@ def value_equal(a, b):
+                 return False
+             remaining.pop(hit)
+         return True
+-    na, nb = _as_number(a), _as_number(b)
+-    if na is not None and nb is not None:
+-        return na == nb
+-    return _norm_text(a) == _norm_text(b)
++    return _scalar_equal(a, b)
+ 
+ 
+ # ---------- per-field classification ----------
+@@ -370,6 +490,25 @@ def quality_scores(all_rows, strata, field_families):
+             'by_field_family': by_family, 'by_criticality': by_crit}
+ 
+ 
++def timing_status_from_events(events, submitted_at):
++    """Recompute the frozen rule from sealed events: a CASE_PAUSED not
++    followed by CASE_OPENED/CASE_RESUMED/CASE_SUBMITTED within 300 s
++    invalidates timing. Mirrors p0/app/store.py submission logic
++    (the sealed JSONL predates the timing_status field)."""
++    events = sorted(events, key=lambda e: e['ts'])
++    paused_at, invalid = None, False
++    for ev in events:
++        if ev['event_type'] == 'CASE_PAUSED' and paused_at is None:
++            paused_at = ev['ts']
++        elif ev['event_type'] in ('CASE_OPENED', 'CASE_RESUMED',
++                                  'CASE_SUBMITTED') and paused_at is not None:
++            invalid |= ev['ts'] - paused_at > 300
++            paused_at = None
++    if paused_at is not None:
++        invalid |= (submitted_at or 0) - paused_at > 300
++    return 'INVALID_TIMING' if invalid else 'VALID'
++
++
+ def timing_scores(per_review, mode_by_case):
+     """Pair each case's MANUAL vs ASSISTED review."""
+     pairs = []
+@@ -613,13 +752,16 @@ def load_inputs(p0d_dir, gold_dir, manifests_dir, candidates_dir):
+             cid = rev['case_id']
+             if cid not in holdout:
+                 continue  # warmup reviews never scored
++            case_events = ev_by_case.get(cid, [])
+             reviews.append({
+                 'reviewer_id': rid, 'case_id': cid,
+                 'mode': mode_by_case[cid][rid],
+                 'active_seconds': rev.get('active_seconds'),
+-                'timing_status': rev.get('timing_status'),
++                'timing_status': rev.get('timing_status')
++                    or timing_status_from_events(
++                        case_events, rev.get('submitted_at')),
+                 'decisions': dec_by_case.get(cid, []),
+-                'events': ev_by_case.get(cid, [])})
++                'events': case_events})
+     return {'schema': schema, 'protocol': protocol, 'sample': sample,
+             'truth': truth, 'gold_seal': seal, 'p0d_seal': p0d_seal,
+             'holdout': holdout, 'strata': strata,
+@@ -680,7 +822,8 @@ def run(p0d_dir, gold_dir, manifests_dir, candidates_dir, out_dir,
+         'safety-score.json': safety, 'evidence-score.json': evidence,
+         'candidate-diagnostics.json': cand,
+         'reviewer-diagnostics.json': revd}
+-    final = {'artifact': 'p0-final-score', 'verdict': verdict,
++    final = {'artifact': 'p0-final-score', 'scorer_version': SCORER_VERSION,
++             'verdict': verdict,
+              'gates': gates, 'freeze_problems': problems,
+              'truth_sha256': inputs['truth'].get('truth_sha256'),
+              'scored_reviews': len(per_review),

@@ -1,0 +1,15 @@
+{
+ "confirmed": 245,
+ "rejected": 73,
+ "conflict": 0,
+ "candidate_decisions": 318,
+ "candidate_accept_rate": 0.7704402515723271,
+ "manual_discoveries": 907,
+ "gold_confirmed_units": 560,
+ "gold_covered_by_candidates": 47,
+ "candidate_coverage_of_gold": 0.08392857142857142,
+ "docs_opened_per_review": 0.48333333333333334,
+ "pdf_searches_per_review": 0.0,
+ "evidence_jumps_per_review": 0.38333333333333336,
+ "confirmed_per_minute": 14.872559486457844
+}

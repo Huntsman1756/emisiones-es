@@ -1,0 +1,28 @@
+{
+ "REVIEWER_A": {
+  "manual_total_seconds": 1452.0261096954346,
+  "assisted_total_seconds": 1710.4794518947601,
+  "quality": {
+   "TP": 254,
+   "FP": 295,
+   "FN": 306,
+   "precision": 0.46265938069216755,
+   "recall": 0.45357142857142857,
+   "completeness": 0.6035714285714285,
+   "n": 840
+  }
+ },
+ "REVIEWER_B": {
+  "manual_total_seconds": 1190.928433895111,
+  "assisted_total_seconds": 1730.3811528682709,
+  "quality": {
+   "TP": 231,
+   "FP": 349,
+   "FN": 329,
+   "precision": 0.39827586206896554,
+   "recall": 0.4125,
+   "completeness": 0.5535714285714286,
+   "n": 840
+  }
+ }
+}

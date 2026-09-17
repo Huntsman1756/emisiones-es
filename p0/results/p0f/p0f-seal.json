@@ -1,0 +1,16 @@
+{
+ "artifact": "p0f-seal",
+ "created_at": "2026-09-17T06:25:08.752467+00:00",
+ "verdict": "FAIL",
+ "file_sha256": {
+  "timing-score.json": "5eed2ae0bf7b062ced9fc17d7fba570d3f9ca130ddbf6a9a6adb9fec518970af",
+  "quality-score.json": "4766858aa4699a12a9fc69e716ecaa43b1352a15ba559a201c2d97e01dca6b9f",
+  "safety-score.json": "ab5f21a5f1b3138721bff624be72133388dc17f4e2d786ded896d1d16f0e147a",
+  "evidence-score.json": "40cccb33dae922cc7b85cee56706f09572e5066b5208b31ec1b1f85ada5c24c1",
+  "candidate-diagnostics.json": "e92f8e25a7800e78c5806394c8bd7da05120a739123cae90e86e8551577550db",
+  "reviewer-diagnostics.json": "2e99b657ab98e7ffd2b4a32a6880e0402e4830daaf7a8e7b66142eada78028b8",
+  "p0-final-score.json": "1787621e6033d2e224ad9170d97b6918f6940a708cbe2516f5ef9736583adb15"
+ },
+ "truth_sha256": "d1f686538bd01a75d036e4b668c88d09589908e7562d56fbf23396a1b8f9e7f1",
+ "scorer_sha256": "3340c301d08bd397d826067dc478db602971a5ac82db76bb7d1abe3e23f6da24"
+}

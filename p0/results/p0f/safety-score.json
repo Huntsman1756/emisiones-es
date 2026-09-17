@@ -1,0 +1,604 @@
+{
+ "assisted_critical_errors": 119,
+ "assisted_critical_error_detail": [
+  {
+   "case_id": "P0-ADM_116548",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_116548",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_124130",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_124130",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_124130",
+   "field": "call_put_terms",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_124130",
+   "field": "underlying",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_124130",
+   "field": "protection_barrier",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_124130",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120969",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120969",
+   "field": "underlying",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120969",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120159",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_121211",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_121211",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_121211",
+   "field": "call_put_terms",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_121211",
+   "field": "underlying",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_121211",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120846",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120846",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_121210",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_121210",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_121210",
+   "field": "underlying",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_121210",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123065",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123065",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123065",
+   "field": "call_put_terms",
+   "outcome": "FP_INVENTED"
+  },
+  {
+   "case_id": "P0-ADM_120177",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120177",
+   "field": "call_put_terms",
+   "outcome": "FP_INVENTED"
+  },
+  {
+   "case_id": "P0-ADM_120177",
+   "field": "underlying",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120177",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_115733",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_115733",
+   "field": "call_put_terms",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_115733",
+   "field": "underlying",
+   "outcome": "FP_INVENTED"
+  },
+  {
+   "case_id": "P0-ADM_123067",
+   "field": "isin",
+   "outcome": "FP_CONFLICT_DENIED"
+  },
+  {
+   "case_id": "P0-ADM_123067",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123067",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123067",
+   "field": "underlying",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123067",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_118936",
+   "field": "maturity",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_118936",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_118936",
+   "field": "call_put_terms",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_118936",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120844",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120844",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123045",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123045",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123045",
+   "field": "underlying",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123045",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_119967",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_119967",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_119967",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_116275",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_116275",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_116275",
+   "field": "underlying",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_116275",
+   "field": "coupon_barrier",
+   "outcome": "FP_INVENTED"
+  },
+  {
+   "case_id": "P0-ADM_116275",
+   "field": "protection_barrier",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_116275",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120983",
+   "field": "coupon_type",
+   "outcome": "FP_INVENTED"
+  },
+  {
+   "case_id": "P0-ADM_120983",
+   "field": "call_put_terms",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120983",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123041",
+   "field": "isin",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123041",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123041",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123041",
+   "field": "underlying",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123041",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_121925",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_121925",
+   "field": "call_put_terms",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_121925",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123039",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123039",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123039",
+   "field": "underlying",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123039",
+   "field": "protection_barrier",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123039",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120966",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120966",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120966",
+   "field": "call_put_terms",
+   "outcome": "FP_INVENTED"
+  },
+  {
+   "case_id": "P0-ADM_120966",
+   "field": "underlying",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120966",
+   "field": "coupon_barrier",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120966",
+   "field": "protection_barrier",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120966",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123019",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123019",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123019",
+   "field": "call_put_terms",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123019",
+   "field": "underlying",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123019",
+   "field": "protection_barrier",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123019",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_118937",
+   "field": "maturity",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_118937",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_118937",
+   "field": "call_put_terms",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_118937",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120093",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120093",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_120093",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_115032",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_115032",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_115032",
+   "field": "call_put_terms",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_115032",
+   "field": "underlying",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_115032",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_117215",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_117215",
+   "field": "call_put_terms",
+   "outcome": "FP_INVENTED"
+  },
+  {
+   "case_id": "P0-ADM_117215",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_124149",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_124149",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_124149",
+   "field": "call_put_terms",
+   "outcome": "FP_INVENTED"
+  },
+  {
+   "case_id": "P0-ADM_124149",
+   "field": "coupon_barrier",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_124149",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_124137",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_124137",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_124137",
+   "field": "call_put_terms",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_124137",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123092",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123092",
+   "field": "coupon_rate",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123092",
+   "field": "call_put_terms",
+   "outcome": "FP_INVENTED"
+  },
+  {
+   "case_id": "P0-ADM_123092",
+   "field": "underlying",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123092",
+   "field": "protection_barrier",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_123092",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_124146",
+   "field": "coupon_type",
+   "outcome": "FP_WRONG_VALUE"
+  },
+  {
+   "case_id": "P0-ADM_124146",
+   "field": "call_put_terms",
+   "outcome": "FP_INVENTED"
+  },
+  {
+   "case_id": "P0-ADM_124146",
+   "field": "redemption",
+   "outcome": "FP_WRONG_VALUE"
+  }
+ ],
+ "assisted_unsupported_confirmed": 0,
+ "assisted_confirmed": 574,
+ "assisted_confirmed_with_valid_evidence": 574,
+ "assisted_evidence_rate": 1.0
+}

@@ -1,0 +1,350 @@
+{
+ "pairs": [
+  {
+   "case_id": "P0-ADM_121925",
+   "manual_seconds": 46.479835748672485,
+   "assisted_seconds": 62.24671220779419,
+   "manual_reviewer": "REVIEWER_A",
+   "assisted_reviewer": "REVIEWER_B",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_124137",
+   "manual_seconds": 94.20958685874939,
+   "assisted_seconds": 319.9105176925659,
+   "manual_reviewer": "REVIEWER_A",
+   "assisted_reviewer": "REVIEWER_B",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_117215",
+   "manual_seconds": 78.98679208755493,
+   "assisted_seconds": 102.48820114135742,
+   "manual_reviewer": "REVIEWER_A",
+   "assisted_reviewer": "REVIEWER_B",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_124146",
+   "manual_seconds": 64.62259793281555,
+   "assisted_seconds": 130.42108368873596,
+   "manual_reviewer": "REVIEWER_A",
+   "assisted_reviewer": "REVIEWER_B",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_120983",
+   "manual_seconds": 45.98136496543884,
+   "assisted_seconds": 92.01733088493347,
+   "manual_reviewer": "REVIEWER_A",
+   "assisted_reviewer": "REVIEWER_B",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_120844",
+   "manual_seconds": 60.37317633628845,
+   "assisted_seconds": 58.521615982055664,
+   "manual_reviewer": "REVIEWER_B",
+   "assisted_reviewer": "REVIEWER_A",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_119967",
+   "manual_seconds": 39.03371000289917,
+   "assisted_seconds": 65.02564096450806,
+   "manual_reviewer": "REVIEWER_B",
+   "assisted_reviewer": "REVIEWER_A",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_123065",
+   "manual_seconds": 82.08404302597046,
+   "assisted_seconds": 82.82703065872192,
+   "manual_reviewer": "REVIEWER_B",
+   "assisted_reviewer": "REVIEWER_A",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_120159",
+   "manual_seconds": 43.03994345664978,
+   "assisted_seconds": 75.5386734008789,
+   "manual_reviewer": "REVIEWER_B",
+   "assisted_reviewer": "REVIEWER_A",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_116548",
+   "manual_seconds": 42.918567419052124,
+   "assisted_seconds": 87.53584694862366,
+   "manual_reviewer": "REVIEWER_B",
+   "assisted_reviewer": "REVIEWER_A",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_120093",
+   "manual_seconds": 87.13440227508545,
+   "assisted_seconds": 120.92209768295288,
+   "manual_reviewer": "REVIEWER_A",
+   "assisted_reviewer": "REVIEWER_B",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_120966",
+   "manual_seconds": 98.99992179870605,
+   "assisted_seconds": 96.29316473007202,
+   "manual_reviewer": "REVIEWER_A",
+   "assisted_reviewer": "REVIEWER_B",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_115032",
+   "manual_seconds": 68.26274132728577,
+   "assisted_seconds": 62.22270083427429,
+   "manual_reviewer": "REVIEWER_A",
+   "assisted_reviewer": "REVIEWER_B",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_116275",
+   "manual_seconds": 89.4964804649353,
+   "assisted_seconds": 70.72926688194275,
+   "manual_reviewer": "REVIEWER_A",
+   "assisted_reviewer": "REVIEWER_B",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_118937",
+   "manual_seconds": 54.47528266906738,
+   "assisted_seconds": 71.84529876708984,
+   "manual_reviewer": "REVIEWER_A",
+   "assisted_reviewer": "REVIEWER_B",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_120177",
+   "manual_seconds": 52.16791296005249,
+   "assisted_seconds": 265.9962935447693,
+   "manual_reviewer": "REVIEWER_B",
+   "assisted_reviewer": "REVIEWER_A",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_118936",
+   "manual_seconds": 86.34095478057861,
+   "assisted_seconds": 74.48351788520813,
+   "manual_reviewer": "REVIEWER_B",
+   "assisted_reviewer": "REVIEWER_A",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_115733",
+   "manual_seconds": 45.02749419212341,
+   "assisted_seconds": 79.6154055595398,
+   "manual_reviewer": "REVIEWER_B",
+   "assisted_reviewer": "REVIEWER_A",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_120969",
+   "manual_seconds": 77.07778096199036,
+   "assisted_seconds": 106.90768051147461,
+   "manual_reviewer": "REVIEWER_B",
+   "assisted_reviewer": "REVIEWER_A",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_120846",
+   "manual_seconds": 260.9375922679901,
+   "assisted_seconds": 256.96940898895264,
+   "manual_reviewer": "REVIEWER_B",
+   "assisted_reviewer": "REVIEWER_A",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_123039",
+   "manual_seconds": 468.2141513824463,
+   "assisted_seconds": 76.32361221313477,
+   "manual_reviewer": "REVIEWER_A",
+   "assisted_reviewer": "REVIEWER_B",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_124149",
+   "manual_seconds": 61.61681604385376,
+   "assisted_seconds": 141.98125863075256,
+   "manual_reviewer": "REVIEWER_A",
+   "assisted_reviewer": "REVIEWER_B",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_123041",
+   "manual_seconds": 64.32222366333008,
+   "assisted_seconds": 98.75248312950134,
+   "manual_reviewer": "REVIEWER_A",
+   "assisted_reviewer": "REVIEWER_B",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_123019",
+   "manual_seconds": 67.48776769638062,
+   "assisted_seconds": 92.42852330207825,
+   "manual_reviewer": "REVIEWER_A",
+   "assisted_reviewer": "REVIEWER_B",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_123092",
+   "manual_seconds": 61.73614478111267,
+   "assisted_seconds": 191.7989010810852,
+   "manual_reviewer": "REVIEWER_A",
+   "assisted_reviewer": "REVIEWER_B",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_123045",
+   "manual_seconds": 43.86124086380005,
+   "assisted_seconds": 62.08592510223389,
+   "manual_reviewer": "REVIEWER_B",
+   "assisted_reviewer": "REVIEWER_A",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_124130",
+   "manual_seconds": 48.80923008918762,
+   "assisted_seconds": 143.91293478012085,
+   "manual_reviewer": "REVIEWER_B",
+   "assisted_reviewer": "REVIEWER_A",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_123067",
+   "manual_seconds": 46.20700716972351,
+   "assisted_seconds": 80.19836854934692,
+   "manual_reviewer": "REVIEWER_B",
+   "assisted_reviewer": "REVIEWER_A",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_121211",
+   "manual_seconds": 52.653735637664795,
+   "assisted_seconds": 55.70661163330078,
+   "manual_reviewer": "REVIEWER_B",
+   "assisted_reviewer": "REVIEWER_A",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  },
+  {
+   "case_id": "P0-ADM_121210",
+   "manual_seconds": 210.39604473114014,
+   "assisted_seconds": 215.15449738502502,
+   "manual_reviewer": "REVIEWER_B",
+   "assisted_reviewer": "REVIEWER_A",
+   "manual_timing": "VALID",
+   "assisted_timing": "VALID",
+   "valid_pair": true
+  }
+ ],
+ "n_pairs": 30,
+ "n_valid_pairs": 30,
+ "ratios": [
+  1.3392197111964197,
+  3.3957320943590927,
+  1.2975359352200524,
+  2.0181962325985,
+  2.0011874583126628,
+  0.9693314073137498,
+  1.6658842052082259,
+  1.0090515477230622,
+  1.755083007415243,
+  2.039579888441601,
+  1.387765274399873,
+  0.9726589979117598,
+  0.9115177566038185,
+  0.7903022165173798,
+  1.3188605041949724,
+  5.098848668691339,
+  0.8626672947327926,
+  1.7681509261838246,
+  1.3870103572934251,
+  0.9847925964038097,
+  0.16301004996919066,
+  2.3042615270756936,
+  1.535277816985669,
+  1.3695596469852598,
+  3.1067521589032467,
+  1.4155077211569542,
+  2.9484778702133414,
+  1.735632179222717,
+  1.057980235564752,
+  1.0226166450037861
+ ],
+ "median_time_ratio": 1.387387815846649,
+ "median_time_reduction": -0.38738781584664905,
+ "n_assisted_faster": 7,
+ "pct_assisted_faster": 0.23333333333333334,
+ "bootstrap": {
+  "seed": 20260917,
+  "replicates": 10000,
+  "ci95": [
+   1.1777580853924023,
+   1.74535759331898
+  ]
+ }
+}

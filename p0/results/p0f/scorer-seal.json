@@ -1,0 +1,45 @@
+{
+ "artifact": "p0f-scorer-seal",
+ "sealed_at": "2026-09-17T06:02:48.304457+00:00",
+ "scorer": "p0/score_p0.py",
+ "scorer_sha256": "3340c301d08bd397d826067dc478db602971a5ac82db76bb7d1abe3e23f6da24",
+ "git_sha": "48fa4b4b0459213ea29c198f99d412d0d67bf28b",
+ "protocol_sha256": "4027ba85fc255328f55f225a2f832d6b2838393a9a7d81cdc80c1c0d956e2dd3",
+ "review_schema_sha256": "e5f5be35b9ef7cda487250fb8ed4e7dd7139bac755981d618daf685205b5f5a7",
+ "p0d_seal_sha256": "aa457b44ef002921e6b00c3512fc9d096323595eb797746d91c2133cde506408",
+ "human_gold_seal_sha256": "f88a2986b98a8003969a7b53137e30d96600d2db4352c92047b1f605a5bf5813",
+ "truth_human_v1_sha256": "d1f686538bd01a75d036e4b668c88d09589908e7562d56fbf23396a1b8f9e7f1",
+ "frozen_statistics": {
+  "unit": "paired case",
+  "statistic": "median(assisted_seconds/manual_seconds)",
+  "bootstrap": "paired resampling, percentile 95% CI",
+  "seed": 20260917,
+  "replicates": 10000
+ },
+ "note": "NO SCORER CHANGES AFTER THIS SEAL. Defects -> scorer-v2 with diff/reason/impact, both reported.",
+ "human_gold_seal_content_sha256": "9968290200bf7af845f1db2bc333f164bd061f6129d768ea6c649b2b72645f34",
+ "versions": [
+  {
+   "version": 1,
+   "file": "p0/scorer_versions/scorer-v1.py",
+   "sha256": "c82dc1b6f0465352ee081b0b0513b60eaafbd0cc98ecc3781144dbd9738a6fc0",
+   "status": "superseded",
+   "reason": "see scorer-v1-to-v2.md"
+  },
+  {
+   "version": 2,
+   "file": "p0/score_p0.py",
+   "sha256": "e59960717987329c4604d276499eebb6093375df379411e7b7bdc8158480aba4",
+   "status": "official",
+   "reason": "objective defect fixes, see scorer-v1-to-v2.md"
+  },
+  {
+   "version": 3,
+   "file": "p0/score_p0.py",
+   "sha256": "3340c301d08bd397d826067dc478db602971a5ac82db76bb7d1abe3e23f6da24",
+   "status": "official",
+   "reason": "field-family reverse map (reporting-only defect), see scorer-v1-to-v2.md"
+  }
+ ],
+ "scorer_version": 3
+}
